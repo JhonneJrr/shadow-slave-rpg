@@ -781,6 +781,34 @@ Quem mais ganha com a 2ª Habilidade (nota do Desperto menos a do saturado): Bes
 - **Fora do modelo:** Legado de Aspecto e Relíquias, Técnicas de Papel, Memórias além das fichas-padrão e a Sombra Evolutiva por 19–20. Com uma Sombra Evolutiva, o Escravo das Sombras ganharia cerca de +24 pontos no saturado (seção 8.6).
 - **Condições não empilham** (−1 na CD no máximo), como sugerido na 8.3. Se empilharem, Alquimista, Tecelão de Pesadelos e Monarca sobem.
 
+### 9.7 Portadora da Luz: variante "Chama canônica" (só simulada)
+
+**O que o L2 dá hoje:** a Chama da Alma custa 1 PE por cena (+1 de Dano) e a cura é uma Ação Maior de 2 PE (2 PV, CD 5 em si, CD 7 em aliado). O Defeito, Agonia do Poder, dói e dá −1 em concentração/sutileza depois de 3 turnos de chama. A 2ª Habilidade (Manipulação Solar) é uma lança de 2 de Dano (2 PE) ou uma barreira de Reação que absorve 3. Com isso ela ficou em T4 (5,9).
+
+**Variante testada:**
+
+- **Chama canônica:** acende com uma Ação Menor, sem custo, e dá +1 de Dano e +1 nas rolagens físicas (ataque e Defesa física).
+- **Custo pelo Defeito:** enquanto arde, ela não é furtiva (não acende na rodada de emboscada e não dá Ataque Furtivo) e a chama visível atrai o foco: ela é sempre um dos alvos de cada criatura.
+- **Desperto:** a Manipulação Solar como está no L2.
+- **Curas:** (1) a cura do livro (Ação Maior, 2 PE); (2) cura em **Reação de 1 PE, 1×/rodada**, 2 PV em si ou num aliado a Perto, levantando quem acabou de cair; (3) a mesma Reação mais **autocura passiva de 1 PV por rodada** enquanto arde. Também testei dois cortes da (3).
+
+| Versão | Novato | Saturado | Desperto | Nota final | Tier | Δ em grupo (saturado / Desperto) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Portadora no livro atual | 5,2 | 2,9 | 9,5 | 5,9 | T4 | -0,0 / -0,9 |
+| Chama canônica + cura do livro | 8,2 | 12,0 | 10,7 | **10,3** | **T3** | +7,9 / +6,6 |
+| **Chama canônica + cura em Reação (1 PE)** | 16,3 | 24,7 | 12,7 | **17,9** | **T1** | +20,2 / +8,9 |
+| Chama canônica + Reação + autocura passiva | 24,5 | 29,8 | 15,8 | **23,4** | **T0** | +31,7 / +13,1 |
+| Corte A: Reação a 2 PE + autocura passiva | 22,3 | 28,0 | 15,1 | **21,8** | **T0** | +30,3 / +12,2 |
+| Corte B: autocura passiva, sem a Reação (cura como no livro) | 16,4 | 16,6 | 12,8 | **15,2** | **T1** | +16,5 / +11,0 |
+| *Referência: Escravo das Sombras* | 17,8 | 21,1 | 28,0 | 22,3 | T0 | +11,4 / +16,9 |
+| *Referência: Besta Lunar* | 11,5 | 13,3 | 26,6 | 17,2 | T1 | +22,9 / +24,5 |
+
+**Leitura:** só a Chama canônica já tira a Portadora do T4 (10,3, T3). O que a leva ao alvo é a cura em Reação: 17,9, **T1**, logo acima da Besta Lunar (17,2) e abaixo do Escravo das Sombras (22,3). No lugar do Baluarte ela atrai o foco, se cura no ato e levanta quem cai. Com a autocura passiva, passa do Escravo das Sombras (23,4, faixa de T0). O Corte A (Reação a 2 PE) ainda fica em 21,8, quase empatada com o Escravo das Sombras. A regeneração de 1 PV por rodada num tanque que atrai todo o foco é o que pesa demais. O Corte B (só a passiva) fica em 15,2, T1.
+
+No Desperto a nota dela cai em relação ao saturado: a barreira da Manipulação Solar disputa a mesma Reação e a mesma Essência da cura, e atrair o foco de criaturas Caídas custa mais PV. A 2ª Habilidade como está quase não acrescenta a ela.
+
+**Recomendação:** Chama canônica (Ação Menor, sem custo, +1/+1 físico, chama visível que atrai o foco e impede furtividade) **com a cura em Reação de 1 PE, 1×/rodada, 2 PV a Perto**. Isso dá T1, sem passar o Escravo das Sombras. Se o Jhonne preferir a autocura passiva, ela deve **substituir** a cura em Reação, e não somar a ela (Corte B, T1). Juntas, as duas passam do Escravo das Sombras.
+
 ## 10. Pontos ainda em aberto
 
 | Tema | Situação |
