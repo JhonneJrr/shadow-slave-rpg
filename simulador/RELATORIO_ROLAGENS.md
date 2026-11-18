@@ -607,20 +607,194 @@ Sozinho no grupo, o Manto canônico fica em **forte demais** (soma +91, contra +
 
 Quem mais sente é o **Forjador do Crepúsculo** (perde o +1 da Sinfonia, que exige 2 Núcleos) e o **Escravo das Sombras** (a 2ª Sombra). Nos outros Divinos a mudança é pequena. Com o Manto canônico, tirar o 2º Núcleo leva o Escravo das Sombras saturado de +74 para +69 e, no pacote com chefe de 3× PV (tirando o 2º Núcleo de todos os Divinos), a briga direta de 29% para 23%. Recomendação: escrever no L2 (Parte A, Regras Compartilhadas, item 2) que o 2º Núcleo Divino condensa **no Despertar**, e não no Marco 10 do Adormecido. Para o Escravo das Sombras, se ele ainda passar do ponto, o próximo ajuste seria a Sombra Evolutiva do Adormecido (hoje de graça e 1 por Núcleo), não o Manto.
 
-## 9. Pontos ainda em aberto
+## 9. Tier List de Aspectos
+
+**Regras desta rodada:** regras v2 com o chefe de **3× PV**. Personagens até o **Rank Desperto**, cada um com o que o Livro 2 libera até ali: Inata, 1ª Habilidade e, no Desperto, a 2ª Habilidade. O Desperto também tem +2 PE e Reforço Corporal (L1). O Escravo das Sombras usa o **Manto canônico**: sem custo, +1/+1 físico por Sombra, 1 Sombra no Adormecido (também no saturado) e o 2º Núcleo só no Desperto. Ele **não tem Sombra Evolutiva garantida**: o Eco do saturado continua Eco, e a Sombra Evolutiva só viria num 19–20, que não entra aqui. Os outros Divinos seguem o L2 atual (2º Núcleo no Marco 10). O Legado de Aspecto (como a Dança das Sombras) custa XP, existe para todos os Aspectos e ficou de fora.
+
+**Etapas e cenários** (2.000 lutas por célula; o Aspecto em cada um dos 4 Papéis, os outros 3 sem Aspecto):
+
+- **Adormecido novato:** encontros do L3 (E3, E4 com emboscada, E6, E7, E8) e uma criatura Desperta de cada Classe.
+- **Adormecido saturado:** os mesmos, mais a Patrulha da Carapaça e o Demônio Desperto em Perfil de Chefe com 3× PV (CD 12, 42 PV, Dano 3) em briga direta, com plano + Relógio e com a Ameaça cheia.
+- **Desperto** (fichas saturadas que cruzaram o Portal): 4 Bestas Despertas; 2 Monstros + 1 Besta emboscando; Demônio Desperto + 2 Bestas; uma criatura Caída de cada Classe (Matriz do L3 §5.2, +1 na CD por Rank); e o **Demônio Caído chefe** (Perfil de Chefe com 3× PV: CD 12, 48 PV, Dano 4) nas mesmas 3 situações. Sem Aspectos, o grupo vence esse chefe em 0% na briga direta e 49% com plano, a mesma escala do chefe Adormecido (0% e 42%).
+
+**Critério da nota:**
+
+- **Combate** = Δ de vitória + ½ × Δ de quedas evitadas (pontos percentuais, média dos cenários da etapa, no melhor Papel para o Aspecto).
+- **Utilidade** = Δ de sucesso no Relógio de Preparação + 10 pontos se a Coorte nunca é surpreendida (Batedor, Vislumbre, Olhos da Tapeçaria, Caminhante; no Desperto, também a Rede Sensorial). Cura e suporte já entram em combate, nas quedas evitadas.
+- **Nota da etapa** = Combate + ½ × Utilidade. **Nota final** = média das 3 etapas.
+- Faixas: **T0 ≥ 20**, **T1 14–20**, **T2 10,5–14**, **T3 7–10,5**, **T4 3,5–7**, **T5 < 3,5**. Os cortes ficam nos maiores saltos entre notas vizinhas.
+- Para comparar as etapas, o tier de cada etapa usa a mesma quantidade de Aspectos por faixa, na ordem daquela etapa.
+
+### 9.1 Tier list
+
+| Tier | Aspectos (nota final) |
+| :---: | :--- |
+| **T0** (o mais roubado) | Escravo das Sombras (22,3) |
+| **T1** (muito forte) | Besta Lunar (17,2), Dançarino da Gravidade (15,0) |
+| **T2** (forte) | Predador Silencioso (12,1), Alquimista da Peste (11,0), Druida de Espinhos (10,8) |
+| **T3** (bom / de nicho) | Tecelão de Almas (10,1), Senhor das Correntes (10,0), Caçadora da Aurora (9,9), Devorador Carmesim (9,6), Oráculo Sagrado (9,2), Eco Ressonante (8,2), Mestre das Ilusões (7,2) |
+| **T4** (fraco em combate) | Arqueiro dos Ventos (6,1), Caminhante do Tempo (6,1), Portadora da Luz (5,9), Tecelão de Pesadelos (5,7), Forjador do Crepúsculo (5,0), Guarda-Sol de Aço (4,7), Cronista das Cinzas (3,8) |
+| **T5** (os piores) | Arauto da Tempestade (3,2), Príncipe do Nada (3,1), Artífice de Cristal (3,1), Cantor dos Mortos (2,9), Cavaleiro Astral (1,8), Monarca da Areia Branca (1,7), Guardião de Gelo (1,5), Ceifadora de Almas (1,3) |
+
+### 9.2 Nota por etapa e o porquê
+
+| # | Aspecto | Tier | Novato | Saturado | Desperto | Combate no Desperto (Δ vitória · Δ quedas) | Relógio (Desperto) | Melhor Papel (Desperto) | Por quê |
+| ---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
+| 1 | Escravo das Sombras | **T0** | 17,8 | 21,1 | 28,0 | +15,7 · +11,6 | +3,1 | Baluarte | Manto canônico de graça (+1/+1), Batedor (nunca surpreso, Relógio) e, no Desperto, 2 Sombras somando +2/+2 e o Passo das Sombras (fuga e ponto cego). É o 1º em todas as etapas. |
+| 2 | Besta Lunar | **T1** | 11,5 | 13,3 | 26,6 | +20,1 · +13,3 | -0,3 | Baluarte | Garras com Sangrando sem custo. No Desperto, o Salto do Predador derruba o alvo a cada turno, e o Derrubar v3 tira a Ação Maior. É quem mais sobe ao Despertar. |
+| 3 | Dançarino da Gravidade | **T1** | 10,1 | 16,1 | 18,7 | +13,1 · +11,4 | -0,3 | Baluarte | Arma Pesada (2 de Dano) com 1 mão e escudo, derrubando em CD+3. No Desperto, +1 em todos os ataques da cena por 1 PE. |
+| 4 | Predador Silencioso | **T2** | 7,9 | 9,7 | 18,8 | +13,1 · +11,6 | -0,3 | Baluarte | Golpe na Jugular (+1/+1 em flanco). No Desperto, a Cortina de Névoa dá +1 de Defesa ao grupo e Vantagem +2 de Dano todo turno. |
+| 5 | Alquimista da Peste | **T2** | 5,5 | 10,0 | 17,5 | +11,5 · +12,2 | -0,3 | Baluarte | Envenenado (−1 na CD para todos). No Desperto, o Elixir levanta um caído com 2 PV por Ação Menor: a melhor cura da lista. |
+| 6 | Druida de Espinhos | **T2** | 3,6 | 12,3 | 16,5 | +9,7 · +13,8 | -0,3 | Baluarte | O chicote derruba (tira a Ação Maior do chefe). No Desperto, a Semente Vampírica cura 1 PV a cada golpe no alvo. |
+| 7 | Tecelão de Almas | **T3** | 11,2 | 8,4 | 10,6 | +0,9 · +5,0 | +4,5 | Canalizador | Quase nada em combate. A nota vem do Relógio de Preparação (+12 no novato) e de nunca ser surpreendido; a Agulha do Destino rende pouco. |
+| 8 | Senhor das Correntes | **T3** | 6,4 | 12,6 | 10,9 | +6,4 · +9,4 | -0,3 | Olho de Falcão | Derrubar com +1: controle forte no saturado. O Arpão do Desperto quase não acrescenta. |
+| 9 | Caçadora da Aurora | **T3** | 4,6 | 9,5 | 15,5 | +9,6 · +12,1 | -0,3 | Baluarte | Derruba em CD+2 e tem +2 PV. No Desperto, o Rugido dá +1 no próximo ataque de todos, todo turno. |
+| 10 | Devorador Carmesim | **T3** | 4,0 | 9,5 | 15,3 | +9,8 · +11,2 | -0,3 | Olho de Falcão | Garras com 2 de Dano de graça. No Desperto, a Maré Carmesim acerta um 2º alvo e o muro de rubi absorve 3. |
+| 11 | Oráculo Sagrado | **T3** | 5,3 | 5,9 | 16,3 | +1,3 · +1,0 | +18,9 | Canalizador | O Vislumbre (2×/cena) quase não muda a luta. O valor está fora do combate: nunca surpreso e Rede Sensorial no Relógio (+19 no Desperto, com a suposição de +1 em cada teste). |
+| 12 | Eco Ressonante | **T3** | 2,0 | 10,7 | 11,7 | +7,0 · +9,8 | -0,3 | Baluarte | Atordoar em CD+3 tira o turno do chefe. O Domo do Silêncio não faz nada contra criaturas sem voz. |
+| 13 | Mestre das Ilusões | **T3** | 4,6 | 4,2 | 12,8 | +6,0 · +10,4 | +3,1 | Executor | Miragem dá +1 ao próximo aliado. No Desperto, o Manto do Camaleão deixa 3 invisíveis (Vantagem +2 no 1º golpe) e garante a emboscada. |
+| 14 | Arqueiro dos Ventos | **T4** | 7,3 | 3,0 | 7,9 | +4,1 · +7,9 | -0,3 | Canalizador | Voo (imune ao corpo a corpo de quem não voa) e Terreno Elevado. A Flecha do Vendaval dá Vantagem, mas o dano continua 1. |
+| 15 | Caminhante do Tempo | **T4** | 4,9 | 5,4 | 7,8 | +2,1 · +1,7 | -0,3 | Olho de Falcão | +1 na Iniciativa e nunca surpreso. O Rebobinar (2 PE) refaz só uma Defesa por rodada. |
+| 16 | Portadora da Luz | **T4** | 5,2 | 2,9 | 9,5 | +4,7 · +9,8 | -0,3 | Canalizador | Cura 1–3 PV por 2 PE e a Chama dá +1 de Dano. A barreira de 3 do Desperto ajuda, mas a Essência acaba rápido. |
+| 17 | Tecelão de Pesadelos | **T4** | 1,2 | 6,6 | 9,3 | +5,3 · +8,1 | -0,3 | Olho de Falcão | Amedrontado vale −1 na CD (não empilha). O Devorador de Coragem dá +1 de Dano a todos contra o alvo marcado. |
+| 18 | Forjador do Crepúsculo | **T4** | 0,6 | 7,0 | 7,4 | +5,0 · +5,1 | -0,3 | Executor | A Sinfonia exige 2 Núcleos (só no saturado); a Têmpera dá +1 de Dano no Desperto. Nenhuma utilidade fora da luta. |
+| 19 | Guarda-Sol de Aço | **T4** | 5,6 | 2,7 | 5,6 | +2,2 · +7,2 | -0,3 | Baluarte | A Intercepção reduz quedas no novato, mas não acelera a vitória. O Escudo Indestrutível vale 1×/cena. |
+| 20 | Cronista das Cinzas | **T4** | 0,2 | 4,7 | 6,4 | +3,8 · +5,6 | -0,3 | Olho de Falcão | Queimar não pega: o Demônio apaga o fogo. A Forma de Cinza só dá Vantagem numa Defesa. |
+| 21 | Arauto da Tempestade | **T5** | 2,9 | 3,6 | 2,9 | +1,5 · +3,1 | -0,3 | Olho de Falcão | 2 de Dano à distância por 1 PE, e o Para-Raios atrai as feras. O Vórtice raramente derruba. |
+| 22 | Príncipe do Nada | **T5** | 3,6 | 1,5 | 4,3 | +1,4 · +6,1 | -0,3 | Canalizador | O Reflexo Vivo anula golpes, mas gasta PE e acaba rápido. A Travessia do Vidro é fuga e mobilidade. |
+| 23 | Artífice de Cristal | **T5** | 3,2 | 1,0 | 5,1 | +3,2 · +4,0 | -0,3 | Olho de Falcão | +1 de Dano em 2 armas, 1 vez. No Desperto, o Domo (+1 de Defesa por 3 rodadas) custa a Ação Maior. |
+| 24 | Cantor dos Mortos | **T5** | 2,0 | 0,3 | 6,5 | +2,7 · +8,0 | -0,3 | Canalizador | A Marionete depende de cadáver (chefe sozinho não dá). A Couraça de Marfim do Desperto é boa (menos 8 pontos de quedas). |
+| 25 | Cavaleiro Astral | **T5** | 0,5 | 0,9 | 3,9 | +1,9 · +4,1 | -0,3 | Baluarte | +1 de Dano em CD+3. O Salto de Constelação é mobilidade, que o motor quase não mede. |
+| 26 | Monarca da Areia Branca | **T5** | 0,1 | 1,8 | 3,1 | +1,9 · +2,6 | -0,3 | Olho de Falcão | Cegar dá o −1 na CD que outros já dão. A Dispersão nas Dunas tira 1 de Dano por PE. |
+| 27 | Guardião de Gelo | **T5** | 0,1 | 0,1 | 4,3 | +1,4 · +5,9 | -0,3 | Olho de Falcão | Congelado não muda o que a criatura faz no motor. A Muralha Boreal absorve 3 no Desperto. |
+| 28 | Ceifadora de Almas | **T5** | 0,2 | 2,1 | 1,8 | +1,4 · +1,0 | -0,3 | Canalizador | Ignorar carapaça rende pouco (poucas criaturas têm RD). O Drenar Essência devolve PE, não dano. |
+
+### 9.3 Como o tier muda do Adormecido para o Desperto
+
+| Aspecto | Novato | Saturado | Desperto | Mudança |
+| :--- | :---: | :---: | :---: | :--- |
+| Escravo das Sombras | T0 | T0 | T0 | igual |
+| Besta Lunar | T1 | T1 | T1 | igual |
+| Dançarino da Gravidade | T2 | T1 | T2 | cai |
+| Predador Silencioso | T2 | T3 | T1 | **sobe 2 tiers** |
+| Alquimista da Peste | T3 | T3 | T2 | sobe |
+| Druida de Espinhos | T4 | T2 | T2 | igual |
+| Tecelão de Almas | T1 | T3 | T3 | igual |
+| Senhor das Correntes | T3 | T2 | T3 | cai |
+| Caçadora da Aurora | T4 | T3 | T3 | igual |
+| Devorador Carmesim | T4 | T3 | T3 | igual |
+| Oráculo Sagrado | T3 | T4 | T3 | sobe |
+| Eco Ressonante | T4 | T2 | T3 | cai |
+| Mestre das Ilusões | T3 | T4 | T3 | sobe |
+| Arqueiro dos Ventos | T2 | T4 | T4 | igual |
+| Caminhante do Tempo | T3 | T4 | T4 | igual |
+| Portadora da Luz | T3 | T4 | T4 | igual |
+| Tecelão de Pesadelos | T5 | T3 | T4 | cai |
+| Forjador do Crepúsculo | T5 | T3 | T4 | cai |
+| Guarda-Sol de Aço | T3 | T5 | T5 | igual |
+| Cronista das Cinzas | T5 | T4 | T4 | igual |
+| Arauto da Tempestade | T4 | T4 | T5 | cai |
+| Príncipe do Nada | T4 | T5 | T5 | igual |
+| Artífice de Cristal | T4 | T5 | T5 | igual |
+| Cantor dos Mortos | T5 | T5 | T4 | sobe |
+| Cavaleiro Astral | T5 | T5 | T5 | igual |
+| Monarca da Areia Branca | T5 | T5 | T5 | igual |
+| Guardião de Gelo | T5 | T5 | T5 | igual |
+| Ceifadora de Almas | T5 | T5 | T5 | igual |
+
+Quem mais ganha com a 2ª Habilidade (nota do Desperto menos a do saturado): Besta Lunar (+13,3), Oráculo Sagrado (+10,4), Predador Silencioso (+9,1), Mestre das Ilusões (+8,6), Alquimista da Peste (+7,6). Quem menos ganha: Senhor das Correntes (-1,7), Arauto da Tempestade (-0,8), Ceifadora de Almas (-0,3), Forjador do Crepúsculo (+0,4).
+
+### 9.4 Conferência em grupo (sinergia)
+
+240 grupos aleatórios de 4 Aspectos diferentes contra o chefe (média de briga direta, plano e Ameaça cheia, 400 lutas cada). Δ = vitória média dos grupos **com** o Aspecto menos a dos grupos **sem** ele. A conferência confirma a ordem do topo: os Aspectos que tiram a Ação Maior do chefe (derrubar, atordoar) e os de dano grátis sobem ainda mais em grupo. Valor negativo não quer dizer que o Aspecto atrapalha: o grupo dele vence menos que a média, porque ocupou a vaga de um Aspecto melhor. Oráculo, Caminhante do Tempo e Tecelão de Almas aparecem embaixo porque aqui só conta a luta contra o chefe, sem o Relógio.
+
+| Aspecto | Tier | Δ em grupo, saturado | Δ em grupo, Desperto |
+| :--- | :---: | :---: | :---: |
+| Besta Lunar | T1 | +22,9 | +24,5 |
+| Druida de Espinhos | T2 | +18,6 | +15,6 |
+| Escravo das Sombras | T0 | +11,4 | +16,9 |
+| Alquimista da Peste | T2 | +14,4 | +11,7 |
+| Dançarino da Gravidade | T1 | +11,7 | +11,8 |
+| Predador Silencioso | T2 | +6,8 | +15,8 |
+| Senhor das Correntes | T3 | +13,7 | +6,8 |
+| Eco Ressonante | T3 | +10,2 | +6,9 |
+| Devorador Carmesim | T3 | +4,4 | +8,3 |
+| Caçadora da Aurora | T3 | -0,0 | +10,1 |
+| Mestre das Ilusões | T3 | -1,7 | +2,5 |
+| Portadora da Luz | T4 | -0,0 | -0,9 |
+| Guardião de Gelo | T5 | -3,0 | -0,2 |
+| Tecelão de Almas | T3 | -2,9 | -4,6 |
+| Tecelão de Pesadelos | T4 | -3,7 | -4,1 |
+| Príncipe do Nada | T5 | -3,4 | -6,3 |
+| Guarda-Sol de Aço | T4 | -2,7 | -7,5 |
+| Cavaleiro Astral | T5 | -3,0 | -7,7 |
+| Forjador do Crepúsculo | T4 | -6,8 | -5,5 |
+| Artífice de Cristal | T5 | -7,3 | -9,9 |
+| Cantor dos Mortos | T5 | -11,9 | -6,2 |
+| Cronista das Cinzas | T4 | -9,3 | -10,6 |
+| Ceifadora de Almas | T5 | -10,4 | -10,2 |
+| Arauto da Tempestade | T5 | -8,0 | -13,6 |
+| Monarca da Areia Branca | T5 | -10,3 | -13,4 |
+| Oráculo Sagrado | T3 | -11,9 | -12,7 |
+| Arqueiro dos Ventos | T4 | -13,0 | -11,9 |
+| Caminhante do Tempo | T4 | -11,3 | -13,7 |
+
+### 9.5 Como cada 2ª Habilidade (Desperta) foi modelada
+
+| Aspecto | Modelo |
+| :--- | :--- |
+| Todos | Rank Desperto: +2 PE máximos; Reforço Corporal (1 PE: +1 de Dano num acerto, guardando 2 PE para o Aspecto). |
+| Escravo das Sombras | 2º Núcleo no Despertar: 2 Sombras no Manto (+2/+2), +3 PE, +1 PV. Passo das Sombras: Movimento 1 PE, CD 5, em CD+4 Vantagem e +1 de Dano; Reação de fuga (2 PE) contra a CD do atacante. |
+| Portadora da Luz | Manipulação Solar: lança 2 de Dano (2 PE) ou barreira de Reação que absorve 3. |
+| Príncipe do Nada | Travessia do Vidro como Reação de fuga (2 PE) depois dos Reflexos. |
+| Arauto da Tempestade | Vórtice (2 PE): em CD+4 derruba e dá Vantagem. |
+| Forjador do Crepúsculo | Têmpera: +1 de Dano por 3 turnos (1 PE). |
+| Tecelão de Almas | Agulha do Destino: 2 de Dano à distância (2 PE). |
+| Devorador Carmesim | Maré Carmesim: 2º alvo com 2 de Dano (+1 se Sangrando) ou muro de Reação que absorve 3. |
+| Oráculo Sagrado | Rede Sensorial: +1 em cada teste do Relógio e nunca emboscado; sem efeito na rolagem de combate. |
+| Caçadora da Aurora | Rugido da Alvorada: +1 no próximo ataque de todos (1 PE por turno). |
+| Arqueiro dos Ventos | Flecha do Vendaval: Vantagem no disparo (1 PE). |
+| Ceifadora de Almas | Drenar Essência: +1 PE ao matar ou em CD+3. |
+| Cantor dos Mortos | Couraça de Marfim: 2 camadas que absorvem 1 cada, no aliado mais frágil (1 PE). |
+| Guarda-Sol de Aço | Escudo Indestrutível: 1×/cena a armadura absorve sem perder integridade. |
+| Dançarino da Gravidade | Inversão (Eixo Pessoal): +1 nos ataques pela cena (1 PE). |
+| Mestre das Ilusões | Manto do Camaleão: ele e os 2 maiores danos começam invisíveis (não são alvo; 1º golpe com Vantagem e +2); emboscada garantida quando há plano. |
+| Artífice de Cristal | Sentinela: Domo de Quartzo, +1 de Defesa da Coorte por 3 rodadas (Ação Maior). |
+| Predador Silencioso | Cortina de Névoa: +1 de Defesa da Coorte e o Predador ataca Oculto (Vantagem e +2) por 2 rodadas (1 PE). |
+| Druida de Espinhos | Semente Vampírica: os 2 próximos golpes no alvo curam 1 PV do aliado mais ferido. |
+| Cronista das Cinzas | Forma de Cinza: Reação, Defesa com Vantagem (1 PE). |
+| Guardião de Gelo | Muralha Boreal: absorve os 3 primeiros pontos de dano na Coorte (Ação Maior, até 2 vezes). |
+| Eco Ressonante | Domo do Silêncio: sem efeito (nenhuma criatura testada usa som). |
+| Caminhante do Tempo | Rebobinar: refaz a Defesa de um aliado em Infortúnio ou golpe que o derrubaria (2 PE, Reação). |
+| Senhor das Correntes | Arpão: igual ao ataque de 1 de Dano; o puxão não muda nada no motor. |
+| Monarca da Areia Branca | Dispersão nas Dunas: −1 de Dano recebido (1 PE, Reação). |
+| Tecelão de Pesadelos | Devorador de Coragem: +1 de Dano de todos no alvo Amedrontado por 2 rodadas. |
+| Cavaleiro Astral | Salto de Constelação: +1 no ataque após o salto; Reação de Defesa com Vantagem. |
+| Alquimista da Peste | Elixir de Emergência: 2 PV e levanta quem caiu (Ação Menor, 1 PE). |
+| Besta Lunar | Salto do Predador Lunar: ataque com as garras que, se acertar, derruba (1 PE). |
+
+### 9.6 Limitações
+
+- **Inteligência do jogador não entra.** As políticas são fixas e razoáveis (melhor Papel, usar a habilidade quando ela rende), sem planos criativos. Um jogador esperto tira mais de Aspectos de mobilidade e engano (Escravo das Sombras com Passo das Sombras, Príncipe do Nada, Mestre das Ilusões, Cavaleiro Astral, Senhor das Correntes).
+- **Cenas sociais e de exploração não entram,** só o Relógio de Preparação e a surpresa. Oráculo, Tecelão de Almas, Mestre das Ilusões, Eco Ressonante (infiltração), Caminhante do Tempo e o Defeito de cada Aspecto valem mais na mesa do que aqui.
+- **Decisões do mestre não entram:** terreno, sombras disponíveis para o Passo, cadáveres para o Cantor, criaturas que usam som (Domo do Silêncio), voadores (Arqueiro, Arpão) e escuridão.
+- **Fora do modelo:** Legado de Aspecto e Relíquias, Técnicas de Papel, Memórias além das fichas-padrão e a Sombra Evolutiva por 19–20. Com uma Sombra Evolutiva, o Escravo das Sombras ganharia cerca de +24 pontos no saturado (seção 8.6).
+- **Condições não empilham** (−1 na CD no máximo), como sugerido na 8.3. Se empilharem, Alquimista, Tecelão de Pesadelos e Monarca sobem.
+
+## 10. Pontos ainda em aberto
 
 | Tema | Situação |
 | :--- | :--- |
-| Habilidades de Papel | Técnicas de Papel ficaram de fora. Aspectos: só Inata + 1ª Habilidade (Rank Adormecido), seção 8. |
+| Habilidades de Papel | Técnicas de Papel ficaram de fora. Aspectos: Inata + 1ª Habilidade no Adormecido (seção 8); até a 2ª Habilidade no Desperto (seção 9). |
 | Condições especiais | Teias, agarrões e hipnose não modelados; veneno, frenesi, carapaças, bote, rebote, remontagem e cura da Mariposa sim. |
 | Fichas saturadas | Bônus de Memória e Atributos são suposições típicas (ver seção 6); os livros não trazem uma ficha pronta de Marco 10. |
 | Gargalo e Posição Elevada | Dependem do Mestre; o simulador usa −1 alvo e +1 à distância. |
 | Escala para 3–4 jogadores | Agora coberta pelo Orçamento de Ameaça (Livro 3). |
 
-## 10. Arquivos
+## 11. Arquivos
 
 - `sim/ssrpg/regras.py`, `sim/ssrpg/combate.py`, `sim/ssrpg/dados.py`: motor com as regras v2 como padrão (`VARIANTE_V1` reproduz as antigas).
-- `sim/simular.py` (`./venv/bin/python simular.py --n 10000`, cerca de 1 min) e `sim/extra.py` (teste extra, cerca de 15 s); `sim/aspectos.py`, `sim/rodar_aspectos.py` (rodada de Aspectos, cerca de 8 min em 8 núcleos) e `sim/relatorio_aspectos.py`.
+- `sim/simular.py` (`./venv/bin/python simular.py --n 10000`, cerca de 1 min) e `sim/extra.py` (teste extra, cerca de 15 s); `sim/aspectos.py`, `sim/rodar_aspectos.py` (rodada de Aspectos, cerca de 8 min em 8 núcleos) e `sim/relatorio_aspectos.py`; tier list: `sim/rodar_tier.py` (cerca de 3 min), `sim/tier_calc.py` e `sim/relatorio_tier.py`.
 - `sim/graficos.py`, `sim/gerar_relatorio.py`, `sim/testes_regras.py` (exemplos de mesa v2: Kael CD 10, Iris CD 8, PV 6/8/10/12/14).
 - `sim/resultados/resultados.json`, `sim/resultados/extra.json`, `sim/resultados/probabilidades_graus.csv`, `sim/graficos/*.png`.
 - Relatório v1 arquivado em `review/v2/RELATORIO_ROLAGENS_v1.md`; mudanças nos livros em `review/BALANCO_v2.md`.
