@@ -15,7 +15,7 @@ Este Códice contém o conjunto completo e autossuficiente das regras centrais d
 - **[CAPÍTULO 1: O Motor do Feitiço e a Resolução de Ações](#capítulo-1-o-motor-do-feitiço-e-a-resolução-de-ações)**
   - **1.1** O Princípio *Player-Facing* e a Psicologia de Coorte (7 Jogadores)
   - **1.2** Os Dados do Sistema (`1d6` vs. `1d8`), Vantagem e Desvantagem
-  - **1.3** A Escala Oficial de CDs e Modificador de Rank (`±2`)
+  - **1.3** A Escala Oficial de CDs e Modificador de Rank (`±1`)
   - **1.4** A Matriz Completa de Graus de Sucesso
   - **1.5** Regras de Borda e Casos-Limite (`Cap +3`, `1 Natural` e `Máximo Natural`)
   - **1.6** Catálogo Extenso: 30 Dádivas (Boons) e 30 Infortúnios (Banes)
@@ -96,7 +96,7 @@ Em **Shadow Slave RPG**, o Mestre — chamado de **Tecelão do Pesadelo** — **
 ### Fluxo Padrão de Resolução (Os 5 Passos)
 1. **Intenção e Abordagem:** O jogador descreve *o que* seu personagem pretende realizar e *como* executa a ação (ex.: *"Uso minha lança para empurrar a Besta da Carapaça para fora da ponte de ossos"*).
 2. **Seleção de Pilar e Subcategoria:** O Tecelão confirma qual dos **4 Pilares** (*Corpo, Mente, Coração ou Alma*) e qual das **12 Subcategorias** rege o risco. Se o personagem possui **Especialização `[X]`** naquela Subcategoria, usa **`1d8`**; caso contrário, usa **`1d6`**.
-3. **Definição da CD e Modificadores:** O Tecelão define a **CD Base** (5, 7, 9, 11, 13 ou 15), aplica o modificador de **Diferença de Rank (`±2` por Rank)** se houver oposição de criatura, e soma-se os bônus situacionais externos do jogador (respeitando o **Teto `Cap +3`**). Verifica-se também se há **Vantagem** ou **Desvantagem**.
+3. **Definição da CD e Modificadores:** O Tecelão define a **CD Base** (3, 5, 7, 9, 11 ou 13), aplica o modificador de **Diferença de Rank (`±1` por Rank)** se houver oposição de criatura, e soma-se os bônus situacionais externos do jogador (respeitando o **Teto `Cap +3`**). Verifica-se também se há **Vantagem** ou **Desvantagem**.
 4. **A Rolagem:** O jogador rola o dado (`1d6` ou `1d8`, ou dois dados em caso de Vantagem/Desvantagem) e soma: `Valor do Dado + Valor do Pilar + Modificadores Situacionais (máx +3)`.
 5. **Leitura do Grau de Sucesso e Efeitos:** Compara-se o total com a CD para determinar um dos **6 Graus de Sucesso**, verificando primeiro as regras especiais de **`1 Natural`** e **`Máximo Natural (6/8)`**, e aplicando **Dádivas (Boons)** ou **Infortúnios (Banes)** quando pertinentes.
 
@@ -118,29 +118,33 @@ Em **Shadow Slave RPG**, o Mestre — chamado de **Tecelão do Pesadelo** — **
 
 ---
 
-## 1.3 A Escala Oficial de CDs e Modificador de Rank (`±2`)
+## 1.3 A Escala Oficial de CDs e Modificador de Rank (`±1`)
 
 Toda tarefa no mundo desperto ou no Reino dos Sonhos possui uma **Classe de Dificuldade (CD)** base estabelecida antes de qualquer modificador de Rank:
 
 | CD | Classificação | Natureza do Desafio | Exemplo Típico |
 | :---: | :--- | :--- | :--- |
-| **5** | **Trivial** | Tarefa simples que apenas pressão extrema ou inépcia pode arruinar. | Saltar um fosso estreito de 1,5m; acender tocha com pederneira; empurrar porta destrancada. |
-| **7** | **Fácil** | Exige atenção básica, firmeza ou conhecimento elementar de sobrevivência. | Escalar muro com frestas abundantes; manter vigília calma; ler runas comerciais básicas. |
-| **9** | **Moderada** | Padrão de combate e exploração contra ameaças equivalentes ao seu Rank. | Atingir Besta do mesmo Rank em guarda; desarmar armadilha mecânica de ruína; convencer sentinela cético. |
-| **11** | **Difícil** | Façanha notável que testa os limites de um combatente treinado. | Atingir ponto fraco protegido; decifrar língua morta sob fogo; saltar entre pilares estreitos em tempestade. |
-| **13** | **Extrema** | Proeza heroica próxima do impossível para indivíduos comuns do mesmo Rank. | Parry perfeito contra golpe esmagador; resistir a veneno letal sem antídoto; saltar abismo de 6m em combate. |
-| **15** | **Divina** | Milagre de perícia, vontade ou manipulação da Alma digno de lendas. | Reverter fluxo de feitiço ancestral; enganar soberano paranoico cara a cara; sobreviver a golpe de aniquilação direta. |
+| **3** | **Trivial** | Tarefa simples que apenas pressão extrema ou inépcia pode arruinar. *(Na maioria das vezes, nem se rola.)* | Saltar um fosso estreito de 1,5m; acender tocha com pederneira; empurrar porta destrancada. |
+| **5** | **Fácil** | Exige atenção básica, firmeza ou conhecimento elementar de sobrevivência. | Escalar muro com frestas abundantes; manter vigília calma; ler runas comerciais básicas. |
+| **7** | **Moderada** | Padrão de exploração e de testes de perícia sob pressão para um personagem do Rank adequado. | Desarmar armadilha mecânica de ruína; convencer sentinela cético; atravessar ponte instável sob chuva. |
+| **9** | **Difícil** | Façanha notável que testa os limites de um combatente treinado. | Atingir ponto fraco protegido; decifrar língua morta sob fogo; saltar entre pilares estreitos em tempestade. |
+| **11** | **Extrema** | Proeza heroica próxima do impossível para indivíduos comuns do mesmo Rank. | Parry perfeito contra golpe esmagador; resistir a veneno letal sem antídoto; saltar abismo de 6m em combate. |
+| **13** | **Divina** | Milagre de perícia, vontade ou manipulação da Alma digno de lendas. | Reverter fluxo de feitiço ancestral; enganar soberano paranoico cara a cara; sobreviver a golpe de aniquilação direta. |
 
-### Regra de Diferença de Rank (`±2 na CD por Rank`)
-No universo de *Shadow Slave*, a lacuna ontológica entre os **Ranks** (*Aspirante*, *Adormecido*, *Desperto*, *Ascendido* (*Master*), *Transcendente* (*Saint*), *Supremo* (*Sovereign*) — e seus equivalentes do Pesadelo: *Adormecido, Desperto, Caído, Corrompido, Grande, Amaldiçoado, Profano*) é brutal e inegociável.
-- **Contra Criatura ou Efeito de Rank Superior:** Some **`+2` na CD para cada Rank de diferença** acima do personagem.
-  - *Adormecido* enfrentando criatura *Desperta* (1 Rank acima): **`+2` na CD** (CD base 9 vira **CD 11**).
-  - *Adormecido* enfrentando criatura *Caída* (2 Ranks acima): **`+4` na CD** (CD base 9 vira **CD 13**).
-  - *Adormecido* tentando conter golpe de *Corrompido* (3 Ranks acima): **`+6` na CD** (CD base 9 vira **CD 15** — quase impossível sem sacrifício extremo).
-- **Contra Criatura ou Efeito de Rank Inferior:** Subtraia **`-2` na CD para cada Rank de diferença** abaixo do personagem (mínimo **CD 5**, salvo se a ação for trivial automática sem rolagem).
-  - *Desperto* enfrentando criatura *Adormecida* (1 Rank abaixo): **`-2` na CD** (CD base 9 vira **CD 7**).
-  - *Ascendido* enfrentando criatura *Adormecida* (2 Ranks abaixo): **`-4` na CD** (CD base 9 vira **CD 5**).
-- **CDs Intermediárias (`8`, `10`, `12`):** A escala oficial usa degraus ímpares, mas o Tecelão pode usar CDs pares para ajuste fino (ex.: uma ameaça "entre Moderada e Difícil" = **CD 10**). Vários exemplos deste livro e do Livro 3 fazem isso; a regra de Rank (`±2`) continua valendo sobre o valor escolhido.
+> 📌 **CDs de Tarefa × CDs de Criatura:** A tabela acima vale para **tarefas e perigos** (escalar, decifrar, resistir a veneno, curar, ritualizar). **Criaturas, Ecos e Sombras** não usam esta tabela: cada ficha do Bestiário (Livro 3, Cap. 7) já traz a **CD da criatura** contra personagens do Rank equivalente (Adormecida `6–8`, Desperta `9–10`, Caída `10–11`, Corrompida `12`, Grande `13+`). Ataques e defesas contra uma criatura usam a CD da ficha, ajustada pela Diferença de Rank abaixo.
+
+### Regra de Diferença de Rank (`±1 na CD por Rank`)
+No universo de *Shadow Slave*, a lacuna ontológica entre os **Ranks** (*Aspirante*, *Adormecido*, *Desperto*, *Ascendido* (*Master*), *Transcendente* (*Saint*), *Supremo* (*Sovereign*) — e seus equivalentes do Pesadelo: *Adormecido, Desperto, Caído, Corrompido, Grande, Amaldiçoado, Profano*) é brutal e inegociável. A CD da ficha de uma criatura de Rank alto já é bem maior que a de uma criatura do Rank de baixo; por isso o ajuste é de **1 ponto por Rank** — somado à CD maior da ficha, ele torna o salto de Rank perigoso sem torná-lo impossível.
+- **Contra Criatura ou Efeito de Rank Superior:** Some **`+1` na CD para cada Rank de diferença** acima do personagem.
+  - *Adormecido* enfrentando criatura *Desperta* (CD `9` na ficha, 1 Rank acima): **`+1` na CD** → **CD 10**.
+  - *Adormecido* enfrentando criatura *Caída* (CD `10` na ficha, 2 Ranks acima): **`+2` na CD** → **CD 12**.
+  - *Adormecido* tentando conter golpe de *Corrompida* (CD `12` na ficha, 3 Ranks acima): **`+3` na CD** → **CD 15** — quase impossível sem sacrifício extremo (com `1d8 + 3`, nem o dado máximo alcança sozinho: só bônus, Vantagem e Dádivas abrem caminho).
+- **Chefes de Rank Acima (Perfil de Chefe):** quando um **Demônio ou Diabo Desperto** enfrenta uma Coorte de Rank abaixo como chefe da cena, ele usa o **Perfil de Chefe** do *Livro 3, Seção 5.2*: **CD 11** na ficha (**12** contra Adormecidos), **2× PV** e **`+1` de Dano**.
+- **Contra Criatura ou Efeito de Rank Inferior:** Subtraia **`-1` na CD para cada Rank de diferença** abaixo do personagem (mínimo **CD 3**, salvo se a ação for trivial automática sem rolagem).
+  - *Desperto* enfrentando criatura *Adormecida* (CD `7` na ficha, 1 Rank abaixo): **`-1` na CD** → **CD 6**.
+  - *Ascendido* enfrentando criatura *Adormecida* (CD `7` na ficha, 2 Ranks abaixo): **`-2` na CD** → **CD 5**.
+- **Tarefas e Efeitos com Rank:** Quando uma **tarefa** (não uma criatura) tiver Rank — uma runa Desperta, o veneno de uma Besta Caída, o sussurro de um Terror —, comece pela CD da tabela de tarefas e aplique o mesmo `±1` por Rank de diferença.
+- **CDs Intermediárias (`4`, `6`, `8`, `10`, `12`):** A escala oficial usa degraus ímpares, mas o Tecelão pode usar CDs pares para ajuste fino (ex.: uma ameaça "entre Moderada e Difícil" = **CD 8**). Vários exemplos deste livro e do Livro 3 fazem isso; a regra de Rank (`±1`) continua valendo sobre o valor escolhido.
 - **Equivalência de Ranks:** Para calcular a diferença, compare degrau a degrau: humano *Adormecido* ↔ criatura *Adormecida*; *Desperto* ↔ *Desperta*; *Ascendido* ↔ *Caída*; *Transcendente* ↔ *Corrompida*; *Supremo* ↔ *Grande* (os Ranks *Amaldiçoado* e *Profano* ficam acima de qualquer humano).
 
 ---
@@ -154,18 +158,20 @@ O sistema nunca reduz um teste a simples "acertou ou errou". Cada rolagem move a
 | **`CD - 4` ou pior** | **Falha com Infortúnio (Bane)** | O objetivo fracassa gravemente **E** o Tecelão aplica **1 Infortúnio** imediato. | Ataque erra e sofre contra-ataque/exposição; em defesa, sofre dano cheio **+ 1 Infortúnio**. |
 | **`CD - 2` ou `-3`** | **Falha Simples** | O objetivo não é alcançado, mas nada catastrófico extra ocorre além do tempo/ação gastos. | Ataque é desviado/bloqueado; em defesa, sofre o dano normal do ataque inimigo. |
 | **`CD - 1`** | **Falha com Dádiva (Boon)** | O objetivo principal falha, **MAS** o esforço gera **1 Dádiva Menor** para você ou para a Coorte. | Ataque não fere o alvo, mas abre flanco/desequilibra (+1 Dádiva); em defesa, sofre dano reduzido pela metade (mín. 1) ou ganha reposicionamento. |
-| **`CD Exata`** | **Sucesso com Infortúnio / Custo** | Você consegue o que queria, **MAS** paga um preço: sofre **1 Infortúnio** (ou Custo de Essência/PV/Posição). | Ataque acerta e causa dano normal, **MAS** deixa você exposto, gasta Essência extra ou danifica arma/posição; em defesa, evita o golpe pagando 1 Infortúnio. |
+| **`CD Exata`** | **Sucesso com Infortúnio / Custo** | Você consegue o que queria, **MAS** paga um preço: sofre **1 Infortúnio** (ou Custo de Essência/PV/Posição). | Ataque acerta e causa dano normal, **MAS** deixa você exposto, gasta Essência extra ou danifica arma/posição; em defesa, **evita o golpe e não sofre dano**, mas paga 1 Infortúnio (padrão: **`I1 Guarda Aberta`**). |
 | **`CD + 1` a `+3`** | **Sucesso Pleno** | Objetivo alcançado de forma limpa, eficiente e sem efeitos colaterais negativos. | Ataque causa dano completo da arma/habilidade; defesa anula totalmente a ameaça sem custo. |
 | **`CD + 4` ou mais** | **Sucesso Crítico com Dádiva Maior** | Execução magistral: objetivo alcançado **E** gera **1 Dádiva Maior** (ou 2 Dádivas Menores). | Ataque causa **Dano + 2** (ou Dano normal + Dádiva Maior tática); defesa contra-ataca ou cria abertura devastadora. |
+
+> 📌 **Defesa na `CD Exata` (esclarecimento):** quando você se defende e tira exatamente a CD, o golpe **não causa dano** — nem cheio, nem pela metade. O preço é só o Infortúnio. Se o Tecelão não escolher outro que faça sentido na cena, use **`I1 Guarda Aberta`**: sua **próxima defesa** nesta cena é feita com **Desvantagem**.
 
 > 📌 **Leitura de Listas Condensadas:** Muitas regras deste livro resumem os graus em faixas como *"Sucesso Pleno / Crítico"* ou *"Falha (`≤ CD - 2`)"*. Quando uma lista **não mencionar `CD - 1`**, aplique o padrão: o objetivo falha sem consequência extra, mas o personagem ganha **1 Dádiva Menor**. Quando a lista não separar a **Falha com Infortúnio**, use o efeito de Falha listado e, em `CD - 4` ou pior, some **1 Infortúnio**. Não existe um grau chamado "Falha Crítica": o pior resultado é sempre a **Falha com Infortúnio**.
 
 > 🎙️ **Exemplo de Mesa (Graus de Sucesso):**
-> **Kael**, um *Adormecido* (`Corpo 3`, Especialização em *Força [X]* → rola `1d8 + 3`), tenta partir a junta da perna de um *Caranguejo-Osso Desperto* (1 Rank acima = `+2` na CD base 9 → **CD 11**). Ele está flanqueando com **Lyra** (`+1` situacional).
-> - Se Kael tirar `4` no `1d8`: `4 + 3 + 1 = 8` (`CD - 3`). **Falha Simples:** a lâmina resvala na quitina sem rachar a placa, mas Kael mantém sua guarda.
-> - Se Kael tirar `6` no `1d8`: `6 + 3 + 1 = 10` (`CD - 1`). **Falha com Dádiva:** a lâmina não atravessa a junta, mas o impacto gira o corpo da fera; Kael escolhe a Dádiva *Criar Abertura* — o próximo aliado a atacar o monstro recebe `+1` na rolagem!
-> - Se Kael tirar `7` no `1d8`: `7 + 3 + 1 = 11` (`CD Exata`). **Sucesso com Custo:** o golpe corta os tendões, causando o dano da espada, mas a força do impacto faz Kael afundar o pé na lama do mangue (Infortúnio *Terreno Traiçoeiro*: fica com Desvantagem no próximo movimento ou perde a Reação).
-> - Se Kael tirar `8` no `1d8`: `8 + 3 + 1 = 12` (`CD + 1`). **Sucesso Pleno** + **Regra do Máximo Natural (`8` no `d8`)**: além do sucesso limpo e dano total, o `8` natural garante **+1 Dádiva Menor gratuita** (ele recua 2m em segurança após cortar a junta!).
+> **Kael**, um *Adormecido* (`Corpo 3`, Especialização em *Força [X]* → rola `1d8 + 3`), tenta partir a junta da perna de um *Caranguejo-Osso Desperto* (CD `9` na ficha, 1 Rank acima = `+1` → **CD 10**). Ele está flanqueando com **Lyra** (`+1` situacional).
+> - Se Kael tirar `3` no `1d8`: `3 + 3 + 1 = 7` (`CD - 3`). **Falha Simples:** a lâmina resvala na quitina sem rachar a placa, mas Kael mantém sua guarda.
+> - Se Kael tirar `5` no `1d8`: `5 + 3 + 1 = 9` (`CD - 1`). **Falha com Dádiva:** a lâmina não atravessa a junta, mas o impacto gira o corpo da fera; Kael escolhe a Dádiva *Criar Abertura* — o próximo aliado a atacar o monstro recebe `+1` na rolagem!
+> - Se Kael tirar `6` no `1d8`: `6 + 3 + 1 = 10` (`CD Exata`). **Sucesso com Custo:** o golpe corta os tendões, causando o dano da espada, mas a força do impacto faz Kael afundar o pé na lama do mangue (Infortúnio *Terreno Traiçoeiro*: fica com Desvantagem no próximo movimento ou perde a Reação).
+> - Se Kael tirar `8` no `1d8`: `8 + 3 + 1 = 12` (`CD + 2`). **Sucesso Pleno** + **Regra do Máximo Natural (`8` no `d8`)**: além do sucesso limpo e dano total, o `8` natural garante **+1 Dádiva Menor gratuita** (ele recua 2m em segurança após cortar a junta!).
 
 ---
 
@@ -306,13 +312,27 @@ Desafios complexos — como arrombar um portão rúnico enquanto hordas avançam
 - **CD - 2 ou -3 (Falha Simples):** Nenhum segmento preenchido; o tempo passa (Relógio de Ameaça avança +1 se houver pressão).
 - **CD - 4 ou pior (Falha com Infortúnio):** Nenhum segmento preenchido (ou perde 1 já feito) **E** o Relógio de Ameaça avança **+2 segmentos**.
 
+### Relógio de Preparação (Plano Bem Executado)
+Antes de enfrentar uma criatura **de Rank acima** (ou qualquer luta marcada como **Fuga/Evitar**), a Coorte pode montar um plano. O Tecelão desenha **dois relógios lado a lado**:
+- **Relógio de Preparação (`4` segmentos):** preenchido com testes de exploração e preparo, um por cena curta de trabalho — rastrear a criatura, estudar seus hábitos, escolher e preparar o terreno, entalhar runas, montar a isca. Cada teste usa as regras normais de Relógio (Pleno = 2 segmentos, Crítico = 3, CD Exata = 1 com custo).
+- **Relógio de Ameaça (sempre junto, `4` segmentos):** avança a cada Falha, a cada CD Exata e a cada cena gasta além da primeira. Se encher antes da Preparação, a criatura **percebe**: muda de covil, chama reforços ou ataca primeiro, e o plano se perde.
+
+**Relógio de Preparação completo → 1 Vantagem de Plano** para a luta seguinte, escolhida pela Coorte:
+1. **Fraqueza Estudada:** `-1` na CD da criatura durante toda a cena.
+2. **Terreno Escolhido:** a criatura alcança **1 alvo a menos por rodada** (mínimo 1).
+3. **Emboscada Garantida:** a Coorte começa com a **Rodada de Surpresa** sem precisar do teste de Emboscada (Seção 3.2).
+
+> ⚖️ **Limite:** no máximo **1 Vantagem de Plano por criatura de Rank acima** da Coorte. Contra criaturas do mesmo Rank, o Tecelão pode permitir um Relógio de 8 segmentos que dá 2 Vantagens diferentes. As Vantagens não se repetem nem se acumulam com elas mesmas.
+
+> 🎙️ **Exemplo de Mesa (Relógio de Preparação):** A Coorte de 4 Adormecidos saturados descobre o covil de um **Demônio Desperto** (Perfil de Chefe: CD 11 + 1 = **12**, 28 PV, Dano 3, 3 alvos). **Vex** segue rastros de ácido (`Astúcia`, CD 8): Pleno, **2/4**. **Iris** estuda as carcaças e acha a junta frágil da carapaça (`Conhecimento`, CD 8): CD Exata, **3/4**, mas a Ameaça sobe para **1/4**. **Dorian** escora o desfiladeiro estreito que leva ao covil (`Força`, CD 7): Pleno, **4/4**. A Coorte escolhe **Terreno Escolhido**: no desfiladeiro, o Demônio só alcança 2 alvos por rodada. Nas simulações, essa preparação somada a emboscada, Posição Elevada e *Proteger Aliado* leva a vitória contra esse chefe de cerca de **22%** (briga direta) para cerca de **90%**, com alguém caindo em cerca de 6 de cada 10 lutas.
+
 ### Testes de Coorte Unida (Ações em Grupo para 7 Jogadores)
 Quando os 7 jogadores agem juntos em uma mesma tarefa coordenada, usam-se **duas estruturas distintas** dependendo da natureza da ação:
 
 1. **Ação de Apoio (Um Líder + Ajudantes):**
    - Ideal para escalar usando corda armada pelo melhor alpinista, arrombar portão em conjunto ou negociar com um porta-voz apoiado por guarda-costas e eruditos.
    - Um personagem assume como **Líder** (quem rola o dado contra a CD).
-   - Cada **Ajudante** declara como auxilia usando uma Subcategoria plausível (ou a mesma, se tiver Especialização `[X]` ou Pilar ≥ 2) e não precisa rolar se a ajuda for simples, ou faz um teste de suporte CD 7 (se for arriscada) para conceder **`+1` de bônus situacional**.
+   - Cada **Ajudante** declara como auxilia usando uma Subcategoria plausível (ou a mesma, se tiver Especialização `[X]` ou Pilar ≥ 2) e não precisa rolar se a ajuda for simples, ou faz um teste de suporte CD 5 (se for arriscada) para conceder **`+1` de bônus situacional**.
    - **Limite:** Todos os bônus de ajuda entram na conta do **`Cap +3`**! Em uma coorte de 7 pessoas, se 4 aliados ajudarem (`+4`), o bônus numérico trava em **`+3`** e o excesso converte-se em **Vantagem** para o Líder (e, se houver mais ajuda qualificada, em `+1 Dádiva Menor` ou `+1 de Dano`!).
 2. **Teste Coletivo de Resistência ou Furtividade (Todos Rolam):**
    - Ideal para atravessar um pântano sem acordar um Tirano adormecido ou resistir ao rugido psíquico de um Terror.
@@ -322,16 +342,16 @@ Quando os 7 jogadores agem juntos em uma mesma tarefa coordenada, usam-se **duas
 
 ### Disputas Diretas (Entre Jogadores ou Jogador vs. NPC Especial)
 Em um motor *Player-Facing*, o Mestre não rola nem para NPCs importantes.
-- **Jogador vs. NPC/Criatura:** O NPC tem uma **CD Estática** baseada em seus Pilares/Rank (Padrão `7 + Pilar relevante do NPC ± Ajuste de Rank`). O jogador rola para tentar superar ou resistir.
+- **Jogador vs. NPC/Criatura:** O NPC tem uma **CD Estática** baseada em seus Pilares/Rank (Padrão `7 + Pilar relevante do NPC ± 1 por Rank`). O jogador rola para tentar superar ou resistir.
 - **Jogador vs. Jogador (PvP ou Disputa Amigável):** Apenas neste caso excepcional ambos os jogadores rolam seus dados (`1d6/1d8 + Pilar + Bônus Cap +3`). Quem obtiver a **maior margem absoluta** vence a disputa. Em caso de empate perfeito, vence quem tiver maior Rank; se mesmo Rank, maior Valor de Pilar; se ainda empatado, ocorre impasse mútuo (ambos sofrem o equivalente a `CD Exata`).
 
 > 🎙️ **Exemplo de Mesa (Relógio de Progresso + Coorte Unida):**
-> A Coorte precisa abrir o **Portão Rúnico** de uma catedral antes que a maré do Mar Amaldiçoado suba. O Tecelão desenha um **Relógio de Progresso de 6 segmentos** (*Portão*) e, ao lado, um **Relógio de Ameaça de 4 segmentos** (*Maré*). A CD de cada teste é **10**.
-> - **Rodada 1:** **Iris** lidera a decifração (`Mente 3`, Especialista em *Conhecimento* `[X]` → `1d8 + 3`); **Dorian** e **Vex** ajudam segurando tochas e copiando runas (`+2`). Iris tira `6`: `6 + 3 + 2 = 11` (`CD + 1`) → **Sucesso Pleno**, o Portão marca **2/6**.
-> - **Rodada 2:** Iris tira `2`: `2 + 3 + 2 = 7` (`CD - 3`) → **Falha Simples**. Nada no Portão, e como há pressão, a Maré avança para **1/4**.
-> - **Rodada 3:** Iris tira `8` natural: `8 + 3 + 2 = 13` (`CD + 3`) → **Sucesso Pleno** (2 segmentos, Portão **4/6**) **+ Máximo Natural** → **1 Dádiva Menor**, que ela usa para impedir a Maré de avançar nesta rodada.
-> - **Rodada 4:** Iris tira `5`: `5 + 3 + 2 = 10` (**CD Exata**) → 1 segmento (Portão **5/6**), mas o custo avança a Maré para **2/4**.
-> - **Rodada 5:** Iris tira `7`: `12` → Portão **6/6**: aberto, com a Maré ainda em **2/4**.
+> A Coorte precisa abrir o **Portão Rúnico** de uma catedral antes que a maré do Mar Amaldiçoado suba. O Tecelão desenha um **Relógio de Progresso de 6 segmentos** (*Portão*) e, ao lado, um **Relógio de Ameaça de 4 segmentos** (*Maré*). A CD de cada teste é **8** (entre Moderada e Difícil).
+> - **Rodada 1:** **Iris** lidera a decifração (`Mente 3`, Especialista em *Conhecimento* `[X]` → `1d8 + 3`); **Dorian** e **Vex** ajudam segurando tochas e copiando runas (`+2`). Iris tira `4`: `4 + 3 + 2 = 9` (`CD + 1`) → **Sucesso Pleno**, o Portão marca **2/6**.
+> - **Rodada 2:** Iris tira `1`: `1 + 3 + 2 = 6` (`CD - 2`) → **Falha Simples**. Nada no Portão, e como há pressão, a Maré avança para **1/4**.
+> - **Rodada 3:** Dorian e Vex largam as runas para escorar a porta contra a água (sem ajuda nesta rodada). Iris tira `8` natural: `8 + 3 = 11` (`CD + 3`) → **Sucesso Pleno** (2 segmentos, Portão **4/6**) **+ Máximo Natural** → **1 Dádiva Menor**, que ela usa para impedir a Maré de avançar nesta rodada.
+> - **Rodada 4:** Iris tira `3`: `3 + 3 + 2 = 8` (**CD Exata**) → 1 segmento (Portão **5/6**), mas o custo avança a Maré para **2/4**.
+> - **Rodada 5:** Iris tira `5`: `10` (`CD + 2`) → Portão **6/6**: aberto, com a Maré ainda em **2/4**.
 >
 > **Dica para o Mestre iniciante:** desenhe os dois relógios em papel na frente de todos. Ver os dois avançando ao mesmo tempo é o que cria tensão: os jogadores sabem exatamente quanto falta e quanto tempo têm.
 
@@ -359,8 +379,8 @@ Todo personagem no sistema é definido por **4 Pilares** fundamentais da existê
 
 ### Fórmulas Derivadas Oficiais
 1. **Pontos de Vida (PV) Iniciais:**
-   **PV Iniciais = (2 × Corpo) + 2**
-   *(Exemplo: Corpo 1 = 4 PV; Corpo 2 = 6 PV; Corpo 3 = 8 PV; Corpo 4 = 10 PV; Corpo 5 = 12 PV. Sempre que o Pilar Corpo aumentar permanentemente, os PV máximos sobem em `+2` imediatamente.)*
+   **PV Iniciais = (2 × Corpo) + 4**
+   *(Exemplo: Corpo 1 = 6 PV; Corpo 2 = 8 PV; Corpo 3 = 10 PV; Corpo 4 = 12 PV; Corpo 5 = 14 PV. Sempre que o Pilar Corpo aumentar permanentemente, os PV máximos sobem em `+2` imediatamente.)*
 2. **Reserva de Essência:**
    **Reserva de Essência = (Alma × 2) + Marcos Ímpares + Bônus de Rank + (3 × Núcleos Extras)**
    - **Marcos Ímpares (`1, 3, 5, 7 e 9`):** Concedem **`+1 Essência Máxima`** cada (`+5` por núcleo saturado).
@@ -380,12 +400,12 @@ O Pilar **Corpo** governa a potência muscular, os reflexos motores, a resistên
 
 | CD | Exemplos de Testes de Força |
 | :---: | :--- |
-| **5 (Trivial)** | Erguer um companheiro leve ferido; quebrar caixa de madeira podre; manter escudo firme contra vento fraco. |
-| **7 (Fácil)** | Arrombar porta de madeira trancada; escalar barranco inclinado com corda; saltar 2,5 metros com corrida. |
-| **9 (Moderada)** | Atingir criatura do mesmo Rank com espada grande; segurar portão de ferro enquanto a coorte passa; vencer queda de braço de soldado treinado. |
-| **11 (Difícil)** | Partir coluna de pedra rachada; manter uma Besta do Pesadelo imobilizada no chão; nadar contra correnteza de rio inundado com armadura. |
-| **13 (Extrema)** | Dobrar grades de aço grosso com as mãos; erguer bloco de mármore de 400 kg que esmaga aliado; aparar golpe de criatura gigante sem recuar. |
-| **15 (Divina)** | Despedaçar porta selada com liga rúnica ancestral na força bruta; deter a investida frontal de um colosso de pedra; partir corrente titânica. |
+| **3 (Trivial)** | Erguer um companheiro leve ferido; quebrar caixa de madeira podre; manter escudo firme contra vento fraco. |
+| **5 (Fácil)** | Arrombar porta de madeira trancada; escalar barranco inclinado com corda; saltar 2,5 metros com corrida. |
+| **7 (Moderada)** | Derrubar porta reforçada com o ombro; segurar portão de ferro enquanto a coorte passa; vencer queda de braço de soldado treinado. |
+| **9 (Difícil)** | Partir coluna de pedra rachada; manter uma Besta do Pesadelo imobilizada no chão; nadar contra correnteza de rio inundado com armadura. |
+| **11 (Extrema)** | Dobrar grades de aço grosso com as mãos; erguer bloco de mármore de 400 kg que esmaga aliado; aparar golpe de criatura gigante sem recuar. |
+| **13 (Divina)** | Despedaçar porta selada com liga rúnica ancestral na força bruta; deter a investida frontal de um colosso de pedra; partir corrente titânica. |
 
 - **Na Falha com Infortúnio (`CD - 4 ou pior`):** Distensão severa ou perda de equilíbrio (`I19 Fadiga Muscular` ou `I2 Golpe Pesado`), arma fica presa na estrutura/carapaça (`I3`) ou o peso cai sobre o usuário causando dano contundente.
 - **No Sucesso com Dádiva (`CD + 4+` / `CD - 1` / `Máx. Natural`):** Esmaga obstáculos adjacentes, arremessa o inimigo para longe (`D3 Desequilíbrio Tático`), racha armaduras (`D5`) ou multiplica o impacto (`D1 Golpe Perfurante`).
@@ -396,7 +416,7 @@ O Pilar **Corpo** governa a potência muscular, os reflexos motores, a resistên
 #### Regras Completas de Capacidade de Carga e Sobrecarga
 A capacidade de transporte de cada personagem escala com seu Pilar **Corpo** (modificada pelo Rank, pois a densidade muscular de Despertos e Ascendidos transcende a carne comum):
 
-| Pontuação de Corpo | Carga Normal (Sem Penalidade) | Carga Pesada (Desvantagem Agilidade / -1m mov.) | Sobrecarga Crítica (Só Anda / Exaustão/hora) | Levantamento Máximo Momentâneo (CD 9 Força) |
+| Pontuação de Corpo | Carga Normal (Sem Penalidade) | Carga Pesada (Desvantagem Agilidade / -1m mov.) | Sobrecarga Crítica (Só Anda / Exaustão/hora) | Levantamento Máximo Momentâneo (CD 7 Força) |
 | :---: | :---: | :---: | :---: | :---: |
 | **1** | Até 15 kg | 16–30 kg | 31–45 kg | 60 kg |
 | **2** | Até 25 kg | 26–50 kg | 51–75 kg | 100 kg |
@@ -415,12 +435,12 @@ A capacidade de transporte de cada personagem escala com seu Pilar **Corpo** (mo
 
 | CD | Exemplos de Testes de Agilidade |
 | :---: | :--- |
-| **5 (Trivial)** | Atravessar viga larga sobre poço raso; agarrar objeto atirado de perto; pular muro baixo sem armadura. |
-| **7 (Fácil)** | Esconder-se atrás de coluna larga na penumbra; arremessar adaga em alvo imóvel a 10m; rolar para amortecer queda de 3m. |
-| **9 (Moderada)** | Esquivar de ataque de criatura do mesmo Rank; arrombar fechadura militar com gazuas; disparar flecha contra alvo em movimento. |
-| **11 (Difícil)** | Acertar olho de fera correndo no escuro com arco; passar entre lâminas pendulares; esgueirar-se sobre cascalho solto perto de sentinelas. |
-| **13 (Extrema)** | Desviar de rajada à queima-roupa após ativação; desarmar armadilha rúnica de mola fina sob combate; correr por escombros desabando no ar. |
-| **15 (Divina)** | Deslizar entre dezenas de tentáculos mortais sem ser tocado; aparar flecha no ar com adaga; infiltrar-se diante dos olhos de um vigilante alerta sem cobertura. |
+| **3 (Trivial)** | Atravessar viga larga sobre poço raso; agarrar objeto atirado de perto; pular muro baixo sem armadura. |
+| **5 (Fácil)** | Esconder-se atrás de coluna larga na penumbra; arremessar adaga em alvo imóvel a 10m; rolar para amortecer queda de 3m. |
+| **7 (Moderada)** | Esquivar de uma armadilha de dardos; arrombar fechadura militar com gazuas; disparar flecha contra alvo em movimento. |
+| **9 (Difícil)** | Acertar olho de fera correndo no escuro com arco; passar entre lâminas pendulares; esgueirar-se sobre cascalho solto perto de sentinelas. |
+| **11 (Extrema)** | Desviar de rajada à queima-roupa após ativação; desarmar armadilha rúnica de mola fina sob combate; correr por escombros desabando no ar. |
+| **13 (Divina)** | Deslizar entre dezenas de tentáculos mortais sem ser tocado; aparar flecha no ar com adaga; infiltrar-se diante dos olhos de um vigilante alerta sem cobertura. |
 
 - **Na Falha com Infortúnio:** Tropeça e fica **Derrubado**, gera estrondo alto (`I11 Barulho Ecoante`), dispara a armadilha imediatamente ou deixa a posição vulnerável (`I1`).
 - **No Sucesso com Dádiva:** Desloca-se sem provocar reação (`D4 Passo Evasivo`), acerta ponto sensível (`D1`) ou oculta toda a sua aproximação (`D16 Silêncio Absoluto`).
@@ -437,12 +457,12 @@ A capacidade de transporte de cada personagem escala com seu Pilar **Corpo** (mo
 
 | CD | Exemplos de Testes de Vigor |
 | :---: | :--- |
-| **5 (Trivial)** | Suportar noite fria com manto fino sem fogueira; correr 500m em ritmo moderado; prender fôlego por 30 segundos. |
-| **7 (Fácil)** | Aguentar marcha normal de 10 horas na chuva; resistir a náusea leve de podridão; segurar dor de corte superficial em silêncio. |
-| **9 (Moderada)** | Resistir a veneno comum de fera do mesmo Rank; marchar em ritmo forçado sem ganhar Exaustão; ficar de pé após golpe contundente forte. |
-| **11 (Difícil)** | Sobreviver à hipotermia sem fogo por horas; resistir a veneno neurotóxico potente; lutar submerso por 2 minutos sem oxigênio. |
-| **13 (Extrema)** | Digerir coração mal preparado de Demônio sem sucumbir; suportar nevasca mortal ou calor de cratera ativa; estabilizar ferimento mortal sozinho. |
-| **15 (Divina)** | Continuar lutando com múltiplos órgãos perfurados após atingir 0 PV; resistir a praga necrótica de Rank superior; suportar ácido puro por várias rodadas. |
+| **3 (Trivial)** | Suportar noite fria com manto fino sem fogueira; correr 500m em ritmo moderado; prender fôlego por 30 segundos. |
+| **5 (Fácil)** | Aguentar marcha normal de 10 horas na chuva; resistir a náusea leve de podridão; segurar dor de corte superficial em silêncio. |
+| **7 (Moderada)** | Resistir a veneno comum de fera do mesmo Rank; marchar em ritmo forçado sem ganhar Exaustão; ficar de pé após golpe contundente forte. |
+| **9 (Difícil)** | Sobreviver à hipotermia sem fogo por horas; resistir a veneno neurotóxico potente; lutar submerso por 2 minutos sem oxigênio. |
+| **11 (Extrema)** | Digerir coração mal preparado de Demônio sem sucumbir; suportar nevasca mortal ou calor de cratera ativa; estabilizar ferimento mortal sozinho. |
+| **13 (Divina)** | Continuar lutando com múltiplos órgãos perfurados após atingir 0 PV; resistir a praga necrótica de Rank superior; suportar ácido puro por várias rodadas. |
 
 - **Na Falha com Infortúnio:** Ganha 1 a 2 níveis de **Exaustão**, condição é agravada para estágio severo (`I10`), ou o veneno acelera o ciclo de dano imediatamente.
 - **No Sucesso com Dádiva:** Anula a condição imediatamente, recupera fôlego (`D6 Fôlego do Guerreiro`) ou ganha imunidade temporária ao mesmo agente (`D19`).
@@ -462,18 +482,18 @@ O Pilar **Mente** representa o intelecto analítico, a acuidade sensorial, a mem
 
 | CD | Exemplos de Testes de Astúcia |
 | :---: | :--- |
-| **5 (Trivial)** | Notar rastro óbvio de sangue fresco na neve; perceber guarda cochilando em posto iluminado. |
-| **7 (Fácil)** | Ouvir passos pesados se aproximando na neblina; identificar armadilha rústica de corda; calcular distância segura de salto. |
-| **9 (Moderada)** | Detectar fera furtiva do mesmo Rank na penumbra; antecipar padrão de ataque de monstro em combate; achar compartimento falso bem feito. |
-| **11 (Difícil)** | Perceber emboscada preparada por batedores experientes; notar ponto fraco sutil sob escamas grossas; identificar veneno inodoro na taça. |
-| **13 (Extrema)** | Localizar assassino camuflado nas sombras pela respiração; discernir ilusão quase perfeita de criatura mental; reagir antes do bote de emboscada em 0,2s. |
-| **15 (Divina)** | Ler a intenção letal oculta de um Transcendente dissimulado; localizar criatura invisível apenas pelo deslocamento microscópico de poeira. |
+| **3 (Trivial)** | Notar rastro óbvio de sangue fresco na neve; perceber guarda cochilando em posto iluminado. |
+| **5 (Fácil)** | Ouvir passos pesados se aproximando na neblina; identificar armadilha rústica de corda; calcular distância segura de salto. |
+| **7 (Moderada)** | Detectar fera furtiva do mesmo Rank na penumbra; antecipar padrão de ataque de monstro em combate; achar compartimento falso bem feito. |
+| **9 (Difícil)** | Perceber emboscada preparada por batedores experientes; notar ponto fraco sutil sob escamas grossas; identificar veneno inodoro na taça. |
+| **11 (Extrema)** | Localizar assassino camuflado nas sombras pela respiração; discernir ilusão quase perfeita de criatura mental; reagir antes do bote de emboscada em 0,2s. |
+| **13 (Divina)** | Ler a intenção letal oculta de um Transcendente dissimulado; localizar criatura invisível apenas pelo deslocamento microscópico de poeira. |
 
 - **Na Falha com Infortúnio:** Cai na emboscada perdendo o turno inicial, interpreta pista falsa como verdadeira ou chama atenção indesejada durante a busca (`I11`).
 - **No Sucesso com Dádiva:** Antecipa a ação exata do inimigo (`D29 Leitura de Intenção`), encontra pista extra vital (`D13`) ou dá `+1` de vantagem tática inicial a um aliado (`D2`).
 
 > 🎙️ **Exemplo de Mesa (Astúcia):**
-> De vigia à noite, **Vex** (`Mente 3`, Astúcia `[X]`) testa para detectar predadores noturnos rastejando sob a neblina (CD 11). Rola `1d8 + 3`. Sai `7 + 3 = 10` (`CD - 1`, Falha com Dádiva). Ele não percebe os rastros a tempo de evitar que os monstros cerquem o perímetro, mas a Dádiva `D29 Leitura de Intenção` faz com que acorde a coorte no último segundo: ninguém começa a batalha *Surpreso* ou *Caído*!
+> De vigia à noite, **Vex** (`Mente 3`, Astúcia `[X]`) testa para detectar predadores noturnos rastejando sob a neblina (CD 9). Rola `1d8 + 3`. Sai `5 + 3 = 8` (`CD - 1`, Falha com Dádiva). Ele não percebe os rastros a tempo de evitar que os monstros cerquem o perímetro, mas a Dádiva `D29 Leitura de Intenção` faz com que acorde a coorte no último segundo: ninguém começa a batalha *Surpreso* ou *Caído*!
 
 ---
 
@@ -484,12 +504,12 @@ O Pilar **Mente** representa o intelecto analítico, a acuidade sensorial, a mem
 
 | CD | Exemplos de Testes de Vontade |
 | :---: | :--- |
-| **5 (Trivial)** | Ignorar insulto ou provocação infantil; manter calma diante de cadáver de fera comum. |
-| **7 (Fácil)** | Manter guarda firme sob rugido distante de criatura menor; resistir a sono leve durante vigília de 4 horas. |
-| **9 (Moderada)** | Resistir à aura de pavor de criatura do mesmo Rank; resistir a dor aguda ao arrancar flecha; suportar pesadelo leve sem gritar. |
-| **11 (Difícil)** | Olhar diretamente para um Terror sem paralisar; resistir a controle mental direto de criatura psíquica; forçar o corpo com 1 PV a executar manobra complexa. |
-| **13 (Extrema)** | Enfrentar o olhar esmagador de um Supremo ou Entidade de 2+ Ranks acima sem ajoelhar; expulsar parasita mental de dentro do próprio Mar da Alma. |
-| **15 (Divina)** | Resistir à voz corruptora de um Ser Profano; manter consciência intacta enquanto parte do próprio Núcleo ou Alma é dilacerada. |
+| **3 (Trivial)** | Ignorar insulto ou provocação infantil; manter calma diante de cadáver de fera comum. |
+| **5 (Fácil)** | Manter guarda firme sob rugido distante de criatura menor; resistir a sono leve durante vigília de 4 horas. |
+| **7 (Moderada)** | Resistir à aura de pavor de criatura do mesmo Rank; resistir a dor aguda ao arrancar flecha; suportar pesadelo leve sem gritar. |
+| **9 (Difícil)** | Olhar diretamente para um Terror sem paralisar; resistir a controle mental direto de criatura psíquica; forçar o corpo com 1 PV a executar manobra complexa. |
+| **11 (Extrema)** | Enfrentar o olhar esmagador de um Supremo ou Entidade de 2+ Ranks acima sem ajoelhar; expulsar parasita mental de dentro do próprio Mar da Alma. |
+| **13 (Divina)** | Resistir à voz corruptora de um Ser Profano; manter consciência intacta enquanto parte do próprio Núcleo ou Alma é dilacerada. |
 
 - **Na Falha com Infortúnio:** Fica **Amedrontado/Paralisado**, sofre **Dano de Alma** (`I25`) ou ativa compulsivamente seu **Defeito (*Flaw*)** no pior momento (`I29`).
 - **No Sucesso com Dádiva:** Inspira coragem imediata na coorte (`D25 Pulso Inspirador`), firma âncora espiritual (`D26`) ou neutraliza efeito mental do oponente na cena.
@@ -506,18 +526,18 @@ O Pilar **Mente** representa o intelecto analítico, a acuidade sensorial, a mem
 
 | CD | Exemplos de Testes de Conhecimento |
 | :---: | :--- |
-| **5 (Trivial)** | Reconhecer Besta comum de região conhecida; aplicar bandagem básica para estancar corte leve; ler idioma nativo moderno. |
-| **7 (Fácil)** | Identificar glândulas venenosas básicas em cadáver; estimar Rank aproximado de criatura comum; preparar ração simples de monstro de baixo risco. |
-| **9 (Moderada)** | Estabilizar aliado moribundo (`0 PV`); ler runas clássicas de uma Cidadela; identificar vulnerabilidade elemental de um Demônio. |
-| **11 (Difícil)** | Extrair antídoto de glândula neurotóxica em campo; decifrar língua morta de civilização do Reino dos Sonhos; reparar Memória física ou armadura rachada. |
-| **13 (Extrema)** | Realizar cirurgia de emergência para remover parasita vivo sem matar o hospedeiro; compreender mecanismo de feitiço arcaico do Tecelão. |
-| **15 (Divina)** | Traduzir texto profano proibido sem enlouquecer; identificar nome verdadeiro ou fraqueza oculta de Entidade Amaldiçoada em pleno combate. |
+| **3 (Trivial)** | Reconhecer Besta comum de região conhecida; aplicar bandagem básica para estancar corte leve; ler idioma nativo moderno. |
+| **5 (Fácil)** | Identificar glândulas venenosas básicas em cadáver; estimar Rank aproximado de criatura comum; preparar ração simples de monstro de baixo risco. |
+| **7 (Moderada)** | Estabilizar aliado moribundo (`0 PV`); ler runas clássicas de uma Cidadela; identificar vulnerabilidade elemental de um Demônio. |
+| **9 (Difícil)** | Extrair antídoto de glândula neurotóxica em campo; decifrar língua morta de civilização do Reino dos Sonhos; reparar Memória física ou armadura rachada. |
+| **11 (Extrema)** | Realizar cirurgia de emergência para remover parasita vivo sem matar o hospedeiro; compreender mecanismo de feitiço arcaico do Tecelão. |
+| **13 (Divina)** | Traduzir texto profano proibido sem enlouquecer; identificar nome verdadeiro ou fraqueza oculta de Entidade Amaldiçoada em pleno combate. |
 
 - **Na Falha com Infortúnio:** Interpretação errada leva o grupo para armadilha/estratégia falha, tratamento médico agrava infecção ou ferida (`I10`), ou a culinária deixa a comida tóxica (`I20`).
 - **No Sucesso com Dádiva:** Revela fraqueza secreta que dá `+1` ou Vantagem a toda a coorte (`D13 Pista Oculta`), extrai componente raro extra (`D14`) ou reduz o custo de recursos médicos.
 
 > 🎙️ **Exemplo de Mesa (Conhecimento):**
-> **Iris** (`Mente 3`, Conhecimento `[X]`) examina um cadáver desconhecido antes de o grupo entrar no templo (CD 9). Rola `1d8 + 3 = 13` (`CD + 4`, Sucesso Crítico!). Com a Dádiva Maior `D13 Pista Oculta`, ela não apenas identifica que a criatura é um *Ceifador de Vidro Desperto*, mas revela que seu peito reflete dano elemental enquanto suas costas têm uma placa oca que, se quebrada, o atordoa instantaneamente!
+> **Iris** (`Mente 3`, Conhecimento `[X]`) examina um cadáver desconhecido antes de o grupo entrar no templo (CD 7). Rola `1d8 + 3 = 11` (`CD + 4`, Sucesso Crítico!). Com a Dádiva Maior `D13 Pista Oculta`, ela não apenas identifica que a criatura é um *Ceifador de Vidro Desperto*, mas revela que seu peito reflete dano elemental enquanto suas costas têm uma placa oca que, se quebrada, o atordoa instantaneamente!
 
 ---
 
@@ -529,19 +549,19 @@ Toda criatura racional ou facção possui uma posição na Escala de Atitudes em
 
 | Degrau | Atitude | Comportamento Típico | Dificuldade / Modificador Social |
 | :---: | :--- | :--- | :--- |
-| **-3** | **Hostil Mortal** | Ataca à vista, recusa diálogo, deseja destruição total do grupo. | Só aceita conversa em vantagem extrema ou rendição (`CD 13–15` apenas para pausar). |
-| **-2** | **Inamistoso** | Ameaça, sabota, nega passagem ou cobra preços abusivos. | CD Base **11** para trégua, informação ou troca comercial. |
-| **-1** | **Desconfiado** | Observa de braços cruzados, exige garantias, evita comprometimento. | CD Base **9** para acordo neutro ou favor pago. |
-| **0** | **Neutro** | Trata de forma estritamente profissional ou indiferente. | CD Base **7–9** para cooperação razoável de baixo risco. |
-| **+1** | **Amistoso** | Boa vontade, concede abrigo básico, avisa de perigos locais. | CD Base **7** para ajuda material, descontos ou escolta segura. |
-| **+2** | **Aliado Leal** | Luta junto em riscos moderados, partilha segredos e recursos valiosos. | CD Base **5–7** ou automático para assistência de coorte. |
+| **-3** | **Hostil Mortal** | Ataca à vista, recusa diálogo, deseja destruição total do grupo. | Só aceita conversa em vantagem extrema ou rendição (`CD 11–13` apenas para pausar). |
+| **-2** | **Inamistoso** | Ameaça, sabota, nega passagem ou cobra preços abusivos. | CD Base **9** para trégua, informação ou troca comercial. |
+| **-1** | **Desconfiado** | Observa de braços cruzados, exige garantias, evita comprometimento. | CD Base **7** para acordo neutro ou favor pago. |
+| **0** | **Neutro** | Trata de forma estritamente profissional ou indiferente. | CD Base **5–7** para cooperação razoável de baixo risco. |
+| **+1** | **Amistoso** | Boa vontade, concede abrigo básico, avisa de perigos locais. | CD Base **5** para ajuda material, descontos ou escolta segura. |
+| **+2** | **Aliado Leal** | Luta junto em riscos moderados, partilha segredos e recursos valiosos. | CD Base **3–5** ou automático para assistência de coorte. |
 | **+3** | **Devotado / Juramentado** | Arrisca a própria vida pela Coorte ou causa comum sem hesitar. | Não exige teste para lealdade, salvo pedido suicida ou contra código pessoal. |
 
 *Deslocamento de Degraus:* Um **Sucesso Pleno** sobe **+1 degrau** (ou consegue o favor no degrau atual); um **Sucesso Crítico** sobe **+2 degraus** ou arranca concessão extraordinária. Uma **Falha com Infortúnio** derruba **-1 ou -2 degraus** e pode iniciar hostilidade aberta!
 
 ### Rede de Contatos e Influência (Mundo Real e Reino dos Sonhos)
 Personagens com **Coração ≥ 2** ou histórico adequado mantêm **Contatos** (informantes da Academia Desperta, ferreiros de Cidadelas, batedores de clãs rivais ou médicos de fronteira).
-- **Acionar Contato:** Declarar que conhece alguém útil na cidade ou Cidadela exige um teste de **Convencer** (ou **Conhecimento** se for contato acadêmico) contra **CD 9** (ou **CD 7** se o contato já for Amistoso).
+- **Acionar Contato:** Declarar que conhece alguém útil na cidade ou Cidadela exige um teste de **Convencer** (ou **Conhecimento** se for contato acadêmico) contra **CD 7** (ou **CD 5** se o contato já for Amistoso).
 - **Custo de Manutenção:** Contatos não são máquinas gratuitas; exigir favores perigosos ou recorrentes gera dívidas de Estilhaços de Alma, informações em troca ou missões futuras, garantindo que a rede de influência permaneça viva e dramática.
 
 ---
@@ -553,18 +573,18 @@ Personagens com **Coração ≥ 2** ou histórico adequado mantêm **Contatos** 
 
 | CD | Exemplos de Testes de Convencer |
 | :---: | :--- |
-| **5 (Trivial)** | Pedir informações públicas óbvias a um residente amistoso; convencer aliado leal de plano sensato. |
-| **7 (Fácil)** | Barganhar desconto justo com mercador neutro; acalmar civil assustado após perigo passar. |
-| **9 (Moderada)** | Negociar passagem segura por território de guarda desconfiado; convencer coorte cansada a marchar mais 2 horas. |
-| **11 (Difícil)** | Persuadir líder mercenário ganancioso a compartilhar saque igualmente; impedir duelo iminente entre dois Despertos furiosos. |
-| **13 (Extrema)** | Convencer facção inamistosa a lutar lado a lado contra uma horda comum; negociar perdão por crime grave diante de conselho rígido. |
-| **15 (Divina)** | Fazer um inimigo mortal juramentado baixar as armas e ouvir uma verdade impossível em pleno campo de batalha. |
+| **3 (Trivial)** | Pedir informações públicas óbvias a um residente amistoso; convencer aliado leal de plano sensato. |
+| **5 (Fácil)** | Barganhar desconto justo com mercador neutro; acalmar civil assustado após perigo passar. |
+| **7 (Moderada)** | Negociar passagem segura por território de guarda desconfiado; convencer coorte cansada a marchar mais 2 horas. |
+| **9 (Difícil)** | Persuadir líder mercenário ganancioso a compartilhar saque igualmente; impedir duelo iminente entre dois Despertos furiosos. |
+| **11 (Extrema)** | Convencer facção inamistosa a lutar lado a lado contra uma horda comum; negociar perdão por crime grave diante de conselho rígido. |
+| **13 (Divina)** | Fazer um inimigo mortal juramentado baixar as armas e ouvir uma verdade impossível em pleno campo de batalha. |
 
 - **Na Falha com Infortúnio:** Fecha portas permanentemente (`I21 Ofensa Irreversível`), aumenta exigências (`I28 Preços Dobrados`) ou acirra o conflito imediatamente.
 - **No Sucesso com Dádiva:** Eleva atitude (`D22 Simpatia Conquistada`), ganha dívida de favor futuro (`D27`) ou melhora moral dos aliados (`D25`).
 
 > 🎙️ **Exemplo de Mesa (Convencer):**
-> **Dante** (`Coração 3`, Convencer `[X]`) tenta convencer o capitão da muralha de uma Cidadela desconfiada (`Atitude -1`) a abrir os portões para seus 6 companheiros perseguidos por uma tempestade de cinzas (CD 11). Rola `1d8 + 3 = 11` (`CD Exata`). Os portões se abrem e o grupo entra, mas o Infortúnio `I28 Preços Dobrados` se aplica: o capitão cobra imediatamente 2 Estilhaços de Alma como "taxa de quarentena" e coloca guardas armados vigiando a coorte!
+> **Dante** (`Coração 3`, Convencer `[X]`) tenta convencer o capitão da muralha de uma Cidadela desconfiada (`Atitude -1`) a abrir os portões para seus 6 companheiros perseguidos por uma tempestade de cinzas (CD 9). Rola `1d8 + 3 = 9` (`CD Exata`). Os portões se abrem e o grupo entra, mas o Infortúnio `I28 Preços Dobrados` se aplica: o capitão cobra imediatamente 2 Estilhaços de Alma como "taxa de quarentena" e coloca guardas armados vigiando a coorte!
 
 ---
 
@@ -575,18 +595,18 @@ Personagens com **Coração ≥ 2** ou histórico adequado mantêm **Contatos** 
 
 | CD | Exemplos de Testes de Enganar |
 | :---: | :--- |
-| **5 (Trivial)** | Contar desculpa simples para atraso sem importância; esconder nervosismo leve diante de amigo distraído. |
-| **7 (Fácil)** | Inventar nome e profissão mundana plausível em posto de controle comum; blefar posse de recurso banal. |
-| **9 (Moderada)** | Passar por membro de expedição aliada usando uniforme certo; fingir fraqueza em combate para atrair duelista. |
-| **11 (Difícil)** | Sustentar mentira complexa diante de interrogador treinado; disfarçar origem ou Rank real perante oficiais Despertos. |
-| **13 (Extrema)** | Enganar mestre de espionagem mesmo sob evidências contraditórias; fingir morte clínica diante de inimigo atento a menos de 3m. |
-| **15 (Divina)** | Ocultar sua traição ou identidade secreta frente a um Ascendido ou Transcendente observador experiente sem levantar qualquer suspeita. |
+| **3 (Trivial)** | Contar desculpa simples para atraso sem importância; esconder nervosismo leve diante de amigo distraído. |
+| **5 (Fácil)** | Inventar nome e profissão mundana plausível em posto de controle comum; blefar posse de recurso banal. |
+| **7 (Moderada)** | Passar por membro de expedição aliada usando uniforme certo; fingir fraqueza em combate para atrair duelista. |
+| **9 (Difícil)** | Sustentar mentira complexa diante de interrogador treinado; disfarçar origem ou Rank real perante oficiais Despertos. |
+| **11 (Extrema)** | Enganar mestre de espionagem mesmo sob evidências contraditórias; fingir morte clínica diante de inimigo atento a menos de 3m. |
+| **13 (Divina)** | Ocultar sua traição ou identidade secreta frente a um Ascendido ou Transcendente observador experiente sem levantar qualquer suspeita. |
 
 - **Na Falha com Infortúnio:** Desmascarado na hora, deixa escapar verdade grave (`I23 Ruptura de Segredo`) ou transforma suspeito em hostil (`I21`).
 - **No Sucesso com Dádiva:** Extrai segredo do enganado sem ele perceber (`D21 Brecha Emocional`), oculta aura por toda a cena (`D24`) ou ganha abertura mortal (`D2`).
 
 > 🎙️ **Exemplo de Mesa (Enganar):**
-> **Selene** (`Coração 3`, Enganar `[X]`) tenta convencer o batedor de um Clã rival de que ela é a única sobrevivente perdida e não faz parte da emboscada armada pelos outros 6 colegas atrás das rochas (CD 11). Rola `1d8 + 3`. Sai `8` no dado! `8 + 3 = 11` (`CD Exata`) + **Máximo Natural (`8`)**! O batedor acredita nela, mas o custo (`I22 Suspeita Semeada`) faz ele ordenar que ela largue sua bolsa no chão antes de se aproximar; em contrapartida, o `8` natural dá a Dádiva `D21 Brecha Emocional`, e Selene percebe imediatamente pelo olhar dele onde estão escondidos os outros dois batedores inimigos!
+> **Selene** (`Coração 3`, Enganar `[X]`) tenta convencer o batedor de um Clã rival de que ela é a única sobrevivente perdida e não faz parte da emboscada armada pelos outros 6 colegas atrás das rochas (CD 11 — o batedor é desconfiadíssimo: Extrema). Rola `1d8 + 3`. Sai `8` no dado! `8 + 3 = 11` (`CD Exata`) + **Máximo Natural (`8`)**! O batedor acredita nela, mas o custo (`I22 Suspeita Semeada`) faz ele ordenar que ela largue sua bolsa no chão antes de se aproximar; em contrapartida, o `8` natural dá a Dádiva `D21 Brecha Emocional`, e Selene percebe imediatamente pelo olhar dele onde estão escondidos os outros dois batedores inimigos!
 
 ---
 
@@ -597,18 +617,18 @@ Personagens com **Coração ≥ 2** ou histórico adequado mantêm **Contatos** 
 
 | CD | Exemplos de Testes de Intimidar |
 | :---: | :--- |
-| **5 (Trivial)** | Espantar saqueadores covardes e desarmados mostrando arma rúnica acesa; silenciar taverna barulhenta. |
-| **7 (Fácil)** | Fazer sentinela solitário hesitar em soar o alarme por 1 momento; intimidar informante já encurralado. |
-| **9 (Moderada)** | Forçar grupo de bandidos do mesmo Rank a ceder passagem; provocar duelista rival a atacar você em vez de aliado ferido. |
-| **11 (Difícil)** | Fazer besta territorial ferida recuar sem luta final; arrancar confissão rápida de fanático capturado. |
-| **13 (Extrema)** | Intimidar sozinho um pelotão armado superior em número mantendo blefe mortal; fazer assassino experiente errar o alvo pelo puro peso da sua intenção. |
-| **15 (Divina)** | Impor silêncio e recuo a um guerreiro de Rank superior exibindo apenas determinação fria e presença assassina absoluta. |
+| **3 (Trivial)** | Espantar saqueadores covardes e desarmados mostrando arma rúnica acesa; silenciar taverna barulhenta. |
+| **5 (Fácil)** | Fazer sentinela solitário hesitar em soar o alarme por 1 momento; intimidar informante já encurralado. |
+| **7 (Moderada)** | Forçar grupo de bandidos do mesmo Rank a ceder passagem; provocar duelista rival a atacar você em vez de aliado ferido. |
+| **9 (Difícil)** | Fazer besta territorial ferida recuar sem luta final; arrancar confissão rápida de fanático capturado. |
+| **11 (Extrema)** | Intimidar sozinho um pelotão armado superior em número mantendo blefe mortal; fazer assassino experiente errar o alvo pelo puro peso da sua intenção. |
+| **13 (Divina)** | Impor silêncio e recuo a um guerreiro de Rank superior exibindo apenas determinação fria e presença assassina absoluta. |
 
 - **Na Falha com Infortúnio:** O alvo não recua e ataca com fúria dobrada (`I9 Alvo Prioritário`), ou sua ameaça soa vazia causando perda imediata de autoridade (`I27`).
 - **No Sucesso com Dádiva:** O alvo congela por 1 turno (`D23 Autoridade Inquestionável`), cede vantagem tática (`D3`) ou revela rota de fuga/reforços pelo medo.
 
 > 🎙️ **Exemplo de Mesa (Intimidar):**
-> Com a espada pingando sangue negro de uma criatura recém-abatida, **Kael** (`Coração 1`, sem especialização, ajudado por 2 aliados armados = `+2`) avança contra três saqueadores Despertos que bloqueiam a ponte (CD 9 + 2 por diferença de Rank se Kael for Adormecido = **CD 11**). Ele rola `1d6 + 1 + 2 = 4 + 3 = 7` (`CD - 4`, Falha com Infortúnio!). Os saqueadores riem da juventude dele, disparam instantaneamente contra ele (`I9 Alvo Prioritário`) e fecham a formação!
+> Com a espada pingando sangue negro de uma criatura recém-abatida, **Kael** (`Coração 1`, sem especialização, ajudado por 2 aliados armados = `+2`) avança contra três saqueadores Despertos que bloqueiam a ponte (CD 7 + 1 por diferença de Rank se Kael for Adormecido = **CD 8**). Ele rola `1d6 + 1 + 2` e tira `1`: `1 + 3 = 4` (`CD - 4`, Falha com Infortúnio!). Os saqueadores riem da juventude dele, disparam instantaneamente contra ele (`I9 Alvo Prioritário`) e fecham a formação!
 
 ---
 
@@ -622,18 +642,18 @@ O Pilar **Alma** representa o vínculo do personagem com o Feitiço do Pesadelo,
 
 | CD | Exemplos de Testes de Evocar |
 | :---: | :--- |
-| **5 (Trivial)** | Invocar ferramenta simples de Memória fora de pressão; emitir centelha ou brilho suave de Essência na palma. |
-| **7 (Fácil)** | Invocar Eco de combate em terreno seguro; disparar rajada elementar contra alvo imóvel ou lento. |
-| **9 (Moderada)** | Atingir criatura do mesmo Rank com habilidade ofensiva de Aspecto; ordenar Eco a executar manobra complexa sob fogo. |
-| **11 (Difícil)** | Lançar ataque em área atingindo múltiplos inimigos móveis sem ferir aliados em Corpo a Corpo; forçar manifestação espiritual através de neblina bloqueadora. |
-| **13 (Extrema)** | Sobrecarregar poder do Aspecto para ferir criatura incorpórea de Rank superior; desferir golpe direto capaz de causar Dano de Alma. |
-| **15 (Divina)** | Desencadear ataque de Aspecto em escala catastrófica contra enxame inteiro mantendo controle cirúrgico absoluto sem exaurir o Núcleo. |
+| **3 (Trivial)** | Invocar ferramenta simples de Memória fora de pressão; emitir centelha ou brilho suave de Essência na palma. |
+| **5 (Fácil)** | Invocar Eco de combate em terreno seguro; disparar rajada elementar contra alvo imóvel ou lento. |
+| **7 (Moderada)** | Acertar alvo inanimado em movimento com habilidade ofensiva de Aspecto; ordenar Eco a executar manobra complexa sob fogo. |
+| **9 (Difícil)** | Lançar ataque em área atingindo múltiplos inimigos móveis sem ferir aliados em Corpo a Corpo; forçar manifestação espiritual através de neblina bloqueadora. |
+| **11 (Extrema)** | Sobrecarregar poder do Aspecto para ferir criatura incorpórea de Rank superior; desferir golpe direto capaz de causar Dano de Alma. |
+| **13 (Divina)** | Desencadear ataque de Aspecto em escala catastrófica contra enxame inteiro mantendo controle cirúrgico absoluto sem exaurir o Núcleo. |
 
 - **Na Falha com Infortúnio:** Gasta Essência extra (`I6 Dreno de Essência`), provoca choque de retorno no Mar da Alma (`I25`), atinge aliado próximo (`I7`) ou desestabiliza o Eco (`I26`).
 - **No Sucesso com Dádiva:** Economiza Essência (`D28 Fluxo Econômico`), amplia o dano (`D1`), aplica condição elemental ou aciona Eco/Memória sem consumir Ação Menor (`D30`).
 
 > 🎙️ **Exemplo de Mesa (Evocar):**
-> **Soren** (`Alma 3`, Evocar `[X]`) dispara uma lança de relâmpago do seu Aspecto contra três Lacaios Despertos (mesmo Rank que ele) agrupados em um corredor (Ataque em Área, **CD 9**). Do alto de uma escadaria e com Ajuda de um aliado (`+2` situacional), ele tira **8** no `1d8`: `8 + 3 + 2 = 13` (`CD + 4`, Sucesso Crítico — e ainda ativa o Máximo Natural!). Além de causar **Dano + 2** em todos os três alvos numa única rolagem, escolhe a Dádiva Maior `D28 Fluxo Econômico` — não consome os 2 pontos de Essência da habilidade e o relâmpago ainda atordoa o lacaio da frente!
+> **Soren** (`Alma 3`, Evocar `[X]`) dispara uma lança de relâmpago do seu Aspecto contra três Lacaios Despertos (mesmo Rank que ele) agrupados em um corredor (Ataque em Área contra a **CD 9** da ficha dos Lacaios). Do alto de uma escadaria e com Ajuda de um aliado (`+2` situacional), ele tira **8** no `1d8`: `8 + 3 + 2 = 13` (`CD + 4`, Sucesso Crítico — e ainda ativa o Máximo Natural!). Além de causar **Dano + 2** em todos os três alvos numa única rolagem, escolhe a Dádiva Maior `D28 Fluxo Econômico` — não consome os 2 pontos de Essência da habilidade e o relâmpago ainda atordoa o lacaio da frente!
 
 ---
 
@@ -644,18 +664,18 @@ O Pilar **Alma** representa o vínculo do personagem com o Feitiço do Pesadelo,
 
 | CD | Exemplos de Testes de Abjurar |
 | :---: | :--- |
-| **5 (Trivial)** | Suprimir brilho leve da própria Essência em descanso calmo; cancelar efeito inofensivo de ilusão menor. |
-| **7 (Fácil)** | Selar ferimento leve contra contaminação ambiental; erguer barreira rápida contra chuva ácida fraca. |
-| **9 (Moderada)** | Anular ataque espiritual/elemental de criatura do mesmo Rank; suprimir completamente aura espiritual durante infiltração tensa. |
-| **11 (Difícil)** | Dissipar maldição ativa sobre companheiro no meio do combate; purificar veneno espiritual no sangue antes do dano letal. |
-| **13 (Extrema)** | Banir parasita psíquico invadindo o Mar da Alma; bloquear ataque em área letal protegendo até 2 aliados adjacentes. |
-| **15 (Divina)** | Dissipar efeito de Domínio ou feitiço ancestral de Rank muito superior; purgar estilhaço inicial de Corrupção do Pesadelo do próprio Núcleo. |
+| **3 (Trivial)** | Suprimir brilho leve da própria Essência em descanso calmo; cancelar efeito inofensivo de ilusão menor. |
+| **5 (Fácil)** | Selar ferimento leve contra contaminação ambiental; erguer barreira rápida contra chuva ácida fraca. |
+| **7 (Moderada)** | Anular uma armadilha espiritual/elemental comum; suprimir completamente aura espiritual durante infiltração tensa. |
+| **9 (Difícil)** | Dissipar maldição ativa sobre companheiro no meio do combate; purificar veneno espiritual no sangue antes do dano letal. |
+| **11 (Extrema)** | Banir parasita psíquico invadindo o Mar da Alma; bloquear ataque em área letal protegendo até 2 aliados adjacentes. |
+| **13 (Divina)** | Dissipar efeito de Domínio ou feitiço ancestral de Rank muito superior; purgar estilhaço inicial de Corrupção do Pesadelo do próprio Núcleo. |
 
 - **Na Falha com Infortúnio:** A barreira estilhaça causando dano direto no Núcleo (`I25`), sua aura explode em brilho visível a quilômetros (`I24 Vazamento de Aura`) ou a corrupção avança **1 Marca** (*Ver Cap. 12.2*).
 - **No Sucesso com Dádiva:** Reflete parte do efeito contra o atacante, purifica aliado adjacente (`D26 Âncora no Mar da Alma`) ou sela a área por toda a cena.
 
 > 🎙️ **Exemplo de Mesa (Abjurar):**
-> Uma Névoa Espectral tenta invadir a mente de **Iris** (`Alma 3`, Abjurar `[X]`) enquanto ela medita (CD 11). Ela rola `1d8 + 3 = 12` (`CD + 1`, Sucesso Pleno). A muralha interna de seu Mar da Alma repele a invasão sem que ela perca 1 único ponto de Essência ou integridade espiritual!
+> Uma Névoa Espectral tenta invadir a mente de **Iris** (`Alma 3`, Abjurar `[X]`) enquanto ela medita (CD 11 da criatura). Ela rola `1d8 + 3 = 12` (`CD + 1`, Sucesso Pleno). A muralha interna de seu Mar da Alma repele a invasão sem que ela perca 1 único ponto de Essência ou integridade espiritual!
 
 ---
 
@@ -666,18 +686,18 @@ O Pilar **Alma** representa o vínculo do personagem com o Feitiço do Pesadelo,
 
 | CD | Exemplos de Testes de Canalizar |
 | :---: | :--- |
-| **5 (Trivial)** | Transferir 1 ponto de Essência para Memória simples em ambiente seguro; identificar o fluxo rúnico de objeto desperto comum. |
-| **7 (Fácil)** | Nutrir Eco com Estilhaços de Alma após combate; manter efeito contínuo de Memória sob caminhada difícil. |
-| **9 (Moderada)** | Executar Reforço Corporal preciso durante choque crítico; canalizar energia para reativar altar antigo em combate; manter 2 efeitos contínuos simultâneos. |
-| **11 (Difícil)** | Fundir fluxo de Essência com um aliado para Ataque Combinado em Dupla elemental; tecer runa de selamento sob pressão. |
-| **13 (Extrema)** | Reparar Memória severamente estilhaçada antes que desapareça para sempre; drenar ou redirecionar fluxo rúnico de mecanismo inimigo. |
-| **15 (Divina)** | Sincronizar a Essência de todos os 7 membros da Coorte num ritual único perfeito; reescrever temporariamente uma runa de tecido ancestral. |
+| **3 (Trivial)** | Transferir 1 ponto de Essência para Memória simples em ambiente seguro; identificar o fluxo rúnico de objeto desperto comum. |
+| **5 (Fácil)** | Nutrir Eco com Estilhaços de Alma após combate; manter efeito contínuo de Memória sob caminhada difícil. |
+| **7 (Moderada)** | Executar Reforço Corporal preciso durante choque crítico; canalizar energia para reativar altar antigo em combate; manter 2 efeitos contínuos simultâneos. |
+| **9 (Difícil)** | Fundir fluxo de Essência com um aliado para Ataque Combinado em Dupla elemental; tecer runa de selamento sob pressão. |
+| **11 (Extrema)** | Reparar Memória severamente estilhaçada antes que desapareça para sempre; drenar ou redirecionar fluxo rúnico de mecanismo inimigo. |
+| **13 (Divina)** | Sincronizar a Essência de todos os 7 membros da Coorte num ritual único perfeito; reescrever temporariamente uma runa de tecido ancestral. |
 
 - **Na Falha com Infortúnio:** Fluxo se rompe drenando Essência (`I6`), Memória sofre sobrecarga entrando em recarga longa (`I4`) ou o Mar da Alma sofre choque (`I25`).
 - **No Sucesso com Dádiva:** Fluxo flui sem gasto extra (`D28 Fluxo Econômico`), repara Memória trincada instantaneamente (`D30 Eco de Memória`) ou amplifica o bônus do aliado para `+2`.
 
 > 🎙️ **Exemplo de Mesa (Canalizar):**
-> **Soren** e **Nyx** precisam reativar o obelisco de um Gateway enquanto bestas escalam a escadaria (Relógio de 6 segmentos, CD 9 por turno). Soren (`Alma 3`, Canalizar `[X]`) rola `1d8 + 3`. Tira `8` no dado + `3` = `11` (`CD + 2`, Sucesso Pleno + **Máximo Natural `8`**!). Ele preenche **2 segmentos** do Relógio pelo Sucesso Pleno e usa a Dádiva Menor gratuita (`D17 Ritmo Sustentado`) para preencher **+1 segmento extra**, fechando metade do portal em apenas um turno!
+> **Soren** e **Nyx** precisam reativar o obelisco de um Gateway enquanto bestas escalam a escadaria (Relógio de 6 segmentos, CD 9 por turno — Difícil, sob ataque). Soren (`Alma 3`, Canalizar `[X]`) rola `1d8 + 3`. Tira `8` no dado + `3` = `11` (`CD + 2`, Sucesso Pleno + **Máximo Natural `8`**!). Ele preenche **2 segmentos** do Relógio pelo Sucesso Pleno e usa a Dádiva Menor gratuita (`D17 Ritmo Sustentado`) para preencher **+1 segmento extra**, fechando metade do portal em apenas um turno!
 
 ---
 
@@ -710,22 +730,22 @@ Esconder-se de um guarda humano é uma coisa; esconder-se de uma Aberração do 
 Ao tentar infiltração, o Tecelão informa quais vetores a ameaça utiliza. Uma falha em **qualquer** vetor ativo pode denunciar a Coorte:
 1. **Visão (Agilidade):** Exige cobertura física ou Penumbra/Escuridão. Em terreno aberto iluminado, furtividade visual é impossível sem magia ou camuflagem completa.
 2. **Ruído (Agilidade):** Armaduras pesadas ou passos em cascalho/água rasa aumentam a CD base em **`+2`** (ou impõem **Desvantagem** se não houver cuidado).
-3. **Olfato Físico (Vigor / Conhecimento / Preparação):** Feras caçadoras rastreiam sangue aberto (`Sangrando`), suor intenso ou comida fresca até a faixa **Longe** contra o vento. Exige posicionar-se **a favor do vento** (`-2` na CD), usar lama/ervas mascaradoras (`Conhecimento CD 7`), ou purificar feridas abertas.
+3. **Olfato Físico (Vigor / Conhecimento / Preparação):** Feras caçadoras rastreiam sangue aberto (`Sangrando`), suor intenso ou comida fresca até a faixa **Longe** contra o vento. Exige posicionar-se **a favor do vento** (`-2` na CD), usar lama/ervas mascaradoras (`Conhecimento CD 5`), ou purificar feridas abertas.
 4. **Brilho da Alma / Vazamento de Aura (Alma — *Abjurar*):** Criaturas espirituais, sensores rúnicos e predadores corruptos detectam Essência exposta. Quanto maior o Rank e maior a quantidade de Núcleos/Memórias ativas, mais forte o brilho:
-   - **Adormecido discreto (sem Memórias acesas):** CD base 7 para suprimir com *Abjurar*.
-   - **Desperto+ com Reserva alta ou Memória ativa:** CD base 9 a 11 para suprimir o Vazamento de Aura.
+   - **Adormecido discreto (sem Memórias acesas):** CD base 5 para suprimir com *Abjurar*.
+   - **Desperto+ com Reserva alta ou Memória ativa:** CD base 7 a 9 para suprimir o Vazamento de Aura.
    - **Infortúnio `I24 Vazamento de Aura`:** O Núcleo oscila e acende como um sinalizador por 1 rodada!
 
 ### Protocolo de Emboscada para Coortes de 7 Jogadores
 Coordenar 7 pessoas para atacar de surpresa exige divisão clara de funções (evitando 7 rolagens redundantes que garantam um desastre):
 1. **Designação de Grupos:** A Coorte divide-se em **Vanguarda Furtiva** (até 3 batedores ágeis que posicionam-se perto) e **Corpo de Apoio/Distância** (os demais escondidos em cobertura segura na faixa **Distante**).
-2. **Teste Coordenado da Vanguarda:** A Vanguarda realiza um **Teste de Coorte Unida** de *Agilidade* (e *Abjurar* se houver sensores espirituais) contra a **CD de Percepção da Presa (`7 + Astúcia da criatura ± Rank`)**.
+2. **Teste Coordenado da Vanguarda:** A Vanguarda realiza um **Teste de Coorte Unida** de *Agilidade* (e *Abjurar* se houver sensores espirituais) contra a **CD de Percepção da Presa (`7 + Astúcia da criatura ± 1 por Rank`)**.
    - **Sucesso da Maioria:** A emboscada é perfeita! A Coorte recebe uma **Rodada de Surpresa** gratuita antes da Iniciativa normal, onde **todos os 7 membros** agem com **Vantagem** (ou `+2` na rolagem dentro do `Cap +3` se preferirem combinar bônus) contra alvos desprevenidos.
    - **Falha Simples (`CD - 2/-3`):** O inimigo percebe algo errado no último instante. Não há Rodada de Surpresa, mas a Coorte ainda recebe **`+1` no teste de Iniciativa**.
    - **Falha com Infortúnio (`CD - 4+`):** A Vanguarda é descoberta isolada! O inimigo age primeiro ou ataca a Vanguarda antes que o Corpo de Apoio entre no alcance ideal.
 
 > 🎙️ **Exemplo de Mesa (Furtividade e Emboscada):**
-> A coorte de 7 jogadores quer emboscar um *Lobo-Cinza Caído* (2 Ranks acima dos Adormecidos = `+4` na CD; Astúcia base 3 → CD 14). Em vez de todos os 7 caminharem juntos no cascalho, apenas **Lyra** e **Vex** (especialistas em *Agilidade* e *Abjurar*) formam a Vanguarda sob vento contrário e cobertos de cinzas para mascarar o cheiro (`-2` na CD → **CD 12**), enquanto os outros 5 aguardam em silêncio atrás de um muro a 20m. Lyra e Vex passam com `13` e `14`! A Coorte conquista a **Rodada de Surpresa**, permitindo que arqueiros e evocadores atirem com Vantagem absoluta antes de a fera sequer uivar!
+> A coorte de 7 jogadores quer emboscar um *Lobo-Cinza Caído* (`7 + Astúcia 3` + 2 Ranks acima dos Adormecidos = `+2` na CD → **CD 12**). Em vez de todos os 7 caminharem juntos no cascalho, apenas **Lyra** e **Vex** (especialistas em *Agilidade* e *Abjurar*) formam a Vanguarda sob vento contrário e cobertos de cinzas para mascarar o cheiro (`-2` na CD → **CD 10**), enquanto os outros 5 aguardam em silêncio atrás de um muro a 20m. Lyra e Vex passam com `13` e `14`! A Coorte conquista a **Rodada de Surpresa**, permitindo que arqueiros e evocadores atirem com Vantagem absoluta antes de a fera sequer uivar!
 
 ---
 
@@ -737,7 +757,7 @@ Quando a Coorte enfrenta uma horda impossível ou um Tirano muito acima de seu R
 - **Zonas de Distância (0 a 5):** Define-se uma distância inicial (geralmente **Zona 2** — faixa **Distante**). **Cada personagem marca a própria Zona** (retardatários podem ficar para trás); a Coorte só escapa quando todos chegam à Zona 5, ou deixa alguém para trás por escolha.
   - **Chegar à Zona 5 (ou completar Relógio de Fuga de 6 segmentos):** A Coorte escapa e perde o rastro dos perseguidores.
   - **Cair para Zona 0:** Os perseguidores alcançam os mais lentos e o combate mortal inicia imediatamente!
-- **A Rodada de Perseguição:** A cada rodada, o Tecelão apresenta um **Obstáculo no Caminho** (tabela abaixo) e anuncia uma CD (base 9 ± Rank). Cada jogador escolhe **como superar** (Agilidade para saltar fendas, Força para derrubar pilares bloqueadores, Vigor para manter corrida, Astúcia para achar atalho, Evocar para criar barreira de fogo/sombras).
+- **A Rodada de Perseguição:** A cada rodada, o Tecelão apresenta um **Obstáculo no Caminho** (tabela abaixo) e anuncia uma CD (base 7 ± 1 por Rank). Cada jogador escolhe **como superar** (Agilidade para saltar fendas, Força para derrubar pilares bloqueadores, Vigor para manter corrida, Astúcia para achar atalho, Evocar para criar barreira de fogo/sombras).
   - **Sucesso Crítico (`CD + 4+`):** Avança **+2 Zonas** (ou abre atalho que dá **Vantagem** para 1 aliado retardatário).
   - **Sucesso Pleno (`CD + 1 a + 3`):** Avança **+1 Zona**.
   - **CD Exata (Sucesso com Custo):** Mantém distância (`+0 Zona`), mas sofre 1 nível de **Exaustão** ou perde um item leve para manter velocidade.
@@ -763,10 +783,10 @@ Quando a Coorte enfrenta uma horda impossível ou um Tirano muito acima de seu R
 
 ### Uso de Iscas, Barreiras e Sacrifícios Heroicos
 - **Largar Isca / Sacrificar Recurso:** Jogar carne fresca, uma Memória explosiva ou uma carga de pólvora/óleo concede **`+2` situacional** (ou **Vantagem**) para toda a Coorte avançar **+1 Zona automática** na rodada.
-- **Sacrifício de Retaguarda (Segurar o Gargalo):** Um guerreiro pode declarar que para voluntariamente na **Zona 1** para conter os perseguidores por 1 rodada completa (fazendo um teste defensivo ou ataque de contenção CD 11+). Se passar na CD (mesmo em `CD Exata`), garante **+2 Zonas imediatas de avanço para os outros 6 companheiros**, mesmo ficando em risco mortal de enfrentar sozinho a vanguarda inimiga na rodada seguinte!
+- **Sacrifício de Retaguarda (Segurar o Gargalo):** Um guerreiro pode declarar que para voluntariamente na **Zona 1** para conter os perseguidores por 1 rodada completa (fazendo um teste defensivo ou ataque de contenção CD 9+). Se passar na CD (mesmo em `CD Exata`), garante **+2 Zonas imediatas de avanço para os outros 6 companheiros**, mesmo ficando em risco mortal de enfrentar sozinho a vanguarda inimiga na rodada seguinte!
 
 > 🎙️ **Exemplo de Mesa (Perseguição e Isca):**
-> Fogem de um *Enxame de Demônios-Gafanhoto* partindo da **Zona 2**. Na Rodada 1 surge a Complicação `11: Portão Pesado Baixando` (CD 9). **Kael** segura o portão com *Força* (`12`, Sucesso Pleno, permitindo aos outros passarem sem penalidade!) e a maioria avança para a **Zona 3**, mas **Theron** falha (`CD - 3`) e cai para a **Zona 1**. Na Rodada 2, **Soren** joga uma Memória de óleo inflamável como **Isca/Barreira**, concedendo **Vantagem** e **`+1 Zona` automática** à Coorte inteira — quem já estava na **Zona 3** soma o `+1` automático ao próprio Sucesso Pleno e chega à **Zona 5**; Theron, vindo da Zona 1, tira Sucesso Crítico com a Vantagem (`+2 Zonas` `+1` da isca = **Zona 4**). Na Rodada 3, um único Sucesso Pleno leva Theron à Zona 5 e a Coorte sela a galeria atrás de si!
+> Fogem de um *Enxame de Demônios-Gafanhoto* partindo da **Zona 2**. Na Rodada 1 surge a Complicação `11: Portão Pesado Baixando` (CD 7). **Kael** segura o portão com *Força* (`9`, Sucesso Pleno, permitindo aos outros passarem sem penalidade!) e a maioria avança para a **Zona 3**, mas **Theron** falha (`CD - 3`) e cai para a **Zona 1**. Na Rodada 2, **Soren** joga uma Memória de óleo inflamável como **Isca/Barreira**, concedendo **Vantagem** e **`+1 Zona` automática** à Coorte inteira — quem já estava na **Zona 3** soma o `+1` automático ao próprio Sucesso Pleno e chega à **Zona 5**; Theron, vindo da Zona 1, tira Sucesso Crítico com a Vantagem (`+2 Zonas` `+1` da isca = **Zona 4**). Na Rodada 3, um único Sucesso Pleno leva Theron à Zona 5 e a Coorte sela a galeria atrás de si!
 
 ---
 
@@ -781,13 +801,13 @@ Em *Shadow Slave RPG*, uma campanha nunca deve travar porque todo mundo tirou `2
 
 ### Leitura de Runas Arcaicas e Enigmas Antigos
 O Reino dos Sonhos está repleto de **Runas do Feitiço**, escritas pré-cataclismo e selos dos Daemons ou dos Deuses antigos:
-- **Runas Básicas do Feitiço (Memórias/Cidadelas):** Todo Desperto e Adormecido lê sua própria interface rúnica instintivamente; ler selos simples de portas antigas usa **Conhecimento** (CD 7–9).
+- **Runas Básicas do Feitiço (Memórias/Cidadelas):** Todo Desperto e Adormecido lê sua própria interface rúnica instintivamente; ler selos simples de portas antigas usa **Conhecimento** (CD 5–7).
 - **Línguas Mortas e Runas de Tecelagem Avançada:** Exigem **Conhecimento** para traduzir o significado linguístico e **Canalizar** para compreender como a Essência flui pelos entalhes (frequentemente em um **Relógio de Progresso de 4 ou 6 segmentos**, onde dois jogadores podem colaborar!).
 - **Enigmas Antigos:** Nunca puna um jogador porque *ele na vida real* não resolveu um enigma lógico em 10 segundos. Use a combinação de **interpretação na mesa + testes de Mente (Conhecimento/Astúcia)** para conceder dicas graduais ou confirmar hipóteses do personagem antes de girar a engrenagem errada!
 
 ### Ciclo de 3 Etapas para Armadilhas (Físicas, Rúnicas e de Alma)
 Armadilhas de ruínas antigas são letais, não meros incômodos de 1 de dano:
-1. **Etapa 1 — Detecção (`Astúcia` ou `Canalizar` para Rúnicas):** Notar placas de pressão, fios quase invisíveis, entalhes de Essência dormente ou cheiro de gás antes de pisar (CD 7 a 13).
+1. **Etapa 1 — Detecção (`Astúcia` ou `Canalizar` para Rúnicas):** Notar placas de pressão, fios quase invisíveis, entalhes de Essência dormente ou cheiro de gás antes de pisar (CD 5 a 11).
 2. **Etapa 2 — Análise de Gatilho (`Conhecimento` ou `Canalizar`):** Entender o mecanismo (ex.: *"se cortarmos este fio, a porta abre, mas o teto cai; devemos travar o contrapeso primeiro"*). Um sucesso aqui garante **`+2` situacional** (ou **Vantagem**) na Etapa 3!
 3. **Etapa 3 — Desarme ou Contorno (`Agilidade` para Mecânicas / `Abjurar` ou `Canalizar` para Rúnicas):**
    - **Sucesso Pleno / Crítico:** Armadilha desarmada perfeitamente (e pode até ser **reaproveitada contra monstros perseguidores** com a Dádiva `D14`!).
@@ -795,7 +815,7 @@ Armadilhas de ruínas antigas são letais, não meros incômodos de 1 de dano:
    - **Falha (`≤ CD - 2`):** A armadilha dispara! Alvos na zona rolam teste defensivo imediato (*Agilidade*, *Vigor* ou *Abjurar*).
 
 > 🎙️ **Exemplo de Mesa (Desarme em 3 Etapas):**
-> No corredor de um templo antigo, **Vex** detecta runas quase apagadas sob a poeira (`Astúcia CD 11` → tira `12`). **Iris** analisa o gatilho rúnico (`Canalizar CD 9` → tira `11`) e descobre que pisar na placa prateada dispara lâminas de ar **mas também tranca a saída** — concedendo **`+2` situacional** à Etapa 3! **Nyx** então executa o desarme espiritual (`Alma 3`, Abjurar `[X]` + `2` da Etapa 2 = `1d8 + 5`, CD 11): rola `13`, desarma a armadilha perfeitamente e ainda aproveita a Dádiva `D14` para drenar 1 carga rúnica útil do selo!
+> No corredor de um templo antigo, **Vex** detecta runas quase apagadas sob a poeira (`Astúcia CD 9` → tira `12`). **Iris** analisa o gatilho rúnico (`Canalizar CD 7` → tira `9`) e descobre que pisar na placa prateada dispara lâminas de ar **mas também tranca a saída** — concedendo **`+2` situacional** à Etapa 3! **Nyx** então executa o desarme espiritual (`Alma 3`, Abjurar `[X]` + `2` da Etapa 2 = `1d8 + 5`, CD 9): rola `13`, desarma a armadilha perfeitamente e ainda aproveita a Dádiva `D14` para drenar 1 carga rúnica útil do selo!
 
 ---
 
@@ -810,58 +830,58 @@ Quando um personagem cai, calcula-se o dano pela altura. Antes do impacto, pode 
 
 | Faixa de Altura | Dano Base da Queda | CD para Amortecer | Consequência Adicional em Falha (`≤ CD - 2`) |
 | :---: | :---: | :---: | :--- |
-| **3m a 5m** | `1 de Dano` | **CD 7** | Fica **Derrubado**. |
-| **6m a 10m** | `3 de Dano` | **CD 9** | Fica **Derrubado** e sofre **1 nível de Exaustão** de choque. |
-| **11m a 20m** | `6 de Dano` | **CD 11** | Sofre **Ferimento Grave** (Fratura ou Torção Severa) além do dano. |
-| **21m a 40m** | `10 de Dano` | **CD 13** | **Ferimento Grave Garantido** + condição **Atordoado** por 1 rodada. |
-| **41m a 60m+** *(Terminal)* | `14+ de Dano` (Mortal) | **CD 15** | Para Adormecidos/Despertos sem proteção de Essência ou voo, leva imediatamente a **0 PV (Moribundo)** ou morte instantânea em abismos profundos. *(Ascendidos+ reduzem dano de queda em 4 pontos naturalmente pela densidade corporal).* |
+| **3m a 5m** | `1 de Dano` | **CD 5** | Fica **Derrubado**. |
+| **6m a 10m** | `3 de Dano` | **CD 7** | Fica **Derrubado** e sofre **1 nível de Exaustão** de choque. |
+| **11m a 20m** | `6 de Dano` | **CD 9** | Sofre **Ferimento Grave** (Fratura ou Torção Severa) além do dano. |
+| **21m a 40m** | `10 de Dano` | **CD 11** | **Ferimento Grave Garantido** + condição **Atordoado** por 1 rodada. |
+| **41m a 60m+** *(Terminal)* | `14+ de Dano` (Mortal) | **CD 13** | Para Adormecidos/Despertos sem proteção de Essência ou voo, leva imediatamente a **0 PV (Moribundo)** ou morte instantânea em abismos profundos. *(Ascendidos+ reduzem dano de queda em 4 pontos naturalmente pela densidade corporal).* |
 
 ### 2. Afogamento, Sufocamento e Combate Submerso
 - **Reserva de Fôlego:**
   - **Em repouso ou nado calmo:** Segura o ar por **`2 + Vigor` minutos**.
-  - **Sob combate, esforço intenso ou dano sofrido:** O oxigênio dura apenas **`3 + Vigor` rodadas**. Cada vez que sofrer dano debaixo d'água e falhar em teste de **Vigor CD 9**, perde **1 rodada extra de fôlego** pelo choque.
-- **Quando o Ar Acaba:** Ao zerar as rodadas de fôlego, o personagem precisa rolar **Vigor** no início de cada turno (CD começa em **9** e sobe **`+2` por rodada** subsequente). Se falhar, cai imediatamente para **0 PV (Moribundo por Asfixia)** e sofre `1 de dano` letal adicional por turno se não for retirado à superfície.
+  - **Sob combate, esforço intenso ou dano sofrido:** O oxigênio dura apenas **`3 + Vigor` rodadas**. Cada vez que sofrer dano debaixo d'água e falhar em teste de **Vigor CD 7**, perde **1 rodada extra de fôlego** pelo choque.
+- **Quando o Ar Acaba:** Ao zerar as rodadas de fôlego, o personagem precisa rolar **Vigor** no início de cada turno (CD começa em **7** e sobe **`+2` por rodada** subsequente). Se falhar, cai imediatamente para **0 PV (Moribundo por Asfixia)** e sofre `1 de dano` letal adicional por turno se não for retirado à superfície.
 - **Regras de Combate Submerso:**
   - Armas de corte amplo ou impacto pesado (espadas largas, machados, martelos, arcos comuns) sofrem **Desvantagem** debaixo d'água pela resistência hidráulica.
   - Armas perfurantes (lanças, adagas, estoques, tridentes) e habilidades de Aspecto compatíveis atacam **sem penalidade de Desvantagem**.
   - Todo movimento sem natação adaptada custa o dobro do esforço (terreno difícil).
 
 ### 3. Frio Extremo e Hipotermia
-Em regiões glaciais ou tempestades da Costa Esquecida à noite, a exposição sem abrigo ou agasalho térmico dispara testes periódicos de **Vigor** (a cada hora em nevasca severa, ou a cada 4 horas em frio moderado; CD 7 a 13 conforme severidade):
+Em regiões glaciais ou tempestades da Costa Esquecida à noite, a exposição sem abrigo ou agasalho térmico dispara testes periódicos de **Vigor** (a cada hora em nevasca severa, ou a cada 4 horas em frio moderado; CD 5 a 11 conforme severidade):
 - **Estágio 1 (Calafrios):** `1º erro` → Desvantagem em testes de destreza fina (*Agilidade* manual).
 - **Estágio 2 (Hipotermia Moderada):** `2º erro` → Ganha **1 nível de Exaustão**, movimento reduzido pela metade, perde `1 PV` se dormir sem calor.
-- **Estágio 3 (Congelamento Severo / Morte Branca):** `3º erro` → Condição **Congelado/Hipotérmico**, sofre `1 de Dano` por hora (ignora armadura comum), cai inconsciente e morre se não for aquecido com fogo/Essência e tratado (`Conhecimento CD 9`).
+- **Estágio 3 (Congelamento Severo / Morte Branca):** `3º erro` → Condição **Congelado/Hipotérmico**, sofre `1 de Dano` por hora (ignora armadura comum), cai inconsciente e morre se não for aquecido com fogo/Essência e tratado (`Conhecimento CD 7`).
 
 ### 4. Calor Vulcânico, Insolação e Desidratação
 - **Consumo Hídrico:** Em calor árido ou vulcânico, a necessidade diária de água **dobra** (mínimo 4 litros/dia por humano comum).
-- **Fadiga Térmica:** Armaduras metálicas pesadas impõem **`+2 na CD`** (ou Desvantagem) em testes de **Vigor** contra calor intenso (realizados a cada hora de marcha sob sol escaldante ou câmara magmática, CD 9 a 13).
+- **Fadiga Térmica:** Armaduras metálicas pesadas impõem **`+2 na CD`** (ou Desvantagem) em testes de **Vigor** contra calor intenso (realizados a cada hora de marcha sob sol escaldante ou câmara magmática, CD 7 a 11).
 - **Desidratação:** Cada dia completo sem água limpa aplica **+1 nível de Exaustão** automático que **não pode ser curado por descanso** até que o personagem hidrate-se adequadamente. A partir do 3º dia sem água, começa a perder `1 PV` máximo temporário por dia até colapsar.
 
 ### 5. Ácidos, Lava e Fogo (Tabela Comparativa)
 | Agente | Intensidade / Exemplo | Dano por Rodada de Contato | CD de Evasão/Resistência | Como Extinguir / Neutralizar |
 | :--- | :--- | :---: | :--- | :--- |
-| **Fogo Comum** | Tocha, fogueira, óleo em chamas | `1 de Dano` | **CD 7** (*Agilidade* para apagar) | Rolar no chão (Ação Maior) ou jogar água/areia. |
-| **Fogo Intenso** | Incêndio estrutural, sopro de Besta ígnea | `2 de Dano` | **CD 9** (*Agilidade* ou *Vigor*) | Rolar/abafar com manto grosso ou *Abjurar* CD 9. |
-| **Chamas Profanas / Brancas** | Aspectos ígneos de Rank alto, fogo abissal | `3–4 de Dano` *(pode causar Dano de Alma)* | **CD 11–13** (*Abjurar* ou *Vigor*) | Água comum não apaga! Exige *Abjurar* ou supressão de Essência. |
-| **Ácido Corrosivo** | Secreção de verme, poço alquímico | `2 de Dano` *(corrói armadura mundana `-1`)* | **CD 9–11** (*Agilidade* / *Vigor*) | Lavar com água abundante, álcool ou raspar secreção. |
-| **Lava Magmática** | Rio vulcânico, fenda magmática | `5 de Dano` *(respingo `2`)* | **CD 13+** (*Vigor* / *Agilidade*) | Sair imediatamente do contato; água ferve e gera vapor escaldante (`1 dano`). |
+| **Fogo Comum** | Tocha, fogueira, óleo em chamas | `1 de Dano` | **CD 5** (*Agilidade* para apagar) | Rolar no chão (Ação Maior) ou jogar água/areia. |
+| **Fogo Intenso** | Incêndio estrutural, sopro de Besta ígnea | `2 de Dano` | **CD 7** (*Agilidade* ou *Vigor*) | Rolar/abafar com manto grosso ou *Abjurar* CD 7. |
+| **Chamas Profanas / Brancas** | Aspectos ígneos de Rank alto, fogo abissal | `3–4 de Dano` *(pode causar Dano de Alma)* | **CD 9–11** (*Abjurar* ou *Vigor*) | Água comum não apaga! Exige *Abjurar* ou supressão de Essência. |
+| **Ácido Corrosivo** | Secreção de verme, poço alquímico | `2 de Dano` *(corrói armadura mundana `-1`)* | **CD 7–9** (*Agilidade* / *Vigor*) | Lavar com água abundante, álcool ou raspar secreção. |
+| **Lava Magmática** | Rio vulcânico, fenda magmática | `5 de Dano` *(respingo `2`)* | **CD 11+** (*Vigor* / *Agilidade*) | Sair imediatamente do contato; água ferve e gera vapor escaldante (`1 dano`). |
 
 ### 6. As 5 Categorias de Venenos do Pesadelo
 Venenos extraídos ou inoculados por Criaturas do Pesadelo pertencem a 5 classes distintas, testadas com **Vigor** (para os físicos) ou **Abjurar / Vontade** (para os espirituais) conforme a CD do Rank da fonte:
 
 | Categoria | Vetor Típico | Latência | Efeito da Falha no Teste | Tratamento / Antídoto |
 | :--- | :--- | :---: | :--- | :--- |
-| **1. Hemotóxico** | Presas de serpentes, ferrões sanguíneos | 1 rodada | `1–2 de Dano` por rodada por 3 rodadas + condição **Sangrando** persistente (impede coagulação natural). | Soro coagulante (`Conhecimento CD 9`) ou purificação de Essência. |
-| **2. Neurotóxico** | Aranhas da sombra, dardos de escorpião | Imediata | Aplica **Desvantagem física**; segunda falha causa condição **Atordoado** ou **Paralisado** por `1d6` rodadas (asfixia em casos graves). | Antídoto específico (`Conhecimento CD 11`) ou choque elétrico/estimulante. |
-| **3. Necrótico** | Mordidas de carniçais, lodo de pântano morto | 1 minuto | Apodrece carne ao redor da ferida: reduz **PV Máximos em -1 por hora** (cura normal não restaura até ser purgado). | Cirurgia de limpeza profunda (`Conhecimento CD 11`) + cauterização ou *Abjurar*. |
-| **4. Alucinógeno** | Esporos fúngicos, pólen psíquico, névoas | 1 rodada | Visões terríveis de pesadelo: **Desvantagem em Mente** e alvo confunde aliados com monstros se falhar em **Vontade CD 9+**. | Carvão ativado, repouso forçado longe da fonte ou choque de *Vontade*. |
-| **5. Veneno de Alma** | Ferrões espectrais, sangue de Terror profano | Imediata | Corrói o fluxo espiritual: causa **`1 de Dano de Alma` por hora/rodada** e impede recuperação de **Essência** enquanto ativo! | Exige exclusivamente **Abjurar CD 11+** ou Relíquia/Aspecto purificador. |
+| **1. Hemotóxico** | Presas de serpentes, ferrões sanguíneos | 1 rodada | `1–2 de Dano` por rodada por 3 rodadas + condição **Sangrando** persistente (impede coagulação natural). | Soro coagulante (`Conhecimento CD 7`) ou purificação de Essência. |
+| **2. Neurotóxico** | Aranhas da sombra, dardos de escorpião | Imediata | Aplica **Desvantagem física**; segunda falha causa condição **Atordoado** ou **Paralisado** por `1d6` rodadas (asfixia em casos graves). | Antídoto específico (`Conhecimento CD 9`) ou choque elétrico/estimulante. |
+| **3. Necrótico** | Mordidas de carniçais, lodo de pântano morto | 1 minuto | Apodrece carne ao redor da ferida: reduz **PV Máximos em -1 por hora** (cura normal não restaura até ser purgado). | Cirurgia de limpeza profunda (`Conhecimento CD 9`) + cauterização ou *Abjurar*. |
+| **4. Alucinógeno** | Esporos fúngicos, pólen psíquico, névoas | 1 rodada | Visões terríveis de pesadelo: **Desvantagem em Mente** e alvo confunde aliados com monstros se falhar em **Vontade CD 7+**. | Carvão ativado, repouso forçado longe da fonte ou choque de *Vontade*. |
+| **5. Veneno de Alma** | Ferrões espectrais, sangue de Terror profano | Imediata | Corrói o fluxo espiritual: causa **`1 de Dano de Alma` por hora/rodada** e impede recuperação de **Essência** enquanto ativo! | Exige exclusivamente **Abjurar CD 9+** ou Relíquia/Aspecto purificador. |
 
 ### 7. Doenças, Maldições Biológicas e Parasitas do Pesadelo
 - **Incubação e Progressão:** Ao contrário de venenos rápidos, doenças e parasitas possuem período de incubação (horas a dias). Ao fim de cada **Ciclo Diário (24h)**, o infectado rola **Vigor** (ou **Vontade/Abjurar** para pragas espirituais) contra a CD da enfermidade:
   - **2 Sucessos acumulados:** O sistema imunológico/Essência vence e elimina a infecção.
   - **Cada Falha:** Agrava a condição (Estágio 1: Fadiga/Exaustão; Estágio 2: Febre/Perda de PV máximos ou Essência; Estágio 3: Risco de morte ou metamorfose parasita!).
-- **Parasitas Físicos/Espirituais:** Criaturas como *Ovos de Larva Cerebral* ou *Sementes de Espinho* exigem extração manual (`Conhecimento CD 11–13`, causando `2 de Dano` ao hospedeiro em caso de `CD Exata` ou falha) ou expulsão direta dentro do **Mar da Alma** (veja Capítulo 4).
+- **Parasitas Físicos/Espirituais:** Criaturas como *Ovos de Larva Cerebral* ou *Sementes de Espinho* exigem extração manual (`Conhecimento CD 9–11`, causando `2 de Dano` ao hospedeiro em caso de `CD Exata` ou falha) ou expulsão direta dentro do **Mar da Alma** (veja Capítulo 4).
 
 ---
 
@@ -912,7 +932,7 @@ A jornada da humanidade sob o Feitiço do Pesadelo divide-se em **6 Ranks ontol�
 
 | Rank Humano | Gatilho de Ascensão | Teto de Pilares | Acesso à Essência e Capacidades Distintas |
 | :--- | :--- | :---: | :--- |
-| **1. Aspirante (Mundano)** | Infectado pelo **Feitiço do Pesadelo** (pré-1º Pesadelo) | **3** (máx. 3 na criação) | **Nenhuma Essência.** Sem Aspecto ou Memórias. Totalmente vulnerável a horrores (`+2` CD por Rank contra Despertos/Adormecidos). |
+| **1. Aspirante (Mundano)** | Infectado pelo **Feitiço do Pesadelo** (pré-1º Pesadelo) | **3** (máx. 3 na criação) | **Nenhuma Essência.** Sem Aspecto ou Memórias. Totalmente vulnerável a horrores (`+1` CD por Rank contra Despertos/Adormecidos). |
 | **2. Adormecido (*Sleeper*)** | Sobrevive ao **Primeiro Pesadelo** | **3** (**4** no Marco 10) | Desperta Núcleo, **Aspecto Adormecido**, Defeito (*Flaw*) e Reserva de Essência. **Sem Reforço Corporal consciente.** |
 | **3. Desperto (*Awakened*)** | Após a convocação do **Solstício**, sobrevive no Reino dos Sonhos e atravessa o **Portal (*Gateway*)** de uma Cidadela de volta à Terra | **3** (**4** no Marco 10) | Libera **Habilidade Desperta** e **Reforço Corporal com Essência**; alterna entre Terra e Reino dos Sonhos por Portais. |
 | **4. Ascendido (*Master*)** | Conquista o **Segundo Pesadelo** | **4** | Corpo e Alma fundem-se; viaja fisicamente ao Reino dos Sonhos; libera **Habilidade Ascendida** e resistência física superior. |
@@ -956,7 +976,7 @@ Sempre que uma Criatura do Pesadelo é abatida pela Coorte, ocorrem dois fenôme
 | **1 Rank Abaixo** | **2 a 5 Fragmentos** | Útil em grande volume para fechar Marcos finais com segurança. |
 | **Mesmo Rank** | **10 a 25 Fragmentos** *(conforme Classe)* | Fonte padrão de progressão equilibrada em expedições. |
 | **1 Rank Acima** | **40 a 80 Fragmentos** | Salto maciço! Exige horas de digestão espiritual (*Vigor/Canalizar*) para não causar dor febril. |
-| **2+ Ranks Acima** | **100+ Fragmentos** *(1 Marco inteiro ou mais!)* | Tesouro inestimável; absorver apressadamente causa **Dano de Alma** se falhar em *Vigor/Vontade CD 11*. |
+| **2+ Ranks Acima** | **100+ Fragmentos** *(1 Marco inteiro ou mais!)* | Tesouro inestimável; absorver apressadamente causa **Dano de Alma** se falhar em *Vigor/Vontade CD 9*. |
 
 ### A Escala Oficial dos 10 Marcos de Saturação
 Um Núcleo da Alma humano padrão comporta **1.000 Fragmentos** até atingir a saturação plena. Essa jornada é medida em **10 Marcos de Saturação** de **100 Fragmentos cada**, seguindo a fórmula oficial **`Reserva de Essência = (Alma × 2) + Marcos Ímpares (1, 3, 5, 7 e 9 = +1 cada) + Bônus de Rank (Aspecto Transcendente/Supremo +1, Sagrado +2; Humano: Desperto +2, Ascendido +4, Transcendente +6, Supremo +8) + (3 × Núcleos Extras [Aspectos Divinos])`**:
@@ -996,7 +1016,7 @@ Enquanto humanos normais possuem **apenas 1 Núcleo da Alma** durante toda a vid
 
 ### Regra de Formação de Novos Núcleos (Sem Custo de XP)
 - **Zero Custo de XP:** Caso um personagem possua um Aspecto especial capaz de formar múltiplos núcleos (ou ao evoluir um **Eco** alimentado por Estilhaços), criar um novo Núcleo **NÃO consome pontos de experiência (XP)**.
-- **Condição Única:** Basta preencher **100% do Núcleo atual** até atingir o novo limiar de saturação exigido pela classe (1.000 para o 1º, 2.000 adicionais para o 2º, 3.000 para o 3º, e assim por diante) e superar o ritual interno de condensação do Mar da Alma (`Vontade` + `Vigor` CD 11+ sob repouso seguro).
+- **Condição Única:** Basta preencher **100% do Núcleo atual** até atingir o novo limiar de saturação exigido pela classe (1.000 para o 1º, 2.000 adicionais para o 2º, 3.000 para o 3º, e assim por diante) e superar o ritual interno de condensação do Mar da Alma (`Vontade` + `Vigor` CD 9+ sob repouso seguro).
 - **Retorno Imediato:** Assim que o novo Núcleo nasce no Mar da Alma, o personagem soma imediatamente **`+3` à Reserva de Essência** pela fórmula oficial e amplia sua capacidade de sustentar habilidades em escala assombrosa! *(Quando um Núcleo extra enche seus próprios Marcos até 10, aplica os mesmos Marcos na nova barra de reserva conforme regra da tabela do Aspecto. Pela Seção 12.3.B, cada novo Núcleo também concede `+1 PV Máximo` e `+1 Manifestação auxiliar` do Aspecto.)*
 
 ---
@@ -1033,7 +1053,7 @@ Para evitar rolagens demoradas de ordem numérica de 1 a 20 entre 7 jogadores e 
 
 ### Determinando Quem Age Primeiro
 1. **Caso de Emboscada Bem-Sucedida:** A Coorte age integralmente numa **Rodada de Surpresa** gratuita antes do combate normal (Seção 3.2).
-2. **Encontro Frontal / Sem Surpresa:** O Tecelão anuncia a **CD de Reação do Encontro** (Padrão: **CD 9** + `±2` por Rank da criatura dominante, ou **CD 11** se os inimigos forem muito velozes/predadores).
+2. **Encontro Frontal / Sem Surpresa:** O Tecelão anuncia a **CD de Reação do Encontro** (Padrão: **CD 7** + `±1` por Rank de diferença da criatura dominante, ou **CD 9** se os inimigos forem muito velozes/predadores).
    - Todos os jogadores (ou até 2 batedores designados, caso usem a *Regra da Maioria*) rolam **Astúcia** ou **Agilidade**.
    - **Na Rodada 1:** Apenas os jogadores que atingirem ou superarem a CD (`≥ CD`, lembrando que `CD Exata` gera um pequeno custo de abertura ou perda de Reação inicial!) agem **antes** da primeira onda de ataques do Pesadelo (*Vanguarda da Coorte*). Em seguida, os monstros executam suas ações; por fim, o restante dos jogadores que falhou na Iniciativa fecha a Rodada 1.
    - **Da Rodada 2 em Diante:** Os dois blocos alternam livremente: **Turno Completo da Coorte (todos os 7 jogadores agem na ordem tática que combinarem entre si)** seguido pelo **Turno do Pesadelo**. Isso permite que os 7 jogadores montem combos cinematográficos, empurrem alvos para armadilhas aliadas, abram guardas e curem companheiros antes do próximo golpe!
@@ -1041,7 +1061,7 @@ Para evitar rolagens demoradas de ordem numérica de 1 a 20 entre 7 jogadores e 
 ### Economia de Ações por Turno
 No seu turno, todo combatente dispõe de:
 - **1 Ação Maior (Principal):** Atacar, lançar Habilidade de Aspecto complexa, executar uma das **15 Manobras Táticas**, prestar primeiros socorros, usar item elaborado ou trocar por uma **2ª Ação de Movimento** (*Disparada*).
-- **1 Ação de Movimento:** Avançar ou recuar **1 Faixa de Distância** (equivalente a ~8–10m em terreno aberto), buscar Cobertura, sacar/trocar arma física no cinto ou levantar-se da condição **Derrubado** (gastando metade do movimento).
+- **1 Ação de Movimento:** Avançar ou recuar **1 Faixa de Distância** (equivalente a ~8–10m em terreno aberto), buscar Cobertura, sacar/trocar arma física no cinto ou levantar-se da condição **Derrubado** (gastando metade do movimento; criaturas derrubadas gastam a **Ação Maior**, veja a manobra *Derrubar*).
 - **1 Ação Menor (Rápida):** Invocar ou dispensar uma **Memória** (se não exigir ritual longo), aplicar **Reforço Corporal** (Desperto+), beber poção já na mão, ativar propriedade secundária de Memória ou dar comando verbal curto.
 - **1 Reação (Fora do Turno):** Usada durante o Turno do Pesadelo ou de aliados para ativar manobras reativas especiais (*Proteger Aliado*, *Contra-Ataque Preparado*, *Abjurar* feitiço súbito ou *Passo Evasivo* especial). Recupera-se no início do seu próximo turno.
   - **Regra Vital de Defesa Gratuita:** Esquivar-se ou aparar ataques básicos direcionados a você durante o Turno do Pesadelo são **Testes Defensivos Gratuitos** e **NÃO consomem sua única Reação da rodada**! (Você só perde o direito à Defesa Gratuita se estiver *Atordoado*, *Inconsciente* ou sob efeito de Infortúnio `I8 Perda de Reação`, caso em que defende com Desvantagem ou sofre o golpe em cheio).
@@ -1076,7 +1096,7 @@ Todos os bônus numéricos abaixo integram o **`Cap +3` de Bônus Situacional**:
 
 Qualquer personagem pode executar estas **15 Manobras Táticas** declarando-as antes de rolar o dado (algumas exigem condições específicas ou armas adequadas). Todas respeitam o **`Cap +3`** e a **Matriz de Graus de Sucesso**:
 
-> 📌 **"CD do Alvo" / "CD de Defesa" / "CD Física":** Sempre que uma manobra citar a CD do alvo, use a **CD de combate anunciada pelo Tecelão** para aquela criatura (padrão **9 ± 2 por Rank**, Seção 1.3, já incluindo modificadores da ficha). Contra NPCs humanos sem CD pronta, use a CD Estática da Seção 1.7 (`7 + Pilar relevante ± Rank`; *Corpo* para manobras físicas).
+> 📌 **"CD do Alvo" / "CD de Defesa" / "CD Física":** Sempre que uma manobra citar a CD do alvo, use a **CD de combate anunciada pelo Tecelão** para aquela criatura (a CD da ficha da criatura `± 1 por Rank`, Seção 1.3, já incluindo modificadores da ficha). Contra NPCs humanos sem CD pronta, use a CD Estática da Seção 1.7 (`7 + Pilar relevante ± Rank`; *Corpo* para manobras físicas).
 
 ### 1. Mirar em Ponto Fraco / Parte Destrutível
 - **Pilar / Custo:** *Força*, *Agilidade* ou *Evocar* | **Ação Maior**
@@ -1086,9 +1106,10 @@ Qualquer personagem pode executar estas **15 Manobras Táticas** declarando-as a
 
 ### 2. Derrubar (*Knockdown / Trip*)
 - **Pilar / Custo:** *Força* ou *Agilidade* (com arma versátil, haste ou desarmado) | **Ação Maior**
-- **CD:** CD de Defesa Física do alvo (`+2` se for quadrúpede ou de tamanho Grande; impossível fisicamente contra Titãs sem habilidade especial).
-- **Sucesso Pleno / Crítico:** Causa metade do dano da arma (mín. 1) **E** deixa o alvo **Derrubado** (ataques em *Corpo a Corpo* contra alvo Derrubado ganham **Vantagem**; ataques à distância contra ele sofrem `-1`).
-- **CD Exata:** Derruba o alvo, mas o atacante também perde o equilíbrio (`I5`) ou cai junto no chão.
+- **CD:** CD de Defesa Física do alvo (`+1` se for quadrúpede ou de tamanho Grande; impossível fisicamente contra Titãs sem habilidade especial).
+- **Sucesso Pleno / Crítico:** Causa o **dano normal da arma** (`+2` no Crítico) **E** deixa o alvo **Derrubado** (ataques em *Corpo a Corpo* contra alvo Derrubado ganham **Vantagem**; ataques à distância contra ele sofrem `-1`).
+- **CD Exata:** Derruba o alvo, mas o atacante também perde o equilíbrio (`I5`).
+- **Criatura Derrubada:** no turno seguinte, a criatura **gasta a Ação Maior para se levantar** — não ataca naquela rodada (ainda pode usar Reação e Movimento). Depois de se levantar, fica **Firme** até o fim da rodada seguinte: não pode ser Derrubada de novo nesse intervalo.
 
 ### 3. Empurrar no Abismo (*Shove*)
 - **Pilar / Custo:** *Força* (ou *Evocar* cinético) | **Ação Maior** (ou substituindo 1 golpe em investida)
@@ -1099,7 +1120,7 @@ Qualquer personagem pode executar estas **15 Manobras Táticas** declarando-as a
 ### 4. Agarrar / Imobilizar (*Grapple*)
 - **Pilar / Custo:** *Força* (exige ao menos uma mão livre ou corda/rede) | **Ação Maior**
 - **CD:** CD Física do alvo.
-- **Sucesso Pleno / Crítico:** O alvo recebe a condição **Agarrado** (velocidade `0`, não pode afastar-se de você, ataques dele sofrem **Desvantagem**). No próximo turno, enquanto mantiver a chave, você pode usar Ação Maior para causar dano de esmagamento/estrangulamento automático ou convertê-lo em **Imobilizado** (paralisia completa das ações físicas, se passar novo teste CD 9+).
+- **Sucesso Pleno / Crítico:** O alvo recebe a condição **Agarrado** (velocidade `0`, não pode afastar-se de você, ataques dele sofrem **Desvantagem**). No próximo turno, enquanto mantiver a chave, você pode usar Ação Maior para causar dano de esmagamento/estrangulamento automático ou convertê-lo em **Imobilizado** (paralisia completa das ações físicas, se passar novo teste CD 7+).
 - **CD Exata:** Agarra o alvo, mas ambos ficam travados no chão perdendo suas **Reações** (`I8`).
 
 ### 5. Desarmar
@@ -1109,7 +1130,7 @@ Qualquer personagem pode executar estas **15 Manobras Táticas** declarando-as a
 
 ### 6. Fintar
 - **Pilar / Custo:** *Enganar* ou *Agilidade* | **Ação Maior** (ou **Ação Menor** se tiver Especialização `[X]` em *Enganar*)
-- **CD:** `7 + Astúcia do Alvo ± Rank`.
+- **CD:** `7 + Astúcia do Alvo ± 1 por Rank`.
 - **Sucesso Pleno / Crítico:** Engana completamente a leitura do oponente! Seu próximo ataque contra ele (ou o do próximo aliado, em Crítico) recebe **`+2` situacional** (respeitando `Cap +3`) **OU** ignora o bônus de escudo/postura defensiva dele neste turno.
 - **CD Exata:** O alvo morde a isca (`+1` para você), mas desfere um golpe instintivo de retaliação (`I1`).
 
@@ -1128,7 +1149,7 @@ Qualquer personagem pode executar estas **15 Manobras Táticas** declarando-as a
 
 ### 9. Fogo de Supressão
 - **Pilar / Custo:** *Agilidade* (arco/besta/arremesso) ou *Evocar* (rajada contínua) | **Ação Maior** (gasta 2 munições ou 1 Essência)
-- **CD:** CD 9 (ajustada por Rank) para saturar uma zona curta de até 4m de largura.
+- **CD:** CD 7 (ajustada por Rank) para saturar uma zona curta de até 4m de largura.
 - **Sucesso Pleno / Crítico:** Causa pouco ou nenhum dano direto (`1 de dano` em Crítico), **MAS** todos os inimigos naquela zona sofrem **Desvantagem** em seus ataques à distância e não podem avançar pela zona sem sofrer **1 ataque imediato livre**! Ideal para arqueiros protegerem o avanço da vanguarda.
 - **CD Exata:** Cria a zona de supressão por 1 rodada, mas esgota munição extra/sobreaquece Memória (`I4`/`I12`).
 
@@ -1140,13 +1161,13 @@ Qualquer personagem pode executar estas **15 Manobras Táticas** declarando-as a
 
 ### 11. Provocar / Atrair Foco (*Taunt*)
 - **Pilar / Custo:** *Intimidar* ou *Enganar* | **Ação Menor** ou **Ação Maior**
-- **CD:** `7 + Vontade/Astúcia do Alvo ± Rank`.
+- **CD:** `7 + Vontade/Astúcia do Alvo ± 1 por Rank`.
 - **Sucesso Pleno / Crítico:** Obriga o alvo (ou até 2 lacaios irracionais) a atacar **exclusivamente você** na próxima rodada ou sofrer **Desvantagem** ao tentar atacar qualquer outro aliado da Coorte! Fundamental para tanques de vanguarda protegerem evocadores frágeis.
 - **CD Exata:** Atrai o foco, mas o monstro ataca você com fúria redobrada (`+1` na CD para você se defender).
 
 ### 12. Ataque Combinado em Dupla (Combo de Coorte)
-- **Pilar / Custo:** Dois jogadores declarando juntos! Jogador A usa **Ação Maior** para *Preparar/Canalizar* (`Agilidade`, `Força` ou `Canalizar` CD 9); Jogador B executa o golpe final na mesma rodada usando **Ação Maior**.
-- **Mecânica:** Se Jogador A passar no preparo, concede **`+2` situacional** (sujeito ao `Cap +3`) ou converte em **Vantagem** e **`+2 de Dano` elementais/físicos extras** ao ataque de Jogador B! Se envolver fusão de Aspectos incompatíveis ou complexos, exige teste de *Canalizar* CD 11.
+- **Pilar / Custo:** Dois jogadores declarando juntos! Jogador A usa **Ação Maior** para *Preparar/Canalizar* (`Agilidade`, `Força` ou `Canalizar` CD 7); Jogador B executa o golpe final na mesma rodada usando **Ação Maior**.
+- **Mecânica:** Se Jogador A passar no preparo, concede **`+2` situacional** (sujeito ao `Cap +3`) ou converte em **Vantagem** e **`+2 de Dano` elementais/físicos extras** ao ataque de Jogador B! Se envolver fusão de Aspectos incompatíveis ou complexos, exige teste de *Canalizar* CD 9.
 - **CD Exata (no golpe final):** O golpe combinado acerta devastadoramente, mas ambos os jogadores perdem suas **Reações** pela sincronia exaustiva.
 
 ### 13. Carga Implacável (*Charge*)
@@ -1182,7 +1203,7 @@ Armas mundanas e **Memórias de Armamento** diferenciam-se não apenas pelo dano
 | **Aparar / Defensiva** | Concede **`+1` situacional** (sujeito ao `Cap +3`) em **Testes Defensivos** contra ataques corpo a corpo enquanto empunhada ativamente. | Escudos, espadas de guarda longa, parrying dagger. |
 | **Foco Rúnico** | Permite canalizar ataques de **Evocar** ou **Canalizar** através da arma, somando sua propriedade elemental ou concedendo **`+1` em testes de Alma** ligados ao elemento da arma. | Cajados rúnicos, lâminas encantadas, sinos de osso. |
 | **Ocultável** | Fácil de esconder sob vestes; concede **`+2` situacional** em testes de *Enganar/Agilidade* contra revistas físicas e bônus no primeiro *Ataque Furtivo*. | Estilete, agulha de veneno, adaga curva. |
-| **Silenciosa** | Não gera estrondo ou estalo ao golpear/disparar; mantém o atacante oculto mesmo após disparar de cobertura se passar em *Agilidade CD 9*. | Zarabatana, arco curto envolto em pano, adaga umbrosa. |
+| **Silenciosa** | Não gera estrondo ou estalo ao golpear/disparar; mantém o atacante oculto mesmo após disparar de cobertura se passar em *Agilidade CD 7*. | Zarabatana, arco curto envolto em pano, adaga umbrosa. |
 | **Destruidora de Carapaça** | Causa dano total (em vez de metade) ao executar a manobra **Quebrar Carapaça/Armadura** e reduz armaduras naturais em `-1` extra no Crítico! | Martelo picareta, maça pesada, marreta de cerco. |
 
 ---
@@ -1201,17 +1222,17 @@ Em combates contra hordas de 15 lacaios ou quando um monstro dispara um sopro fl
 
 ### Choque de Vontades (*Clash of Wills*)
 O combate entre seres tocados pelo Feitiço não é apenas carne contra aço — é **convicção contra convicção**. Quando um personagem confronta uma criatura tirânica, tenta avançar sob uma aura esmagadora de terror de Rank superior, ou trava duelo decisivo golpe-a-golpe onde recuar significa morte certa, ocorre um **Choque de Vontades**:
-- **Como Funciona:** O jogador rola **Mente (`Vontade`)** — ou **Alma (`Canalizar`)** se estiver canalizando intenção através do Núcleo — contra uma CD estabelecida pelo Rank e ferocidade do oponente (CD base `9 ± 2 por Rank`).
+- **Como Funciona:** O jogador rola **Mente (`Vontade`)** — ou **Alma (`Canalizar`)** se estiver canalizando intenção através do Núcleo — contra uma CD estabelecida pelo Rank e ferocidade do oponente (CD base `7 ± 1 por Rank`; contra uma criatura com ficha, use a CD da ficha `± 1 por Rank`).
 - **Efeitos do Choque:**
   - **Sucesso Pleno / Crítico:** A força espiritual do personagem rasga a pressão inimiga! O alvo perde sua aura intimidadora por 1 rodada e o vencedor ganha **Vantagem** (ou **`+2` no próximo golpe decisivo**, sujeito ao `Cap +3`).
   - **CD Exata:** Impasse violento de vontades! O personagem consegue agir normalmente ignorando o terror/diferença de Rank neste turno, **MAS** sofre **1 ponto de Dano de Alma** ou gasta **1 Essência** pelo desgaste mental.
   - **Falha (`≤ CD - 2`):** A vontade do adversário esmaga a postura do jogador, impondo a condição **Amedrontado** ou derrubando sua guarda para o ataque seguinte.
 
 > 🎙️ **Exemplo de Mesa (Combate Coordenado de 7 Jogadores):**
-> A Coorte enfrenta um **Carcereiro de Ferro Caído** (1 Rank acima dos Despertos → `+2 na CD`, CD base 9 vira **CD 11**; Redução de Dano `2`).
+> A Coorte enfrenta um **Carcereiro de Ferro Caído** (CD `10` na ficha, 1 Rank acima dos Despertos → `+1 na CD` = **CD 11**; Redução de Dano `2`).
 > 1. **Kael (Tanque)** gasta Ação Maior para **Quebrar Carapaça** com seu Martelo *Destruidor de Carapaça* (`Corpo 3`, Força `[X]` + `1` Flanqueio = `1d8 + 4`) contra a CD do alvo `+1` da manobra (**CD 12**). Rola `13` (`CD + 1`, Sucesso Pleno): causa dano total no martelo e reduz a Armadura do Carcereiro para `1`!
 > 2. **Vex (Batedor)** executa **Fintar** com Ação Menor (`Coração 3`, Enganar `[X]` → `13`, Sucesso Pleno), deixando o monstro aberto para o próximo golpe.
-> 3. **Garrick (Lanceiro)** e **Soren (Evocador)** declaram um **Ataque Combinado em Dupla**: Garrick prepara a estocada conduzindo a energia (`Alma 2`, Canalizar), passa na CD 9 e transfere `+2` + `+2 de Dano` ao golpe elétrico de Soren! Somado ao `+1` da Memória rúnica e `+1` da Vantagem de Altura de Soren, o bônus externo chega a `+4` (travando no `Cap +3` e convertendo o `+1` excedente em **Vantagem**, `2d8` pega o maior)!
+> 3. **Garrick (Lanceiro)** e **Soren (Evocador)** declaram um **Ataque Combinado em Dupla**: Garrick prepara a estocada conduzindo a energia (`Alma 2`, Canalizar), passa na CD 7 e transfere `+2` + `+2 de Dano` ao golpe elétrico de Soren! Somado ao `+1` da Memória rúnica e `+1` da Vantagem de Altura de Soren, o bônus externo chega a `+4` (travando no `Cap +3` e convertendo o `+1` excedente em **Vantagem**, `2d8` pega o maior)!
 > 4. **Lyra (Arqueira)** cobre o flanco com **Fogo de Supressão** impedindo que 3 lacaios menores avancem contra **Iris (Médica)** e **Nyx (Purificadora)** na retaguarda, enquanto **Theron** prepara **Proteger Aliado** para segurar o machado telegrafado do chefe! Em menos de 3 minutos reais de mesa, todos os 7 jogadores agiram como uma engrenagem mortal perfeita!
 
 ---
@@ -1225,7 +1246,7 @@ Sobreviver a um combate é apenas metade da batalha no Reino dos Sonhos. As cons
 ## 6.1 Vitalidade, Dano Físico vs. Dano de Alma e Alma Estilhaçada
 
 ### Pontos de Vida (PV) e Dano Físico
-- **PV Máximos:** Calculados pela fórmula oficial **`(2 × Corpo) + 2`** (ampliada caso os **Marcos 2 e 6** de Saturação ou propriedades especiais concedam PV adicionais).
+- **PV Máximos:** Calculados pela fórmula oficial **`(2 × Corpo) + 4`** (ampliada caso os **Marcos 2 e 6** de Saturação ou propriedades especiais concedam PV adicionais).
 - **Redução de Dano Físico:** Armaduras mundanas, carapaças de Memórias, escudos defensivos e o **Reforço Corporal** (apenas a partir de Desperto) reduzem o Dano Físico antes de subtrair os PV (geralmente mínimo `1 de Dano` se o ataque acertou em cheio, salvo se a Redução igualar ou superar totalmente o dano total do golpe).
 - **Recuperação de Essência e Descansos:** Em movimento, a Essência volta passivamente à razão de **metade de `1 + Alma` por hora** (arredonde para cima, mín. 1); meditando no Mar da Alma, **`1 + Alma` por hora** (Seção 4.1). Um **Descanso Curto** (~30–60 min entre cenas) não restaura Essência por si só, mas permite meditar; um **Descanso Longo** (noite de 6–8h em local seguro) **restaura toda a Reserva Atual de Essência** (salvo Rachaduras Espirituais, que reduzem o máximo — veja abaixo).
 - **Recuperação Natural:** Uma noite completa de sono seguro e bem alimentado restaura **`1 + Vigor` PV** (mínimo 1 PV, e nenhum PV é recuperado se estiver Desidratado, Faminto ou sob Infecção/Hemorragia ativa).
@@ -1236,13 +1257,13 @@ Enquanto feridas na carne sangram, golpes contra o espírito dilaceram a própri
 - **Como o Dano de Alma Funciona:**
   1. **Ignora Armadura Física:** Placas de aço e escudos mundanos oferecem **zero proteção** contra Dano de Alma (apenas Memórias explicitamente descritas como espirituais/mentais ou testes de *Abjurar* o mitigam).
   2. **Consome Essência Primeiro, Depois Racha o Núcleo:** Cada **1 ponto de Dano de Alma** sofrido subtrai primeiro **1 ponto da Reserva Atual de Essência**. Se o personagem estiver com **0 de Essência** (ou se o ataque causar dano espiritual direto além da reserva atual), o excedente converte-se em **Rachaduras Espirituais**, reduzindo temporariamente a **Reserva Máxima de Essência** (e a **Integridade da Alma**).
-  3. **Cura Lenta e Difícil:** Rachaduras Espirituais **não curam apenas dormindo**; exigem meditação profunda no Mar da Alma aliada a testes de **Abjurar** ou **Canalizar** (CD 11 durante acampamento, recuperando `1 ponto` por noite tranquila), ou consumo moderado de Estilhaços/relíquias restauradoras.
+  3. **Cura Lenta e Difícil:** Rachaduras Espirituais **não curam apenas dormindo**; exigem meditação profunda no Mar da Alma aliada a testes de **Abjurar** ou **Canalizar** (CD 9 durante acampamento, recuperando `1 ponto` por noite tranquila), ou consumo moderado de Estilhaços/relíquias restauradoras.
 
 ### Alma Estilhaçada (Colapso Espiritual)
 Se o total de Rachaduras Espirituais reduzir a **Reserva Máxima de Essência Efetiva para `0`** (ou destruir o Núcleo em combate interior):
 1. **Colapso Imediato:** O personagem cai em choque catatônico (**Inconsciente/Moribundo espiritual**) com sangramento pelos olhos e ouvidos.
 2. **Perda de Tecelagem:** Uma **Memória vinculada** (ou Eco) aleatória racha e estilhaça permanentemente a cada rodada sem socorro.
-3. **Janela Crítica (1 Cena / 24h):** Se um aliado não estabilizar o Núcleo com **Abjurar** ou **Canalizar (CD 13)**, o Núcleo da Alma se desfaz por completo:
+3. **Janela Crítica (1 Cena / 24h):** Se um aliado não estabilizar o Núcleo com **Abjurar** ou **Canalizar (CD 11)**, o Núcleo da Alma se desfaz por completo:
    - Se for **Adormecido ou Desperto** no Reino dos Sonhos, sua alma é apagada e o corpo físico na Terra vira um **Vazio (*Hollow*)** irreversível.
    - Se for **Ascendido+** (ou no Mundo Desperto), morre definitivamente — ou, se contaminado por Essência abissal, renasce como uma **Criatura Corrompida** controlada pelo Tecelão!
 
@@ -1252,26 +1273,26 @@ Se o total de Rachaduras Espirituais reduzir a **Reserva Máxima de Essência Ef
 
 ### Estado Moribundo (`0 PV`) e Primeiros Socorros
 - Ao chegar a **`0 PV`**, o personagem cai **Inconsciente / Moribundo**. Se o ataque único que o derrubou tiver causado **Dano Excedente igual ou maior que seus PV Máximos** (ex.: tinha `2 PV` de `8 PV Máx.` e sofreu `10 de Dano` de uma só vez → sobra `8`), sofre morte instantânea por aniquilação física!
-- **Primeiros Socorros em Campo:** Um aliado adjacente usa **Ação Maior** e rola **Conhecimento (Medicina)** contra **CD 9** (ou **CD 11** sem kit médico/bandagens):
+- **Primeiros Socorros em Campo:** Um aliado adjacente usa **Ação Maior** e rola **Conhecimento (Medicina)** contra **CD 7** (ou **CD 9** sem kit médico/bandagens):
   - **Sucesso Crítico (`CD + 4+`):** Estabiliza imediatamente, devolve **`1 PV`** (o aliado acorda exausto, mas consciente) e evita Ferimento Grave adicional.
   - **Sucesso Pleno (`CD + 1 a + 3`):** Estabiliza os sinais vitais! O moribundo para de sangrar até a morte, permanecendo inconsciente com `0 PV` estável.
   - **CD Exata (Sucesso com Custo):** Estabiliza, mas gasta suprimento crítico (`I12`) e o ferido contrai um **Ferimento Grave** permanente até cirurgia adequada.
-  - **Falha (`≤ CD - 2`):** O sangramento não estanca; após `3 rodadas` (ou 3 falhas acumuladas da equipe/do moribundo em *Vigor CD 9*), o personagem entra em **Agonia Crítica (Regra das 24 Horas)** ou morre no local se não houver intervenção imediata!
+  - **Falha (`≤ CD - 2`):** O sangramento não estanca; após `3 rodadas` (ou 3 falhas acumuladas da equipe/do moribundo em *Vigor CD 7*), o personagem entra em **Agonia Crítica (Regra das 24 Horas)** ou morre no local se não houver intervenção imediata!
 
 > 🎙️ **Exemplo de Mesa (Primeiros Socorros):**
-> **Vaelor** cai a `0 PV` com um golpe de `3 de Dano` (tinha `2 PV` de `10 PV Máx.`; o excedente de `1` é menor que seus PV Máximos, então ele **não** morre na hora). **Lyra**, adjacente e com kit de bandagens, usa sua **Ação Maior**: `Conhecimento (Medicina)` contra **CD 9**. Ela rola `1d6 + 2 (Mente)` e tira `4` → total `6` (`CD - 3`): **Falha**. Na rodada seguinte ela tenta de novo e tira `6` → `8` (`CD - 1`, **Falha com Dádiva**): o sangue ainda escorre, mas ela acha a artéria certa e ganha `+1` na próxima tentativa. Na 3ª tentativa tira `4` → `4 + 2 + 1 = 7`, e **Soren** presta Ajuda segurando a lanterna (`+1`): `8`, ainda falha. É a 3ª falha acumulada, e Vaelor entra na **Regra das 24 Horas**. Lição: na mesa, **mandem a pessoa com melhor Medicina e kit**, ou aceitem que o ferido precisará de cirurgia em até 24 horas.
+> **Vaelor** cai a `0 PV` com um golpe de `3 de Dano` (tinha `2 PV` de `12 PV Máx.`; o excedente de `1` é menor que seus PV Máximos, então ele **não** morre na hora). **Lyra**, adjacente e com kit de bandagens, usa sua **Ação Maior**: `Conhecimento (Medicina)` contra **CD 7**. Ela rola `1d6 + 2 (Mente)` e tira `2` → total `4` (`CD - 3`): **Falha**. Na rodada seguinte ela tenta de novo e tira `4` → `6` (`CD - 1`, **Falha com Dádiva**): o sangue ainda escorre, mas ela acha a artéria certa e ganha `+1` na próxima tentativa. Na 3ª tentativa tira `1` → `1 + 2 + 1 = 4`, e **Soren** presta Ajuda segurando a lanterna (`+1`): `5`, ainda falha. É a 3ª falha acumulada, e Vaelor entra na **Regra das 24 Horas**. Lição: na mesa, **mandem a pessoa com melhor Medicina e kit**, ou aceitem que o ferido precisará de cirurgia em até 24 horas.
 
 ### A Regra das 24 Horas
 Um sobrevivente estabilizado após cair a `0 PV` com dano severo (ou com Ferimento Grave visceral/Núcleo rachado) entra na contagem da **Regra das 24 Horas**:
-- Ele possui **exatamente 24 horas** para receber cirurgia plena em acampamento seguro (`Conhecimento CD 11+`), cura por Aspecto especializado ou atendimento hospitalar em Cidadela/Terra.
-- Durante essas 24 horas, **não pode marchar pelos próprios pés**, não recupera PV naturalmente, sofre **Desvantagem** em qualquer teste se for acordado à força, e se sofrer **qualquer dano adicional** antes do tratamento, deve rolar **Vigor CD 11** imediatamente ou morre no local! Se o prazo de 24 horas expirar sem cirurgia ou cura espiritual, os órgãos ou o Núcleo cedem definitivamente.
+- Ele possui **exatamente 24 horas** para receber cirurgia plena em acampamento seguro (`Conhecimento CD 9+`), cura por Aspecto especializado ou atendimento hospitalar em Cidadela/Terra.
+- Durante essas 24 horas, **não pode marchar pelos próprios pés**, não recupera PV naturalmente, sofre **Desvantagem** em qualquer teste se for acordado à força, e se sofrer **qualquer dano adicional** antes do tratamento, deve rolar **Vigor CD 9** imediatamente ou morre no local! Se o prazo de 24 horas expirar sem cirurgia ou cura espiritual, os órgãos ou o Núcleo cedem definitivamente.
 
 ### Tabela Expandida de Ferimentos Graves e Cicatrizes Permanentes (`1d12`)
 Sempre que um personagem cai a `0 PV`, sofre dano massivo de chefe ou falha criticamente em queda/armadilha mortal, aplica-se um Ferimento Grave da tabela abaixo:
 
 | 1d12 | Ferimento Grave | Efeito Mecânico Imediato (Enquanto Não Curado) | Cicatriz / Sequela Permanente (Se Não Tratado em 24h ou Sem Cura Sobrenatural) |
 | :---: | :--- | :--- | :--- |
-| **1** | **Corte Arterial Profundo** | Condição **Sangrando** contínua (`1 dano/turno` até estancar com CD 9). | Cicatriz profunda pálida; `-1` em testes de *Vigor* contra venenos hemotóxicos ou frio. |
+| **1** | **Corte Arterial Profundo** | Condição **Sangrando** contínua (`1 dano/turno` até estancar com CD 7). | Cicatriz profunda pálida; `-1` em testes de *Vigor* contra venenos hemotóxicos ou frio. |
 | **2** | **Fratura na Perna / Joelho** | Movimento reduzido à metade; **Desvantagem** em corridas e esquivas (*Agilidade*). | Mancar permanente (`-1m` de deslocamento); estala antes de tempestades. |
 | **3** | **Braço / Mão Quebrada** | Membro inutilizável para empunhar armas de 2 mãos, escudos ou escalar. | Dedos tortos ou perda de força fina (`-1` em manobras de *Agarrar/Desarmar* com aquela mão). |
 | **4** | **Costelas Partidas / Pulmão Perfurado** | Ganha **1 nível de Exaustão** imediato; fôlego reduzido à metade; tosse sangue ao correr. | Respiração sibilante permanente; `-1` em fôlego submerso e testes longos de *Vigor*. |
@@ -1280,7 +1301,7 @@ Sempre que um personagem cai a `0 PV`, sofre dano massivo de chefe ou falha crit
 | **7** | **Tendão do Ombro Rompido** | Causa `1 de dano` extra toda vez que usar ataques pesados com *Força*; sem *Carga Pesada*. | Amplitude reduzida; **Capacidade de Carga** cai em `-5 kg` permanentemente até cura Ascendida. |
 | **8** | **Queimadura Rúnica / Química Extensa** | Armadura não veste sobre o local sem dor (`+1` nível de Exaustão se usar armadura pesada). | Pele enegrecida/vitrificada resistente à dor superficial, mas sensível ao calor extremo. |
 | **9** | **Perfuração de Tímpano** | Condição **Ensurdecido** por 24h; falha automática em testes puramente auditivos. | Surdez parcial num ouvido: **Desvantagem** em testes para detectar emboscadas pelas costas pelo som. |
-| **10** | **Lesão Espinhal / Nervo Comprimido** | **Derrubado** na hora; precisa passar em *Vigor CD 11* para levantar e agir normalmente. | Rigidez lombar severa; perde **-1** em testes de Iniciativa até reconstrução completa. |
+| **10** | **Lesão Espinhal / Nervo Comprimido** | **Derrubado** na hora; precisa passar em *Vigor CD 9* para levantar e agir normalmente. | Rigidez lombar severa; perde **-1** em testes de Iniciativa até reconstrução completa. |
 | **11** | **Rachadura no Mar da Alma** | Causa **`2 de Dano de Alma`** imediato; Reserva Máxima de Essência reduzida em `-2` até cura. | Cicatriz luminosa/negra sobre o Núcleo; suscetível a Vazamento de Aura (`-1` em *Abjurar* oculto). |
 | **12** | **Mutilação Extrema (Mão/Pé Perdido)** | Choque extremo (`0 PV` ou Atordoado 2 rodadas); membro decepado ou esmagado sem recuperação comum. | Exige prótese mecânica/Memória de substituição ou cura de Rank **Ascendido/Transcendente**! |
 
@@ -1292,21 +1313,21 @@ Todas as condições possuem origem clara, efeito objetivo e método exato de re
 
 | # | Condição | Como Surge | Efeito Mecânico Exato | Como Remover |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | **Sangrando** | Lâminas serrilhadas, garras, Infortúnio `I10`, veneno hemotóxico. | Sofre **`1 de Dano` automático** no início de cada turno próprio (ignora armadura). | Ação Maior com *Conhecimento* CD 7–9 (bandagem), poção ou habilidade curativa. |
+| **1** | **Sangrando** | Lâminas serrilhadas, garras, Infortúnio `I10`, veneno hemotóxico. | Sofre **`1 de Dano` automático** no início de cada turno próprio (ignora armadura). | Ação Maior com *Conhecimento* CD 5–7 (bandagem), poção ou habilidade curativa. |
 | **2** | **Envenenado** | Picadas, esporos, armas envenenadas, comida contaminada. | **Desvantagem** em testes físicos (*Corpo*); efeitos adicionais variam entre as 5 categorias (Seção 3.5). | Antídoto específico, *Vigor* nos intervalos da toxina ou purificação com *Abjurar*. |
-| **3** | **Queimando** | Fogo intenso, óleo flamejante, habilidades pirocinéticas. | Sofre **`1 a 3 de Dano`** no início de cada turno (conforme intensidade) e ilumina o alvo. | Ação Maior rolando no chão (*Agilidade* CD 7), água abundante ou *Abjurar*. |
+| **3** | **Queimando** | Fogo intenso, óleo flamejante, habilidades pirocinéticas. | Sofre **`1 a 3 de Dano`** no início de cada turno (conforme intensidade) e ilumina o alvo. | Ação Maior rolando no chão (*Agilidade* CD 5), água abundante ou *Abjurar*. |
 | **4** | **Congelado / Hipotérmico** | Nevascas extremas, sopro glacial, água gelada prolongada. | Movimento reduzido pela metade; **Desvantagem** em *Agilidade*; dano contínuo se não aquecer. | Fonte de calor ativo/fogueira + abrigo seco, ou cura térmica/Essência. |
-| **5** | **Atordoado** | Golpes contundentes na cabeça, trovões sônicos, choque rúnico. | Perde sua **Ação Maior** e sua **Reação** até o fim do seu próximo turno; não faz Defesa Gratuita (sofre dano ou defende com Desvantagem se regra branda). | Passa automaticamente após 1 rodada (ou por sacudida/cura de aliado CD 9). |
-| **6** | **Derrubado (*Caído*)** | Manobra *Derrubar*, quedas, explosões próximas, terreno escorregadio. | Ataques em *Corpo a Corpo* contra você ganham **Vantagem**; seus ataques corpo a corpo sofrem **Desvantagem**; disparos inimigos distantes contra você sofrem `-1`. | Gastar **metade da Ação de Movimento** para se levantar. |
+| **5** | **Atordoado** | Golpes contundentes na cabeça, trovões sônicos, choque rúnico. | Perde sua **Ação Maior** e sua **Reação** até o fim do seu próximo turno; não faz Defesa Gratuita (sofre dano ou defende com Desvantagem se regra branda). | Passa automaticamente após 1 rodada (ou por sacudida/cura de aliado CD 7). |
+| **6** | **Derrubado (*Caído*)** | Manobra *Derrubar*, quedas, explosões próximas, terreno escorregadio. | Ataques em *Corpo a Corpo* contra você ganham **Vantagem**; seus ataques corpo a corpo sofrem **Desvantagem**; disparos inimigos distantes contra você sofrem `-1`. | Personagens: gastar **metade da Ação de Movimento** para se levantar. **Criaturas:** gastam a **Ação Maior** para se levantar (não atacam nessa rodada) e ficam **Firmes** até o fim da rodada seguinte. |
 | **7** | **Agarrado / Imobilizado** | Manobra *Agarrar*, teias gigantes, tentáculos, raízes vivas. | Velocidade `0`; enquanto **Agarrado**, ataques físicos sofrem **Desvantagem**; se **Imobilizado**, não pode realizar ações físicas ofensivas nem esquivar. | Teste no turno (*Força* ou *Agilidade* contra CD do captor) ou matar/derrubar o captor. |
 | **8** | **Cego** | Escuridão Total/Verdadeira, jato ácido/areia nos olhos, flash de luz. | Falha em testes puramente visuais; ataca com **Desvantagem**; defende-se com **`+2 na CD`**. | Lavar olhos / sair da zona escura (1 ação), acender luz compatível ou cura ocular. |
-| **9** | **Ensurdecido** | Explosões próximas, rugido sônico, perfuração timpânica. | Falha automática em testes auditivos; anula *Ecolocalização*; `-1` em Iniciativa/Percepção de flancos. | Passa ao fim do efeito sônico (`1d4` rodadas) ou tratamento médico (`Conhecimento CD 9`). |
+| **9** | **Ensurdecido** | Explosões próximas, rugido sônico, perfuração timpânica. | Falha automática em testes auditivos; anula *Ecolocalização*; `-1` em Iniciativa/Percepção de flancos. | Passa ao fim do efeito sônico (`1d4` rodadas) ou tratamento médico (`Conhecimento CD 7`). |
 | **10** | **Amedrontado / Aterrorizado** | Presença de Rank superior, gritos psíquicos, Infortúnio `I30`. | Não pode aproximar-se voluntariamente da fonte do medo; sofre **Desvantagem** em todas as rolagens enquanto a fonte estiver visível! | Passar em teste de **Vontade** no fim do turno, perder linha de visão segura ou apoio de aliado (*Convencer* / `D25`). |
 | **11** | **Exausto (Níveis 1 a 4)** | Marcha forçada, falta de sono/água/comida, dreno de Essência a 0. | **Nv 1:** Desvantagem em *Corpo* ou *Mente* (alternado/contextual). **Nv 2:** Movimento pela metade + `-1` em todos os testes. **Nv 3:** **Desvantagem em TODOS os testes** + PV Máx. pela metade. **Nv 4:** **Colapso imediato (0 PV / Morte se não socorrido)!** | Cada noite completa de descanso seguro com comida e água reduz **1 nível** de Exaustão. |
-| **12** | **Corrompido (0–5 Marcas)** | Exposição a sangue profano, fendas de corrupção, relíquias malditas. | **1 Mancha Sutil** → **2 Sombra no Núcleo** (`-1 Convencer`) → **3 Fissura Profana** (**Desvantagem** em *Vontade* / `+1 Dano` em fúria) → **4 À Beira do Abismo** (*Vontade CD 11* ou frenesi) → **5 Perdição** (transforma-se em **Criatura do Pesadelo**! *Ver Cap. 12.2*). | *Abjurar* de alto grau (CD 13–15), Aspectos purificadores raros ou eliminação/purgação da fonte antes da **5ª Marca** (*Ver Cap. 12.2*). |
-| **13** | **Silenciado / Bloqueio de Essência** | Selos anti-essência, zonas mortas rúnicas, veneno espiritual grave. | Impedido de usar habilidades ativas de **Aspecto**, invocar **Memórias** ou gastar **Essência** para Reforço Corporal. | Sair da zona do selo, destruir o totem bloqueador ou romper o selo com *Abjurar/Força* CD 11+. |
+| **12** | **Corrompido (0–5 Marcas)** | Exposição a sangue profano, fendas de corrupção, relíquias malditas. | **1 Mancha Sutil** → **2 Sombra no Núcleo** (`-1 Convencer`) → **3 Fissura Profana** (**Desvantagem** em *Vontade* / `+1 Dano` em fúria) → **4 À Beira do Abismo** (*Vontade CD 9* ou frenesi) → **5 Perdição** (transforma-se em **Criatura do Pesadelo**! *Ver Cap. 12.2*). | *Abjurar* de alto grau (CD 11–13), Aspectos purificadores raros ou eliminação/purgação da fonte antes da **5ª Marca** (*Ver Cap. 12.2*). |
+| **13** | **Silenciado / Bloqueio de Essência** | Selos anti-essência, zonas mortas rúnicas, veneno espiritual grave. | Impedido de usar habilidades ativas de **Aspecto**, invocar **Memórias** ou gastar **Essência** para Reforço Corporal. | Sair da zona do selo, destruir o totem bloqueador ou romper o selo com *Abjurar/Força* CD 9+. |
 | **14** | **Vulnerável / Exposto** | Infortúnio `I1 Guarda Aberta`, armadura quebrada, erro crítico defensivo. | O próximo ataque ou efeito direcionado contra você ganha **Vantagem** (ou reduz sua Redução de Dano a `0` naquele golpe!). | Dura até sofrer 1 ataque ou usar Ação Maior/Movimento para recompor a guarda. |
-| **15** | **Inconsciente / Moribundo** | Cair a `0 PV`, asfixia completa, nocaute psíquico, Alma Estilhaçada. | Incapaz de agir, falar ou mover-se; cai **Derrubado**; qualquer golpe corpo a corpo é **Sucesso Pleno/Crítico automático** se sem proteção. | Estabilizar com *Conhecimento* CD 9 + recuperar pelo menos `1 PV` ou acordar após 1d4 horas estável. |
+| **15** | **Inconsciente / Moribundo** | Cair a `0 PV`, asfixia completa, nocaute psíquico, Alma Estilhaçada. | Incapaz de agir, falar ou mover-se; cai **Derrubado**; qualquer golpe corpo a corpo é **Sucesso Pleno/Crítico automático** se sem proteção. | Estabilizar com *Conhecimento* CD 7 + recuperar pelo menos `1 PV` ou acordar após 1d4 horas estável. |
 
 > 📌 **Termos Derivados Usados em Outras Seções:** **Lento** = movimento pela metade e sem Disparada; **Preso** = *Agarrado* por terreno ou objeto (sai com teste de *Força/Agilidade* ou ajuda); **Paralisado** = *Imobilizado*; **Surpreso** = não age na Rodada de Surpresa; **Caído** (como condição) = *Derrubado* — não confundir com o Rank de criatura *Caído*.
 >
@@ -1320,21 +1341,21 @@ Todas as condições possuem origem clara, efeito objetivo e método exato de re
 Durante expedições pelo Reino dos Sonhos, a Coorte define diariamente seu ritmo de deslocamento:
 - **Marcha Cautelosa (60% da distância padrão/dia):** Permite uso contínuo de *Furtividade* de coorte, garante **`+1` situacional** em testes de *Astúcia* para detectar emboscadas e armadilhas no caminho, e facilita coleta de água/ervas.
 - **Marcha Normal (100% — ~30 km/dia em terreno aberto):** Ritmo equilibrado por 8 a 10 horas sem exigir testes de resistência climática moderada.
-- **Marcha Forçada (150% da distância/dia):** Exige marchar 12 a 16 horas ou correr sob terreno duro. Cada hora adicional exige teste de **Vigor CD 9** (ou sofre **+1 nível de Exaustão**). Além disso, toda a Coorte sofre **Desvantagem em *Astúcia*** para notar emboscadas pelo cansaço visual!
+- **Marcha Forçada (150% da distância/dia):** Exige marchar 12 a 16 horas ou correr sob terreno duro. Cada hora adicional exige teste de **Vigor CD 7** (ou sofre **+1 nível de Exaustão**). Além disso, toda a Coorte sofre **Desvantagem em *Astúcia*** para notar emboscadas pelo cansaço visual!
 
 ### Fome e Sede
 - **Necessidade Diária:** 1 Ração sólida e **2 litros de água potável** por dia (sobe para **4 litros** em desertos, pântanos quentes ou áreas vulcânicas).
 - **Privação de Água:** Após **24 horas sem água**, sofre **+1 nível de Exaustão** automático por dia (incurável apenas dormindo!).
-- **Privação de Comida:** Após **48 horas sem comer**, sofre testes diários de **Vigor CD 9** (subindo `+2`/dia) ou acumula **Exaustão**.
+- **Privação de Comida:** Após **48 horas sem comer**, sofre testes diários de **Vigor CD 7** (subindo `+2`/dia) ou acumula **Exaustão**.
 
 ### Culinária de Monstros (Sobrevivência na Carne do Pesadelo)
 Quando as rações acabam no meio da Costa Esquecida ou do Submundo, só resta caçar Criaturas do Pesadelo. Porém, a carne das abominações carrega **Essência selvagem, toxinas e vestígios de Corrupção**:
-1. **Avaliação e Limpeza (`Conhecimento` CD `7 + 2 por Rank acima do cozinheiro`):** Remover glândulas de veneno, bolsas de ácido, nervos necróticos e coágulos de sangue negro antes de assar.
+1. **Avaliação e Limpeza (`Conhecimento` CD `5 + 1 por Rank acima do cozinheiro`):** Remover glândulas de veneno, bolsas de ácido, nervos necróticos e coágulos de sangue negro antes de assar.
 2. **Cozimento Purificador (`Conhecimento` ou `Canalizar` com fogo limpo):** Queimar resíduos instáveis sem carbonizar os nutrientes.
    - **Sucesso Crítico (`CD + 4+`):** Refeição extraordinária! Sacia toda a Coorte (até 7 pessoas) e, devido à Essência densa da criatura, **restaura `+1 PV` extra e `+1 ponto de Essência`** para cada membro após o descanso!
    - **Sucesso Pleno (`CD + 1 a + 3`):** Carne limpa, segura e nutritiva; conta como ração completa diária para toda a Coorte sem riscos.
    - **CD Exata (Sucesso com Custo):** Comestível, mas amarga/pesada: sacia a fome, porém impõe **náusea leve (`-1` no próximo teste de *Vigor*)** ou consome o dobro da água da Coorte.
-   - **Falha (`≤ CD - 2`):** Carne mal purificada! Todos que comerem rolam **Vigor CD 9–11** ou contraem **Envenenado** (Hemotóxico/Alucinógeno) ou **1 nível de Exaustão** por vômitos noturnos (em `CD - 4+`, risco de **1 Marca de Corrupção [Mancha Sutil]** se a fera fosse Caída/Corrompida! *Ver Cap. 12.2*).
+   - **Falha (`≤ CD - 2`):** Carne mal purificada! Todos que comerem rolam **Vigor CD 7–9** ou contraem **Envenenado** (Hemotóxico/Alucinógeno) ou **1 nível de Exaustão** por vômitos noturnos (em `CD - 4+`, risco de **1 Marca de Corrupção [Mancha Sutil]** se a fera fosse Caída/Corrompida! *Ver Cap. 12.2*).
 
 ---
 
@@ -1342,7 +1363,7 @@ Quando as rações acabam no meio da Costa Esquecida ou do Submundo, só resta c
 
 Acampar no Reino dos Sonhos não é apertar um botão de "descanso longo e tudo volta ao máximo". Para que uma **Coorte de 7 Jogadores** sobreviva à noite, cada jogador escolhe **1 das 7 Funções de Acampamento Noturno** durante as 8 horas de parada (se a Coorte tiver menos de 7 membros, funções críticas têm prioridade ou um jogador acumula duas funções sofrendo **Desvantagem** em ambas por falta de sono!).
 
-*(A **CD Base** do acampamento depende da periculosidade da região: **CD 7** em ruína segura/arredores de Cidadela; **CD 9** em terras selvagens comuns; **CD 11** em zona de caça ativa ou clima severo; **CD 13** em território de Tirano/Terror).*
+*(A **CD Base** do acampamento depende da periculosidade da região: **CD 5** em ruína segura/arredores de Cidadela; **CD 7** em terras selvagens comuns; **CD 9** em zona de caça ativa ou clima severo; **CD 11** em território de Tirano/Terror).*
 
 ---
 
@@ -1370,7 +1391,7 @@ Prepara rações quentes, purifica água de poças suspeitas, cozinha carne de C
 | **CD Exata (Sucesso com Custo)** | Comida segura, mas o Cozinheiro queima suprimentos extras (`I12`: consome 1 ração/erva extra) ou deixa cheiro forte que atrai curiosos (`+1 segmento` no Relógio de Ameaça). |
 | **Falha com Dádiva (`CD - 1`)** | A refeição fica intragável e não alimenta direito (sem bônus de descanso), mas o Cozinheiro descobre no processo **1 erva medicinal útil** ou componente químico raro (`D14`). |
 | **Falha Simples (`CD - 2/-3`)** | Comida crua/mal conservada: o grupo continua com fome leve e recupera apenas **metade dos PV** noturnos esperados. |
-| **Falha com Infortúnio (`CD - 4+`)** | Toxina não removida ou água contaminada! Toda a Coorte deve testar **Vigor CD 9** ou inicia o amanhecer com a condição **Envenenado** ou **1 nível de Exaustão**! |
+| **Falha com Infortúnio (`CD - 4+`)** | Toxina não removida ou água contaminada! Toda a Coorte deve testar **Vigor CD 7** ou inicia o amanhecer com a condição **Envenenado** ou **1 nível de Exaustão**! |
 
 ---
 
@@ -1445,14 +1466,14 @@ Mantém a moral do grupo intacta diante do horror, organiza a divisão de Estilh
 | **Falha com Infortúnio (`CD - 4+`)** | Conflito interno aberto ou pânico contagiante! Dois aliados discutem perdendo o descanso completo (`+1 Exaustão` ou `-1` em testes de *Vontade/Coração* pela manhã, `I27`). |
 
 > 🎙️ **Exemplo de Mesa (Noite Completa de Acampamento — 7 Jogadores na Costa Esquecida):**
-> A Coorte de 7 Adormecidos abriga-se numa torre semi-submersa sob chuva ácida leve (**CD Base 9**). Em menos de cinco minutos, cada jogador resolve sua função:
-> - **Vex (Sentinela)** tira `12` (`Sucesso Pleno`): protege a vigília sem surpresas.
-> - **Theron (Cozinheiro)** limpa carne de Besta-Sombra (`10`, `Sucesso Pleno`): todos jantam bem e evitam fome.
-> - **Iris (Médica)** trata a costela partida de **Kael** (`13`, `Sucesso Crítico!`): remove o Ferimento Grave e devolve `+2 PV` ao guerreiro.
-> - **Kael (Armeiro)** afia as lâminas do grupo (`9`, `CD Exata`): repara tudo, mas o ruído metálico atrai atenção distante (`+1` segmento no Relógio de Ameaça do Tecelão).
-> - **Lyra (Batedora)** espalha fios de alarme ao redor da torre (`11`, `Sucesso Pleno`): sela as entradas.
-> - **Nyx (Ancoradora)** oculta o brilho dos 7 Núcleos (`8`, `CD - 1`, Falha com Dádiva): o véu não segura perfeitamente toda a noite, mas ela detecta com `D18` um fluxo de Essência puro numa fenda ao leste para o amanhecer.
-> - **Dante (Estrategista)** ergue a moral do grupo (`14`, `Sucesso Crítico!`): cada um dos 7 jogadores anota `+1` de Inspiração Tática na ficha para usar durante a travessia do dia seguinte!
+> A Coorte de 7 Adormecidos abriga-se numa torre semi-submersa sob chuva ácida leve (**CD Base 7**). Em menos de cinco minutos, cada jogador resolve sua função:
+> - **Vex (Sentinela)** tira `10` (`Sucesso Pleno`): protege a vigília sem surpresas.
+> - **Theron (Cozinheiro)** limpa carne de Besta-Sombra (`8`, `Sucesso Pleno`): todos jantam bem e evitam fome.
+> - **Iris (Médica)** trata a costela partida de **Kael** (`11`, `Sucesso Crítico!`): remove o Ferimento Grave e devolve `+2 PV` ao guerreiro.
+> - **Kael (Armeiro)** afia as lâminas do grupo (`7`, `CD Exata`): repara tudo, mas o ruído metálico atrai atenção distante (`+1` segmento no Relógio de Ameaça do Tecelão).
+> - **Lyra (Batedora)** espalha fios de alarme ao redor da torre (`9`, `Sucesso Pleno`): sela as entradas.
+> - **Nyx (Ancoradora)** oculta o brilho dos 7 Núcleos (`6`, `CD - 1`, Falha com Dádiva): o véu não segura perfeitamente toda a noite, mas ela detecta com `D18` um fluxo de Essência puro numa fenda ao leste para o amanhecer.
+> - **Dante (Estrategista)** ergue a moral do grupo (`12`, `Sucesso Crítico!`): cada um dos 7 jogadores anota `+1` de Inspiração Tática na ficha para usar durante a travessia do dia seguinte!
 
 ---
 
@@ -1463,12 +1484,12 @@ Para consultas de 2 segundos durante o calor da sessão, mantenha estas síntese
 | Regra Central | Fórmula / Valor Oficial | Observação Crítica |
 | :--- | :--- | :--- |
 | **Rolagem Padrão** | `1d6 + Pilar` *(Normal)* / `1d8 + Pilar` *(Especialização `[X]`)* | Mestre nunca rola dados (*100% Player-Facing*). |
-| **Escala de CDs** | `5` Trivial · `7` Fácil · `9` Moderada · `11` Difícil · `13` Extrema · `15` Divina | Modificador de Rank: **`±2 na CD por Rank de diferença`**. |
+| **Escala de CDs** | `3` Trivial · `5` Fácil · `7` Moderada · `9` Difícil · `11` Extrema · `13` Divina *(tarefas; criaturas usam a CD da ficha)* | Modificador de Rank: **`±1 na CD por Rank de diferença`** (mínimo CD `3`). |
 | **Teto Situacional** | **`Cap +3`** máximo em bônus externos (`Atributo Rúnico + Ajuda + Dádivas`) | Excedente além de `+3` vira **Vantagem** ou **`+1 de Dano`**. |
 | **Casos-Limite do Dado** | **`1 Natural`** nunca passa de `CD Exata` · **`6/8 Natural`** (+passar CD) = +1 Dádiva Menor | Vantagem/Desvantagem usam 2 dados iguais e se anulam 1-para-1. |
 | **Graus de Sucesso** | `≤ CD-4` (Falha c/ Infortúnio) · `CD-2/-3` (Falha) · `CD-1` (Falha c/ Dádiva) | `CD Exata` (Sucesso c/ Custo) · `CD+1..+3` (Pleno) · `≥ CD+4` (Crítico c/ Dádiva Maior). |
 | **Tetos dos 4 Pilares** | Criação: base `1`, `+3` pts (máx `3`). Adormecido/Desperto: `3` (`4` no Marco 10) | Ascendido: `4` · Transcendente / Supremo: `5`. |
-| **Fórmula de PV** | `(2 × Corpo) + 2` *(+1 PV nos Marcos 2 e 6)* | Atingir `0 PV` inicia estado **Moribundo** e **Regra das 24 Horas**. |
+| **Fórmula de PV** | `(2 × Corpo) + 4` *(+1 PV nos Marcos 2 e 6)* | Atingir `0 PV` inicia estado **Moribundo** e **Regra das 24 Horas**. |
 | **Fórmula de Essência** | `(Alma × 2) + Marcos Ímpares (1,3,5,7,9) + Bônus de Rank + (3 × Núcleos Extras)` | Rank: Aspecto Transc./Supremo `+1`, Sagrado `+2`; Humano `+2/+4/+6/+8`. Adormecido não usa **Reforço Corporal**; Desperto+ sim. |
 | **Economia de Turno** | `1 Maior` + `1 Movimento` + `1 Menor` + `1 Reação` | Defesas básicas inimigas são **Testes Defensivos Gratuitos**. |
 
@@ -1791,7 +1812,7 @@ Para que um jogador com Ecos não crie "outro turno gigante" atrasando os outros
 Se uma Criatura do Pesadelo focar seus golpes diretamente no seu Eco/Sombra (ou se um ataque em área atingir o Eco):
 - **Rolagem de Defesa do Eco:** O jogador invocador rola **`1d6 + metade da CD do Eco`** (arredondado para baixo) contra a **CD do monstro atacante**!
   - *Exemplo:* Um *Cavaleiro de Pedra* (CD 10 → bônus `+5`) defende-se de um *Centurião* (CD 10) rolando `1d6 + 5`.
-  - Se o Eco falhar na Defesa, ele perde PV normalmente conforme o Dano do monstro. Se tirar `CD Exata`, apara mas leva 1 de raspão. Se tirar `CD + 4`, executa um contra-ataque automático de **1 de Dano**!
+  - Se o Eco falhar na Defesa, ele perde PV normalmente conforme o Dano do monstro. Se tirar `CD Exata`, apara sem sofrer dano, mas fica com a guarda aberta (`I1`: Desvantagem na próxima Defesa do Eco). Se tirar `CD + 4`, executa um contra-ataque automático de **1 de Dano**!
 
 ### F. Morte Permanente de Ecos vs. Regeneração de Sombras
 - **💀 Morte Permanente de Ecos Comuns:** Um Eco é uma casca vazia sem alma verdadeira. Se os PV de um Eco comum chegarem a **0**, sua matriz estilhaça-se em vidro luminoso e **o Eco é DESTRUÍDO para sempre**!
@@ -1805,10 +1826,10 @@ Se uma Criatura do Pesadelo focar seus golpes diretamente no seu Eco/Sombra (ou 
      - **Devorar Memórias:** Durante um Descanso, você pode desmanchar qualquer Memória indesejada para alimentar uma Sombra. A Sombra ganha **Pontos de Evolução iguais ao Tier da Memória** (ex: Tier I = 1 pt; Tier III = 3 pts; Tier V = 5 pts). *Se a Memória for de Rank Superior ao da Sombra, concede +1 Ponto extra!*
      - **Abates em Combate:** Sempre que a Sombra der o golpe fatal (ou ajudar decisivamente) contra um monstro de **Rank igual ou superior** ao dela, ganha **+1 Ponto de Evolução**.
      - **Subir de Classe de Núcleo (`10 Pontos de Evolução`):** A Sombra evolui um degrau (*Besta → Monstro → Demônio → Diabo → Tirano → Terror → Titã*), ganhando **`+3 PV máximos`** e **`+1 nova Habilidade Especial / Tag Única`**!
-     - **Subir de Rank (`15 Pontos de Evolução` + `1 Núcleo/Cadáver de Chefe de Rank Superior`):** A Sombra desperta para o Rank seguinte (*Adormecida → Desperta → Ascendida → Transcendente → Suprema*), ganhando **`+1 na CD`** e **`+1 de Dano Base`**!
+     - **Subir de Rank (`15 Pontos de Evolução` + `1 Núcleo/Cadáver de Chefe de Rank Superior`):** A Sombra desperta para o Rank seguinte (*Adormecida → Desperta → Ascendida → Transcendente → Suprema*), ganhando **`+2 na CD`** e **`+1 de Dano Base`**! *(As Sombras sobem `+2` por Rank — e não `+1` como os Ecos reforjados — para acompanhar a CD das criaturas do Rank seguinte, que também sobem cerca de 2 pontos por Rank no Bestiário. Lembre que a rolagem da Sombra é `1d6 + metade da CD`, então `+2` na CD dá `+1` na rolagem.)*
 2. **Reforja de Ecos Comuns (*Domador de Almas* ou *Tecelão*):**
    - Embora Ecos não evoluam sozinhos devorando carne, um **Tecelão de Feitiço** ou um **Domador de Almas** pode abri-los na mesa de trabalho durante um Descanso Longo na Cidadela ou Acampamento:
-     - **Custo:** **10 Fragmentos de Alma** do Rank alvo + **Partes Nobres de Criatura Superior** (ex: placa dorsal de Centurião, coração de magma) + teste estendido de **`Alma (Canalizar)` CD 11 (Relógio 4)**.
+     - **Custo:** **10 Fragmentos de Alma** do Rank alvo + **Partes Nobres de Criatura Superior** (ex: placa dorsal de Centurião, coração de magma) + teste estendido de **`Alma (Canalizar)` CD 9 (Relógio 4)**.
      - **Resultado:** O Eco é reforjado, aumentando sua **CD em +1**, seus **PV em +4** e ganhando **1 nova Habilidade / Traço** herdado da peça enxertada! *(Se o invocador for portador do Aspecto das Sombras e investir um pedaço do próprio Núcleo ou uma Relíquia de Sombra, um Eco comum pode inclusive ser **Convertido em Sombra Evolutiva** ao custo de 15 XP ou marco de história!)*.
 
 ### H. Tabela 7-4: Compêndio Rápido de 8 Ecos e Sombras em Combate
@@ -1883,7 +1904,7 @@ Para construir qualquer frase de poder, o feiticeiro combina palavras extraídas
 #### Camada 1 — Os 12 Nomes de Base (Substância e Elemento)
 Os Nomes de Base definem **o quê** está sendo invocado, moldado ou despertado. Podem ser pronunciados sozinhos como **Invocações de 1 Palavra**!
 
-| # | Nome de Base | Conceito Rúnico & Domínio | Efeito Puro (Quando Usado como 1 Palavra — 1 Essência, CD 9) |
+| # | Nome de Base | Conceito Rúnico & Domínio | Efeito Puro (Quando Usado como 1 Palavra — 1 Essência, CD 7) |
 | :-: | :--- | :--- | :--- |
 | **1** | **`[Fogo]`** *(Ignis Primordial)* | Chama, calor, combustão, forja | Envolve uma arma tocada em chamas (**+1 de Dano** por 2 rodadas e ilumina *Perto*) ou dispara faísca que causa **1 de Dano** e acende materiais. |
 | **2** | **`[Luz]`** *(Alvorada Pura)* | Claridade, verdade, revelação solar | Emite clarão súbito até *Perto*: cega criaturas da escuridão (**Cego** por 1 rodada) e dissipa ilusões menores ou sombras comuns. |
@@ -1927,22 +1948,22 @@ Quanto mais Nomes Verdadeiros você encadear em um único fôlego, maior é o ch
 
 | Grau da Invocação | Custo em Essência | CD do Teste | Ação Exigida | Requisito Mínimo de Rank & Limites |
 | :--- | :---: | :---: | :---: | :--- |
-| **1 Palavra** *(Nome Simples)* | **1 Essência** | **CD 9** | **1 Ação Menor** *(se suporte/arma)* ou **1 Ação Maior** *(se ataque)* | Qualquer Rank com o Atributo `[Feitiçaria de Nomes]`. |
-| **2 Palavras** *(Frase de Poder)* | **2 Essência** | **CD 10** | **1 Ação Maior** | Qualquer Rank *(Adormecido sofre +1 risco de Rebote)*. Combina *Base + Intenção* ou *Base + Direção*. |
-| **3 Palavras** *(Verso Sagrado)* | **3 Essência** | **CD 11** | **1 Ação Maior** | **Rank Ascendido+** *(Desperto pode tentar gastando +1 Essência extra e com -1 no teste!)*. Combina *Base + Intenção + Direção*. |
-| **4 Palavras** *(Estrofe Suprema)* | **4 Essência** | **CD 13** | **1 Ação Maior** *(ou 2 turnos para áreas massivas)* | **Rank Transcendente / Supremo!** Combina **2 Nomes de Base (ou 2 Intenções) + Direção** para feitos calamitosos! |
+| **1 Palavra** *(Nome Simples)* | **1 Essência** | **CD 7** | **1 Ação Menor** *(se suporte/arma)* ou **1 Ação Maior** *(se ataque)* | Qualquer Rank com o Atributo `[Feitiçaria de Nomes]`. |
+| **2 Palavras** *(Frase de Poder)* | **2 Essência** | **CD 8** | **1 Ação Maior** | Qualquer Rank *(Adormecido sofre +1 risco de Rebote)*. Combina *Base + Intenção* ou *Base + Direção*. |
+| **3 Palavras** *(Verso Sagrado)* | **3 Essência** | **CD 9** | **1 Ação Maior** | **Rank Ascendido+** *(Desperto pode tentar gastando +1 Essência extra e com -1 no teste!)*. Combina *Base + Intenção + Direção*. |
+| **4 Palavras** *(Estrofe Suprema)* | **4 Essência** | **CD 11** | **1 Ação Maior** *(ou 2 turnos para áreas massivas)* | **Rank Transcendente / Supremo!** Combina **2 Nomes de Base (ou 2 Intenções) + Direção** para feitos calamitosos! |
 
 ### D. ⚠️ O Risco Mortal: Rebote Espiritual (*Soul Backlash*)
 Pronunciar a língua original dos Deuses com uma garganta mortal é como despejar metal derretido dentro de um cálice de vidro. Sempre que você conjurar **Feitiçaria de Nomes**, observe cuidadosamente o grau de sucesso:
 1. **`CD Exata` (Sucesso com Infortúnio):** A frase funciona perfeitamente, **MAS** suas cordas vocais e seu peito queimam: você sofre **1 ponto de Dano Físico (garganta sangrando)** OU gasta **+1 Ponto de Essência** adicional (à escolha do Mestre).
 2. **`CD - 4` ou pior (Falha com Infortúnio — Rebote Espiritual!):** A sintaxe rúnica quebra na sua boca e a Essência explode para dentro do seu próprio espírito!
    - Você sofre **Dano de Alma direto igual ao número de Palavras que tentou pronunciar** (`1` a `4` de Dano de Alma — reduzindo sua Essência atual e Máxima até o Descanso Longo!).
-   - Você pode tentar mitigar esse Rebote rolando **`Mente (Vontade)` CD 9** (ou **`CD 11`** em 3–4 Palavras): se passar, reduz o Dano de Alma sofrido pela metade (arredondado para cima, mínimo 1) e evita ficar **`Silenciado`** pelo resto da rodada!
-   - *Nota Especial para `[Destruição]` sem `[Baluarte]`:* Conjurar frases com `[Destruição]` no Rank Adormecido exige sempre `Mente (Vontade)` CD 9 mesmo em sucesso simples se a diferença for `CD + 0` ou `CD + 1`, tamanho o coice da ruína!
+   - Você pode tentar mitigar esse Rebote rolando **`Mente (Vontade)` CD 7** (ou **`CD 9`** em 3–4 Palavras): se passar, reduz o Dano de Alma sofrido pela metade (arredondado para cima, mínimo 1) e evita ficar **`Silenciado`** pelo resto da rodada!
+   - *Nota Especial para `[Destruição]` sem `[Baluarte]`:* Conjurar frases com `[Destruição]` no Rank Adormecido exige sempre `Mente (Vontade)` CD 7 mesmo em sucesso simples se a diferença for `CD + 0` ou `CD + 1`, tamanho o coice da ruína!
 
 ### E. 📜 Catálogo Exaustivo de 25 Frases e Versos Prontos
 
-#### 1. Invocações de 1 Palavra (1 Essência | CD 9)
+#### 1. Invocações de 1 Palavra (1 Essência | CD 7)
 1. **`[Fogo]` — Tocha de Guerra:** *(Ação Menor)* Infunde uma arma com fogo vivo (**+1 de Dano** por 2 rodadas e derrete teias/gelo).
 2. **`[Luz]` — Clarão da Alvorada:** *(Ação Maior)* Explosão de luz até *Perto*; inimigos sensíveis à luz ficam **Cegos** por 1 rodada e sombras ilusórias somem.
 3. **`[Vento]` — Sopro Repulsor:** *(Ação Menor/Maior)* Desvia flechas recebidas (**+2 na Defesa** à distância por 1 rodada) ou empurra 1 inimigo **1 Faixa**.
@@ -1950,7 +1971,7 @@ Pronunciar a língua original dos Deuses com uma garganta mortal é como despeja
 5. **`[Ferro]` — Fio Perfurante:** *(Ação Menor)* Sua próxima estocada/tiro ignora **1 ponto de redução de armadura/carapaça**.
 6. **`[Vínculo]` — Grilhão Rápido:** *(Ação Maior)* Faz raízes, sombras ou poeira do chão segurarem os pés de 1 alvo (*Imobilizado* por 1 rodada).
 
-#### 2. Frases de Poder de 2 Palavras (2 Essência | CD 10)
+#### 2. Frases de Poder de 2 Palavras (2 Essência | CD 8)
 7. **`[Fogo + Destruição]` — Lâmina Incandescente:** *(Base + Intenção)* Sua arma (ou disparo frontal) causa **+2 de Dano** ígneo e deixa o alvo **Queimando** em `CD + 2`!
 8. **`[Pedra + Baluarte]` — Muro da Montanha:** *(Base + Intenção)* Ergue instantaneamente uma barreira de pedra de 2 metros na faixa *Corpo a Corpo/Perto* que concede **Cobertura Total** ou absorve **3 de Dano** de um ataque!
 9. **`[Vento + Velocidade]` — Passos do Furacão:** *(Base + Intenção)* Você e até **2 aliados adjacentes** ganham **+1 Movimento gratuito** neste turno e **Vantagem** na próxima Esquiva!
@@ -1962,7 +1983,7 @@ Pronunciar a língua original dos Deuses com uma garganta mortal é como despeja
 15. **`[Água + Para Fora]` — Marejada Repulsora:** *(Base + Direção)* Libera uma onda de pressão hidráulica em cone até *Perto*, apagando todo fogo na área e empurrando até **3 inimigos 1 Faixa de Distância**!
 16. **`[Estrela + Para Dentro]` — Olhar do Astrônomo:** *(Base + Direção)* Infunde seus próprios olhos com luz estelar por 1 cena: enxerga na escuridão absoluta, vê através de neblina e ganha **+2** para detectar emboscadas e pontos fracos!
 
-#### 3. Versos Sagrados de 3 Palavras (3 Essência | CD 11 — Rank Ascendido+)
+#### 3. Versos Sagrados de 3 Palavras (3 Essência | CD 9 — Rank Ascendido+)
 17. **`[Luz + Purificação + Ao Redor]` — Hino do Sol Nascente:** *(Base + Intenção + Direção)* Onda dourada banha todos em *Corpo a Corpo e Perto*: **cura 2 PV de todos os aliados da Coorte**, remove *Amedrontado* e causa **2 de Dano Solar** a todas as criaturas Corrompidas ou sombrias na área!
 18. **`[Ferro + Baluarte + Ao Redor]` — Cúpula da Legião Imortal:** *(Base + Intenção + Direção)* Tece uma gaiola de lâminas e placas espirituais ao redor da Coorte durante 1 rodada completa: todos os aliados dentro da área recebem **+2 na Defesa** e reduzem todo dano recebido em **2 pontos**!
 19. **`[Fogo + Corte + Para Fora]` — Arco da Fênix Carmesim:** *(Base + Intenção + Direção)* Dispara uma foice crescente de fogo branco até a faixa *Distante*, atingindo até **4 inimigos alinhados**, causando **3 de Dano** (ignora armaduras mundanas) e deixando todos **Queimando**!
@@ -1970,7 +1991,7 @@ Pronunciar a língua original dos Deuses com uma garganta mortal é como despeja
 21. **`[Sombra + Velocidade + Para Dentro]` — Dança da Penumbra Sem Peso:** *(Base + Intenção + Direção)* Transforma seu próprio corpo em quase-sombra por 3 rodadas: você se move **2 Faixas por Movimento** atravessando frestas estreitas, ganha **Vantagem em todos os ataques e esquivas** e é imune a terreno difícil!
 22. **`[Trovão + Silêncio + À Distância]` — Julgamento Mudo do Céu:** *(Base + Intenção + Direção)* Faz cair um relâmpago concentrado sem nenhum barulho de trovão sobre um inimigo na faixa *Longe*: causa **3 de Dano**, aplica **Atordoado** e deixa o alvo **Silenciado** por 1 rodada (ideal para interromper outros Feiticeiros de Nomes)!
 
-#### 4. Estrofes Supremas de 4 Palavras (4 Essência | CD 13 — Rank Transcendente / Supremo!)
+#### 4. Estrofes Supremas de 4 Palavras (4 Essência | CD 11 — Rank Transcendente / Supremo!)
 23. **`[Estrela + Fogo + Destruição + À Distância]` — Queda do Meteoro Branco:** *(2 Bases + Intenção + Direção)* Invoca um fragmento de fogo estelar caindo do céu sobre uma zona na faixa *Longe*: todos os inimigos na região sofrem **5 de Dano** (ignora carapaças inferiores!), ficam **Caídos** e **Queimando**, e o solo vira uma cratera vitrificada!
 24. **`[Luz + Ferro + Baluarte + Ao Redor]` — Bastilha dos Seis Deuses:** *(2 Bases + Intenção + Direção)* Ergue uma fortaleza luminosa indestrutível com 10 metros de raio durante 3 rodadas: **anula todos os ataques externos abaixo de 4 de Dano**, purifica o ar contra gases/Corrupção e regenera **1 PV por rodada** em toda a Coorte!
 25. **`[Sombra + Sangue + Vínculo + Para Fora]` — Sentença do Escravo Eterno:** *(2 Bases + Intenção + Direção)* Dispara correntes vivas de sangue congelado e escuridão contra um Chefe ou inimigo poderoso até *Distante*: **Imobiliza** até mesmo seres colossais, drena **2 Pontos de Essência** (ou causa **2 de Dano de Alma**) por rodada enquanto mantido, e reduz a CD do alvo em **-2** para toda a Coorte!
@@ -1986,8 +2007,8 @@ Enquanto a Feitiçaria de Nomes molda o mundo através do som instantâneo e dep
    - Exige um **Cinzel Rúnico** (de aço estrelado, osso afiado ou garra de monstro) e **Pó de Fragmentos de Alma** (1 Fragmento Adormecido rende pó suficiente para **2 Círculos Simples** ou **1 Círculo Intermediário**; Círculos Pesados de Embarcação/Cidadela exigem Fragmentos Despertos ou Ascendidos!).
    - *Alternativa de Emergência:* Se o feiticeiro estiver sem pó de Fragmento no meio da selva, pode traçar uma **Runa Efêmera** no chão ou na madeira gastando **2 Pontos de Essência** próprios; ela funciona normalmente, mas perde o brilho após **24 horas** (ou 1 único disparo).
 3. **Tempo de Gravação e Teste:**
-   - **Círculo Simples (Acampamento / Armadilha / Arma Básica):** **30 minutos** (cabe perfeitamente na função de *Artífice* durante o Acampamento!). Rolagem única de **`Mente (Conhecimento)`** ou **`Alma (Canalizar)`** contra a **CD do Círculo** (padrão CD 9).
-   - **Círculo Complexo (Armadura / Selo de Portão / Circuito Duplo):** **2 horas**. Exige teste contra **CD 10 ou 11**.
+   - **Círculo Simples (Acampamento / Armadilha / Arma Básica):** **30 minutos** (cabe perfeitamente na função de *Artífice* durante o Acampamento!). Rolagem única de **`Mente (Conhecimento)`** ou **`Alma (Canalizar)`** contra a **CD do Círculo** (padrão CD 7).
+   - **Círculo Complexo (Armadura / Selo de Portão / Circuito Duplo):** **2 horas**. Exige teste contra **CD 8 ou 9**.
    - **Círculo Monumental (Embarcação / Defesa de Cidadela):** **Teste Estendido** (Relógio de 4 a 6 Segmentos, cada segmento = 2 horas de trabalho focado).
 
 ### B. Tabela 8-1: Os 5 Tipos de Superfícies Rúnicas
@@ -2006,32 +2027,32 @@ A matéria onde você entalha as runas altera drasticamente a dificuldade do ent
 ### C. 📜 Catálogo Completo de 20 Círculos Rúnicos Prontos
 
 #### Grupo 1: Acampamento e Sobrevivência (Runas 1 a 5)
-1. **Runa de Alerta Perimetral** *(Pedra/Madeira | CD 8 | 1 Frag. Adormecido)*: Traçada em 4 pedras ao redor do acampamento; emite um zumbido silencioso diretamente na mente do gravador se qualquer ser maior que um inseto cruzar o perímetro (anula ataques surpresa à noite!).
-2. **Runa de Ocultação de Odor Espiritual** *(Madeira/Tecido | CD 9 | 1 Frag. Adormecido)*: Mascara o cheiro de carne fresca, fogo e Essência da Coorte dentro de um círculo de 6 metros; reduz pela metade a chance de patrulhas noturnas encontrarem o acampamento.
-3. **Runa de Purificação Térmica** *(Pedra/Aço | CD 8 | 1 Frag. Adormecido)*: Mantém o interior de uma tenda ou caverna a confortáveis 22 °C durante 7 dias, protegendo todos contra o frio letal da Antártica ou o calor sufocante de Ravenheart.
-4. **Runa de Condensação de Orvalho** *(Osso/Pedra | CD 9 | 1 Frag. Adormecido)*: Extrai umidade pura do ar e a purifica de esporos e toxinas, enchendo um cantil a cada hora sem precisar de rio próximo.
-5. **Runa de Sono Tranquilo (Anti-Pesadelo)** *(Madeira/Osso | CD 10 | 2 Frag. Adormecidos)*: Ameniza ecos mentais e sussurros noturnos; toda a Coorte dormindo no círculo recebe **+1 em testes de `Mente (Vontade)`** contra ataques oníricos e pesadelos.
+1. **Runa de Alerta Perimetral** *(Pedra/Madeira | CD 6 | 1 Frag. Adormecido)*: Traçada em 4 pedras ao redor do acampamento; emite um zumbido silencioso diretamente na mente do gravador se qualquer ser maior que um inseto cruzar o perímetro (anula ataques surpresa à noite!).
+2. **Runa de Ocultação de Odor Espiritual** *(Madeira/Tecido | CD 7 | 1 Frag. Adormecido)*: Mascara o cheiro de carne fresca, fogo e Essência da Coorte dentro de um círculo de 6 metros; reduz pela metade a chance de patrulhas noturnas encontrarem o acampamento.
+3. **Runa de Purificação Térmica** *(Pedra/Aço | CD 6 | 1 Frag. Adormecido)*: Mantém o interior de uma tenda ou caverna a confortáveis 22 °C durante 7 dias, protegendo todos contra o frio letal da Antártica ou o calor sufocante de Ravenheart.
+4. **Runa de Condensação de Orvalho** *(Osso/Pedra | CD 7 | 1 Frag. Adormecido)*: Extrai umidade pura do ar e a purifica de esporos e toxinas, enchendo um cantil a cada hora sem precisar de rio próximo.
+5. **Runa de Sono Tranquilo (Anti-Pesadelo)** *(Madeira/Osso | CD 8 | 2 Frag. Adormecidos)*: Ameniza ecos mentais e sussurros noturnos; toda a Coorte dormindo no círculo recebe **+1 em testes de `Mente (Vontade)`** contra ataques oníricos e pesadelos.
 
 #### Grupo 2: Armadilhas e Defesa de Território (Runas 6 a 10)
-6. **Runa de Mina Explosiva Ígnea** *(Pedra/Quitina | CD 9 | 1 Frag. Adormecido)*: Quando pisada (ou ativada remotamente), detona em explosão até *Perto* causando **2 de Dano** (ou **3 de Dano** em `CD+4` de criação) e deixando alvos **Caídos**!
-7. **Runa de Prisão de Gravidade** *(Pedra/Aço | CD 10 | 1 Frag. Desperto)*: Ao ser acionada por uma criatura que cruza a soleira, multiplica o peso sobre o intruso por 2 rodadas (**Imobilizado** e incapaz de voar até passar em `Corpo [Força]` CD 11).
-8. **Runa de Dardo de Relâmpago** *(Aço/Quitina | CD 10 | 2 Frag. Adormecidos)*: Entalhada em batente ou pilar; dispara um arco elétrico contra o primeiro monstro que passar na linha de visão (**2 de Dano** e **Atordoado** por 1 rodada!).
-9. **Runa de Névoa Cegante** *(Osso/Madeira | CD 9 | 1 Frag. Adormecido)*: Libera instantaneamente uma cortina densa de fumaça cinzenta até *Perto*; todos lá dentro ficam ocultos da visão comum por 3 rodadas (ótimo para cobrir retiradas estratégicas!).
-10. **Runa de Selamento de Portão** *(Pedra/Aço | CD 11 | 1 Frag. Desperto)*: Tranca uma porta, escotilha ou alçapão com força espiritual equivalente a uma parede sólida (`Corpo [Força]` **CD 13** para arrombar à força bruta!).
+6. **Runa de Mina Explosiva Ígnea** *(Pedra/Quitina | CD 7 | 1 Frag. Adormecido)*: Quando pisada (ou ativada remotamente), detona em explosão até *Perto* causando **2 de Dano** (ou **3 de Dano** em `CD+4` de criação) e deixando alvos **Caídos**!
+7. **Runa de Prisão de Gravidade** *(Pedra/Aço | CD 8 | 1 Frag. Desperto)*: Ao ser acionada por uma criatura que cruza a soleira, multiplica o peso sobre o intruso por 2 rodadas (**Imobilizado** e incapaz de voar até passar em `Corpo [Força]` CD 9).
+8. **Runa de Dardo de Relâmpago** *(Aço/Quitina | CD 8 | 2 Frag. Adormecidos)*: Entalhada em batente ou pilar; dispara um arco elétrico contra o primeiro monstro que passar na linha de visão (**2 de Dano** e **Atordoado** por 1 rodada!).
+9. **Runa de Névoa Cegante** *(Osso/Madeira | CD 7 | 1 Frag. Adormecido)*: Libera instantaneamente uma cortina densa de fumaça cinzenta até *Perto*; todos lá dentro ficam ocultos da visão comum por 3 rodadas (ótimo para cobrir retiradas estratégicas!).
+10. **Runa de Selamento de Portão** *(Pedra/Aço | CD 9 | 1 Frag. Desperto)*: Tranca uma porta, escotilha ou alçapão com força espiritual equivalente a uma parede sólida (`Corpo [Força]` **CD 11** para arrombar à força bruta!).
 
 #### Grupo 3: Armas e Armaduras (Runas 11 a 15)
-11. **Runa de Armazenamento de Essência (Bateria)** *(Osso/Aço | CD 9 | 1 Frag. Adormecido)*: Gravada no cabo de uma arma ou peitoral; armazena até **2 Pontos de Essência** previamente carregados pelo grupo. Qualquer aliado empunhando o item pode puxar esses pontos como Ação Livre! *(Dura até ser gasta; recarregável!).*
-12. **Runa de Fio Flamejante / Gélido** *(Aço/Quitina | CD 10 | 2 Frag. Adormecidos)*: Ao gastar **1 Essência** (ou ativar a Runa de Armazenamento ligada a ela), a lâmina mundana arde em fogo ou geada causando **+1 de Dano elemental** por 1 cena inteira!
-13. **Runa de Retorno Magnético** *(Aço/Madeira | CD 10 | 1 Frag. Desperto)*: Gravada em lanças, adagas ou machados de arremesso; faz a arma retornar voando direto para a mão do arremessador ao final do turno (1 Essência ou automático se ligada à bateria).
-14. **Runa de Absorção de Impacto** *(Quitina/Aço | CD 10 | 1 Frag. Desperto)*: Gravada no centro de um escudo ou couraça mundana; confere **1 Camada Rúnica de Integridade** capaz de absorver **1 golpe físico** antes que o metal real quebre!
-15. **Runa de Blindagem Espiritual** *(Osso Antigo | CD 11 | 2 Frag. Despertos)*: Circuito complexo entalhado em elmo ou medalhão de osso; concede a Tag **`[Proteção de Alma]`** temporária capaz de absorver até **2 pontos de Dano de Alma** antes de o pó se queimar!
+11. **Runa de Armazenamento de Essência (Bateria)** *(Osso/Aço | CD 7 | 1 Frag. Adormecido)*: Gravada no cabo de uma arma ou peitoral; armazena até **2 Pontos de Essência** previamente carregados pelo grupo. Qualquer aliado empunhando o item pode puxar esses pontos como Ação Livre! *(Dura até ser gasta; recarregável!).*
+12. **Runa de Fio Flamejante / Gélido** *(Aço/Quitina | CD 8 | 2 Frag. Adormecidos)*: Ao gastar **1 Essência** (ou ativar a Runa de Armazenamento ligada a ela), a lâmina mundana arde em fogo ou geada causando **+1 de Dano elemental** por 1 cena inteira!
+13. **Runa de Retorno Magnético** *(Aço/Madeira | CD 8 | 1 Frag. Desperto)*: Gravada em lanças, adagas ou machados de arremesso; faz a arma retornar voando direto para a mão do arremessador ao final do turno (1 Essência ou automático se ligada à bateria).
+14. **Runa de Absorção de Impacto** *(Quitina/Aço | CD 8 | 1 Frag. Desperto)*: Gravada no centro de um escudo ou couraça mundana; confere **1 Camada Rúnica de Integridade** capaz de absorver **1 golpe físico** antes que o metal real quebre!
+15. **Runa de Blindagem Espiritual** *(Osso Antigo | CD 9 | 2 Frag. Despertos)*: Circuito complexo entalhado em elmo ou medalhão de osso; concede a Tag **`[Proteção de Alma]`** temporária capaz de absorver até **2 pontos de Dano de Alma** antes de o pó se queimar!
 
 #### Grupo 4: Embarcações, Veículos e Cidadelas (Runas 16 a 20)
-16. **Runa de Levitação / Propulsão** *(Madeira Mágica/Aço | CD 11 | 2 Frag. Despertos)*: O coração dos **Navios Voadores das Ilhas Acorrentadas**! Alimentada por Cristais de Alma no altar central, mantém quilômetros de peso flutuando no ar ou dobra a velocidade de jangadas e comboios.
-17. **Runa de Escudo do Casco** *(Aço/Madeira | CD 11 | 2 Frag. Despertos)*: Rede interligada ao redor da amurada de um navio ou blindagem de um Comboio Rino; ao injetar Essência, projeta cúpula translúcida que absorve **2 pontos de Dano de Casco** por acionamento!
-18. **Runa de Auto-Reparo Estrutural** *(Madeira/Pedra | CD 11 | 1 Frag. Ascendido)*: Circuito vivo em cascos de navio ou muralhas de Cidadela; alimentado por Cristais de Alma, regenera lentamente **1 PV de Casco ou Muralha por hora** fora de combate.
-19. **Runa de Farol de Ancoragem / Bússola Astral** *(Pedra/Aço | CD 12 | 1 Frag. Ascendido)*: Emite pulso espiritual invisível a dezenas de quilômetros, guiando navios através de tempestades absolutas, névoa branca ou escuridão do Mar Tempestuoso sem que se percam.
-20. **Runa de Supressão de Portais (Soberania de Cidadela)** *(Obsidiana de Nether/Pedra | CD 13 | 3 Frag. Ascendidos)*: Gravada nas fundações de uma Cidadela conquistada; estabiliza as leis espaciais num raio de vários quilômetros, impedindo a abertura aleatória de Sementes selvagens e fortalecendo a conexão do Portal da Cidadela!
+16. **Runa de Levitação / Propulsão** *(Madeira Mágica/Aço | CD 9 | 2 Frag. Despertos)*: O coração dos **Navios Voadores das Ilhas Acorrentadas**! Alimentada por Cristais de Alma no altar central, mantém quilômetros de peso flutuando no ar ou dobra a velocidade de jangadas e comboios.
+17. **Runa de Escudo do Casco** *(Aço/Madeira | CD 9 | 2 Frag. Despertos)*: Rede interligada ao redor da amurada de um navio ou blindagem de um Comboio Rino; ao injetar Essência, projeta cúpula translúcida que absorve **2 pontos de Dano de Casco** por acionamento!
+18. **Runa de Auto-Reparo Estrutural** *(Madeira/Pedra | CD 9 | 1 Frag. Ascendido)*: Circuito vivo em cascos de navio ou muralhas de Cidadela; alimentado por Cristais de Alma, regenera lentamente **1 PV de Casco ou Muralha por hora** fora de combate.
+19. **Runa de Farol de Ancoragem / Bússola Astral** *(Pedra/Aço | CD 10 | 1 Frag. Ascendido)*: Emite pulso espiritual invisível a dezenas de quilômetros, guiando navios através de tempestades absolutas, névoa branca ou escuridão do Mar Tempestuoso sem que se percam.
+20. **Runa de Supressão de Portais (Soberania de Cidadela)** *(Obsidiana de Nether/Pedra | CD 11 | 3 Frag. Ascendidos)*: Gravada nas fundações de uma Cidadela conquistada; estabiliza as leis espaciais num raio de vários quilômetros, impedindo a abertura aleatória de Sementes selvagens e fortalecendo a conexão do Portal da Cidadela!
 
 ---
 
@@ -2053,12 +2074,12 @@ Para praticar a Tecelagem, o personagem precisa possuir **visão espiritual sobr
 
 #### 1. Costura de Emergência (Reparar Memória em Combate)
 - **Custo:** **1 Ação Maior** + **1 Ponto de Essência** *(Apenas **1 Ação Menor** se possuir `[Agulha de Osso]` ou a 1ª Habilidade de Tecelão!)*.
-- **Rolagem:** **`Alma (Canalizar)` CD 9** (ou CD 11 se a Memória for 1+ Rank superior ao Tecelão).
+- **Rolagem:** **`Alma (Canalizar)` CD 7** (ou CD 9 se a Memória for 1+ Rank superior ao Tecelão).
 - **Efeito:** Você agarra as pontas rompidas de uma Memória *Danificada* ou *Quebrada* (sua ou de um aliado em *Corpo a Corpo*) e as costura de volta na trama, restaurando **1 nível de integridade imediatamente**! Em um **`CD + 4`**, restaura **2 níveis de integridade** e limpa qualquer falha residual!
 
 #### 2. Desmontagem de Memórias (*Unweaving*)
 Quando a Coorte acumula Memórias redundantes ou de Tier/Rank obsoleto (ex: uma adaga Adormecida Tier I que ninguém mais usa), o Tecelão pode desmanchá-la cuidadosamente em vez de apenas vendê-la:
-- **Tempo & Rolagem:** **1 hora** (Descanso Curto/Longo) | **`Alma (Canalizar)` CD 10**.
+- **Tempo & Rolagem:** **1 hora** (Descanso Curto/Longo) | **`Alma (Canalizar)` CD 8**.
 - **Resultado:** A Memória original é **desfeita em fios puros**, rendendo ao Tecelão:
   1. **Reserva de Fios de Essência:** Igual ao **Tier da Memória** (ex: Tier III rende `3 Fios` do Rank daquela Memória, que dão `+1` em futuras Forjas ou servem para elevar outro item!); **E**
   2. **1 Núcleo de Encantamento Extraído:** Se passar em `CD + 1` ou melhor, você preserva intacto **1 dos Encantamentos** da Memória desmontada (armazenado temporariamente em um Cristal de Alma vazio por até 7 dias para ser transplantado!).
@@ -2066,13 +2087,13 @@ Quando a Coorte acumula Memórias redundantes ou de Tier/Rank obsoleto (ex: uma 
 #### 3. Transplante de Encantamentos
 Você costura o Nó de Encantamento extraído de uma Memória (ou de uma Receita de Tecelagem) diretamente na malha de outra Memória receptora!
 - **Tempo & Custo:** **Descanso Longo** (ou 4 horas no Acampamento/Forja) + **1 Cristal de Alma** do mesmo Rank da Memória receptora (como cola energética).
-- **Rolagem:** **`Alma (Canalizar)` CD 11** *(CD 12 se a Memória receptora já estiver no limite de Encantamentos do seu Tier!)*.
+- **Rolagem:** **`Alma (Canalizar)` CD 9** *(CD 10 se a Memória receptora já estiver no limite de Encantamentos do seu Tier!)*.
 - **Regra de Limite:** Se a Memória receptora já possuir menos Encantamentos que o máximo de seu Tier, o transplante encaixa perfeitamente! Se tentar forçar um encantamento **além do limite de Tier** da Memória sem antes elevar o Tier dela, ocorre **Sobrecarga de Malha** em `CD Exata` ou falha (destruindo o Nó extraído e causando **1 de Dano de Alma** no Tecelão!).
 
 #### 4. Elevação de Tier (Ascensão de Malha)
 É possível pegar uma Memória favorita que acompanha o guerreiro desde cedo (ex: uma espada de Tier I ou II) e expandir sua trama interna para suportar novos encantamentos e camadas!
 - **Custo:** **`N × 2` Cristais de Alma** do mesmo Rank da Memória (onde `N` é o **Tier alvo**, ex: subir de Tier II para Tier III custa **6 Cristais**) + **`N` Fios de Essência** extraídos de desmontagens.
-- **Teste Estendido:** Relógio de **4 Segmentos**, **`Alma (Canalizar)` CD 11** (Tier II–IV) ou **CD 13** (Tier V–VII).
+- **Teste Estendido:** Relógio de **4 Segmentos**, **`Alma (Canalizar)` CD 9** (Tier II–IV) ou **CD 11** (Tier V–VII).
 - **Efeito:** A Memória sobe **+1 Tier** (ganhando um novo espaço de Encantamento pronto para receber um Transplante e atualizando suas Camadas de Integridade conforme a Tabela 7-2!).
 
 ### C. 🔥 Regras Completas de Forja de Alma (*Soul Forging* — Criar uma Memória do Zero Passo a Passo!)
@@ -2100,10 +2121,10 @@ O Tecelão trabalha ininterruptamente durante horas ou dias em uma forja calma o
 
 | Tier da Memória Forjada | Tamanho do Relógio de Forja | CD do Teste (`Alma [Canalizar]`) | Tempo por Segmento | Consequência de Falha com Infortúnio (`CD - 4` ou pior) |
 | :---: | :---: | :---: | :---: | :--- |
-| **Tier I – II** *(Simples)* | **4 Segmentos** | **CD 10** | 2 horas | **1 de Dano de Alma** no Tecelão; perde 1 Cristal extra. |
-| **Tier III – IV** *(Complexa)* | **6 Segmentos** | **CD 11** | 4 horas | **2 de Dano de Alma**; um dos encantamentos desenvolve uma **falha colateral**! |
-| **Tier V – VI** *(Obra-Prima)* | **8 Segmentos** | **CD 12–13** | 1 dia inteiro | **3 de Dano de Alma**; a trama explode e consome metade dos Cristais! |
-| **Tier VII** *(Mítica)* | **10+ Segmentos** | **CD 13–14** | Meses / Era | Risco de estilhaçar o Núcleo do próprio Tecelão se não tiver ajuda ou Relíquia! |
+| **Tier I – II** *(Simples)* | **4 Segmentos** | **CD 8** | 2 horas | **1 de Dano de Alma** no Tecelão; perde 1 Cristal extra. |
+| **Tier III – IV** *(Complexa)* | **6 Segmentos** | **CD 9** | 4 horas | **2 de Dano de Alma**; um dos encantamentos desenvolve uma **falha colateral**! |
+| **Tier V – VI** *(Obra-Prima)* | **8 Segmentos** | **CD 10–11** | 1 dia inteiro | **3 de Dano de Alma**; a trama explode e consome metade dos Cristais! |
+| **Tier VII** *(Mítica)* | **10+ Segmentos** | **CD 11–12** | Meses / Era | Risco de estilhaçar o Núcleo do próprio Tecelão se não tiver ajuda ou Relíquia! |
 
 > *Trabalho em Coorte na Forja:* Outros jogadores da Coorte com `[Feitiçaria Rúnica]`, `[Mente (Conhecimento)]` ou Habilidades de Forja/Fogo (como *Chama da Alma* para aquecer o aço ou *Controle das Sombras* para segurar os fios) podem fazer rolagens de **Ajuda (+1)** ou preencher segmentos auxiliares do Relógio sob orientação do Tecelão!
 
@@ -2119,17 +2140,17 @@ No instante em que o último segmento do Relógio é preenchido:
 - **Receptáculo:** Placa dorsal intacta de um **Centurião da Carapaça** *(Demônio Desperto)* + tendões curtidos.
 - **Cristais & Fios:** 1 Cristal Desperto base + 2 Cristais extras pelo Tier III = **3 Cristais Despertos** (ou 2 Cristais + 2 Fios extraídos).
 - **Desenho da Malha:** Armadura Média **Desperta Tier III** (*Reforçada → Íntegra → Danificada → Quebrada*) com os encantamentos **`[Casca do Centurião]`** (Passivo: `+1` em Defesa para Bloquear) e **`[Espinho Repulsor]`** (Ativo `1 Essência`: quem atacar em *Corpo a Corpo* e tirar `CD Exata` ou menos sofre `1 de Dano` cortante!).
-- **Execução:** Relógio de **6 Segmentos** em **CD 11 (`Alma [Canalizar]`)**, com Ajuda `+1` do Ferreiro da Coorte durante 3 dias de descanso na Cidadela. Ao completar o 6º segmento, o Tecelão batiza a peça de **`[Couraça do Trono de Coral]`**!
+- **Execução:** Relógio de **6 Segmentos** em **CD 9 (`Alma [Canalizar]`)**, com Ajuda `+1` do Ferreiro da Coorte durante 3 dias de descanso na Cidadela. Ao completar o 6º segmento, o Tecelão batiza a peça de **`[Couraça do Trono de Coral]`**!
 
 #### Exemplo Ilustrado 2: Forjando um Amuleto Utilitário com Material Raro
 - **Receptáculo:** Cordas vocais cristalizadas de uma **Sereia dos Sussurros** *(Diabo Desperto)*.
 - **Cristais:** **4 Cristais Despertos** (Tier IV).
-- **Execução & Resultado:** Relógio de **6 Segmentos (CD 11)** → nasce o Amuleto **`[Diadema da Canção Silenciosa]`** (*Desperto Tier IV*) com **`[Proteção de Alma]`** (absorve 2 Dano de Alma) e **`[Eco da Voz]`** (Ativo `1 Essência`: emite som ilusório até *Longe* ou protege a Coorte contra efeitos sonoros!).
+- **Execução & Resultado:** Relógio de **6 Segmentos (CD 9)** → nasce o Amuleto **`[Diadema da Canção Silenciosa]`** (*Desperto Tier IV*) com **`[Proteção de Alma]`** (absorve 2 Dano de Alma) e **`[Eco da Voz]`** (Ativo `1 Essência`: emite som ilusório até *Longe* ou protege a Coorte contra efeitos sonoros!).
 
 #### Tabela 8-3: Falhas Colaterais de Tecelagem (`1d6` em `CD - 4` na Forja)
 Quando o Tecelão sofre uma Falha com Infortúnio no Relógio de Forja e sobrevive ao Dano de Alma, a Memória nasce (ou a trama estremece) com **1 defeito técnico** rolado em `1d6`:
 
-| `1d6` | Falha Colateral na Trama | Efeito Mecânico até Ser Corrigida com Tecelagem (CD 11) |
+| `1d6` | Falha Colateral na Trama | Efeito Mecânico até Ser Corrigida com Tecelagem (CD 9) |
 | :---: | :--- | :--- |
 | **1** | **Nó Instável** | A Memória inicia um passo abaixo na integridade (ex: `Íntegra` em vez de `Reforçada`). |
 | **2** | **Fio Faminto** | Sempre que invocada, consome **1 Ponto de Essência** extra na primeira vez na cena. |
@@ -2143,13 +2164,13 @@ Quando o Tecelão sofre uma Falha com Infortúnio no Relógio de Forja e sobrevi
 > ### 🎙️ Exemplo de Mesa (Capítulo 8): As Três Feitiçarias em Harmonia
 > **Situação:** A Coorte prepara uma emboscada noturna nas ruínas de um templo nas Ilhas Acorrentadas contra um *Bando de Gárgulas da Névoa Branca (CD 10)* antes de dormir.
 >
-> **Jogador 1 (Soren — possui `[Feitiçaria Rúnica]`):** *"Durante os 30 minutos de montagem do acampamento, pego meu cinzel de osso e **1 Fragmento Adormecido** moído. Vou gravar uma **Runa de Mina Explosiva Ígnea** exatamente na soleira de **Pedra Antiga** da entrada do templo (`+1 CD` pela pedra = **CD 10**)! Rolo `Mente (Conhecimento)`... Tirei **12** (`CD + 2`)! A armadilha está invisível na pedra — a primeira Gárgula que pousar lá leva 2 de Dano e cai no chão!"*
+> **Jogador 1 (Soren — possui `[Feitiçaria Rúnica]`):** *"Durante os 30 minutos de montagem do acampamento, pego meu cinzel de osso e **1 Fragmento Adormecido** moído. Vou gravar uma **Runa de Mina Explosiva Ígnea** exatamente na soleira de **Pedra Antiga** da entrada do templo (`+1 CD` pela pedra = **CD 8**)! Rolo `Mente (Conhecimento)`... Tirei **10** (`CD + 2`)! A armadilha está invisível na pedra — a primeira Gárgula que pousar lá leva 2 de Dano e cai no chão!"*
 >
-> **Jogador 2 (Lyra — possui `[Feitiçaria de Nomes]`):** *"Quando a armadilha detona e as Gárgulas entram gritando na câmara, é minha vez! Preciso parar duas delas de voar sobre o Oráculo. Gasto **2 Pontos de Essência** e pronuncio em voz alta na Língua Primordial: **`[Ferro + Peso]`** (*Martelo da Gravidade*) apontando minha lâmina na direção da Gárgula líder! Rolo `Alma (Evocar)` **CD 10**... Tirei 6 no dado + 2 de Alma + 2 da *Espada dos Sete Nomes* = **10** (`CD Exata` — Sucesso com Infortúnio!)."*
+> **Jogador 2 (Lyra — possui `[Feitiçaria de Nomes]`):** *"Quando a armadilha detona e as Gárgulas entram gritando na câmara, é minha vez! Preciso parar duas delas de voar sobre o Oráculo. Gasto **2 Pontos de Essência** e pronuncio em voz alta na Língua Primordial: **`[Ferro + Peso]`** (*Martelo da Gravidade*) apontando minha lâmina na direção da Gárgula líder! Rolo `Alma (Evocar)` **CD 8**... Tirei 4 no dado + 2 de Alma + 2 da *Espada dos Sete Nomes* = **8** (`CD Exata` — Sucesso com Infortúnio!)."*
 >
 > **Mestre:** *"A gravidade esmaga as asas da Gárgula no chão com um estrondo metálico — ela sofre **2 de Dano** e cai **Caída** diante da Coorte! Porém, pelo `CD Exata`, você sente um gosto quente de cobre na garganta: sofre **1 de Dano Físico** pelo esforço vocal!"*
 >
-> **Jogador 3 (Dorian — Tecelão de Almas):** *"Assim que a luta termina, olho para o escudo do Vaelor que ficou **Quebrado** durante o embate e não queremos esperar pelo descanso. Uso minha **Agulha de Osso de Demônio**: gasto **1 Ação Menor** e **1 Essência** para aplicar **Costura de Emergência**! Rolo `Alma (Canalizar)` **CD 9**... Tirei **13** (`CD + 4`!) — costuro os fios prateados no ar e o escudo restaura **2 níveis de integridade de uma só vez**, voltando de *Quebrada* direto para **Íntegra**! E com a placa dorsal que arrancamos do Centurião ontem, hoje à noite vou abrir o Relógio de **Forja de Alma** para criar uma nova Armadura Desperta Tier III para o Vaelor!"*
+> **Jogador 3 (Dorian — Tecelão de Almas):** *"Assim que a luta termina, olho para o escudo do Vaelor que ficou **Quebrado** durante o embate e não queremos esperar pelo descanso. Uso minha **Agulha de Osso de Demônio**: gasto **1 Ação Menor** e **1 Essência** para aplicar **Costura de Emergência**! Rolo `Alma (Canalizar)` **CD 7**... Tirei **11** (`CD + 4`!) — costuro os fios prateados no ar e o escudo restaura **2 níveis de integridade de uma só vez**, voltando de *Quebrada* direto para **Íntegra**! E com a placa dorsal que arrancamos do Centurião ontem, hoje à noite vou abrir o Relógio de **Forja de Alma** para criar uma nova Armadura Desperta Tier III para o Vaelor!"*
 
 ---
 # CAPÍTULO 9: O Sistema Completo de Legado de Aspecto (*Aspect Legacy*) e Relíquias Evolutivas
@@ -2217,7 +2238,7 @@ Diferente de qualquer Memória obtida em monstros comuns ou comprada em leilões
 ### Tabela 9-2: Escalonamento Evolutivo de 4 Relíquias de Legado (Do Rank Adormecido ao Supremo)
 | Relíquia de Legado | Adormecida / Desperta (`[1/7]`–`[2/7]`) | Ascendida (`[3/7]`) | Transcendente / Suprema (`[4/7]`–`[7/7]`) |
 | :--- | :--- | :--- | :--- |
-| **`[Serpente da Alma]`**<br>*(Dança das Sombras)* | Tatuagem que regenera `+1 Essência/cena` (ou reduz em 1 o custo de 1 habilidade do Aspecto na cena) e lâmina negra de **1 Dano** que ignora 1 ponto de carapaça. Forma de serpente: Terror Desperto, `CD 10 · 10 PV · 2 Dano` (Tabela 7-4). | Lâmina em forma de **Odachi Sombria (2 Dano)**; forma de **Serpente Gigante** com `CD 11 · 3 Dano` e PV pelo Passo do Legado (Seção 7.5 G); imune a fogo comum. | Lâmina de **3 Dano**; forma de **Terror Umbral** (`CD 12–13 · 4–5 Dano`) capaz de tomar formas múltiplas e aplicar **Fio da Morte** (ignora armaduras)! |
+| **`[Serpente da Alma]`**<br>*(Dança das Sombras)* | Tatuagem que regenera `+1 Essência/cena` (ou reduz em 1 o custo de 1 habilidade do Aspecto na cena) e lâmina negra de **1 Dano** que ignora 1 ponto de carapaça. Forma de serpente: Terror Desperto, `CD 10 · 10 PV · 2 Dano` (Tabela 7-4). | Lâmina em forma de **Odachi Sombria (2 Dano)**; forma de **Serpente Gigante** com `CD 12 · 3 Dano` e PV pelo Passo do Legado (Seção 7.5 G); imune a fogo comum. | Lâmina de **3 Dano**; forma de **Terror Umbral** (`CD 14` Transcendente / `CD 16` Suprema · `4–5 Dano`) capaz de tomar formas múltiplas e aplicar **Fio da Morte** (ignora armaduras)! |
 | **`[Coroa da Aurora]`**<br>*(Arte da Estrela Ruinosa)* | Diadema que reduz desgaste das chamas (`+1 Vontade` vs. dor) e ilumina ilusões até *Perto*. | Concede **`+1` em Feitiçaria de Nomes**; reduz em 1 o custo de Essência de 1 Frase por cena! | Brilha como um sol secundário: protege a Coorte inteira contra medo/Corrupção e amplia versos até a faixa *Longe*! |
 | **`[Agulha de Osso de Demônio]`**<br>*(Tear da Eternidade)* | Costura Memórias *Quebradas* como **Ação Menor** e dispara agulhas de fio (**1 Dano**, *Perto*). | Pode **Transplantar Encantamentos** em apenas 1 hora no Acampamento com `+1` no teste! | Tece fios invisíveis em todo o campo de batalha para **prender chefes (`Imobilizado`)** e reparar Relíquias em segundos! |
 | **`[Tridente da Fossa Silenciosa]`**<br>*(Canção do Maelstrom)* | Lança/tridente de **1 Dano** que retorna voando à mão e conduz relâmpagos em cadeia contra 2 alvos. | **2 de Dano**, alcance *Perto/Distante* ao arremessar; dobra a velocidade de nado e comandos sobre marés! | **3 de Dano**, invoca trombas d'água e tempestades locais mesmo longe do oceano, paralisando hordas inteiras! |
@@ -2293,7 +2314,7 @@ Durante qualquer combate naval, perseguição de comboio na Antártica ou tempes
 - **Atributos-Chave:** `Corpo (Agilidade)` ou `Mente (Astúcia)`.
 - **Ação Padrão (Defesa Coletiva do Veículo):** Sempre que um leviatã, navio inimigo ou rochedo ameaçar atingir a embarcação, **é o Timoneiro quem rola a Defesa pelo navio inteiro** contra a CD da ameaça! Em caso de sucesso, evita o impacto totalmente!
 - **Manobras Especiais do Timoneiro:**
-  - **Virada Brusca (Evasiva):** Abre **+1 Faixa de Distância** de um perseguidor ou concede **+1 na Defesa** contra tiros naquela rodada (exige `Mente/Corpo` CD 9; aliados sem se segurar rolam `Agilidade` CD 7 para não cair no convés!).
+  - **Virada Brusca (Evasiva):** Abre **+1 Faixa de Distância** de um perseguidor ou concede **+1 na Defesa** contra tiros naquela rodada (exige `Mente/Corpo` CD 7; aliados sem se segurar rolam `Agilidade` CD 5 para não cair no convés!).
   - **Posicionar de Bordo:** Alinha perfeitamente o flanco para que **todos os Artilheiros ganhem +1** no próximo disparo!
   - **Abalroar (*Ramming*):** Direciona a proa com Aríete contra outro navio ou monstro gigante (ver Seção 10.4).
 
@@ -2301,7 +2322,7 @@ Durante qualquer combate naval, perseguição de comboio na Antártica ou tempes
 - **Atributos-Chave:** `Corpo (Agilidade)` ou `Mente (Astúcia)`.
 - **Ação Padrão:** Dispara as Balistas Rúnicas ou Canhões do navio contra embarcações ou criaturas até a faixa **`Longe`**, causando o **Dano da Arma do Veículo** (`2 a 3 de Dano`).
 - **Manobras Especiais do Artilheiro:**
-  - **Disparo de Arpão com Corrente:** Em vez de dano máximo, causa `1 de Dano` e crava um arpão de ferro preso ao guincho do navio! A criatura ou navio alvo fica **Preso** (não pode fugir nem afundar longe sem quebrar a corrente em `CD 11`!).
+  - **Disparo de Arpão com Corrente:** Em vez de dano máximo, causa `1 de Dano` e crava um arpão de ferro preso ao guincho do navio! A criatura ou navio alvo fica **Preso** (não pode fugir nem afundar longe sem quebrar a corrente em `CD 9`!).
   - **Tiro Quebra-Velas / Ponto Crítico:** Mira nas velas, rodas ou círculo motor do veículo inimigo (CD +1): reduz pela metade a velocidade do inimigo ou **desativa o escudo rúnico dele** por 1 rodada!
   - **Metralha Anti-Enxame:** Carrega a balista com estilhaços de ferro e pedras para varrer **Hordas voadoras ou abordadores** no convés (**+2 de Dano contra Hordas**!).
 
@@ -2309,15 +2330,15 @@ Durante qualquer combate naval, perseguição de comboio na Antártica ou tempes
 - **Atributos-Chave:** `Alma (Canalizar)` ou `Alma (Abjurar)`.
 - **Ação Padrão:** Controla o coração mágico do veículo, gerenciando as Cargas dos Cristais de Alma (ou doando a própria Essência).
 - **Manobras Especiais do Canalizador:**
-  - **Ergue o Escudo Rúnico (1 Carga ou 1 Essência):** Rola `Alma (Abjurar)` CD 9 para envolver o veículo em uma cúpula brilhante que **absorve 2 pontos de Dano de Casco** (ou **3 pontos** em `CD + 4`!) até a próxima rodada!
-  - **Sobrecarga de Propulsão (1 Carga ou 1 Essência):** Rola `Alma (Canalizar)` CD 9 para fazer os propulsores rugirem: o veículo avança ou recua **2 Faixas de Distância** em uma única rodada!
+  - **Ergue o Escudo Rúnico (1 Carga ou 1 Essência):** Rola `Alma (Abjurar)` CD 7 para envolver o veículo em uma cúpula brilhante que **absorve 2 pontos de Dano de Casco** (ou **3 pontos** em `CD + 4`!) até a próxima rodada!
+  - **Sobrecarga de Propulsão (1 Carga ou 1 Essência):** Rola `Alma (Canalizar)` CD 7 para fazer os propulsores rugirem: o veículo avança ou recua **2 Faixas de Distância** em uma única rodada!
   - **Descarga de Bordo (2 Cargas):** Libera pulso elétrico/chama pelo casco para **fritar monstros ou abordadores agarrados ao lado de fora** (`2 de Dano` em todos em *Corpo a Corpo* com o casco!).
 
 ### 4. 👁️ O Vigia da Gávea / Navegador
 - **Atributos-Chave:** `Mente (Astúcia)` ou `Mente (Conhecimento)`.
 - **Ação Padrão:** Mantém visão panorâmica do céu, mar ou gelo, gritando coordenadas de ventos, recifes e movimentos submarinos.
 - **Manobras Especiais do Vigia:**
-  - **Marcação de Alvo / Rota:** Rola `Mente (Astúcia)` CD 9 — se passar, **concede `+1` imediato tanto para o Timoneiro quanto para o Artilheiro** nesta rodada (em `CD + 4`, concede **Vantagem** a um deles)!
+  - **Marcação de Alvo / Rota:** Rola `Mente (Astúcia)` CD 7 — se passar, **concede `+1` imediato tanto para o Timoneiro quanto para o Artilheiro** nesta rodada (em `CD + 4`, concede **Vantagem** a um deles)!
   - **Previsão Climática / Submersa:** Detecta emboscadas submersas, redemoinhos ou rajadas de fogo do Céu Abaixo **1 rodada antes**, evitando que a tripulação seja pega de surpresa!
   - **Tiro de Precisão do Alto:** Usando seu arco ou poder à distância do cesto da gávea, ganha o bônus de **Terreno Elevado (+1 no ataque)** para eliminar voadores que mirem no Timoneiro!
 
@@ -2333,17 +2354,17 @@ Durante qualquer combate naval, perseguição de comboio na Antártica ou tempes
 - **Atributos-Chave:** `Mente (Conhecimento)` ou `Alma (Canalizar)` (*Tecelagem / Runas*).
 - **Ação Padrão:** Corre pelos porões, caldeiras e amuradas com pregos rúnicos, tábuas de reserva e fios de Essência.
 - **Manobras Especiais do Engenheiro:**
-  - **Reparo de Emergência:** Rola `Mente (Conhecimento)` ou `Alma (Canalizar)` CD 9 para **restaurar `2 PV de Casco`** instantaneamente (ou **`3 PV de Casco`** em `CD + 4`, removendo inclusive uma penalidade de *Estado Crítico*)!
-  - **Remendo no Círculo Quebrado:** Se um golpe danificar o Círculo Rúnico do navio, apenas o Engenheiro pode reentalhar os canais rachados em 1 rodada (CD 10)!
+  - **Reparo de Emergência:** Rola `Mente (Conhecimento)` ou `Alma (Canalizar)` CD 7 para **restaurar `2 PV de Casco`** instantaneamente (ou **`3 PV de Casco`** em `CD + 4`, removendo inclusive uma penalidade de *Estado Crítico*)!
+  - **Remendo no Círculo Quebrado:** Se um golpe danificar o Círculo Rúnico do navio, apenas o Engenheiro pode reentalhar os canais rachados em 1 rodada (CD 8)!
   - **Alívio de Incêndio / Bomba de Água:** Apaga fogo rúnico nas velas ou esgota porão alagado sem gastar a ação do resto da Coorte.
 
 ### 7. 👑 O Capitão da Coorte (Comandante)
 - **Atributos-Chave:** `Coração (Convencer)` ou `Coração (Intimidar)`.
 - **Ação Padrão:** Lê toda a batalha do tombadilho e coordena a sincronia dos outros 6 postos.
 - **Manobras Especiais do Capitão:**
-  - **Ordem Decisiva:** Rola `Coração (Convencer)` CD 9 — se passar, **concede Vantagem (rolar 2 dados e pegar o maior)** ao posto mais crítico da rodada (como o Timoneiro evitando um desastre ou o Artilheiro no tiro final!). Em `CD + 4`, **dois postos diferentes recebem +1 e Vantagem**!
+  - **Ordem Decisiva:** Rola `Coração (Convencer)` CD 7 — se passar, **concede Vantagem (rolar 2 dados e pegar o maior)** ao posto mais crítico da rodada (como o Timoneiro evitando um desastre ou o Artilheiro no tiro final!). Em `CD + 4`, **dois postos diferentes recebem +1 e Vantagem**!
   - **Blefe / Guerra Psicológica Naval:** Usa `Coração (Intimidar / Enganar)` contra capitães ou monstros inteligentes para fazê-los hesitar, mudar de rota ou cair em uma armadilha de recifes!
-  - **Grito de "Segurem-se!":** Como Reação livre antes de uma colisão ou onda gigante, rola `Coração` CD 8 para garantir que **ninguém da tripulação seja arremessado ao mar** pelo impacto!
+  - **Grito de "Segurem-se!":** Como Reação livre antes de uma colisão ou onda gigante, rola `Coração` CD 6 para garantir que **ninguém da tripulação seja arremessado ao mar** pelo impacto!
 
 ---
 
@@ -2351,16 +2372,16 @@ Durante qualquer combate naval, perseguição de comboio na Antártica ou tempes
 
 ### A. Abalroamento (*Ramming*)
 Quando o **Timoneiro** decide usar o navio inteiro como projétil para partir outra embarcação ou esmagar o casco de um leviatã (exige estar na faixa *Perto* para avançar para *Engajado*):
-- **Rolagem:** O Timoneiro rola `Corpo (Agilidade)` ou `Mente (Astúcia)` contra a **CD do alvo** (normalmente CD 10 contra outros navios/leviatãs; se o Canalizador usou *Sobrecarga de Propulsão*, o Timoneiro ganha **Vantagem**!).
+- **Rolagem:** O Timoneiro rola `Corpo (Agilidade)` ou `Mente (Astúcia)` contra a **CD do alvo** (normalmente CD 8 contra outros navios/leviatãs; se o Canalizador usou *Sobrecarga de Propulsão*, o Timoneiro ganha **Vantagem**!).
 - **Sucesso:**
   - Se o veículo possuir **Aríete de Proa**, causa **3 de Dano de Casco** (ou **4 de Dano** em `CD + 4`!) no alvo e **o próprio veículo sofre apenas `1 de Dano` de recuo** (ignorado se tiver Blindagem 1+!).
-  - Se o veículo **não** tiver Aríete, ambos sofrem **2 de Dano de Casco** e toda a tripulação precisa passar em `Corpo (Agilidade)` CD 8 para não cair *Caída*!
+  - Se o veículo **não** tiver Aríete, ambos sofrem **2 de Dano de Casco** e toda a tripulação precisa passar em `Corpo (Agilidade)` CD 6 para não cair *Caída*!
 - **Falha (`CD - 4`):** O tiro sai pela culatra — o veículo raspa de lado nos espinhos ou rochedos, sofrendo **2 de Dano de Casco** sem atingir o ponto vital inimigo!
 
 ### B. Abordagem (*Boarding*)
 Quando dois navios ou comboios ficam **Engajados (*Corpo a Corpo*)**:
-1. **Lançar Ganchos / Pranchas:** Um membro (normalmente o *Guardião* ou *Artilheiro*) rola `Corpo (Força/Agilidade)` CD 8 para prender os ganchos.
-2. **Saltando Entre Convéses em Movimento:** Saltar entre dois navios balançando no mar ou voando no ar exige `Corpo (Agilidade)` **CD 9** (automático com asas, *Passo das Sombras* ou prancha firme; quem falhar cai na água/ar e precisa agarrar uma corda em CD 9!).
+1. **Lançar Ganchos / Pranchas:** Um membro (normalmente o *Guardião* ou *Artilheiro*) rola `Corpo (Força/Agilidade)` CD 6 para prender os ganchos.
+2. **Saltando Entre Convéses em Movimento:** Saltar entre dois navios balançando no mar ou voando no ar exige `Corpo (Agilidade)` **CD 7** (automático com asas, *Passo das Sombras* ou prancha firme; quem falhar cai na água/ar e precisa agarrar uma corda em CD 7!).
 3. **Combate Pessoal no Convés:** A partir daí, os jogadores que saltaram usam o combate tático normal (Capítulo 5) contra os defensores ou contra o Capitão inimigo enquanto os companheiros que ficaram no próprio navio dão fogo de cobertura!
 
 ### C. Tempestades, Redemoinhos e Perseguições (Relógio de Navegação)
@@ -2374,7 +2395,7 @@ Quando a Coorte precisa atravessar um furacão no *Mar Tempestuoso*, fugir das *
 ### D. Tabela 10-2: Falhas Críticas Estruturais de Embarcações (`1d6`)
 Sempre que uma embarcação sofrer **50% de perda nos PV de Casco**, um **Dano Massivo (3+ de uma vez)** ou o Timoneiro tirar **`CD - 4`** numa Defesa crítica, role **`1d6`**:
 
-| `1d6` | Avaria Estrutural | Efeito até o Engenheiro Reparar (Ação Maior — CD 9 ou 10) |
+| `1d6` | Avaria Estrutural | Efeito até o Engenheiro Reparar (Ação Maior — CD 7 ou 8) |
 | :---: | :--- | :--- |
 | **1** | **Leme Travado / Eixo Quebrado** | O veículo só consegue virar para um lado (**Desvantagem** no próximo teste do Timoneiro). |
 | **2** | **Vazamento no Casco / Fenda Aérea** | O navio perde **1 PV de Casco automático** no fim de cada rodada até ser tapado! |
@@ -2394,15 +2415,15 @@ Quando a Coorte enfrenta uma **Serpente do Mar Negro (*Tirano Caído*)**, um **C
 > ### 🎙️ Exemplo de Mesa (Capítulo 10): Batalha Aérea Sobre o Céu Abaixo
 > **Situação:** Os 7 jogadores voam a bordo do *Veleiro Aéreo Rúnico "Ventos da Alvorada" (14 PV de Casco | Blindagem 1 | 8 Cargas)* através das Ilhas Acorrentadas quando uma **Harpia Matriarca Gigante (Diabo Desperto — CD 10 | 20 PV)** e seu bando avançam rasgando as nuvens!
 >
-> - **1. Vigia da Gávea (Soren):** *"Subo no cesto! Rolo `Mente (Astúcia)` **CD 9** para mapear as correntes térmicas e gritar a trajetória da Matriarca... Tirei **11**! Concedo **`+1` para o Timoneiro e para o Artilheiro** nesta rodada!"*
-> - **2. Capitão (Seraphina):** *"Olho as nuvens subindo lá embaixo e grito ordens no convés! Rolo `Coração (Convencer)` **CD 9**... Tirei **12**! Entrego **Vantagem** para o nosso Canalizador segurar a barreira rúnica!"*
+> - **1. Vigia da Gávea (Soren):** *"Subo no cesto! Rolo `Mente (Astúcia)` **CD 7** para mapear as correntes térmicas e gritar a trajetória da Matriarca... Tirei **9**! Concedo **`+1` para o Timoneiro e para o Artilheiro** nesta rodada!"*
+> - **2. Capitão (Seraphina):** *"Olho as nuvens subindo lá embaixo e grito ordens no convés! Rolo `Coração (Convencer)` **CD 7**... Tirei **10**! Entrego **Vantagem** para o nosso Canalizador segurar a barreira rúnica!"*
 > - **3. Canalizador (Thalassa):** *"Injeto **1 Carga** do altar no Círculo de Defesa e rolo `Alma (Abjurar)` com **Vantagem** (`2d8 + 3`)... Tirei **11**! O **Escudo Rúnico do Casco** está ativo — vai absorver 2 pontos de Dano de Casco nesta rodada!"*
-> - **4. Timoneiro (Kaelen):** *"Giro o leme a bombordo para expor o flanco certo do navio (`+1 do Vigia`). Rolo `Corpo (Agilidade)` **CD 10**... Tirei **11**! Alinho o costado perfeitamente e dou mais `+1` para o tiro da Balista!"*
+> - **4. Timoneiro (Kaelen):** *"Giro o leme a bombordo para expor o flanco certo do navio (`+1 do Vigia`). Rolo `Corpo (Agilidade)` **CD 8**... Tirei **11**! Alinho o costado perfeitamente e dou mais `+1` para o tiro da Balista!"*
 > - **5. Artilheiro (Lyra):** *"Puxo o gatilho da Balista Rúnica (`+1 Vigia + 1 Timoneiro = +2`)! Rolo `1d8 + 3 (Corpo) + 2`... Total **13** (`CD + 3`!) — a lança rúnica crava na asa direita da Matriarca causando **2 de Dano** (e mais +1 se ela descer para a faixa Perto)!"*
 >
 > **Mestre (Fase do Pesadelo):** *"Feroz com o ferimento, a Matriarca mergulha batendo as garras contra a proa do navio (causando 3 de Dano de Casco — o Escudo Rúnico absorve 2, e a Blindagem 1 absorve o último 1: **0 de Dano real no Casco!**), enquanto 3 Harpias menores pousam diretamente sobre o convés principal!"*
 >
-> - **6. Guardião do Convés (Vaelor):** *"É comigo! Avanço gritando com meu escudo na mão e uso **Varredura de Amurada** (`Corpo [Força]` **CD 9**)... Tirei **13** (`CD + 4`!) — esmago uma delas com o escudo e jogo **duas Harpias direto para fora da amurada** caindo nas nuvens do Céu Abaixo!"*
+> - **6. Guardião do Convés (Vaelor):** *"É comigo! Avanço gritando com meu escudo na mão e uso **Varredura de Amurada** (`Corpo [Força]` **CD 7**)... Tirei **11** (`CD + 4`!) — esmago uma delas com o escudo e jogo **duas Harpias direto para fora da amurada** caindo nas nuvens do Céu Abaixo!"*
 > - **7. Engenheiro de Reparo (Dorian):** *"Aproveito que o casco ainda está em 14/14 e uso minha Ação Menor para tecer um reforço preventivo nos cabos da vela e comandar meu Eco para ajudar o Vaelor a terminar a última Harpia no convés!"*
 
 ---
@@ -2470,7 +2491,7 @@ A densidade espiritual de um Cristal de Alma multiplica-se aproximadamente por *
 | **Encomenda de Tecelagem / Transplante de Encantamento** | **10 a 25 Frag. + Materiais** | Artífices raros de Bastion ou Valor cobram caro pelo risco de Dano de Alma! |
 | **Passagem Naval / Aérea Segura Entre Regiões** | **3 a 8 Frag. Despertos** *(por pessoa)* | Cobrado por capitães da *Casa da Noite* ou mercadores de navios voadores. |
 
-> **Regra de Negociação & Reputação:** Ao comprar ou vender em grande escala, um membro da Coorte pode rolar **`Coração (Convencer)`** ou **`Coração (Enganar)`** (CD 9 para comércio comum; CD 11 em leilões raros) para conseguir **10% a 20% de desconto/lucro** (e Reputação `+1` com Valor, Song ou Casa da Noite reduz preços automaticamente em 20% em seus territórios!).
+> **Regra de Negociação & Reputação:** Ao comprar ou vender em grande escala, um membro da Coorte pode rolar **`Coração (Convencer)`** ou **`Coração (Enganar)`** (CD 7 para comércio comum; CD 9 em leilões raros) para conseguir **10% a 20% de desconto/lucro** (e Reputação `+1` com Valor, Song ou Casa da Noite reduz preços automaticamente em 20% em seus territórios!).
 
 ---
 
@@ -2487,7 +2508,7 @@ Pelo Atlas do Reino dos Sonhos (Livro 4), há **10 Cidadelas** selvagens ou cont
 1. **Localização e Infiltração:** Atravessar a região hostil até alcançar as muralhas da Cidadela perdida.
 2. **Limpeza dos Arredores:** Eliminar patrulhas de lacaios ou desativar armadilhas antigas que guardam o pátio externo.
 3. **Derrotar o Guardião da Cidadela:** Toda Cidadela selvagem é ocupada por um **Chefe Território** (normalmente um *Diabo*, *Tirano* ou *Terror* com Partes Destrutíveis) que aninhou-se junto ao Santuário Central.
-4. **Sintonização do Altar do Portal:** Após a morte do Guardião, um ou mais membros da Coorte tocam o Altar Central (gastando **3 Pontos de Essência** e realizando um teste de **`Alma [Canalizar]` CD 10**). As Runas ancestrais da fortaleza acendem-se com a marca da Coorte — **nascendo oficialmente uma nova base independente e o embrião de um futuro Clã!**
+4. **Sintonização do Altar do Portal:** Após a morte do Guardião, um ou mais membros da Coorte tocam o Altar Central (gastando **3 Pontos de Essência** e realizando um teste de **`Alma [Canalizar]` CD 8**). As Runas ancestrais da fortaleza acendem-se com a marca da Coorte — **nascendo oficialmente uma nova base independente e o embrião de um futuro Clã!**
 
 ### C. 🛡️ Defesa de Cerco (*Siege Warfare*)
 Possuir uma Cidadela atrai ganância de Clãs rivais e ondas de Criaturas do Pesadelo atraídas pelo brilho humano! Quando uma força invasora marcha contra a Cidadela da Coorte, use o sistema ágil de **Cerco**:
@@ -2562,7 +2583,7 @@ O momento mais grandioso de uma guerra entre Supremos (ou contra um **Terror/Tit
 >
 > **Mestre:** *"O General Profano projeta um Domínio de Podridão e Desespero ao redor das muralhas — o ar fica pesado e seus vassalos começam a sangrar pelos olhos! Se você quiser retomar o controle do campo de batalha, declare um **Choque de Domínios**!"*
 >
-> **Lyra (Suprema da Chama Imortal):** *"Eu ergo a *Espada dos Sete Nomes do Sol*! Como estamos lutando exatamente dentro da nossa **Cidadela Ancorada** (onde temos o Cofre Dimensional e 2 Cidadelas aliadas!), recebo **`+1` de Domínio Territorial**, e todos os meus 6 companheiros da Coorte gritam apoiando nossa chama (ajuda `+1` do Oráculo Seraphina = `+2`)! Rolo `Alma (Canalizar)` **CD 13** com **Vantagem**..."*
+> **Lyra (Suprema da Chama Imortal):** *"Eu ergo a *Espada dos Sete Nomes do Sol*! Como estamos lutando exatamente dentro da nossa **Cidadela Ancorada** (onde temos o Cofre Dimensional e 2 Cidadelas aliadas!), recebo **`+1` de Domínio Territorial**, e todos os meus 6 companheiros da Coorte gritam apoiando nossa chama (ajuda `+1` do Oráculo Seraphina = `+2`)! Rolo `Alma (Canalizar)` contra a **CD 13** do General com **Vantagem**..."*
 >
 > **Lyra:** *"Tirei **8 no d8** + **5 (Alma)** + **2 (Bônus)** = **15**! (`CD + 2` — e como tirei **8 natural** ganho Dádiva menor!) Empurro a escuridão profana para trás! Uma cúpula de fogo branco incandescente nasce da torre da Cidadela e engole todo o exército invasor: toda a minha Coorte recupera **2 Essência/rodada**, ganha **+1 em todas as rolagens** e **+1 na Defesa**, enquanto os monstros inferiores ficam com **Desvantagem** na hora de atacar nossas muralhas!"*
 
@@ -2618,7 +2639,7 @@ Um personagem pode ser exposto à Corrupção através de:
 - Falhas críticas ao explorar **Zonas de Profanação** ou manipular relíquias corrompidas sem purificação;
 - Aceitar voluntariamente uma **Tentação do Vazio**.
 
-Sempre que exposto a uma fonte involuntária, o personagem realiza um teste de **`Mente (Vontade)`** (ou **`Alma [Abjurar]`**) contra a CD da fonte (**CD 9** para esporos/sussurros leves; **CD 11** para sangue profano; **CD 13** para verdades proibidas do Vazio). *(Portadores de Aspectos purificadores como `Portadora da Luz [Chama Incorruptível]` são imunes a exposição passiva; `[Marca/Chama de Divindade]` e `Nome Verdadeiro` concedem `+1` no teste!).*
+Sempre que exposto a uma fonte involuntária, o personagem realiza um teste de **`Mente (Vontade)`** (ou **`Alma [Abjurar]`**) contra a CD da fonte (**CD 7** para esporos/sussurros leves; **CD 9** para sangue profano; **CD 11** para verdades proibidas do Vazio). *(Portadores de Aspectos purificadores como `Portadora da Luz [Chama Incorruptível]` são imunes a exposição passiva; `[Marca/Chama de Divindade]` e `Nome Verdadeiro` concedem `+1` no teste!).*
 
 ### B. Tabela 12-1: Os 5 Estágios da Corrupção na Ficha (`0` a `5` Marcas)
 Cada falha em resistir anota **1 Marca de Corrupção** no contador `[0 / 5]` do Mar da Alma:
@@ -2629,7 +2650,7 @@ Cada falha em resistir anota **1 Marca de Corrupção** no contador `[0 / 5]` do
 | **1** | **Mancha Sutil** | Pesadelos vívidos ao fechar os olhos e ecos metálicos no silêncio. | Apenas narrativo e de tensão. *(Pode ser limpa no Acampamento pelo Guardião da Fogueira — Função 7, Seção 6.5!).* |
 | **2** | **Sombra no Núcleo** | Veias escuras surgem sob a pele do pescoço/peito; olhar febril. | Sofre **`-1` em todos os testes pacíficos de `Coração (Convencer)`** e animais fogem de sua presença. |
 | **3** | **Fissura Profana** | O Vazio sussurra segredos cruéis o tempo todo; temperatura corporal cai. | Sofre **Desvantagem em todos os testes de `Mente (Vontade)`**, **MAS** recebe **`+1 de Dano` bruto** sempre que atacar tomado pela fúria ou rancor! |
-| **4** | **À Beira do Abismo** | Metade do Núcleo de Alma tornou-se obsidiana rachada; fumaça negra sai dos olhos em tensão. | No início de todo combate tenso (ou ao ver sangue), role `Mente (Vontade)` **CD 11**: se falhar, entra em **frenesi profano** atacando a criatura mais próxima sem distinguir aliado de inimigo por 1 rodada! |
+| **4** | **À Beira do Abismo** | Metade do Núcleo de Alma tornou-se obsidiana rachada; fumaça negra sai dos olhos em tensão. | No início de todo combate tenso (ou ao ver sangue), role `Mente (Vontade)` **CD 9**: se falhar, entra em **frenesi profano** atacando a criatura mais próxima sem distinguir aliado de inimigo por 1 rodada! |
 | **5** | **💀 PERDIÇÃO (*Corrompido*)** | A Semente da Profanação floresce dentro do peito e estilhaça a humanidade. | **Morte da Personagem Jogável:** O personagem transforma-se imediatamente em uma **Criatura do Pesadelo (Diabo ou Tirano)** hostil com todas as suas habilidades distorcidas! |
 
 ### C. 🕳️ As Tentações do Vazio (Escolhas Sombrias na Hora da Morte)
@@ -2645,13 +2666,13 @@ A Corrupção não força sua entrada apenas pela violência — ela **seduz** s
 ### D. ✨ Rituais de Purificação (Removendo Marcas de Corrupção)
 Enquanto o personagem ainda não tiver chegado à Marca 5, há esperança — desde que a Coorte se una para salvá-lo antes que a fissura se alargue:
 - **Purificar Marca 1 (`Mancha Sutil`):**
-  - *No Acampamento:* A função do **Guardião da Fogueira** (*Função 7 — Estrategista/Conselheiro*, Seção 6.5; `Coração [Convencer]` CD 9) remove 1 Marca de Grau 1 pela força da humanidade e vínculo da Coorte!
+  - *No Acampamento:* A função do **Guardião da Fogueira** (*Função 7 — Estrategista/Conselheiro*, Seção 6.5; `Coração [Convencer]` CD 7) remove 1 Marca de Grau 1 pela força da humanidade e vínculo da Coorte!
   - *Por Aspecto/Magia:* Toque de cura espiritual (como *Chama da Alma*) ou 1 Descanso Longo em Cidadela segura.
 - **Purificar Marca 2 (`Sombra no Núcleo`):**
-  - Exige **Enfermaria de Cápsulas & Purificação** (Melhoria #8 de Cidadela), OU um **Verso Sagrado** `[Luz + Purificação + Ao Redor]`, OU um **Ritual de Apoio da Coorte** durante um Descanso Longo (Teste Estendido Relógio 4, `Alma [Abjurar]` / `Mente [Vontade]` **CD 10**, com os aliados segurando as mãos do infectado!).
+  - Exige **Enfermaria de Cápsulas & Purificação** (Melhoria #8 de Cidadela), OU um **Verso Sagrado** `[Luz + Purificação + Ao Redor]`, OU um **Ritual de Apoio da Coorte** durante um Descanso Longo (Teste Estendido Relógio 4, `Alma [Abjurar]` / `Mente [Vontade]` **CD 8**, com os aliados segurando as mãos do infectado!).
 - **Purificar Marcas 3 ou 4 (`Fissura Profana` / `À Beira do Abismo`):**
   - Dormir ou rezar na fogueira **não funciona mais**! A Coorte precisa embarcar em uma verdadeira missão de resgate espiritual usando um destes **3 Caminhos**:
-    1. **Altar Divino Intacto:** Alcançar um templo consagrado de um dos Seis Deuses (como a Chama do Sol ou o Santuário das Sombras — Livro 4, Seção 4.2) e realizar um **Ritual Maior** (Relógio de 6 Segmentos, **CD 11–13**, sacrificando `5 a 10 Fragmentos de Alma` do Rank do personagem para queimar a raiz da mancha — cada Ritual Maior concluído remove **2 Marcas**).
+    1. **Altar Divino Intacto:** Alcançar um templo consagrado de um dos Seis Deuses (como a Chama do Sol ou o Santuário das Sombras — Livro 4, Seção 4.2) e realizar um **Ritual Maior** (Relógio de 6 Segmentos, **CD 9–11**, sacrificando `5 a 10 Fragmentos de Alma` do Rank do personagem para queimar a raiz da mancha — cada Ritual Maior concluído remove **2 Marcas**).
     2. **Relíquia Suprema de Purificação:** Usar uma Relíquia purificadora de Legado (como as da *Portadora da Luz*, Livro 2, Cap. 4) ou o *Frasco de Seiva da Árvore Sagrada*.
     3. **Expurgo Dentro do Mar da Alma:** Os membros da Coorte projetam suas consciências (ou um Canalizador/Oráculo entra junto) para o **Mar da Alma** do companheiro infectado e **lutam fisicamente contra a Sombra de Corrupção lá dentro** (um combate espiritual real contra um Demônio/Diabo de sombra negra!). Ao matar o parasita dentro da alma do amigo, todas as Marcas caem de volta para **0**!
 
@@ -2755,13 +2776,13 @@ Para ajudar jogadores iniciantes e veteranos a planejarem onde investir seus XP 
 ---
 
 ### F. 🗺️ Exemplo Completo de Evolução em Campanha (As 4 Engrenagens Girando Juntas)
-Para visualizar como um personagem evolui sem atritos da Sessão 1 ao Fim da Campanha, acompanhe **Kaelen (Espectro — *Escravo das Sombras*)** *(base inicial: `Corpo 2 | Mente 2 | Coração 1 | Alma 2` = **`6 PV`**, **`4 Essência Máxima`**)*:
+Para visualizar como um personagem evolui sem atritos da Sessão 1 ao Fim da Campanha, acompanhe **Kaelen (Espectro — *Escravo das Sombras*)** *(base inicial: `Corpo 2 | Mente 2 | Coração 1 | Alma 2` = **`8 PV`**, **`4 Essência Máxima`**)*:
 1. **Sessão 1 (1º Pesadelo — Engrenagem 3):** Kaelen vence o Primeiro Pesadelo com avaliação *Gloriosa*. **Sem gastar XP**, sobe para **Rank Adormecido**, desperta o Atributo Inato **`[Filho das Sombras]`**, a 1ª Habilidade **`[Controle das Sombras]`** (além da Habilidade Inata **`[Vínculo Sombrio]`**) e recebe seu Nome Verdadeiro **`[Perdido da Luz]`** e o Defeito **`[Consciência Limpa]`** — e, pela nota *Gloriosa*, já sai com **3 Marcos de Saturação** e 1 Memória Rara.
 2. **Arco da Costa Esquecida (Engrenagens 1 e 2):** Após 6 sessões de caça e exploração, Kaelen junta **18 XP** (Engrenagem 1) e preenche mais **2 Marcos de Saturação** (Engrenagem 2) caçando Carapaças e Carniçais, chegando a **5 Marcos**!
-   - Com os **5 Marcos (`0 XP`!)**, sua Essência Máxima sobe em **`+3`** (Marcos ímpares `1, 3, 5`), seus PV Máximos sobem em **`+1`** (Marco `2`) e ele ganha **`+1` Atributo Rúnico ou Especialização** (Marco `4`) — chegando a **`7 PV`** e **`7 Essência`**.
+   - Com os **5 Marcos (`0 XP`!)**, sua Essência Máxima sobe em **`+3`** (Marcos ímpares `1, 3, 5`), seus PV Máximos sobem em **`+1`** (Marco `2`) e ele ganha **`+1` Atributo Rúnico ou Especialização** (Marco `4`) — chegando a **`9 PV`** e **`7 Essência`**.
    - Com os **18 XP**, Kaelen compra o **Grau 2 de Espectro (`5 XP`)**, sobe sua **1ª Especialização em `Alma (Canalizar)` para `1d8` (`3 XP`)** e, após viver a Epifania no duelo da ponte, gasta **`10 XP`** para abrir o **Legado de Aspecto `[1/7]` (Engrenagem 4)** recebendo a *Serpente da Alma* (`5 + 3 + 10 = 18 XP`)!
-3. **Retorno pelo Portal (Engrenagem 3):** A Coorte alcança e atravessa o Portal de uma Cidadela! **Sem gastar XP**, todos sobem para **Rank Desperto** e recebem **`+2 Essência Máxima`** (bônus do Rank Humano Desperto — Kaelen continua com **`7 PV`** e vai a **`9 Essência`**; subir de Rank não dá PV), destravam a **2ª Habilidade de Aspecto** (*Passo das Sombras*) e liberam o Reforço Corporal livre!
-4. **Saturação Completa nas Ilhas Acorrentadas (Engrenagem 2):** Kaelen preenche os **Marcos 6 a 10 (`1.000/1.000`)**: recebe **`+1 PV`** (Marco `6`), **`+2 Essência`** (Marcos `7 e 9`) e **`+1` Atributo Rúnico ou Especialização** (Marco `8`). Ao fechar o **Marco 10**, recebe o **`+1 Pilar Permanente`** (coloca em *Mente*, que vai a 3) e, por possuir um **Aspecto Divino**, também condensa seu **2º Núcleo de Alma — Classe Monstro `[2/7]`** (**`+3 Essência, +1 PV, +1 Sombra auxiliar`**)! Ao todo, Kaelen fecha os 10 Marcos com **`9 PV Máximos`** (`7 + 1 do Marco 6 + 1 do 2º Núcleo`) e **`14 de Essência Máxima`** (`4 base + 5 dos Marcos ímpares + 2 Desperto + 3 do 2º Núcleo`), recomeçando a barra `0/10` rumo ao 3º Núcleo!
+3. **Retorno pelo Portal (Engrenagem 3):** A Coorte alcança e atravessa o Portal de uma Cidadela! **Sem gastar XP**, todos sobem para **Rank Desperto** e recebem **`+2 Essência Máxima`** (bônus do Rank Humano Desperto — Kaelen continua com **`9 PV`** e vai a **`9 Essência`**; subir de Rank não dá PV), destravam a **2ª Habilidade de Aspecto** (*Passo das Sombras*) e liberam o Reforço Corporal livre!
+4. **Saturação Completa nas Ilhas Acorrentadas (Engrenagem 2):** Kaelen preenche os **Marcos 6 a 10 (`1.000/1.000`)**: recebe **`+1 PV`** (Marco `6`), **`+2 Essência`** (Marcos `7 e 9`) e **`+1` Atributo Rúnico ou Especialização** (Marco `8`). Ao fechar o **Marco 10**, recebe o **`+1 Pilar Permanente`** (coloca em *Mente*, que vai a 3) e, por possuir um **Aspecto Divino**, também condensa seu **2º Núcleo de Alma — Classe Monstro `[2/7]`** (**`+3 Essência, +1 PV, +1 Sombra auxiliar`**)! Ao todo, Kaelen fecha os 10 Marcos com **`11 PV Máximos`** (`9 + 1 do Marco 6 + 1 do 2º Núcleo`) e **`14 de Essência Máxima`** (`4 base + 5 dos Marcos ímpares + 2 Desperto + 3 do 2º Núcleo`), recomeçando a barra `0/10` rumo ao 3º Núcleo!
 
 ---
 
@@ -2782,7 +2803,7 @@ Antes de guardar os dados ao final de uma sessão com 7 jogadores, o Mestre e o 
 >
 > **Jogador (Dorian):** *"Eu olho para o corpo caído da Seraphina na lama... Não tenho escolha! `'Eu aceito!'`* — Anoto a **3ª Marca de Corrupção (`Fissura Profana` — agora tenho Desvantagem em Vontade, mas +1 de Dano na fúria!)**. Com os **3 Pontos de Essência negra** correndo nas veias, eu disparo meu verso de proteção e puxo Seraphina para fora do golpe letal!"*
 >
-> **Cenas Depois (Na Cidadela Conquistada — Ritual de Purificação):** A Coorte vence o combate por um triz e recua até o templo intacto da Chama do Sol, perto da Cidadela (**Altar Divino** — com 3 Marcas, Enfermaria e Rituais de Apoio já não bastam!). O grupo inicia um **Ritual Maior** (Relógio de 6 Segmentos, CD 11) liderado por **Lyra (`Chama da Alma` + Verso `[Luz + Purificação + Ao Redor]`)** e **Seraphina (`[Toque Purificador]`)**:
+> **Cenas Depois (Na Cidadela Conquistada — Ritual de Purificação):** A Coorte vence o combate por um triz e recua até o templo intacto da Chama do Sol, perto da Cidadela (**Altar Divino** — com 3 Marcas, Enfermaria e Rituais de Apoio já não bastam!). O grupo inicia um **Ritual Maior** (Relógio de 6 Segmentos, CD 9) liderado por **Lyra (`Chama da Alma` + Verso `[Luz + Purificação + Ao Redor]`)** e **Seraphina (`[Toque Purificador]`)**:
 > - Todos os 6 companheiros somam esforços preenchendo os 6 Segmentos do Relógio e queimando 5 Fragmentos Ascendidos do tesouro! A fumaça negra é arrancada do peito de Dorian com um grito agudo, reduzindo suas Marcas de **3 para 1** (que na noite seguinte **Seraphina** limpa por completo na fogueira!).
 >
 > **Fechamento da Sessão (Distribuição das 4 Engrenagens):**

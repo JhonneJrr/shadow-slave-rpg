@@ -74,7 +74,7 @@ Sua ficha oficial está dividida em **cinco blocos rúnicos** que conversam entr
 
 | Bloco das Runas do Mar da Alma | O que aparece na sua ficha? | Como funciona na mesa? |
 | :--- | :--- | :--- |
-| **1. Identidade & Ascensão** | Nome, Nome Verdadeiro *(se conquistado)*, Rank Atual (*Aspirante → Supremo*), Classe do Núcleo (`[1/7]` a `[7/7]`), Marcos de Saturação (`0/10` a `10/10`) e Papel de Coorte (Grau 1–10). | Define sua patente no Feitiço, os bônus de diferença de Rank (`±2 na CD`) e a progressão da sua Classe e Papel. |
+| **1. Identidade & Ascensão** | Nome, Nome Verdadeiro *(se conquistado)*, Rank Atual (*Aspirante → Supremo*), Classe do Núcleo (`[1/7]` a `[7/7]`), Marcos de Saturação (`0/10` a `10/10`) e Papel de Coorte (Grau 1–10). | Define sua patente no Feitiço, os bônus de diferença de Rank (`±1 na CD`) e a progressão da sua Classe e Papel. |
 | **2. Os 4 Pilares & 12 Subcategorias** | **Corpo, Mente, Coração, Alma** (valores de `1` a `5`) e as marcas de Especialização `[X]` (`1d8` em vez de `1d6`). | É o motor de toda rolagem *Player-Facing*: você sempre rola `1d6` (ou `1d8` se Especializado) + Pilar + Bônus Situacionais (teto `+3`). |
 | **3. Recursos Vitais & Carga** | **Pontos de Vida (PV)**, **Reserva de Essência**, **Capacidade de Carga**, **Marcas de Corrupção (`0/5`)** e **Ferimentos Graves**. | Controla quanto dano físico ou de alma você aguenta, quanta Essência alimenta seu Aspecto e o que você carrega no corpo. |
 | **4. Atributos Rúnicos, Aspecto & Defeito** | Seus **Atributos `[...]`** (de Origem, Poder, Linhagem e Papel), seu **Aspecto** (Inato + Habilidades de Rank), seu **Legado de Aspecto (`1/7`–`7/7`)** e seu **Defeito (*Flaw*)**. | Concede seus poderes sobrenaturais, bônus de `+1` ou `+2` quando aplicáveis e a restrição irônica imposta pelo Feitiço. |
@@ -116,14 +116,14 @@ Todo personagem em **Shadow Slave RPG** possui **4 Pilares** que representam as 
 - **Teto Progressivo por Rank de Ascensão:**
   - **Aspirante, Adormecido e Desperto:** Teto **`3`** *(Adormecidos e Despertos podem atingir `4` exclusivamente ao saturar o **Marco 10** do Núcleo de Alma; o Aspirante ainda não tem Núcleo)*.
   - **Ascendido** (*Master*; "Mestre"): Teto **`4`**.
-  - **Transcendente** (*Saint*; "Santo") **e Supremo** (*Sovereign*; "Soberano"): Teto **`5`** *(o teto humano blindado de 5 garante que os dados `1d6/1d8` nunca quebrem a escala de CDs 5 a 15, enquanto a diferença cósmica contra criaturas inferiores é tratada pela regra de Diferença de Rank de `±2 na CD`)*.
+  - **Transcendente** (*Saint*; "Santo") **e Supremo** (*Sovereign*; "Soberano"): Teto **`5`** *(o teto humano blindado de 5 garante que os dados `1d6/1d8` nunca quebrem a escala de CDs 3 a 13, enquanto a diferença cósmica contra criaturas inferiores é tratada pela regra de Diferença de Rank de `±1 na CD`)*.
 
 #### Guia Rápido de Distribuição Recomendada:
 | Arquétipo Tático / Estilo de Jogo | Distribuição Sugerida | Pilares em Destaque |
 | :--- | :---: | :--- |
-| **Vanguarda Implacável** *(Baluarte / Executor Bruto)* | `Corpo 3 · Mente 2 · Coração 1 · Alma 1` | Máxima sobrevivência (`8 PV`) e ataques/bloqueios pesados, mantendo `2` Especializações `1d8`. |
+| **Vanguarda Implacável** *(Baluarte / Executor Bruto)* | `Corpo 3 · Mente 2 · Coração 1 · Alma 1` | Máxima sobrevivência (`10 PV`) e ataques/bloqueios pesados, mantendo `2` Especializações `1d8`. |
 | **Combatente Místico** *(Executor / Espectro Espiritual)* | `Corpo 3 · Mente 1 · Coração 1 · Alma 2` | Alto dano físico aliado a `4` de Essência inicial e `2` Atributos de Poder desde o início. |
-| **Batedor / Franco-Atirador** *(Espectro / Olho de Falcão)* | `Corpo 2 · Mente 3 · Coração 1 · Alma 1` | Precisão cirúrgica (`3` Especializações `1d8`), percepção letal e boa defesa ágil (`6 PV`). |
+| **Batedor / Franco-Atirador** *(Espectro / Olho de Falcão)* | `Corpo 2 · Mente 3 · Coração 1 · Alma 1` | Precisão cirúrgica (`3` Especializações `1d8`), percepção letal e boa defesa ágil (`8 PV`). |
 | **Arcanista / Invocador** *(Canalizador / Domador de Almas)* | `Corpo 1 · Mente 2 · Coração 1 · Alma 3` | Reserva inicial massiva de `6` Essência e `3` Atributos de Poder, exigindo posicionamento seguro atrás do Baluarte. |
 | **Estrategista / Comandante** *(Oráculo / Face Social)* | `Corpo 1 · Mente 2 · Coração 2 · Alma 2` | Equilibrado em suporte, percepção, `2` Contatos iniciais e `4` de Essência para sustentar a Coorte. |
 
@@ -141,8 +141,8 @@ Todo teste em **Shadow Slave RPG** usa **1 único dado**:
 - *Regra de Estímulo:* Você não pode marcar duas vezes a mesma Subcategoria (`1d8` é o dado máximo de especialização para preservar o equilíbrio matemático).
 
 #### B. Pontos de Vida Máximos (PV)
-**PV Máximos = (2 × Corpo) + 2**
-- **Corpo 1:** `4 PV` | **Corpo 2:** `6 PV` | **Corpo 3:** `8 PV` *(antes de somar bônus de Arquétipo, Aspecto ou Linhagem)*.
+**PV Máximos = (2 × Corpo) + 4**
+- **Corpo 1:** `6 PV` | **Corpo 2:** `8 PV` | **Corpo 3:** `10 PV` *(antes de somar bônus de Arquétipo, Aspecto ou Linhagem)*.
 - **Dano Físico vs. Dano de Alma:** Os PV absorvem traumas físicos. Ataques espirituais e mentais causam **Dano de Alma**, que consome primeiro sua **Reserva Atual de Essência**. Com a Essência em `0`, o excedente vira **Rachaduras Espirituais**, que reduzem sua Essência Máxima e **não curam apenas dormindo** (exigem meditação com *Abjurar* ou *Canalizar*). Se as Rachaduras levarem sua Essência Máxima efetiva a `0`, sua alma se estilhaça *(Livro 1, Seção 6.1)*.
 
 #### C. Reserva de Essência de Alma (*Essence Pool*)
@@ -204,7 +204,7 @@ Uma das maiores marcas de **Shadow Slave RPG** é que você **nunca fica estagna
 > 1. **Origem e Papel:** Um jogador escolhe o Arquétipo **Artífice de Forja de Clã** e o Papel de **Baluarte (Grau 1)**, visando proteger os companheiros mais frágeis da Coorte de 7 jogadores.
 > 2. **Pilares:** Começa com `1-1-1-1` e distribui `+3`: coloca `+2` em **Corpo (`3`)** e `+1` em **Mente (`2`)** → **Corpo 3 | Mente 2 | Coração 1 | Alma 1**.
 > 3. **Estatísticas Derivadas:**
->    - **PV Máximos:** `2 × 3 + 2` = **`8 PV`**.
+>    - **PV Máximos:** `2 × 3 + 4` = **`10 PV`**.
 >    - **Carga:** **`3 Itens Grandes`**.
 >    - **Especializações (`1d8`):** `Mente 2` concede `2` escolhas → marca `[X] Corpo (Vigor)` e `[X] Corpo (Força)`.
 >    - **Essência e Atributos de Poder:** `Alma 1` = **`2 Pontos de Essência`** e **`1` Atributo de Poder** inicial.
@@ -425,7 +425,7 @@ Escolha (ou role **`1d10`**) qualquer um dos **10 Vínculos** abaixo para conect
 - **Gatilho:** Busca de poder, negociações de alto risco, conquista de Fragmentos/Memórias, enfrentamento de autoridade ou desafio contra inimigos de Rank superior.
 - **Nível 1 — Desconfiança / Início (`[Investimento Mútuo]`):** *1x por Cena*, se um dos dois estiver sem **Essência** ou precisar arriscar tudo em uma jogada decisiva de ataque, Feitiçaria ou `Coração`, o parceiro pode emprestar **1 Ponto de Essência** própria *(desde que esteja a até *Distante*)* ou declarar um conselho frio que concede **+1 no teste** — sob a condição implícita de que o favor será cobrado depois.
 - **Nível 2 — Companheiros de Sangue (`[Dividendos da Conquista]`):** A ambição compartilhada acelera a colheita: sempre que vocês derrotarem juntos um inimigo de **Classe Demônio ou superior** ou negociarem com Clãs/Mercadores, recebem **+1 Fragmento de Alma bônus** na partilha (ou desconto extra/informação secreta) e ambos recebem **+1 em testes de `Mente (Vontade)`** quando tentam resistir a coerção ou intimidação de Despertos de Rank superior!
-- **Nível 3 — Almas Entrelaçadas (`[Coroa Dividida]`):** *1x por Descanso Longo*, diante de uma ameaça de Rank superior ou de um Chefe de Cidadela, vocês invocam a força do Pacto: durante **3 rodadas**, ambos ignoram a penalidade de **`+2 na CD` por Diferença de Rank** (se estiverem enfrentando um inimigo 1 Rank acima) e, ao vencerem um grande objetivo juntos, cada membro da dupla ganha **+1 XP adicional** de realização no fim do Arco!
+- **Nível 3 — Almas Entrelaçadas (`[Coroa Dividida]`):** *1x por Descanso Longo*, diante de uma ameaça de Rank superior ou de um Chefe de Cidadela, vocês invocam a força do Pacto: durante **3 rodadas**, ambos ignoram a penalidade de **`+1 na CD` por Diferença de Rank** (se estiverem enfrentando um inimigo 1 Rank acima) e, ao vencerem um grande objetivo juntos, cada membro da dupla ganha **+1 XP adicional** de realização no fim do Arco!
 - **Marcos de Evolução:** *Nível 2:* Recusarem uma oferta corruptora ou sobreviverem a uma conspiração política de Clã mantendo o Pacto intacto. *Nível 3:* Conquistarem ou defenderem juntos o núcleo de uma Cidadela ou alcançarem o Rank de Ascendido/Mestre lado a lado.
 
 ---
@@ -448,7 +448,7 @@ Para que jogadores iniciantes visualizem com clareza como todas as peças deste 
 Antes de sobreviver à sua primeira provação, você ainda é humano comum sob a febre do Feitiço:
 - **Identidade:** `Kaelen` | **Rank:** `Aspirante (0)` | **Papel:** `O Espectro (Grau 1)` | **Origem:** `Rato da Periferia (Estágio I)`
 - **Pilares:** `Corpo 2 | Mente 2 | Coração 1 | Alma 2`
-- **Vitalidade & Carga:** `PV: 6/6` | `Carga: 2 Itens Grandes` | `Corrupção: 0/5`
+- **Vitalidade & Carga:** `PV: 8/8` | `Carga: 2 Itens Grandes` | `Corrupção: 0/5`
 - **Especializações (`1d8`):** `[X] Corpo (Agilidade)` *(Mente)*, `[X] Mente (Astúcia)` *(Mente)*, `[X] Coração (Enganar)` *(Origem)*
 - **Atributo & Técnica Ativos Agora:** `[Instinto de Sobrevivência]` *(Origem)*, *Postura da Penumbra* + *Passo Sem Rastro* *(Espectro Grau 1)*
 - **Vínculos de Coorte (Nível 1):** `[Guardião do Segredo]` com Seraphina *(Oráculo)* e `[Opostos Complementares]` com Vaelor *(Baluarte)*
@@ -457,19 +457,19 @@ Antes de sobreviver à sua primeira provação, você ainda é humano comum sob 
 Após vencer o 1º Pesadelo (*Avaliação Excelente*), ser arrastado ao Reino dos Sonhos na noite do Solstício de Inverno, caçar monstros na Costa Esquecida por 5 sessões (`+12 XP` ganhos no total) e salvar a pele dos companheiros:
 - **Avanço de Alma (0 XP):** `420 / 1000 Fragmentos` → **Marcos 1 a 4 Saturados!** (`+2 Essência` dos Marcos 1 e 3; `+1 PV` do Marco 2; `+1 Atributo` do Marco 4).
 - **Gasto de 12 XP:** Investiu **`5 XP`** para subir a **Espectro Grau 2** (*Anatomia Letal*), **`5 XP`** para subir a **Espectro Grau 3 — Caminho A: Lâmina do Vazio** (*Fio no Ponto Vital*) e **`2 XP`** para evoluir o Vínculo com Seraphina para **Nível 2 (Companheiros de Sangue)** após protegê-la em segredo de um saqueador!
-- **Estado Atual das Runas:** `PV: 7/7` | `Essência: 6/6` *(4 base + 2 Marcos)* | `Memórias: [Manto do Titereiro], [Adaga do Rancor], [Fonte Infinita]`.
+- **Estado Atual das Runas:** `PV: 9/9` | `Essência: 6/6` *(4 base + 2 Marcos)* | `Memórias: [Manto do Titereiro], [Adaga do Rancor], [Fonte Infinita]`.
 
 ### Momento 3: Sessão 15 — Desperto Retornado à Terra (Estágio II, Grau 6 & Nível 3!)
 A Coorte sobreviveu ao Solstício, alcançou uma Cidadela e voltou ao Mundo Desperto como **Rank Desperto**:
 - **Rank & Origem (0 XP):** Subiu para **Desperto** (`+2 Essência` de Rank Humano, liberou *2ª Habilidade de Aspecto* e *Reforço Corporal*) e desbloqueou **Estágio II de Rato da Periferia** (*Esconderijo Seguro/Contrabando na Periferia + Saque Sujo*).
-- **Saturação & Pilares:** Preencheu **Marco 10** (`+1 Pilar` em `Corpo` → `Corpo 3`) e, como seu Aspecto é Divino (*Escravo das Sombras*), condensou seu **2º Núcleo de Alma (`[2/7]` — Classe Monstro, `+3 Essência` + `+1 PV`)**! Conta dos PV: `(2 × 3) + 2 = 8` base `+1` (Marco 2) `+1` (Marco 6) `+1` (2º Núcleo) = **`11 PV`**. *(Só Aspectos Divinos formam novos Núcleos; com um Aspecto comum, Kaelen ganharia apenas o `+1 Pilar` e o Teto 4.)*
+- **Saturação & Pilares:** Preencheu **Marco 10** (`+1 Pilar` em `Corpo` → `Corpo 3`) e, como seu Aspecto é Divino (*Escravo das Sombras*), condensou seu **2º Núcleo de Alma (`[2/7]` — Classe Monstro, `+3 Essência` + `+1 PV`)**! Conta dos PV: `(2 × 3) + 4 = 10` base `+1` (Marco 2) `+1` (Marco 6) `+1` (2º Núcleo) = **`13 PV`**. *(Só Aspectos Divinos formam novos Núcleos; com um Aspecto comum, Kaelen ganharia apenas o `+1 Pilar` e o Teto 4.)*
 - **Papel & Vínculos:** Investiu mais XP para chegar ao **Grau 6 de Espectro** (*Evasão Fantasma* + *Corte que Apaga o Som* + *Bote do Predador*) e selou o **Nível 3 (Almas Entrelaçadas)** do Vínculo com Vaelor ao sobreviverem juntos a um Portal na Terra!
 
 ```markdown
 ================================================================================
               RESUMO DE LEITURA RÁPIDA: O QUE ROLAR NA MESA?
 ================================================================================
-1. O Mestre pede um teste? Ex: "Role Corpo (Agilidade) contra CD 9!"
+1. O Mestre pede um teste? Ex: "Role Corpo (Agilidade) contra CD 7!"
 2. Você olha para [Corpo (Agilidade)] na sua ficha:
    - Está marcado com [X]?  → Role 1d8!
    - Não está marcado?       → Role 1d6!
@@ -936,7 +936,7 @@ Onde o aço comum risca apenas a superfície da quitina, você dobra o fluxo da 
 
 13. **Muralha da Alma *(Grau 5B — Manobra, Ação Maior, 1 Essência)*:**
     Você ergue fisicamente uma barreira sólida de cristal, sombra, vento cortante ou fogo sagrado para dividir os monstros pela metade.
-    - *Efeito:* Role `Alma (Abjurar)` ou `Alma (Canalizar)` **CD 9**. Em caso de sucesso, você cria uma **Muralha de `4 PV` (ou `6 PV` em `CD + 3`)** cruzando uma passagem, ponte ou entre a vanguarda e a retaguarda da Coorte. Inimigos não conseguem atravessar ou atirar através dela sem destruir seus PV ou contorná-la — enquanto aliados e flechas da Coorte atravessam apenas com um sinal seu!
+    - *Efeito:* Role `Alma (Abjurar)` ou `Alma (Canalizar)` **CD 7**. Em caso de sucesso, você cria uma **Muralha de `4 PV` (ou `6 PV` em `CD + 3`)** cruzando uma passagem, ponte ou entre a vanguarda e a retaguarda da Coorte. Inimigos não conseguem atravessar ou atirar através dela sem destruir seus PV ou contorná-la — enquanto aliados e flechas da Coorte atravessam apenas com um sinal seu!
 
 14. **Prisão de Campo *(Grau 7B — Manobra de Controle, 1 Essência)*:**
     Você isola o monstro mais letal da cena em correntes elementais ou redoma de força pura.
@@ -1034,7 +1034,7 @@ Seis guerreiros fortes sem visão tática são apenas uma multidão em pânico d
 
 12. **Grito de Reagrupamento *(Grau 3B — Manobra, Ação Maior, 1 Essência ou 1x por Cena)*:**
     Sua voz corta o terror do campo de batalha como um clarim de aço, devolvendo fôlego a combatentes sangrando.
-    - *Efeito:* Faça um teste de `Coração (Convencer)` **CD 9** *(automático se não houver interferência mágica/silêncio)*. Todos os aliados até *Distante* que ouvirem sua voz **recuperam imediatamente `1 PV`** *(ou **`2 PV`** em `CD + 3`)* e **removem automaticamente as condições *Amedrontado* e *Atordoado***!
+    - *Efeito:* Faça um teste de `Coração (Convencer)` **CD 7** *(automático se não houver interferência mágica/silêncio)*. Todos os aliados até *Distante* que ouvirem sua voz **recuperam imediatamente `1 PV`** *(ou **`2 PV`** em `CD + 3`)* e **removem automaticamente as condições *Amedrontado* e *Atordoado***!
 
 13. **Ordem de Avanço *(Grau 5B — Manobra de Comando, Ação Maior, 1 Essência)*:**
     Você abdica do seu golpe para liberar o poder combinado dos melhores lutadores do grupo.
@@ -1246,7 +1246,7 @@ Enquanto outros jovens passavam horas diante de telas holográficas nos distrito
 - **Estágio II — Desperto (*Reconhecimento, Base & Nova Habilidade*):**
   Após voltar de sua Cidadela com uma arma de Memória na mão, dojôs e escoltas privadas reconhecem seu estilo — exércitos de Despertos querem contratar você como duelista ou instrutor.
   - **Base & Recursos:** Você recebe patrocínio ou título honorário em uma **Arena / Centro de Treinamento de Despertos** (com alojamento seguro, forja básica gratuita e direito a treinar a Coorte com segurança antes de expedições, garantindo que aliados possam praticar para comprar Especializações `d8` sem gastar tempo extra).
-  - **Nova Habilidade — `[Duelo de Contenção]`:** Ao desafiar um inimigo inteligente (Desperto rival, Demônio guerreiro ou Cavaleiro) em alcance *Corpo a Corpo*, você pode fazer um teste rápido de `Corpo` ou `Coração (Intimidar)` **CD 9** como Ação Menor: se vencer, lê a postura dele, concede **`+1` na sua Defesa contra aquele oponente** até o fim da cena e força-o a manter o foco em você em vez de avançar nos aliados atrás!
+  - **Nova Habilidade — `[Duelo de Contenção]`:** Ao desafiar um inimigo inteligente (Desperto rival, Demônio guerreiro ou Cavaleiro) em alcance *Corpo a Corpo*, você pode fazer um teste rápido de `Corpo` ou `Coração (Intimidar)` **CD 7** como Ação Menor: se vencer, lê a postura dele, concede **`+1` na sua Defesa contra aquele oponente** até o fim da cena e força-o a manter o foco em você em vez de avançar nos aliados atrás!
 - **Estágio III — Ascendido (*Autoridade & Benefício de Facção para a Coorte*):**
   Seu nome corre como referência em estilos de combate em todo o Quadrante Norte; recrutas de Clãs e do Governo pedem aulas no seu pátio.
   - **Benefício de Facção para Toda a Coorte:** Você funda ou assume o comando de um **Salão de Armas de Linhagem Livre**. **Todos os 7 membros da Coorte** treinam sob sua doutrina entre expedições: cada aliado recebe **`+1` no primeiro Teste de Reação (Iniciativa) ou no primeiro ataque de cada combate importante**, e uma vez por Arco o grupo pode recrutar **2 Escudeiros/Guerreiros Despertos leais** da sua escola para proteger uma Cidadela ou escoltar caravanas!
@@ -1267,11 +1267,11 @@ Você pertencia àquela minoria obcecada pelas ruínas silenciosas além dos por
 
 #### Evolução nos 3 Estágios
 - **Estágio I — Adormecido (*Sobrevivência Inicial*):**
-  Você já sabe ler e compreender **idiomas rúnicos e glifos antigos comuns** encontrados nas ruínas do Reino dos Sonhos **sem precisar rolar dados** — apenas escritas cifradas de Daemons ou textos divinos profanos exigem rolagem (`CD 11`). Além disso, identifica imediatamente se um santuário ou poço em ruínas é seguro ou armadilhado com uma inspeção de 1 minuto.
+  Você já sabe ler e compreender **idiomas rúnicos e glifos antigos comuns** encontrados nas ruínas do Reino dos Sonhos **sem precisar rolar dados** — apenas escritas cifradas de Daemons ou textos divinos profanos exigem rolagem (`CD 9`). Além disso, identifica imediatamente se um santuário ou poço em ruínas é seguro ou armadilhado com uma inspeção de 1 minuto.
 - **Estágio II — Desperto (*Reconhecimento, Base & Nova Habilidade*):**
   Com experiência real dentro de uma Cidadela do Reino dos Sonhos, os museus, arquivos governamentais e conselhos científicos abrem cofres secretos para você.
   - **Base & Recursos:** Você recebe um **Gabinete de Expedição & Arquivo Restrito** com acesso a mapas parciais do Reino dos Sonhos, relatórios confidenciais sobre regiões vizinhas à sua Cidadela e financiamento básico em Créditos para equipamentos mundanos da Coorte.
-  - **Nova Habilidade — `[Relatório de Vulnerabilidade]`:** Antes de invadir uma ruína, covil ou território conhecido de monstros (com 10 minutos de observação ou consulta às suas anotações), você faz um teste de `Mente (Conhecimento)` **CD 9**: se passar, revela **1 fraqueza ambiental, armadilha típica ou habilidade secreta** dos guardiões da área antes do primeiro combate começar!
+  - **Nova Habilidade — `[Relatório de Vulnerabilidade]`:** Antes de invadir uma ruína, covil ou território conhecido de monstros (com 10 minutos de observação ou consulta às suas anotações), você faz um teste de `Mente (Conhecimento)` **CD 7**: se passar, revela **1 fraqueza ambiental, armadilha típica ou habilidade secreta** dos guardiões da área antes do primeiro combate começar!
 - **Estágio III — Ascendido (*Autoridade & Benefício de Facção para a Coorte*):**
   Você torna-se **Diretor de Expedições Históricas / Membro do Conselho de Lore Desperto**, detentor de arquivos raros sobre Sementes do Pesadelo.
   - **Benefício de Facção para Toda a Coorte:** Toda expedição planejada pela sua Coorte conta com inteligência cartográfica e logística de ponta: **todos os 7 membros da Coorte** começam cada nova região ou Pesadelo com **1 Dica Estratégica / Mapa Real** garantida pelo Mestre (evitando 1 emboscada ou armadilha mortal automaticamente por Arco), e sempre que a Coorte decifra um monumento ou descobre um segredo histórico, todos ganham **`+1 XP` extra de Descoberta** no fim do Arco!
@@ -1296,7 +1296,7 @@ Enquanto os combatentes arriscavam a garganta dentro dos portais, sua família �
 - **Estágio II — Desperto (*Reconhecimento, Base & Nova Habilidade*):**
   Retornando à Terra com o poder de viajar regularmente entre os dois mundos, você se torna uma ponte comercial raríssima: alguém capaz de transportar riqueza espiritual e financiar expedições reais.
   - **Base & Recursos:** Você inaugura ou herda uma **Casa de Comércio & Depósito em Cidadela/NQSC**, garantindo à Coorte hospedagem luxuosa/segura na Terra e uma renda regular de **`3` Fragmentos Adormecidos (ou `1` Fragmento Desperto) por Arco** além de crédito para emergências.
-  - **Nova Habilidade — `[Suborno Tático / Acordo Irrecusável]`:** Ao lidar com mercenários, guardas de Cidadela, burocratas de Clãs ou bandidos humanos que ainda não entraram em fúria mortal, você pode oferecer uma barganha instantânea com `Coração (Convencer/Enganar)` **CD 9**: se passar, evita o combate por completo, compra a passagem livre ou convence metade dos guardas a olhar para o outro lado!
+  - **Nova Habilidade — `[Suborno Tático / Acordo Irrecusável]`:** Ao lidar com mercenários, guardas de Cidadela, burocratas de Clãs ou bandidos humanos que ainda não entraram em fúria mortal, você pode oferecer uma barganha instantânea com `Coração (Convencer/Enganar)` **CD 7**: se passar, evita o combate por completo, compra a passagem livre ou convence metade dos guardas a olhar para o outro lado!
 - **Estágio III — Ascendido (*Autoridade & Benefício de Facção para a Coorte*):**
   Você comanda um **Consórcio Mercantil Interdimensional**, movendo caravanas blindadas na Terra e frotas de suprimento entre Cidadelas rivais sem depender da caridade de Valor ou Song.
   - **Benefício de Facção para Toda a Coorte:** Toda a Coorte passa a operar com linha de crédito ilimitada para suprimentos mundanos e prioridade em leilões raros! Em qualquer Cidadela civilizada, **todos os 7 membros da Coorte** compram Memórias de até Tier III com **`30%` de desconto**, encontram **1 Memória específica sob encomenda** por Arco *(escolhendo o tipo: Arma, Armadura ou Utilitário)*, e vendem despojos de monstros pelo **valor máximo de tabela**!
@@ -1346,7 +1346,7 @@ Seu sobrenome pesa mais que aço nas salas do conselho de NQSC e nas cidadelas c
 - **Estágio II — Desperto (*Reconhecimento, Base & Nova Habilidade*):**
   Ao sobreviver ao primeiro grande salto e provar seu valor como Desperto, sua família confirma seus direitos de sangue e confia a você recursos de elite.
   - **Base & Recursos:** Você tem acesso a uma **Ala Privada na Mansão do Clã (na Terra) e Quartéis VIP nas Cidadelas aliadas**, com Cápsulas de Sono de última geração, médicos particulares e uma dotação de **`1` Fragmento Desperto (ou `1` Memória Tier II) por Arco** para manter seu status.
-  - **Nova Habilidade — `[Voz da Autoridade Nobre]`:** *1 vez por Cena*, você invoca o nome e a patente da sua casa diante de guardas, mercadores ou Despertos de facções menores (`Coração [Intimidar/Convencer]` **CD 9**): se passar, impõe **Reverência ou Temor**, garantindo passagem imediata, empréstimo de montarias/suprimentos ou forçando inimigos humanos de patente inferior a hesitarem (`-1` na iniciativa/moral deles!).
+  - **Nova Habilidade — `[Voz da Autoridade Nobre]`:** *1 vez por Cena*, você invoca o nome e a patente da sua casa diante de guardas, mercadores ou Despertos de facções menores (`Coração [Intimidar/Convencer]` **CD 7**): se passar, impõe **Reverência ou Temor**, garantindo passagem imediata, empréstimo de montarias/suprimentos ou forçando inimigos humanos de patente inferior a hesitarem (`-1` na iniciativa/moral deles!).
 - **Estágio III — Ascendido (*Autoridade & Benefício de Facção para a Coorte*):**
   Como Ascendido de uma Casa de Legado, você comanda uma **Legião Vassala, Guarda de Elite ou Comitiva Diplomática** própria — mesmo que decida colocar sua Coorte independente acima das intrigas dos Soberanos!
   - **Benefício de Facção para Toda a Coorte:** Você estende o **Manto de Imunidade e Patrocínio de Legado** sobre todos os seus companheiros: **todos os 7 membros da Coorte** ganham status de **Convidados de Honra** em Cidadelas aliadas *(hospedagem, forja básica e cura médica gratuita entre arcos!)*, e uma vez por Arco você pode convocar um **Destacamento de Escolta de 4 Soldados Despertos** (ou um **Transporte Aéreo/Blindado de Clã**) para defender sua base ou abrir caminho até uma Zona de Guerra!
@@ -1442,7 +1442,7 @@ Você não estudou medicina em hospitais assépticos reservados à elite dos Dom
 
 #### Evolução nos 3 Estágios
 - **Estágio I — Adormecido (*Sobrevivência Inicial*):**
-  Seu atendimento em batalha salva aliados da morte e de sequelas incapacitantes: sempre que você estabilizar um aliado caído a **`0 PV`** em combate (`Mente [Conhecimento]` CD 7, com seu `+1` do Atributo), ele acorda com **`2 PV`** *(em vez de apenas 1 PV)* e **NÃO precisa rolar na Tabela de Ferimentos Graves** *(ou remove 1 efeito leve de veneno/sangramento na hora)*!
+  Seu atendimento em batalha salva aliados da morte e de sequelas incapacitantes: sempre que você estabilizar um aliado caído a **`0 PV`** em combate (`Mente [Conhecimento]` CD 5, com seu `+1` do Atributo), ele acorda com **`2 PV`** *(em vez de apenas 1 PV)* e **NÃO precisa rolar na Tabela de Ferimentos Graves** *(ou remove 1 efeito leve de veneno/sangramento na hora)*!
 - **Estágio II — Desperto (*Reconhecimento, Base & Nova Habilidade*):**
   Um Desperto com perícia cirúrgica real vale mais que um batalhão em expedições longas; hospitais de Despertos e guildas mercenárias disputam sua presença em expedições caras.
   - **Base & Recursos:** Você opera um **Posto Médico de Despertos / Laboratório Alquímico** equipado com suprimentos purificados, fornecendo à Coorte estoques gratuitos de ataduras especiais e **2 doses por Arco** de estimulantes/antídotos preparados de emergência (curando `1 PV` ou removendo *Envenenado/Sangrando* fora da alma).
@@ -1471,7 +1471,7 @@ Antes mesmo de seu próprio Aspecto despertar, você já ganhava o pão no fio d
 - **Estágio II — Desperto (*Reconhecimento, Base & Nova Habilidade*):**
   Agora com poder sobrenatural próprio somado à sua velha malícia de caçador, você funda uma reputação temida nas guildas independentes fora dos Grandes Clãs.
   - **Base & Recursos:** Você constrói um **Alojamento de Guilda Livre & Depósito de Caça** onde caçadores autônomos trocam contratos, rumores de Portais recém-abertos e mapas de ninhos de monstros — garantindo à Coorte um fluxo constante de contratos lucrativos em Créditos e Fragmentos.
-  - **Nova Habilidade — `[Troféu de Emboscada / Rastro do Alfa]`:** Ao rastrear ou investigar sinais recentes de uma criatura por 1 minuto (`Mente [Astúcia]` CD 9), você descobre quantos monstros compõem o bando, o Rank aproximado deles e qual deles é o líder — concedendo **`+1` no Teste de Reação (Iniciativa)** e **Vantagem no primeiro ataque da Coorte** caso preparem uma emboscada contra aquele alvo!
+  - **Nova Habilidade — `[Troféu de Emboscada / Rastro do Alfa]`:** Ao rastrear ou investigar sinais recentes de uma criatura por 1 minuto (`Mente [Astúcia]` CD 7), você descobre quantos monstros compõem o bando, o Rank aproximado deles e qual deles é o líder — concedendo **`+1` no Teste de Reação (Iniciativa)** e **Vantagem no primeiro ataque da Coorte** caso preparem uma emboscada contra aquele alvo!
 - **Estágio III — Ascendido (*Autoridade & Benefício de Facção para a Coorte*):**
   Você se torna **Líder de Guilda dos Caçadores Independentes**, comandando uma rede de batedores que prefere liberdade de contrato a dobrar os joelhos diante dos Soberanos.
   - **Benefício de Facção para Toda a Coorte:** A economia de caça da Coorte multiplica-se: sempre que os **7 membros da Coorte** abaterem criaturas de Classe Monstro ou superior, vocês coletam **Cristais e materiais suficientes para preencher `Marcos de Saturação` `25%` mais rápido** (contando abates extras para toda a Coorte!), e *1 vez por Arco* você pode mobilizar **2 Grupos de Batedores Independentes** para vigiar flancos, limpar monstros menores ou rastrear um alvo desaparecido em qualquer continente!
@@ -1575,7 +1575,7 @@ Antes de o Mestre anunciar a primeira cena do **Primeiro Pesadelo**, cada jogado
 - [ ] **2. Papel na Coorte (Grau 1):** Escolheu **1 dos 7 Papéis** (sem repetir com outro colega, se possível), anotando a **Postura Base** e a **Técnica Fundadora de Grau 1**.
 - [ ] **3. Pilares & Subcategorias:** Distribuiu **+3 pontos** a partir da base `1-1-1-1` (teto inicial `3`). Marcou **`[X]` (`1d8`)** em um número de Subcategorias igual a `Mente` + bônus de Origem.
 - [ ] **4. Estatísticas Calculadas:**
-  - `PV Máximos` = `(2 × Corpo) + 2` *(+ bônus de Origem se for Tocado pelo Pesadelo)*;
+  - `PV Máximos` = `(2 × Corpo) + 4` *(+ bônus de Origem se for Tocado pelo Pesadelo)*;
   - `Reserva de Essência` = `(Alma × 2) + Marcos Ímpares (1, 3, 5, 7, 9) + Bônus de Rank (Aspecto Transcendente/Supremo +1, Sagrado +2; Humano: Desperto +2, Ascendido +4, Transcendente +6, Supremo +8) + (3 × Núcleos Extras)` *(na criação começa com `Alma × 2` e soma o bônus do Aspecto após o 1º Pesadelo)*;
   - `Carga` = `Corpo` em Itens Grandes;
   - `Contatos` = `Coração` + `Contato da Origem`;
@@ -1633,7 +1633,7 @@ Essa dádiva tem um preço brutal. O Feitiço equilibra o poder absoluto com **D
 
 4. **Progressão do Legado de Aspecto (`[1/7]` a `[7/7]` — Livro 1, Capítulo 9):** Enquanto novos Núcleos vêm de Fragmentos sem gastar `XP`, cada um dos **7 Passos do Legado** exige cumprir a condição narrativa/marcial (**Epifania**) **E investir `10 XP` por Passo** para consolidar o domínio e receber suas Relíquias de Legado.
 
-> **Nota sobre Teto de Bônus (`Cap +3` — Livro 1, Seção 1.5) e Domínios (Livro 1, Seção 11.4):** No motor `1d6 / 1d8 + Pilar`, a soma máxima de bônus situacionais externos em qualquer rolagem é **`+3`**. Sempre que habilidades de um Aspecto Divino gerarem bônus acima de `+3` na mesma rolagem, **todo bônus excedente converte-se automaticamente em Vantagem (`2d6 / 2d8`, pegue o maior) ou em `+1` de Dano adicional** (conforme especificado em cada poder). Da mesma forma, diferenças de Rank entre combatentes sempre aplicam **`±2` na CD por Rank de diferença**, e Domínios Supremos seguem as regras territoriais do *Livro 1, Seção 11.4*.
+> **Nota sobre Teto de Bônus (`Cap +3` — Livro 1, Seção 1.5) e Domínios (Livro 1, Seção 11.4):** No motor `1d6 / 1d8 + Pilar`, a soma máxima de bônus situacionais externos em qualquer rolagem é **`+3`**. Sempre que habilidades de um Aspecto Divino gerarem bônus acima de `+3` na mesma rolagem, **todo bônus excedente converte-se automaticamente em Vantagem (`2d6 / 2d8`, pegue o maior) ou em `+1` de Dano adicional** (conforme especificado em cada poder). Da mesma forma, diferenças de Rank entre combatentes sempre aplicam **`±1` na CD por Rank de diferença**, e Domínios Supremos seguem as regras territoriais do *Livro 1, Seção 11.4*.
 
 ---
 
@@ -1646,7 +1646,7 @@ Essa dádiva tem um preço brutal. O Feitiço equilibra o poder absoluto com **D
 - **Inscrição Poética Oficial das Runas:**
   > *"Você é uma sombra sem mestre, condenada a rastejar na ausência de luz. Encontre um dono ou permaneça perdido; sirva com fidelidade absoluta àquele que ousar pronunciar seu Nome Verdadeiro, pois toda sombra pertence a quem projeta a luz."*
 - **Nome Verdadeiro Exemplar:** `[Perdido da Luz]` (*Lost from Light*)
-- **Defeito Sugerido (*Flaw*):** **`[Consciência Limpa]` (*Clear Conscience*)** — *Você não pode mentir.* Qualquer tentativa consciente de proferir uma falsidade verbal literal paralisa suas cordas vocais com dor aguda; responder por meias-verdades literais ou omissões estratégicas é permitido, mas exige um teste de `Mente [Astúcia]` ou `Coração [Enganar]` (`CD 9+`) quando pressionado sob interrogatório direto. *(Alternativa canônica vinculada: `[Vínculo de Servidão]` — quem pronunciar seu Nome Verdadeiro torna-se seu Mestre irrevogável).*
+- **Defeito Sugerido (*Flaw*):** **`[Consciência Limpa]` (*Clear Conscience*)** — *Você não pode mentir.* Qualquer tentativa consciente de proferir uma falsidade verbal literal paralisa suas cordas vocais com dor aguda; responder por meias-verdades literais ou omissões estratégicas é permitido, mas exige um teste de `Mente [Astúcia]` ou `Coração [Enganar]` (`CD 7+`) quando pressionado sob interrogatório direto. *(Alternativa canônica vinculada: `[Vínculo de Servidão]` — quem pronunciar seu Nome Verdadeiro torna-se seu Mestre irrevogável).*
 - **Descrição do Mar da Alma (*Soul Sea*):**
   Diferente dos oceanos luminosos de outros Despertos, o Mar da Alma de um Escravo das Sombras é uma **extensão infinita de água negra parada como um espelho de obsidiana líquida**. Não há céu estrelado acima, apenas uma abóbada noturna sem fim onde flutua um colossal **Sol Negro** que irradia ausência de luz em vez de calor. Sob a superfície escura e silenciosa, centenas — e com o tempo, milhares — de sombras sem dono erguem-se em vigília eterna: são os ecos silenciosos de todas as criaturas que o portador já matou. Quando suas **Sombras Evolutivas** regressam após caírem em batalha, elas repousam diretamente sob os raios frios do Sol Negro, reconstruindo suas formas no silêncio absoluto.
 - **Evolução dos Núcleos (`[1/7]` a `[7/7]`):**
@@ -1784,7 +1784,7 @@ Para evoluir uma Sombra Evolutiva, use os **Pontos de Evolução** do *Livro 1, 
 
 #### 2ª Habilidade (Desperta) — `[Passo das Sombras (Shadow Step)]`
 - **Custo de Essência:** `1 PE` (salto curto até *Perto*) ou `2 PE` (salto até *Distante / Longe*) | **Tipo de Ação:** `1 Movimento` (ou `1 Reação` gastando `+1 PE` extra para esquivar) | **Alcance:** *Perto* a *Longe* (ver tabela) | **Duração:** Instantânea
-- **Teste & Sucesso Simples:** Você derrete seu corpo em uma sombra próxima (sua própria sombra, a de uma parede ou a de um inimigo) e emerge instantaneamente em outra sombra visível ou onde uma de suas Sombras Pessoais esteja atuando como âncora. Teste `Alma [Evocar]` ou `Corpo [Agilidade]` contra `CD 7` (deslocamento livre) ou contra a `CD` do atacante (se usado como Reação de fuga). No `CD Exata`, você chega desorientado (perde a próxima `Ação Menor`).
+- **Teste & Sucesso Simples:** Você derrete seu corpo em uma sombra próxima (sua própria sombra, a de uma parede ou a de um inimigo) e emerge instantaneamente em outra sombra visível ou onde uma de suas Sombras Pessoais esteja atuando como âncora. Teste `Alma [Evocar]` ou `Corpo [Agilidade]` contra `CD 5` (deslocamento livre) ou contra a `CD` do atacante (se usado como Reação de fuga). No `CD Exata`, você chega desorientado (perde a próxima `Ação Menor`).
 - **Sucesso Crítico (`CD + 4` ou mais):** Você emerge exatamente atrás do ponto cego do oponente sem consumir `Movimento` extra, aplicando **`+1` de Dano** e **Vantagem** no próximo ataque corpo a corpo deste turno!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -1816,7 +1816,7 @@ Para evoluir uma Sombra Evolutiva, use os **Pontos de Evolução** do *Livro 1, 
 
 #### 4ª Habilidade (Transformação Transcendente) — `[Encarnação das Sombras (Shadow Incarnation)]`
 - **Custo de Essência:** `4 PE` (ativação) + `1 PE/turno` por cópia além da 1ª *(ou `5 PE` para Fusão Colossal)* | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** *Perto* (para cada corpo) | **Duração:** Cena ou até destransformar
-- **Teste & Sucesso Simples:** Suas Sombras Pessoais abandonam a bidimensionalidade e materializam **corpos físicos reais e idênticos ao seu** (com todas as Memórias invocadas e sua maestria de combate!), ou todas se fundem em você formando uma **Encarnação Sombria Gigantesca**. Cada corpo age com um turno reduzido (`1 Ação Maior` ou `1 Movimento + 1 Menor`), mas compartilha a **mesma Reserva de Essência e Pool de PV** *(dano em um avatar reflete em você como dano normal, sem os `2` de Dano de Alma que uma Sombra Pessoal ferida causa no Modo Batedor!)*. Teste `Alma [Canalizar]` (`CD 9` para estabilizar múltiplos corpos sem confusão mental; `CD Exata` impõe `-1` de precisão naquele turno).
+- **Teste & Sucesso Simples:** Suas Sombras Pessoais abandonam a bidimensionalidade e materializam **corpos físicos reais e idênticos ao seu** (com todas as Memórias invocadas e sua maestria de combate!), ou todas se fundem em você formando uma **Encarnação Sombria Gigantesca**. Cada corpo age com um turno reduzido (`1 Ação Maior` ou `1 Movimento + 1 Menor`), mas compartilha a **mesma Reserva de Essência e Pool de PV** *(dano em um avatar reflete em você como dano normal, sem os `2` de Dano de Alma que uma Sombra Pessoal ferida causa no Modo Batedor!)*. Teste `Alma [Canalizar]` (`CD 7` para estabilizar múltiplos corpos sem confusão mental; `CD Exata` impõe `-1` de precisão naquele turno).
 - **Sucesso Crítico (`CD + 4` ou mais):** Você sincroniza perfeitamente todos os corpos em flanco absoluto (estilo *Dança das Sombras*), ganhando **1 ataque coordenado extra gratuito** no turno da transformação com **Vantagem** e `+1` de Dano!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -1832,7 +1832,7 @@ Para evoluir uma Sombra Evolutiva, use os **Pontos de Evolução** do *Livro 1, 
 
 #### 5ª Habilidade (Domínio Supremo) — `[Legião do Sol Negro (Domain of the Black Sun)]`
 - **Custo de Essência:** `7 PE` (abertura do Domínio) + `2 PE/turno` para expandir além de *Longe* | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Área *Longe* a *Fora de Alcance* | **Duração:** Cena
-- **Teste & Sucesso Simples:** Você projeta o seu **Mar da Alma** sobre o mundo físico: a luz natural morre sob a sombra de um **Sol Negro** etéreo e **todas as sombras silenciosas das criaturas que você matou ao longo da vida** erguem-se do solo em forma física espectral! Diferente das suas Sombras Evolutivas de elite (até `1` por Núcleo), essas sombras menores não possuem Núcleo completo, mas lutam em enxame coordenado, seguram exércitos inteiros, anulam bônus de visão de luz mundana e concedem `0 PE` de custo para qualquer uso de *Passo das Sombras* ou *Manifestação* dentro do Domínio! Role `Alma [Evocar]` ou `Mente [Vontade]` (`CD 11` ou contra o Domínio rival).
+- **Teste & Sucesso Simples:** Você projeta o seu **Mar da Alma** sobre o mundo físico: a luz natural morre sob a sombra de um **Sol Negro** etéreo e **todas as sombras silenciosas das criaturas que você matou ao longo da vida** erguem-se do solo em forma física espectral! Diferente das suas Sombras Evolutivas de elite (até `1` por Núcleo), essas sombras menores não possuem Núcleo completo, mas lutam em enxame coordenado, seguram exércitos inteiros, anulam bônus de visão de luz mundana e concedem `0 PE` de custo para qualquer uso de *Passo das Sombras* ou *Manifestação* dentro do Domínio! Role `Alma [Evocar]` ou `Mente [Vontade]` (`CD 9` ou contra o Domínio rival).
 - **Sucesso Crítico (`CD + 4` ou mais):** Você sobrepõe e devora um Domínio rival de Rank igual ou inferior; todas as suas **Sombras Evolutivas** dentro da área recebem regeneração passiva de **`+1 PV/turno`** e seus ataques causam **`+1` de Dano de Alma adicional** enquanto estiverem sob o Sol Negro!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -1843,7 +1843,7 @@ Para evoluir uma Sombra Evolutiva, use os **Pontos de Evolução** do *Livro 1, 
 | `[3/7]` | **Demônio** | *Distante* | Invoca `12` espectros ordenados que criam flanco e cobertura total. |
 | `[4/7]` | **Diabo** | *Longe* | Invoca `25` espectros (incluindo antigos Demônios/Diabos caídos). |
 | `[5/7]` | **Tirano** | *Longe* | Invoca centenas de sombras em fileira militar; aliados ganham `+1` nas trevas. |
-| `[6/7]` | **Terror** | *Fora de Alcance* (1 km) | Espectros menores infligem medo (`Coração [Intimidar] CD 11`) a hordas inteiras. |
+| `[6/7]` | **Terror** | *Fora de Alcance* (1 km) | Espectros menores infligem medo (`Coração [Intimidar] CD 9`) a hordas inteiras. |
 | `[7/7]` | **Titã** | *Fora de Alcance* (Vários km) | Legião virtualmente infinita: todas as sombras já abatidas erguem-se juntas sem limite! |
 
 ---
@@ -1874,7 +1874,7 @@ O Legado de Aspecto *Dança das Sombras (*Shadow Dance*)* é uma arte marcial es
 - **Passo `[3/7]` — *Sombra da Mente*:** *Condição:* Adotar a postura psicológica e os padrões de pensamento de um predador não-humano durante uma caçada inteira. *Recompensa:* Concede `+1` contra ataques mentais quando em combate fluido; desbloqueia a 3ª Relíquia (Gota de Linhagem), **Gota de Icor do Deus da Sombra**.
 - **Passo `[4/7]` — *Dança sem Forma*:** *Condição:* Lutar contra um adversário letal trocando de forma corporal (usando *Concha da Sombra*) em pleno fluxo sem quebrar o ritmo. *Recompensa:* Permite usar **1 Ação Menor** para alternar instantaneamente a forma de combate das armas ou estruturas manifestadas; concede **`[Forma Sem Forma]`** à Serpente da Alma e desbloqueia a 4ª Relíquia, o **Fragmento do Reino das Sombras**, em sua forma inicial (*Livro 1, Seção 9.3*)!
 - **Passo `[5/7]` — *Espelho da Essência*:** *Condição:* Compreender e mimetizar não apenas o corpo, mas o fluxo interno de Essência de um mestre ou abominação. *Recompensa:* Permite copiar `1` propriedade passiva ou movimento especial de uma criatura que você derrotou em combate solo (gastando `2 PE` para ativar na cena).
-- **Passo `[6/7]` — *Sombra de Aspecto*:** *Condição:* Alcançar o limite da perda de identidade ao incorporar simultaneamente múltiplas essências sem perder sua âncora do Nome Verdadeiro. *Recompensa:* Você pode simular por 3 turnos uma **1ª Habilidade Adormecida** de um oponente que você tenha estudado perfeitamente em duelo (`4 PE`, teste de `Mente [Astúcia] CD 13`).
+- **Passo `[6/7]` — *Sombra de Aspecto*:** *Condição:* Alcançar o limite da perda de identidade ao incorporar simultaneamente múltiplas essências sem perder sua âncora do Nome Verdadeiro. *Recompensa:* Você pode simular por 3 turnos uma **1ª Habilidade Adormecida** de um oponente que você tenha estudado perfeitamente em duelo (`4 PE`, teste de `Mente [Astúcia] CD 11`).
 - **Passo `[7/7]` — *Verdade Absoluta da Sombra*:** *Condição:* Fundir a Dança das Sombras ao seu Domínio Supremo de forma que toda existência se dobre como sua própria sombra. *Recompensa:* Desperta o poder pleno do **Fragmento do Reino das Sombras** e eleva todas as Relíquias anteriores ao Tier VII Divino; você não sofre mais penalidades ao mimetizar formas de Titãs ou deuses caídos!
 
 #### Fichas Completas das 4 Relíquias de Legado
@@ -1923,7 +1923,7 @@ O Legado de Aspecto *Dança das Sombras (*Shadow Dance*)* é uma arte marcial es
 - **Inscrição Poética Oficial das Runas:**
   > *"Você é uma estrela solitária nascida das cinzas da criação, destinada a incendiar a podridão do mundo. Sua luz não pede permissão para existir; ela purifica os justos, consome os impuros e devora primeiro a carne de quem ousa carregá-la."*
 - **Nome Verdadeiro Exemplar:** `[Estrela da Mudança]` (*Changing Star*)
-- **Defeito Sugerido (*Flaw*):** **`[Agonia do Poder]` (*Agony of the Flame* — Livro 3, Defeito 13)** — *Toda vez que você canaliza seu Aspecto, sofre a dor física total de estar sendo queimada viva de dentro para fora.* Embora a chama não mate você diretamente, o choque sensorial impõe **`-1` de penalidade em testes de concentração/sutileza** após `3` turnos consecutivos de chama ativa sem descanso — a menos que você passe em `Mente [Vontade] CD 9` (ou possua o Atributo exclusivo `[Inabalável]`, Seção 2.5 abaixo). Em contrapartida, sua alma permanece imaculada contra corrupção espiritual.
+- **Defeito Sugerido (*Flaw*):** **`[Agonia do Poder]` (*Agony of the Flame* — Livro 3, Defeito 13)** — *Toda vez que você canaliza seu Aspecto, sofre a dor física total de estar sendo queimada viva de dentro para fora.* Embora a chama não mate você diretamente, o choque sensorial impõe **`-1` de penalidade em testes de concentração/sutileza** após `3` turnos consecutivos de chama ativa sem descanso — a menos que você passe em `Mente [Vontade] CD 7` (ou possua o Atributo exclusivo `[Inabalável]`, Seção 2.5 abaixo). Em contrapartida, sua alma permanece imaculada contra corrupção espiritual.
 - **Descrição do Mar da Alma (*Soul Sea*):**
   O Mar da Alma da Portadora da Luz não é feito de água, mas de um **deserto interminável de cinzas prateadas e brasa adormecida**, estendendo-se sob um céu vazio de branco cegante. Acima do horizonte de cinzas pairam **sóis incandescentes de fogo branco puro** cuja luz é tão intensa que elimina qualquer sombra dentro do oceano espiritual. Sempre que a portadora cura aliados ou purifica monstros com suas chamas, redemoinhos de faíscas douradas sobem do chão cinzento e são tragados pelos sóis internos, alimentando sua fornalha divina com calor inesgotável.
 - **Evolução dos Núcleos (`[1/7]` a `[7/7]`):**
@@ -1972,7 +1972,7 @@ Diferente de Despertos comuns que precisam recolher Fragmentos físicos após a 
 
 A Chama Branca responde diretamente à Vontade e às Palavras Primordiais da Criação. Ao combinar suas habilidades flamejantes com a pronúncia de **Nomes Verdadeiros** (o seu próprio, o de aliados vinculados ou Nomes de elementos/forças conhecidos via `Mente [Conhecimento]` ou `Alma [Canalizar]`):
 - **Economia de Modelagem:** Reduz o custo de Essência da magia/habilidade em **`-1 PE`** (mínimo `1 PE`) ou reduz a `CD` do comando rúnico em **`-1`**.
-- **Leis do Fogo Obediente:** Com sucesso simples em `Alma [Canalizar] CD 9`, você ordena que explosões em área **poupem completamente aliados nomeados**, que a chama queime sem emitir fumaça/luz visível por `1` turno ou que uma arma carregue o conceito de *Peso Estelar* (`+1` de Dano de impacto).
+- **Leis do Fogo Obediente:** Com sucesso simples em `Alma [Canalizar] CD 7`, você ordena que explosões em área **poupem completamente aliados nomeados**, que a chama queime sem emitir fumaça/luz visível por `1` turno ou que uma arma carregue o conceito de *Peso Estelar* (`+1` de Dano de impacto).
 
 #### D) Sobrecarga de Agonia (*Agony Overdrive*)
 
@@ -1981,7 +1981,7 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 - **Efeito Cataclísmico:** Uma supernova de Chama Branca explode até a faixa **Distante** (ou **Longe** a partir de Ascendida):
   - Todos os inimigos na área sofrem **`4` de Dano Físico + `3` de Dano de Alma** (`+1/+1` por Rank da jogadora acima de Adormecido), têm suas armaduras/escudos comuns derretidos e devem resistir contra sua `CD de Alma` ou ficam **Cegos e Atordoados** por `2` turnos.
   - Domínios ou barreiras mágicas de Rank igual ou inferior dentro da explosão são estilhaçados instantaneamente!
-- **Custo Brutal & Recuperação:** Você perde **`1` Núcleo de Alma** imediatamente (`-3 PE` máximos e `-1 PV` máximo daquele núcleo), sofre **`2` pontos de Dano Físico** pelo recuo interno e deve passar em **`Mente [Vontade] CD 11`** para não cair inconsciente (ou em choque doloroso por `1` turno). O Núcleo destruído pode ser **forjado novamente do zero** saturando novamente os Fragmentos daquela Classe (sem perder seu Rank humano atual!).
+- **Custo Brutal & Recuperação:** Você perde **`1` Núcleo de Alma** imediatamente (`-3 PE` máximos e `-1 PV` máximo daquele núcleo), sofre **`2` pontos de Dano Físico** pelo recuo interno e deve passar em **`Mente [Vontade] CD 9`** para não cair inconsciente (ou em choque doloroso por `1` turno). O Núcleo destruído pode ser **forjado novamente do zero** saturando novamente os Fragmentos daquela Classe (sem perder seu Rank humano atual!).
 
 ---
 
@@ -2007,7 +2007,7 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 - **Custo de Essência:** `1 PE` (armas/toque por cena) ou `2 PE` (cura instantânea ou dano em área *Corpo a Corpo*) | **Tipo de Ação:** `1 Ação Menor` (ativar) ou `1 Ação Maior` (curar/explodir) | **Alcance:** Pessoal / *Corpo a Corpo* | **Duração:** Cena (arma) ou Instantânea (cura)
 - **Teste & Sucesso Simples:** Envolve suas mãos, corpo ou Arma de Memória em Chama Branca.
   - *Modo Purificador:* Seus golpes adicionam **`+1` de Dano** (escolhendo Físico ou Dano de Alma antes de rolar!).
-  - *Modo Restaurador:* Role `Alma [Canalizar]` (`CD 7` em si mesma, `CD 9` em aliado ferido gravemente): restaura **`2 PV`** (`1 PV` em `CD Exata` com dor aguda) e limpa `1` veneno ou sangramento.
+  - *Modo Restaurador:* Role `Alma [Canalizar]` (`CD 5` em si mesma, `CD 7` em aliado ferido gravemente): restaura **`2 PV`** (`1 PV` em `CD Exata` com dor aguda) e limpa `1` veneno ou sangramento.
 - **Sucesso Crítico (`CD + 4` ou mais):** No ataque purificador, adiciona **`+1` de Dano de Alma extra** além do dano normal; na cura restauradora, recupera **`+1 PV` adicional** e cura `1` **Rachadura Espiritual** (Dano de Alma, *Livro 1, Seção 6.1*) do aliado!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2039,7 +2039,7 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 
 #### 3ª Habilidade (Ascendida) — `[Chama do Desejo (Longing / Flame of Longing)]`
 - **Custo de Essência:** `3 PE` (vínculo de cena) | **Tipo de Ação:** `1 Ação Menor` (vincular) ou `1 Ação Maior` (pulsar à distância) | **Alcance:** *Longe* a Ilimitado (para aliados com vínculo forte) | **Duração:** Cena
-- **Teste & Sucesso Simples:** Sua Chama Branca torna-se combustível da própria **Ânsia e Vontade**: enquanto estiver acesa em você, **imuniza seu corpo a fadiga, paralisia e maldições** e adiciona `+1` em testes de `Mente [Vontade]` e `Coração [Convencer/Intimidar]`. Além disso, você pode plantar uma centelha invisível de Chama Branca na alma de aliados ou alvos marcados por seus golpes: com `1 Ação Menor`, você detona ou ativa essa centelha **a qualquer distância no mesmo Reino** para curar (`2 PV`) ou queimar (`2` de Dano de Alma) usando `Alma [Canalizar] CD 9`.
+- **Teste & Sucesso Simples:** Sua Chama Branca torna-se combustível da própria **Ânsia e Vontade**: enquanto estiver acesa em você, **imuniza seu corpo a fadiga, paralisia e maldições** e adiciona `+1` em testes de `Mente [Vontade]` e `Coração [Convencer/Intimidar]`. Além disso, você pode plantar uma centelha invisível de Chama Branca na alma de aliados ou alvos marcados por seus golpes: com `1 Ação Menor`, você detona ou ativa essa centelha **a qualquer distância no mesmo Reino** para curar (`2 PV`) ou queimar (`2` de Dano de Alma) usando `Alma [Canalizar] CD 7`.
 - **Sucesso Crítico (`CD + 4` ou mais):** Ao pulsar a centelha em um aliado em perigo extremo, ele ignora penalidades de ferimento no turno seguinte e ganha **Vantagem** em seu próximo ataque ou teste de salvamento!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2055,7 +2055,7 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 
 #### 4ª Habilidade (Transformação Transcendente) — `[Avatar da Estrela Branca (White Star Incarnation)]`
 - **Custo de Essência:** `5 PE` (ativação) + `1 PE/turno` para voo supersônico intenso | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Pessoal (Aura *Perto*) | **Duração:** Cena
-- **Teste & Sucesso Simples:** Seu corpo dissolve-se em luz incandescente e plasma estelar puro: você assume a forma de um **Anjo/Titã de Chama Branca Pura**, ganhando **Voo em alta velocidade** (atravessa `2` Faixas de Alcance por `Movimento`), **`+4 PV` temporários**, **Vantagem** em testes físicos de `Corpo` enquanto em chama total e uma **Aura Solar** que causa automaticamente `1` de Dano (Físico ou Alma) a qualquer inimigo que termine o turno em *Corpo a Corpo*! Teste `Mente [Vontade] CD 9` no turno de ativação para dominar a dor colossal da forma estelar (`CD Exata`: sofre `-1` de precisão no primeiro turno).
+- **Teste & Sucesso Simples:** Seu corpo dissolve-se em luz incandescente e plasma estelar puro: você assume a forma de um **Anjo/Titã de Chama Branca Pura**, ganhando **Voo em alta velocidade** (atravessa `2` Faixas de Alcance por `Movimento`), **`+4 PV` temporários**, **Vantagem** em testes físicos de `Corpo` enquanto em chama total e uma **Aura Solar** que causa automaticamente `1` de Dano (Físico ou Alma) a qualquer inimigo que termine o turno em *Corpo a Corpo*! Teste `Mente [Vontade] CD 7` no turno de ativação para dominar a dor colossal da forma estelar (`CD Exata`: sofre `-1` de precisão no primeiro turno).
 - **Sucesso Crítico (`CD + 4` ou mais):** O clarão do nascimento do Avatar cega todos os inimigos em alcance *Distante* por `1` turno e aumenta os PV temporários em **`+2 PV` extras**!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2071,7 +2071,7 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 
 #### 5ª Habilidade (Domínio Supremo) — `[Reino da Alvorada Eterna (Domain of the Dawn)]`
 - **Custo de Essência:** `7 PE` (abertura) + `2 PE/turno` em combate ativo | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Área *Longe* a Ilimitada (Ancorada na Fé/Lealdade) | **Duração:** Cena (ou contínua em território aliado)
-- **Teste & Sucesso Simples:** Diferente de Domínios presos ao chão, o seu Domínio **habita o coração de todos os humanos e aliados que depositam esperança e ânsia em você**! Ao acendê-lo (`Alma [Evocar]` ou `Coração [Convencer] CD 11`), um céu de alvorada dourado-branca surge acima da batalha: todo aliado vinculado dentro do campo ganha **imunidade à Corrupção de Rank igual ou inferior**, **`+1` em todos os testes de Vontade/Ataque**, regenera **`1 PV` a cada `2` turnos** e pode invocar uma pequena lâmina de Chama Branca emprestada por você! Quanto maior o número de aliados leais lutando sob a Alvorada, mais rápido sua Essência regenera (`+1 PE/turno` por grupo de aliados)!
+- **Teste & Sucesso Simples:** Diferente de Domínios presos ao chão, o seu Domínio **habita o coração de todos os humanos e aliados que depositam esperança e ânsia em você**! Ao acendê-lo (`Alma [Evocar]` ou `Coração [Convencer] CD 9`), um céu de alvorada dourado-branca surge acima da batalha: todo aliado vinculado dentro do campo ganha **imunidade à Corrupção de Rank igual ou inferior**, **`+1` em todos os testes de Vontade/Ataque**, regenera **`1 PV` a cada `2` turnos** e pode invocar uma pequena lâmina de Chama Branca emprestada por você! Quanto maior o número de aliados leais lutando sob a Alvorada, mais rápido sua Essência regenera (`+1 PE/turno` por grupo de aliados)!
 - **Sucesso Crítico (`CD + 4` ou mais):** Você consome o pavor no coração de um exército inteiro: todos os aliados recebem **Vantagem no próximo ataque** e qualquer treva ou veneno de Domínio rival dentro de *Longe* é purificado instantaneamente!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2161,7 +2161,7 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 - **Inscrição Poética Oficial das Runas:**
   > *"Você é o reflexo que sobreviveu quando o espelho original se partiu em mil pedaços. Não possuir forma verdadeira é a chave para vestir todas as coroas, habitar todos os olhos e roubar o mundo por trás do vidro."*
 - **Nome Verdadeiro Exemplar:** `[Príncipe Deserdado]` *(ou `[Sombra do Vidro]`)*
-- **Defeito Sugerido (*Flaw*):** **`[Medo do Próprio Reflexo]` (*Mirror Dread* — Livro 3, Defeito 33)** — *Você é visceralmente aterrorizado por encarar sua própria imagem real sem disfarce ou receptáculo.* Se você olhar diretamente para o seu rosto verdadeiro em um espelho, água parada ou vidro claro fora de um receptáculo possuído, deve testar **`Mente [Vontade] CD 11`**; em falha, sofre **Desvantagem** em todas as ações por `2` turnos devido à vertigem existencial e náusea espiritual. *(Variação alternativa: `[Identidade Fragmentada]` — dificuldade em lembrar quem você realmente é ao acumular muitos corpos possuídos).*
+- **Defeito Sugerido (*Flaw*):** **`[Medo do Próprio Reflexo]` (*Mirror Dread* — Livro 3, Defeito 33)** — *Você é visceralmente aterrorizado por encarar sua própria imagem real sem disfarce ou receptáculo.* Se você olhar diretamente para o seu rosto verdadeiro em um espelho, água parada ou vidro claro fora de um receptáculo possuído, deve testar **`Mente [Vontade] CD 9`**; em falha, sofre **Desvantagem** em todas as ações por `2` turnos devido à vertigem existencial e náusea espiritual. *(Variação alternativa: `[Identidade Fragmentada]` — dificuldade em lembrar quem você realmente é ao acumular muitos corpos possuídos).*
 - **Descrição do Mar da Alma (*Soul Sea*):**
   Quem invade a mente deste portador não encontra água nem fogo, mas um **vazio absoluto infinito pavimentado por um oceano liso e espelhado de mercúrio negro e prata líquida**. Não existe céu nem estrelas: qualquer olhar para cima reflete infinitamente o chão abaixo, criando um labirinto vertiginoso sem início nem fim. No centro do vácuo flutuam **cristais espelhados multifacetados** — os Núcleos Divinos — cercados pelas imagens silenciosas de todas as almas que o Príncipe já estilhaçou.
 - **Evolução dos Núcleos (`[1/7]` a `[7/7]`):**
@@ -2206,7 +2206,7 @@ Esta é a habilidade mais temida e singular do *Príncipe do Nada*. Você não c
   - *Nascimento da Besta:* O Núcleo destacado materializa-se como uma **Besta de Reflexo** permanente (inicialmente uma criatura sem forma de luz prateada/vidro líquido de Classe `Besta [1/7]`, ou de Classe maior caso sacrifique mais poder/alimente depois).
 - **Roubo Perfeito de Forma, Aspecto e Memórias:**
   - Com `1 Ação Maior`, a Besta de Reflexo fita qualquer criatura ou Humano Desperto em alcance *Perto/Distante* e **assume instantaneamente a forma física exata, Pilares equivalentes, Habilidades de Aspecto e cópias visuais das Memórias armadas do alvo!**
-  - Ela mantém aquela forma copiada durante toda a cena (ou permanentemente até copiar um novo alvo!), embora possua apenas os PV/PE correspondentes à própria Classe e Rank atuais (aplicando `±2 CD` se o original for de Rank superior).
+  - Ela mantém aquela forma copiada durante toda a cena (ou permanentemente até copiar um novo alvo!), embora possua apenas os PV/PE correspondentes à própria Classe e Rank atuais (aplicando `±1 CD` por Rank se o original for de Rank superior).
 - **Evolução Independente (`[1/7]` a `[7/7]`):**
   - Diferente de Ecos estáticos, **uma Besta de Reflexo possui seu próprio Núcleo evolutivo!** Ao estilhaçar inimigos e devorar **Fragmentos de Alma** (ou cristais refletivos), ela satura seus próprios Marcos e evolui independentemente por todas as Classes — de **Besta `[1/7]`** até **Titã `[7/7]`** — e acompanha a ascensão de Rank! Você mantém um **elo telepático contínuo** com todas as suas Bestas de Reflexo criadas.
 
@@ -2214,7 +2214,7 @@ Esta é a habilidade mais temida e singular do *Príncipe do Nada*. Você não c
 
 Quando você encara diretamente os olhos de uma vítima viva (`Corpo a Corpo` ou *Perto* através de espelho/contato visual) ou crava um golpe espiritual com lâmina refletora, pode **projetar toda a sua consciência para dentro do Mar da Alma da vítima** (`3 PE`, `1 Ação Maior`):
 - **O Corpo Abandonado:** Enquanto você invade a vítima, seu corpo físico original precisa ser **escondido dentro de um espelho no Mundo dos Espelhos** (ou permanece catatônico e vulnerável no chão se não houver espelho disponível!).
-- **Regras do Duelo em Turnos Espirituais:** Dentro do Mar da Alma do alvo, armas mundanas não existem; combatentes lutam com avatares de Vontade usando **`Alma [Evocar]`, `Alma [Abjurar]` e `Mente [Vontade]`** contra a `CD` da vítima (`+2 CD` por Rank que a vítima tenha acima de você!).
+- **Regras do Duelo em Turnos Espirituais:** Dentro do Mar da Alma do alvo, armas mundanas não existem; combatentes lutam com avatares de Vontade usando **`Alma [Evocar]`, `Alma [Abjurar]` e `Mente [Vontade]`** contra a `CD` da vítima (`+1 CD` por Rank que a vítima tenha acima de você!).
   - **Se Você Vencer (Zerar a Vontade/PE ou Alma do Alvo):** A alma original da vítima é **estilhaçada ou trancada atrás de um espelho interno**. Você **assume controle absoluto do corpo físico da vítima** — ganhando acesso à aparência, voz, força muscular, hábitos superficiais e **às Habilidades do Aspecto e Memórias do hospedeiro** (mantendo seu próprio Intelecto e sua mente oculta!). Você pode abandonar o corpo possuído a qualquer instante pulando para outro espelho.
   - **Se Você Perder ou For Expulso:** Sua consciência é estilhaçada de volta para o corpo real (ou espelho-âncora), sofrendo **`3` pontos de Dano de Alma** e ficando incapaz de tentar nova invasão naquele alvo por `24 horas`!
   - **⚠️ Risco Mortal contra Aspectos Divinos & Guardiões:** Invadir o Mar da Alma de outro portador de Aspecto Divino ou de criaturas com guardiões internos (como as *Sombras* do Escravo das Sombras ou o *Fogo Branco* da Portadora da Luz!) expõe você diretamente às defesas nativas daquele Mar da Alma sem proteção de armadura!
@@ -2225,7 +2225,7 @@ Quando você encara diretamente os olhos de uma vítima viva (`Corpo a Corpo` ou
 
 #### Habilidade Inata — `[Olhos do Espelho (Mirror Sight)]`
 - **Custo de Essência:** Passiva (`0 PE`) | **Tipo de Ação:** Passiva / Livre | **Alcance:** *Perto* (`Distante` por espelhos) | **Duração:** Permanente
-- **Efeito:** Sua assinatura espiritual e presença de Essência são naturalmente ocultas por véus de refração: sensores mágicos comuns, runas de inspeção e olhos de Despertos inferiores precisam vencer **`Alma [Abjurar]` + seu Rank (`CD 11+`)** para ler seus Atributos ou detectar sua linhagem. Além disso, você enxerga automaticamente através de qualquer superfície refletora em alcance *Perto*, eliminando pontos cegos pelas costas se houver metal ou vidro perto.
+- **Efeito:** Sua assinatura espiritual e presença de Essência são naturalmente ocultas por véus de refração: sensores mágicos comuns, runas de inspeção e olhos de Despertos inferiores precisam vencer **`Alma [Abjurar]` + seu Rank (`CD 9+`)** para ler seus Atributos ou detectar sua linhagem. Além disso, você enxerga automaticamente através de qualquer superfície refletora em alcance *Perto*, eliminando pontos cegos pelas costas se houver metal ou vidro perto.
 - **Sucesso Crítico (`CD + 4` em Furtividade/Enganação Espiritual):** Você projeta um falso perfil rúnico (fingindo ser um Adormecido comum de `1` Núcleo ou sem Aspecto de combate!).
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2257,7 +2257,7 @@ Quando você encara diretamente os olhos de uma vítima viva (`Corpo a Corpo` ou
 
 #### 2ª Habilidade (Desperta) — `[Travessia do Vidro (Mirror Stepping)]`
 - **Custo de Essência:** `1 PE` (submergir) ou `2 PE` (salto longo entre Receptáculos) | **Tipo de Ação:** `1 Movimento` (ou `1 Reação` gastando `+1 PE`) | **Alcance:** *Distante* a *Fora de Alcance* (entre Receptáculos marcados) | **Duração:** Cena (submerso) ou Instantânea (salto)
-- **Teste & Sucesso Simples:** Você desliza fisicamente para dentro do **Mundo Dentro dos Espelhos** usando qualquer superfície refletora (incluindo os olhos de alguém em *Corpo a Corpo* ou uma armadura polida!), podendo esconder-se lá dentro ou emergir instantaneamente em outro Receptáculo dentro do alcance. Role `Alma [Canalizar]` (`CD 7` para viagem livre; `CD` do inimigo para emboscar ou escapar de um golpe).
+- **Teste & Sucesso Simples:** Você desliza fisicamente para dentro do **Mundo Dentro dos Espelhos** usando qualquer superfície refletora (incluindo os olhos de alguém em *Corpo a Corpo* ou uma armadura polida!), podendo esconder-se lá dentro ou emergir instantaneamente em outro Receptáculo dentro do alcance. Role `Alma [Canalizar]` (`CD 5` para viagem livre; `CD` do inimigo para emboscar ou escapar de um golpe).
 - **Sucesso Crítico (`CD + 4` ou mais):** Você sai do reflexo na armadura ou nos olhos do próprio alvo em ataque surpresa, ganhando **Vantagem + `+1` de Dano** no golpe imediato!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2273,7 +2273,7 @@ Quando você encara diretamente os olhos de uma vítima viva (`Corpo a Corpo` ou
 
 #### 3ª Habilidade (Ascendida) — `[Divisão do Núcleo (Mirror Beast Genesis)]`
 - **Custo de Essência:** `2 PE` + Sacrifício de `1` Núcleo de Alma | **Tipo de Ação:** Descanso / `1 Ação Menor` para invocar ou copiar forma | **Alcance:** *Perto* a *Distante* | **Duração:** Permanente (até destruída)
-- **Teste & Sucesso Simples:** Formaliza a criação e o comando avançado das **Bestas de Reflexo** (descrita no Subsistema). Com `1 Ação Menor` e `1 PE`, você ordena que uma Besta de Reflexo já criada assuma instantaneamente a aparência e poderes de qualquer alvo em alcance *Distante* (`Alma [Canalizar] CD 9` para alvos de Rank igual; `+2 CD` por Rank acima). Se uma Besta de Reflexo morrer (`0 PV`), seu núcleo se estilhaça permanentemente — mas ela pode ser **reforjada** quando você formar um novo Núcleo no Mar da Alma!
+- **Teste & Sucesso Simples:** Formaliza a criação e o comando avançado das **Bestas de Reflexo** (descrita no Subsistema). Com `1 Ação Menor` e `1 PE`, você ordena que uma Besta de Reflexo já criada assuma instantaneamente a aparência e poderes de qualquer alvo em alcance *Distante* (`Alma [Canalizar] CD 7` para alvos de Rank igual; `+1 CD` por Rank acima). Se uma Besta de Reflexo morrer (`0 PV`), seu núcleo se estilhaça permanentemente — mas ela pode ser **reforjada** quando você formar um novo Núcleo no Mar da Alma!
 - **Sucesso Crítico (`CD + 4` ou mais):** A Besta de Reflexo copia não apenas a forma básica, mas também **1 Encantamento raro de Relíquia/Memória do alvo** com perfeição durante a cena!
 - **Escala por Núcleos (`1/7` a `7/7`):** *(Reflete quantas Bestas de Reflexo simultâneas você já pode ter criado ou o teto máximo delas)*
 
@@ -2289,7 +2289,7 @@ Quando você encara diretamente os olhos de uma vítima viva (`Corpo a Corpo` ou
 
 #### 4ª Habilidade (Transformação Transcendente) — `[Legião dos Mil Espelhos (Myriad Reflections)]`
 - **Custo de Essência:** `5 PE` (ativação) + `1 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Pessoal / *Perto* | **Duração:** Cena
-- **Teste & Sucesso Simples:** Seu corpo estilhaça-se em um enxame fluido de **centenas de lâminas de prata espelhada ou dezenas de cópias físicas semi-sólidas**, todas idênticas e ligadas à sua mesma consciência! Você ganha **`+4 PV` temporários**, imunidade a golpes únicos perfurantes/cortantes mundanos (o golpe atravessa um estilhaço enquanto você se recompõe em outro), pode ocupar múltiplas posições em *Corpo a Corpo / Perto* ao mesmo tempo e usar **corpos hospedeiros previamente possuídos** simultaneamente como extensões do mesmo turno! Role `Alma [Canalizar] CD 11` para coordenar múltiplas perspectivas sem tontura.
+- **Teste & Sucesso Simples:** Seu corpo estilhaça-se em um enxame fluido de **centenas de lâminas de prata espelhada ou dezenas de cópias físicas semi-sólidas**, todas idênticas e ligadas à sua mesma consciência! Você ganha **`+4 PV` temporários**, imunidade a golpes únicos perfurantes/cortantes mundanos (o golpe atravessa um estilhaço enquanto você se recompõe em outro), pode ocupar múltiplas posições em *Corpo a Corpo / Perto* ao mesmo tempo e usar **corpos hospedeiros previamente possuídos** simultaneamente como extensões do mesmo turno! Role `Alma [Canalizar] CD 9` para coordenar múltiplas perspectivas sem tontura.
 - **Sucesso Crítico (`CD + 4` ou mais):** Você sincroniza todas as lâminas de vidro ao redor de um oponente em um furacão reflexivo, causando **`2` de Dano automático** e forçando-o a atacar um de seus próprios reflexos em erro!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2366,7 +2366,7 @@ Quando você encara diretamente os olhos de uma vítima viva (`Corpo a Corpo` ou
    - **Rank:** Evolutivo | **Tier:** II a VII | **Tipo:** Amuleto / Lente Ocular
    - **Runas:** *"Um olho de vidro que enxerga não o que o mundo mostra, mas o que o mundo tenta esconder por trás da luz."*
    - **Encantamentos:**
-     - `[Dissecação Rúnica]`: Com `1 Ação Menor` (`1 PE`), analisa qualquer criatura ou humano em alcance *Distante*, revelando seu **Rank, Classe, PV aproximados e o tipo de Aspecto/Memórias ativas** (`Mente [Conhecimento] CD 9`).
+     - `[Dissecação Rúnica]`: Com `1 Ação Menor` (`1 PE`), analisa qualquer criatura ou humano em alcance *Distante*, revelando seu **Rank, Classe, PV aproximados e o tipo de Aspecto/Memórias ativas** (`Mente [Conhecimento] CD 7`).
      - `[Foco da Reflexão]`: Reduz em `1` a `CD` para suas *Bestas de Reflexo* copiarem o alvo observado através da lente!
 
 3. **Mortalha de Mercúrio Negro (*Quicksilver Shroud*)**
@@ -2431,7 +2431,7 @@ Seu corpo funciona como um capacitor vivo. Você possui um medidor dinâmico cha
 - **Como Descarregar Cargas (`1 Ação Livre` antes ou no impacto):**
   - **Sobretensão (`1` Carga):** Adiciona **`+1` de Dano elétrico** ao seu próximo ataque corpo a corpo ou à distância (`máx. +2` Dano extra por ataque até o Rank Ascendido, ou `+3` a partir de Transcendente).
   - **Impulso de Relâmpago (`2` Cargas):** Soma `+1` Faixa extra ao seu `Movimento` neste turno e ignora terreno difícil ou obstáculos baixos.
-  - **Arco de Choque (`2` Cargas):** Quando acerta um golpe, força o alvo a testar `Corpo [Vigor] CD 9+` (ou `CD` do seu Rank) ou perde sua `Ação Menor` do próximo turno por espasmos elétricos!
+  - **Arco de Choque (`2` Cargas):** Quando acerta um golpe, força o alvo a testar `Corpo [Vigor] CD 7+` (ou `CD` do seu Rank) ou perde sua `Ação Menor` do próximo turno por espasmos elétricos!
   - *(Nota: Cargas não gastas se dissipam após `1` minuto fora de combate).*
 
 #### B) Pressão do Oceano Negro (*Abyssal Pressure*)
@@ -2454,7 +2454,7 @@ A assinatura letal do Arauto está na física elemental do campo de batalha:
 #### D) Navegação Astral e Tempestuosa (*Astral Storm Navigation*)
 
 O Arauto não é apenas uma arma — é o **timoneiro supremo dos mares impossíveis do Reino dos Sonhos e dos Céus Estilhaçados**:
-- **Leitura Magnética & Astral:** Ao gastar `1 minuto` concentrando-se (`Mente [Conhecimento]` ou `Alma [Canalizar] CD 7`), você sente instantaneamente a direção exata do norte magnético, rotas marítimas seguras, correntes aéreas, fendas de Tempestades Dimensionais e a presença de monstros aquáticos/aéreos grandes em raio de quilômetros!
+- **Leitura Magnética & Astral:** Ao gastar `1 minuto` concentrando-se (`Mente [Conhecimento]` ou `Alma [Canalizar] CD 5`), você sente instantaneamente a direção exata do norte magnético, rotas marítimas seguras, correntes aéreas, fendas de Tempestades Dimensionais e a presença de monstros aquáticos/aéreos grandes em raio de quilômetros!
 - **Comandante de Embarcação:** Ao colocar as mãos no leme de qualquer navio, balsa ou nau voadora (`2 PE` por hora de travessia), o casco recebe **`+2` de estabilidade**, ventos favoráveis constantes (dobrando a velocidade de viagem) e imunidade a naufrágios causados por tempestades mundanas!
 
 ---
@@ -2529,7 +2529,7 @@ O Arauto não é apenas uma arma — é o **timoneiro supremo dos mares impossí
 
 #### 4ª Habilidade (Transformação Transcendente) — `[Leviatã da Tempestade (Storm Leviathan)]`
 - **Custo de Essência:** `5 PE` + `1 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Pessoal (Silhueta Colossal) | **Duração:** Cena
-- **Teste & Sucesso Simples:** Seu corpo dissolve-se e cresce em uma **Serpente Marinha / Dragão Abissal colossal feita de água oceânica negra, escamas de pressão sólida e relâmpagos azuis**. Você ganha **`+6 PV` temporários**, **Voo e Natação em velocidade extrema (`3` Faixas/Movimento)**, tamanho gigante capaz de engolir/varrer criaturas Grandes e uma **Aura de Tempestade** que molha continuamente todos em alcance *Distante* (garantindo Condução automática!). Ataques físicos mundanos atravessam partes líquidas do seu corpo reduzindo todo dano físico sofrido em `1`. Role `Alma [Canalizar] CD 9` para estabilizar a forma sem arrastar aliados próximos na onda de choque.
+- **Teste & Sucesso Simples:** Seu corpo dissolve-se e cresce em uma **Serpente Marinha / Dragão Abissal colossal feita de água oceânica negra, escamas de pressão sólida e relâmpagos azuis**. Você ganha **`+6 PV` temporários**, **Voo e Natação em velocidade extrema (`3` Faixas/Movimento)**, tamanho gigante capaz de engolir/varrer criaturas Grandes e uma **Aura de Tempestade** que molha continuamente todos em alcance *Distante* (garantindo Condução automática!). Ataques físicos mundanos atravessam partes líquidas do seu corpo reduzindo todo dano físico sofrido em `1`. Role `Alma [Canalizar] CD 7` para estabilizar a forma sem arrastar aliados próximos na onda de choque.
 - **Sucesso Crítico (`CD + 4` ou mais):** O rugido do Leviatã dispara uma onda de choque sônica + elétrica em alcance *Distante*, causando `2` de Dano e enchendo imediatamente suas **Cargas Estáticas até o máximo**!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2545,7 +2545,7 @@ O Arauto não é apenas uma arma — é o **timoneiro supremo dos mares impossí
 
 #### 5ª Habilidade (Domínio Supremo) — `[Olho do Furacão Eterno (Domain of the Abyssal Tempest)]`
 - **Custo de Essência:** `7 PE` + `2 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Área *Longe* a *Fora de Alcance* (Quilômetros) | **Duração:** Cena
-- **Teste & Sucesso Simples:** Você arranca os céus e o mar para dentro da sua Vontade: nuvens negras giram em espiral monumental ao seu redor enquanto chuva torrencial e ventos de furacão cobrem todo o território (`Alma [Evocar]` ou `Mente [Vontade] CD 11`). Dentro do Domínio:
+- **Teste & Sucesso Simples:** Você arranca os céus e o mar para dentro da sua Vontade: nuvens negras giram em espiral monumental ao seu redor enquanto chuva torrencial e ventos de furacão cobrem todo o território (`Alma [Evocar]` ou `Mente [Vontade] CD 9`). Dentro do Domínio:
   1. **Todo o campo está permanentemente encharcado** (Condução em Cadeia ativa em `100%` dos alvos sem cobertura fechada);
   2. Você regenera **`+2 Cargas Estáticas` por turno automaticamente**;
   3. Com `1 Ação Menor` (`1 PE`), invoca um **Raio Punitivo do Céu** contra qualquer alvo visível em *Longe* (`3` de Dano);
@@ -2664,7 +2664,7 @@ O Arauto não é apenas uma arma — é o **timoneiro supremo dos mares impossí
 
 Suas mãos e olhos nasceram para entender a linguagem do aço e do combate:
 - **Maestria Universal (`1d8`):** Você possui automaticamente **Especialização `[X]` (`1d8 + Pilar`)** ao atacar ou aparar com **qualquer arma branca corpo a corpo ou de arremesso** (espadas, lanças, machados, martelos, adagas, chicotes metálicos ou Armas Flutuantes) — mesmo armas exóticas ou monstruosas que você nunca tenha segurado antes!
-- **Leitura de Forja (`0 PE`, `1 Ação Livre` ao observar):** Ao ver uma arma ou armadura de Memória em ação (ou tocar nela), você lê instantaneamente sua estrutura interna (`Mente [Astúcia/Conhecimento] CD 7+`), descobrindo sua **Integridade atual**, seus **Encantamentos** e a melhor forma de quebrá-la (`+1` em testes para desarmar ou danificar armas/armaduras inimigas!).
+- **Leitura de Forja (`0 PE`, `1 Ação Livre` ao observar):** Ao ver uma arma ou armadura de Memória em ação (ou tocar nela), você lê instantaneamente sua estrutura interna (`Mente [Astúcia/Conhecimento] CD 5+`), descobrindo sua **Integridade atual**, seus **Encantamentos** e a melhor forma de quebrá-la (`+1` em testes para desarmar ou danificar armas/armaduras inimigas!).
 
 #### B) Sintonia de Arsenal Flutuante (*Floating Arsenal Resonance*)
 
@@ -2724,7 +2724,7 @@ A partir do Rank Ascendido (ou em vislumbres menores com habilidades de Desperto
 
 #### 2ª Habilidade (Desperta) — `[Têmpera do Crepúsculo (Twilight Tempering)]`
 - **Custo de Essência:** `1 PE` (por arma ou `2 PE` para o Arsenal inteiro) | **Tipo de Ação:** `1 Ação Menor` | **Alcance:** Pessoal / Arsenal Flutuante | **Duração:** `3` Turnos (ou Cena no estágio Diabo+)
-- **Teste & Sucesso Simples:** Você derrama Essência crepuscular incandescente sobre suas Armas de Memória e armadura, temperando o aço espiritual no meio da luta. Role `Alma [Canalizar] CD 7` (`CD 9` para o Arsenal todo): todas as armas afetadas recebem **`+1` de Dano** (não soma no limite de rolagem!), brilham com calor dourado-avermelhado capaz de ferir espectros e espíritos incorpóreos, e podem disparar ondas cortantes à distância (`Alcance Perto/Distante`, `1` Dano). Além disso, repara instantaneamente `1` dano estrutural leve se uma arma estava *Danificada*.
+- **Teste & Sucesso Simples:** Você derrama Essência crepuscular incandescente sobre suas Armas de Memória e armadura, temperando o aço espiritual no meio da luta. Role `Alma [Canalizar] CD 5` (`CD 7` para o Arsenal todo): todas as armas afetadas recebem **`+1` de Dano** (não soma no limite de rolagem!), brilham com calor dourado-avermelhado capaz de ferir espectros e espíritos incorpóreos, e podem disparar ondas cortantes à distância (`Alcance Perto/Distante`, `1` Dano). Além disso, repara instantaneamente `1` dano estrutural leve se uma arma estava *Danificada*.
 - **Sucesso Crítico (`CD + 4` ou mais):** O fio das armas temperadas adquire dureza sobrenatural por `2` turnos — ignora `1` nível de armadura e dispara ondas cortantes que atravessam obstáculos leves!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2756,7 +2756,7 @@ A partir do Rank Ascendido (ou em vislumbres menores com habilidades de Desperto
 
 #### 4ª Habilidade (Transformação Transcendente) — `[Titã da Guerra Blindado (Armored Warlord)]`
 - **Custo de Essência:** `5 PE` + `1 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Pessoal (Aura *Perto*) | **Duração:** Cena
-- **Teste & Sucesso Simples:** Todas as armas e placas metálicas do seu Arsenal e do seu Mar da Alma convergem sobre o seu corpo formando uma **Armadura Colossal de Cavaleiro Crepuscular (`4` a `8` metros de altura)** coroada por um halo de espadas gigantes! Você recebe **`+6 PV` temporários**, redução de **`2` de Dano físico** em golpes comuns, **Vantagem** em testes de `Corpo [Força]` e **+1 ataque coordenado gratuito do Arsenal Flutuante por turno** (mesmo após gastar sua `Ação Maior` atacando corpo a corpo!). Teste `Mente [Vontade] CD 9` ao ativar para não ser consumido pelo peso da bigorna mental (`CD Exata`: move apenas `1` Faixa no primeiro turno).
+- **Teste & Sucesso Simples:** Todas as armas e placas metálicas do seu Arsenal e do seu Mar da Alma convergem sobre o seu corpo formando uma **Armadura Colossal de Cavaleiro Crepuscular (`4` a `8` metros de altura)** coroada por um halo de espadas gigantes! Você recebe **`+6 PV` temporários**, redução de **`2` de Dano físico** em golpes comuns, **Vantagem** em testes de `Corpo [Força]` e **+1 ataque coordenado gratuito do Arsenal Flutuante por turno** (mesmo após gastar sua `Ação Maior` atacando corpo a corpo!). Teste `Mente [Vontade] CD 7` ao ativar para não ser consumido pelo peso da bigorna mental (`CD Exata`: move apenas `1` Faixa no primeiro turno).
 - **Sucesso Crítico (`CD + 4` ou mais):** A onda de aço ao vestir a forma titânica dispara todas as suas espadas orbitais para fora em `360°`, causando `2` de Dano em todos os inimigos em alcance *Perto* e repelindo-os `1` Faixa!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2772,7 +2772,7 @@ A partir do Rank Ascendido (ou em vislumbres menores com habilidades de Desperto
 
 #### 5ª Habilidade (Domínio Supremo) — `[Cemitério das Mil Espadas (Domain of the Sovereign Arsenal)]`
 - **Custo de Essência:** `7 PE` + `2 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Área *Longe* a *Fora de Alcance* | **Duração:** Cena
-- **Teste & Sucesso Simples:** Seu Mar da Alma crepuscular desaba sobre a terra real: **milhares de espadas translúcidas e férreas brotam do solo, das rochas e do ar** em todo o território! Dentro do Domínio (`Alma [Evocar]` ou `Coração [Intimidar] CD 11`):
+- **Teste & Sucesso Simples:** Seu Mar da Alma crepuscular desaba sobre a terra real: **milhares de espadas translúcidas e férreas brotam do solo, das rochas e do ar** em todo o território! Dentro do Domínio (`Alma [Evocar]` ou `Coração [Intimidar] CD 9`):
   1. **Soberania sobre Armas:** Todas as armas metálicas ou de Memória de Rank igual ou inferior dentro do Domínio reconhecem você como Rei! Inimigos precisam vencer **`Corpo [Força]` ou `Mente [Vontade]`** contra sua `CD` no início de cada turno ou suas próprias espadas se recusam a ferir você (ou voam de suas mãos direto para o seu Arsenal!);
   2. **Chuva das Mil Lâminas:** Com `1 Ação Menor` (`1 PE`), dezenas de espadas erguem-se do chão golpeando qualquer alvo ou área *Perto* dentro do Domínio (`2` de Dano, ou `3` em `CD + 4`);
   3. **Armamento do Exército:** Cada aliado seu dentro do Domínio recebe imediatamente uma **Lâmina Conceitual emprestada** (`+1` Dano e `1d8` se não tiver especialização).
@@ -2861,7 +2861,7 @@ A partir do Rank Ascendido (ou em vislumbres menores com habilidades de Desperto
 - **Inscrição Poética Oficial das Runas:**
   > *"Toda lei do universo é tecida em fios invisíveis de causa, essência e destino. Onde guerreiros cegos veem muros inquebráveis e deuses imortais, seus dedos enxergam apenas nós esperando para serem desatados."*
 - **Nome Verdadeiro Exemplar:** `[Fio Oculto]` *(ou `[Olho da Tapeçaria]`)*
-- **Defeito Sugerido (*Flaw*):** **`[Sobrecarga Sensorial]` (*Tapestry Overload*)** — *Seus sentidos espirituais não possuem filtro natural quando expostos a forças titânicas.* Ao manter a *Visão dos Fios* totalmente aberta por mais de `3` turnos em batalhas caóticas ou ao observar diretamente entidades Divinas/Titãs, a torrente de conexões causais provoca enxaqueca lancinante: teste **`Mente [Vontade] CD 11`** ou sofra **`-1` em percepção física mundana** e náusea até fechar os olhos espirituais por `1` turno. *(Alternativa narrativa: `[Ganância de Colecionador]` — obsessão irresistível por desvendar Memórias e segredos ocultos).*
+- **Defeito Sugerido (*Flaw*):** **`[Sobrecarga Sensorial]` (*Tapestry Overload*)** — *Seus sentidos espirituais não possuem filtro natural quando expostos a forças titânicas.* Ao manter a *Visão dos Fios* totalmente aberta por mais de `3` turnos em batalhas caóticas ou ao observar diretamente entidades Divinas/Titãs, a torrente de conexões causais provoca enxaqueca lancinante: teste **`Mente [Vontade] CD 9`** ou sofra **`-1` em percepção física mundana** e náusea até fechar os olhos espirituais por `1` turno. *(Alternativa narrativa: `[Ganância de Colecionador]` — obsessão irresistível por desvendar Memórias e segredos ocultos).*
 - **Descrição do Mar da Alma (*Soul Sea*):**
   O Mar da Alma do Tecelão não tem ondas nem terra: é uma **abóbada noturna infinita cruzada por bilhões de fios cintilantes de diamante, prata e seda dourada**, estendendo-se em todas as dimensões como uma teia de aranha cósmica suspensa no vácuo. Cada fio vibra com notas musicais silenciosas ligadas às Memórias, aliados e eventos vividos pelo portador. No centro geométrico da tapeçaria flutuam até sete **Carretéis Estelares de Luz Diamante**, girando incessantemente para tecer novos padrões de realidade.
 - **Evolução dos Núcleos (`[1/7]` a `[7/7]`):**
@@ -2891,7 +2891,7 @@ A partir do Rank Ascendido (ou em vislumbres menores com habilidades de Desperto
 Você enxerga o mundo físico sobreposto pela malha etérea do Feitiço e da Causalidade (`0 PE` para olhar):
 - **Leitura Estrutural:** Com `1 Ação Menor` observando uma criatura, barreira mágica ou Memória, você identifica instantaneamente seus **pontos de tensão estrutural** (ganhando **`+1` no próximo ataque/teste para quebrar defesas**) e lê todos os Encantamentos e Integridade de uma Memória em alcance *Perto*.
 - **Previsão de Intenção:** Antes que um inimigo se mova ou golpeie, os fios conectados aos seus músculos e à sua alma tensionam primeiro (`+1` em `Corpo [Agilidade]` ou `Alma [Abjurar]` para prever e esquivar!).
-- **Rastreamento Causal:** Você pode seguir o rastro de fios tênues deixados por juramentos de sangue, laços familiares, portais recentes ou maldições (`Mente [Conhecimento/Astúcia] CD 9+`).
+- **Rastreamento Causal:** Você pode seguir o rastro de fios tênues deixados por juramentos de sangue, laços familiares, portais recentes ou maldições (`Mente [Conhecimento/Astúcia] CD 7+`).
 
 #### B) Manipulação de Fios de Essência em Combate (*Threadweaving Combat*)
 
@@ -2904,9 +2904,9 @@ Você conjura fios de diamante quase invisíveis a olho nu (`Corpo/Alma`):
 #### C) Costura de Almas (*Soul Stitching*)
 
 Pouquíssimos seres entendem a anatomia da alma tão bem quanto você:
-- **Cirurgia Física & Espiritual (`2 PE`, `1 Ação Maior` em toque):** Costurando carne e espírito com agulha e fio translúcidos (`Alma [Canalizar] CD 9`), você fecha ferimentos (**cura `2 PV`**), estabiliza moribundos a `0 PV` prendendo temporariamente a alma ao corpo e **mitiga Dano de Alma**!
-- **Remendar Núcleos & Restaurar PE Máximos:** Ao gastar `3 PE` e `10 minutos` em Descanso Curto/Longo (`Alma [Canalizar] CD 11`), você **cura até `2` Rachaduras Espirituais** (a Essência Máxima perdida por Dano de Alma, *Livro 1, Seção 6.1*) e consegue **costurar Núcleos de Alma rachados** (impedindo a perda permanente do Núcleo de um aliado em crise)!
-- **Transplante de Encantamento:** Em Descanso Longo, você pode desfazer uma Memória sacrificada para enxertar `1` de seus Encantamentos compatíveis em outra Memória intacta (exige `Mente [Conhecimento] CD 11` e Fragmentos).
+- **Cirurgia Física & Espiritual (`2 PE`, `1 Ação Maior` em toque):** Costurando carne e espírito com agulha e fio translúcidos (`Alma [Canalizar] CD 7`), você fecha ferimentos (**cura `2 PV`**), estabiliza moribundos a `0 PV` prendendo temporariamente a alma ao corpo e **mitiga Dano de Alma**!
+- **Remendar Núcleos & Restaurar PE Máximos:** Ao gastar `3 PE` e `10 minutos` em Descanso Curto/Longo (`Alma [Canalizar] CD 9`), você **cura até `2` Rachaduras Espirituais** (a Essência Máxima perdida por Dano de Alma, *Livro 1, Seção 6.1*) e consegue **costurar Núcleos de Alma rachados** (impedindo a perda permanente do Núcleo de um aliado em crise)!
+- **Transplante de Encantamento:** Em Descanso Longo, você pode desfazer uma Memória sacrificada para enxertar `1` de seus Encantamentos compatíveis em outra Memória intacta (exige `Mente [Conhecimento] CD 9` e Fragmentos).
 
 #### D) Forja de Memórias Vivas (*Living Memory Forging*)
 
@@ -2914,7 +2914,7 @@ Fora de combate (em Descansos Longos ou Santuários), você replica a arte secre
 - **Tecer do Zero:** Combinando **Materiais de Monstro (carapaça, presas, sangue) + Fragmentos de Alma + `Alma [Canalizar]`/`Mente [Conhecimento]`**, você tece uma Memória nova do seu Rank atual ou inferior:
   - *Custo Base:* `5` Fragmentos (Adormecida) | `15` Fragmentos (Desperta) | `40` Fragmentos (Ascendida) | `100` Fragmentos (Transcendente).
 - **Elevar Tier (`I → VII`) ou Rank:** Sacrificando `2` Memórias sobressalentes do mesmo Rank (ou materiais raros equivalentes) durante `1` Descanso Longo, você sobe **`+1` Tier** de uma Memória existente ou reforça sua Integridade permanentemente até *Polida*!
-- **Criar uma Memória Viva (`+50%` Fragmentos, `CD 13`):** Ao tecer uma centelha de fio autônomo na trama, a Memória adquire **semi-consciência**: ela se invoca sozinha como `1 Ação Livre` para defender o dono de ataques surpresa, repara `1` estágio de dano sozinha a cada Descanso Longo e evolui de Tier junto com o portador!
+- **Criar uma Memória Viva (`+50%` Fragmentos, `CD 11`):** Ao tecer uma centelha de fio autônomo na trama, a Memória adquire **semi-consciência**: ela se invoca sozinha como `1 Ação Livre` para defender o dono de ataques surpresa, repara `1` estágio de dano sozinha a cada Descanso Longo e evolui de Tier junto com o portador!
 
 ---
 
@@ -2972,7 +2972,7 @@ Fora de combate (em Descansos Longos ou Santuários), você replica a arte secre
 
 #### 3ª Habilidade (Ascendida) — `[Costura da Alma (Soul Stitching)]`
 - **Custo de Essência:** `2 PE` (cura em combate) ou `3 PE` (remendar Núcleo/Dano de Alma) | **Tipo de Ação:** `1 Ação Maior` (combate) ou `10 minutos` (cirurgia espiritual) | **Alcance:** Toque / *Perto* | **Duração:** Permanente (efeito curado)
-- **Teste & Sucesso Simples:** Habilidade assinatura de restauração espiritual e engenharia de Memórias. Em combate, fecha ferimentos graves (`2 PV` + estanca sangramento e veneno com `Alma [Canalizar] CD 9`). Fora de combate (ou com `1` Ação Maior + `3 PE`), **remenda Dano de Alma curando até `2` Rachaduras Espirituais** (*Livro 1, Seção 6.1*) e estabiliza Núcleos de Alma rachados!
+- **Teste & Sucesso Simples:** Habilidade assinatura de restauração espiritual e engenharia de Memórias. Em combate, fecha ferimentos graves (`2 PV` + estanca sangramento e veneno com `Alma [Canalizar] CD 7`). Fora de combate (ou com `1` Ação Maior + `3 PE`), **remenda Dano de Alma curando até `2` Rachaduras Espirituais** (*Livro 1, Seção 6.1*) e estabiliza Núcleos de Alma rachados!
 - **Sucesso Crítico (`CD + 4` ou mais):** Ao costurar um aliado em combate, não só cura **`3 PV`** como entrelaça sua Essência à dele concedendo **`+1` no próximo teste** do aliado e restaurando `1 PE`!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2982,13 +2982,13 @@ Fora de combate (em Descansos Longos ou Santuários), você replica a arte secre
 | `[2/7]` | **Monstro** | `2 PV` (*Perto* via fios) | Estabiliza aliados a `0 PV` à distância (`1` Ação Menor extra). |
 | `[3/7]` | **Demônio** | `3 PV` | Cura `2` Rachaduras Espirituais; remenda Núcleo rachado! |
 | `[4/7]` | **Diabo** | `3 PV` (até `2` alvos) | Transplanta `1` Encantamento entre Memórias em Descanso Longo. |
-| `[5/7]` | **Tirano** | `4 PV` | Remove maldições de sangue e parasitas espirituais (`CD 11`). |
+| `[5/7]` | **Tirano** | `4 PV` | Remove maldições de sangue e parasitas espirituais (`CD 9`). |
 | `[6/7]` | **Terror** | `4 PV` (até `3` alvos) | Pode manter aliado fatalmente ferido vivo por `2` turnos costurando sua alma! |
 | `[7/7]` | **Titã** | `5 PV` + cura `2` Rachaduras | Reconstrói até membros perdidos ou estilhaços parciais de Eco/Sombra! |
 
 #### 4ª Habilidade (Transformação Transcendente) — `[Aracnídeo do Tear Astral (Astral Weaver Form)]`
 - **Custo de Essência:** `5 PE` + `1 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Pessoal (Teia em *Distante*) | **Duração:** Cena
-- **Teste & Sucesso Simples:** Seus olhos acendem em brilho diamante puro enquanto **múltiplos braços translúcidos de seda estelar brotam de suas costas** e uma **Teia Tridimensional Flutuante** ancora-se no ar ao redor cobrindo alcance *Distante*! Você ganha **`+4 PV` temporários**, pode caminhar no ar pisando nos fios invisíveis (`Voo tático`), recebe **`+1 Reação` extra por turno exclusivamente para desviar projéteis ou puxar aliados** e tem **Vantagem** em todos os testes de `Alma [Canalizar]` e manipulação de fios! Teste `Mente [Vontade] CD 9` para filtrar a avalanche sensorial da teia (`CD Exata`: sofre `-1` em testes mundanos visuais por `1` turno).
+- **Teste & Sucesso Simples:** Seus olhos acendem em brilho diamante puro enquanto **múltiplos braços translúcidos de seda estelar brotam de suas costas** e uma **Teia Tridimensional Flutuante** ancora-se no ar ao redor cobrindo alcance *Distante*! Você ganha **`+4 PV` temporários**, pode caminhar no ar pisando nos fios invisíveis (`Voo tático`), recebe **`+1 Reação` extra por turno exclusivamente para desviar projéteis ou puxar aliados** e tem **Vantagem** em todos os testes de `Alma [Canalizar]` e manipulação de fios! Teste `Mente [Vontade] CD 7` para filtrar a avalanche sensorial da teia (`CD Exata`: sofre `-1` em testes mundanos visuais por `1` turno).
 - **Sucesso Crítico (`CD + 4` ou mais):** No instante em que a teia explode no ar, todos os inimigos dentro de *Perto/Distante* ficam presos nos fios invisíveis, perdendo `1` Faixa de movimento e sofrendo `1` de Dano cortante ao se moverem!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -3004,7 +3004,7 @@ Fora de combate (em Descansos Longos ou Santuários), você replica a arte secre
 
 #### 5ª Habilidade (Domínio Supremo) — `[Grande Tapeçaria do Destino (Domain of the Great Loom)]`
 - **Custo de Essência:** `7 PE` + `2 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Área *Longe* a *Fora de Alcance* | **Duração:** Cena
-- **Teste & Sucesso Simples:** Você transforma toda a realidade da área em um **Tear Cósmico Vivo** onde cada criatura, arma e feitiço brilha conectado por fios visíveis apenas para você e seus aliados (`Mente [Conhecimento]` ou `Alma [Canalizar] CD 11`). Dentro do Domínio:
+- **Teste & Sucesso Simples:** Você transforma toda a realidade da área em um **Tear Cósmico Vivo** onde cada criatura, arma e feitiço brilha conectado por fios visíveis apenas para você e seus aliados (`Mente [Conhecimento]` ou `Alma [Canalizar] CD 9`). Dentro do Domínio:
   1. **Reescrever Probabilidade:** Uma vez por turno como `1 Reação` (`1 PE`), você puxa um fio causal e **deixa um aliado re-rolar uma Falha com Infortúnio** (por exemplo, a Defesa contra o golpe crítico de um inimigo) ou transforma uma **Falha Simples de aliado em Sucesso Pleno**!
   2. **Reserva Interconectada:** Aliados na Tapeçaria compartilham uma rede de fluxo: você pode redistribuir `PE` entre aliados instantaneamente e reduzir em `-1 PE` os custos das Memórias de todo o grupo!
   3. **Desfazer Invocações:** Com `1 Ação Menor` (`2 PE`), você desfaz temporariamente a invocação de `1` Memória ou Eco comum inimigo de Rank igual ou inferior (`1` turno).
@@ -3093,7 +3093,7 @@ Fora de combate (em Descansos Longos ou Santuários), você replica a arte secre
 - **Inscrição Poética Oficial das Runas:**
   > *"Os fracos rezam por armaduras de ferro; o predador devora o próprio monstro e veste seus ossos por dentro da pele. Sangue chama sangue, carne obedece à fome — coma o ápice da cadeia alimentar ou torne-se presa dela."*
 - **Nome Verdadeiro Exemplar:** `[Boca do Fim]` *(ou `[Coração Carmesim]`)*
-- **Defeito Sugerido (*Flaw*):** **`[Apetite Voraz]` (*Ravenous Appetite*)** — *Sua biologia divina consome energia celular e espiritual a uma velocidade monstruosa.* Você precisa devorar diariamente carne fresca ou sangue carregado de Essência de Criaturas de Pesadelo (ou grande quantidade calórica ritualística); se passar **`24` horas sem se alimentar**, sofre **`-1` em Vigor e Vontade** e, sempre que sentir cheiro de sangue fresco em combate, precisa passar em **`Mente [Vontade] CD 9+`** para não priorizar morder e devorar presas feridas em vez de recuar taticamente!
+- **Defeito Sugerido (*Flaw*):** **`[Apetite Voraz]` (*Ravenous Appetite*)** — *Sua biologia divina consome energia celular e espiritual a uma velocidade monstruosa.* Você precisa devorar diariamente carne fresca ou sangue carregado de Essência de Criaturas de Pesadelo (ou grande quantidade calórica ritualística); se passar **`24` horas sem se alimentar**, sofre **`-1` em Vigor e Vontade** e, sempre que sentir cheiro de sangue fresco em combate, precisa passar em **`Mente [Vontade] CD 7+`** para não priorizar morder e devorar presas feridas em vez de recuar taticamente!
 - **Descrição do Mar da Alma (*Soul Sea*):**
   Diferente dos desertos frios ou espelhos silenciosos de outros portadores, o Mar da Alma do Devorador Carmesim é um **oceano quente e pulsante de sangue rubi vivo**, iluminado por uma colossal lua vermelha que reflete batimentos cardíacos audíveis como trovões distantes. Submersas e emergindo da maré carmesim giram até sete **Câmaras de Vísceras Cristalinas** — estruturas orgânico-divinas translúcidas onde DNA, carapaças, asas, presas e órgãos espirituais de todos os monstros já devorados flutuam preservados, esperando o chamado do predador.
 - **Evolução dos Núcleos (`[1/7]` a `[7/7]`):**
@@ -3121,7 +3121,7 @@ Fora de combate (em Descansos Longos ou Santuários), você replica a arte secre
 #### A) Banco Genético de Predadores (*Predator Gene Bank*)
 
 Seu organismo arquiva e recombina a evolução de cada criatura derrotada:
-- **Como Coletar & Arquivar:** Dentro de `1 minuto` após a morte de uma Criatura de Pesadelo (ou Humano Desperto com mutação física única), você consome um pedaço fresco do coração, músculo ou sangue da presa (`1` minuto ritualístico, teste de `Corpo [Vigor]` ou `Alma [Canalizar] CD 7` para Rank igual; `+2 CD` por Rank acima). O padrão genético fica guardado permanentemente nas reservas do seu Mar da Alma (você pode manter um catálogo amplo em repouso no Mar da Alma, mas **equipar/manter ativas ou prontas para troca imediata** até **`1` Mutação por Núcleo de Alma [`1` a `7`]**!).
+- **Como Coletar & Arquivar:** Dentro de `1 minuto` após a morte de uma Criatura de Pesadelo (ou Humano Desperto com mutação física única), você consome um pedaço fresco do coração, músculo ou sangue da presa (`1` minuto ritualístico, teste de `Corpo [Vigor]` ou `Alma [Canalizar] CD 5` para Rank igual; `+1 CD` por Rank acima). O padrão genético fica guardado permanentemente nas reservas do seu Mar da Alma (você pode manter um catálogo amplo em repouso no Mar da Alma, mas **equipar/manter ativas ou prontas para troca imediata** até **`1` Mutação por Núcleo de Alma [`1` a `7`]**!).
 - **Regra de Troca & Sobrecarga de Rank:** Trocar quais Mutações estão preparadas no Banco exige `1` Descanso Curto (`0 PE`) ou `1 Ação Menor` (`2 PE` em combate a partir do Rank Desperto/Ascendido). Usar uma Mutação coletada de um monstro **`1` Rank acima do seu** custa **`+1 PE` extra** na ativação devido ao estresse celular!
 - **Catálogo de Mutações Clássicas (Exemplos Mecânicos Prontos):**
   1. **`[Garras Serrilhadas de Quitina]`:** Transforma mãos/braços em armas naturais (`1d8` se tiver luta corporal ou `+1` de acuidade) com `Dano 2` e aplica a condição **Sangrando** em `CD + 4`.
@@ -3192,7 +3192,7 @@ Você exerce controle telecinético e alquímico sobre o estado físico do sangu
 
 #### 3ª Habilidade (Ascendida) — `[Fusão Quimérica (Chimeric Synthesis)]`
 - **Custo de Essência:** `3 PE` | **Tipo de Ação:** `1 Ação Menor` (fundir/trocar traços em combate) | **Alcance:** Pessoal | **Duração:** Cena
-- **Teste & Sucesso Simples:** Em vez de apenas manifestar órgãos isolados, você funde perfeitamente múltiplos padrões do seu Banco Genético criando uma **anatomia híbrida otimizada**! Você pode **trocar instantaneamente até `2` Mutações ativas por outras arquivadas no seu Mar da Alma** no meio do combate (`0` descanso necessário!), além de **combinar `2` traços diferentes em um único efeito sinérgico** (ex: *Asas + Carapaça* cria asas blindadas que bloqueiam flechas como escudo; *Veneno + Sangue* faz o próprio sangue espirrado ao ser atingido queimar atacantes em `Corpo a Corpo` com `1` Dano ácido!). Role `Alma [Canalizar] CD 9`.
+- **Teste & Sucesso Simples:** Em vez de apenas manifestar órgãos isolados, você funde perfeitamente múltiplos padrões do seu Banco Genético criando uma **anatomia híbrida otimizada**! Você pode **trocar instantaneamente até `2` Mutações ativas por outras arquivadas no seu Mar da Alma** no meio do combate (`0` descanso necessário!), além de **combinar `2` traços diferentes em um único efeito sinérgico** (ex: *Asas + Carapaça* cria asas blindadas que bloqueiam flechas como escudo; *Veneno + Sangue* faz o próprio sangue espirrado ao ser atingido queimar atacantes em `Corpo a Corpo` com `1` Dano ácido!). Role `Alma [Canalizar] CD 7`.
 - **Sucesso Crítico (`CD + 4` ou mais):** Você desperta uma **Mutação de Sobrecarga Temporária** de um monstro `1` Rank superior ao seu que esteja arquivado sem pagar custo extra de Essência, ganhando **`+1` de Dano e Vantagem** no seu próximo ataque físico!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -3208,8 +3208,8 @@ Você exerce controle telecinético e alquímico sobre o estado físico do sangu
 
 #### 4ª Habilidade (Transformação Transcendente) — `[Behemoth da Carne e Rubi (Crimson Behemoth)]`
 - **Custo de Essência:** `5 PE` + `1 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Pessoal (Silhueta Gigante) | **Duração:** Cena
-- **Teste & Sucesso Simples:** Seu corpo explode em músculos vermelhos retorcidos, placas de quitina e cristais rubis brilhantes formando uma **Quimera Colossal de Ápice (`4` a `10` metros)** com todas as suas Mutações ativas maximizadas ao mesmo tempo! Você recebe **`+7 PV` temporários**, **Regeneração automática de `1 PV/turno`** enquanto houver sangue ou Essência, **Vantagem em `Corpo [Força]`**, redução de `2` de Dano físico e ataques naturais de `Dano base 3`! Teste `Mente [Vontade] CD 9` ao transformar para não sucumbir à fúria cega (`CD Exata`: deve atacar o inimigo mais próximo neste turno).
-- **Sucesso Crítico (`CD + 4` ou mais):** O rugido gutural do Behemoth abala o campo inteiro (`Coração [Intimidar] CD 13` contra inimigos em *Distante*), fazendo garras e espinhos de rubi explodirem do seu corpo para **`2` ataques gratuitos imediatos**!
+- **Teste & Sucesso Simples:** Seu corpo explode em músculos vermelhos retorcidos, placas de quitina e cristais rubis brilhantes formando uma **Quimera Colossal de Ápice (`4` a `10` metros)** com todas as suas Mutações ativas maximizadas ao mesmo tempo! Você recebe **`+7 PV` temporários**, **Regeneração automática de `1 PV/turno`** enquanto houver sangue ou Essência, **Vantagem em `Corpo [Força]`**, redução de `2` de Dano físico e ataques naturais de `Dano base 3`! Teste `Mente [Vontade] CD 7` ao transformar para não sucumbir à fúria cega (`CD Exata`: deve atacar o inimigo mais próximo neste turno).
+- **Sucesso Crítico (`CD + 4` ou mais):** O rugido gutural do Behemoth abala o campo inteiro (`Coração [Intimidar] CD 11` contra inimigos em *Distante*), fazendo garras e espinhos de rubi explodirem do seu corpo para **`2` ataques gratuitos imediatos**!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
 | Núcleo | Classe | PV Temp. / Tamanho | Poderes do Behemoth da Carne e Rubi |
@@ -3224,7 +3224,7 @@ Você exerce controle telecinético e alquímico sobre o estado físico do sangu
 
 #### 5ª Habilidade (Domínio Supremo) — `[Matadouro Primordial (Domain of the Crimson Feast)]`
 - **Custo de Essência:** `7 PE` + `2 PE/turno` | **Tipo de Ação:** `1 Ação Maior` | **Alcance:** Área *Longe* a *Fora de Alcance* | **Duração:** Cena
-- **Teste & Sucesso Simples:** Uma lua de sangue colossal abre-se no céu enquanto um **tapete vivo de sangue espesso e veias rubis** alastra-se por todo o terreno (`Alma [Evocar]` ou `Corpo [Vigor] CD 11`). Dentro do Domínio:
+- **Teste & Sucesso Simples:** Uma lua de sangue colossal abre-se no céu enquanto um **tapete vivo de sangue espesso e veias rubis** alastra-se por todo o terreno (`Alma [Evocar]` ou `Corpo [Vigor] CD 9`). Dentro do Domínio:
   1. **Hemofagia de Território:** Todo inimigo ferido (abaixo do PV máximo) sofre **`1` de Dano sangrento automático no final de cada turno** enquanto seus ferimentos recusam a fechar (**cura inimiga é anulada ou reduzida pela metade** dentro da área!);
   2. **Banquete Inesgotável:** Todo sangue derramado alimenta diretamente você e aliados ferais — você recupera **`+1 PV` ou `+1 PE` por turno** automaticamente e seus aliados ganham **`+1` em `Corpo [Força/Vigor]`**;
   3. **Floresta de Rubi:** Com `1 Ação Menor` (`1 PE`), dezenas de lanças cristalinas emergem do chão sanguíneo em qualquer ponto do Domínio!
@@ -3369,14 +3369,14 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 ### 🔮 Progressão Completa das 5 Habilidades de Rank
 
 #### 1. 1ª Habilidade (Adormecida) — `[Vislumbre de 3 Segundos]`
-- **Custo:** 0 Essência | **Ação:** Reação Livre (em combate) / Ação Maior (fora de combate) | **Alcance:** Até *Distante* (ou *Longe* quando conectado pela Rede) | **Rolagem:** Automática em combate; `Mente (Astúcia)` ou `Alma (Canalizar)` CD 9 para visões profundas fora de combate.
+- **Custo:** 0 Essência | **Ação:** Reação Livre (em combate) / Ação Maior (fora de combate) | **Alcance:** Até *Distante* (ou *Longe* quando conectado pela Rede) | **Rolagem:** Automática em combate; `Mente (Astúcia)` ou `Alma (Canalizar)` CD 7 para visões profundas fora de combate.
 - **Efeito em Sucesso Simples (`CD` a `CD + 3`):** **Duas vezes por cena**, imediatamente antes de um aliado realizar uma Rolagem de Defesa contra um ataque físico ou ambiental, você grita um aviso preciso sobre a trajetória do golpe. O aliado rola a Defesa com **Vantagem (`2d6`/`2d8`, pega o maior)**!
 - **Efeito em Maestria (`CD + 4`):** Se o aliado protegido obtiver **`CD + 4`** na Defesa graças ao seu aviso (ou se você obtiver `CD + 4` em uma visão investigativa fora de combate), a brecha aberta concede também **+1 no próximo ataque de qualquer aliado** contra o atacante (ou revela um segredo oculto inteiro do local/NPC!).
 - **Fora de Combate:** Ao meditar por 10 minutos ou tocar um objeto/local carregado de destino, você recebe um vislumbre simbólico (uma imagem, som ou frase profética) alertando sobre um perigo iminente nas próximas 24 horas ou revelando fragmentos da memória recente daquele objeto.
 - **Evolução nos Ranks Superiores:** No Rank **Desperto**, passa para **3 usos por cena** e pode ser usada no **Teste de Reação (Iniciativa)** de um aliado; no Rank **Ascendido**, pode conceder **Vantagem** em um *Ataque* decisivo (prevendo para onde o monstro vai esquivar); no Rank **Transcendente**, funciona **1 vez por rodada** até *Longe*; no Rank **Supremo**, lê ramificações inteiras de minutos futuros.
 
 #### 2. 2ª Habilidade (Desperta) — `[Rede Sensorial da Coorte]`
-- **Custo:** 1 Essência | **Ação:** Ação Menor | **Alcance:** Até *Longe* (e quilômetros após ativada) | **Rolagem:** Automática para aliados dispostos (`Alma [Canalizar]` CD 9 apenas sob interferência psíquica).
+- **Custo:** 1 Essência | **Ação:** Ação Menor | **Alcance:** Até *Longe* (e quilômetros após ativada) | **Rolagem:** Automática para aliados dispostos (`Alma [Canalizar]` CD 7 apenas sob interferência psíquica).
 - **Efeito Detalhado:** Conecta mentalmente até **7 aliados** (toda a Coorte!) durante **1 Cena inteira** (ou 1 hora fora de combate). Todos os membros conectados conversam por **telepatia silenciosa** (sem emitir som, imunes à condição *Silenciado* para comunicação tática) e você pode **enxergar e ouvir através dos olhos e ouvidos de qualquer aliado conectado** (contornando até sua própria cegueira!). Enquanto a rede estiver ativa, nenhum membro conectado pode ser flanqueado ou emboscado isoladamente se outro aliado tiver linha de visão. Em `CD + 4` (se testada sob estresse), todos os aliados recebem **+1 em testes de `Mente (Vontade)`** durante a cena.
 
 #### 3. 3ª Habilidade (Ascendida) — `[Olhar que Desnuda a Alma]`
@@ -3443,7 +3443,7 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 - **Evolução nos Ranks Superiores:** No Rank **Desperto**, suas armas arremessadas alcançam a faixa *Longe* sem penalidade; no Rank **Ascendido**, o impacto cria uma onda sonora que afeta até **2 inimigos adjacentes**; no Rank **Transcendente**, derruba até criaturas gigantes/quadrúpedes sem o bônus defensivo de `+2` delas; no Rank **Supremo**, o choque do arremesso abre crateras no solo.
 
 #### 2. 2ª Habilidade (Desperta) — `[Rugido da Alvorada]`
-- **Custo:** 1 Essência | **Ação:** Ação Menor | **Alcance:** Até *Longe* (todos que ouvirem sua voz) | **Rolagem:** Automática (`Coração [Convencer]` CD 9 para efeitos extras).
+- **Custo:** 1 Essência | **Ação:** Ação Menor | **Alcance:** Até *Longe* (todos que ouvirem sua voz) | **Rolagem:** Automática (`Coração [Convencer]` CD 7 para efeitos extras).
 - **Efeito Detalhado:** Você solta um brado marcial que ecoa pelo campo de batalha como o soar de trombetas de bronze. Todos os **7 membros da Coorte** ganham **`+1` na sua próxima rolagem de Ataque ou `Mente (Vontade)`** na rodada! Se você também rolar `Coração` e alcançar `CD + 4` (ou usar no início de uma carga coordenada), o rugido **remove imediatamente a condição *Amedrontado*** de todos os aliados e intimida bestas menores adjacentes (`-1` na CD delas por 1 rodada).
 
 #### 3. 3ª Habilidade (Ascendida) — `[Pele de Aço Dourado]`
@@ -3503,7 +3503,7 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 ### 🔮 Progressão Completa das 5 Habilidades de Rank
 
 #### 1. 1ª Habilidade (Adormecida) — `[Ascensão Celeste]`
-- **Custo:** 0 Essência | **Ação:** Movimento (ou Reação para evitar queda) | **Alcance:** Pessoal | **Rolagem:** Automática em condições normais (`Corpo [Agilidade]` CD 9 apenas sob vendavais extremos ou agarrões).
+- **Custo:** 0 Essência | **Ação:** Movimento (ou Reação para evitar queda) | **Alcance:** Pessoal | **Rolagem:** Automática em condições normais (`Corpo [Agilidade]` CD 7 apenas sob vendavais extremos ou agarrões).
 - **Efeito em Sucesso Simples (`CD` a `CD + 3`):** Você manipula a densidade do próprio corpo e as correntes de ar ao redor para **levitar e voar livremente** sem gastar Essência! Em combate, permanecer no ar posiciona você na faixa vertical *Perto* ou *Distante* em relação ao solo, concedendo **`+1` de Terreno Elevado** em seus disparos contra inimigos terrestres e imunidade a ataques puramente *Corpo a Corpo* de monstros sem voo ou salto longo.
 - **Efeito em Maestria (`CD + 4`):** Quando realiza manobras aéreas arriscadas (mergulhar sob uma coluna, esquivar em pleno ar com `CD + 4`), você rasga o vento deixando uma corrente ascendente que impulsiona um aliado ou concede `+1` na sua próxima Defesa.
 - **Fora de Combate:** Permite escalar torres sem corda, pairar em vigília acima das nuvens, atravessar rios de lava ou pântanos venenosos e mapear labirintos inteiros de cima. *(Nota: carregar um aliado pesado em voo exige 1 Essência por minuto nos Ranks iniciais).*
@@ -3635,12 +3635,12 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 ### ✨ Habilidade Inata (Passiva Estrutural) — `[Sussurro do Ossuário]`
 - **Inscrição das Runas:** *"[Os restos mortais reconhecem seu regente mesmo após séculos sob a terra.]"*
 - **Tipo:** Passiva Estrutural (0 Essência)
-- **Efeito Mecânico:** Você sente a presença exata de **cadáveres, ossadas, tumbas e mortos-vivos** até a faixa **Longe (100m)**, mesmo através de paredes ou terra. Ao tocar um osso ou crânio antigo e concentrar-se por 1 minuto (`Mente [Conhecimento]` CD 9 se for muito antigo), você escuta os últimos instantes de vida ou a causa da morte da criatura. Além disso, mortos-vivos sem mente não atacam você primeiro a menos que sejam provocados ou comandados por um mestre superior (`+1` contra ou para controlar mortos-vivos).
+- **Efeito Mecânico:** Você sente a presença exata de **cadáveres, ossadas, tumbas e mortos-vivos** até a faixa **Longe (100m)**, mesmo através de paredes ou terra. Ao tocar um osso ou crânio antigo e concentrar-se por 1 minuto (`Mente [Conhecimento]` CD 7 se for muito antigo), você escuta os últimos instantes de vida ou a causa da morte da criatura. Além disso, mortos-vivos sem mente não atacam você primeiro a menos que sejam provocados ou comandados por um mestre superior (`+1` contra ou para controlar mortos-vivos).
 
 ### 🔮 Progressão Completa das 5 Habilidades de Rank
 
 #### 1. 1ª Habilidade (Adormecida) — `[Ergam-se]`
-- **Custo:** 0 Essência *(Ação Maior)* ou **1 Essência** *(para erguer como Ação Menor rápida!)* | **Alcance:** Até *Perto* | **Rolagem:** Automática em criaturas de Rank igual ou inferior; `Alma (Canalizar)` CD 11 para erguer carcaça de Rank Superior.
+- **Custo:** 0 Essência *(Ação Maior)* ou **1 Essência** *(para erguer como Ação Menor rápida!)* | **Alcance:** Até *Perto* | **Rolagem:** Automática em criaturas de Rank igual ou inferior; `Alma (Canalizar)` CD 9 para erguer carcaça de Rank Superior.
 - **Efeito em Sucesso Simples (`CD` a `CD + 3`):** Você anima o cadáver ou esqueleto intacto de uma criatura abatida na cena (ou na região recente) como uma **Marionete Óssea** leal até o fim do combate!
   - **Estatísticas da Marionete:** `CD = CD original da criatura - 1` (mínimo 7), `PV = metade do PV original` (mínimo 3 PV) e **1 de Dano** (segue as regras de comando de Eco do *Livro 1, Seção 7.5*: usa sua Ação Menor para dar `+1/+1` em ataque conjunto, atacar independente ou interceptar golpe por um aliado!). Limite inicial: **1 Marionete ativa por vez**.
 - **Efeito em Maestria (`CD + 4`):** Quando rolar para erguer uma criatura difícil ou comandar seu golpe, a marionete ergue-se reforçada com ossos extras (**+2 PV** e causa **2 de Dano** no primeiro ataque!).
@@ -3763,7 +3763,7 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 - **Papéis Recomendados na Coorte:** Executor / Espectro / Canalizador
 - **Descrição das Runas:** *"[Você compreendeu a lei silenciosa que prende estrelas e derruba gigantes. Para seus passos, teto e abismo são apenas horizontes opcionais; para sua lâmina, uma pluma cai com a fúria de um meteoro.]"*
 - **Aparência do Mar da Alma (*Soul Sea*):** Uma infinidade estrelada onde blocos de obsidiana branca, colunas quebradas e cachoeiras de água luminosa flutuam em todas as direções sem "cima" nem "baixo", orbitando um Núcleo de Alma em forma de singularidade prateada que curva a luz ao redor.
-- **Sinergia de Defeito (*Livro 3, Seções 2.3 e 2.4*):** Costuma manifestar `[Vertigem do Vazio]` (olhar para céu aberto sem teto exige `Vontade` CD 9), `[Corpo Leve Demais]` ou `[Exaustão Súbita]`.
+- **Sinergia de Defeito (*Livro 3, Seções 2.3 e 2.4*):** Costuma manifestar `[Vertigem do Vazio]` (olhar para céu aberto sem teto exige `Vontade` CD 7), `[Corpo Leve Demais]` ou `[Exaustão Súbita]`.
 
 ### ⚙️ Subsistema Exclusivo: *Eixos Vetoriais & Balança de Massa*
 - **Como Funciona na Prática:** O Dançarino da Gravidade é o **mestre da física tática e da mobilidade tridimensional**. Seu subsistema permite burlar restrições clássicas de atributos: você usa **Agilidade (`Corpo`)** para manejar **Montantes e Martelos Pesados de 2 de Dano** com apenas **1 mão** (pois reduz o peso da arma para o de uma pena durante o movimento e devolve toneladas de massa no milissegundo exato do choque!). Além disso, em exploração pelas *Ilhas Acorrentadas*, navios voadores ou cavernas profundas, você anda pelas paredes e tetos como se fossem corredores normais, anula danos de queda para si e (com relíquias/Ranks) controla a gravidade sobre inimigos, derrubando voadores e esmagando multidões!
@@ -3857,7 +3857,7 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 - **Evolução nos Ranks Superiores:** No Rank **Desperto**, mantém até **2 miragens** simultâneas até *Distante*; no Rank **Ascendido**, as ilusões incluem cheiro e calor corporal enganando até farejadores; no Rank **Transcendente**, cria ilusões de tamanho monumental (como falsos Titãs ou pontes inteiras); no Rank **Supremo**, suas ilusões são quase indistinguíveis da realidade até para Oráculos inferiores.
 
 #### 2. 2ª Habilidade (Desperta) — `[Manto do Camaleão]`
-- **Custo:** 1 Essência | **Ação:** Ação Menor | **Alcance:** Você + até **2 aliados** até *Perto* | **Rolagem:** Automática (`Alma [Canalizar]` CD 9 apenas contra detectores mágicos).
+- **Custo:** 1 Essência | **Ação:** Ação Menor | **Alcance:** Você + até **2 aliados** até *Perto* | **Rolagem:** Automática (`Alma [Canalizar]` CD 7 apenas contra detectores mágicos).
 - **Efeito Detalhado:** Dobra a luz, o reflexo e os sons leves ao redor dos alvos escolhidos, tornando todos **Invisíveis / Ocultos** por toda a cena (ou até 30 minutos fora de combate)! A invisibilidade de um personagem quebra apenas se ele realizar um **ataque direto ou habilidade ofensiva** (o primeiro golpe saindo da invisibilidade conta automaticamente como **Ataque Furtivo: Vantagem + `+2 de Dano`!**). Em **`CD + 4`** (ou gastando +1 Essência), você pode cobrir a **Coorte inteira (todos os 7 jogadores!)** de uma só vez!
 
 #### 3. 3ª Habilidade (Ascendida) — `[Labirinto Mental]`
@@ -4684,7 +4684,7 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 - **Evolução nos Ranks Superiores:** No Rank **Desperto**, frascos e jatos alcançam até *Distante* e o revestimento em arma dura a cena toda; no Rank **Ascendido**, suas toxinas ignoram imunidade natural de bestas venenosas comuns; no Rank **Transcendente**, o ácido causa **2 de Dano** direto contra construções/armaduras; no Rank **Supremo**, cria pragas espirituais que afetam até mortos-vivos sem sangue.
 
 #### 2. 2ª Habilidade (Desperta) — `[Elixir de Emergência]`
-- **Custo:** 1 Essência | **Ação:** **Ação Menor** | **Alcance:** Toque (*Corpo a Corpo*) ou arremesso de frasco até *Perto* | **Rolagem:** Automática (`Mente [Conhecimento]` CD 9 apenas se tentar criar um efeito especial extra fora do combate).
+- **Custo:** 1 Essência | **Ação:** **Ação Menor** | **Alcance:** Toque (*Corpo a Corpo*) ou arremesso de frasco até *Perto* | **Rolagem:** Automática (`Mente [Conhecimento]` CD 7 apenas se tentar criar um efeito especial extra fora do combate).
 - **Efeito Detalhado:** Você mistura rapidamente sua Essência com bioquímica corporal criando um frasco brilhante verde-dourado que deve ser bebido ou esmagado na pele do alvo: o beneficiado **recupera instantaneamente `2 PV`** (acordando se estava caído a 0 PV!), **remove na hora as condições *Envenenado* e *Sangrando***, e recebe **`+1` em todos os testes de `Corpo`** até o final da rodada! Se rolar ou tiver ajuda médica chegando em **`CD + 4`** fora de combate, o elixir também estabiliza **1 Ferimento Grave**!
 
 #### 3. 3ª Habilidade (Ascendida) — `[Nuvem Corrosiva]`
@@ -4730,7 +4730,7 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 - **Papéis Recomendados na Coorte:** Executor / Espectro (Batedor Rastreador) / Vanguarda Veloz
 - **Descrição das Runas:** *"[Um uivo ancestral despertou nas profundezas do seu sangue. Você não precisa forjar aço nem vestir placas — sob a luz prateada da caçada, seu próprio corpo torna-se a arma mais feroz do bando.]"*
 - **Aparência do Mar da Alma (*Soul Sea*):** Uma tundra prateada infinita de pinheiros negros antigos cobertos de geada sob uma lua cheia colossal e silenciosa, onde um Núcleo de Alma branco-prateado pulsa como o coração de um grande lobo alfa.
-- **Sinergia de Defeito (*Livro 3, Seções 2.3 e 2.4*):** Costuma manifestar `[Instinto da Fera]` (quando sangra em combate, exige `Vontade` CD 9 para recuar), `[Aversão à Prata e Luz Forte]` ou `[Apetite Voraz]`.
+- **Sinergia de Defeito (*Livro 3, Seções 2.3 e 2.4*):** Costuma manifestar `[Instinto da Fera]` (quando sangra em combate, exige `Vontade` CD 7 para recuar), `[Aversão à Prata e Luz Forte]` ou `[Apetite Voraz]`.
 
 ### ⚙️ Subsistema Exclusivo: *Caçada da Alcateia & Fúria Licantrópica*
 - **Como Funciona na Prática:** A Besta Lunar é o Aspecto perfeito para jogadores que querem lutar **com garras, saltos, faro e instinto animal puro**, sem depender de sorte para achar armas de Memória raras! Sua Habilidade Inata transforma você no melhor rastreador da mesa (`+1` em `Astúcia` para seguir rastros e detectar perigos ocultos), enquanto `[Garras da Fera]` dá armas naturais ferozes que já causam **2 de Dano em `CD + 3`** e deixam o monstro **Sangrando**! No Rank Desperto, `[Salto do Predador Lunar]` fecha a distância da faixa *Distante* direto para *Corpo a Corpo* derrubando o inimigo na chegada! E no Rank Ascendido, `[Forma Híbrida de Guerra]` transforma você em um lobisomem prateado de 3 metros que ganha **`+1` em TODOS os testes de `Corpo` (`Força`, `Agilidade` e `Vigor`)**!
@@ -5094,7 +5094,7 @@ Estes doze Atributos representam marcas raras e profundas na estrutura da alma. 
 - **Alteração Ontológica (Corpo, Mente, Alma e Destino):** O ápice do Atributo de Divindade acessível aos Ascendidos, Transcendentes e Supremos. Seu sangue e sua Essência carregam o peso conceitual da Criação. Relíquias de Rank Sagrado e Divino aceitam seu comando sem consumir sua sanidade ou queimar suas mãos.
 - **Efeito Passivo:** Você possui **Vantagem natural em testes contra Corrupção** (além do `+1` herdado) e pode despertar o **3º e 4º Estágios de Linhagens Divinas** sem rejeição do corpo. Sua simples presença purifica venenos menores no ar ao seu redor, e seu Núcleo de Alma brilha no Mar da Alma como um astro solar (ou abissal).
 - **Efeito Ativo em Combate e Exploração:**
-  - **Aura da Chama Primordial (1x por Cena — Ação Menor, 2 Essência):** Durante 2 rodadas, todas as suas rolagens de `Alma` recebem **+1**, criaturas de Rank inferior sofrem **-1 na CD** para resistir à sua presença (`Coração [Intimidar]`), e ao tocar um aliado afligido por **1 Marca de Corrupção**, você pode queimar a mancha espiritual instantaneamente (transferindo ou purificando a marca mediante teste de `Alma [Abjurar]` CD 11).
+  - **Aura da Chama Primordial (1x por Cena — Ação Menor, 2 Essência):** Durante 2 rodadas, todas as suas rolagens de `Alma` recebem **+1**, criaturas de Rank inferior sofrem **-1 na CD** para resistir à sua presença (`Coração [Intimidar]`), e ao tocar um aliado afligido por **1 Marca de Corrupção**, você pode queimar a mancha espiritual instantaneamente (transferindo ou purificando a marca mediante teste de `Alma [Abjurar]` CD 9).
 - **Evolução / Fusão:** Nos patamares míticos finais (Rank Supremo/Sagrado), pode fundir-se com a conclusão de uma Linhagem Divina completa para tornar-se **`[Fagulha da Apoteose]`** (elevando seu domínio ao nível dos antigos Deuses).
 
 ---
@@ -5155,7 +5155,7 @@ Estes doze Atributos representam marcas raras e profundas na estrutura da alma. 
 - **Alteração Ontológica (Corpo, Mente, Alma e Destino):** Uma cicatriz terrível e ambígua, adquirida por sobreviventes de abismos sem fundo, portais de Categoria 4/5 ou leitura de verdades proibidas ligadas ao Deus Esquecido e ao Vazio anterior ao Tempo. Seus olhos por vezes parecem vazios de reflexo, e a Corrupção sussurra perto de você com familiaridade assustadora — mas você sobreviveu a ela e transformou a cicatriz em resistência.
 - **Efeito Passivo:** Seu limite fatal de Corrupção ganha uma folga perigosa e poderosa: você ignora a penalidade social da **1ª Marca de Corrupção** e pode usar o próprio poder do abismo sem quebrar facilmente. Sempre que um efeito de **Corrupção, Vazio ou Anti-Essência** atingir você, recebe **+1 em `Mente (Vontade)`** para resistir a ganhar Marcas adicionais. Contudo, altares purificadores dos 6 Deuses reagem com hostilidade fria ao seu toque, exigindo um teste para aceitá-lo.
 - **Efeito Ativo em Combate e Exploração:**
-  - **Eco do Nada (1x por Cena — Ação Menor, 1 Essência):** Ao atacar uma criatura ou conjurar um poder, você rasga uma microfissura de vazio ao redor do alvo. Até o fim do turno, o alvo **perde qualquer imunidade ou redução de dano concedida por carapaças mágicas ou escudos de Essência**, e seu golpe causa **+1 de Dano de Alma** adicional. *(Atenção: se você rolar `1` natural no dado usando este poder, absorve o rebote e deve passar em `Mente [Vontade]` CD 9 para não ganhar 1 Marca de Corrupção!).*
+  - **Eco do Nada (1x por Cena — Ação Menor, 1 Essência):** Ao atacar uma criatura ou conjurar um poder, você rasga uma microfissura de vazio ao redor do alvo. Até o fim do turno, o alvo **perde qualquer imunidade ou redução de dano concedida por carapaças mágicas ou escudos de Essência**, e seu golpe causa **+1 de Dano de Alma** adicional. *(Atenção: se você rolar `1` natural no dado usando este poder, absorve o rebote e deve passar em `Mente [Vontade]` CD 7 para não ganhar 1 Marca de Corrupção!).*
 - **Evolução / Fusão:** Somente pode evoluir através de purificação épica (tornando-se **`[Cicatriz do Abismo Superado]`**, imune ao rebote) ou queda total na Profanação.
 
 ---
@@ -5507,7 +5507,7 @@ Nas Runas do Mar da Alma, uma Linhagem não aparece como um único título abstr
    - **Hereditariedade (Na Criação ou Início da Campanha):** Personagens com o Arquétipo *Herdeiro de Grande Clã* (ou descendentes secretos autorizados pelo Mestre) podem iniciar com o **1º Estágio** da linhagem correspondente à sua casa (*Valor = Guerra | Chama Imortal = Sol | Casa da Noite = Tempestade | Song = Feras*).
    - **Descoberta no Reino dos Sonhos (Para Qualquer Jogador):** Qualquer membro da Coorte pode conquistar uma Linhagem ao longo da campanha descobrindo e absorvendo uma **Gota de Icor Divino**, devorando uma **Relíquia Ancestral de Templo**, completando o **3º Passo do Legado de Aspecto**, ou encontrando uma **Parte Oculta do Tecelão**.
 2. **Exclusividade e Devoração de Linhagens:**
-   - Um mortal comum **só pode carregar 1 Linhagem Divina** por vez — tentar ingerir o Icor de um segundo Deus enquanto já possui o sangue de outro provoca rejeição violenta (`Corpo [Vigor]` CD 13 ou morte espiritual).
+   - Um mortal comum **só pode carregar 1 Linhagem Divina** por vez — tentar ingerir o Icor de um segundo Deus enquanto já possui o sangue de outro provoca rejeição violenta (`Corpo [Vigor]` CD 11 ou morte espiritual).
    - **A Exceção Canônica do Tecelão (*Weaver*):** A Linhagem Proibida do Tecelão é parasítica e soberana sobre as demais. Se um portador de **`[Teia de Sangue]`** ou **`[Teia de Alma]`** consumir uma Gota de Icor de qualquer um dos Seis Deuses (como uma Gota do Deus das Sombras), os fios dourados da Teia **devoram e assimilam o Icor divino**, destruindo o Atributo do Deus mas evoluindo instantaneamente a parte correspondente da Teia (o bônus exato está na Parte da Teia que você possui; para `[Teia de Sangue]`, **+1 PV máximo e +1 na Reserva de Essência** permanentes)!
 3. **Progressão por Estágios e Custo:**
    - Nas 6 Linhagens dos Deuses, os 4 Atributos desbloqueiam-se em sequência (**Estágio I** no Rank *Adormecido/Desperto*; **Estágio II** no Rank *Desperto/Ascendido*; **Estágio III** no Rank *Ascendido/Transcendente*; **Estágio IV** no Rank *Transcendente/Supremo* com `[Chama de Divindade]`) mediante conquista de relíquia, grande feito no altar do Deus ou **10 XP + Epifania** entre arcos.
@@ -5863,7 +5863,7 @@ Abaixo estão esmiuçados os **35 Encantamentos clássicos e lendários** encont
 #### 17. `[Verdade Enlouquecedora / Sussurro Profano (Maddening Truth)]`
 - **Tipo:** Passivo + Maldição Psíquica | **Tier Típico:** V+
 - **Funcionamento na Trama:** Tecida com memórias de horrores cósmicos ou fragmentos de Ariel, a arma murmura constantemente segredos cruéis na mente do portador e injeta fragmentos de loucura diretamente na alma de quem é cortado por ela.
-- **Regra Mecânica Completa:** Todo acerto com esta arma soma **+1 de Dano de Alma adicional** (além do Dano Físico!) e reduz a **CD mental** da vítima em `-1` para o próximo ataque psíquico da Coorte. **Preço da Maldição:** Sempre que você invocar a arma ou tirar `1` natural no dado, ela sussurra zombarias e verdades dolorosas — exigindo `Mente (Vontade)` CD 9 para não ficar *Amedrontado* ou sofrer 1 de Dano de Alma se a mantiver invocada fora de combate!
+- **Regra Mecânica Completa:** Todo acerto com esta arma soma **+1 de Dano de Alma adicional** (além do Dano Físico!) e reduz a **CD mental** da vítima em `-1` para o próximo ataque psíquico da Coorte. **Preço da Maldição:** Sempre que você invocar a arma ou tirar `1` natural no dado, ela sussurra zombarias e verdades dolorosas — exigindo `Mente (Vontade)` CD 7 para não ficar *Amedrontado* ou sofrer 1 de Dano de Alma se a mantiver invocada fora de combate!
 
 ---
 
@@ -6090,7 +6090,7 @@ Cada uma das **40 Memórias** abaixo é apresentada no formato exato visto quand
   > *"Ariel, o Demônio do Medo, chorou ao compreender a verdade intolerável enterrada sob o cosmos. Para não enlouquecer sozinho, esculpiu um consolo frio — uma lâmina que lembra a todos o quanto a verdade é cruel."*
 - **Encantamentos:**
   - **`[Fio de Jade Imaculado]` (Passivo):** Começa em estado **Polida** (`+2 Camadas Extras`), ignora **1 ponto de redução de dano** e recebe **+1 natural em duelos**.
-  - **`[Verdade Enlouquecedora]` (Passivo + Maldição):** Todo golpe certeiro com a *Pecado do Consolo* rasga não só a carne, mas a sanidade da vítima: causa **+1 de Dano de Alma adicional** e reduz a CD mental do alvo em `-1`. Em contrapartida, a espada **sussurra constantemente** na cabeça do portador (frequentemente manifestando uma alucinação da própria voz ou sombra do dono zombando de suas fraquezas!) — exigindo `Mente (Vontade)` CD 9 sempre que tirar `1` natural para não sofrer 1 de Dano de Alma!
+  - **`[Verdade Enlouquecedora]` (Passivo + Maldição):** Todo golpe certeiro com a *Pecado do Consolo* rasga não só a carne, mas a sanidade da vítima: causa **+1 de Dano de Alma adicional** e reduz a CD mental do alvo em `-1`. Em contrapartida, a espada **sussurra constantemente** na cabeça do portador (frequentemente manifestando uma alucinação da própria voz ou sombra do dono zombando de suas fraquezas!) — exigindo `Mente (Vontade)` CD 7 sempre que tirar `1` natural para não sofrer 1 de Dano de Alma!
   - **`[Morte Sem Ilusões]` (Ativo — `2 Essência`):** Corta instantaneamente qualquer ilusão, disfarce mágico ou controle mental tocado pela lâmina até a faixa *Perto*!
 
 #### 14. `[Espada dos Sete Nomes do Sol (Blade of the Seven Suns)]`
@@ -6335,7 +6335,7 @@ Cada uma das **40 Memórias** abaixo é apresentada no formato exato visto quand
 - **Encantamentos:**
   - **`[Armazenamento Dimensional]` (Passivo Espacial):** O interior do baú é muito maior do que seu exterior — comporta confortavelmente até **20 Itens Grandes** (ou 40 Médios: toneladas de suprimentos, água, armas mundanas, cristais de alma, moedas e equipamentos da Coorte inteira!) **e mantém tudo guardado em segurança dentro do Mar da Alma quando o baú é dispensado**, permitindo **transportar itens livres entre a Terra e o Reino dos Sonhos**!
   - **`[Passos Leais]` (Passivo de Mobilidade):** Quando invocado no chão, o baú brota pernas articuladas e acompanha o dono sozinho no mesmo ritmo dele, inclusive em terreno difícil, sem ocupar as mãos de ninguém.
-  - **`[Mordida Cobiçosa]` (Passivo de Segurança):** Se qualquer ladrão não autorizado tentar abrir o baú sem a permissão do dono, o cofre morde a mão do invasor (`2 de Dano` e prende com `Corpo [Força]` CD 11!).
+  - **`[Mordida Cobiçosa]` (Passivo de Segurança):** Se qualquer ladrão não autorizado tentar abrir o baú sem a permissão do dono, o cofre morde a mão do invasor (`2 de Dano` e prende com `Corpo [Força]` CD 9!).
 
 #### 39. `[Vela de Estase de Repose (Repose's Stasis Candle)]`
 - **Rank:** Suprema (*Supreme*) | **Tier:** IV | **Tipo:** Utilitário Raro (*Lanterna / Vela Perpétua*)
@@ -6480,7 +6480,7 @@ Estes Atributos aparecem listados nas Runas quando um Desperto inspeciona seus E
 
 Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas** (para portadores de *Escravo das Sombras* ou Relíquias de Legado) quanto como **Ecos / Ecos Reforjados** (para *Domadores de Almas*, *Tecelões* ou qualquer Desperto sortudo no `1d20`). Cada ficha detalha os ganhos exatos a cada evolução de **Classe (`1/7` a `7/7`)** e de **Rank (`Adormecido` a `Supremo`)**!
 
-> 📌 **Regra de leitura (Livro 1, Seção 7.5 G e Tabela 7-4):** as Estatísticas Base das fichas que aparecem na Tabela 7-4 usam exatamente os valores dela. Cada **Classe** acima ou abaixo da Base soma ou tira **`3 PV`** e traz a Habilidade indicada. Cada **Rank** acima ou abaixo da Base soma ou tira **`1` de CD** e **`1` de Dano Base** (mínimo `1`), mas **não altera o PV**, que vem só da Classe. Os bônus de Dano das Habilidades de Classe somam-se ao Dano Base do Rank.
+> 📌 **Regra de leitura (Livro 1, Seção 7.5 G e Tabela 7-4):** as Estatísticas Base das fichas que aparecem na Tabela 7-4 usam exatamente os valores dela. Cada **Classe** acima ou abaixo da Base soma ou tira **`3 PV`** e traz a Habilidade indicada. Cada **Rank** acima ou abaixo da Base soma ou tira **`2` de CD** se a criatura for uma **Sombra Evolutiva** (ou **`1` de CD** se for um **Eco reforjado** — valor entre parênteses nas trilhas) e **`1` de Dano Base** (mínimo `1`), mas **não altera o PV**, que vem só da Classe. Os bônus de Dano das Habilidades de Classe somam-se ao Dano Base do Rank.
 
 ---
 
@@ -6501,12 +6501,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Comandante das Estátuas):** `PV +3 (18)`, ganha **`[Estandarte de Ônix]`** — uma vez por combate, pode projetar uma aura de aço e silêncio que concede **+1 em Defesa e Imunidade a Medo** para todos os aliados da Coorte (ou até 3 lacaios de pedra) na faixa *Perto*!
   - **Terror `[6/7]` (Presença de Pavor Abissal):** `PV +3 (21)`, ganha **`[Olhar do Submundo]`** — sua simples presença suprime ataques mentais na faixa *Distante* e reduz a CD de inimigos Corrompidos diante dela em **-1**!
   - **Titã `[7/7]` (Encarnação da Criação Perfeita de Nether):** `PV +3 (24)`, ganha **`[Armadura Inquebrável de Nether]`** (imune a efeitos instantâneos e Dano reduzido em `2` pontos constantes) e pode manifestar um **Golpe Dimensional de Escuridão** de **4 de Dano** em linha até *Distante*!
-- **Trilha de Evolução de Rank (*Adormecida → Suprema*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
-  - *Adormecida:* `CD 9 | Dano 1`.
+- **Trilha de Evolução de Rank (*Adormecida → Suprema*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
+  - *Adormecida:* `CD 8 (Eco 9) | Dano 1`.
   - **Desperta (Base):** `CD 10 | Dano 2`.
-  - **Ascendida:** `CD 11 | Dano 3 (+1 com Escuridão)` — Arma conta como Rank Ascendido; ignora redução de dano de bestas menores.
-  - **Transcendente:** `CD 12 | Dano 4` — Adquire **Forma Colossal de Ônix (4 metros)**; pode voar/saltar por distâncias *Longe* e cortar Dano de Alma ou físicos igualmente.
-  - **Suprema:** `CD 13 | Dano 5` — Sua Escuridão Verdadeira projeta um mini-Domínio onde ataques comuns se desfazem em cinza!
+  - **Ascendida:** `CD 12 (Eco 11) | Dano 3 (+1 com Escuridão)` — Arma conta como Rank Ascendido; ignora redução de dano de bestas menores.
+  - **Transcendente:** `CD 14 (Eco 12) | Dano 4` — Adquire **Forma Colossal de Ônix (4 metros)**; pode voar/saltar por distâncias *Longe* e cortar Dano de Alma ou físicos igualmente.
+  - **Suprema:** `CD 16 (Eco 13) | Dano 5` — Sua Escuridão Verdadeira projeta um mini-Domínio onde ataques comuns se desfazem em cinza!
 
 ---
 
@@ -6527,12 +6527,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Passo `[5/7]` (Soberania da Tatuagem):** `PV +3 (19)`, ganha **`[Vínculo de Essência Profunda]`** — mesmo enquanto manifestada lutando fora do corpo, concede **+2 Pontos de Essência extras** ao mestre por cena e fortalece Ecos/Sombras vizinhos!
   - **Passo `[6/7]` (Sombra Devoradora de Vontades):** `PV +3 (22)`, ganha **`[Terror dos Mil Formatos]`** — seus golpes na forma de serpente colossal causam **Dano Físico e Dano de Alma simultaneamente**, e sua presença projeta `[Aura de Pavor]` até *Distante*!
   - **Passo `[7/7]` (Jormungandr do Mar da Alma):** `PV +3 (25)`, assume proporções colossais capazes de envolver navios e fortalezas inteiras, com **4 de Dano**, regeneração contínua nas sombras (`2 PV/turno`) e capacidade de estender o fluxo de Essência ilimitada ao mestre por 2 rodadas!
-- **Trilha de Evolução de Rank (*Adormecida → Suprema*):** *(+1 CD e +1 Dano por Rank; o PV vem do Passo do Legado)* *(o Dano abaixo é o da forma de serpente; na forma de arma, vale o da 1ª Relíquia no Capítulo 4 e na Tabela 9-2 do Livro 1: `1` até Desperta, `2` Ascendida, `3` Transcendente/Suprema)*
-  - *Adormecida:* `CD 9 | Dano 1` (Apenas forma de arma simples / serpente pequena).
+- **Trilha de Evolução de Rank (*Adormecida → Suprema*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem do Passo do Legado)* *(o Dano abaixo é o da forma de serpente; na forma de arma, vale o da 1ª Relíquia no Capítulo 4 e na Tabela 9-2 do Livro 1: `1` até Desperta, `2` Ascendida, `3` Transcendente/Suprema)*
+  - *Adormecida:* `CD 8 (Eco 9) | Dano 1` (Apenas forma de arma simples / serpente pequena).
   - **Desperta:** `CD 10 | Dano 2` (Regenera `+1 Essência` por cena).
-  - **Ascendida:** `CD 11 | Dano 3` (Ignora 1 ponto de armadura; pode usar *Passo das Sombras* independente até *Perto*).
-  - **Transcendente:** `CD 12 | Dano 4` (Cresce para 15 metros na forma bestial; pode assumir formas de Monstros/Demônios Corrompidos abatidos).
-  - **Suprema:** `CD 13 | Dano 5` (A arma cortante passa a rasgar o próprio espaço e conceitos mágicos!).
+  - **Ascendida:** `CD 12 (Eco 11) | Dano 3` (Ignora 1 ponto de armadura; pode usar *Passo das Sombras* independente até *Perto*).
+  - **Transcendente:** `CD 14 (Eco 12) | Dano 4` (Cresce para 15 metros na forma bestial; pode assumir formas de Monstros/Demônios Corrompidos abatidos).
+  - **Suprema:** `CD 16 (Eco 13) | Dano 5` (A arma cortante passa a rasgar o próprio espaço e conceitos mágicos!).
 
 ---
 
@@ -6553,12 +6553,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Rei da Cavalaria Fantasma):** `PV +3 (20)`, ganha **`[Tropa dos Sonhos Roubados]`** — consegue armazenar **centenas de pesadelos vencidos** (no RPG: manifesta até **3 cavaleiros ou cães ilusórios de sombra** de `PV 4 | Dano 1` para flanquear ao lado da Coorte durante 1 cena)!
   - **Terror `[6/7]` (Calamidade do Sono Eterno):** `PV +3 (23)`, ganha **`[Domínio da Insônia e Pavor]`** — projeta uma névoa de pesadelo em área *Distante* que adormece hordas menores instantaneamente e reduz em **-1 a CD de todos os inimigos**!
   - **Titã `[7/7]` (Corcel do Apocalipse):** `PV +3 (26)`, ganha asas flamejantes de sombra pura (**Voo Verdadeiro** em velocidade supersônica!), **4 de Dano** no coice/investida e pode arrastar um exército inteiro através do Reino dos Sonhos sem descanso!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
-  - *Adormecido:* `CD 9 | Dano 1`.
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
+  - *Adormecido:* `CD 8 (Eco 9) | Dano 1`.
   - **Desperto:** `CD 10 | Dano 2`.
-  - **Ascendido:** `CD 11 | Dano 3 (+1 em Investida)` — Pode viajar pelo Mar da Alma ou plano dos sonhos carregando o mestre em velocidade dupla.
-  - **Transcendente:** `CD 12 | Dano 4` — Galopa literalmente no ar (correndo sobre degraus invisíveis de sombra) e sua aura causa 1 de Dano de Alma em invasores mentais!
-  - **Supremo:** `CD 13 | Dano 5` — Pode invocar centenas de pesadelos acumulados como exército real para cercar cidadelas inteiras!
+  - **Ascendido:** `CD 12 (Eco 11) | Dano 3 (+1 em Investida)` — Pode viajar pelo Mar da Alma ou plano dos sonhos carregando o mestre em velocidade dupla.
+  - **Transcendente:** `CD 14 (Eco 12) | Dano 4` — Galopa literalmente no ar (correndo sobre degraus invisíveis de sombra) e sua aura causa 1 de Dano de Alma em invasores mentais!
+  - **Supremo:** `CD 16 (Eco 13) | Dano 5` — Pode invocar centenas de pesadelos acumulados como exército real para cercar cidadelas inteiras!
 
 ---
 
@@ -6579,12 +6579,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Colosso de Escória):** `PV +3 (18)`, cresce para **4 metros de altura**, ganha **`[Força Titânica]`** (**+2** em agarrar/arremessar monstros grandes) e seus passos causam tremores de área que desequilibram lacaios menores!
   - **Terror `[6/7]` (Avatar da Gula Metálica):** `PV +3 (21)`, ganha **`[Fome de Essência]`** — morder Memórias ou barreiras mágicas drena o encantamento delas, curando **2 PV** e fortalecendo a própria blindagem (`Redução de Dano 2`)!
   - **Titã `[7/7]` (Levantador de Montanhas de Aço Negro):** `PV +3 (24)`, torna-se um gigante blindado quase indestrutível (**4 de Dano** com as mãos nuas ou clavas devoradas!) capaz de devorar portões inteiros de Cidadelas e cuspir torrentes de magma solar até *Longe*!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
-  - *Adormecido:* `CD 8 | Dano 1`.
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
+  - *Adormecido:* `CD 7 (Eco 8) | Dano 1`.
   - **Desperto:** `CD 9 | Dano 2`.
-  - **Ascendido:** `CD 10 | Dano 3` — Armadura conta como Rank Ascendido (`[Carapaça de Aço Negro]` reduz `1` mesmo contra Demônios Caídos!).
-  - **Transcendente:** `CD 11 | Dano 4` — Cresce para 6 metros; imune a calor vulcânico, frio da Antártica e ataques não-encantados!
-  - **Supremo:** `CD 12 | Dano 5` — Sua fornalha interna queima como núcleo de estrela, derretendo armas comuns antes mesmo de tocarem sua pele!
+  - **Ascendido:** `CD 11 (Eco 10) | Dano 3` — Armadura conta como Rank Ascendido (`[Carapaça de Aço Negro]` reduz `1` mesmo contra Demônios Caídos!).
+  - **Transcendente:** `CD 13 (Eco 11) | Dano 4` — Cresce para 6 metros; imune a calor vulcânico, frio da Antártica e ataques não-encantados!
+  - **Supremo:** `CD 15 (Eco 12) | Dano 5` — Sua fornalha interna queima como núcleo de estrela, derretendo armas comuns antes mesmo de tocarem sua pele!
 
 ---
 
@@ -6605,12 +6605,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Rei do Recife Vermelho):** `PV +3 (17)`, ganha **`[Chamado da Maré]`** — invoca até 3 pequenos caranguejos de quitina descartáveis (`PV 3 | Dano 1`) e concede `+1` na Defesa de aliados adjacentes atrás de sua couraça!
   - **Terror `[6/7]` (Monólito da Costa Afogada):** `PV +3 (20)`, projeta uma aura de pressão oceânica opressora que deixa o solo alagado e enlameado sob os pés inimigos (`-1` na CD de inimigos terrestres!).
   - **Titã `[7/7]` (Leviatã Blindado do Recife):** `PV +3 (23)`, torna-se uma fortaleza ambulante de 12 metros com **Redução de Dano 2** permanente, `4 de Dano` nas pinças gigantes e capaz de servir de abrigo blindado para todos os 7 membros da Coorte contra tempestades!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
   - **Adormecido (Base):** `CD 8 | Dano 1`.
-  - **Desperto:** `CD 9 | Dano 2` (Carapaça suporta golpes de Rank Desperto sem rachar).
-  - **Ascendido:** `CD 10 | Dano 3` (Move-se no fundo de oceanos sem limite de pressão).
-  - **Transcendente:** `CD 11 | Dano 4` (Desenvolve pinças capazes de partir navios de guerra ao meio!).
-  - **Supremo:** `CD 12 | Dano 5` (Sua própria presença faz águas marinhas recuarem ou inundarem o campo!).
+  - **Desperto:** `CD 10 (Eco 9) | Dano 2` (Carapaça suporta golpes de Rank Desperto sem rachar).
+  - **Ascendido:** `CD 12 (Eco 10) | Dano 3` (Move-se no fundo de oceanos sem limite de pressão).
+  - **Transcendente:** `CD 14 (Eco 11) | Dano 4` (Desenvolve pinças capazes de partir navios de guerra ao meio!).
+  - **Supremo:** `CD 16 (Eco 12) | Dano 5` (Sua própria presença faz águas marinhas recuarem ou inundarem o campo!).
 
 ---
 
@@ -6631,12 +6631,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Matriarca de Seda Crânio):** `PV +3 (15)`, ganha **`[Ninho Portátil]`** — cria até **4 aranhas mecânicas de seda** (`PV 2 | Dano 1`) por cena para cercar inimigos e protege o grupo com casulos de aço!
   - **Terror `[6/7]` (Aranha do Véu Psíquico):** `PV +3 (18)`, suas teias tornam-se quase intangíveis e conectadas às emoções da presa — quem toca um fio sofre **1 de Dano de Alma** e fica *Amedrontado* enquanto a Aranha localiza todos na faixa *Longe*!
   - **Titã `[7/7]` (Tecelã Colossal do Abismo):** `PV +3 (21)`, cresce até **8 metros de envergadura**, estende cabos metálicos capazes de ancorar ilhas flutuantes ou derrubar dragões em voo (`4 de Dano`) e costura barreiras de ferro sólidas em 1 rodada!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
   - **Adormecida (Base):** `CD 8 | Dano 1`.
-  - **Desperta:** `CD 9 | Dano 2` (Teia exige `CD 10` para arrebentar; veneno mais letal).
-  - **Ascendida:** `CD 10 | Dano 3` (Seus fios cortam carne e quitina se o alvo tentar se mover à força!).
-  - **Transcendente:** `CD 11 | Dano 4` (A seda conduz perfeitamente fios de Tecelagem, dando **+2** para o dono consertar Memórias!).
-  - **Suprema:** `CD 12 | Dano 5` (Teias prendem até formas incorpóreas e fantasmas!).
+  - **Desperta:** `CD 10 (Eco 9) | Dano 2` (Teia exige `CD 10` para arrebentar; veneno mais letal).
+  - **Ascendida:** `CD 12 (Eco 10) | Dano 3` (Seus fios cortam carne e quitina se o alvo tentar se mover à força!).
+  - **Transcendente:** `CD 14 (Eco 11) | Dano 4` (A seda conduz perfeitamente fios de Tecelagem, dando **+2** para o dono consertar Memórias!).
+  - **Suprema:** `CD 16 (Eco 12) | Dano 5` (Teias prendem até formas incorpóreas e fantasmas!).
 
 ---
 
@@ -6657,12 +6657,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Senhor da Revoada):** `PV +3 (16)`, invoca até **4 pequenos falcões de cristal** (`PV 2 | Dano 1`) que interceptam flechas e projéteis dirigidos contra a Coorte!
   - **Terror `[6/7]` (Grifo de Espelho Estilhaçado):** `PV +3 (19)`, seu grito agudo refrata o ar criando **espelhos ilusórios no céu** (`+2` na Defesa de aliados voadores e 1 de Dano de Alma sônico em cone!).
   - **Titã `[7/7]` (Roca de Diamante Celestial):** `PV +3 (22)`, torna-se uma ave lendária com **envergadura de 20 metros**, capaz de carregar todos os 7 membros da Coorte pelos céus em velocidade extrema e pulverizar fortalezas com torrentes prismáticas (**4 de Dano**)!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
-  - *Adormecido:* `CD 8 | Dano 1`.
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
+  - *Adormecido:* `CD 7 (Eco 8) | Dano 1`.
   - **Desperto (Base):** `CD 9 | Dano 1`.
-  - **Ascendido:** `CD 10 | Dano 2` (Voo silencioso supersônico; ignora ventos fortes).
-  - **Transcendente:** `CD 11 | Dano 3` (Capaz de atravessar tempestades de neve/areia e suportar um cavaleiro nas costas!).
-  - **Supremo:** `CD 12 | Dano 4` (Suas asas cortam até barreiras mágicas de Domínio!).
+  - **Ascendido:** `CD 11 (Eco 10) | Dano 2` (Voo silencioso supersônico; ignora ventos fortes).
+  - **Transcendente:** `CD 13 (Eco 11) | Dano 3` (Capaz de atravessar tempestades de neve/areia e suportar um cavaleiro nas costas!).
+  - **Supremo:** `CD 15 (Eco 12) | Dano 4` (Suas asas cortam até barreiras mágicas de Domínio!).
 
 ---
 
@@ -6683,12 +6683,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Centurião do Ossuário):** `PV +3 (16)`, ganha **`[Chuva da Falange]`** — dispara 1 salva que atinge até **3 alvos simultâneos** ou ergue **3 lacaios esqueléticos** (`PV 3 | Dano 1`) para formar uma barricada de escudos na frente dos atiradores!
   - **Terror `[6/7]` (Caçador Sem Rosto):** `PV +3 (19)`, ganha `[Aura de Pavor]` e **`[Tiro que Encontra o Coração]`** (ignora cobertura parcial e vento; causa **+1 de Dano** contra alvos *Amedrontados*!).
   - **Titã `[7/7]` (Balista Viva Imperial):** `PV +3 (22)`, torna-se um colosso esquelético com um **Arco-Balista de 5 metros** que dispara lanças de osso perfurantes a quilômetros causando **4 de Dano** e atravessando múltiplos alvos em linha!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
-  - *Adormecido:* `CD 8 | Dano 1`.
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
+  - *Adormecido:* `CD 7 (Eco 8) | Dano 1`.
   - **Desperto (Base):** `CD 9 | Dano 1 (2 em CD+3)`.
-  - **Ascendido:** `CD 10 | Dano 2` (Pode usar Arcos de Memória de Rank Ascendido entregues pelo dono!).
-  - **Transcendente:** `CD 11 | Dano 3` (Ossos densos como aço branco; se destruído fora da alma, reconstrói-se ainda mais rápido!).
-  - **Supremo:** `CD 12 | Dano 4` (Cada flecha explode em rajadas de ossos afiados na área!).
+  - **Ascendido:** `CD 11 (Eco 10) | Dano 2` (Pode usar Arcos de Memória de Rank Ascendido entregues pelo dono!).
+  - **Transcendente:** `CD 13 (Eco 11) | Dano 3` (Ossos densos como aço branco; se destruído fora da alma, reconstrói-se ainda mais rápido!).
+  - **Supremo:** `CD 15 (Eco 12) | Dano 4` (Cada flecha explode em rajadas de ossos afiados na área!).
 
 ---
 
@@ -6710,12 +6710,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Alfa da Matilha Umbral):** `PV +3 (15)`, ganha `[Soberano Menor / Comando de Enxame]` e pode dividir a própria sombra em **2 Lobos Espelho Menores** (`PV 5 | Dano 1`) para cercar múltiplos alvos!
   - **Terror `[6/7]` (Devastador Noturno):** `PV +3 (18)`, ganha `[Aura de Pavor]` e **`[Rasgo na Essência]`** — suas mordidas rasgam o fluxo espiritual do alvo, queimando `1 Essência` (Dano de Alma) junto com o corte físico!
   - **Titã `[7/7]` (Fenrir do Fim dos Dias):** `PV +3 (21)`, cresce ao tamanho de uma colina lupina envolta em tempestades de sombra sólida (`4 de Dano`), capaz de engolir gigantes inteiros e cruzar distâncias *Longe* em um único salto dimensional!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
   - **Adormecido (Base):** `CD 8 | Dano 1`.
-  - **Desperto:** `CD 9 | Dano 2`.
-  - **Ascendido:** `CD 10 | Dano 3` (Velocidade extrema; pode servir de montaria ágil para 1 membro da Coorte!).
-  - **Transcendente:** `CD 11 | Dano 4` (Corre sobre o ar à noite e torna-se intangível por 1 segundo ao receber golpes!).
-  - **Supremo:** `CD 12 | Dano 5` (Sua presença transforma uma região inteira em território de caça noturna!).
+  - **Desperto:** `CD 10 (Eco 9) | Dano 2`.
+  - **Ascendido:** `CD 12 (Eco 10) | Dano 3` (Velocidade extrema; pode servir de montaria ágil para 1 membro da Coorte!).
+  - **Transcendente:** `CD 14 (Eco 11) | Dano 4` (Corre sobre o ar à noite e torna-se intangível por 1 segundo ao receber golpes!).
+  - **Supremo:** `CD 16 (Eco 12) | Dano 5` (Sua presença transforma uma região inteira em território de caça noturna!).
 
 ---
 
@@ -6736,12 +6736,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Guardiã da Catedral):** `PV +3 (18)`, ganha **`[Forma de Bastião]`** — quando pousa ao lado da Coorte e dobra as asas, forma um muro sólido de pedra que concede **Cobertura Total** e `Redução de Dano 2` aos aliados atrás dela!
   - **Terror `[6/7]` (Olhar da Montanha Oca):** `PV +3 (21)`, ganha `[Aura de Pavor]` e **`[Peso da Gravidade]`** — suas asas criam rajadas que derrubam criaturas voadoras do céu e impõem Desvantagem em quem tenta fugir!
   - **Titã `[7/7]` (Colosso Alado de Basalto):** `PV +3 (24)`, torna-se uma gárgula gigantesca de 10 metros capaz de erguer navios pequenos ou monstros grandes inteiros no ar e esmagá-los no solo (`4 de Dano`)!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
-  - *Adormecido:* `CD 9 | Dano 1`.
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
+  - *Adormecido:* `CD 8 (Eco 9) | Dano 1`.
   - **Desperto (Base):** `CD 10 | Dano 2`.
-  - **Ascendido:** `CD 11 | Dano 3` (Imune a ventos fortes e capaz de carregar 2 aliados em voo contínuo!).
-  - **Transcendente:** `CD 12 | Dano 4` (Sua pedra regenera automaticamente quando tocada por neblina ou sombra: `1 PV/turno`!).
-  - **Supremo:** `CD 13 | Dano 5` (Sua forma de estátua torna-se virtualmente indestrutível a qualquer arma abaixo de Suprema!).
+  - **Ascendido:** `CD 12 (Eco 11) | Dano 3` (Imune a ventos fortes e capaz de carregar 2 aliados em voo contínuo!).
+  - **Transcendente:** `CD 14 (Eco 12) | Dano 4` (Sua pedra regenera automaticamente quando tocada por neblina ou sombra: `1 PV/turno`!).
+  - **Supremo:** `CD 16 (Eco 13) | Dano 5` (Sua forma de estátua torna-se virtualmente indestrutível a qualquer arma abaixo de Suprema!).
 
 ---
 
@@ -6762,12 +6762,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Maestrina do Abismo):** `PV +3 (18)`, ganha **`[Coro dos Afogados]`** — sua canção afeta **até 5 inimigos ao mesmo tempo** na faixa *Distante*, e aliados da Coorte que ouvem sua música recebem **+1 em `Mente (Vontade)`** contra medo e controle inimigo!
   - **Terror `[6/7]` (Encarnação do Esquecimento):** `PV +3 (21)`, ganha `[Aura de Pavor]` e **`[Sussurro do Esquecimento]`** — sua voz entra diretamente nas mentes sem passar pelos ouvidos (afetando até surdos!), apagando memórias táticas de curto prazo dos monstros e causando **2 de Dano de Alma** em área!
   - **Titã `[7/7]` (Soberana do Mar Sem Estrelas):** `PV +3 (24)`, torna-se uma entidade colossal meio-leviatã de 15 metros cuja simples canção abissal abala navios de guerra, levanta maremotos (`4 de Dano` em área) e subjuga hordas inteiras sem precisar de combate físico!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
-  - *Adormecida:* `CD 9 | Dano 1`.
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
+  - *Adormecida:* `CD 8 (Eco 9) | Dano 1`.
   - **Desperta (Base):** `CD 10 | Dano 1 Físico / 1 Alma`.
-  - **Ascendida:** `CD 11 | Dano 2 de Alma` (Sua voz alcança até a faixa **Longe** e funciona mesmo fora d'água com perfeição!).
-  - **Transcendente:** `CD 12 | Dano 3 de Alma` (Pode voar/flutuar envolta em água levitante; imune a controle mental inimigo!).
-  - **Suprema:** `CD 13 | Dano 4 de Alma` (A canção torna-se uma lei conceitual local onde apenas quem ela permite consegue falar ou ouvir!).
+  - **Ascendida:** `CD 12 (Eco 11) | Dano 2 de Alma` (Sua voz alcança até a faixa **Longe** e funciona mesmo fora d'água com perfeição!).
+  - **Transcendente:** `CD 14 (Eco 12) | Dano 3 de Alma` (Pode voar/flutuar envolta em água levitante; imune a controle mental inimigo!).
+  - **Suprema:** `CD 16 (Eco 13) | Dano 4 de Alma` (A canção torna-se uma lei conceitual local onde apenas quem ela permite consegue falar ou ouvir!).
 
 ---
 
@@ -6777,7 +6777,7 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
 - **Descrição Poética das Runas:**
   > *"[Juramentos de ferro sobrevivem mesmo depois que a carne cai no pó. Ele ergue o escudo ao lado dos vivos e lembra a todos como um cavaleiro mantém a linha.]"*
 - **Estatísticas Base (`Demônio Ascendido [3/7]` — ou `Demônio Desperto [3/7]`):**
-  - **CD:** `11` *(Ascendido)* / `10` *(Desperto)* | **PV:** `15` | **Dano Base:** `3` *(Ascendido)* / `2` *(Desperto)* | **Reserva de Essência:** `1` *(Eco)* / `0` *(Sombra)*
+  - **CD:** `11` *(Ascendido)* / `9` *(Desperto, como Sombra)* ou `10` *(Desperto, como Eco)* | **PV:** `15` | **Dano Base:** `3` *(Ascendido)* / `2` *(Desperto)* | **Reserva de Essência:** `1` *(Eco)* / `0` *(Sombra)*
   - **Atributos Inatos:** `[Mestre de Armas]`, `[Sangue de Valor]`, `[Carapaça de Aço Negro / Armadura Prateada]`, `[Guardião Leal]`.
   - **Habilidades Ativas:** **Formação de Escudo** (*Luta ombro a ombro com o Baluarte ou Executor da Coorte: ambos ganham `+1 na Defesa` e o Cavaleiro absorve o primeiro golpe contra o dono!*); **Estocada Disciplinada** (*Pode usar as manobras `Derrubar` e `Desarmar` em comando independente com `+1`!*).
 - **Trilha de Evolução de Classe (*Besta `1/7` → Titã `7/7`*):**
@@ -6788,12 +6788,12 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
   - **Tirano `[5/7]` (Comandante de Estandarte):** `PV +3 (21)`, ganha **`[Ordem de Batalha]`** — uma vez por combate, ergue a espada ordenando avanço: **todos os 7 membros da Coorte e outros Ecos na faixa *Perto* ganham `+1` na próxima rolagem de Ataque**!
   - **Terror `[6/7]` (Sombra do Rei das Espadas):** `PV +3 (24)`, ganha **`[Aura Cortante]`** — qualquer inimigo que entrar em *Corpo a Corpo* com ele sofre `1 de Dano` imediato de lâminas invisíveis de pressão ao redor da armadura!
   - **Titã `[7/7]` (Avatar Colossal de Aço e Sangue):** `PV +3 (27)`, cresce para um gigante blindado de 6 metros com **6 braços ou arsenal flutuante de 4 espadas** atacando múltiplos alvos por turno (**4 de Dano**) e blindagem quase impenetrável (`Redução de Dano 2`)!
-- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(+1 CD e +1 Dano por Rank; o PV vem da Classe)*
-  - *Adormecido:* `CD 9 | Dano 1`.
-  - *Desperto:* `CD 10 | Dano 2`.
+- **Trilha de Evolução de Rank (*Adormecido → Supremo*):** *(**Sombra:** `+2 CD` por Rank; **Eco reforjado:** `+1 CD` por Rank — valor entre parênteses; ambos `+1 Dano` por Rank; o PV vem da Classe)*
+  - *Adormecido:* `CD 7 (Eco 9) | Dano 1`.
+  - *Desperto:* `CD 9 (Eco 10) | Dano 2`.
   - **Ascendido (Base Elite):** `CD 11 | Dano 3` (Capaz de duelar em igualdade contra Despertos humanos de Rank Ascendido!).
-  - **Transcendente:** `CD 12 | Dano 4` (Move-se na velocidade de um Transcendente humano e corta rochas ao meio com um único golpe).
-  - **Supremo:** `CD 13 | Dano 5` (Sua lâmina carrega autoridade marcial capaz de desarmar hordas inteiras!).
+  - **Transcendente:** `CD 13 (Eco 12) | Dano 4` (Move-se na velocidade de um Transcendente humano e corta rochas ao meio com um único golpe).
+  - **Supremo:** `CD 15 (Eco 13) | Dano 5` (Sua lâmina carrega autoridade marcial capaz de desarmar hordas inteiras!).
 
 ---
 
@@ -6801,8 +6801,8 @@ Todas as **12 fichas abaixo** podem ser usadas tanto como **Sombras Evolutivas**
 
 | Tipo de Progressão | Como Funciona para **Sombras Evolutivas** | Como Funciona via **Reforja de Eco (*Domador/Tecelão*)** | Ganhos Imediatos na Ficha |
 | :--- | :--- | :--- | :--- |
-| **Subir 1 Classe**<br>*(Besta `[1/7]` → Titã `[7/7]`)* | Alimente a Sombra com **10 Pontos de Evolução** (desfazendo Memórias = `Tier em Pontos`, ou abates iguais/superiores = `+1 Ponto`). | Gaste **10 Fragmentos de Alma** do Rank atual + **1 Núcleo de Monstro da Classe Alvo** + Teste de `Alma (Canalizar)` **CD 11** (Relógio 4, num Descanso Longo — *Livro 1, Seção 7.5 G*). | **+3 a +8 PV máximos** (conforme a tabela de cada ficha) + **Nova Habilidade / Atributo de Classe** desbloqueado! |
-| **Subir 1 Rank**<br>*(Adormecido → Supremo)* | Alimente com **15 Pontos de Evolução** + **1 Núcleo de Chefe de Rank Superior** (ou acompanhe a Ascensão de Rank em Relíquias de Legado!). | Gaste **15 Fragmentos de Alma do Rank Superior** + **Carapaça/Material de Rank Superior** + Relógio de 4 Segmentos (**CD 11**). | **+1 a +2 na CD** + **+4 a +10 PV máximos** + **+1 de Dano Base** + Escala sobrenatural do novo Rank! |
+| **Subir 1 Classe**<br>*(Besta `[1/7]` → Titã `[7/7]`)* | Alimente a Sombra com **10 Pontos de Evolução** (desfazendo Memórias = `Tier em Pontos`, ou abates iguais/superiores = `+1 Ponto`). | Gaste **10 Fragmentos de Alma** do Rank atual + **1 Núcleo de Monstro da Classe Alvo** + Teste de `Alma (Canalizar)` **CD 9** (Relógio 4, num Descanso Longo — *Livro 1, Seção 7.5 G*). | **+3 a +8 PV máximos** (conforme a tabela de cada ficha) + **Nova Habilidade / Atributo de Classe** desbloqueado! |
+| **Subir 1 Rank**<br>*(Adormecido → Supremo)* | Alimente com **15 Pontos de Evolução** + **1 Núcleo de Chefe de Rank Superior** (ou acompanhe a Ascensão de Rank em Relíquias de Legado!). | Gaste **15 Fragmentos de Alma do Rank Superior** + **Carapaça/Material de Rank Superior** + Relógio de 4 Segmentos (**CD 9**). | **+2 na CD** (Sombra) / **+1 na CD** (Eco reforjado) + **+4 a +10 PV máximos** + **+1 de Dano Base** + Escala sobrenatural do novo Rank! |
 
 > **Dica de Ouro para o Mestre e para os Jogadores:**
 > Nunca deixe um Eco ou Sombra ofuscar os outros 6 jogadores da Coorte! Em uma mesa com 7 participantes, a melhor forma de usar estas criaturas incríveis é em **sinergia tática**: o *Saqueador* protege o *Oráculo*, o *Falcão* dá `+1` para o *Olho de Falcão*, a *Serpente* fortalece a lâmina do *Executor*, e *Santo* segura o flanco aberto ao lado do *Baluarte*!

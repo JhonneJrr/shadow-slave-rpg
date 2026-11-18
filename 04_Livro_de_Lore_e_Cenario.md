@@ -90,7 +90,7 @@ No último segundo antes de a jaula cósmica se fechar por completo, o Deus dos 
 Preso para sempre no Vazio ao lado dos horrores primordiais, o Deus Esquecido não morreu — pois Deuses não morrem facilmente —, mas afundou em um **sono atormentado**. Enquanto ele dorme no abismo, sua mente divina continua sonhando, e seus sonhos colidem diretamente com a essência caótica dos Seres do Vazio.
 
 Dessa colisão nasceu a **Corrupção (*Defilement*)**: uma praga espiritual e conceitual que transforma leis ordenadas em abominações famintas. Quando uma criatura, um humano ou até um pedaço de terra entra em contato com o conhecimento proibido sobre o Vazio, com o sangue negro de uma criatura corrompida ou com as fendas do selo enfraquecido, a Corrupção planta uma **Semente de Profanação** em sua alma.
-- **No RPG (Conexão Mecânica):** Sempre que os jogadores encontrarem escritas não seladas sobre o Vazio, tocarem o sangue de criaturas *Corrompidas/Profanas* ou pisarem em fendas do abismo sem proteção, devem resistir com **`Mente (Vontade)`** (CD 9 a CD 13) para não acumular **Marcas de Corrupção** (escala de `0` a `5`, detalhada no *Livro 1, Seção 12.2*). Quando um humano ou criatura atinge **5 Marcas**, a Semente floresce e transforma o ser em uma **Criatura do Pesadelo** enlouquecida pela fome!
+- **No RPG (Conexão Mecânica):** Sempre que os jogadores encontrarem escritas não seladas sobre o Vazio, tocarem o sangue de criaturas *Corrompidas/Profanas* ou pisarem em fendas do abismo sem proteção, devem resistir com **`Mente (Vontade)`** (CD 7 a CD 11) para não acumular **Marcas de Corrupção** (escala de `0` a `5`, detalhada no *Livro 1, Seção 12.2*). Quando um humano ou criatura atinge **5 Marcas**, a Semente floresce e transforma o ser em uma **Criatura do Pesadelo** enlouquecida pela fome!
 
 ---
 
@@ -365,7 +365,7 @@ Nem todo Desperto aceita usar o uniforme gasto do Governo Unido ou dobrar o joel
 | `1d6` | Trama Ativa de Célula Cultista na Campanha |
 | :---: | :--- |
 | **1** | **Sabotagem de Sensores:** Desligam detectores de Pulso Espiritual na Periferia para deixar um Portal Cat. 2 estourar de surpresa! |
-| **2** | **Contaminação de Ração:** Misturam sangue corrompido seco na carne servida em tavernas de uma Cidadela periférica (`Vontade` CD 10). |
+| **2** | **Contaminação de Ração:** Misturam sangue corrompido seco na carne servida em tavernas de uma Cidadela periférica (`Vontade` CD 8). |
 | **3** | **Sequestro de Cápsulas:** Substituem o soro de manutenção de cápsulas particulares por toxinas que abrem a mente do adormecido ao Vazio. |
 | **4** | **Leilão Maldito:** Infiltram uma relíquia amaldiçoada de Ariel em um leilão de Bastion para contaminar nobres de Valor! |
 | **5** | **Incubação Subterrânea:** Alimentam uma Semente de Corrupção viva nos dutos antigos abaixo de um forte ou distrito industrial. |
@@ -416,7 +416,7 @@ Todo templo divino e oficina daemônica reconhece o grau de afinidade da alma do
 
 | Estágio do Atributo do Jogador | Reação dos Santuários dos **6 Deuses** | Reação das Oficinas dos **7 Daemons** |
 | :--- | :--- | :--- |
-| **Sem Atributo de Divindade** | O altar permanece frio, selado ou inerte. Tentar forçar runas ou roubar relíquias centrais dispara armadilhas com **Desvantagem** na Defesa. | Mecanismos ocultos ignoram o viajante — ou disparam defesas mortais contra "intrusos profanos". Selos fechados exigem **CD 13+** para serem quebrados à força. |
+| **Sem Atributo de Divindade** | O altar permanece frio, selado ou inerte. Tentar forçar runas ou roubar relíquias centrais dispara armadilhas com **Desvantagem** na Defesa. | Mecanismos ocultos ignoram o viajante — ou disparam defesas mortais contra "intrusos profanos". Selos fechados exigem **CD 11+** para serem quebrados à força. |
 | **`[Brasa de Divindade]`** *(Ember)* | **Despertar Sutil:** Inscrições acendem fracamente quando o personagem se aproxima; o altar aceita sacrifícios simples (1 Essência ou 1 Fragmento) para conceder **bênçãos menores** (cura, abrigo ou restauração de Essência) e **+1** para desarmar armadilhas daquele templo. | **Reconhecimento de Faísca:** Os Daemons nasceram do 7º Deus e também carregam centelhas divinas. Portas secretas reconhecem o sangue desperto, oferecendo acesso aos salões externos com **+1** em testes de decifração rúnica. |
 | **`[Marca de Divindade]`** *(Mark)* | **Autoridade Reconhecida:** Autômatos guardiões de Rank igual ou inferior hesitam por 1 rodada antes de atacar (ou exigem apenas um juramento/teste de `Coração`). Altares revelam compartimentos ocultos de **Memórias Tier III–IV** e purificam até **2 Marcas de Corrupção**! | **Ressonância de Sangue Proibido:** Mecanismos de Nether, Weaver ou Hope abrem câmaras de teste e oficinas internas; o personagem lê glifos rúnicos com **Vantagem** e evita metade do rebote mental de segredos antigos. |
 | **`[Chama de Divindade]`** *(Flame)* | **Herdeiro do Panteão:** Guardiões menores ajoelham-se ou deixam o grupo passar sem combate (exceto se atacados!). O altar pode forjar/subir o Tier de Memórias, entregar **Gotas de Icor Divino** e limpar **Corrupção profunda (até 4 Marcas)** em um único ritual! | **Chave Suprema do Labirinto:** O portador pode reprogramar círculos de estase, reivindicar núcleos de Cidadelas ocultas dos Daemons e empunhar **Relíquias Divinas/Sagradas** sem sofrer rejeição espiritual! |
@@ -432,7 +432,7 @@ Todo templo divino e oficina daemônica reconhece o grau de afinidade da alma do
 - **Como Reconhecer um Templo:** Fortalezas monumentais de **ferro negro, basalto e pedra vermelha oxidada**, sem adornos inúteis — apenas proporções geométricas implacáveis. Possuem grandes arenas circulares, canais internos onde lava ou metal fundido corria antigamente, pilares entalhados com tratados de tática militar em runas angulares e um cheiro perpétuo de ozônio, óleo de têmpera e cinzas de fornalha.
 - **Guardiões e Armadilhas Típicas:**
   - *Guardiões:* Autômatos de bronze articulado, golems de escória incandescente e espíritos de centuriões presos em armaduras vazias *(CD 9–12)*.
-  - *Armadilhas:* Pisos basculantes que lançam o grupo em fossos de espetos giratórios (`Corpo [Agilidade]` CD 10), e jatos pressurizados de vapor escaldante ou metal líquido acionados por placas de peso (`Mente [Astúcia]` CD 9).
+  - *Armadilhas:* Pisos basculantes que lançam o grupo em fossos de espetos giratórios (`Corpo [Agilidade]` CD 8), e jatos pressurizados de vapor escaldante ou metal líquido acionados por placas de peso (`Mente [Astúcia]` CD 7).
 - **O Altar e Interação com Divindade:** O altar é uma **Bigorna Colossal de Aço Estelar** no centro de um anfiteatro.
   - *Sem Divindade:* A bigorna pesa toneladas e não reage a golpes comuns.
   - *Com `[Brasa]` / `[Marca]`:* Ao derramar uma gota de sangue ou 1 Essência sobre o ferro e apoiar uma arma de Memória, a bigorna acende em brasa branca: **restaura toda a Integridade de todas as Memórias da Coorte** e concede **+1 de Dano** na próxima batalha!
@@ -444,9 +444,9 @@ Todo templo divino e oficina daemônica reconhece o grau de afinidade da alma do
 - **Como Reconhecer um Templo:** Catedrais altíssimas de **mármore branco e ouro polido** com tetos propositalmente abertos para o céu (ou cúpulas translúcidas de quartzo solar). Mesmo sob tempestades ou cinzas, piras gigantescas no centro dos pátios continuam queimando com fogo branco silencioso que arde até debaixo d'água. O ar é seco, quente e reverbera com um zumbido harmônico grave.
 - **Guardiões e Armadilhas Típicas:**
   - *Guardiões:* Serafins de pedra solar com múltiplas asas cortantes, elementais de plasma branco e cavaleiros mumificados em armaduras derretidas *(CD 10–13)*.
-  - *Armadilhas:* Lentes de cristal no teto que concentram luz solar em feixes desintegradores (`Corpo [Agilidade]` CD 11, 2 de Dano e *Queimando*), e portões selados por barreiras de fogo branco que exigem resistência térmica (`Corpo [Vigor]` CD 10).
+  - *Armadilhas:* Lentes de cristal no teto que concentram luz solar em feixes desintegradores (`Corpo [Agilidade]` CD 9, 2 de Dano e *Queimando*), e portões selados por barreiras de fogo branco que exigem resistência térmica (`Corpo [Vigor]` CD 8).
 - **O Altar e Interação com Divindade:** Uma **Pira de Ouro Branco** onde arde uma chama imóvel sem combustível.
-  - *Sem Divindade:* Aproximar-se a menos de 2 metros causa calor sufocante (`Corpo [Vigor]` CD 9 para não sofrer 1 Dano).
+  - *Sem Divindade:* Aproximar-se a menos de 2 metros causa calor sufocante (`Corpo [Vigor]` CD 7 para não sofrer 1 Dano).
   - *Com `[Brasa]` / `[Marca]`:* O fogo acaricia o portador sem queimá-lo! Ao meditar diante da pira por 10 minutos, o portador cura **todos os estados negativos físicos** da Coorte e remove **1 Marca de Corrupção**!
   - *Com `[Chama]`:* A chama pode ser colhida dentro de um frasco ou lanterna (criando uma carga de **Fogo Purificador** capaz de purificar até **4 Marcas de Corrupção** ou causar **3 de Dano Divino** a uma Abominação Corrompida!).
 - **Relíquias & Bênçãos:** Lanças solares de luz sólida, escudos espelhados que refletem raios elementais, coroas de ouro imperecível e fragmentos de chama imortal.
@@ -456,7 +456,7 @@ Todo templo divino e oficina daemônica reconhece o grau de afinidade da alma do
 - **Como Reconhecer um Templo:** **Faróis ciclópicos** cravados em rochedos batidos por ondas negras, observatórios astrais com cúpulas de cobre esverdeado e mapas estelares embutidos em prata no chão, ou catedrais submersas erguidas com ossos curvos de leviatãs primordiais. O chão sempre está úmido de maresia, ecoando trovões distantes mesmo em dias sem nuvens.
 - **Guardiões e Armadilhas Típicas:**
   - *Guardiões:* Espectros de capitães afogados, serpentes elétricas feitas de nuvem condensada e autômatos de coral negro armados com tridentes *(CD 9–12)*.
-  - *Armadilhas:* Câmaras que inundam em segundos com pressão abissal (`Corpo [Vigor]` ou `Agilidade` CD 10), e para-raios rúnicos que descarregam arcos voltaicos quando alguém pisa nos glifos errados (`CD 10`, *Atordoado*).
+  - *Armadilhas:* Câmaras que inundam em segundos com pressão abissal (`Corpo [Vigor]` ou `Agilidade` CD 8), e para-raios rúnicos que descarregam arcos voltaicos quando alguém pisa nos glifos errados (`CD 8`, *Atordoado*).
 - **O Altar e Interação com Divindade:** Um **Astrolábio Monumental** suspenso sobre uma bacia de água salgada negra e perfeitamente imóvel.
   - *Com `[Brasa]` / `[Marca]`:* Tocar a água mostra na superfície o mapa estrelado exato da região atual — revelando a direção de **Sementes do Pesadelo ou Cidadelas** num raio de dezenas de quilômetros (`+2` em testes de navegação durante 7 dias!).
   - *Com `[Chama]`:* O astrolábio pode alinhar as estrelas locais para acalmar tempestades anômalas por 24 horas ou abrir uma corrente marítima segura através de águas amaldiçoadas!
@@ -467,7 +467,7 @@ Todo templo divino e oficina daemônica reconhece o grau de afinidade da alma do
 - **Como Reconhecer um Templo:** Santuários orgânicos que se confundem com a natureza brutal — templos esculpidos **dentro do crânio fossilizado de bestas do tamanho de montanhas**, clareiras circulares iluminadas por um luar prateado perpétuo mesmo sob copas fechadas, e menires de osso polido cobertos por trepadeiras carmesins e marcas antigas de garras.
 - **Guardiões e Armadilhas Típicas:**
   - *Guardiões:* Quimeras mutantes, lobos de prata espectrais, enxames de insetos carnívoros gigantes e plantas predadoras que imitam estátuas *(CD 9–12)*.
-  - *Armadilhas:* Esporos alucinógenos ou paralisantes liberados por flores belíssimas (`Corpo [Vigor]` CD 10), e poços camuflados por raízes vivas que tentam arrastar os mais fracos da fila (`Corpo [Força]` CD 9).
+  - *Armadilhas:* Esporos alucinógenos ou paralisantes liberados por flores belíssimas (`Corpo [Vigor]` CD 8), e poços camuflados por raízes vivas que tentam arrastar os mais fracos da fila (`Corpo [Força]` CD 7).
 - **O Altar e Interação com Divindade:** Uma **Pedra de Sacrifício Branca sob um Feixe de Luar Eterno**, cercada por raízes pulsantes.
   - *Com `[Brasa]` / `[Marca]`:* Oferecer a carne ou o coração fresco de uma Criatura do Pesadelo derrotada faz a pedra absorver o tributo e brotar **Frutos Lunares** (cada membro da Coorte que comer recupera todos os PV e remove **1 Ferimento Grave**!).
   - *Com `[Chama]`:* O altar desperta a fúria do sangue primordial — concedendo **+1 PV máximo permanente** (1x por personagem na vida) ou permitindo evoluir 1 estágio da *Linhagem das Feras*!
@@ -478,7 +478,7 @@ Todo templo divino e oficina daemônica reconhece o grau de afinidade da alma do
 - **Como Reconhecer um Templo:** Bosques silenciosos e sobrenaturalmente pacíficos onde crescem **Árvores Sagradas de casca branca como osso e folhas de vermelho intenso**, cujas raízes brilham fracamente sob a terra. Ao encostar o ouvido no tronco, escutam-se ecos distantes de risos, juramentos e canções de civilizações mortas há dez mil anos.
 - **Guardiões e Armadilhas Típicas:**
   - *Guardiões:* Espectros formados a partir das **memórias e culpas dos próprios personagens**, parasitas psíquicos invisíveis e raízes estranguladoras devoradoras de almas *(CD 10–13)*.
-  - *Armadilhas:* Zonas de estase emocional onde viajantes sentem uma tristeza ou nostalgia tão avassaladora que se sentam e esquecem de comer ou lutar (`Mente [Vontade]` CD 10, *Atordoado*).
+  - *Armadilhas:* Zonas de estase emocional onde viajantes sentem uma tristeza ou nostalgia tão avassaladora que se sentam e esquecem de comer ou lutar (`Mente [Vontade]` CD 8, *Atordoado*).
 - **O Altar e Interação com Divindade:** O **Cerne Oco da Árvore Mãe**, onde flutua uma gota cristalizada de seiva dourada.
   - *Com `[Brasa]` / `[Marca]`:* Tocar o tronco permite restaurar **toda a Essência de Alma** da Coorte e curar **Dano de Alma** sofrido em combates espirituais! Também pode responder a **1 pergunta histórica** sobre quem morreu naquela região.
   - *Com `[Chama]`:* Permite estabilizar o Núcleo de Alma de um aliado à beira da morte espiritual ou despertar uma lembrança perdida de um Nome Verdadeiro ancestral!
@@ -490,7 +490,7 @@ Todo templo divino e oficina daemônica reconhece o grau de afinidade da alma do
   - **Lei Sagrada dos Templos das Sombras:** Criaturas fortemente **Corrompidas** ou portadores com **4+ Marcas de Corrupção** sentem as próprias sombras do chão erguerem-se como espinhos para expulsá-los ou devorá-los (`1 a 2 de Dano de Alma por rodada` dentro de templos ainda consagrados)!
 - **Guardiões e Armadilhas Típicas:**
   - *Guardiões:* Sombras silenciosas de antigos sacerdotes que emergem das paredes se o templo for profanado, e sentinelas de ônix que se movem apenas quando ninguém está olhando diretamente para elas *(CD 10–13)*.
-  - *Armadilhas:* Testes de silêncio e respeito — gritar, derramar sangue por ganância ou carregar fogo artificial agressivo diante do santuário desperta ondas de pressão sombria (`Mente [Vontade]` CD 10).
+  - *Armadilhas:* Testes de silêncio e respeito — gritar, derramar sangue por ganância ou carregar fogo artificial agressivo diante do santuário desperta ondas de pressão sombria (`Mente [Vontade]` CD 8).
 - **O Altar e Interação com Divindade:** Uma **Mesa Rasa de Ônix Negro**, polida como um espelho escuro onde não há reflexo.
   - *Sem Divindade:* Oferece apenas abrigo seguro contra monstros externos durante um Descanso Longo (desde que o grupo mantenha respeito e não profane o local).
   - *Com `[Brasa]` / `[Marca]`:* O portador (e especialmente portadores de Aspectos ou Linhagem das Sombras!) recebe a **Bênção do Silêncio**: durante 24 horas, toda a Coorte ganha **+1 em Furtividade** e resistência contra ataques de medo e dor!
@@ -513,20 +513,20 @@ Os locais construídos pelos Daemons não são "igrejas" comuns: são **oficinas
 ### 2. ⛰️ Nether — *O Demônio da Escolha (Demon of Choice — Prince of the Underworld)*
 - **Filosofia & Defeito que Representa:** A recusa teimosa de aceitar que o destino esteja escrito na pedra. Príncipe solitário das profundezas, Nether passou séculos tentando forjar seres artificiais dotados de alma verdadeira e livre-arbítrio — e mais tarde liderou legiões de pedra contra o exército divino.
 - **Como Reconhecer uma Fortaleza:** Forjas monumentais subterrâneas, torres de **ébano e obsidiana talhada à perfeição**, e salões silenciosos alinhados com **centenas ou milhares de estátuas de pedra negra e mármore** — protótipos descartados de guerreiros, servas e cavaleiros cujo olhar vazio parece seguir os visitantes.
-- **Guardiões & Armadilhas:** Estátuas sentinelas que despertam em silêncio absoluto quando alguém toca ferramentas da forja (`CD 10–12`), rios de **Escuridão Elemental Verdadeira** que engolem luz e som, e portas com enigmas baseados em **escolhas morais** (forçar a tranca ativa gás petrificante, `Corpo [Vigor]` CD 11).
+- **Guardiões & Armadilhas:** Estátuas sentinelas que despertam em silêncio absoluto quando alguém toca ferramentas da forja (`CD 10–12`), rios de **Escuridão Elemental Verdadeira** que engolem luz e som, e portas com enigmas baseados em **escolhas morais** (forçar a tranca ativa gás petrificante, `Corpo [Vigor]` CD 9).
 - **Altar & Interação com `[Divindade]`:** Uma **Mesa de Escultor com Núcleos de Rubi Inacabados**. Com `[Brasa]+`, o personagem pode acender as forjas frias para reparar armaduras em segundos; com `[Marca]` ou `[Chama]`, pode despertar **1 Estátua Dormente** como aliado temporário ou até como **Eco Evolutivo** raro!
 - **Relíquias & Artefatos:** Armaduras de ônix vivo (*Mortalha do Crepúsculo*), núcleos de rubi artificial, mantos resistentes a magia rúnica e martelos que esculpem ossos de Titã.
 
 ### 3. 👁️ Ariel — *O Demônio do Medo (Demon of Dread)*
 - **Filosofia & Defeito que Representa:** O horror lúcido de saber a verdade terrível do Vazio e não conseguir carregá-la sem enlouquecer. Ariel acreditava que certas verdades são armas piores que qualquer espada — e dedicou milênios a **enterrá-las** em monumentos impossíveis para que ninguém as sussurrasse.
 - **Como Reconhecer uma Fortaleza:** Tumbas piramidais titânicas, **obeliscos negros lisos como vidro** onde correm sussurros inaudíveis que arrepiam a espinha, e corredores escuros onde estátuas com os ouvidos tapados ou olhos arrancados apontam para longe do centro.
-- **Guardiões & Armadilhas:** **A Verdade como Arma!** Ler qualquer inscrição antiga de Ariel sem proteção exige imediatamente **`Mente (Vontade)` CD 11** — em caso de falha, o personagem ganha **1 Marca de Corrupção** e fica *Amedrontado*! Guardiões incluem manifestações dos próprios medos do grupo e espectros silenciosos.
+- **Guardiões & Armadilhas:** **A Verdade como Arma!** Ler qualquer inscrição antiga de Ariel sem proteção exige imediatamente **`Mente (Vontade)` CD 9** — em caso de falha, o personagem ganha **1 Marca de Corrupção** e fica *Amedrontado*! Guardiões incluem manifestações dos próprios medos do grupo e espectros silenciosos.
 - **Altar & Interação com `[Divindade]`:** Um **Sarcófago de Jade Negra Selado por Correntes Rúnicas**. Portadores de `[Brasa]` sentem apenas um zumbido doloroso nos ossos; portadores de `[Marca]` ou `[Chama]` conseguem ler os selos externos com segurança para **extrair verdades históricas valiosas (ganhando XP ou Nomes Primordiais!)** sem abrir o mal absoluto selado lá dentro.
 - **Relíquias & Artefatos:** Espadas de jade que sussurram segredos mortais (*Pecado do Consolo*), sinos de bronze cujo toque paralisa feras pelo pavor e talismãs de silenciamento contra Corrupção.
 
 ### 4. ⛓️ Hope — *O Demônio da Esperança (Demon of Desire)*
 - **Filosofia & Defeito que Representa:** O brilho perigoso da ambição, do anseio e da recusa em aceitar correntes. Hope simbolizava o desejo que move os mortais a superarem seus criadores — motivo pelo qual o Deus do Sol a acorrentou dentro da Torre de Marfim por séculos.
-- **Como Reconhecer uma Fortaleza:** Torres alvas de **marfim esculpido**, salões dourados de beleza estonteante e cúpulas marcadas por **cicatrizes de queimadura celestial e elos de correntes divinas partidas**. Quem entra sente uma súbita onda de euforia, coragem imprudente ou ambição febril (`Mente [Vontade]` CD 9 para não subestimar o perigo!).
+- **Como Reconhecer uma Fortaleza:** Torres alvas de **marfim esculpido**, salões dourados de beleza estonteante e cúpulas marcadas por **cicatrizes de queimadura celestial e elos de correntes divinas partidas**. Quem entra sente uma súbita onda de euforia, coragem imprudente ou ambição febril (`Mente [Vontade]` CD 7 para não subestimar o perigo!).
 - **Guardiões & Armadilhas:** Sentinelas angelicais corrompidas pelo fogo, armadilhas de ilusão que prometem o maior desejo de cada membro da Coorte para separá-los em corredores distintos, e runas gravitacionais que esmagam quem hesita.
 - **Altar & Interação com `[Divindade]`:** Um **Pedestal de Marfim Rachado Envolto em Elos Dourados**. Se a Coorte tiver um objetivo compartilhado claro e o portador possuir `[Brasa]+`, o altar concede a **Chama da Esperança Compartilhada**: todos os **7 jogadores recebem +1 em Testes de Resistência contra Medo e Desespero e +1 Ponto de Essência Temporário** durante a expedição!
 - **Relíquias & Artefatos:** Elos de correntes inquebráveis dos deuses, diademas de marfim que amplificam a liderança (`Coração [Convencer]`), e runas de fortalecimento coletivo para coortes.
@@ -534,21 +534,21 @@ Os locais construídos pelos Daemons não são "igrejas" comuns: são **oficinas
 ### 5. 🪞 Mirage — *O Demônio da Imaginação (Demon of Imagination)*
 - **Filosofia & Defeito que Representa:** A capacidade de sonhar mundos inteiros que não existem — até que a mentira se torne tão complexa e real quanto a própria criação.
 - **Como Reconhecer uma Fortaleza:** **Salões de espelhos infinitos**, lagos perfeitamente imóveis que refletem castelos inteiros onde na realidade só há ruínas vazias, portas que abrem para o lado oposto do corredor e escadarias onde a água corre para cima. Os reflexos nos espelhos às vezes demoram meio segundo para copiar os movimentos dos jogadores!
-- **Guardiões & Armadilhas:** **Reflexos Vivos (Clones Espelhados)** que copiam os Aspectos e armas da própria Coorte (`CD igual à CD média dos jogadores`), portais espelhados que prendem viajantes dentro de uma dimensão invertida (`Mente [Astúcia]` CD 11 para distinguir a saída real).
+- **Guardiões & Armadilhas:** **Reflexos Vivos (Clones Espelhados)** que copiam os Aspectos e armas da própria Coorte (`CD igual à CD média dos jogadores`), portais espelhados que prendem viajantes dentro de uma dimensão invertida (`Mente [Astúcia]` CD 9 para distinguir a saída real).
 - **Altar & Interação com `[Divindade]`:** Um **Espelho Circular de Prata Líquida sem Moldura**. Com `[Brasa]+`, o portador consegue atravessar para o lado invertido de uma ruína sem que o vidro o corte; com `[Chama]`, pode dobrar um reflexo para criar uma ilusão sólida temporária ou localizar uma sala secreta invisível no mundo físico.
 - **Relíquias & Artefatos:** Espelhos portáteis de comunicação/teleporte entre dois pontos, prismas multiplicadores de ataques ou clones e véus que tornam a Coorte invisível à distância.
 
 ### 6. 🛌 Repose — *O Demônio do Repouso (Demon of Repose)*
 - **Filosofia & Defeito que Representa:** A paz absoluta que suspende o fluxo da dor, da velhice e da guerra — mas que, levada ao extremo, congela a alma em uma letargia da qual nunca mais se deseja acordar.
 - **Como Reconhecer um Santuário:** Jardins fechados de flores pálidas que nunca murcham, templos de mármore cinza envolvidos por uma brisa morna e perfume suave de lavanda estelar, onde cadáveres de guerreiros antigos jazem intactos como se tivessem dormido há cinco minutos. O tempo parece desacelerar lá dentro.
-- **Guardiões & Armadilhas:** **Estase Sonolenta:** Cada hora passada lá dentro sem vigilância exige `Mente (Vontade)` CD 9 para os personagens não sentirem vontade irresistível de se deitar e dormir até a inanição; guardiões são autômatos lentos cujos toques aplicam *Lentidão* e sono profundo.
+- **Guardiões & Armadilhas:** **Estase Sonolenta:** Cada hora passada lá dentro sem vigilância exige `Mente (Vontade)` CD 7 para os personagens não sentirem vontade irresistível de se deitar e dormir até a inanição; guardiões são autômatos lentos cujos toques aplicam *Lentidão* e sono profundo.
 - **Altar & Interação com `[Divindade]`:** Um **Leito de Pedra Cinzenta cercado por Incensários Apagados**. Ao tocar com `[Brasa]+`, o grupo pode realizar um **Descanso Curto que equivale a um Descanso Longo completo** em apenas 1 hora (recuperando todos os PV, Essência e Integridade das Memórias!) — uma única vez antes que o jardim adormeça por décadas!
 - **Relíquias & Artefatos:** Ampulhetas de estase (conservam alimentos ou corpos feridos sem apodrecer), mantos que apagam a exaustão física e incensos que bloqueiam ataques psíquicos durante o sono.
 
 ### 7. 🌫️ Oblivion — *O Demônio do Esquecimento (Demon of Oblivion)*
 - **Filosofia & Defeito que Representa:** A misericórdia amarga do apagamento — aquilo que precisa desaparecer da memória do cosmos para não destruir quem o carrega.
 - **Como Reconhecer uma Cripta:** Quase impossível de mapear! Mesmo quando o cartógrafo da Coorte desenha o mapa da entrada, minutos depois todos sentem dificuldade de lembrar por que entraram ali ou qual é o nome do lugar. Paredes são lisas, cinzentas, sem esculturas nem placas — apenas poeira intocada e um vazio estranho no centro da mente.
-- **Guardiões & Armadilhas:** **Ladrões de Memória:** Armadilhas mentais silenciosas que fazem o grupo esquecer onde está a saída ou até esquecer o rosto do sétimo companheiro da Coorte (`Mente [Vontade]` CD 11 — **dica de sobrevivência:** amarrar cordas físicas nos pulsos e tatuar o número `7` na mão!).
+- **Guardiões & Armadilhas:** **Ladrões de Memória:** Armadilhas mentais silenciosas que fazem o grupo esquecer onde está a saída ou até esquecer o rosto do sétimo companheiro da Coorte (`Mente [Vontade]` CD 9 — **dica de sobrevivência:** amarrar cordas físicas nos pulsos e tatuar o número `7` na mão!).
 - **Altar & Interação com `[Divindade]`:** Uma **Fonte Seca Onde Não Ecoa Nenhum Som**. Portadores de `[Marca]` ou `[Chama]` (ou detentores de um **Nome Verdadeiro**!) conseguem ancorar suas mentes para não serem apagados: o altar pode **apagar 1 trauma mental severo, remover permanentemente uma maldição de perseguição de um espírito/eco** ou esconder os rastros da Coorte dos olhos de entidades videntes por uma semana inteira!
 - **Relíquias & Artefatos:** Véus sem nome (anulam habilidades de rastreamento ou profecia sobre o usuário), tintas invisíveis e sinos cuja badalada apaga os últimos 10 segundos da memória de inimigos menores.
 
@@ -579,6 +579,8 @@ Quando os 7 jogadores encontrarem uma ruína inesperada no meio de uma viagem pe
 
 O **Reino dos Sonhos** não é um único planeta ordenado, mas um mosaico colossal e fraturado formado pelos cadáveres dos seis Reinos Divinos colididos após a Guerra da Perdição. Cada região abaixo funciona como um **palco sandbox independente**, com suas próprias leis físicas anômalas, ecologia letal, quatro grandes locais exploráveis, **uma Cidadela Conquistável** e três ganchos de campanha prontos para a Coorte de 7 jogadores. Cada região traz uma tabela rápida de encontros (`1d6`); para viagens longas, o *Livro 3, Seção 4.3* oferece matrizes `2d6` mais extensas para as mesmas regiões.
 
+
+> ⚖️ **Lendo as Tabelas `1d6` de Encontros com o Orçamento de Ameaça (*Livro 3, Seção 5.1*):** cada tabela foi pensada para a **Coorte do Rank indicado** logo abaixo dela e uma mesa de **7 jogadores**. A Ameaça de um encontro é `nº de jogadores atacados por rodada × Dano` somada para todas as criaturas; o Orçamento é **1 × o número de jogadores**. Como estas tabelas não trazem Dano, a estimativa usa a *Matriz Rank × Classe* (*Livro 3, Seção 5.2*): Besta ataca 1 alvo, Monstro e Demônio 2, Diabo e Tirano 3; Dano `1` (Adormecida), `2` (Desperta e Caída) e `3` (Corrompida ou acima). **⚠️ Fuga/Evitar** = criatura de Rank acima da Coorte num encontro acima do Orçamento, ou criatura 2+ Ranks acima. **⚖️** = mesmo Rank, mas golpes demais por rodada: divida em ondas.
 ---
 
 ## 5.1 🌊 Região 1: A Costa Esquecida (*The Forgotten Shore*)
@@ -593,24 +595,26 @@ O **Reino dos Sonhos** não é um único planeta ordenado, mas um mosaico coloss
 
 ### Clima, Geografia e Ecologia Detalhada
 Um vasto deserto labiríntico formado por recifes de coral carmesim petrificado de 15 a 30 metros de altura, estendendo-se até onde a vista alcança sob um céu eternamente cinzento e sufocante. Quando as águas negras recuam pela manhã, o solo revela um lodaçal cinzento-avermelhado coberto de conchas cortantes, algas pálidas rastejantes e carcaças de peixes monstruosos. Não existem rios de água doce na superfície.
-- **Água e Alimento:** A água das poças é salobra e levemente ácida. Coletar água potável exige encontrar **Cactos-Esponja de Coral** (`Mente [Conhecimento]` CD 9 para extrair sem veneno), filtrar chuva rara ou localizar fontes seladas em ruínas antigas. A carne de crustáceos monstruosos precisa ser bem cozida para eliminar parasitas (`Cozinheiro` CD 8).
+- **Água e Alimento:** A água das poças é salobra e levemente ácida. Coletar água potável exige encontrar **Cactos-Esponja de Coral** (`Mente [Conhecimento]` CD 7 para extrair sem veneno), filtrar chuva rara ou localizar fontes seladas em ruínas antigas. A carne de crustáceos monstruosos precisa ser bem cozida para eliminar parasitas (`Cozinheiro` CD 6).
 - **Flora Hostil:** Nas paredes altas crescem trepadeiras espinhosas que sangram látex pegajoso; nos pátios de ruínas antigas brotam **Árvores Devoradoras de Almas** com frutos negros doces que hipnotizam viajantes exaustos para que adormeçam sobre suas raízes vampíricas.
+
+*Coorte de referência: **Adormecida** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem na Costa Esquecida | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | Bando de **3 Carniceiros da Carapaça** | Desperta — Besta | **9** | Patrulham corredores em bando; atacam os flancos mais frágeis. |
-| **3** | **2 Aranhas de Ferro** em teia metálica | Desperta — Monstro | **10** | Tecem fios invisíveis entre torres de coral para prender batedores. |
-| **4** | **Centurião da Carapaça** solitário | Desperta — Demônio | **11** | Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. |
+| **3** | **2 Aranhas de Ferro** em teia metálica | Desperta — Monstro | **9** | Tecem fios invisíveis entre torres de coral para prender batedores. ⚠️ **Fuga/Evitar** *(Ameaça ~8 > 7; Despertas contra Adormecidos)* |
+| **4** | **Centurião da Carapaça** solitário | Desperta — Demônio | **10** | Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 28 PV, Dano 3, 3 alvos — ⚠️ **Fuga/Evitar** *(Ameaça 9 > 7)* sem Relógio de Preparação. |
 | **5** | **Verme Escavador de Lodo** | Desperta — Monstro | **9** | Emerge do chão lamacento abaixo da fila do meio da Coorte. |
-| **6** | **Besta Marinha Encalhada** *(ou Sombra do Mar)* | Caída — Diabo | **12** | Presa em uma fenda esperando a maré; ataca apenas quem se aproxima! |
+| **6** | **Besta Marinha Encalhada** *(ou Sombra do Mar)* | Caída — Diabo | **12** | Presa em uma fenda esperando a maré; ataca apenas quem se aproxima! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima de Adormecidos)* |
 
-> 📌 **Ecologia da Costa:** Quase não há predadores *Adormecidos* neste litoral. A maioria das criaturas é *Desperta* (equivalente ao humano Desperto); perto da Torre Carmesim e nas águas do Mar Amaldiçoado predominam *Caídas* (equivalente ao Ascendido). Contra um grupo ainda *Adormecido*, some **`+2` na CD** por Rank acima (*Livro 1, Seção 1.3*).
+> 📌 **Ecologia da Costa:** Quase não há predadores *Adormecidos* neste litoral. A maioria das criaturas é *Desperta* (equivalente ao humano Desperto); perto da Torre Carmesim e nas águas do Mar Amaldiçoado predominam *Caídas* (equivalente ao Ascendido). Contra um grupo ainda *Adormecido*, some **`+1` na CD** por Rank acima (*Livro 1, Seção 1.3*).
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **A Maré do Mar Amaldiçoado (Ciclo Diário Mortal):** Ao cair da tarde, um oceano negro vivo e incrivelmente denso sobe das profundezas abissais em menos de 15 minutos, submergindo todo o Labirinto de Coral até o amanhecer!
    - *Regra:* Toda expedição precisa escalar ou alcançar um ponto acima de 30 metros antes do pôr do sol (`Corpo [Agilidade]` ou `Mente [Astúcia]` CD 9). Quem for engolido pela água sofre **2 de Dano de Frio/Pressão por rodada** e atrai **Leviatãs e Terrores Abissais (*Caídos* ou superiores, CD 12–14)** na escuridão absoluta!
 2. **Escassez de Água Doce e Salinidade Corrosiva:** Cada dia inteiro sem água doce purificada impõe **1 nível de Exaustão** (Desvantagem em `Corpo`) e corrói roupas e equipamentos mundanos não limpos.
-3. **Labirinto Sem Horizonte:** Dentro dos cânions de coral de 20 metros de altura não se enxerga o horizonte. Navegar sem mapa prévio ou batedor em ponto elevado exige teste em grupo de **`Mente (Astúcia)` CD 9**; em caso de falha, a Coorte perde 3 horas dando voltas ou cai direto em uma área de caça de *Centuriões*.
+3. **Labirinto Sem Horizonte:** Dentro dos cânions de coral de 20 metros de altura não se enxerga o horizonte. Navegar sem mapa prévio ou batedor em ponto elevado exige teste em grupo de **`Mente (Astúcia)` CD 7**; em caso de falha, a Coorte perde 3 horas dando voltas ou cai direto em uma área de caça de *Centuriões*.
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolados do restante da humanidade. Os sobreviventes dividem-se entre os caçadores endurecidos da **Cidade Externa** (que acampam em barracos fora das muralhas) e a guarnição militarizada do **Castelo Brilhante (*Bright Castle*)**, erguido nas ruínas da Cidade Sombria, muitas vezes governada por um autoproclamado senhor da guerra ou conselho armado que cobra tributos semanais em Fragmentos de Alma em troca de abrigo atrás das únicas muralhas seguras da costa. **Ninguém ali conhece um Portal funcionando** — e é exatamente isso que prende os Adormecidos na Costa até que alguém encontre ou reative uma Cidadela.
@@ -623,12 +627,12 @@ Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolado
    - *Evento Vivo ao Chegar:* Uma execução pública na arena acaba de ser anunciada por falta de pagamento de tributos, gerando revolta silenciosa nos barracos externos!
 2. **As Sete Estátuas Sem Cabeça:**
    - *Atmosfera:* Sete colossos de mármore branco sem cabeça, de cem metros de altura, enfileirados rumo ao norte através do labirinto como sentinelas mudas de uma era esquecida.
-   - *Ameaça & CD:* Escalar seus ombros antes do anoitecer (`Corpo [Agilidade]` CD 9) garante refúgio acima da maré negra, mas *Aranhas de Ferro* fazem ninhos nas dobras de pedra.
-   - *Segredo & Recompensa:* A base oca da quarta e da sexta estátuas contém inscrições rúnicas antigas (`Mente [Conhecimento]` CD 10) com rotas seguras até a costa norte.
+   - *Ameaça & CD:* Escalar seus ombros antes do anoitecer (`Corpo [Agilidade]` CD 7) garante refúgio acima da maré negra, mas *Aranhas de Ferro* fazem ninhos nas dobras de pedra.
+   - *Segredo & Recompensa:* A base oca da quarta e da sexta estátuas contém inscrições rúnicas antigas (`Mente [Conhecimento]` CD 8) com rotas seguras até a costa norte.
    - *Evento Vivo ao Chegar:* Sinais de fumaça vermelha sobem da terceira estátua — dois Adormecidos feridos ficaram presos lá em cima cercados por teias metálicas!
 3. **A Catedral Submersa das Profundezas:**
    - *Atmosfera:* Uma catedral gótica de coral branco e ossos de leviatã afundada numa bacia funda onde águas negras permanecem estagnadas mesmo ao meio-dia.
-   - *Ameaça & CD:* Exige controle de fôlego ou Memórias aquáticas (`Corpo [Vigor]` CD 11); guardada por espectros afogados e caranguejos de altar.
+   - *Ameaça & CD:* Exige controle de fôlego ou Memórias aquáticas (`Corpo [Vigor]` CD 9); guardada por espectros afogados e caranguejos de altar.
    - *Segredo & Recompensa:* Abriga santuários submersos do **Deus da Tempestade** guardando **Memórias Tier III–IV** e amuletos de respiração aquática.
    - *Evento Vivo ao Chegar:* Durante duas horas ao meio-dia, um redemoinho central esvazia o átrio principal expondo uma porta de bronze fechada há milênios!
 4. **A Torre Carmesim (*Crimson Spire*):**
@@ -638,9 +642,9 @@ Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolado
    - *Evento Vivo ao Chegar:* Um enxame de gárgulas desce em círculo sobre uma caravana perdida nas escadarias externas da torre!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo na Costa Esquecida
-- **Cartógrafo & Batedor (*Olho de Falcão / Espectro*):** Deve subir em pilares altos de coral a cada 2 horas (`Mente [Astúcia]` CD 9) para mapear o labirinto e localizar abrigo acima de 30m muito antes do crepúsculo!
-- **Cozinheiro & Médico:** Precisam ferver carne de crustáceo com seiva de cacto-esponja para extrair água doce potável (`CD 9`), evitando a exaustão salina crônica.
-- **Sentinela & Guardião da Fogueira:** Mantêm vigília dupla à noite quando criaturas aquáticas tentam escalar as estátuas ou falésias durante o pico da maré do Mar Amaldiçoado (`CD 10`).
+- **Cartógrafo & Batedor (*Olho de Falcão / Espectro*):** Deve subir em pilares altos de coral a cada 2 horas (`Mente [Astúcia]` CD 7) para mapear o labirinto e localizar abrigo acima de 30m muito antes do crepúsculo!
+- **Cozinheiro & Médico:** Precisam ferver carne de crustáceo com seiva de cacto-esponja para extrair água doce potável (`CD 7`), evitando a exaustão salina crônica.
+- **Sentinela & Guardião da Fogueira:** Mantêm vigília dupla à noite quando criaturas aquáticas tentam escalar as estátuas ou falésias durante o pico da maré do Mar Amaldiçoado (`CD 8`).
 - **Artífice & Baluarte:** Limpam o sal corrosivo das armas após cada combate e usam placas de carapaça abatida para improvisar escudos ou jangadas resistentes!
 
 ### 🏰 A Cidadela Conquistável — *O Forte da Estátua Partida*
@@ -650,9 +654,9 @@ Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolado
   - **Rank & Classe:** *Demônio Desperto* | **CD:** `11` | **PV:** `18` | **Parte Destrutível:** *Pinça-Serra Direita (7 PV)* e *Placa Dorsal Rachada (6 PV)*.
   - **Tática:** Avança esmagando escudos com a Pinça (**2 de Dano** + *Agarrar*) e libera jatos de espuma ácida corrosiva (*Danifica* 1 nível da armadura em falha `CD - 2`!).
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Cruzar a ponte estreita sob disparos de esporos de cracas cuspideiras (`Corpo [Agilidade]` CD 9) e limpar a guarnição da guarita.
+  1. Cruzar a ponte estreita sob disparos de esporos de cracas cuspideiras (`Corpo [Agilidade]` CD 7) e limpar a guarnição da guarita.
   2. Quebrar a *Placa Dorsal* do *Devorador* usando manobras de *Mirar em Ponto Fraco* ou trabalho em dupla de *Baluarte + Executor*.
-  3. Limpar o ninho de ovos dentro da sala da espada caída e tocar o núcleo rúnico no punho da estátua com `[Brasa de Divindade]` ou `Alma (Canalizar)` **CD 10**, ativando um **Portal Adormecido** independente!
+  3. Limpar o ninho de ovos dentro da sala da espada caída e tocar o núcleo rúnico no punho da estátua com `[Brasa de Divindade]` ou `Alma (Canalizar)` **CD 8**, ativando um **Portal Adormecido** independente!
 - **Tesouro da Conquista:** Rende **12 Fragmentos Despertos** no ninho + a Memória **Couraça do Leviatã de Coral (Armadura Desperta Tier III)**!
 - **Primeiro Desafio de Posse:** Três dias após reativar o Portal, batedores enviados pelo senhor da guerra do Castelo Brilhante chegam exigindo tributo ou propondo uma aliança armada contra a Torre Carmesim!
 
@@ -678,22 +682,24 @@ Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolado
 
 ### Clima, Geografia e Ecologia Detalhada
 Um arquipélago vertiginoso de centenas de ilhas rochosas de tamanhos variados (de pequenas torres de pedra a platôs inteiros com florestas e ruínas de cidades da 3ª Era), todas **suspensas no vazio do céu** e amarradas umas às outras por colossais **correntes de ferro celestial** com elos do tamanho de casas. Abaixo das ilhas não existe chão nem oceano — apenas o **Céu Abaixo (*Sky Below*)**, uma escuridão estrelada insondável onde línguas de **chama branca pura** dançam em silêncio mortal.
-- **Água e Alimento:** Muitas ilhas maiores possuem nascentes alimentadas por condensação das nuvens e pomares de frutas prateadas comestíveis (`Sobrevivência` CD 8). Porém, nas ilhas inferiores próximas às chamas brancas, todas as fontes secam rapidamente!
+- **Água e Alimento:** Muitas ilhas maiores possuem nascentes alimentadas por condensação das nuvens e pomares de frutas prateadas comestíveis (`Sobrevivência` CD 6). Porém, nas ilhas inferiores próximas às chamas brancas, todas as fontes secam rapidamente!
 - **Flora Hostil:** Grama metálica prateada capaz de cortar botas de couro comum e árvores brancas de folhas vermelhas cujas raízes penetram até o fundo rochoso das ilhas, onde escondem túneis habitados por monstros.
+
+*Coorte de referência: **Desperta** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem nas Ilhas Acorrentadas | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
-| **1–2** | Bando de **4 Pássaros-Lâmina Celestiais** | Desperta — Besta | **8** | Mergulham do alto tentando derrubar viajantes que cruzam correntes! |
-| **3** | **2 Gárgulas de Pedra da Ruína** | Desperta — Monstro | **9** | Ficam imóveis como estátuas de templo até a Coorte ficar no meio do pátio. |
+| **1–2** | Bando de **4 Pássaros-Lâmina Celestiais** | Desperta — Besta | **8** | Mergulham do alto tentando derrubar viajantes que cruzam correntes! ⚖️ *Acima do Orçamento (Ameaça ~8: comece com 3)* |
+| **3** | **2 Gárgulas de Pedra da Ruína** | Desperta — Monstro | **9** | Ficam imóveis como estátuas de templo até a Coorte ficar no meio do pátio. ⚖️ *Acima do Orçamento (Ameaça ~8: a 2ª entra na rodada 2)* |
 | **4** | **Boneco de Madeira Encantado** *(Sorridente)* | Desperta — Demônio | **10** | Testa a educação dos visitantes antes de atacar invasores rudes. |
 | **5** | **Demônio de Ferro Acorrentado** | Caída — Demônio | **11** | Usa correntes quebradas como chicotes de alcance *Distante*. |
-| **6** | **Dragão de Nuvem e Relâmpago** | Caída — Tirano | **13** | Sobrevoa ilhas altas buscando embarcações voadoras desprotegidas. |
+| **6** | **Dragão de Nuvem e Relâmpago** | Caída — Tirano | **13** | Sobrevoa ilhas altas buscando embarcações voadoras desprotegidas. ⚠️ **Fuga/Evitar** *(Caída — Tirano: Ameaça ~9 > 7)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **As Marés do Céu e O Esmagamento (*The Crushing*):** Cada ilha sobe e desce em ciclos regulares. Quando uma ilha sobe até o teto de nuvens brancas, a gravidade se multiplica violentamente (**O Esmagamento**)!
-   - *Regra:* Durante o Esmagamento (precedido por zumbido metálico nas correntes e queda de folhas), qualquer ser vivo ao ar livre precisa passar em **`Corpo (Vigor)` CD 12** a cada cena para não ficar *Imobilizado* no chão e sofrer **2 de Dano Contundente**! Apenas cavernas profundas ou círculos rúnicos intactos bloqueiam o esmagamento.
-2. **O Fogo Branco do Céu Abaixo:** Quando uma ilha desce ao ponto mais baixo da maré, colunas de fogo branco lambem a borda inferior da rocha. Cair para fora de uma ilha exige teste rápido com corda/aspecto (`Corpo [Agilidade]` CD 11); cair nas chamas brancas sem asas ou navio causa **4 de Dano Irredutível** por rodada!
-3. **Travessia pelas Correntes Celestiais:** Caminhar sobre elos metálicos oscilando a quilômetros acima do abismo exige teste de equilíbrio (`Corpo [Agilidade]` CD 9 em tempo calmo; **CD 11** sob ventania ou combate aéreo!).
+   - *Regra:* Durante o Esmagamento (precedido por zumbido metálico nas correntes e queda de folhas), qualquer ser vivo ao ar livre precisa passar em **`Corpo (Vigor)` CD 10** a cada cena para não ficar *Imobilizado* no chão e sofrer **2 de Dano Contundente**! Apenas cavernas profundas ou círculos rúnicos intactos bloqueiam o esmagamento.
+2. **O Fogo Branco do Céu Abaixo:** Quando uma ilha desce ao ponto mais baixo da maré, colunas de fogo branco lambem a borda inferior da rocha. Cair para fora de uma ilha exige teste rápido com corda/aspecto (`Corpo [Agilidade]` CD 9); cair nas chamas brancas sem asas ou navio causa **4 de Dano Irredutível** por rodada!
+3. **Travessia pelas Correntes Celestiais:** Caminhar sobre elos metálicos oscilando a quilômetros acima do abismo exige teste de equilíbrio (`Corpo [Agilidade]` CD 7 em tempo calmo; **CD 9** sob ventania ou combate aéreo!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (através de clãs vassalos honrados como o **Clã Pluma Branca**, comandado pela Transcendente Tyris) mantém a Cidadela do **Templo do Cálice** e protege rotas aéreas ao norte, enquanto batedores furtivos do **Clã Song**, engenheiros de **Aliança Livre** e corsários dos céus vasculham as ilhas periféricas em busca de fragmentos de navios voadores e segredos da Era dos Daemons.
@@ -706,7 +712,7 @@ Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (atra
    - *Evento Vivo ao Chegar:* Um banquete completo de chá e frutas ainda quentes está posto no pavilhão central sem ninguém sentado — um convite esperando educados visitantes!
 2. **A Ilha dos Destroços (*Shipwreck Island*):**
    - *Atmosfera:* Um rochedo inclinado e partido onde o esqueleto colossal de um **Navio Voador Rúnico** da 3ª Era está encravado entre correntes partidas e árvores vermelhas.
-   - *Ameaça & CD:* Espectros de marinheiros celestiais (`CD 10`), tábuas podres sobre o abismo (`Corpo [Agilidade]` CD 10) e saqueadores rivais.
+   - *Ameaça & CD:* Espectros de marinheiros celestiais (`CD 10`), tábuas podres sobre o abismo (`Corpo [Agilidade]` CD 8) e saqueadores rivais.
    - *Segredo & Recompensa:* No convés inferior ainda brilha um **Círculo de Levitação intacto** — a peça central necessária para a Coorte construir ou restaurar seu próprio **Navio Voador**!
    - *Evento Vivo ao Chegar:* Um esquife voador de mercenários rivais acaba de atracar no lado oposto tentando desparafusar o Círculo às pressas!
 3. **O Coliseu Vermelho (*The Red Colosseum*):**
@@ -721,8 +727,8 @@ Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (atra
    - *Evento Vivo ao Chegar:* A ilha começa a girar lentamente para alinhar a ponte-corrente nas próximas **2 horas** antes de afundar de volta para o fogo branco!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo nas Ilhas Acorrentadas
-- **Cartógrafo & Vigia (*Oráculo / Olho de Falcão*):** Calculam a tabela horária das marés verticais (`Mente [Conhecimento]` CD 9) para que o grupo nunca seja pego pelo Esmagamento fora de cavernas!
-- **Espectro & Baluarte:** Fixam ganchos e cordas de segurança nos elos celestiais antes que os aliados pesados atravessem entre ilhas sob rajadas de vento (`CD 10`).
+- **Cartógrafo & Vigia (*Oráculo / Olho de Falcão*):** Calculam a tabela horária das marés verticais (`Mente [Conhecimento]` CD 7) para que o grupo nunca seja pego pelo Esmagamento fora de cavernas!
+- **Espectro & Baluarte:** Fixam ganchos e cordas de segurança nos elos celestiais antes que os aliados pesados atravessem entre ilhas sob rajadas de vento (`CD 8`).
 - **Artífice:** Coleta placas de madeira estelar e fragmentos de motores antigos para manter ou construir uma embarcação aérea para os **7 Postos**.
 - **Guardião da Fogueira & Cozinheiro:** Colhem água de condensação limpa nas folhas prateadas e aquecem o abrigo dentro de grutas ventiladas livres de gases do abismo.
 
@@ -733,9 +739,9 @@ Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (atra
   - **Rank & Classe:** *Diabo Caído* | **CD:** `12` | **PV:** `22` | **Parte Destrutível:** *Mochila-Fornalha Rúnica Dorsal (8 PV)*.
   - **Tática:** Um cavaleiro gigante sem rosto envolvido em dezesseis correntes vivas que atacam até a faixa *Distante* (**2 de Dano** + *Agarrar*) e puxam arqueiros para o abismo!
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Cruzar a corrente sul sob ventos fortes (`Corpo [Agilidade]` CD 10) ou sabotar a runa gravitacional da guarita (`Mente [Conhecimento]` CD 10) e derrotar as gárgulas.
+  1. Cruzar a corrente sul sob ventos fortes (`Corpo [Agilidade]` CD 8) ou sabotar a runa gravitacional da guarita (`Mente [Conhecimento]` CD 8) e derrotar as gárgulas.
   2. Enfrentar o *Senhor das Correntes* dentro do pátio, coordenando os atacantes para destruir primeiro sua **Fornalha Dorsal (8 PV)** — o que desativa 8 das 16 correntes extras!
-  3. Descer ao subsolo da âncora e ativar o **Selo da Âncora** inserindo **10 Fragmentos Despertos** ou canalizando `[Brasa de Divindade]` (`CD 10`), liberando o Portal Desperto e um cais aéreo pronto para atracar navios voadores!
+  3. Descer ao subsolo da âncora e ativar o **Selo da Âncora** inserindo **10 Fragmentos Despertos** ou canalizando `[Brasa de Divindade]` (`CD 8`), liberando o Portal Desperto e um cais aéreo pronto para atracar navios voadores!
 - **Tesouro da Conquista:** Rende **16 Fragmentos Despertos/Ascendidos** no cofre da torre + a Memória **Grilhões do Abismo (Arma/Utilitário Desperto Tier IV)**!
 - **Primeiro Desafio de Posse:** Uma tempestade aérea desloca uma ilha vizinha cheia de *Demônios de Ferro* para colidir suavemente com a âncora — o grupo precisa defender o cais ou cortar a corrente intrusa!
 
@@ -761,23 +767,25 @@ Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (atra
 
 ### Clima, Geografia e Ecologia Detalhada
 A maior e mais temida cordilheira do Reino dos Sonhos: uma muralha natural de picos negros denteados e geleiras que perfuram as nuvens, dividida por cânions sem fundo e túneis eólicos. Enquanto os picos mais altos brilham sob estrelas cristalinas e ar congelante, todos os vales, passos e desfiladeiros inferiores estão eternamente submersos por um oceano espesso e imóvel chamado **Névoa Branca** — uma bruma fria que engole som, luz e direção.
-- **Água e Alimento:** Há gelo e neve em abundância, mas derretê-los sem fogo rúnico consome reservas preciosas de combustível e Essência. Nas **Cavernas Termais** crescem fungos albinos comestíveis e peixes cegos subterrâneos (`Cozinheiro` CD 9); na superfície congelada não há vegetação comestível.
+- **Água e Alimento:** Há gelo e neve em abundância, mas derretê-los sem fogo rúnico consome reservas preciosas de combustível e Essência. Nas **Cavernas Termais** crescem fungos albinos comestíveis e peixes cegos subterrâneos (`Cozinheiro` CD 7); na superfície congelada não há vegetação comestível.
 - **Flora Hostil:** Líquens negros que absorvem calor corporal de quem se encosta nas rochas para dormir e pinheiros petrificados cujas agulhas congeladas estilhaçam como vidro ao menor vento.
+
+*Coorte de referência: **Ascendida** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem nas Montanhas Ocas | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | **3 Aranhas da Geada Translúcidas** | Caída — Besta | **10** | Caem silenciosamente de estalactites de gelo sobre os batedores. |
-| **3** | **Matilha de Lobos de Névoa Pálida** | Caída — Monstro | **11** | Cercam a Coorte dentro da bruma atacando quem se afasta 2 metros! |
+| **3** | **Matilha de Lobos de Névoa Pálida** | Caída — Monstro | **11** | Cercam a Coorte dentro da bruma atacando quem se afasta 2 metros! ⚖️ *Acima do Orçamento (Ameaça ~12 com 3 lobos: comece com 2)* |
 | **4** | **Espectro da Bruma Imitador** | Caída — Demônio | **11** | Imita perfeitamente a voz de um aliado pedindo socorro no nevoeiro. |
-| **5** | **Yeti Colossal dos Desfiladeiros** | Corrompida — Diabo | **13** | Desencadeia uma avalanche antes de saltar contra a vanguarda! |
-| **6** | **Gigante de Rocha Oca** *(Camuflado)* | Grande — Tirano | **14** | Dorme disfarçado de penhasco; só desperta se profanarem ou escalarem seu dorso! |
+| **5** | **Yeti Colossal dos Desfiladeiros** | Corrompida — Diabo | **13** | Desencadeia uma avalanche antes de saltar contra a vanguarda! ⚠️ **Fuga/Evitar** *(Corrompida — Diabo: Ameaça ~9 > 7)* |
+| **6** | **Gigante de Rocha Oca** *(Camuflado)* | Grande — Tirano | **14** | Dorme disfarçado de penhasco; só desperta se profanarem ou escalarem seu dorso! ⚠️ **Fuga/Evitar** *(Grande: 2 Ranks acima)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **A Névoa Devoradora de Bússolas e Essência:** A Névoa Branca não é simples vapor — é uma anomalia espiritual espessa que apaga referências espaciais e drena vitalidade.
-   - *Regra de Navegação:* Bússolas magnéticas giram loucamente e a visão cai para **2 metros**. Marchar sem uma corda física amarrada ligando todos os 7 jogadores e sem um guia com `[Bússola Interna]`, Nome Verdadeiro ou Lanterna Divina exige **`Mente (Astúcia)` CD 12** por trecho; uma falha faz a Coorte caminhar horas em círculos!
+   - *Regra de Navegação:* Bússolas magnéticas giram loucamente e a visão cai para **2 metros**. Marchar sem uma corda física amarrada ligando todos os 7 jogadores e sem um guia com `[Bússola Interna]`, Nome Verdadeiro ou Lanterna Divina exige **`Mente (Astúcia)` CD 10** por trecho; uma falha faz a Coorte caminhar horas em círculos!
    - *Regra de Dreno:* Cada cena longa exposta diretamente à Névoa Branca sem abrigo rúnico/térmico consome **1 Ponto de Essência** de cada jogador (ou causa **1 Dano de Frio** se a Essência estiver zerada!).
-2. **Ecos Traiçoeiros e Avalanches:** Qualquer explosão, grito agudo ou impacto pesado em desfiladeiros dispara avalanches de neve e pedra (`Corpo [Agilidade]` CD 11 para saltar para abrigo; **3 de Dano Contundente** e *Imobilizado* se soterrado!).
-3. **Ar Rarefeito e Hipotermia dos Picos:** Acima da linha da névoa, sem roupas térmicas adequadas ou Memórias de proteção climática, testes físicos prolongados exigem `Corpo (Vigor)` **CD 10** para evitar a condição *Exausto*.
+2. **Ecos Traiçoeiros e Avalanches:** Qualquer explosão, grito agudo ou impacto pesado em desfiladeiros dispara avalanches de neve e pedra (`Corpo [Agilidade]` CD 9 para saltar para abrigo; **3 de Dano Contundente** e *Imobilizado* se soterrado!).
+3. **Ar Rarefeito e Hipotermia dos Picos:** Acima da linha da névoa, sem roupas térmicas adequadas ou Memórias de proteção climática, testes físicos prolongados exigem `Corpo (Vigor)` **CD 8** para evitar a condição *Exausto*.
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Praticamente **nenhuma facção humana consegue manter grandes exércitos na superfície** das Montanhas Ocas devido ao custo extremo da Névoa. Apenas pequenas equipes de **Transcendentes**, eremitas cultuadores de templos antigos perdidos nos picos, e **contrabandistas audaciosos da Aliança Livre** (que conhecem passagens ocultas até as descidas do Submundo) ousam cruzar a cordilheira sem usar Portais.
@@ -785,13 +793,13 @@ Praticamente **nenhuma facção humana consegue manter grandes exércitos na sup
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **O Desfiladeiro dos Sussurros (*A Garganta de Gelo*):**
    - *Atmosfera:* Um corredor estreito de paredes negras espelhadas pelo gelo, alinhado por dezenas de cadáveres congelados de antigos heróis da 2ª Era perfeitamente preservados há milênios.
-   - *Ameaça & CD:* O vento gera ecos enganosos; tocar qualquer cadáver ou arma congelada desperta **Parasitas do Frio** e estalactites armadilha (`Corpo [Agilidade]` CD 11).
+   - *Ameaça & CD:* O vento gera ecos enganosos; tocar qualquer cadáver ou arma congelada desperta **Parasitas do Frio** e estalactites armadilha (`Corpo [Agilidade]` CD 9).
    - *Segredo & Recompensa:* Dois cadáveres de comandantes antigos ainda seguram **Memórias intactas de Tier III–IV** congeladas em gelo azul que pode ser derretido com Essência.
    - *Evento Vivo ao Chegar:* Uma espada de prata cravada no gelo começa a zumbir — atraindo uma matilha de *Lobos de Névoa* para o gargalo do desfiladeiro!
 2. **O Observatório Congelado do Deus da Tempestade:**
    - *Atmosfera:* Erguido no cume mais alto acima do oceano de bruma, onde o céu estrelado brilha com nitidez ofuscante e o silêncio é quebrado apenas pelo estalar das placas metálicas.
-   - *Ameaça & CD:* Ar gelado severo (`Corpo [Vigor]` CD 11) e autômatos celestes congelados que despertam quando o mecanismo gira (`CD 12`).
-   - *Segredo & Recompensa:* Contém um **Astrolábio Funcional** que revela entradas subterrâneas ocultas para o **Submundo de Nether** e rotas seguras entre os picos (`Mente [Conhecimento]` CD 11).
+   - *Ameaça & CD:* Ar gelado severo (`Corpo [Vigor]` CD 9) e autômatos celestes congelados que despertam quando o mecanismo gira (`CD 12`).
+   - *Segredo & Recompensa:* Contém um **Astrolábio Funcional** que revela entradas subterrâneas ocultas para o **Submundo de Nether** e rotas seguras entre os picos (`Mente [Conhecimento]` CD 9).
    - *Evento Vivo ao Chegar:* Um feixe de luz estelar desce pela lente quebrada do teto apontando exatamente para uma caverna fumegante dois quilômetros abaixo!
 3. **As Cavernas Termais dos Ossos:**
    - *Atmosfera:* Um oásis subterrâneo úmido e morno escavado por fontes vulcânicas abaixo da geleira, iluminado por cogumelos azuis luminescentes.
@@ -800,12 +808,12 @@ Praticamente **nenhuma facção humana consegue manter grandes exércitos na sup
    - *Evento Vivo ao Chegar:* Dois contrabandistas feridos negociam o mapa da escadaria inferior em troca de cura imediata e escolta até o vale!
 4. **A Escadaria Quebrada para o Abismo:**
    - *Atmosfera:* Uma escadaria monumental de degraus gigantescos talhados na rocha viva que desce em espiral por três quilômetros diretamente da superfície nebulosa até as abóbadas do **Submundo**.
-   - *Ameaça & CD:* Degraus escorregadios sem corrimão (`Corpo [Agilidade]` CD 10 contra queda fatal!) e três **Golems de Basalto** da Era dos Daemons guardando o portão intermediário.
+   - *Ameaça & CD:* Degraus escorregadios sem corrimão (`Corpo [Agilidade]` CD 8 contra queda fatal!) e três **Golems de Basalto** da Era dos Daemons guardando o portão intermediário.
    - *Segredo & Recompensa:* Abre o caminho terrestre mais rápido da superfície para as Fundições de Nether sem precisar enfrentar a Névoa por semanas!
    - *Evento Vivo ao Chegar:* O patamar do meio desabou parcialmente — será preciso cruzar um vão de cinco metros usando cordas presas nos golems inertes!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo nas Montanhas Ocas
-- **Cartógrafo & Oráculo:** Mantêm todos os **7 jogadores amarrados pela cintura com corda de 15 metros** e guiam o grupo por bússola rúnica ou marcos estelares (`Mente [Astúcia]` CD 12).
+- **Cartógrafo & Oráculo:** Mantêm todos os **7 jogadores amarrados pela cintura com corda de 15 metros** e guiam o grupo por bússola rúnica ou marcos estelares (`Mente [Astúcia]` CD 10).
 - **Guardião da Fogueira & Artífice:** Gravando **Runas de Purificação Térmica** nas barracas ou tendas, impedem o dreno de 1 Essência/cena causado pela Névoa Branca!
 - **Baluarte & Executor:** Caminham na ponta da fila de corda para absorver investidas cegas de *Yetis* e quebrar gelo negro em escaladas.
 - **Vigia Espiritual & Médico:** Ficam atentos para distinguir vozes imitadas por *Espectros da Bruma* (usando senhas secretas da Coorte!) e tratam hipotermia antes de virar Exaustão!
@@ -817,8 +825,8 @@ Praticamente **nenhuma facção humana consegue manter grandes exércitos na sup
   - **Rank & Classe:** *Tirano Caído* | **CD:** `13` | **PV:** `26` | **Característica:** Envolto por uma aura de neblina densa que impõe *Cego* a quem falhar em `Mente (Astúcia)` CD 11!
   - **Tática:** Teleporta entre bolsões de névoa no pátio e golpeia com um incensário de gelo negro em cadeias (**2 de Dano de Alma/Frio**), invocando 2 *Espectros da Bruma* quando cai abaixo de metade dos PV.
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Cruzar a ponte de obsidiana sob rajadas de vento (`Corpo [Agilidade]` CD 10) e conter os espectros sentinelas sem gritar para evitar avalanches.
-  2. Canalizar Essência de Sombra/Alma ou óleo rúnico nas **2 Lanternas Negras apagadas** (`Alma [Canalizar]` CD 10) — expulsando toda a Névoa Branca e anulando a invisibilidade do *Abade*!
+  1. Cruzar a ponte de obsidiana sob rajadas de vento (`Corpo [Agilidade]` CD 8) e conter os espectros sentinelas sem gritar para evitar avalanches.
+  2. Canalizar Essência de Sombra/Alma ou óleo rúnico nas **2 Lanternas Negras apagadas** (`Alma [Canalizar]` CD 8) — expulsando toda a Névoa Branca e anulando a invisibilidade do *Abade*!
   3. Abater o Chefe e tocar a **Mesa Rasa de Ônix** no santuário interno em silêncio respeitoso (armas embainhadas), despertando o **Portal Ascendido** escondido atrás do altar!
 - **Tesouro da Conquista:** Rende **18 Fragmentos Ascendidos** no relicário + a Memória **Incensário do Silêncio Glacial (Arma/Amuleto Ascendido Tier IV)**!
 - **Primeiro Desafio de Posse:** Contrabandistas desesperados tentam subornar a sentinela da Coorte na primeira semana para usar o Mosteiro como entreposto ilegal — trazendo espiões de Valor atrás deles!
@@ -845,22 +853,24 @@ Praticamente **nenhuma facção humana consegue manter grandes exércitos na sup
 
 ### Clima, Geografia e Ecologia Detalhada
 O interior colossal e oco abaixo das raízes das Montanhas Ocas! Não existe céu nem estrelas aqui: a abóbada de granito escuro estende-se a quilômetros de altura sobre uma paisagem silenciosa de planícies de basalto, florestas de estalagmites de obsidiana e gargantas abissais. A iluminação provém apenas de **rios lentos de magma alaranjado**, veios de cristais pálidos nas cavernas e chamas rúnicas eternas nas oficinas do Daemon da Escolha. Nos grandes vales planos repousam mares imóveis de **Escuridão Elemental Verdadeira** — uma substância líquida espessa nascida do sangue primordial derramado, tão densa que devora qualquer chama comum.
-- **Água e Alimento:** Água doce potável é rara e quase sempre oculta em reservatórios filtrados das oficinas antigas ou gotejamentos de calcário longe dos rios de lava (`Mente [Astúcia]` CD 10 para testar acidez!). A comida depende de fungos gigantes subterrâneos e carne densa de vermes ou bestas de rocha.
+- **Água e Alimento:** Água doce potável é rara e quase sempre oculta em reservatórios filtrados das oficinas antigas ou gotejamentos de calcário longe dos rios de lava (`Mente [Astúcia]` CD 8 para testar acidez!). A comida depende de fungos gigantes subterrâneos e carne densa de vermes ou bestas de rocha.
 - **Flora Hostil:** Líquens metálicos que se alimentam da Essência de armas deixadas no chão e musgos cinzentos explosivos que liberam nuvens asfixiantes ao menor passo descuidado.
+
+*Coorte de referência: **Desperta** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem no Submundo de Nether | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
-| **1–2** | **Enxame de Morcegos Sônicos Cegos** | Desperta — Besta | **8** | Disparam guinchos que aplicam *Atordoado* e atraem monstros maiores! |
-| **3** | **2 Estátuas-Sentinelas de Pedra Viva** | Caída — Monstro | **11** | Permanecem paradas no corredor até alguém tentar pilhar ferramentas antigas. |
+| **1–2** | **Enxame de Morcegos Sônicos Cegos** | Desperta — Besta | **8** | Disparam guinchos que aplicam *Atordoado* e atraem monstros maiores! ⚖️ *Acima do Orçamento (Ameaça ~8: trate como Horda)* |
+| **3** | **2 Estátuas-Sentinelas de Pedra Viva** | Caída — Monstro | **11** | Permanecem paradas no corredor até alguém tentar pilhar ferramentas antigas. ⚠️ **Fuga/Evitar** *(Caídas: Ameaça ~8 > 7)* |
 | **4** | **Verme-Broca de Obsidiana** | Caída — Demônio | **11** | Atravessa chão de basalto destruindo cobertura e jorrando faíscas de lava. |
-| **5** | **Sombrio da Escuridão Verdadeira** | Corrompida — Diabo | **12** | Emerge dos lagos negros apagando tochas e atacando quem se isola da fila. |
-| **6** | **Colosso Inacabado de Nether** | Grande — Tirano | **14** | Vaga sem rumo pelos grandes salões de forja com passos que tremem a caverna. |
+| **5** | **Sombrio da Escuridão Verdadeira** | Corrompida — Diabo | **12** | Emerge dos lagos negros apagando tochas e atacando quem se isola da fila. ⚠️ **Fuga/Evitar** *(Corrompida: 2 Ranks acima)* |
+| **6** | **Colosso Inacabado de Nether** | Grande — Tirano | **14** | Vaga sem rumo pelos grandes salões de forja com passos que tremem a caverna. ⚠️ **Fuga/Evitar** *(Grande: 3 Ranks acima)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **Escuridão Elemental Verdadeira (*True Darkness*):** Ao contrário da escuridão comum (onde visão noturna ou habilidades comuns de sombra enxergam perfeitamente), a *Escuridão Verdadeira* suprime luzes mundanas e sentidos normais!
-   - *Regra:* Dentro de nuvens ou poços de Escuridão Verdadeira, qualquer personagem sem **Chama Divina, Ecolocalização ou Memória Sagrada de Luz** sofre automaticamente a condição **Cego** (Desvantagem em ataques/defesas e `Mente [Astúcia]` CD 12 para se orientar).
-2. **Gases Vulcânicos e Ar Escaldante:** Galerias próximas aos mares de lava exalam enxofre tóxico (`Corpo [Vigor]` CD 10 a cada hora sem máscara/runa purificadora para evitar *Envenenado* ou **1 de Dano de Calor**).
-3. **Ecos da Escolha (*Testes de Vontade de Nether*):** Mecanismos, fechaduras e portais esculpidos pelo Demônio da Escolha frequentemente recusam força bruta e exigem sacrifício ou convicção pura (`Mente [Vontade]` CD 10) para abaixar pontes e abrir cofres.
+   - *Regra:* Dentro de nuvens ou poços de Escuridão Verdadeira, qualquer personagem sem **Chama Divina, Ecolocalização ou Memória Sagrada de Luz** sofre automaticamente a condição **Cego** (Desvantagem em ataques/defesas e `Mente [Astúcia]` CD 10 para se orientar).
+2. **Gases Vulcânicos e Ar Escaldante:** Galerias próximas aos mares de lava exalam enxofre tóxico (`Corpo [Vigor]` CD 8 a cada hora sem máscara/runa purificadora para evitar *Envenenado* ou **1 de Dano de Calor**).
+3. **Ecos da Escolha (*Testes de Vontade de Nether*):** Mecanismos, fechaduras e portais esculpidos pelo Demônio da Escolha frequentemente recusam força bruta e exigem sacrifício ou convicção pura (`Mente [Vontade]` CD 8) para abaixar pontes e abrir cofres.
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Os Grandes Clãs não mantêm cidades aqui devido à dificuldade de abrir Portais estáveis sob quilômetros de pedra. Entretanto, **grupos secretos de artífices do Clã Valor** infiltram-se regularmente para estudar as oficinas de armaduras vivas de Nether; e **guias da Aliança Livre** cobram caro para conduzir viajantes pelas cavernas superiores, usando o Submundo como **passagem secreta subterrânea para cruzar as Montanhas Ocas por baixo**!
@@ -868,28 +878,28 @@ Os Grandes Clãs não mantêm cidades aqui devido à dificuldade de abrir Portai
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **As Fundições de Pedra Viva (*Oficina Principal de Nether*):**
    - *Atmosfera:* Um complexo monumental de plataformas de aço negro suspensas por correntes sobre um lago de magma calmo, cercado por milhares de estátuas inacabadas de cavaleiros, servas e monstros em fileiras silenciosas.
-   - *Ameaça & CD:* Sentinelas de pedra viva despertam ao som de metal (`CD 11`); passarelas estreitas exigem equilíbrio acima da lava (`Corpo [Agilidade]` CD 10).
+   - *Ameaça & CD:* Sentinelas de pedra viva despertam ao som de metal (`CD 11`); passarelas estreitas exigem equilíbrio acima da lava (`Corpo [Agilidade]` CD 8).
    - *Segredo & Recompensa:* No escritório central existem moldes para **Núcleos de Rubi Artificial** e ferramentas de reparo capazes de restaurar armaduras destruídas!
    - *Evento Vivo ao Chegar:* Uma forja secundária acendeu sozinha há minutos — revelando que alguém acabou de inserir um núcleo novo em uma das estátuas!
 2. **As Pontes de Obsidiana (*O Atalho Sob as Montanhas*):**
    - *Atmosfera:* Três arcos colossais de vidro vulcânico negro que atravessam um abismo de dois quilômetros preenchido por Escuridão Verdadeira líquida abaixo.
-   - *Ameaça & CD:* Visibilidade mínima nas extremidades, rajadas ascendentes de ar frio e gárgulas invisíveis que atacam de surpresa (`Mente [Astúcia]` CD 11).
+   - *Ameaça & CD:* Visibilidade mínima nas extremidades, rajadas ascendentes de ar frio e gárgulas invisíveis que atacam de surpresa (`Mente [Astúcia]` CD 9).
    - *Segredo & Recompensa:* É a rota estratégica mais valiosa do subsolo — ligando as encostas sul e norte sem precisar enfrentar a Névoa Branca da superfície!
    - *Evento Vivo ao Chegar:* Metade do arco central está bloqueada por uma barricada abandonada de mercenários com marcas recentes de garras negras!
 3. **O Lago do Sangue Negro (*Mar de Escuridão*):**
    - *Atmosfera:* Um mar plano como espelho escuro absoluto, onde ilhotas de obsidiana emergem silenciosas sob luz pálida de cristais distantes no teto.
-   - *Ameaça & CD:* Navegar nele exige barcas reforçadas e luz sagrada; criaturas aquáticas de sombra puxam remos e marinheiros para o fundo (`Corpo [Força]` CD 12).
+   - *Ameaça & CD:* Navegar nele exige barcas reforçadas e luz sagrada; criaturas aquáticas de sombra puxam remos e marinheiros para o fundo (`Corpo [Força]` CD 10).
    - *Segredo & Recompensa:* Nas ilhotas mais distantes repousam cadáveres petrificados de guerreiros da 4ª Era vestindo armaduras raras resistentes a magia!
    - *Evento Vivo ao Chegar:* Um farol prateado antigo pisca intermitentemente na ilhota do meio, como se pedisse socorro ou atraísse presas!
 4. **O Arquivo das Mil Escolhas:**
    - *Atmosfera:* Uma biblioteca semicircular escavada em basalto polido onde tabuletas gravadas narram a obsessão filosófica de Nether em criar seres com livre-arbítrio verdadeiro.
-   - *Ameaça & CD:* Portas com armadilhas de gás petrificante para quem força fechaduras sem responder aos enigmas gravados (`Mente [Conhecimento]` CD 11).
+   - *Ameaça & CD:* Portas com armadilhas de gás petrificante para quem força fechaduras sem responder aos enigmas gravados (`Mente [Conhecimento]` CD 9).
    - *Segredo & Recompensa:* Ensina segredos avançados de **Feitiçaria Rúnica** e revela como evoluir ou fortalecer **Ecos/Constructos de Pedra**!
    - *Evento Vivo ao Chegar:* Três estátuas de mármore debatem em silêncio usando placas gravadas — e viram a cabeça quando o portador de `[Divindade]` entra!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo no Submundo
 - **Canalizador & Artífice:** Mantêm lanternas sagradas ou runas solares acesas na vanguarda (`Alma`) para não deixar a Coorte cair cega dentro da *Escuridão Verdadeira*.
-- **Espectro & Olho de Falcão:** Ouvem vibrações nas rochas (`Mente [Astúcia]` CD 10) para prever *Vermes-Broca* subindo pelo chão de basalto antes que quebrem a formação!
+- **Espectro & Olho de Falcão:** Ouvem vibrações nas rochas (`Mente [Astúcia]` CD 8) para prever *Vermes-Broca* subindo pelo chão de basalto antes que quebrem a formação!
 - **Médico & Guardião da Fogueira:** Filtragem obrigatória de água mineral calcária e neutralização de gases sulfurosos com panos úmidos ou runas térmicas.
 - **Executor & Baluarte:** Carregam marretas ou armas pesadas capazes de rachar armaduras de ônix e rubi das estátuas despertas!
 
@@ -900,9 +910,9 @@ Os Grandes Clãs não mantêm cidades aqui devido à dificuldade de abrir Portai
   - **Rank & Classe:** *Diabo Caído* | **CD:** `12` | **PV:** `24` | **Parte Destrutível:** *Núcleo Peitoral de Rubi (8 PV)*.
   - **Tática:** Uma estátua colossal em armadura de ônix empunhando alabarda pesada (**2 de Dano**, *Empurrar*). Enquanto o **Núcleo Peitoral de Rubi** brilhar intacto, ele reduz todo Dano Físico recebido em 1!
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Reativar a ponte levadiça na guarita sul (`Mente [Conhecimento]` CD 10 ou quebrando as travas com `Corpo [Força]` CD 11) e silenciar os sentinelas do pátio.
+  1. Reativar a ponte levadiça na guarita sul (`Mente [Conhecimento]` CD 8 ou quebrando as travas com `Corpo [Força]` CD 9) e silenciar os sentinelas do pátio.
   2. Enfrentar o *General de Pedra* na forja central, usando *Mirar em Ponto Fraco* para estilhaçar o **Núcleo de Rubi** no peito (ou atraindo-o para os jatos de resfriamento hidráulico das caldeiras laterais!).
-  3. Apoiar a mão sobre a **Bigorna Central** com `[Brasa de Divindade]` ou `Alma (Canalizar)` **CD 11**, reacendendo a forja rúnica do subsolo e liberando um Portal seguro abaixo da cordilheira!
+  3. Apoiar a mão sobre a **Bigorna Central** com `[Brasa de Divindade]` ou `Alma (Canalizar)` **CD 9**, reacendendo a forja rúnica do subsolo e liberando um Portal seguro abaixo da cordilheira!
 - **Tesouro da Conquista:** Rende **20 Fragmentos Ascendidos** + a Memória **Alabarda da Bigorna Negra (Arma Ascendida Tier IV)**!
 - **Primeiro Desafio de Posse:** Um esquadrão de artífices do **Clã Valor** emerge de túneis adjacentes oferecendo parceria comercial exclusiva — ou ameaçando bloquear o atalho subterrâneo!
 
@@ -928,21 +938,23 @@ Os Grandes Clãs não mantêm cidades aqui devido à dificuldade de abrir Portai
 
 ### Clima, Geografia e Ecologia Detalhada
 Uma bacia verdejante e enganosamente pacífica onde dias claros, nuvens suaves e noites amenas lembram a Terra antiga — exceto pelo brilho vermelho que tinge as bordas do horizonte e pela lua monumental. No centro da bacia repousa o imenso **Lago Espelhado**, cujas águas são tão calmas, límpidas e perfeitamente planas que refletem o céu como mercúrio líquido. Em suas praias estende-se a vibrante metrópole comercial protegida pelo Clã Valor. Contudo, basta cavalgar poucas horas para além das torres de vigia para mergulhar nas temidas **Florestas Vermelhas**: selvas antigas de copas escarlates fechadas que devoram o som e se movem silenciosamente durante a madrugada.
-- **Água e Alimento:** A água das nascentes periféricas é pura e abundante. Já beber diretamente do Lago Espelhado é arriscado se o reflexo estiver ativo (`Mente [Vontade]` CD 9). Nas bordas seguras caçam-se bestas dóceis; dentro da selva rubra, cogumelos brilhantes e frutas exóticas podem ser altamente venenosos (`Sobrevivência` CD 10).
-- **Flora Hostil:** Nas Florestas Vermelhas, **as próprias plantas caçam**: raízes-laço arrastam cavalos para o subsolo, vinhas serrilhadas descem das copas e flores gigantes exalam pólen sonífero (`Corpo [Vigor]` CD 10 contra *Atordoado*).
+- **Água e Alimento:** A água das nascentes periféricas é pura e abundante. Já beber diretamente do Lago Espelhado é arriscado se o reflexo estiver ativo (`Mente [Vontade]` CD 7). Nas bordas seguras caçam-se bestas dóceis; dentro da selva rubra, cogumelos brilhantes e frutas exóticas podem ser altamente venenosos (`Sobrevivência` CD 8).
+- **Flora Hostil:** Nas Florestas Vermelhas, **as próprias plantas caçam**: raízes-laço arrastam cavalos para o subsolo, vinhas serrilhadas descem das copas e flores gigantes exalam pólen sonífero (`Corpo [Vigor]` CD 8 contra *Atordoado*).
+
+*Coorte de referência: **Adormecida** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem em Bastion & Florestas Vermelhas | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | **Enxame de Vespas de Sangue** | Adormecida — Besta | **8** | Injetam toxina paralisante e perseguem o cheiro de ferimentos abertos. |
-| **3** | **Matilha de 3 Lobos de Prata** | Desperta — Monstro | **9** | Caçadores velozes que flanqueiam pela retaguarda atacando os feridos. |
-| **4** | **Troll de Casca Vermelha** | Desperta — Demônio | **11** | Regenera 2 PV por rodada sob a sombra da selva (vulnerável a fogo!). |
-| **5** | **Clone Espelhado da Margem** | Caída — Diabo | **12** | Sai da água do Lago imitando a voz e a arma de um membro da Coorte! |
-| **6** | **Árvore-Caçadora Centenária** | Corrompida — Tirano | **13** | Move vinte tentáculos de madeira rubra prendendo toda uma caravana! |
+| **3** | **Matilha de 3 Lobos de Prata** | Desperta — Monstro | **9** | Caçadores velozes que flanqueiam pela retaguarda atacando os feridos. ⚠️ **Fuga/Evitar** *(Despertos contra Adormecidos: Ameaça ~12)* |
+| **4** | **Troll de Casca Vermelha** | Desperta — Demônio | **11** | Regenera 2 PV por rodada sob a sombra da selva (vulnerável a fogo!). 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 2× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. |
+| **5** | **Clone Espelhado da Margem** | Caída — Diabo | **12** | Sai da água do Lago imitando a voz e a arma de um membro da Coorte! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima)* |
+| **6** | **Árvore-Caçadora Centenária** | Corrompida — Tirano | **13** | Move vinte tentáculos de madeira rubra prendendo toda uma caravana! ⚠️ **Fuga/Evitar** *(Corrompida: 3 Ranks acima)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **A Dimensão Invertida do Lago Espelhado (*Obra de Mirage*):** A superfície do lago nem sempre reflete o **Castelo Real de Bastion** que está de pé diante dela: em certas noites, o reflexo mostra um castelo diferente — às vezes em ruínas, às vezes com torres que não existem —, e ninguém sabe ao certo qual dos dois é o verdadeiro.
-   - *Regra:* Qualquer personagem que encarar o próprio reflexo na água durante a noite ou sob neblina precisa passar em **`Mente (Vontade)` CD 10** para não sentir impulso irresistível de mergulhar para o "outro lado" ou ter seu lugar trocado por uma **Besta do Espelho**! Navegar até a ilha sem âncora rúnica exige `Mente (Astúcia)` **CD 11**.
-2. **As Árvores que Mudam de Lugar:** Dentro das Florestas Vermelhas, troncos deslocam suas raízes durante a madrugada. Sem um *Cartógrafo* experiente (`Mente [Astúcia]` CD 10) ou marcadores físicos em cada cruzamento, estradas abertas na véspera desaparecem pela manhã!
+   - *Regra:* Qualquer personagem que encarar o próprio reflexo na água durante a noite ou sob neblina precisa passar em **`Mente (Vontade)` CD 8** para não sentir impulso irresistível de mergulhar para o "outro lado" ou ter seu lugar trocado por uma **Besta do Espelho**! Navegar até a ilha sem âncora rúnica exige `Mente (Astúcia)` **CD 9**.
+2. **As Árvores que Mudam de Lugar:** Dentro das Florestas Vermelhas, troncos deslocam suas raízes durante a madrugada. Sem um *Cartógrafo* experiente (`Mente [Astúcia]` CD 8) ou marcadores físicos em cada cruzamento, estradas abertas na véspera desaparecem pela manhã!
 3. **A Lei Marcial da Capital:** Dentro das muralhas humanas de Bastion, o **Grande Clã Valor** mantém vigilância férrea de cavaleiros. Sacar Memórias letais na rua sem desafio formal resulta em captura imediata (`CD 12` contra oficiais Ascendidos!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
@@ -951,7 +963,7 @@ Esta é a **Capital Imperial do Grande Clã Valor** e o maior centro de comérci
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **A Cidade Externa e a Grande Casa de Leilões da Forja:**
    - *Atmosfera:* Ruas pavimentadas de pedra clara, oficinas onde bigornas cantam dia e noite, bandeiras escarlates de Valor e mercados vibrantes cheios de caçadores exibindo troféus.
-   - *Ameaça & CD:* Batedores de carteira da periferia, intrigas aristocráticas (`Coração [Enganar/Convencer]` CD 10) e espiões buscando quem carrega relíquias não declaradas.
+   - *Ameaça & CD:* Batedores de carteira da periferia, intrigas aristocráticas (`Coração [Enganar/Convencer]` CD 8) e espiões buscando quem carrega relíquias não declaradas.
    - *Segredo & Recompensa:* O melhor lugar do atlas para vender Cristais de Alma por preço justo, contratar ferreiros para aprimorar equipamentos e comprar **Memórias Tier II–IV**.
    - *Evento Vivo ao Chegar:* Um leilão extraordinário de uma **Bolsa Dimensional** acaba de começar — e um comprador mascarado suspeito tenta sabotar a concorrência!
 2. **O Castelo Real de Bastion (*O Palácio nos Espelhos*):**
@@ -961,32 +973,32 @@ Esta é a **Capital Imperial do Grande Clã Valor** e o maior centro de comérci
    - *Evento Vivo ao Chegar:* A superfície do lago forma uma onda circular perfeita ao meio-dia, e uma figura ferida usando o brasão do **Clã Pluma Branca** sai cambaleando da água!
 3. **O Santuário das Árvores Vermelhas (*Ruína do Deus do Coração*):**
    - *Atmosfera:* Uma clareira silenciosa profundamente escondida na selva leste, onde uma gigantesca Árvore Mãe de casca branca e folhas carmesins protege o solo da corrupção ao redor.
-   - *Ameaça & CD:* Guardada por ilusões nascidas das lembranças culposas dos próprios jogadores (`Mente [Vontade]` CD 11).
+   - *Ameaça & CD:* Guardada por ilusões nascidas das lembranças culposas dos próprios jogadores (`Mente [Vontade]` CD 9).
    - *Segredo & Recompensa:* Produz gotas de **Seiva Branca Pura** capazes de curar **Dano de Alma** e revelar memórias esquecidas da 2ª Era!
    - *Evento Vivo ao Chegar:* Folhas vermelhas giram em espiral formando nomes de guerreiros desaparecidos na casca branca do tronco!
 4. **As Minas de Ferro Estelar do Oeste:**
    - *Atmosfera:* Galerias reforçadas com vigas de aço nas colinas ocidentais, iluminadas por lanternas rúnicas e guardadas por vassalos de Valor.
-   - *Ameaça & CD:* Túneis profundos são frequentemente invadidos por *Vermes Escavadores* (`CD 10`) e sabotadores disfarçados de Song (`Astúcia` CD 11).
+   - *Ameaça & CD:* Túneis profundos são frequentemente invadidos por *Vermes Escavadores* (`CD 10`) e sabotadores disfarçados de Song (`Astúcia` CD 9).
    - *Segredo & Recompensa:* Paga ótimos contratos em Fragmentos para coortes que aceitem limpar galerias infestadas ou escoltar vagões de minério até a cidade.
    - *Evento Vivo ao Chegar:* O poço número 4 desabou revelando uma galeria antiga com veios azul-prateados e gritos presos lá dentro!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo em Bastion & Florestas
-- **Cartógrafo & Espectro:** Fazem marcas físicas de corte ou tinta rúnica nos troncos a cada 200 metros (`Mente [Astúcia]` CD 10) para não perder a trilha quando a Floresta Vermelha se desloca à noite!
-- **Oráculo & Médico:** Vigiam as margens do Lago Espelhado durante descansos (`Mente [Vontade]` CD 10) e preparam antídotos contra pólen sonífero e veneno de *Vespas de Sangue*.
+- **Cartógrafo & Espectro:** Fazem marcas físicas de corte ou tinta rúnica nos troncos a cada 200 metros (`Mente [Astúcia]` CD 8) para não perder a trilha quando a Floresta Vermelha se desloca à noite!
+- **Oráculo & Médico:** Vigiam as margens do Lago Espelhado durante descansos (`Mente [Vontade]` CD 8) e preparam antídotos contra pólen sonífero e veneno de *Vespas de Sangue*.
 - **Executor & Canalizador:** Mantêm armas de fogo ou óleo inflamável prontos para queimar *Trolls de Casca Vermelha* e vinhas estranguladoras antes que regenerem.
 - **Negociador (*Coração*):** Conduz trocas nas guildas de ferreiros da Cidade Externa para obter descontos e contratos bem pagos sem ofender cavaleiros de Valor!
 
 ### 🏰 A Cidadela Conquistável — *A Torre dos Espinhos Rubros (Fronteira Leste)*
 *(Nota Sandbox: Como a capital Bastion pertence ao Clã Valor, esta Cidadela perdida nas profundezas da Floresta Vermelha leste oferece à Coorte uma fortaleza estratégica própria a apenas dois dias de marcha do maior mercado do Reino dos Sonhos!)*
 - **Localização:** Escondida sob um dossel sufocante de árvores carmesins a 40 quilômetros a leste do Lago Espelhado, tomada por cipós gigantes há séculos e apagada dos mapas atuais de Valor.
-- **Defesas & Guarnição Secundária:** Fosso natural de espinhos venenosos (`Corpo [Vigor]` CD 10 contra *Envenenado*) e um bosque interno patrulhado por **3 Lobos de Prata (CD 9)** e raízes vivas que fecham o portão ao anoitecer.
+- **Defesas & Guarnição Secundária:** Fosso natural de espinhos venenosos (`Corpo [Vigor]` CD 8 contra *Envenenado*) e um bosque interno patrulhado por **3 Lobos de Prata (CD 9)** e raízes vivas que fecham o portão ao anoitecer.
 - **Chefe Guardião — *O Alce-Arbóreo de Sangue*:**
   - **Rank & Classe:** *Diabo Desperto* | **CD:** `11` | **PV:** `22` | **Parte Destrutível:** *Galhada Rúnica Viva (8 PV)*.
   - **Tática:** Uma criatura colossal de madeira-ferro, musgo vermelho e olhos âmbar que faz raízes brotarem sob os arqueiros (**2 de Dano**, *Imobilizado*) e regenera 2 PV por turno até sua *Galhada Rúnica* ser partida ou queimada!
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Cortar ou incendiar os nós principais da cerca viva externa (`Corpo [Força]` ou `Alma [Evocar]` CD 10) e derrotar a matilha guardiã.
+  1. Cortar ou incendiar os nós principais da cerca viva externa (`Corpo [Força]` ou `Alma [Evocar]` CD 8) e derrotar a matilha guardiã.
   2. Enfrentar o *Alce-Arbóreo* no pátio da torre usando fogo ou ataques em *Ponto Fraco* contra sua galhada para parar a cura vegetal.
-  3. Queimar o coração parasitário enrolado ao **Altar da Torre** e canalizar `1 Ponto de Essência` (`Alma [Canalizar]` CD 9), despertando um Portal discreto e valioso fora da vista imediata de Valor!
+  3. Queimar o coração parasitário enrolado ao **Altar da Torre** e canalizar `1 Ponto de Essência` (`Alma [Canalizar]` CD 7), despertando um Portal discreto e valioso fora da vista imediata de Valor!
 - **Tesouro da Conquista:** Rende **15 Fragmentos Despertos** + a Memória **Arco das Raízes Carmesins (Arma Desperta Tier III)**!
 - **Primeiro Desafio de Posse:** Uma comitiva de cavaleiros de um Clã Vassalo vizinho descobre a fumaça do portal reativado e aparece para negociar pedágio ou testar a força dos novos senhores!
 
@@ -996,7 +1008,7 @@ Esta é a **Capital Imperial do Grande Clã Valor** e o maior centro de comérci
 2. *Sabotagem na Estrada do Ferro:* Um comboio blindado carregado de aço estelar para a forja de Valor desapareceu nas Florestas Vermelhas.
    - *Reviravolta & Recompensa:* Rastrear o roubo coloca os 7 jogadores no meio de uma guerra secreta entre cavaleiros e assassinas de Song — escolha quem entregar ganha `+1 Reputação`!
 3. *A Visita do Emissário:* Uma semana depois de a Coorte conquistar a *Torre dos Espinhos Rubros*, uma comitiva de Valor bate ao portão propondo aliança.
-   - *Reviravolta & Recompensa:* Recusar submissão feudal sem criar guerra exige astúcia diplomática (`Coração [Convencer]` CD 11) ou troca por escolta nas minas!
+   - *Reviravolta & Recompensa:* Recusar submissão feudal sem criar guerra exige astúcia diplomática (`Coração [Convencer]` CD 9) ou troca por escolta nas minas!
 
 ---
 
@@ -1012,21 +1024,23 @@ Esta é a **Capital Imperial do Grande Clã Valor** e o maior centro de comérci
 
 ### Clima, Geografia e Ecologia Detalhada
 Uma terra gótica, austera e hipnotizante onde vulcões gigantescos vomitam colunas constantes de fumaça negra contra um céu tingido de cobre e sangue. Por centenas de quilômetros estendem-se as **Planícies de Cinza**, um deserto sombrio de pó preto vitrificado cortado por fissuras de magma líquido e ossadas colossais de monstros da Guerra da Perdição. A capital **Ravenheart** agarra-se à encosta de uma montanha nevada, à beira de um abismo sem fundo e ligada a um vulcão por uma imensa ponte de pedra. No alto ergue-se o **Palácio de Jade**, negro como obsidiana por fora após milênios de cinza e ainda branco por dentro; abaixo dele, os bairros escalonados espalham-se entre as **costelas fossilizadas de uma criatura titânica**, com pontes pênseis e lanternas vermelhas.
-- **Água e Alimento:** Água limpa da superfície é escassa e frequentemente contaminada por enxofre; poços potáveis só existem em cavernas profundas ou destiladores rúnicos nas caravanas de Song (`Sobrevivência` CD 9 para filtrar). A carne de javalis vulcânicos e bodes de basalto é dura, mas extremamente nutritiva.
+- **Água e Alimento:** Água limpa da superfície é escassa e frequentemente contaminada por enxofre; poços potáveis só existem em cavernas profundas ou destiladores rúnicos nas caravanas de Song (`Sobrevivência` CD 7 para filtrar). A carne de javalis vulcânicos e bodes de basalto é dura, mas extremamente nutritiva.
 - **Flora Hostil:** Arbustos espinhosos negros que florescem em cinza quente e soltam seiva inflamável se cortados com fogo, além de fungos sanguíneos parasitas que crescem sobre carcaças abandonadas.
+
+*Coorte de referência: **Adormecida** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem em Ravenheart & Planícies | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | **Bando de 4 Corvos de Sangue** | Adormecida — Besta | **8** | Vigiam estradas e bicam os olhos de viajantes caídos ou distraídos. |
-| **3** | **2 Javalis de Carvão Furiosos** | Desperta — Monstro | **9** | Investem através da fumaça com presas incandescentes (*Queimando*). |
-| **4** | **Salamandra Ígnea das Fendas** | Desperta — Demônio | **11** | Emerge de rios de lava próxima atirando bolas de escória derretida. |
-| **5** | **Marionete Desgarrada de Osso** | Caída — Diabo | **12** | Um cadáver gigantesco reanimado que perdeu o mestre e ataca tudo vivo! |
-| **6** | **Serpe / Dragão de Cinza** | Corrompida — Tirano | **13** | Mergulha de tempestades de fumaça envolvendo a área em cinza sufocante. |
+| **3** | **2 Javalis de Carvão Furiosos** | Desperta — Monstro | **9** | Investem através da fumaça com presas incandescentes (*Queimando*). ⚠️ **Fuga/Evitar** *(Despertos contra Adormecidos: Ameaça ~8)* |
+| **4** | **Salamandra Ígnea das Fendas** | Desperta — Demônio | **11** | Emerge de rios de lava próxima atirando bolas de escória derretida. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 2× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. |
+| **5** | **Marionete Desgarrada de Osso** | Caída — Diabo | **12** | Um cadáver gigantesco reanimado que perdeu o mestre e ataca tudo vivo! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima)* |
+| **6** | **Serpe / Dragão de Cinza** | Corrompida — Tirano | **13** | Mergulha de tempestades de fumaça envolvendo a área em cinza sufocante. ⚠️ **Fuga/Evitar** *(Corrompida: 3 Ranks acima)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **Tempestades de Cinza e Fumaça Sulfurosa:** Erupções distantes lançam nuvens negras quentes sobre as planícies por horas seguidas.
-   - *Regra:* Viajar sem proteção respiratória durante uma tempestade de cinza exige **`Corpo (Vigor)` CD 10** por hora para não sofrer **1 de Dano de Calor/Asfixia** e ficar *Cego* além da faixa *Perto*!
-2. **Bolsões Ocultos de Cinza Brasa (*Areia Movediça Vulcânica*):** Depressões suaves de cinza fofa escondem camadas de brasa viva logo abaixo. O batedor da fila precisa rolar `Mente (Astúcia)` **CD 9** para notar a distorção do calor antes de afundar (`Corpo [Força]` CD 10 para puxar aliado antes de sofrer **2 Dano de Fogo**!).
+   - *Regra:* Viajar sem proteção respiratória durante uma tempestade de cinza exige **`Corpo (Vigor)` CD 8** por hora para não sofrer **1 de Dano de Calor/Asfixia** e ficar *Cego* além da faixa *Perto*!
+2. **Bolsões Ocultos de Cinza Brasa (*Areia Movediça Vulcânica*):** Depressões suaves de cinza fofa escondem camadas de brasa viva logo abaixo. O batedor da fila precisa rolar `Mente (Astúcia)` **CD 7** para notar a distorção do calor antes de afundar (`Corpo [Força]` CD 8 para puxar aliado antes de sofrer **2 Dano de Fogo**!).
 3. **A Lei do Sangue e da Carne (*Domínio de Song*):** Nas terras próximas a Ravenheart, cadáveres não cremados de monstros ou humanos raramente descansam em paz — podem ser erguidos por espiões necromânticos de Song ou infestados por parasitas necróticos em poucas horas!
 
 ### Facções, Sobreviventes e Vestígios Humanos
@@ -1045,17 +1059,17 @@ Esta região é o coração sombrio do **Grande Clã Song**. A paisagem social �
    - *Evento Vivo ao Chegar:* Duas bestas colossais disputam o território na borda do crânio, deixando a descida central momentaneamente desprotegida!
 3. **O Cemitério dos Comboios de Ferro:**
    - *Atmosfera:* Um vale de vidro vulcânico negro repleto de carruagens metálicas retorcidas e ossos espalhados de uma antiga batalha clandestina entre tropas de Valor e Song.
-   - *Ameaça & CD:* Infestado por carniçais que se escondem dentro das carcaças blindadas (`Mente [Astúcia]` CD 10) e minas rúnicas antigas ainda armadas!
+   - *Ameaça & CD:* Infestado por carniçais que se escondem dentro das carcaças blindadas (`Mente [Astúcia]` CD 8) e minas rúnicas antigas ainda armadas!
    - *Segredo & Recompensa:* Caçadores de sucata ainda escavam armas de aço de Valor e **Fragmentos esquecidos** soterrados sob as cinzas.
    - *Evento Vivo ao Chegar:* Uma equipe de saqueadores disparou uma mina térmica antiga e está cercada por cães de cinza famintos!
 4. **As Termas Negras de Enxofre:**
    - *Atmosfera:* Um desfiladeiro escondido aquecido por piscinas negras fumegantes onde mercenários da **Aliança Livre** e desertores montaram um posto comercial neutro longe do olho direto da corte central.
-   - *Ameaça & CD:* Negociações tensas (`Coração [Intimidar/Convencer]` CD 10); duelos no pátio externo são permitidos para resolver dívidas!
+   - *Ameaça & CD:* Negociações tensas (`Coração [Intimidar/Convencer]` CD 8); duelos no pátio externo são permitidos para resolver dívidas!
    - *Segredo & Recompensa:* Ponto perfeito para conseguir rumores quentes do submundo, mapas piratas de regiões ao sul e suprimentos de viagem sem perguntas.
    - *Evento Vivo ao Chegar:* Um ferreiro manco anuncia na taverna que reforja Memórias Quebradas para quem trouxer um coração de magma fresco!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo em Ravenheart & Cinzas
-- **Batedor & Cartógrafo (*Espectro / Olho de Falcão*):** Toca o chão com bastões de ferro antes de pisar para detectar bolsões quentes de cinza brasa (`Mente [Astúcia]` CD 9).
+- **Batedor & Cartógrafo (*Espectro / Olho de Falcão*):** Toca o chão com bastões de ferro antes de pisar para detectar bolsões quentes de cinza brasa (`Mente [Astúcia]` CD 7).
 - **Médico & Cozinheiro:** Mantêm máscaras úmidas contra enxofre e purificam água ácida usando sais alquímicos comprados nas caravanas ou em Ravenheart.
 - **Guardião da Fogueira & Baluarte:** Queimam ou enterram fundo qualquer cadáver de monstro abatido antes que parasitas necróticos locais ou espiões de Song os reanimem contra o acampamento!
 - **Oráculo & Diplomata:** Sabem falar com reverência diante das cortes matriarcais de Song, evitando insultos mortais por falta de etiqueta gótica.
@@ -1063,14 +1077,14 @@ Esta região é o coração sombrio do **Grande Clã Song**. A paisagem social �
 ### 🏰 A Cidadela Conquistável — *A Fortaleza da Caldeira Negra*
 *(Nota Sandbox: Uma antiga torre de vigia fronteiriça construída sobre um tubo de lava resfriado ao sul das Planícies de Cinza, abandonada quando seu clã vassalo foi destruído numa erupção e hoje ocupada por predadores vulcânicos).*
 - **Localização:** Encravada no anel externo de um vulcão secundário a três dias de carruagem a sudoeste de Ravenheart.
-- **Defesas & Guarnição Secundária:** Muralhas lisas de obsidiana quase impossíveis de escalar sem ganchos rúnicos (`Corpo [Agilidade]` CD 11), fosso de magma ativo ao norte e pátio inferior guardado por **3 Salamandras Ígneas (CD 11)**.
+- **Defesas & Guarnição Secundária:** Muralhas lisas de obsidiana quase impossíveis de escalar sem ganchos rúnicos (`Corpo [Agilidade]` CD 9), fosso de magma ativo ao norte e pátio inferior guardado por **3 Salamandras Ígneas (CD 11)**.
 - **Chefe Guardião — *A Hidra de Obsidiana e Cinza*:**
   - **Rank & Classe:** *Tirano Desperto* | **CD:** `11` | **PV:** `25` | **Partes Destrutíveis:** *3 Cabeças Independentes (8 PV cada)*.
   - **Tática:** Uma serpente vulcânica de três cabeças cujo sangue derrete aço! Cada cabeça ativa permite **1 sopro ou mordida extra por turno** (**2 de Dano de Fogo**, *Queimando* em `CD Exata`).
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Infiltrar-se pelos dutos inferiores de lava seca (`Mente [Astúcia]` CD 10) para contornar os gêiseres explosivos do portão frontal e limpar as salamandras.
+  1. Infiltrar-se pelos dutos inferiores de lava seca (`Mente [Astúcia]` CD 8) para contornar os gêiseres explosivos do portão frontal e limpar as salamandras.
   2. Enfrentar a *Hidra* no salão central da caldeira, priorizando focar ataques para decepar sua **Cabeça Central de Magma (8 PV)** e interromper o sopro em área contra os atiradores!
-  3. Quebrar a crosta de escória endurecida sobre a **Fonte Rúnica do Pátio** e canalizar **10 Fragmentos ou 3 Pontos de Essência** (`Alma [Canalizar]` CD 10), reativando o Portal ao sul das planícies!
+  3. Quebrar a crosta de escória endurecida sobre a **Fonte Rúnica do Pátio** e canalizar **10 Fragmentos ou 3 Pontos de Essência** (`Alma [Canalizar]` CD 8), reativando o Portal ao sul das planícies!
 - **Tesouro da Conquista:** Rende **16 Fragmentos Despertos** + a Memória **Escudo de Obsidiana Vulcânica (Armadura/Escudo Desperto Tier IV)**!
 - **Primeiro Desafio de Posse:** Uma *Princesa de Song* envia batedores para "parabenizar" a Coorte e oferecer proteção tributária contra futuros ataques de Valor!
 
@@ -1096,22 +1110,24 @@ Esta região é o coração sombrio do **Grande Clã Song**. A paisagem social �
 
 ### Clima, Geografia e Ecologia Detalhada
 Um oceano infinito de dunas alvas que cegam os olhos desprotegidos sob um sol branco implacável, onde o vento uiva como milhares de lamentos. O segredo mais macabro dessa paisagem é sentido ao tocar o chão: **não há um único grão de areia mineral aqui — toda a superfície branca do deserto é osso antigo pulverizado** por milênios de carnificina da Guerra da Perdição! Quando o sol desaba no horizonte, a temperatura despenca abaixo de zero e o próprio pó branco começa a vibrar e erguer-se como uma maré viva.
-- **Água e Alimento:** Praticamente inexistentes na superfície. Nenhuma fonte natural sobrevive ao calor branco; sobreviver exige carregar suprimentos rúnicos/dimensionais de água ou encontrar **poços selados em catacumbas antigas** (`Mente [Astúcia]` CD 11).
+- **Água e Alimento:** Praticamente inexistentes na superfície. Nenhuma fonte natural sobrevive ao calor branco; sobreviver exige carregar suprimentos rúnicos/dimensionais de água ou encontrar **poços selados em catacumbas antigas** (`Mente [Astúcia]` CD 9).
 - **Flora Hostil:** Apenas cactos secos e pálidos em fendas de pedra sombreadas, cujos espinhos injetam veneno coagulante que faz o sangue secar rápido ao sol.
+
+*Coorte de referência: **Ascendida** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem no Deserto dos Pesadelos | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | **3 Escorpiões de Marfim Gigantes** | Caída — Besta | **10** | Escondem-se sob a areia branca esperando o passo da fila dianteira! |
-| **3** | **Bando de Abutres de Obsidiana** | Caída — Monstro | **11** | Voam em círculos esperando cansaço por sede antes de mergulhar nos olhos. |
+| **3** | **Bando de Abutres de Obsidiana** | Caída — Monstro | **11** | Voam em círculos esperando cansaço por sede antes de mergulhar nos olhos. ⚖️ *Acima do Orçamento (Ameaça ~12 com 3 abutres: comece com 2)* |
 | **4** | **Verme das Dunas de Ossos** | Corrompida — Demônio | **12** | Engole montarias e carruagens de baixo para cima levantando gêiseres brancos! |
-| **5** | **Esqueleto Campeão Desgarrado** *(Crepúsculo)* | Corrompida — Diabo | **13** | Continua caçando mesmo após o amanhecer usando armadura intacta antiga. |
-| **6** | **Maré da Guerra Eterna (Noite!)** | Grande a Profana | **14+** | Exércitos infinitos que remontam em `1d6` rodadas; **FUJA PARA UM ABRIGO!** |
+| **5** | **Esqueleto Campeão Desgarrado** *(Crepúsculo)* | Corrompida — Diabo | **13** | Continua caçando mesmo após o amanhecer usando armadura intacta antiga. ⚠️ **Fuga/Evitar** *(Corrompida — Diabo: Ameaça ~9 > 7)* |
+| **6** | **Maré da Guerra Eterna (Noite!)** | Grande a Profana | **14+** | Exércitos infinitos que remontam em `1d6` rodadas; **FUJA PARA UM ABRIGO!** ⚠️ **Fuga/Evitar** *(Grande a Profana)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **A Guerra Eterna da Noite (Regra Letal):** Assim que o último raio do sol se apaga, bilhões de partículas de osso juntam-se formando **dois exércitos infinitos de esqueletos e espectros de guerra imortais** (Ranks *Caído* a *Amaldiçoado*), massacrando-se mutuamente — e a qualquer ser vivo na superfície!
-   - *Regra:* Qualquer grupo apanhado a céu aberto à noite enfrenta ondas intermináveis (**CD 12 a CD 14**) — monstros destruídos simplesmente remontam-se da areia em `1d6` rodadas! Sobreviver exige localizar e selar um **abrigo subterrâneo ou ruína fechada antes do crepúsculo** (`Mente [Astúcia]` CD 11)!
-2. **Insolação Branca e Cegueira de Reflexo:** O sol branco sobre dunas alvas dobra a perda de água. Sem véus protetores e cantis rúnicos, cada dia exige **`Corpo (Vigor)` CD 11** para não sofrer **1 de Dano** e Desvantagem até encontrar sombra fechada.
-3. **Tempestades de Poeira Óssea:** Ventos súbitos erguem muralhas brancas cortantes que riscam placas metálicas e cegam batedores (`Corpo [Vigor]` CD 10 contra *Cego* e *Sangrando* sem tenda blindada).
+   - *Regra:* Qualquer grupo apanhado a céu aberto à noite enfrenta ondas intermináveis (**CD 12 a CD 14**) — monstros destruídos simplesmente remontam-se da areia em `1d6` rodadas! Sobreviver exige localizar e selar um **abrigo subterrâneo ou ruína fechada antes do crepúsculo** (`Mente [Astúcia]` CD 9)!
+2. **Insolação Branca e Cegueira de Reflexo:** O sol branco sobre dunas alvas dobra a perda de água. Sem véus protetores e cantis rúnicos, cada dia exige **`Corpo (Vigor)` CD 9** para não sofrer **1 de Dano** e Desvantagem até encontrar sombra fechada.
+3. **Tempestades de Poeira Óssea:** Ventos súbitos erguem muralhas brancas cortantes que riscam placas metálicas e cegam batedores (`Corpo [Vigor]` CD 8 contra *Cego* e *Sangrando* sem tenda blindada).
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **expedições militares de elite de Valor e Song** (que avançam correndo de abrigo subterrâneo em abrigo tentando cercar ou alcançar a Pirâmide Negra) e por **caçadores de relíquias de Rank Ascendido/Transcendente** em busca de armaduras e armas divinas soterradas há eras.
@@ -1124,7 +1140,7 @@ Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **e
    - *Evento Vivo ao Chegar:* Uma bandeira rasgada do Clã Valor acena do alto da torre mais inclinada — alguém está preso dentro do poço inferior cercado por múmias!
 2. **Os Pilares da Batalha Antiga:**
    - *Atmosfera:* Um círculo solitário de sete colunas de pedra negra rachadas onde armas colossais da Guerra da Perdição ainda estão cravadas no chão vítreo.
-   - *Ameaça & CD:* A areia de osso *recusa-se* a tocar a área interna (formando um refúgio silencioso no meio da batalha noturna!), mas o ar vibra com ecos psíquicos violentos (`Mente [Vontade]` CD 11 contra *Atordoado*).
+   - *Ameaça & CD:* A areia de osso *recusa-se* a tocar a área interna (formando um refúgio silencioso no meio da batalha noturna!), mas o ar vibra com ecos psíquicos violentos (`Mente [Vontade]` CD 9 contra *Atordoado*).
    - *Segredo & Recompensa:* Inscrições rúnicas nas bases contam feitos da Guerra da Perdição e fragmentos de Nomes Primordiais!
    - *Evento Vivo ao Chegar:* Um choque elétrico azulado percorre duas das lanças gigantes indicando a aproximação de uma tempestade de poeira óssea!
 3. **A Pirâmide Branca Deslizante:**
@@ -1134,14 +1150,14 @@ Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **e
    - *Evento Vivo ao Chegar:* A ponta branca acabou de romper a duna a apenas 300 metros da Coorte após um vendaval súbito!
 4. **As Catacumbas dos Ossos Cantantes:**
    - *Atmosfera:* Um labirinto subterrâneo escavado abaixo das dunas onde esqueletos antigos foram fundidos às paredes, emitindo um zumbido constante quando o vento sopra na superfície.
-   - *Ameaça & CD:* Túneis estreitos sem luz, ar estagnado (`Vigor` CD 10) e parasitas comedores de medula (`CD 11`).
+   - *Ameaça & CD:* Túneis estreitos sem luz, ar estagnado (`Vigor` CD 8) e parasitas comedores de medula (`CD 11`).
    - *Segredo & Recompensa:* Rota subterrânea secreta que permite caminhar dezenas de quilômetros **mesmo durante a noite mortal** sem subir à superfície!
    - *Evento Vivo ao Chegar:* Os ossos da parede esquerda mudam subitamente de tom grave para agudo — alertando que um *Verme das Dunas* passa logo acima!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo no Deserto dos Pesadelos
 - **Oráculo & Vigia:** Marcam exatamente as horas até o pôr do sol para garantir que o grupo encontre e sele um abrigo subterrâneo **1 hora antes** do crepúsculo!
 - **Canalizador & Artífice:** Usam *Runas de Purificação Térmica* dentro de tendas ou selam frestas de portas subterrâneas contra invasão de esqueletos à noite.
-- **Médico & Cozinheiro:** Racionam cantis rúnicos e preparam óculos/véus de pano úmido contra o reflexo solar cegante na areia branca de ossos (`Vigor` CD 11).
+- **Médico & Cozinheiro:** Racionam cantis rúnicos e preparam óculos/véus de pano úmido contra o reflexo solar cegante na areia branca de ossos (`Vigor` CD 9).
 - **Baluarte & Executor:** Mantêm posição defensiva nas entradas estreitas das ruínas caso esqueletos retardatários consigam forçar a comporta antes da madrugada.
 
 ### 🏰 A Cidadela Conquistável — *O Oásis da Esfinge Subterrânea*
@@ -1151,9 +1167,9 @@ Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **e
   - **Rank & Classe:** *Tirano Caído* | **CD:** `13` | **PV:** `28` | **Característica:** Desfaz-se em poeira ao receber golpes físicos comuns se não estiver molhado ou preso!
   - **Tática:** Ergue **2 Guerreiros de Areia (CD 9)** a cada 2 rodadas e dispara jatos abrasivos de osso pulverizado (**2 de Dano**, *Cego* em `CD Exata`).
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Decifrar o disco de horário solar no peito da esfinge (`Mente [Conhecimento]` CD 10) para abrir a comporta antes que o crepúsculo chegue e derrotar a guarda da escada.
+  1. Decifrar o disco de horário solar no peito da esfinge (`Mente [Conhecimento]` CD 8) para abrir a comporta antes que o crepúsculo chegue e derrotar a guarda da escada.
   2. Lutar contra o *Faraó* no salão da nascente — usando água da própria fonte (ou habilidades elementais de água/gelo) para solidificar suas bandagens e anular sua forma de areia!
-  3. Mergulhar a mão na fonte sagrada e tocar a pedra rúnica no fundo (`Alma [Canalizar]` CD 11), reivindicando o oásis mais valioso de todo o deserto!
+  3. Mergulhar a mão na fonte sagrada e tocar a pedra rúnica no fundo (`Alma [Canalizar]` CD 9), reivindicando o oásis mais valioso de todo o deserto!
 - **Tesouro da Conquista:** Rende **22 Fragmentos Ascendidos** no sarcófago + a Memória **Mortalha Solar do Oásis (Armadura Ascendida Tier IV)**!
 - **Primeiro Desafio de Posse:** Na noite seguinte, uma expedição ferida de Ascendidos de Song (ou de Valor) bate desesperada na comporta externa pedindo abrigo contra a Guerra Eterna — por qualquer preço!
 
@@ -1179,23 +1195,25 @@ Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **e
 
 ### Clima, Geografia e Ecologia Detalhada
 Por fora, parece uma pirâmide negra perfeita de pedra titânica construída por **Ariel, o Demônio do Medo**, a partir da carcaça de um Titã Profano morto na aurora dos tempos. Contudo, cruzar suas portas não leva a corredores escuros — leva a um **oceano fluvial espiralado infinito dentro da pirâmide**: o **Grande Rio**, uma correnteza oceânica de águas iridescentes com centenas de quilômetros de largura, iluminada por sete sóis brancos que orbitam o teto abobadado do mundo interno.
-- **Água e Alimento:** A água do Grande Rio pode ser bebida após fervura simples fora das áreas corrompidas do Estuário. As ilhas flutuantes de musgo e as vilas sobre carapaças cultivam frutas tropicais, raízes aquáticas e pescam peixes luminosos (`Sobrevivência` CD 9).
-- **Flora Hostil:** Bancos flutuantes de algas carnívoras negras que agarram remos e cascos, e flores brancas cujos esporos causam amnésia temporária (`Mente [Vontade]` CD 10).
+- **Água e Alimento:** A água do Grande Rio pode ser bebida após fervura simples fora das áreas corrompidas do Estuário. As ilhas flutuantes de musgo e as vilas sobre carapaças cultivam frutas tropicais, raízes aquáticas e pescam peixes luminosos (`Sobrevivência` CD 7).
+- **Flora Hostil:** Bancos flutuantes de algas carnívoras negras que agarram remos e cascos, e flores brancas cujos esporos causam amnésia temporária (`Mente [Vontade]` CD 8).
+
+*Coorte de referência: **Ascendida** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem no Grande Rio (Tumba de Ariel) | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
-| **1–2** | **Cardume de Piranhas-Lâmina Iridescentes** | Caída — Besta | **10** | Roem madeira de cascos e atacam qualquer mão ou corda na água! |
-| **3** | **2 Sereias da Verdade** | Caída — Monstro | **11** | Cantam segredos dolorosos sobre o Defeito de cada jogador (`Vontade` CD 11). |
+| **1–2** | **Cardume de Piranhas-Lâmina Iridescentes** | Caída — Besta | **10** | Roem madeira de cascos e atacam qualquer mão ou corda na água! ⚖️ *Acima do Orçamento (Ameaça ~8: trate como Horda)* |
+| **3** | **2 Sereias da Verdade** | Caída — Monstro | **11** | Cantam segredos dolorosos sobre o Defeito de cada jogador (`Vontade` CD 9). ⚖️ *Acima do Orçamento (Ameaça ~8: a 2ª canta só na rodada 2)* |
 | **4** | **Serpente Temporal de Escamas Prateadas** | Corrompida — Demônio | **12** | Desaparece 1 segundo no futuro e reaparece atrás do Timoneiro! |
-| **5** | **Navio-Fantasma de Buscadores Profanos** | Corrompida — Diabo | **13** | Tripulado por antigos exploradores enlouquecidos pela Praga do Estuário. |
-| **6** | **Leviatã das Sete Correntezas** | Grande — Terror | **14** | Emerge das profundezas criando redemoinhos que arrastam navios para o Passado! |
+| **5** | **Navio-Fantasma de Buscadores Profanos** | Corrompida — Diabo | **13** | Tripulado por antigos exploradores enlouquecidos pela Praga do Estuário. ⚠️ **Fuga/Evitar** *(Corrompida — Diabo: Ameaça ~9 > 7)* |
+| **6** | **Leviatã das Sete Correntezas** | Grande — Terror | **14** | Emerge das profundezas criando redemoinhos que arrastam navios para o Passado! ⚠️ **Fuga/Evitar** *(Grande: 2 Ranks acima)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **A Correnteza do Tempo (Futuro vs. Passado):** O Grande Rio não flui apenas sobre pedra — ele corre através da **linha temporal da Tumba**!
-   - *Regra:* **Navegar rio abaixo** (seguindo a correnteza) transporta o navio rumo ao **Passado**; **navegar rio acima** (remando ou veleando contra a correnteza!) impulsiona a Coorte rumo ao **Futuro**! Viajar sem um *Navegador Temporal* (`Mente [Conhecimento]` CD 12) arrisca cair em **Loops Temporais** ou atracar numa ilha décadas antes da própria partida!
+   - *Regra:* **Navegar rio abaixo** (seguindo a correnteza) transporta o navio rumo ao **Passado**; **navegar rio acima** (remando ou veleando contra a correnteza!) impulsiona a Coorte rumo ao **Futuro**! Viajar sem um *Navegador Temporal* (`Mente [Conhecimento]` CD 10) arrisca cair em **Loops Temporais** ou atracar numa ilha décadas antes da própria partida!
 2. **A Praga dos Sussurros (*A Verdade Enterrada de Ariel*):** Quanto mais perto o grupo navega do **Estuário** na nascente do rio, mais audível fica o sussurro da verdade terrível enterrada ali por Ariel.
-   - *Regra:* Ouvir a voz das águas ou ler tabuletas não seladas exige **`Mente (Vontade)` CD 12** para evitar receber **1 Marca de Corrupção** imediata! (Portadores de um **Nome Verdadeiro** ou de `[Marca/Chama de Divindade]` rolam com **Vantagem**!).
-3. **Tempestades de Névoa Temporal:** Nevoeiros espessos surgem sem aviso fazendo passado e futuro colidirem no convés — manifestando versões duplicadas de inimigos derrotados minutos antes (`Mente [Astúcia]` CD 11 para não cair em emboscadas!).
+   - *Regra:* Ouvir a voz das águas ou ler tabuletas não seladas exige **`Mente (Vontade)` CD 10** para evitar receber **1 Marca de Corrupção** imediata! (Portadores de um **Nome Verdadeiro** ou de `[Marca/Chama de Divindade]` rolam com **Vantagem**!).
+3. **Tempestades de Névoa Temporal:** Nevoeiros espessos surgem sem aviso fazendo passado e futuro colidirem no convés — manifestando versões duplicadas de inimigos derrotados minutos antes (`Mente [Astúcia]` CD 9 para não cair em emboscadas!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Isolados do mundo exterior há eras, descendentes humanos conhecidos como o **Povo do Rio (*Riverborn*)** vivem em cidades flutuantes de madeira dourada ou assentamentos construídos nas costas gigantescas de tartarugas milenares. Eles comercializam mapas das ilhas seguras e lutam desesperadamente contra os **Buscadores Profanos** — navegadores corrompidos vindos das fronteiras futuras do Estuário que espalham a Praga rio abaixo!
@@ -1203,7 +1221,7 @@ Isolados do mundo exterior há eras, descendentes humanos conhecidos como o **Po
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **A Cidade-Carapaça de Cairn (*Porto do Povo do Rio*):**
    - *Atmosfera:* Uma vila vibrante de casas curvas, estaleiros navais e mercados de peixe espiritual ancorada inteiramente sobre o casco de uma tartaruga marinha de três quilômetros!
-   - *Ameaça & CD:* Contrabandistas desconfiados (`Coração [Convencer]` CD 10), espiões infectados disfarçados (`Astúcia` CD 11) e tremores quando a tartaruga mergulha parcialmente.
+   - *Ameaça & CD:* Contrabandistas desconfiados (`Coração [Convencer]` CD 8), espiões infectados disfarçados (`Astúcia` CD 9) e tremores quando a tartaruga mergulha parcialmente.
    - *Segredo & Recompensa:* O único porto confiável para reparar embarcações, comprar madeira resistente à correnteza temporal e contratar guias locais!
    - *Evento Vivo ao Chegar:* Os sinos do casco tocam alarme — uma embarcação desconhecida sem velas aproxima-se vinda da direção proibida do Estuário!
 2. **A Ilha de Aletheia (*A Torre no Loop Temporal*):**
@@ -1213,7 +1231,7 @@ Isolados do mundo exterior há eras, descendentes humanos conhecidos como o **Po
    - *Evento Vivo ao Chegar:* A Coorte encontra no cais sete cadáveres com equipamentos quase idênticos aos seus — ou um diário escrito há três voltas!
 3. **O Campo de Gelo da Queda (*A Onda Congelada*):**
    - *Atmosfera:* Um trecho surreal onde centenas de metros do Grande Rio e dezenas de navios de guerra antigos foram **congelados no tempo no meio de uma onda gigante**.
-   - *Ameaça & CD:* Gelo escorregadio (`Corpo [Agilidade]` CD 10) e monstros congelados que começam a despertar quando o calor de tochas ou Aspectos derrete a superfície (`CD 12–13`).
+   - *Ameaça & CD:* Gelo escorregadio (`Corpo [Agilidade]` CD 8) e monstros congelados que começam a despertar quando o calor de tochas ou Aspectos derrete a superfície (`CD 12–13`).
    - *Segredo & Recompensa:* Os porões dos navios suspensos no gelo guardam arsenais intactos de **Memórias Tier IV–V** e cargas raras preservadas!
    - *Evento Vivo ao Chegar:* Um estalo gigantesco ecoa pelo paredão congelado e um navio antigo começa a deslizar lentamente pela encosta de gelo!
 4. **O Estuário Sussurrante (*A Fonte Proibida*):**
@@ -1223,21 +1241,21 @@ Isolados do mundo exterior há eras, descendentes humanos conhecidos como o **Po
    - *Evento Vivo ao Chegar:* A água iridescente escurece repentinamente por quilômetros, e os sete sóis parecem piscar em uníssono!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo no Grande Rio
-- **Timoneiro & Canalizador (7 Postos Navais):** Controlam os remos rúnicos e velas contra ou a favor da correnteza temporal, garantindo que o barco não entre acidentalmente em desvios do Passado (`CD 12`).
+- **Timoneiro & Canalizador (7 Postos Navais):** Controlam os remos rúnicos e velas contra ou a favor da correnteza temporal, garantindo que o barco não entre acidentalmente em desvios do Passado (`CD 10`).
 - **Oráculo & Vigia Espiritual:** Monitoram diariamente os 7 jogadores para detectar sussurros iniciais da Praga (`Mente [Vontade]`) antes que alguém acumule 3 Marcas de Corrupção!
 - **Engenheiro & Artífice:** Selam o casco com resina da Cidade-Carapaça para impedir que piranhas iridescentes ou névoas temporais estraguem a madeira.
 - **Guardião do Convés & Executor:** Mantêm arpões amarrados prontos para enfrentar *Serpentes Temporais* que surgem atrás da popa!
 
 ### 🏰 A Cidadela Conquistável — *O Farol do Remanso Eterno*
 - **Localização:** Erguido sobre uma ilha de obsidiana encaixada num remanso lateral calmo que permanece **completamente fora do fluxo da correnteza temporal**, garantindo que o tempo corra de maneira normal e estável lá dentro!
-- **Defesas & Guarnição Secundária:** Aproximar-se pelo rio exige atravessar um canal estreito de redemoinhos velozes (`Timoneiro` CD 11) patrulhado por **2 Serpentes Temporais (CD 12)**, enquanto a cúpula dispara feixes de luz prateada contra emboscadas.
+- **Defesas & Guarnição Secundária:** Aproximar-se pelo rio exige atravessar um canal estreito de redemoinhos velozes (`Timoneiro` CD 9) patrulhado por **2 Serpentes Temporais (CD 12)**, enquanto a cúpula dispara feixes de luz prateada contra emboscadas.
 - **Chefe Guardião — *O Timoneiro Sem Tempo*:**
   - **Rank & Classe:** *Terror Caído* | **CD:** `13` | **PV:** `30` | **Parte Destrutível:** *Relógio de Areia Dorsal (10 PV)*.
   - **Tática:** Um espectro encouraçado de bronze armado com um remo-lança que aplica *Lentidão* (**2 de Dano de Alma**) e uma vez por combate rebobina 1 rodada para curar 6 PV até seu *Relógio Dorsal* ser estilhaçado!
 - **Passo a Passo para Reivindicar o Portal:**
   1. Navegar pelo canal dos redemoinhos utilizando os **7 Postos de Embarcação** (*Livro 1, Cap. 10*) e eliminar os sentinelas do cais.
   2. Enfrentar o *Timoneiro Sem Tempo* no salão da lente prateada, priorizando quebrar o **Relógio de Areia** nas costas dele para travar sua regeneração temporal!
-  3. Encaixar **1 Fragmento Ascendido** ou canalizar `[Marca de Divindade]` no espelho do farol (`Alma [Abjurar]` CD 12), estabelecendo um porto seguro inexpugnável dentro da Tumba!
+  3. Encaixar **1 Fragmento Ascendido** ou canalizar `[Marca de Divindade]` no espelho do farol (`Alma [Abjurar]` CD 10), estabelecendo um porto seguro inexpugnável dentro da Tumba!
 - **Tesouro da Conquista:** Rende **25 Fragmentos Ascendidos/Transcendentes** + a Memória **Lança do Remo Eterno (Arma Ascendida Tier V)**!
 - **Primeiro Desafio de Posse:** Um navio perdido de sobreviventes *Riverborn* pede asilo no porto — trazendo sem saber um infiltrado da Praga entre os passageiros!
 
@@ -1263,22 +1281,24 @@ Isolados do mundo exterior há eras, descendentes humanos conhecidos como o **Po
 
 ### Clima, Geografia e Ecologia Detalhada
 Uma das paisagens mais aterradoras e épicas de todo o Reino dos Sonhos: **o continente inteiro não é feito de terra nem rocha comum, mas do esqueleto branco petrificado de um ser divino incomensurável** tombado durante a Guerra da Perdição! Só o esterno tem o tamanho de um pequeno continente, uma planície alva sem fim; costelas gigantes arqueiam-se sobre o horizonte como cordilheiras brancas perfurando nuvens. Sobre essa ossada titânica explode uma **Selva Escarlate** vermelha e voraz — enquanto abaixo das fissuras nos ossos abre-se o labirinto cavernoso de **Os Vãos (*The Hollows*)**, túneis escuros dentro da própria medula ossificada.
-- **Água e Alimento:** Água acumula-se em bolsas internas dos ossos (filtrada e fria, mas frequentemente contaminada por esporos carmesins — exige `Sobrevivência` CD 10 para ferver!). Comer plantas da Selva Escarlate sem preparo alquímico arrisca parasitas sanguíneos (`Vigor` CD 11).
+- **Água e Alimento:** Água acumula-se em bolsas internas dos ossos (filtrada e fria, mas frequentemente contaminada por esporos carmesins — exige `Sobrevivência` CD 8 para ferver!). Comer plantas da Selva Escarlate sem preparo alquímico arrisca parasitas sanguíneos (`Vigor` CD 9).
 - **Flora Hostil:** Toda a vegetação de Godgrave é predatória: árvores-chicote vermelho-sangue, cipós-serra que cortam botas reforçadas e musgos que sugam calor corporal em segundos.
+
+*Coorte de referência: **Ascendida** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem em Godgrave | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
-| **1–2** | **Enxame de Vespas-Lanças Carmesins** | Caída — Besta | **10** | Perfura tendas e armaduras rasas antes que o grupo ache sombra! |
-| **3** | **2 Louva-a-Deus de Osso Branco** | Corrompida — Monstro | **12** | Camuflam-se perfeitamente contra as costelas alvas e emboscam vigias. |
+| **1–2** | **Enxame de Vespas-Lanças Carmesins** | Caída — Besta | **10** | Perfura tendas e armaduras rasas antes que o grupo ache sombra! ⚖️ *Acima do Orçamento (Ameaça ~8: trate como Horda)* |
+| **3** | **2 Louva-a-Deus de Osso Branco** | Corrompida — Monstro | **12** | Camuflam-se perfeitamente contra as costelas alvas e emboscam vigias. ⚠️ **Fuga/Evitar** *(Corrompidos: Ameaça ~12 > 7)* |
 | **4** | **Aranha da Medula Cega** *(Nos Vãos)* | Corrompida — Demônio | **12** | Caça apenas por vibração no osso e calor corporal na escuridão total. |
-| **5** | **Dragão de Osso e Pena Rubra** | Grande — Diabo | **13** | Faz ninho nos arcos altos das costelas e mergulha com chamas brancas! |
-| **6** | **Verme-Rei da Medula Profunda** | Grande — Tirano | **14** | Rompe o teto de osso dos *Vãos* engolindo corredores inteiros de expedição! |
+| **5** | **Dragão de Osso e Pena Rubra** | Grande — Diabo | **13** | Faz ninho nos arcos altos das costelas e mergulha com chamas brancas! ⚠️ **Fuga/Evitar** *(Grande: 2 Ranks acima)* |
+| **6** | **Verme-Rei da Medula Profunda** | Grande — Tirano | **14** | Rompe o teto de osso dos *Vãos* engolindo corredores inteiros de expedição! ⚠️ **Fuga/Evitar** *(Grande: 2 Ranks acima)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **O Olho do Céu Incandescente (Regra Mortal):** Acima de Godgrave paira um mar contínuo de nuvens brancas espessas. Periodicamente (e sem horário previsível!), as nuvens se abrem silenciosamente revelando o **Céu Incandescente**: uma luz branca divina desce em segundos, reduzindo a Selva Escarlate inteira a cinzas **e desintegrando qualquer ser vivo na superfície que se mova um milímetro sob a luz direta!**
-   - *Regra:* Quando o Mestre anunciar que *as nuvens estão afinando e clareando*, cada jogador tem apenas **1 Movimento de emergência** para mergulhar sob a sombra de uma costela ou fenda — OU todo o grupo deve vencer **`Mente (Vontade)` + `Corpo (Agilidade)` CD 12** para **parar como estátuas absolutas** (sem piscar nem respirar forte!). Quem se mover sob a luz sofre **4 de Dano Irredutível de Luz Divina** por rodada!
-2. **O Ciclo da Cinza e do Renascimento:** Minutos após as nuvens fecharem novamente, sementes dormentes nos poros do osso germinam explosivamente, reconstruindo a selva inteira em menos de uma hora (`Mente [Astúcia]` CD 11 para navegar sem trilha permanente!).
-3. **Os Vãos (*The Hollows*):** Viajar pelos túneis ocos dentro dos ossos protege completamente da luz mortal do céu, mas exige iluminação e silêncio estrito (`Furtividade` CD 11 para não despertar predadores cegos!).
+   - *Regra:* Quando o Mestre anunciar que *as nuvens estão afinando e clareando*, cada jogador tem apenas **1 Movimento de emergência** para mergulhar sob a sombra de uma costela ou fenda — OU todo o grupo deve vencer **`Mente (Vontade)` + `Corpo (Agilidade)` CD 10** para **parar como estátuas absolutas** (sem piscar nem respirar forte!). Quem se mover sob a luz sofre **4 de Dano Irredutível de Luz Divina** por rodada!
+2. **O Ciclo da Cinza e do Renascimento:** Minutos após as nuvens fecharem novamente, sementes dormentes nos poros do osso germinam explosivamente, reconstruindo a selva inteira em menos de uma hora (`Mente [Astúcia]` CD 9 para navegar sem trilha permanente!).
+3. **Os Vãos (*The Hollows*):** Viajar pelos túneis ocos dentro dos ossos protege completamente da luz mortal do céu, mas exige iluminação e silêncio estrito (`Furtividade` CD 9 para não despertar predadores cegos!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Nenhum assentamento civil existe aqui. Godgrave é o campo de guerra decisivo onde **os exércitos principais do Grande Clã Valor e do Grande Clã Song** avançam sob tendas térmicas blindadas e sombras das costelas colossais para conquistar suas raríssimas Cidadelas — enquanto coortes independentes de *Ascendidos* e *Transcendentes* exploram os *Vãos* em busca de cristais de medula!
@@ -1286,12 +1306,12 @@ Nenhum assentamento civil existe aqui. Godgrave é o campo de guerra decisivo on
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **A Planície do Esterno Rachado (*Campos de Cinza Rubra*):**
    - *Atmosfera:* Um platô branco descomunal e plano onde a Selva Escarlate é incinerada e renasce várias vezes por dia sem cobertura natural contra o céu.
-   - *Ameaça & CD:* Corridas cronometradas entre fendas de osso (`Corpo [Agilidade]` CD 10) e cadáveres carbonizados de guerreiros antigos que guardam restos de armas sob as cinzas.
+   - *Ameaça & CD:* Corridas cronometradas entre fendas de osso (`Corpo [Agilidade]` CD 8) e cadáveres carbonizados de guerreiros antigos que guardam restos de armas sob as cinzas.
    - *Segredo & Recompensa:* Após cada clarão solar, Memórias intactas e cristais expostos brilham no chão limpo por apenas **10 minutos** antes que a nova selva os engula novamente!
    - *Evento Vivo ao Chegar:* As nuvens acima começam a afinar rapidamente enquanto dois guerreiros de Song correm desesperados rumo à mesma fenda onde a Coorte planeja se esconder!
 2. **A Terceira Costela (*O Arco dos Ventos Mortos*):**
    - *Atmosfera:* Uma ponte natural branca com dois quilômetros de altura, varrida por ventos uivantes e pontilhada de estandartes antigos partidos.
-   - *Ameaça & CD:* Altura vertiginosa (`Agilidade` CD 11) e ninhos de *Dragões de Osso* que vigiam as bordas superiores (`CD 13`).
+   - *Ameaça & CD:* Altura vertiginosa (`Agilidade` CD 9) e ninhos de *Dragões de Osso* que vigiam as bordas superiores (`CD 13`).
    - *Segredo & Recompensa:* Melhor ponto de observação estratégico de todo o continente para mapear movimentações de exércitos ou localizar fumaça de Cidadelas ocultas!
    - *Evento Vivo ao Chegar:* Um choque elétrico ou grito de guerra ecoa pela crista — batedores avançados de Valor acabaram de ser atacados por um *Dragão de Osso*!
 3. **As Cavernas da Medula Cristalizada (*Os Vãos Profundos*):**
@@ -1301,26 +1321,26 @@ Nenhum assentamento civil existe aqui. Godgrave é o campo de guerra decisivo on
    - *Evento Vivo ao Chegar:* Gotas de seiva luminosa estão escorrendo para um lago subterrâneo onde ovos de *Aranha da Medula* começam a eclodir!
 4. **O Crânio Partido da Fronteira Norte:**
    - *Atmosfera:* O limite sombrio do continente onde as órbitas oculares gigantes do deus morto abrem-se sobre o abismo e tempestades elétricas azuis dançam dentro dos ossos.
-   - *Ameaça & CD:* Ecos psíquicos da Guerra da Perdição (`Mente [Vontade]` CD 12) e aberrações profanas que guardam o centro craniano (`CD 14+`).
+   - *Ameaça & CD:* Ecos psíquicos da Guerra da Perdição (`Mente [Vontade]` CD 10) e aberrações profanas que guardam o centro craniano (`CD 14+`).
    - *Segredo & Recompensa:* Esconde relíquias raríssimas da 4ª Era e fragmentos de conhecimento perdido sobre Weaver e os Deuses!
    - *Evento Vivo ao Chegar:* Um relâmpago azul atinge o osso nasal iluminando por três segundos uma entrada selada por fios dourados quase invisíveis!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo em Godgrave
-- **Vigia do Céu (*Oráculo / Olho de Falcão*):** Nunca tira os olhos do teto de nuvens brancas (`Mente [Astúcia]` CD 10) para gritar o aviso **"ESTÁTUA!"** segundos antes de o Céu Incandescente se abrir!
+- **Vigia do Céu (*Oráculo / Olho de Falcão*):** Nunca tira os olhos do teto de nuvens brancas (`Mente [Astúcia]` CD 8) para gritar o aviso **"ESTÁTUA!"** segundos antes de o Céu Incandescente se abrir!
 - **Espectro & Batedor:** Memorizam ou marcam a localização das fendas mais fundas de osso para fuga instantânea caso o grupo seja pego em campo aberto.
-- **Médico & Cozinheiro:** Esterilizam cada gota de água extraída das bolsas ósseas (`CD 10`) e verificam arranhões para evitar esporos parasitas da Selva Escarlate.
+- **Médico & Cozinheiro:** Esterilizam cada gota de água extraída das bolsas ósseas (`CD 8`) e verificam arranhões para evitar esporos parasitas da Selva Escarlate.
 - **Baluarte & Canalizador:** Lideram a marcha nos túneis cegos dos *Vãos* usando escudos pesados e lanternas controladas que possam ser apagadas em meio segundo!
 
 ### 🏰 A Cidadela Conquistável — *O Forte da Clavícula Branca*
 - **Localização:** Incrustado na **face inferior da clavícula esquerda** do esqueleto divino, suspenso sobre o abismo branco e **100% protegido pela sombra eterna do próprio osso colossal** contra a luz mortal do Céu Incandescente!
-- **Defesas & Guarnição Secundária:** Acesso possível apenas escalando as cadeias de ossos laterais (`Corpo [Agilidade]` CD 11) ou emergindo por um duto dos *Vãos*. Os salões externos são guardados por **3 Louva-a-Deus de Osso (CD 12)** camuflados entre pilares alvos!
+- **Defesas & Guarnição Secundária:** Acesso possível apenas escalando as cadeias de ossos laterais (`Corpo [Agilidade]` CD 9) ou emergindo por um duto dos *Vãos*. Os salões externos são guardados por **3 Louva-a-Deus de Osso (CD 12)** camuflados entre pilares alvos!
 - **Chefe Guardião — *O Carniceiro da Medula Escarlate*:**
   - **Rank & Classe:** *Terror Caído* | **CD:** `13` | **PV:** `32` | **Parte Destrutível:** *Saco de Esporos Dorsal (10 PV)*.
   - **Tática:** Um predador louva-a-deus blindado de seis metros coberto por placas de osso branco e vinhas simbióticas (**2 a 3 de Dano**, *Sangrando*). Recupera **3 PV por rodada** sugando energia das raízes da parede enquanto seu *Saco Dorsal* estiver inteiro!
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Alcançar a face inferior da clavícula sem ser surpreendido pela abertura das nuvens na travessia do ombro (`Corpo [Agilidade]` CD 11) e limpar os emboscadores camuflados.
+  1. Alcançar a face inferior da clavícula sem ser surpreendido pela abertura das nuvens na travessia do ombro (`Corpo [Agilidade]` CD 9) e limpar os emboscadores camuflados.
   2. Enfrentar o *Carniceiro*, focando ataques em *Mirar em Ponto Fraco* ou armas de fogo no **Saco de Esporos Dorsal (10 PV)** para cortar sua regeneração!
-  3. Raspar os cipós escarlates do **Altar de Osso Polido** no coração do forte e ativar o selo central com **1 Fragmento Ascendido ou `[Marca de Divindade]`** (`Alma [Canalizar]` CD 12)!
+  3. Raspar os cipós escarlates do **Altar de Osso Polido** no coração do forte e ativar o selo central com **1 Fragmento Ascendido ou `[Marca de Divindade]`** (`Alma [Canalizar]` CD 10)!
 - **Tesouro da Conquista:** Rende **30 Fragmentos Transcendentes/Ascendidos** + a Memória **Lâmina da Clavícula Branca (Arma Transcendente Tier V)**!
 - **Primeiro Desafio de Posse:** Emissários militares de **Valor** e **Song** descobrem quase simultaneamente que a Cidadela à sombra caiu em mãos independentes — tentando comprar ou intimidar a Coorte!
 
@@ -1346,21 +1366,23 @@ Nenhum assentamento civil existe aqui. Godgrave é o campo de guerra decisivo on
 
 ### Clima, Geografia e Ecologia Detalhada
 Um oceano abissal de águas negras como tinta infinita, eternamente açoitado por furacões giratórios, trombas d'água e tempestades de relâmpagos violeta sob um céu noturno estranho onde estrelas desconhecidas giram em padrões mutáveis. Não há continentes firmes aqui — apenas arquipélagos vulcânicos pontiagudos, recifes gigantescos de costelas de leviatãs primordiais que emergem na maré baixa e ilhas fortificadas construídas ao redor da rede sagrada de **Faróis Astrais**.
-- **Água e Alimento:** A água do mar é salgada demais e saturada de essência sombria (`Vigor` CD 11 contra intoxicação se bebida crua). Suprimentos vêm de destiladores rúnicos nos navios, chuva de tempestade coletada em lonas e pesca perigosa de enguias e peixes abissais (`Sobrevivência` CD 9).
+- **Água e Alimento:** A água do mar é salgada demais e saturada de essência sombria (`Vigor` CD 9 contra intoxicação se bebida crua). Suprimentos vêm de destiladores rúnicos nos navios, chuva de tempestade coletada em lonas e pesca perigosa de enguias e peixes abissais (`Sobrevivência` CD 7).
 - **Flora Hostil:** Bancos flutuantes de algas negras elásticas que enrolam hélices e lemes inteiros em segundos e corais venenosos que soltam nuvens ácidas quando raspados por um casco.
+
+*Coorte de referência: **Desperta** (7 jogadores).*
 
 | `1d6` | Encontro Selvagem no Mar Tempestuoso | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
-| **1–2** | **Cardume de 4 Tubarões-Serra de Ferro** | Desperta — Besta | **9** | Mordem o casco e saltam sobre quem cai na água ou se debruça na borda! |
-| **3** | **2 Sereias do Abismo** | Desperta — Monstro | **10** | Sobem nos recifes cantando encantos para atrair marinheiros às ondas. |
+| **1–2** | **Cardume de 4 Tubarões-Serra de Ferro** | Desperta — Besta | **9** | Mordem o casco e saltam sobre quem cai na água ou se debruça na borda! ⚖️ *Acima do Orçamento (Ameaça ~8: comece com 3)* |
+| **3** | **2 Sereias do Abismo** | Desperta — Monstro | **10** | Sobem nos recifes cantando encantos para atrair marinheiros às ondas. ⚖️ *Acima do Orçamento (Ameaça ~8: a 2ª canta só na rodada 2)* |
 | **4** | **Lula-Colosso Tentacular** | Caída — Demônio | **11** | Enrola tentáculos gigantes no convés tentando partir o mastro principal! |
 | **5** | **Navio Pirata Amaldiçoado / Espectral** | Caída — Diabo | **12** | Dispara arpões de osso contra navios desprevenidos durante o nevoeiro. |
-| **6** | **Leviatã das Fossas Abissais** | Grande — Terror | **14** | Cria um redemoinho gigantesco; exige manobra total nos **7 Postos Navais**! |
+| **6** | **Leviatã das Fossas Abissais** | Grande — Terror | **14** | Cria um redemoinho gigantesco; exige manobra total nos **7 Postos Navais**! ⚠️ **Fuga/Evitar** *(Grande: 2 Ranks acima)* |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
-1. **Navegação Astral Sem Bússola Magnética:** Campos magnéticos não funcionam neste oceano. Navegar em águas abertas sem **Bússola Astral, Timoneiro da Casa da Noite ou leitura exata das estrelas** (`Mente [Conhecimento]` CD 10) arrasta a embarcação direto para recifes invisíveis ou zonas mortas de redemoinhos (**2 a 4 de Dano ao Casco**!).
-2. **Furacões Repentinos e Combate Naval de 7 Postos:** Tempestades irrompem em minutos. Lutar num convés molhado durante tormenta exige **`Corpo (Agilidade)` CD 10** em manobras bruscas para não cair na água negra — onde nadar com armadura sobe para **CD 12**! (Resolva batalhas navais usando os **7 Postos de Embarcação**, *Livro 1, Cap. 10*!).
-3. **O Canto das Profundezas:** Perto das Fossas Abissais, correntes oceânicas ecoam lamentos humanos de navegadores perdidos (`Mente [Vontade]` CD 10 para tripulantes não saltarem no mar!).
+1. **Navegação Astral Sem Bússola Magnética:** Campos magnéticos não funcionam neste oceano. Navegar em águas abertas sem **Bússola Astral, Timoneiro da Casa da Noite ou leitura exata das estrelas** (`Mente [Conhecimento]` CD 8) arrasta a embarcação direto para recifes invisíveis ou zonas mortas de redemoinhos (**2 a 4 de Dano ao Casco**!).
+2. **Furacões Repentinos e Combate Naval de 7 Postos:** Tempestades irrompem em minutos. Lutar num convés molhado durante tormenta exige **`Corpo (Agilidade)` CD 8** em manobras bruscas para não cair na água negra — onde nadar com armadura sobe para **CD 10**! (Resolva batalhas navais usando os **7 Postos de Embarcação**, *Livro 1, Cap. 10*!).
+3. **O Canto das Profundezas:** Perto das Fossas Abissais, correntes oceânicas ecoam lamentos humanos de navegadores perdidos (`Mente [Vontade]` CD 8 para tripulantes não saltarem no mar!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Este vasto oceano é o domínio histórico da **Casa da Noite**, cujos navegadores **Nightwalkers**, Transcendentes e poderosos **Encouraçados Rúnicos** garantem o comércio marítimo humano entre as terras costeiras e mantêm acesos os grandes **Faróis Astrais**. Entretanto, além das rotas patrulhadas prosperam **Corsários da Aliança Livre**, caçadores de pérolas de alma e contrabandistas que exploram ilhas não registradas longe da jurisdição dos Grandes Clãs!
@@ -1368,12 +1390,12 @@ Este vasto oceano é o domínio histórico da **Casa da Noite**, cujos navegador
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **O Grande Farol da Noite Eterna (*Porto Central da Casa da Noite*):**
    - *Atmosfera:* Uma torre titânica de mármore escuro e cobre esverdeado erguida num penhasco no meio de três redemoinhos, cujo fogo azul no cume acalma furacões em quilômetros de raio.
-   - *Ameaça & CD:* Inspeções alfandegárias rígidas (`Coração [Convencer]` CD 10) e tributos portuários; espiões de Song e piratas rondam as docas externas.
+   - *Ameaça & CD:* Inspeções alfandegárias rígidas (`Coração [Convencer]` CD 8) e tributos portuários; espiões de Song e piratas rondam as docas externas.
    - *Segredo & Recompensa:* Abriga os melhores estaleiros de reparo rúnico do mundo, mapas navais atualizados e contratos marítimos altamente lucrativos!
    - *Evento Vivo ao Chegar:* Um navio-patrulha reboca metade de um casco partido cheio de sobreviventes falando de um "monstro feito de tempestade" a leste!
 2. **O Cemitério dos Navios da Fossa Sul:**
    - *Atmosfera:* Um mar estagnado sem vento onde centenas de cascos quebrados de todas as Eras — de trirremes de bronze a cargueiros modernos perdidos — flutuam presos em algas gigantes negras.
-   - *Ameaça & CD:* Fantasmas de marinheiros afogados (`CD 11`), caranguejos gigantes de ferro e pranchas apodrecidas que desabam sob peso (`Agilidade` CD 9).
+   - *Ameaça & CD:* Fantasmas de marinheiros afogados (`CD 11`), caranguejos gigantes de ferro e pranchas apodrecidas que desabam sob peso (`Agilidade` CD 7).
    - *Segredo & Recompensa:* Rico em suprimentos perdidos, armas antigas preservadas em baús selados e peças de motores rúnicos!
    - *Evento Vivo ao Chegar:* Uma lanterna verde solitária acende no mastro mais alto de um galeão do século XVII, atraindo saqueadores para uma armadilha viva!
 3. **A Ilha Vulcânica do Coral Negro (*Recém-Emersa*):**
@@ -1383,14 +1405,14 @@ Este vasto oceano é o domínio histórico da **Casa da Noite**, cujos navegador
    - *Evento Vivo ao Chegar:* Dois veleiros corsários e uma fragata da Casa da Noite trocam tiros de balista pela posse da única enseada de desembarque!
 4. **A Boca da Fossa Abissal (*O Último Degrau*):**
    - *Atmosfera:* Uma fenda oceânica circular onde o próprio mar despenca em uma cachoeira infinita rumo às trevas abissais abaixo do mundo, cercada por estátuas partidas de leviatãs.
-   - *Ameaça & CD:* Correntes mortais (`Timoneiro` CD 13 para não ser sugado!) e aberrações *Grandes/Amaldiçoadas* emergindo durante eclipses (`CD 14–15`).
+   - *Ameaça & CD:* Correntes mortais (`Timoneiro` CD 11 para não ser sugado!) e aberrações *Grandes/Amaldiçoadas* emergindo durante eclipses (`CD 14–15`).
    - *Segredo & Recompensa:* Guarda vestígios da fronteira entre o Reino da Tempestade e o abismo primordial da Guerra da Perdição!
    - *Evento Vivo ao Chegar:* As águas ao redor da borda começam a brilhar com relâmpagos subaquáticos invertidos subindo das trevas!
 
 ### 🏕️ Papéis da Coorte & Sobrevivência em Campo no Mar Tempestuoso
 - **Os 7 Postos Navais em Ação:** O *Timoneiro*, *Artilheiro*, *Canalizador do Motor*, *Vigia da Gávea*, *Guardião do Convés*, *Engenheiro de Reparo* e *Capitão* agem em sincronia absoluta a cada tempestade ou abordagem!
 - **Cozinheiro & Médico:** Mantêm os barris de água destilada vedados contra respingos salgados e tratam náusea severa e choques elétricos no convés.
-- **Oráculo & Vigia:** Usam *Bússola Astral* ou cálculos estelares constantes (`CD 10`) sempre que nuvens de furacão cobrem o céu.
+- **Oráculo & Vigia:** Usam *Bússola Astral* ou cálculos estelares constantes (`CD 8`) sempre que nuvens de furacão cobrem o céu.
 - **Espectro & Olho de Falcão:** Cortam cabos de arpões ou algas negras enroladas no leme e vigiam recifes submersos antes do choque!
 
 ### 🏰 A Cidadela Conquistável — *O Encouraçado Fantasma "Estrela do Abismo"*
@@ -1401,9 +1423,9 @@ Este vasto oceano é o domínio histórico da **Casa da Noite**, cujos navegador
   - **Rank & Classe:** *Tirano Caído* | **CD:** `12` | **PV:** `28` | **Ambiente:** *Porão Inundado*.
   - **Tática:** Uma hidra marinha elétrica que fez ninho ao redor do **Motor Rúnico** no porão alagado; dispara descargas na água (**2 de Dano de Relâmpago**, *Atordoado*) e tenta arrastar combatentes para baixo d'água!
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Emparelhar ou abordar o navio-fantasma utilizando os **7 Postos de Embarcação** sob tempestade (`Timoneiro` CD 11) e limpar o convés dos espectros.
-  2. Destravar as escotilhas seladas do porão (`Corpo [Força]` ou `Mente [Conhecimento]` CD 10) e abrir as válvulas laterais para drenar a água elétrica!
-  3. Abater a *Serpente do Mar Negro*, assumir o **Leme-Altar da Cabine Principal** e vincular `[Brasa de Divindade]` ou **15 Fragmentos Despertos** (`Alma [Canalizar]` CD 11), reativando o **Portal Móvel** a bordo!
+  1. Emparelhar ou abordar o navio-fantasma utilizando os **7 Postos de Embarcação** sob tempestade (`Timoneiro` CD 9) e limpar o convés dos espectros.
+  2. Destravar as escotilhas seladas do porão (`Corpo [Força]` ou `Mente [Conhecimento]` CD 8) e abrir as válvulas laterais para drenar a água elétrica!
+  3. Abater a *Serpente do Mar Negro*, assumir o **Leme-Altar da Cabine Principal** e vincular `[Brasa de Divindade]` ou **15 Fragmentos Despertos** (`Alma [Canalizar]` CD 9), reativando o **Portal Móvel** a bordo!
 - **Tesouro da Conquista:** Rende **20 Fragmentos Despertos/Ascendidos** no cofre do capitão + a Memória **Tridente da Tempestade Silenciosa (Arma Desperta/Ascendida Tier IV)**!
 - **Primeiro Desafio de Posse:** Uma fragata da **Casa da Noite** intercepta o navio recém-reativado exigindo saber como jovens forasteiros ligaram o navio fantasma mais procurado do século!
 
@@ -1591,7 +1613,7 @@ Cada uma das **10 Regiões do Atlas** oculta um artefato lendário forjado ou ab
 - **Localização Exata:** No cofre mais fundo da *Catedral Submersa das Profundezas*, atrás de três comportas de coral negro.
 - **Guardião / Selo:** Protegida por um **Leviatã Espectral da Maré (CD 13)** e por uma fechadura aquática que exige sangue ou `[Brasa de Divindade]` ligada à Tempestade/Sombra.
 - **Poderes Mecânicos:** Quem a usa na cabeça pode respirar debaixo d'água livremente, ignora a pressão mortal e o frio do **Mar Amaldiçoado**, e uma vez por cena pode erguer ou abaixar a maré ao redor num raio de 100 metros (empurrando ou afogando inimigos terrestres!).
-- **Preço / Maldição:** Em terra seca, o portador sente sede constante e ouve o sussurro distante de marinheiros afogados sempre que chove (`Mente [Vontade]` CD 9 em tempestades).
+- **Preço / Maldição:** Em terra seca, o portador sente sede constante e ouve o sussurro distante de marinheiros afogados sempre que chove (`Mente [Vontade]` CD 7 em tempestades).
 
 ### 2. ⚖️ A Faca de Marfim e a Faca de Ébano (*Região 2: Ilhas Acorrentadas*)
 - **Classificação:** Relíquias **Divinas — Chaves Conceituais** *(Par Gêmeo)*.
@@ -1603,7 +1625,7 @@ Cada uma das **10 Regiões do Atlas** oculta um artefato lendário forjado ou ab
 ### 3. 🏮 A Lanterna do Passo Silencioso (*Região 3: Montanhas Ocas*)
 - **Classificação:** Relíquia **Sagrada — Tier V** *(Santuário do Deus das Sombras)*.
 - **Localização Exata:** Presa à mão petrificada do sumo-sacerdote congelado dentro de uma câmara oculta abaixo do altar do *Mosteiro do Passo Silencioso*.
-- **Guardião / Selo:** Exige passar por testes de silêncio perfeito (`Furtividade` CD 12) e possuir `[Brasa de Divindade]` ou um coração livre de 3+ Marcas de Corrupção.
+- **Guardião / Selo:** Exige passar por testes de silêncio perfeito (`Furtividade` CD 10) e possuir `[Brasa de Divindade]` ou um coração livre de 3+ Marcas de Corrupção.
 - **Poderes Mecânicos:** Acende uma chama negra fria que **repele completamente a Névoa Branca e neblinas mágicas em um raio de 30 metros**, criando um oásis seguro onde toda a Coorte de 7 jogadores caminha sem perder Essência nem perder o rumo! Também revela criaturas invisíveis na escuridão comum.
 - **Preço / Maldição:** A chama consome **1 Ponto de Essência ou 1 Fragmento Adormecido por dia** de uso contínuo; se apagar no meio da névoa, demora 1 hora para reacender.
 
@@ -1626,7 +1648,7 @@ Cada uma das **10 Regiões do Atlas** oculta um artefato lendário forjado ou ab
 - **Localização Exata:** Sobre um pedestal de ossos derretidos no centro submerso da *Cratera do Sangue Primordial*.
 - **Guardião / Selo:** Guardado por uma **Quimera Vulcânica de Sangue (Tirano Corrompido — CD 13)** e cercado por vapores alucinógenos.
 - **Poderes Mecânicos:** Uma taça esculpida em presa de dragão que se enche sozinha uma vez por lua cheia com icor rubi quente. Quem bebe dele **desperta imediatamente o 1º Estágio (ou avança para o 2º) da Linhagem Divina do Deus das Feras** e ganha **+2 PV máximos permanentes**!
-- **Preço / Maldição:** Cada personagem só pode beber uma única vez na vida; nas noites de lua cheia seguintes, o portador sente sede feroz de combate e precisa passar em `Mente (Vontade)` CD 9 para não atacar o inimigo mais forte à vista sem recuar!
+- **Preço / Maldição:** Cada personagem só pode beber uma única vez na vida; nas noites de lua cheia seguintes, o portador sente sede feroz de combate e precisa passar em `Mente (Vontade)` CD 7 para não atacar o inimigo mais forte à vista sem recuar!
 
 ### 7. 👑 O Cetro do Rei Esqueleto (*Região 7: Deserto dos Pesadelos*)
 - **Classificação:** Relíquia **Suprema — Tier V** *(Soberania dos Mortos-Vivos)*.
@@ -1638,15 +1660,15 @@ Cada uma das **10 Regiões do Atlas** oculta um artefato lendário forjado ou ab
 ### 8. 🚣 O Remo de Madeira da Aurora (*Região 8: Tumba de Ariel e Grande Rio*)
 - **Classificação:** Relíquia **Sagrada — Tier VI** *(Navegação Temporal)*.
 - **Localização Exata:** Oculto no cofre submerso sob o farol partido da *Ilha de Aletheia*, acessível apenas quebrando o loop temporal da ilha.
-- **Guardião / Selo:** Exige decifrar as runas do tempo (`Mente [Conhecimento]` CD 12) e vencer as versões temporais corrompidas do guardião da torre.
+- **Guardião / Selo:** Exige decifrar as runas do tempo (`Mente [Conhecimento]` CD 10) e vencer as versões temporais corrompidas do guardião da torre.
 - **Poderes Mecânicos:** Quando encaixado no leme ou usado como remo mestre de qualquer barco no Grande Rio (ou em oceanos anômalos), **dobra a velocidade da embarcação mesmo navegando rio acima contra a correnteza do Futuro** e cria uma bolha protetora que torna toda a tripulação **imune a Loops Temporais e perda de memória**!
 - **Preço / Maldição:** O timoneiro que segura o remo envelhece ou rejuvenesce cosmeticamente alguns anos temporariamente após viagens extremas no rio.
 
 ### 9. 🦴 A Falange de Osso do Tecelão (*Região 9: Godgrave*)
 - **Classificação:** Relíquia **Divina Proibida de Weaver — Inclassificável**.
 - **Localização Exata:** Incrustada dentro de um casulo de teia dourada quase invisível no centro de uma câmara cristalizada dos *Vãos Profundos*, bem abaixo do esterno do deus morto.
-- **Guardião / Selo:** Sem monstros barulhentos — protegida por uma rede mortal de fios de destino invisíveis (`Mente [Astúcia]` CD 13 ou *Visão Espiritual* para não cortar a própria sorte!).
-- **Poderes Mecânicos:** Diferente de uma Memória comum, esta relíquia **não é equipada — ela deve ser absorvida pela carne!** O personagem que tiver coragem de engoli-la ou pressioná-la contra o próprio corpo sofre agonia indescritível por 1 cena (`Corpo [Vigor]` CD 12), mas **desperta imediatamente o Atributo proibido `[Teia de Osso]` ou `[Teia de Alma]` da Linhagem de Weaver**, fortalecendo ossos ou alma contra dano e permitindo enxergar e tocar os fios das Memórias!
+- **Guardião / Selo:** Sem monstros barulhentos — protegida por uma rede mortal de fios de destino invisíveis (`Mente [Astúcia]` CD 11 ou *Visão Espiritual* para não cortar a própria sorte!).
+- **Poderes Mecânicos:** Diferente de uma Memória comum, esta relíquia **não é equipada — ela deve ser absorvida pela carne!** O personagem que tiver coragem de engoli-la ou pressioná-la contra o próprio corpo sofre agonia indescritível por 1 cena (`Corpo [Vigor]` CD 10), mas **desperta imediatamente o Atributo proibido `[Teia de Osso]` ou `[Teia de Alma]` da Linhagem de Weaver**, fortalecendo ossos ou alma contra dano e permitindo enxergar e tocar os fios das Memórias!
 - **Preço / Maldição:** A dor do despertar da linhagem de Weaver é famosa por levar mentes fracas à beira do desmaio — e portadores da Linhagem Proibida tornam-se alvos prioritários caso certos Transcendentes ou Supremos descubram sua existência!
 
 ### 10. 🧭 O Astrolábio do Céu Sem Estrelas (*Região 10: Mar Tempestuoso*)

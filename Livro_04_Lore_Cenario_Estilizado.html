@@ -719,6 +719,20 @@ body.light-theme .toc-sidebar { background: rgba(245, 239, 226, 0.98); }
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.95);
 }
 
+.quickref { font-size: 0.8em; line-height: 1.32; }
+.quickref h3 { margin-top: 0.7em !important; margin-bottom: 0.3em !important; font-size: 1.15em !important; }
+.quickref p { margin: 0.35em 0 !important; }
+.quickref table { margin: 0.3em 0 0.5em !important; }
+.quickref th, .quickref td { padding: 3px 7px !important; }
+
+.page-break {
+  break-before: page;
+  page-break-before: always;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
 .cover-page {
   position: relative;
   width: 210mm;
@@ -1016,7 +1030,7 @@ body.light-theme .content-body th {
     <div class="toolbar-title">📙 SHADOW SLAVE RPG — LIVRO 4: LORE E CENÁRIO (CÓDICE 100% — 6 CAPÍTULOS)</div>
     <div class="toolbar-actions">
       <button class="btn btn-secondary" type="button" onclick="toggleTOC()">📑 Sumário &amp; Busca</button>
-      <a href="00_CENTRAL_DE_LIVROS_E_PDF.html" class="btn btn-secondary">⬅️ Central dos 4 Livros</a>
+      <a href="00_CENTRAL_DE_LIVROS_E_PDF.html" class="btn btn-secondary">⬅️ Central dos Livros</a>
       <button class="btn btn-secondary" type="button" onclick="document.body.classList.toggle('light-theme')">🌓 Tema (Obsidiana / Pergaminho)</button>
       <button class="btn" type="button" onclick="window.print()">🖨️ Salvar em PDF Perfeito (Ctrl+P)</button>
       <a class="btn" href="Livro_04_Lore_Cenario.pdf" download>⬇️ Baixar .PDF Direto</a>
@@ -1148,7 +1162,7 @@ Na 2ª e na 3ª Era, os seis Deuses proibiram estritamente que qualquer mortal a
 <p>Preso para sempre no Vazio ao lado dos horrores primordiais, o Deus Esquecido não morreu — pois Deuses não morrem facilmente —, mas afundou em um <strong>sono atormentado</strong>. Enquanto ele dorme no abismo, sua mente divina continua sonhando, e seus sonhos colidem diretamente com a essência caótica dos Seres do Vazio.</p>
 <p>Dessa colisão nasceu a <strong>Corrupção (<em>Defilement</em>)</strong>: uma praga espiritual e conceitual que transforma leis ordenadas em abominações famintas. Quando uma criatura, um humano ou até um pedaço de terra entra em contato com o conhecimento proibido sobre o Vazio, com o sangue negro de uma criatura corrompida ou com as fendas do selo enfraquecido, a Corrupção planta uma <strong>Semente de Profanação</strong> em sua alma.</p>
 <ul>
-<li><strong>No RPG (Conexão Mecânica):</strong> Sempre que os jogadores encontrarem escritas não seladas sobre o Vazio, tocarem o sangue de criaturas <em>Corrompidas/Profanas</em> ou pisarem em fendas do abismo sem proteção, devem resistir com <strong><code>Mente (Vontade)</code></strong> (CD 9 a CD 13) para não acumular <strong>Marcas de Corrupção</strong> (escala de <code>0</code> a <code>5</code>, detalhada no <em>Livro 1, Seção 12.2</em>). Quando um humano ou criatura atinge <strong>5 Marcas</strong>, a Semente floresce e transforma o ser em uma <strong>Criatura do Pesadelo</strong> enlouquecida pela fome!</li>
+<li><strong>No RPG (Conexão Mecânica):</strong> Sempre que os jogadores encontrarem escritas não seladas sobre o Vazio, tocarem o sangue de criaturas <em>Corrompidas/Profanas</em> ou pisarem em fendas do abismo sem proteção, devem resistir com <strong><code>Mente (Vontade)</code></strong> (CD 7 a CD 11) para não acumular <strong>Marcas de Corrupção</strong> (escala de <code>0</code> a <code>5</code>, detalhada no <em>Livro 1, Seção 12.2</em>). Quando um humano ou criatura atinge <strong>5 Marcas</strong>, a Semente floresce e transforma o ser em uma <strong>Criatura do Pesadelo</strong> enlouquecida pela fome!</li>
 </ul>
 <hr>
 <h2 id="14-as-5-eras-históricas-em-profundidade-palco-de-sementes-do-pesadelo">1.4 As 5 Eras Históricas em Profundidade (Palco de Sementes do Pesadelo)</h2>
@@ -1559,7 +1573,7 @@ Na 2ª e na 3ª Era, os seis Deuses proibiram estritamente que qualquer mortal a
 </tr>
 <tr>
 <td style="text-align: center;"><strong>2</strong></td>
-<td style="text-align: left;"><strong>Contaminação de Ração:</strong> Misturam sangue corrompido seco na carne servida em tavernas de uma Cidadela periférica (<code>Vontade</code> CD 10).</td>
+<td style="text-align: left;"><strong>Contaminação de Ração:</strong> Misturam sangue corrompido seco na carne servida em tavernas de uma Cidadela periférica (<code>Vontade</code> CD 8).</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>3</strong></td>
@@ -1679,7 +1693,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <tr>
 <td style="text-align: left;"><strong>Sem Atributo de Divindade</strong></td>
 <td style="text-align: left;">O altar permanece frio, selado ou inerte. Tentar forçar runas ou roubar relíquias centrais dispara armadilhas com <strong>Desvantagem</strong> na Defesa.</td>
-<td style="text-align: left;">Mecanismos ocultos ignoram o viajante — ou disparam defesas mortais contra "intrusos profanos". Selos fechados exigem <strong>CD 13+</strong> para serem quebrados à força.</td>
+<td style="text-align: left;">Mecanismos ocultos ignoram o viajante — ou disparam defesas mortais contra "intrusos profanos". Selos fechados exigem <strong>CD 11+</strong> para serem quebrados à força.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong><code>[Brasa de Divindade]</code></strong> <em>(Ember)</em></td>
@@ -1709,7 +1723,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <li><strong>Como Reconhecer um Templo:</strong> Fortalezas monumentais de <strong>ferro negro, basalto e pedra vermelha oxidada</strong>, sem adornos inúteis — apenas proporções geométricas implacáveis. Possuem grandes arenas circulares, canais internos onde lava ou metal fundido corria antigamente, pilares entalhados com tratados de tática militar em runas angulares e um cheiro perpétuo de ozônio, óleo de têmpera e cinzas de fornalha.</li>
 <li><strong>Guardiões e Armadilhas Típicas:</strong><ul>
 <li><em>Guardiões:</em> Autômatos de bronze articulado, golems de escória incandescente e espíritos de centuriões presos em armaduras vazias <em>(CD 9–12)</em>.</li>
-<li><em>Armadilhas:</em> Pisos basculantes que lançam o grupo em fossos de espetos giratórios (<code>Corpo [Agilidade]</code> CD 10), e jatos pressurizados de vapor escaldante ou metal líquido acionados por placas de peso (<code>Mente [Astúcia]</code> CD 9).</li>
+<li><em>Armadilhas:</em> Pisos basculantes que lançam o grupo em fossos de espetos giratórios (<code>Corpo [Agilidade]</code> CD 8), e jatos pressurizados de vapor escaldante ou metal líquido acionados por placas de peso (<code>Mente [Astúcia]</code> CD 7).</li>
 </ul>
 </li>
 <li><strong>O Altar e Interação com Divindade:</strong> O altar é uma <strong>Bigorna Colossal de Aço Estelar</strong> no centro de um anfiteatro.<ul>
@@ -1726,11 +1740,11 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <li><strong>Como Reconhecer um Templo:</strong> Catedrais altíssimas de <strong>mármore branco e ouro polido</strong> com tetos propositalmente abertos para o céu (ou cúpulas translúcidas de quartzo solar). Mesmo sob tempestades ou cinzas, piras gigantescas no centro dos pátios continuam queimando com fogo branco silencioso que arde até debaixo d'água. O ar é seco, quente e reverbera com um zumbido harmônico grave.</li>
 <li><strong>Guardiões e Armadilhas Típicas:</strong><ul>
 <li><em>Guardiões:</em> Serafins de pedra solar com múltiplas asas cortantes, elementais de plasma branco e cavaleiros mumificados em armaduras derretidas <em>(CD 10–13)</em>.</li>
-<li><em>Armadilhas:</em> Lentes de cristal no teto que concentram luz solar em feixes desintegradores (<code>Corpo [Agilidade]</code> CD 11, 2 de Dano e <em>Queimando</em>), e portões selados por barreiras de fogo branco que exigem resistência térmica (<code>Corpo [Vigor]</code> CD 10).</li>
+<li><em>Armadilhas:</em> Lentes de cristal no teto que concentram luz solar em feixes desintegradores (<code>Corpo [Agilidade]</code> CD 9, 2 de Dano e <em>Queimando</em>), e portões selados por barreiras de fogo branco que exigem resistência térmica (<code>Corpo [Vigor]</code> CD 8).</li>
 </ul>
 </li>
 <li><strong>O Altar e Interação com Divindade:</strong> Uma <strong>Pira de Ouro Branco</strong> onde arde uma chama imóvel sem combustível.<ul>
-<li><em>Sem Divindade:</em> Aproximar-se a menos de 2 metros causa calor sufocante (<code>Corpo [Vigor]</code> CD 9 para não sofrer 1 Dano).</li>
+<li><em>Sem Divindade:</em> Aproximar-se a menos de 2 metros causa calor sufocante (<code>Corpo [Vigor]</code> CD 7 para não sofrer 1 Dano).</li>
 <li><em>Com <code>[Brasa]</code> / <code>[Marca]</code>:</em> O fogo acaricia o portador sem queimá-lo! Ao meditar diante da pira por 10 minutos, o portador cura <strong>todos os estados negativos físicos</strong> da Coorte e remove <strong>1 Marca de Corrupção</strong>!</li>
 <li><em>Com <code>[Chama]</code>:</em> A chama pode ser colhida dentro de um frasco ou lanterna (criando uma carga de <strong>Fogo Purificador</strong> capaz de purificar até <strong>4 Marcas de Corrupção</strong> ou causar <strong>3 de Dano Divino</strong> a uma Abominação Corrompida!).</li>
 </ul>
@@ -1743,7 +1757,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <li><strong>Como Reconhecer um Templo:</strong> <strong>Faróis ciclópicos</strong> cravados em rochedos batidos por ondas negras, observatórios astrais com cúpulas de cobre esverdeado e mapas estelares embutidos em prata no chão, ou catedrais submersas erguidas com ossos curvos de leviatãs primordiais. O chão sempre está úmido de maresia, ecoando trovões distantes mesmo em dias sem nuvens.</li>
 <li><strong>Guardiões e Armadilhas Típicas:</strong><ul>
 <li><em>Guardiões:</em> Espectros de capitães afogados, serpentes elétricas feitas de nuvem condensada e autômatos de coral negro armados com tridentes <em>(CD 9–12)</em>.</li>
-<li><em>Armadilhas:</em> Câmaras que inundam em segundos com pressão abissal (<code>Corpo [Vigor]</code> ou <code>Agilidade</code> CD 10), e para-raios rúnicos que descarregam arcos voltaicos quando alguém pisa nos glifos errados (<code>CD 10</code>, <em>Atordoado</em>).</li>
+<li><em>Armadilhas:</em> Câmaras que inundam em segundos com pressão abissal (<code>Corpo [Vigor]</code> ou <code>Agilidade</code> CD 8), e para-raios rúnicos que descarregam arcos voltaicos quando alguém pisa nos glifos errados (<code>CD 8</code>, <em>Atordoado</em>).</li>
 </ul>
 </li>
 <li><strong>O Altar e Interação com Divindade:</strong> Um <strong>Astrolábio Monumental</strong> suspenso sobre uma bacia de água salgada negra e perfeitamente imóvel.<ul>
@@ -1759,7 +1773,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <li><strong>Como Reconhecer um Templo:</strong> Santuários orgânicos que se confundem com a natureza brutal — templos esculpidos <strong>dentro do crânio fossilizado de bestas do tamanho de montanhas</strong>, clareiras circulares iluminadas por um luar prateado perpétuo mesmo sob copas fechadas, e menires de osso polido cobertos por trepadeiras carmesins e marcas antigas de garras.</li>
 <li><strong>Guardiões e Armadilhas Típicas:</strong><ul>
 <li><em>Guardiões:</em> Quimeras mutantes, lobos de prata espectrais, enxames de insetos carnívoros gigantes e plantas predadoras que imitam estátuas <em>(CD 9–12)</em>.</li>
-<li><em>Armadilhas:</em> Esporos alucinógenos ou paralisantes liberados por flores belíssimas (<code>Corpo [Vigor]</code> CD 10), e poços camuflados por raízes vivas que tentam arrastar os mais fracos da fila (<code>Corpo [Força]</code> CD 9).</li>
+<li><em>Armadilhas:</em> Esporos alucinógenos ou paralisantes liberados por flores belíssimas (<code>Corpo [Vigor]</code> CD 8), e poços camuflados por raízes vivas que tentam arrastar os mais fracos da fila (<code>Corpo [Força]</code> CD 7).</li>
 </ul>
 </li>
 <li><strong>O Altar e Interação com Divindade:</strong> Uma <strong>Pedra de Sacrifício Branca sob um Feixe de Luar Eterno</strong>, cercada por raízes pulsantes.<ul>
@@ -1775,7 +1789,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <li><strong>Como Reconhecer um Templo:</strong> Bosques silenciosos e sobrenaturalmente pacíficos onde crescem <strong>Árvores Sagradas de casca branca como osso e folhas de vermelho intenso</strong>, cujas raízes brilham fracamente sob a terra. Ao encostar o ouvido no tronco, escutam-se ecos distantes de risos, juramentos e canções de civilizações mortas há dez mil anos.</li>
 <li><strong>Guardiões e Armadilhas Típicas:</strong><ul>
 <li><em>Guardiões:</em> Espectros formados a partir das <strong>memórias e culpas dos próprios personagens</strong>, parasitas psíquicos invisíveis e raízes estranguladoras devoradoras de almas <em>(CD 10–13)</em>.</li>
-<li><em>Armadilhas:</em> Zonas de estase emocional onde viajantes sentem uma tristeza ou nostalgia tão avassaladora que se sentam e esquecem de comer ou lutar (<code>Mente [Vontade]</code> CD 10, <em>Atordoado</em>).</li>
+<li><em>Armadilhas:</em> Zonas de estase emocional onde viajantes sentem uma tristeza ou nostalgia tão avassaladora que se sentam e esquecem de comer ou lutar (<code>Mente [Vontade]</code> CD 8, <em>Atordoado</em>).</li>
 </ul>
 </li>
 <li><strong>O Altar e Interação com Divindade:</strong> O <strong>Cerne Oco da Árvore Mãe</strong>, onde flutua uma gota cristalizada de seiva dourada.<ul>
@@ -1794,7 +1808,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>Guardiões e Armadilhas Típicas:</strong><ul>
 <li><em>Guardiões:</em> Sombras silenciosas de antigos sacerdotes que emergem das paredes se o templo for profanado, e sentinelas de ônix que se movem apenas quando ninguém está olhando diretamente para elas <em>(CD 10–13)</em>.</li>
-<li><em>Armadilhas:</em> Testes de silêncio e respeito — gritar, derramar sangue por ganância ou carregar fogo artificial agressivo diante do santuário desperta ondas de pressão sombria (<code>Mente [Vontade]</code> CD 10).</li>
+<li><em>Armadilhas:</em> Testes de silêncio e respeito — gritar, derramar sangue por ganância ou carregar fogo artificial agressivo diante do santuário desperta ondas de pressão sombria (<code>Mente [Vontade]</code> CD 8).</li>
 </ul>
 </li>
 <li><strong>O Altar e Interação com Divindade:</strong> Uma <strong>Mesa Rasa de Ônix Negro</strong>, polida como um espelho escuro onde não há reflexo.<ul>
@@ -1820,7 +1834,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Filosofia &amp; Defeito que Representa:</strong> A recusa teimosa de aceitar que o destino esteja escrito na pedra. Príncipe solitário das profundezas, Nether passou séculos tentando forjar seres artificiais dotados de alma verdadeira e livre-arbítrio — e mais tarde liderou legiões de pedra contra o exército divino.</li>
 <li><strong>Como Reconhecer uma Fortaleza:</strong> Forjas monumentais subterrâneas, torres de <strong>ébano e obsidiana talhada à perfeição</strong>, e salões silenciosos alinhados com <strong>centenas ou milhares de estátuas de pedra negra e mármore</strong> — protótipos descartados de guerreiros, servas e cavaleiros cujo olhar vazio parece seguir os visitantes.</li>
-<li><strong>Guardiões &amp; Armadilhas:</strong> Estátuas sentinelas que despertam em silêncio absoluto quando alguém toca ferramentas da forja (<code>CD 10–12</code>), rios de <strong>Escuridão Elemental Verdadeira</strong> que engolem luz e som, e portas com enigmas baseados em <strong>escolhas morais</strong> (forçar a tranca ativa gás petrificante, <code>Corpo [Vigor]</code> CD 11).</li>
+<li><strong>Guardiões &amp; Armadilhas:</strong> Estátuas sentinelas que despertam em silêncio absoluto quando alguém toca ferramentas da forja (<code>CD 10–12</code>), rios de <strong>Escuridão Elemental Verdadeira</strong> que engolem luz e som, e portas com enigmas baseados em <strong>escolhas morais</strong> (forçar a tranca ativa gás petrificante, <code>Corpo [Vigor]</code> CD 9).</li>
 <li><strong>Altar &amp; Interação com <code>[Divindade]</code>:</strong> Uma <strong>Mesa de Escultor com Núcleos de Rubi Inacabados</strong>. Com <code>[Brasa]+</code>, o personagem pode acender as forjas frias para reparar armaduras em segundos; com <code>[Marca]</code> ou <code>[Chama]</code>, pode despertar <strong>1 Estátua Dormente</strong> como aliado temporário ou até como <strong>Eco Evolutivo</strong> raro!</li>
 <li><strong>Relíquias &amp; Artefatos:</strong> Armaduras de ônix vivo (<em>Mortalha do Crepúsculo</em>), núcleos de rubi artificial, mantos resistentes a magia rúnica e martelos que esculpem ossos de Titã.</li>
 </ul>
@@ -1828,14 +1842,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Filosofia &amp; Defeito que Representa:</strong> O horror lúcido de saber a verdade terrível do Vazio e não conseguir carregá-la sem enlouquecer. Ariel acreditava que certas verdades são armas piores que qualquer espada — e dedicou milênios a <strong>enterrá-las</strong> em monumentos impossíveis para que ninguém as sussurrasse.</li>
 <li><strong>Como Reconhecer uma Fortaleza:</strong> Tumbas piramidais titânicas, <strong>obeliscos negros lisos como vidro</strong> onde correm sussurros inaudíveis que arrepiam a espinha, e corredores escuros onde estátuas com os ouvidos tapados ou olhos arrancados apontam para longe do centro.</li>
-<li><strong>Guardiões &amp; Armadilhas:</strong> <strong>A Verdade como Arma!</strong> Ler qualquer inscrição antiga de Ariel sem proteção exige imediatamente <strong><code>Mente (Vontade)</code> CD 11</strong> — em caso de falha, o personagem ganha <strong>1 Marca de Corrupção</strong> e fica <em>Amedrontado</em>! Guardiões incluem manifestações dos próprios medos do grupo e espectros silenciosos.</li>
+<li><strong>Guardiões &amp; Armadilhas:</strong> <strong>A Verdade como Arma!</strong> Ler qualquer inscrição antiga de Ariel sem proteção exige imediatamente <strong><code>Mente (Vontade)</code> CD 9</strong> — em caso de falha, o personagem ganha <strong>1 Marca de Corrupção</strong> e fica <em>Amedrontado</em>! Guardiões incluem manifestações dos próprios medos do grupo e espectros silenciosos.</li>
 <li><strong>Altar &amp; Interação com <code>[Divindade]</code>:</strong> Um <strong>Sarcófago de Jade Negra Selado por Correntes Rúnicas</strong>. Portadores de <code>[Brasa]</code> sentem apenas um zumbido doloroso nos ossos; portadores de <code>[Marca]</code> ou <code>[Chama]</code> conseguem ler os selos externos com segurança para <strong>extrair verdades históricas valiosas (ganhando XP ou Nomes Primordiais!)</strong> sem abrir o mal absoluto selado lá dentro.</li>
 <li><strong>Relíquias &amp; Artefatos:</strong> Espadas de jade que sussurram segredos mortais (<em>Pecado do Consolo</em>), sinos de bronze cujo toque paralisa feras pelo pavor e talismãs de silenciamento contra Corrupção.</li>
 </ul>
 <h3 id="4--hope--o-demônio-da-esperança-demon-of-desire">4. ⛓️ Hope — <em>O Demônio da Esperança (Demon of Desire)</em></h3>
 <ul>
 <li><strong>Filosofia &amp; Defeito que Representa:</strong> O brilho perigoso da ambição, do anseio e da recusa em aceitar correntes. Hope simbolizava o desejo que move os mortais a superarem seus criadores — motivo pelo qual o Deus do Sol a acorrentou dentro da Torre de Marfim por séculos.</li>
-<li><strong>Como Reconhecer uma Fortaleza:</strong> Torres alvas de <strong>marfim esculpido</strong>, salões dourados de beleza estonteante e cúpulas marcadas por <strong>cicatrizes de queimadura celestial e elos de correntes divinas partidas</strong>. Quem entra sente uma súbita onda de euforia, coragem imprudente ou ambição febril (<code>Mente [Vontade]</code> CD 9 para não subestimar o perigo!).</li>
+<li><strong>Como Reconhecer uma Fortaleza:</strong> Torres alvas de <strong>marfim esculpido</strong>, salões dourados de beleza estonteante e cúpulas marcadas por <strong>cicatrizes de queimadura celestial e elos de correntes divinas partidas</strong>. Quem entra sente uma súbita onda de euforia, coragem imprudente ou ambição febril (<code>Mente [Vontade]</code> CD 7 para não subestimar o perigo!).</li>
 <li><strong>Guardiões &amp; Armadilhas:</strong> Sentinelas angelicais corrompidas pelo fogo, armadilhas de ilusão que prometem o maior desejo de cada membro da Coorte para separá-los em corredores distintos, e runas gravitacionais que esmagam quem hesita.</li>
 <li><strong>Altar &amp; Interação com <code>[Divindade]</code>:</strong> Um <strong>Pedestal de Marfim Rachado Envolto em Elos Dourados</strong>. Se a Coorte tiver um objetivo compartilhado claro e o portador possuir <code>[Brasa]+</code>, o altar concede a <strong>Chama da Esperança Compartilhada</strong>: todos os <strong>7 jogadores recebem +1 em Testes de Resistência contra Medo e Desespero e +1 Ponto de Essência Temporário</strong> durante a expedição!</li>
 <li><strong>Relíquias &amp; Artefatos:</strong> Elos de correntes inquebráveis dos deuses, diademas de marfim que amplificam a liderança (<code>Coração [Convencer]</code>), e runas de fortalecimento coletivo para coortes.</li>
@@ -1844,7 +1858,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Filosofia &amp; Defeito que Representa:</strong> A capacidade de sonhar mundos inteiros que não existem — até que a mentira se torne tão complexa e real quanto a própria criação.</li>
 <li><strong>Como Reconhecer uma Fortaleza:</strong> <strong>Salões de espelhos infinitos</strong>, lagos perfeitamente imóveis que refletem castelos inteiros onde na realidade só há ruínas vazias, portas que abrem para o lado oposto do corredor e escadarias onde a água corre para cima. Os reflexos nos espelhos às vezes demoram meio segundo para copiar os movimentos dos jogadores!</li>
-<li><strong>Guardiões &amp; Armadilhas:</strong> <strong>Reflexos Vivos (Clones Espelhados)</strong> que copiam os Aspectos e armas da própria Coorte (<code>CD igual à CD média dos jogadores</code>), portais espelhados que prendem viajantes dentro de uma dimensão invertida (<code>Mente [Astúcia]</code> CD 11 para distinguir a saída real).</li>
+<li><strong>Guardiões &amp; Armadilhas:</strong> <strong>Reflexos Vivos (Clones Espelhados)</strong> que copiam os Aspectos e armas da própria Coorte (<code>CD igual à CD média dos jogadores</code>), portais espelhados que prendem viajantes dentro de uma dimensão invertida (<code>Mente [Astúcia]</code> CD 9 para distinguir a saída real).</li>
 <li><strong>Altar &amp; Interação com <code>[Divindade]</code>:</strong> Um <strong>Espelho Circular de Prata Líquida sem Moldura</strong>. Com <code>[Brasa]+</code>, o portador consegue atravessar para o lado invertido de uma ruína sem que o vidro o corte; com <code>[Chama]</code>, pode dobrar um reflexo para criar uma ilusão sólida temporária ou localizar uma sala secreta invisível no mundo físico.</li>
 <li><strong>Relíquias &amp; Artefatos:</strong> Espelhos portáteis de comunicação/teleporte entre dois pontos, prismas multiplicadores de ataques ou clones e véus que tornam a Coorte invisível à distância.</li>
 </ul>
@@ -1852,7 +1866,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Filosofia &amp; Defeito que Representa:</strong> A paz absoluta que suspende o fluxo da dor, da velhice e da guerra — mas que, levada ao extremo, congela a alma em uma letargia da qual nunca mais se deseja acordar.</li>
 <li><strong>Como Reconhecer um Santuário:</strong> Jardins fechados de flores pálidas que nunca murcham, templos de mármore cinza envolvidos por uma brisa morna e perfume suave de lavanda estelar, onde cadáveres de guerreiros antigos jazem intactos como se tivessem dormido há cinco minutos. O tempo parece desacelerar lá dentro.</li>
-<li><strong>Guardiões &amp; Armadilhas:</strong> <strong>Estase Sonolenta:</strong> Cada hora passada lá dentro sem vigilância exige <code>Mente (Vontade)</code> CD 9 para os personagens não sentirem vontade irresistível de se deitar e dormir até a inanição; guardiões são autômatos lentos cujos toques aplicam <em>Lentidão</em> e sono profundo.</li>
+<li><strong>Guardiões &amp; Armadilhas:</strong> <strong>Estase Sonolenta:</strong> Cada hora passada lá dentro sem vigilância exige <code>Mente (Vontade)</code> CD 7 para os personagens não sentirem vontade irresistível de se deitar e dormir até a inanição; guardiões são autômatos lentos cujos toques aplicam <em>Lentidão</em> e sono profundo.</li>
 <li><strong>Altar &amp; Interação com <code>[Divindade]</code>:</strong> Um <strong>Leito de Pedra Cinzenta cercado por Incensários Apagados</strong>. Ao tocar com <code>[Brasa]+</code>, o grupo pode realizar um <strong>Descanso Curto que equivale a um Descanso Longo completo</strong> em apenas 1 hora (recuperando todos os PV, Essência e Integridade das Memórias!) — uma única vez antes que o jardim adormeça por décadas!</li>
 <li><strong>Relíquias &amp; Artefatos:</strong> Ampulhetas de estase (conservam alimentos ou corpos feridos sem apodrecer), mantos que apagam a exaustão física e incensos que bloqueiam ataques psíquicos durante o sono.</li>
 </ul>
@@ -1860,7 +1874,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Filosofia &amp; Defeito que Representa:</strong> A misericórdia amarga do apagamento — aquilo que precisa desaparecer da memória do cosmos para não destruir quem o carrega.</li>
 <li><strong>Como Reconhecer uma Cripta:</strong> Quase impossível de mapear! Mesmo quando o cartógrafo da Coorte desenha o mapa da entrada, minutos depois todos sentem dificuldade de lembrar por que entraram ali ou qual é o nome do lugar. Paredes são lisas, cinzentas, sem esculturas nem placas — apenas poeira intocada e um vazio estranho no centro da mente.</li>
-<li><strong>Guardiões &amp; Armadilhas:</strong> <strong>Ladrões de Memória:</strong> Armadilhas mentais silenciosas que fazem o grupo esquecer onde está a saída ou até esquecer o rosto do sétimo companheiro da Coorte (<code>Mente [Vontade]</code> CD 11 — <strong>dica de sobrevivência:</strong> amarrar cordas físicas nos pulsos e tatuar o número <code>7</code> na mão!).</li>
+<li><strong>Guardiões &amp; Armadilhas:</strong> <strong>Ladrões de Memória:</strong> Armadilhas mentais silenciosas que fazem o grupo esquecer onde está a saída ou até esquecer o rosto do sétimo companheiro da Coorte (<code>Mente [Vontade]</code> CD 9 — <strong>dica de sobrevivência:</strong> amarrar cordas físicas nos pulsos e tatuar o número <code>7</code> na mão!).</li>
 <li><strong>Altar &amp; Interação com <code>[Divindade]</code>:</strong> Uma <strong>Fonte Seca Onde Não Ecoa Nenhum Som</strong>. Portadores de <code>[Marca]</code> ou <code>[Chama]</code> (ou detentores de um <strong>Nome Verdadeiro</strong>!) conseguem ancorar suas mentes para não serem apagados: o altar pode <strong>apagar 1 trauma mental severo, remover permanentemente uma maldição de perseguição de um espírito/eco</strong> ou esconder os rastros da Coorte dos olhos de entidades videntes por uma semana inteira!</li>
 <li><strong>Relíquias &amp; Artefatos:</strong> Véus sem nome (anulam habilidades de rastreamento ou profecia sobre o usuário), tintas invisíveis e sinos cuja badalada apaga os últimos 10 segundos da memória de inimigos menores.</li>
 </ul>
@@ -1954,7 +1968,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <hr>
 <h1 id="capítulo-5-o-grande-atlas-sandbox-do-reino-dos-sonhos-as-10-regiões">CAPÍTULO 5: O Grande Atlas Sandbox do Reino dos Sonhos (As 10 Regiões)</h1>
 <p>O <strong>Reino dos Sonhos</strong> não é um único planeta ordenado, mas um mosaico colossal e fraturado formado pelos cadáveres dos seis Reinos Divinos colididos após a Guerra da Perdição. Cada região abaixo funciona como um <strong>palco sandbox independente</strong>, com suas próprias leis físicas anômalas, ecologia letal, quatro grandes locais exploráveis, <strong>uma Cidadela Conquistável</strong> e três ganchos de campanha prontos para a Coorte de 7 jogadores. Cada região traz uma tabela rápida de encontros (<code>1d6</code>); para viagens longas, o <em>Livro 3, Seção 4.3</em> oferece matrizes <code>2d6</code> mais extensas para as mesmas regiões.</p>
-<hr>
+<h2 id="--lendo-as-tabelas-1d6-de-encontros-com-o-orçamento-de-ameaça-livro-3-seção-51-cada-tabela-foi-pensada-para-a-coorte-do-rank-indicado-logo-abaixo-dela-e-uma-mesa-de-7-jogadores-a-ameaça-de-um-encontro-é-nº-de-jogadores-atacados-por-rodada--dano-somada-para-todas-as-criaturas-o-orçamento-é-1--o-número-de-jogadores-como-estas-tabelas-não-trazem-dano-a-estimativa-usa-a-matriz-rank--classe-livro-3-seção-52-besta-ataca-1-alvo-monstro-e-demônio-2-diabo-e-tirano-3-dano-1-adormecida-2-desperta-e-caída-e-3-corrompida-ou-acima--fugaevitar--criatura-de-rank-acima-da-coorte-num-encontro-acima-do-orçamento-ou-criatura-2-ranks-acima---mesmo-rank-mas-golpes-demais-por-rodada-divida-em-ondas">&gt; ⚖️ <strong>Lendo as Tabelas <code>1d6</code> de Encontros com o Orçamento de Ameaça (<em>Livro 3, Seção 5.1</em>):</strong> cada tabela foi pensada para a <strong>Coorte do Rank indicado</strong> logo abaixo dela e uma mesa de <strong>7 jogadores</strong>. A Ameaça de um encontro é <code>nº de jogadores atacados por rodada × Dano</code> somada para todas as criaturas; o Orçamento é <strong>1 × o número de jogadores</strong>. Como estas tabelas não trazem Dano, a estimativa usa a <em>Matriz Rank × Classe</em> (<em>Livro 3, Seção 5.2</em>): Besta ataca 1 alvo, Monstro e Demônio 2, Diabo e Tirano 3; Dano <code>1</code> (Adormecida), <code>2</code> (Desperta e Caída) e <code>3</code> (Corrompida ou acima). <strong>⚠️ Fuga/Evitar</strong> = criatura de Rank acima da Coorte num encontro acima do Orçamento, ou criatura 2+ Ranks acima. <strong>⚖️</strong> = mesmo Rank, mas golpes demais por rodada: divida em ondas.</h2>
 <h2 id="51--região-1-a-costa-esquecida-the-forgotten-shore">5.1 🌊 Região 1: A Costa Esquecida (<em>The Forgotten Shore</em>)</h2>
 <table>
 <thead>
@@ -1989,9 +2003,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada">Clima, Geografia e Ecologia Detalhada</h3>
 <p>Um vasto deserto labiríntico formado por recifes de coral carmesim petrificado de 15 a 30 metros de altura, estendendo-se até onde a vista alcança sob um céu eternamente cinzento e sufocante. Quando as águas negras recuam pela manhã, o solo revela um lodaçal cinzento-avermelhado coberto de conchas cortantes, algas pálidas rastejantes e carcaças de peixes monstruosos. Não existem rios de água doce na superfície.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> A água das poças é salobra e levemente ácida. Coletar água potável exige encontrar <strong>Cactos-Esponja de Coral</strong> (<code>Mente [Conhecimento]</code> CD 9 para extrair sem veneno), filtrar chuva rara ou localizar fontes seladas em ruínas antigas. A carne de crustáceos monstruosos precisa ser bem cozida para eliminar parasitas (<code>Cozinheiro</code> CD 8).</li>
+<li><strong>Água e Alimento:</strong> A água das poças é salobra e levemente ácida. Coletar água potável exige encontrar <strong>Cactos-Esponja de Coral</strong> (<code>Mente [Conhecimento]</code> CD 7 para extrair sem veneno), filtrar chuva rara ou localizar fontes seladas em ruínas antigas. A carne de crustáceos monstruosos precisa ser bem cozida para eliminar parasitas (<code>Cozinheiro</code> CD 6).</li>
 <li><strong>Flora Hostil:</strong> Nas paredes altas crescem trepadeiras espinhosas que sangram látex pegajoso; nos pátios de ruínas antigas brotam <strong>Árvores Devoradoras de Almas</strong> com frutos negros doces que hipnotizam viajantes exaustos para que adormeçam sobre suas raízes vampíricas.</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Adormecida</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -2014,15 +2029,15 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: left;"><strong>2 Aranhas de Ferro</strong> em teia metálica</td>
 <td style="text-align: left;">Desperta — Monstro</td>
-<td style="text-align: center;"><strong>10</strong></td>
-<td style="text-align: left;">Tecem fios invisíveis entre torres de coral para prender batedores.</td>
+<td style="text-align: center;"><strong>9</strong></td>
+<td style="text-align: left;">Tecem fios invisíveis entre torres de coral para prender batedores. ⚠️ <strong>Fuga/Evitar</strong> <em>(Ameaça ~8 &gt; 7; Despertas contra Adormecidos)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
 <td style="text-align: left;"><strong>Centurião da Carapaça</strong> solitário</td>
 <td style="text-align: left;">Desperta — Demônio</td>
-<td style="text-align: center;"><strong>11</strong></td>
-<td style="text-align: left;">Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal.</td>
+<td style="text-align: center;"><strong>10</strong></td>
+<td style="text-align: left;">Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. 👑 <strong>Perfil de Chefe</strong> contra Adormecidos: CD 11 (12 na mesa), 28 PV, Dano 3, 3 alvos — ⚠️ <strong>Fuga/Evitar</strong> <em>(Ameaça 9 &gt; 7)</em> sem Relógio de Preparação.</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>5</strong></td>
@@ -2036,12 +2051,12 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Besta Marinha Encalhada</strong> <em>(ou Sombra do Mar)</em></td>
 <td style="text-align: left;">Caída — Diabo</td>
 <td style="text-align: center;"><strong>12</strong></td>
-<td style="text-align: left;">Presa em uma fenda esperando a maré; ataca apenas quem se aproxima!</td>
+<td style="text-align: left;">Presa em uma fenda esperando a maré; ataca apenas quem se aproxima! ⚠️ <strong>Fuga/Evitar</strong> <em>(Caída: 2 Ranks acima de Adormecidos)</em></td>
 </tr>
 </tbody>
 </table>
 <blockquote>
-<p>📌 <strong>Ecologia da Costa:</strong> Quase não há predadores <em>Adormecidos</em> neste litoral. A maioria das criaturas é <em>Desperta</em> (equivalente ao humano Desperto); perto da Torre Carmesim e nas águas do Mar Amaldiçoado predominam <em>Caídas</em> (equivalente ao Ascendido). Contra um grupo ainda <em>Adormecido</em>, some <strong><code>+2</code> na CD</strong> por Rank acima (<em>Livro 1, Seção 1.3</em>).</p>
+<p>📌 <strong>Ecologia da Costa:</strong> Quase não há predadores <em>Adormecidos</em> neste litoral. A maioria das criaturas é <em>Desperta</em> (equivalente ao humano Desperto); perto da Torre Carmesim e nas águas do Mar Amaldiçoado predominam <em>Caídas</em> (equivalente ao Ascendido). Contra um grupo ainda <em>Adormecido</em>, some <strong><code>+1</code> na CD</strong> por Rank acima (<em>Livro 1, Seção 1.3</em>).</p>
 </blockquote>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
@@ -2050,7 +2065,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ul>
 </li>
 <li><strong>Escassez de Água Doce e Salinidade Corrosiva:</strong> Cada dia inteiro sem água doce purificada impõe <strong>1 nível de Exaustão</strong> (Desvantagem em <code>Corpo</code>) e corrói roupas e equipamentos mundanos não limpos.</li>
-<li><strong>Labirinto Sem Horizonte:</strong> Dentro dos cânions de coral de 20 metros de altura não se enxerga o horizonte. Navegar sem mapa prévio ou batedor em ponto elevado exige teste em grupo de <strong><code>Mente (Astúcia)</code> CD 9</strong>; em caso de falha, a Coorte perde 3 horas dando voltas ou cai direto em uma área de caça de <em>Centuriões</em>.</li>
+<li><strong>Labirinto Sem Horizonte:</strong> Dentro dos cânions de coral de 20 metros de altura não se enxerga o horizonte. Navegar sem mapa prévio ou batedor em ponto elevado exige teste em grupo de <strong><code>Mente (Astúcia)</code> CD 7</strong>; em caso de falha, a Coorte perde 3 horas dando voltas ou cai direto em uma área de caça de <em>Centuriões</em>.</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos">Facções, Sobreviventes e Vestígios Humanos</h3>
 <p>Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolados do restante da humanidade. Os sobreviventes dividem-se entre os caçadores endurecidos da <strong>Cidade Externa</strong> (que acampam em barracos fora das muralhas) e a guarnição militarizada do <strong>Castelo Brilhante (<em>Bright Castle</em>)</strong>, erguido nas ruínas da Cidade Sombria, muitas vezes governada por um autoproclamado senhor da guerra ou conselho armado que cobra tributos semanais em Fragmentos de Alma em troca de abrigo atrás das únicas muralhas seguras da costa. <strong>Ninguém ali conhece um Portal funcionando</strong> — e é exatamente isso que prende os Adormecidos na Costa até que alguém encontre ou reative uma Cidadela.</p>
@@ -2065,14 +2080,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>As Sete Estátuas Sem Cabeça:</strong><ul>
 <li><em>Atmosfera:</em> Sete colossos de mármore branco sem cabeça, de cem metros de altura, enfileirados rumo ao norte através do labirinto como sentinelas mudas de uma era esquecida.</li>
-<li><em>Ameaça &amp; CD:</em> Escalar seus ombros antes do anoitecer (<code>Corpo [Agilidade]</code> CD 9) garante refúgio acima da maré negra, mas <em>Aranhas de Ferro</em> fazem ninhos nas dobras de pedra.</li>
-<li><em>Segredo &amp; Recompensa:</em> A base oca da quarta e da sexta estátuas contém inscrições rúnicas antigas (<code>Mente [Conhecimento]</code> CD 10) com rotas seguras até a costa norte.</li>
+<li><em>Ameaça &amp; CD:</em> Escalar seus ombros antes do anoitecer (<code>Corpo [Agilidade]</code> CD 7) garante refúgio acima da maré negra, mas <em>Aranhas de Ferro</em> fazem ninhos nas dobras de pedra.</li>
+<li><em>Segredo &amp; Recompensa:</em> A base oca da quarta e da sexta estátuas contém inscrições rúnicas antigas (<code>Mente [Conhecimento]</code> CD 8) com rotas seguras até a costa norte.</li>
 <li><em>Evento Vivo ao Chegar:</em> Sinais de fumaça vermelha sobem da terceira estátua — dois Adormecidos feridos ficaram presos lá em cima cercados por teias metálicas!</li>
 </ul>
 </li>
 <li><strong>A Catedral Submersa das Profundezas:</strong><ul>
 <li><em>Atmosfera:</em> Uma catedral gótica de coral branco e ossos de leviatã afundada numa bacia funda onde águas negras permanecem estagnadas mesmo ao meio-dia.</li>
-<li><em>Ameaça &amp; CD:</em> Exige controle de fôlego ou Memórias aquáticas (<code>Corpo [Vigor]</code> CD 11); guardada por espectros afogados e caranguejos de altar.</li>
+<li><em>Ameaça &amp; CD:</em> Exige controle de fôlego ou Memórias aquáticas (<code>Corpo [Vigor]</code> CD 9); guardada por espectros afogados e caranguejos de altar.</li>
 <li><em>Segredo &amp; Recompensa:</em> Abriga santuários submersos do <strong>Deus da Tempestade</strong> guardando <strong>Memórias Tier III–IV</strong> e amuletos de respiração aquática.</li>
 <li><em>Evento Vivo ao Chegar:</em> Durante duas horas ao meio-dia, um redemoinho central esvazia o átrio principal expondo uma porta de bronze fechada há milênios!</li>
 </ul>
@@ -2087,9 +2102,9 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ol>
 <h3 id="-papéis-da-coorte--sobrevivência-em-campo-na-costa-esquecida">🏕️ Papéis da Coorte &amp; Sobrevivência em Campo na Costa Esquecida</h3>
 <ul>
-<li><strong>Cartógrafo &amp; Batedor (<em>Olho de Falcão / Espectro</em>):</strong> Deve subir em pilares altos de coral a cada 2 horas (<code>Mente [Astúcia]</code> CD 9) para mapear o labirinto e localizar abrigo acima de 30m muito antes do crepúsculo!</li>
-<li><strong>Cozinheiro &amp; Médico:</strong> Precisam ferver carne de crustáceo com seiva de cacto-esponja para extrair água doce potável (<code>CD 9</code>), evitando a exaustão salina crônica.</li>
-<li><strong>Sentinela &amp; Guardião da Fogueira:</strong> Mantêm vigília dupla à noite quando criaturas aquáticas tentam escalar as estátuas ou falésias durante o pico da maré do Mar Amaldiçoado (<code>CD 10</code>).</li>
+<li><strong>Cartógrafo &amp; Batedor (<em>Olho de Falcão / Espectro</em>):</strong> Deve subir em pilares altos de coral a cada 2 horas (<code>Mente [Astúcia]</code> CD 7) para mapear o labirinto e localizar abrigo acima de 30m muito antes do crepúsculo!</li>
+<li><strong>Cozinheiro &amp; Médico:</strong> Precisam ferver carne de crustáceo com seiva de cacto-esponja para extrair água doce potável (<code>CD 7</code>), evitando a exaustão salina crônica.</li>
+<li><strong>Sentinela &amp; Guardião da Fogueira:</strong> Mantêm vigília dupla à noite quando criaturas aquáticas tentam escalar as estátuas ou falésias durante o pico da maré do Mar Amaldiçoado (<code>CD 8</code>).</li>
 <li><strong>Artífice &amp; Baluarte:</strong> Limpam o sal corrosivo das armas após cada combate e usam placas de carapaça abatida para improvisar escudos ou jangadas resistentes!</li>
 </ul>
 <h3 id="-a-cidadela-conquistável--o-forte-da-estátua-partida">🏰 A Cidadela Conquistável — <em>O Forte da Estátua Partida</em></h3>
@@ -2102,9 +2117,9 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Cruzar a ponte estreita sob disparos de esporos de cracas cuspideiras (<code>Corpo [Agilidade]</code> CD 9) e limpar a guarnição da guarita.</li>
+<li>Cruzar a ponte estreita sob disparos de esporos de cracas cuspideiras (<code>Corpo [Agilidade]</code> CD 7) e limpar a guarnição da guarita.</li>
 <li>Quebrar a <em>Placa Dorsal</em> do <em>Devorador</em> usando manobras de <em>Mirar em Ponto Fraco</em> ou trabalho em dupla de <em>Baluarte + Executor</em>.</li>
-<li>Limpar o ninho de ovos dentro da sala da espada caída e tocar o núcleo rúnico no punho da estátua com <code>[Brasa de Divindade]</code> ou <code>Alma (Canalizar)</code> <strong>CD 10</strong>, ativando um <strong>Portal Adormecido</strong> independente!</li>
+<li>Limpar o ninho de ovos dentro da sala da espada caída e tocar o núcleo rúnico no punho da estátua com <code>[Brasa de Divindade]</code> ou <code>Alma (Canalizar)</code> <strong>CD 8</strong>, ativando um <strong>Portal Adormecido</strong> independente!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>12 Fragmentos Despertos</strong> no ninho + a Memória <strong>Couraça do Leviatã de Coral (Armadura Desperta Tier III)</strong>!</li>
@@ -2160,9 +2175,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_1">Clima, Geografia e Ecologia Detalhada</h3>
 <p>Um arquipélago vertiginoso de centenas de ilhas rochosas de tamanhos variados (de pequenas torres de pedra a platôs inteiros com florestas e ruínas de cidades da 3ª Era), todas <strong>suspensas no vazio do céu</strong> e amarradas umas às outras por colossais <strong>correntes de ferro celestial</strong> com elos do tamanho de casas. Abaixo das ilhas não existe chão nem oceano — apenas o <strong>Céu Abaixo (<em>Sky Below</em>)</strong>, uma escuridão estrelada insondável onde línguas de <strong>chama branca pura</strong> dançam em silêncio mortal.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> Muitas ilhas maiores possuem nascentes alimentadas por condensação das nuvens e pomares de frutas prateadas comestíveis (<code>Sobrevivência</code> CD 8). Porém, nas ilhas inferiores próximas às chamas brancas, todas as fontes secam rapidamente!</li>
+<li><strong>Água e Alimento:</strong> Muitas ilhas maiores possuem nascentes alimentadas por condensação das nuvens e pomares de frutas prateadas comestíveis (<code>Sobrevivência</code> CD 6). Porém, nas ilhas inferiores próximas às chamas brancas, todas as fontes secam rapidamente!</li>
 <li><strong>Flora Hostil:</strong> Grama metálica prateada capaz de cortar botas de couro comum e árvores brancas de folhas vermelhas cujas raízes penetram até o fundo rochoso das ilhas, onde escondem túneis habitados por monstros.</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Desperta</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -2179,14 +2195,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;">Bando de <strong>4 Pássaros-Lâmina Celestiais</strong></td>
 <td style="text-align: left;">Desperta — Besta</td>
 <td style="text-align: center;"><strong>8</strong></td>
-<td style="text-align: left;">Mergulham do alto tentando derrubar viajantes que cruzam correntes!</td>
+<td style="text-align: left;">Mergulham do alto tentando derrubar viajantes que cruzam correntes! ⚖️ <em>Acima do Orçamento (Ameaça ~8: comece com 3)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: left;"><strong>2 Gárgulas de Pedra da Ruína</strong></td>
 <td style="text-align: left;">Desperta — Monstro</td>
 <td style="text-align: center;"><strong>9</strong></td>
-<td style="text-align: left;">Ficam imóveis como estátuas de templo até a Coorte ficar no meio do pátio.</td>
+<td style="text-align: left;">Ficam imóveis como estátuas de templo até a Coorte ficar no meio do pátio. ⚖️ <em>Acima do Orçamento (Ameaça ~8: a 2ª entra na rodada 2)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
@@ -2207,18 +2223,18 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Dragão de Nuvem e Relâmpago</strong></td>
 <td style="text-align: left;">Caída — Tirano</td>
 <td style="text-align: center;"><strong>13</strong></td>
-<td style="text-align: left;">Sobrevoa ilhas altas buscando embarcações voadoras desprotegidas.</td>
+<td style="text-align: left;">Sobrevoa ilhas altas buscando embarcações voadoras desprotegidas. ⚠️ <strong>Fuga/Evitar</strong> <em>(Caída — Tirano: Ameaça ~9 &gt; 7)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_1">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
 <li><strong>As Marés do Céu e O Esmagamento (<em>The Crushing</em>):</strong> Cada ilha sobe e desce em ciclos regulares. Quando uma ilha sobe até o teto de nuvens brancas, a gravidade se multiplica violentamente (<strong>O Esmagamento</strong>)!<ul>
-<li><em>Regra:</em> Durante o Esmagamento (precedido por zumbido metálico nas correntes e queda de folhas), qualquer ser vivo ao ar livre precisa passar em <strong><code>Corpo (Vigor)</code> CD 12</strong> a cada cena para não ficar <em>Imobilizado</em> no chão e sofrer <strong>2 de Dano Contundente</strong>! Apenas cavernas profundas ou círculos rúnicos intactos bloqueiam o esmagamento.</li>
+<li><em>Regra:</em> Durante o Esmagamento (precedido por zumbido metálico nas correntes e queda de folhas), qualquer ser vivo ao ar livre precisa passar em <strong><code>Corpo (Vigor)</code> CD 10</strong> a cada cena para não ficar <em>Imobilizado</em> no chão e sofrer <strong>2 de Dano Contundente</strong>! Apenas cavernas profundas ou círculos rúnicos intactos bloqueiam o esmagamento.</li>
 </ul>
 </li>
-<li><strong>O Fogo Branco do Céu Abaixo:</strong> Quando uma ilha desce ao ponto mais baixo da maré, colunas de fogo branco lambem a borda inferior da rocha. Cair para fora de uma ilha exige teste rápido com corda/aspecto (<code>Corpo [Agilidade]</code> CD 11); cair nas chamas brancas sem asas ou navio causa <strong>4 de Dano Irredutível</strong> por rodada!</li>
-<li><strong>Travessia pelas Correntes Celestiais:</strong> Caminhar sobre elos metálicos oscilando a quilômetros acima do abismo exige teste de equilíbrio (<code>Corpo [Agilidade]</code> CD 9 em tempo calmo; <strong>CD 11</strong> sob ventania ou combate aéreo!).</li>
+<li><strong>O Fogo Branco do Céu Abaixo:</strong> Quando uma ilha desce ao ponto mais baixo da maré, colunas de fogo branco lambem a borda inferior da rocha. Cair para fora de uma ilha exige teste rápido com corda/aspecto (<code>Corpo [Agilidade]</code> CD 9); cair nas chamas brancas sem asas ou navio causa <strong>4 de Dano Irredutível</strong> por rodada!</li>
+<li><strong>Travessia pelas Correntes Celestiais:</strong> Caminhar sobre elos metálicos oscilando a quilômetros acima do abismo exige teste de equilíbrio (<code>Corpo [Agilidade]</code> CD 7 em tempo calmo; <strong>CD 9</strong> sob ventania ou combate aéreo!).</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_1">Facções, Sobreviventes e Vestígios Humanos</h3>
 <p>Esta é uma das zonas mais disputadas do mundo conhecido! O <strong>Clã Valor</strong> (através de clãs vassalos honrados como o <strong>Clã Pluma Branca</strong>, comandado pela Transcendente Tyris) mantém a Cidadela do <strong>Templo do Cálice</strong> e protege rotas aéreas ao norte, enquanto batedores furtivos do <strong>Clã Song</strong>, engenheiros de <strong>Aliança Livre</strong> e corsários dos céus vasculham as ilhas periféricas em busca de fragmentos de navios voadores e segredos da Era dos Daemons.</p>
@@ -2233,7 +2249,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>A Ilha dos Destroços (<em>Shipwreck Island</em>):</strong><ul>
 <li><em>Atmosfera:</em> Um rochedo inclinado e partido onde o esqueleto colossal de um <strong>Navio Voador Rúnico</strong> da 3ª Era está encravado entre correntes partidas e árvores vermelhas.</li>
-<li><em>Ameaça &amp; CD:</em> Espectros de marinheiros celestiais (<code>CD 10</code>), tábuas podres sobre o abismo (<code>Corpo [Agilidade]</code> CD 10) e saqueadores rivais.</li>
+<li><em>Ameaça &amp; CD:</em> Espectros de marinheiros celestiais (<code>CD 10</code>), tábuas podres sobre o abismo (<code>Corpo [Agilidade]</code> CD 8) e saqueadores rivais.</li>
 <li><em>Segredo &amp; Recompensa:</em> No convés inferior ainda brilha um <strong>Círculo de Levitação intacto</strong> — a peça central necessária para a Coorte construir ou restaurar seu próprio <strong>Navio Voador</strong>!</li>
 <li><em>Evento Vivo ao Chegar:</em> Um esquife voador de mercenários rivais acaba de atracar no lado oposto tentando desparafusar o Círculo às pressas!</li>
 </ul>
@@ -2255,8 +2271,8 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ol>
 <h3 id="-papéis-da-coorte--sobrevivência-em-campo-nas-ilhas-acorrentadas">🏕️ Papéis da Coorte &amp; Sobrevivência em Campo nas Ilhas Acorrentadas</h3>
 <ul>
-<li><strong>Cartógrafo &amp; Vigia (<em>Oráculo / Olho de Falcão</em>):</strong> Calculam a tabela horária das marés verticais (<code>Mente [Conhecimento]</code> CD 9) para que o grupo nunca seja pego pelo Esmagamento fora de cavernas!</li>
-<li><strong>Espectro &amp; Baluarte:</strong> Fixam ganchos e cordas de segurança nos elos celestiais antes que os aliados pesados atravessem entre ilhas sob rajadas de vento (<code>CD 10</code>).</li>
+<li><strong>Cartógrafo &amp; Vigia (<em>Oráculo / Olho de Falcão</em>):</strong> Calculam a tabela horária das marés verticais (<code>Mente [Conhecimento]</code> CD 7) para que o grupo nunca seja pego pelo Esmagamento fora de cavernas!</li>
+<li><strong>Espectro &amp; Baluarte:</strong> Fixam ganchos e cordas de segurança nos elos celestiais antes que os aliados pesados atravessem entre ilhas sob rajadas de vento (<code>CD 8</code>).</li>
 <li><strong>Artífice:</strong> Coleta placas de madeira estelar e fragmentos de motores antigos para manter ou construir uma embarcação aérea para os <strong>7 Postos</strong>.</li>
 <li><strong>Guardião da Fogueira &amp; Cozinheiro:</strong> Colhem água de condensação limpa nas folhas prateadas e aquecem o abrigo dentro de grutas ventiladas livres de gases do abismo.</li>
 </ul>
@@ -2270,9 +2286,9 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Cruzar a corrente sul sob ventos fortes (<code>Corpo [Agilidade]</code> CD 10) ou sabotar a runa gravitacional da guarita (<code>Mente [Conhecimento]</code> CD 10) e derrotar as gárgulas.</li>
+<li>Cruzar a corrente sul sob ventos fortes (<code>Corpo [Agilidade]</code> CD 8) ou sabotar a runa gravitacional da guarita (<code>Mente [Conhecimento]</code> CD 8) e derrotar as gárgulas.</li>
 <li>Enfrentar o <em>Senhor das Correntes</em> dentro do pátio, coordenando os atacantes para destruir primeiro sua <strong>Fornalha Dorsal (8 PV)</strong> — o que desativa 8 das 16 correntes extras!</li>
-<li>Descer ao subsolo da âncora e ativar o <strong>Selo da Âncora</strong> inserindo <strong>10 Fragmentos Despertos</strong> ou canalizando <code>[Brasa de Divindade]</code> (<code>CD 10</code>), liberando o Portal Desperto e um cais aéreo pronto para atracar navios voadores!</li>
+<li>Descer ao subsolo da âncora e ativar o <strong>Selo da Âncora</strong> inserindo <strong>10 Fragmentos Despertos</strong> ou canalizando <code>[Brasa de Divindade]</code> (<code>CD 8</code>), liberando o Portal Desperto e um cais aéreo pronto para atracar navios voadores!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>16 Fragmentos Despertos/Ascendidos</strong> no cofre da torre + a Memória <strong>Grilhões do Abismo (Arma/Utilitário Desperto Tier IV)</strong>!</li>
@@ -2328,9 +2344,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_2">Clima, Geografia e Ecologia Detalhada</h3>
 <p>A maior e mais temida cordilheira do Reino dos Sonhos: uma muralha natural de picos negros denteados e geleiras que perfuram as nuvens, dividida por cânions sem fundo e túneis eólicos. Enquanto os picos mais altos brilham sob estrelas cristalinas e ar congelante, todos os vales, passos e desfiladeiros inferiores estão eternamente submersos por um oceano espesso e imóvel chamado <strong>Névoa Branca</strong> — uma bruma fria que engole som, luz e direção.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> Há gelo e neve em abundância, mas derretê-los sem fogo rúnico consome reservas preciosas de combustível e Essência. Nas <strong>Cavernas Termais</strong> crescem fungos albinos comestíveis e peixes cegos subterrâneos (<code>Cozinheiro</code> CD 9); na superfície congelada não há vegetação comestível.</li>
+<li><strong>Água e Alimento:</strong> Há gelo e neve em abundância, mas derretê-los sem fogo rúnico consome reservas preciosas de combustível e Essência. Nas <strong>Cavernas Termais</strong> crescem fungos albinos comestíveis e peixes cegos subterrâneos (<code>Cozinheiro</code> CD 7); na superfície congelada não há vegetação comestível.</li>
 <li><strong>Flora Hostil:</strong> Líquens negros que absorvem calor corporal de quem se encosta nas rochas para dormir e pinheiros petrificados cujas agulhas congeladas estilhaçam como vidro ao menor vento.</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Ascendida</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -2354,7 +2371,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Matilha de Lobos de Névoa Pálida</strong></td>
 <td style="text-align: left;">Caída — Monstro</td>
 <td style="text-align: center;"><strong>11</strong></td>
-<td style="text-align: left;">Cercam a Coorte dentro da bruma atacando quem se afasta 2 metros!</td>
+<td style="text-align: left;">Cercam a Coorte dentro da bruma atacando quem se afasta 2 metros! ⚖️ <em>Acima do Orçamento (Ameaça ~12 com 3 lobos: comece com 2)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
@@ -2368,26 +2385,26 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Yeti Colossal dos Desfiladeiros</strong></td>
 <td style="text-align: left;">Corrompida — Diabo</td>
 <td style="text-align: center;"><strong>13</strong></td>
-<td style="text-align: left;">Desencadeia uma avalanche antes de saltar contra a vanguarda!</td>
+<td style="text-align: left;">Desencadeia uma avalanche antes de saltar contra a vanguarda! ⚠️ <strong>Fuga/Evitar</strong> <em>(Corrompida — Diabo: Ameaça ~9 &gt; 7)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: left;"><strong>Gigante de Rocha Oca</strong> <em>(Camuflado)</em></td>
 <td style="text-align: left;">Grande — Tirano</td>
 <td style="text-align: center;"><strong>14</strong></td>
-<td style="text-align: left;">Dorme disfarçado de penhasco; só desperta se profanarem ou escalarem seu dorso!</td>
+<td style="text-align: left;">Dorme disfarçado de penhasco; só desperta se profanarem ou escalarem seu dorso! ⚠️ <strong>Fuga/Evitar</strong> <em>(Grande: 2 Ranks acima)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_2">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
 <li><strong>A Névoa Devoradora de Bússolas e Essência:</strong> A Névoa Branca não é simples vapor — é uma anomalia espiritual espessa que apaga referências espaciais e drena vitalidade.<ul>
-<li><em>Regra de Navegação:</em> Bússolas magnéticas giram loucamente e a visão cai para <strong>2 metros</strong>. Marchar sem uma corda física amarrada ligando todos os 7 jogadores e sem um guia com <code>[Bússola Interna]</code>, Nome Verdadeiro ou Lanterna Divina exige <strong><code>Mente (Astúcia)</code> CD 12</strong> por trecho; uma falha faz a Coorte caminhar horas em círculos!</li>
+<li><em>Regra de Navegação:</em> Bússolas magnéticas giram loucamente e a visão cai para <strong>2 metros</strong>. Marchar sem uma corda física amarrada ligando todos os 7 jogadores e sem um guia com <code>[Bússola Interna]</code>, Nome Verdadeiro ou Lanterna Divina exige <strong><code>Mente (Astúcia)</code> CD 10</strong> por trecho; uma falha faz a Coorte caminhar horas em círculos!</li>
 <li><em>Regra de Dreno:</em> Cada cena longa exposta diretamente à Névoa Branca sem abrigo rúnico/térmico consome <strong>1 Ponto de Essência</strong> de cada jogador (ou causa <strong>1 Dano de Frio</strong> se a Essência estiver zerada!).</li>
 </ul>
 </li>
-<li><strong>Ecos Traiçoeiros e Avalanches:</strong> Qualquer explosão, grito agudo ou impacto pesado em desfiladeiros dispara avalanches de neve e pedra (<code>Corpo [Agilidade]</code> CD 11 para saltar para abrigo; <strong>3 de Dano Contundente</strong> e <em>Imobilizado</em> se soterrado!).</li>
-<li><strong>Ar Rarefeito e Hipotermia dos Picos:</strong> Acima da linha da névoa, sem roupas térmicas adequadas ou Memórias de proteção climática, testes físicos prolongados exigem <code>Corpo (Vigor)</code> <strong>CD 10</strong> para evitar a condição <em>Exausto</em>.</li>
+<li><strong>Ecos Traiçoeiros e Avalanches:</strong> Qualquer explosão, grito agudo ou impacto pesado em desfiladeiros dispara avalanches de neve e pedra (<code>Corpo [Agilidade]</code> CD 9 para saltar para abrigo; <strong>3 de Dano Contundente</strong> e <em>Imobilizado</em> se soterrado!).</li>
+<li><strong>Ar Rarefeito e Hipotermia dos Picos:</strong> Acima da linha da névoa, sem roupas térmicas adequadas ou Memórias de proteção climática, testes físicos prolongados exigem <code>Corpo (Vigor)</code> <strong>CD 8</strong> para evitar a condição <em>Exausto</em>.</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_2">Facções, Sobreviventes e Vestígios Humanos</h3>
 <p>Praticamente <strong>nenhuma facção humana consegue manter grandes exércitos na superfície</strong> das Montanhas Ocas devido ao custo extremo da Névoa. Apenas pequenas equipes de <strong>Transcendentes</strong>, eremitas cultuadores de templos antigos perdidos nos picos, e <strong>contrabandistas audaciosos da Aliança Livre</strong> (que conhecem passagens ocultas até as descidas do Submundo) ousam cruzar a cordilheira sem usar Portais.</p>
@@ -2395,15 +2412,15 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ol>
 <li><strong>O Desfiladeiro dos Sussurros (<em>A Garganta de Gelo</em>):</strong><ul>
 <li><em>Atmosfera:</em> Um corredor estreito de paredes negras espelhadas pelo gelo, alinhado por dezenas de cadáveres congelados de antigos heróis da 2ª Era perfeitamente preservados há milênios.</li>
-<li><em>Ameaça &amp; CD:</em> O vento gera ecos enganosos; tocar qualquer cadáver ou arma congelada desperta <strong>Parasitas do Frio</strong> e estalactites armadilha (<code>Corpo [Agilidade]</code> CD 11).</li>
+<li><em>Ameaça &amp; CD:</em> O vento gera ecos enganosos; tocar qualquer cadáver ou arma congelada desperta <strong>Parasitas do Frio</strong> e estalactites armadilha (<code>Corpo [Agilidade]</code> CD 9).</li>
 <li><em>Segredo &amp; Recompensa:</em> Dois cadáveres de comandantes antigos ainda seguram <strong>Memórias intactas de Tier III–IV</strong> congeladas em gelo azul que pode ser derretido com Essência.</li>
 <li><em>Evento Vivo ao Chegar:</em> Uma espada de prata cravada no gelo começa a zumbir — atraindo uma matilha de <em>Lobos de Névoa</em> para o gargalo do desfiladeiro!</li>
 </ul>
 </li>
 <li><strong>O Observatório Congelado do Deus da Tempestade:</strong><ul>
 <li><em>Atmosfera:</em> Erguido no cume mais alto acima do oceano de bruma, onde o céu estrelado brilha com nitidez ofuscante e o silêncio é quebrado apenas pelo estalar das placas metálicas.</li>
-<li><em>Ameaça &amp; CD:</em> Ar gelado severo (<code>Corpo [Vigor]</code> CD 11) e autômatos celestes congelados que despertam quando o mecanismo gira (<code>CD 12</code>).</li>
-<li><em>Segredo &amp; Recompensa:</em> Contém um <strong>Astrolábio Funcional</strong> que revela entradas subterrâneas ocultas para o <strong>Submundo de Nether</strong> e rotas seguras entre os picos (<code>Mente [Conhecimento]</code> CD 11).</li>
+<li><em>Ameaça &amp; CD:</em> Ar gelado severo (<code>Corpo [Vigor]</code> CD 9) e autômatos celestes congelados que despertam quando o mecanismo gira (<code>CD 12</code>).</li>
+<li><em>Segredo &amp; Recompensa:</em> Contém um <strong>Astrolábio Funcional</strong> que revela entradas subterrâneas ocultas para o <strong>Submundo de Nether</strong> e rotas seguras entre os picos (<code>Mente [Conhecimento]</code> CD 9).</li>
 <li><em>Evento Vivo ao Chegar:</em> Um feixe de luz estelar desce pela lente quebrada do teto apontando exatamente para uma caverna fumegante dois quilômetros abaixo!</li>
 </ul>
 </li>
@@ -2416,7 +2433,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>A Escadaria Quebrada para o Abismo:</strong><ul>
 <li><em>Atmosfera:</em> Uma escadaria monumental de degraus gigantescos talhados na rocha viva que desce em espiral por três quilômetros diretamente da superfície nebulosa até as abóbadas do <strong>Submundo</strong>.</li>
-<li><em>Ameaça &amp; CD:</em> Degraus escorregadios sem corrimão (<code>Corpo [Agilidade]</code> CD 10 contra queda fatal!) e três <strong>Golems de Basalto</strong> da Era dos Daemons guardando o portão intermediário.</li>
+<li><em>Ameaça &amp; CD:</em> Degraus escorregadios sem corrimão (<code>Corpo [Agilidade]</code> CD 8 contra queda fatal!) e três <strong>Golems de Basalto</strong> da Era dos Daemons guardando o portão intermediário.</li>
 <li><em>Segredo &amp; Recompensa:</em> Abre o caminho terrestre mais rápido da superfície para as Fundições de Nether sem precisar enfrentar a Névoa por semanas!</li>
 <li><em>Evento Vivo ao Chegar:</em> O patamar do meio desabou parcialmente — será preciso cruzar um vão de cinco metros usando cordas presas nos golems inertes!</li>
 </ul>
@@ -2424,7 +2441,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ol>
 <h3 id="-papéis-da-coorte--sobrevivência-em-campo-nas-montanhas-ocas">🏕️ Papéis da Coorte &amp; Sobrevivência em Campo nas Montanhas Ocas</h3>
 <ul>
-<li><strong>Cartógrafo &amp; Oráculo:</strong> Mantêm todos os <strong>7 jogadores amarrados pela cintura com corda de 15 metros</strong> e guiam o grupo por bússola rúnica ou marcos estelares (<code>Mente [Astúcia]</code> CD 12).</li>
+<li><strong>Cartógrafo &amp; Oráculo:</strong> Mantêm todos os <strong>7 jogadores amarrados pela cintura com corda de 15 metros</strong> e guiam o grupo por bússola rúnica ou marcos estelares (<code>Mente [Astúcia]</code> CD 10).</li>
 <li><strong>Guardião da Fogueira &amp; Artífice:</strong> Gravando <strong>Runas de Purificação Térmica</strong> nas barracas ou tendas, impedem o dreno de 1 Essência/cena causado pela Névoa Branca!</li>
 <li><strong>Baluarte &amp; Executor:</strong> Caminham na ponta da fila de corda para absorver investidas cegas de <em>Yetis</em> e quebrar gelo negro em escaladas.</li>
 <li><strong>Vigia Espiritual &amp; Médico:</strong> Ficam atentos para distinguir vozes imitadas por <em>Espectros da Bruma</em> (usando senhas secretas da Coorte!) e tratam hipotermia antes de virar Exaustão!</li>
@@ -2439,8 +2456,8 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Cruzar a ponte de obsidiana sob rajadas de vento (<code>Corpo [Agilidade]</code> CD 10) e conter os espectros sentinelas sem gritar para evitar avalanches.</li>
-<li>Canalizar Essência de Sombra/Alma ou óleo rúnico nas <strong>2 Lanternas Negras apagadas</strong> (<code>Alma [Canalizar]</code> CD 10) — expulsando toda a Névoa Branca e anulando a invisibilidade do <em>Abade</em>!</li>
+<li>Cruzar a ponte de obsidiana sob rajadas de vento (<code>Corpo [Agilidade]</code> CD 8) e conter os espectros sentinelas sem gritar para evitar avalanches.</li>
+<li>Canalizar Essência de Sombra/Alma ou óleo rúnico nas <strong>2 Lanternas Negras apagadas</strong> (<code>Alma [Canalizar]</code> CD 8) — expulsando toda a Névoa Branca e anulando a invisibilidade do <em>Abade</em>!</li>
 <li>Abater o Chefe e tocar a <strong>Mesa Rasa de Ônix</strong> no santuário interno em silêncio respeitoso (armas embainhadas), despertando o <strong>Portal Ascendido</strong> escondido atrás do altar!</li>
 </ol>
 </li>
@@ -2497,9 +2514,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_3">Clima, Geografia e Ecologia Detalhada</h3>
 <p>O interior colossal e oco abaixo das raízes das Montanhas Ocas! Não existe céu nem estrelas aqui: a abóbada de granito escuro estende-se a quilômetros de altura sobre uma paisagem silenciosa de planícies de basalto, florestas de estalagmites de obsidiana e gargantas abissais. A iluminação provém apenas de <strong>rios lentos de magma alaranjado</strong>, veios de cristais pálidos nas cavernas e chamas rúnicas eternas nas oficinas do Daemon da Escolha. Nos grandes vales planos repousam mares imóveis de <strong>Escuridão Elemental Verdadeira</strong> — uma substância líquida espessa nascida do sangue primordial derramado, tão densa que devora qualquer chama comum.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> Água doce potável é rara e quase sempre oculta em reservatórios filtrados das oficinas antigas ou gotejamentos de calcário longe dos rios de lava (<code>Mente [Astúcia]</code> CD 10 para testar acidez!). A comida depende de fungos gigantes subterrâneos e carne densa de vermes ou bestas de rocha.</li>
+<li><strong>Água e Alimento:</strong> Água doce potável é rara e quase sempre oculta em reservatórios filtrados das oficinas antigas ou gotejamentos de calcário longe dos rios de lava (<code>Mente [Astúcia]</code> CD 8 para testar acidez!). A comida depende de fungos gigantes subterrâneos e carne densa de vermes ou bestas de rocha.</li>
 <li><strong>Flora Hostil:</strong> Líquens metálicos que se alimentam da Essência de armas deixadas no chão e musgos cinzentos explosivos que liberam nuvens asfixiantes ao menor passo descuidado.</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Desperta</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -2516,14 +2534,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Enxame de Morcegos Sônicos Cegos</strong></td>
 <td style="text-align: left;">Desperta — Besta</td>
 <td style="text-align: center;"><strong>8</strong></td>
-<td style="text-align: left;">Disparam guinchos que aplicam <em>Atordoado</em> e atraem monstros maiores!</td>
+<td style="text-align: left;">Disparam guinchos que aplicam <em>Atordoado</em> e atraem monstros maiores! ⚖️ <em>Acima do Orçamento (Ameaça ~8: trate como Horda)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: left;"><strong>2 Estátuas-Sentinelas de Pedra Viva</strong></td>
 <td style="text-align: left;">Caída — Monstro</td>
 <td style="text-align: center;"><strong>11</strong></td>
-<td style="text-align: left;">Permanecem paradas no corredor até alguém tentar pilhar ferramentas antigas.</td>
+<td style="text-align: left;">Permanecem paradas no corredor até alguém tentar pilhar ferramentas antigas. ⚠️ <strong>Fuga/Evitar</strong> <em>(Caídas: Ameaça ~8 &gt; 7)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
@@ -2537,25 +2555,25 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Sombrio da Escuridão Verdadeira</strong></td>
 <td style="text-align: left;">Corrompida — Diabo</td>
 <td style="text-align: center;"><strong>12</strong></td>
-<td style="text-align: left;">Emerge dos lagos negros apagando tochas e atacando quem se isola da fila.</td>
+<td style="text-align: left;">Emerge dos lagos negros apagando tochas e atacando quem se isola da fila. ⚠️ <strong>Fuga/Evitar</strong> <em>(Corrompida: 2 Ranks acima)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: left;"><strong>Colosso Inacabado de Nether</strong></td>
 <td style="text-align: left;">Grande — Tirano</td>
 <td style="text-align: center;"><strong>14</strong></td>
-<td style="text-align: left;">Vaga sem rumo pelos grandes salões de forja com passos que tremem a caverna.</td>
+<td style="text-align: left;">Vaga sem rumo pelos grandes salões de forja com passos que tremem a caverna. ⚠️ <strong>Fuga/Evitar</strong> <em>(Grande: 3 Ranks acima)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_3">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
 <li><strong>Escuridão Elemental Verdadeira (<em>True Darkness</em>):</strong> Ao contrário da escuridão comum (onde visão noturna ou habilidades comuns de sombra enxergam perfeitamente), a <em>Escuridão Verdadeira</em> suprime luzes mundanas e sentidos normais!<ul>
-<li><em>Regra:</em> Dentro de nuvens ou poços de Escuridão Verdadeira, qualquer personagem sem <strong>Chama Divina, Ecolocalização ou Memória Sagrada de Luz</strong> sofre automaticamente a condição <strong>Cego</strong> (Desvantagem em ataques/defesas e <code>Mente [Astúcia]</code> CD 12 para se orientar).</li>
+<li><em>Regra:</em> Dentro de nuvens ou poços de Escuridão Verdadeira, qualquer personagem sem <strong>Chama Divina, Ecolocalização ou Memória Sagrada de Luz</strong> sofre automaticamente a condição <strong>Cego</strong> (Desvantagem em ataques/defesas e <code>Mente [Astúcia]</code> CD 10 para se orientar).</li>
 </ul>
 </li>
-<li><strong>Gases Vulcânicos e Ar Escaldante:</strong> Galerias próximas aos mares de lava exalam enxofre tóxico (<code>Corpo [Vigor]</code> CD 10 a cada hora sem máscara/runa purificadora para evitar <em>Envenenado</em> ou <strong>1 de Dano de Calor</strong>).</li>
-<li><strong>Ecos da Escolha (<em>Testes de Vontade de Nether</em>):</strong> Mecanismos, fechaduras e portais esculpidos pelo Demônio da Escolha frequentemente recusam força bruta e exigem sacrifício ou convicção pura (<code>Mente [Vontade]</code> CD 10) para abaixar pontes e abrir cofres.</li>
+<li><strong>Gases Vulcânicos e Ar Escaldante:</strong> Galerias próximas aos mares de lava exalam enxofre tóxico (<code>Corpo [Vigor]</code> CD 8 a cada hora sem máscara/runa purificadora para evitar <em>Envenenado</em> ou <strong>1 de Dano de Calor</strong>).</li>
+<li><strong>Ecos da Escolha (<em>Testes de Vontade de Nether</em>):</strong> Mecanismos, fechaduras e portais esculpidos pelo Demônio da Escolha frequentemente recusam força bruta e exigem sacrifício ou convicção pura (<code>Mente [Vontade]</code> CD 8) para abaixar pontes e abrir cofres.</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_3">Facções, Sobreviventes e Vestígios Humanos</h3>
 <p>Os Grandes Clãs não mantêm cidades aqui devido à dificuldade de abrir Portais estáveis sob quilômetros de pedra. Entretanto, <strong>grupos secretos de artífices do Clã Valor</strong> infiltram-se regularmente para estudar as oficinas de armaduras vivas de Nether; e <strong>guias da Aliança Livre</strong> cobram caro para conduzir viajantes pelas cavernas superiores, usando o Submundo como <strong>passagem secreta subterrânea para cruzar as Montanhas Ocas por baixo</strong>!</p>
@@ -2563,28 +2581,28 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ol>
 <li><strong>As Fundições de Pedra Viva (<em>Oficina Principal de Nether</em>):</strong><ul>
 <li><em>Atmosfera:</em> Um complexo monumental de plataformas de aço negro suspensas por correntes sobre um lago de magma calmo, cercado por milhares de estátuas inacabadas de cavaleiros, servas e monstros em fileiras silenciosas.</li>
-<li><em>Ameaça &amp; CD:</em> Sentinelas de pedra viva despertam ao som de metal (<code>CD 11</code>); passarelas estreitas exigem equilíbrio acima da lava (<code>Corpo [Agilidade]</code> CD 10).</li>
+<li><em>Ameaça &amp; CD:</em> Sentinelas de pedra viva despertam ao som de metal (<code>CD 11</code>); passarelas estreitas exigem equilíbrio acima da lava (<code>Corpo [Agilidade]</code> CD 8).</li>
 <li><em>Segredo &amp; Recompensa:</em> No escritório central existem moldes para <strong>Núcleos de Rubi Artificial</strong> e ferramentas de reparo capazes de restaurar armaduras destruídas!</li>
 <li><em>Evento Vivo ao Chegar:</em> Uma forja secundária acendeu sozinha há minutos — revelando que alguém acabou de inserir um núcleo novo em uma das estátuas!</li>
 </ul>
 </li>
 <li><strong>As Pontes de Obsidiana (<em>O Atalho Sob as Montanhas</em>):</strong><ul>
 <li><em>Atmosfera:</em> Três arcos colossais de vidro vulcânico negro que atravessam um abismo de dois quilômetros preenchido por Escuridão Verdadeira líquida abaixo.</li>
-<li><em>Ameaça &amp; CD:</em> Visibilidade mínima nas extremidades, rajadas ascendentes de ar frio e gárgulas invisíveis que atacam de surpresa (<code>Mente [Astúcia]</code> CD 11).</li>
+<li><em>Ameaça &amp; CD:</em> Visibilidade mínima nas extremidades, rajadas ascendentes de ar frio e gárgulas invisíveis que atacam de surpresa (<code>Mente [Astúcia]</code> CD 9).</li>
 <li><em>Segredo &amp; Recompensa:</em> É a rota estratégica mais valiosa do subsolo — ligando as encostas sul e norte sem precisar enfrentar a Névoa Branca da superfície!</li>
 <li><em>Evento Vivo ao Chegar:</em> Metade do arco central está bloqueada por uma barricada abandonada de mercenários com marcas recentes de garras negras!</li>
 </ul>
 </li>
 <li><strong>O Lago do Sangue Negro (<em>Mar de Escuridão</em>):</strong><ul>
 <li><em>Atmosfera:</em> Um mar plano como espelho escuro absoluto, onde ilhotas de obsidiana emergem silenciosas sob luz pálida de cristais distantes no teto.</li>
-<li><em>Ameaça &amp; CD:</em> Navegar nele exige barcas reforçadas e luz sagrada; criaturas aquáticas de sombra puxam remos e marinheiros para o fundo (<code>Corpo [Força]</code> CD 12).</li>
+<li><em>Ameaça &amp; CD:</em> Navegar nele exige barcas reforçadas e luz sagrada; criaturas aquáticas de sombra puxam remos e marinheiros para o fundo (<code>Corpo [Força]</code> CD 10).</li>
 <li><em>Segredo &amp; Recompensa:</em> Nas ilhotas mais distantes repousam cadáveres petrificados de guerreiros da 4ª Era vestindo armaduras raras resistentes a magia!</li>
 <li><em>Evento Vivo ao Chegar:</em> Um farol prateado antigo pisca intermitentemente na ilhota do meio, como se pedisse socorro ou atraísse presas!</li>
 </ul>
 </li>
 <li><strong>O Arquivo das Mil Escolhas:</strong><ul>
 <li><em>Atmosfera:</em> Uma biblioteca semicircular escavada em basalto polido onde tabuletas gravadas narram a obsessão filosófica de Nether em criar seres com livre-arbítrio verdadeiro.</li>
-<li><em>Ameaça &amp; CD:</em> Portas com armadilhas de gás petrificante para quem força fechaduras sem responder aos enigmas gravados (<code>Mente [Conhecimento]</code> CD 11).</li>
+<li><em>Ameaça &amp; CD:</em> Portas com armadilhas de gás petrificante para quem força fechaduras sem responder aos enigmas gravados (<code>Mente [Conhecimento]</code> CD 9).</li>
 <li><em>Segredo &amp; Recompensa:</em> Ensina segredos avançados de <strong>Feitiçaria Rúnica</strong> e revela como evoluir ou fortalecer <strong>Ecos/Constructos de Pedra</strong>!</li>
 <li><em>Evento Vivo ao Chegar:</em> Três estátuas de mármore debatem em silêncio usando placas gravadas — e viram a cabeça quando o portador de <code>[Divindade]</code> entra!</li>
 </ul>
@@ -2593,7 +2611,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="-papéis-da-coorte--sobrevivência-em-campo-no-submundo">🏕️ Papéis da Coorte &amp; Sobrevivência em Campo no Submundo</h3>
 <ul>
 <li><strong>Canalizador &amp; Artífice:</strong> Mantêm lanternas sagradas ou runas solares acesas na vanguarda (<code>Alma</code>) para não deixar a Coorte cair cega dentro da <em>Escuridão Verdadeira</em>.</li>
-<li><strong>Espectro &amp; Olho de Falcão:</strong> Ouvem vibrações nas rochas (<code>Mente [Astúcia]</code> CD 10) para prever <em>Vermes-Broca</em> subindo pelo chão de basalto antes que quebrem a formação!</li>
+<li><strong>Espectro &amp; Olho de Falcão:</strong> Ouvem vibrações nas rochas (<code>Mente [Astúcia]</code> CD 8) para prever <em>Vermes-Broca</em> subindo pelo chão de basalto antes que quebrem a formação!</li>
 <li><strong>Médico &amp; Guardião da Fogueira:</strong> Filtragem obrigatória de água mineral calcária e neutralização de gases sulfurosos com panos úmidos ou runas térmicas.</li>
 <li><strong>Executor &amp; Baluarte:</strong> Carregam marretas ou armas pesadas capazes de rachar armaduras de ônix e rubi das estátuas despertas!</li>
 </ul>
@@ -2607,9 +2625,9 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Reativar a ponte levadiça na guarita sul (<code>Mente [Conhecimento]</code> CD 10 ou quebrando as travas com <code>Corpo [Força]</code> CD 11) e silenciar os sentinelas do pátio.</li>
+<li>Reativar a ponte levadiça na guarita sul (<code>Mente [Conhecimento]</code> CD 8 ou quebrando as travas com <code>Corpo [Força]</code> CD 9) e silenciar os sentinelas do pátio.</li>
 <li>Enfrentar o <em>General de Pedra</em> na forja central, usando <em>Mirar em Ponto Fraco</em> para estilhaçar o <strong>Núcleo de Rubi</strong> no peito (ou atraindo-o para os jatos de resfriamento hidráulico das caldeiras laterais!).</li>
-<li>Apoiar a mão sobre a <strong>Bigorna Central</strong> com <code>[Brasa de Divindade]</code> ou <code>Alma (Canalizar)</code> <strong>CD 11</strong>, reacendendo a forja rúnica do subsolo e liberando um Portal seguro abaixo da cordilheira!</li>
+<li>Apoiar a mão sobre a <strong>Bigorna Central</strong> com <code>[Brasa de Divindade]</code> ou <code>Alma (Canalizar)</code> <strong>CD 9</strong>, reacendendo a forja rúnica do subsolo e liberando um Portal seguro abaixo da cordilheira!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>20 Fragmentos Ascendidos</strong> + a Memória <strong>Alabarda da Bigorna Negra (Arma Ascendida Tier IV)</strong>!</li>
@@ -2665,9 +2683,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_4">Clima, Geografia e Ecologia Detalhada</h3>
 <p>Uma bacia verdejante e enganosamente pacífica onde dias claros, nuvens suaves e noites amenas lembram a Terra antiga — exceto pelo brilho vermelho que tinge as bordas do horizonte e pela lua monumental. No centro da bacia repousa o imenso <strong>Lago Espelhado</strong>, cujas águas são tão calmas, límpidas e perfeitamente planas que refletem o céu como mercúrio líquido. Em suas praias estende-se a vibrante metrópole comercial protegida pelo Clã Valor. Contudo, basta cavalgar poucas horas para além das torres de vigia para mergulhar nas temidas <strong>Florestas Vermelhas</strong>: selvas antigas de copas escarlates fechadas que devoram o som e se movem silenciosamente durante a madrugada.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> A água das nascentes periféricas é pura e abundante. Já beber diretamente do Lago Espelhado é arriscado se o reflexo estiver ativo (<code>Mente [Vontade]</code> CD 9). Nas bordas seguras caçam-se bestas dóceis; dentro da selva rubra, cogumelos brilhantes e frutas exóticas podem ser altamente venenosos (<code>Sobrevivência</code> CD 10).</li>
-<li><strong>Flora Hostil:</strong> Nas Florestas Vermelhas, <strong>as próprias plantas caçam</strong>: raízes-laço arrastam cavalos para o subsolo, vinhas serrilhadas descem das copas e flores gigantes exalam pólen sonífero (<code>Corpo [Vigor]</code> CD 10 contra <em>Atordoado</em>).</li>
+<li><strong>Água e Alimento:</strong> A água das nascentes periféricas é pura e abundante. Já beber diretamente do Lago Espelhado é arriscado se o reflexo estiver ativo (<code>Mente [Vontade]</code> CD 7). Nas bordas seguras caçam-se bestas dóceis; dentro da selva rubra, cogumelos brilhantes e frutas exóticas podem ser altamente venenosos (<code>Sobrevivência</code> CD 8).</li>
+<li><strong>Flora Hostil:</strong> Nas Florestas Vermelhas, <strong>as próprias plantas caçam</strong>: raízes-laço arrastam cavalos para o subsolo, vinhas serrilhadas descem das copas e flores gigantes exalam pólen sonífero (<code>Corpo [Vigor]</code> CD 8 contra <em>Atordoado</em>).</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Adormecida</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -2691,38 +2710,38 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Matilha de 3 Lobos de Prata</strong></td>
 <td style="text-align: left;">Desperta — Monstro</td>
 <td style="text-align: center;"><strong>9</strong></td>
-<td style="text-align: left;">Caçadores velozes que flanqueiam pela retaguarda atacando os feridos.</td>
+<td style="text-align: left;">Caçadores velozes que flanqueiam pela retaguarda atacando os feridos. ⚠️ <strong>Fuga/Evitar</strong> <em>(Despertos contra Adormecidos: Ameaça ~12)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
 <td style="text-align: left;"><strong>Troll de Casca Vermelha</strong></td>
 <td style="text-align: left;">Desperta — Demônio</td>
 <td style="text-align: center;"><strong>11</strong></td>
-<td style="text-align: left;">Regenera 2 PV por rodada sob a sombra da selva (vulnerável a fogo!).</td>
+<td style="text-align: left;">Regenera 2 PV por rodada sob a sombra da selva (vulnerável a fogo!). 👑 <strong>Perfil de Chefe</strong> contra Adormecidos: CD 11 (12 na mesa), 2× PV, Dano 3 <em>(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)</em>.</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>5</strong></td>
 <td style="text-align: left;"><strong>Clone Espelhado da Margem</strong></td>
 <td style="text-align: left;">Caída — Diabo</td>
 <td style="text-align: center;"><strong>12</strong></td>
-<td style="text-align: left;">Sai da água do Lago imitando a voz e a arma de um membro da Coorte!</td>
+<td style="text-align: left;">Sai da água do Lago imitando a voz e a arma de um membro da Coorte! ⚠️ <strong>Fuga/Evitar</strong> <em>(Caída: 2 Ranks acima)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: left;"><strong>Árvore-Caçadora Centenária</strong></td>
 <td style="text-align: left;">Corrompida — Tirano</td>
 <td style="text-align: center;"><strong>13</strong></td>
-<td style="text-align: left;">Move vinte tentáculos de madeira rubra prendendo toda uma caravana!</td>
+<td style="text-align: left;">Move vinte tentáculos de madeira rubra prendendo toda uma caravana! ⚠️ <strong>Fuga/Evitar</strong> <em>(Corrompida: 3 Ranks acima)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_4">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
 <li><strong>A Dimensão Invertida do Lago Espelhado (<em>Obra de Mirage</em>):</strong> A superfície do lago nem sempre reflete o <strong>Castelo Real de Bastion</strong> que está de pé diante dela: em certas noites, o reflexo mostra um castelo diferente — às vezes em ruínas, às vezes com torres que não existem —, e ninguém sabe ao certo qual dos dois é o verdadeiro.<ul>
-<li><em>Regra:</em> Qualquer personagem que encarar o próprio reflexo na água durante a noite ou sob neblina precisa passar em <strong><code>Mente (Vontade)</code> CD 10</strong> para não sentir impulso irresistível de mergulhar para o "outro lado" ou ter seu lugar trocado por uma <strong>Besta do Espelho</strong>! Navegar até a ilha sem âncora rúnica exige <code>Mente (Astúcia)</code> <strong>CD 11</strong>.</li>
+<li><em>Regra:</em> Qualquer personagem que encarar o próprio reflexo na água durante a noite ou sob neblina precisa passar em <strong><code>Mente (Vontade)</code> CD 8</strong> para não sentir impulso irresistível de mergulhar para o "outro lado" ou ter seu lugar trocado por uma <strong>Besta do Espelho</strong>! Navegar até a ilha sem âncora rúnica exige <code>Mente (Astúcia)</code> <strong>CD 9</strong>.</li>
 </ul>
 </li>
-<li><strong>As Árvores que Mudam de Lugar:</strong> Dentro das Florestas Vermelhas, troncos deslocam suas raízes durante a madrugada. Sem um <em>Cartógrafo</em> experiente (<code>Mente [Astúcia]</code> CD 10) ou marcadores físicos em cada cruzamento, estradas abertas na véspera desaparecem pela manhã!</li>
+<li><strong>As Árvores que Mudam de Lugar:</strong> Dentro das Florestas Vermelhas, troncos deslocam suas raízes durante a madrugada. Sem um <em>Cartógrafo</em> experiente (<code>Mente [Astúcia]</code> CD 8) ou marcadores físicos em cada cruzamento, estradas abertas na véspera desaparecem pela manhã!</li>
 <li><strong>A Lei Marcial da Capital:</strong> Dentro das muralhas humanas de Bastion, o <strong>Grande Clã Valor</strong> mantém vigilância férrea de cavaleiros. Sacar Memórias letais na rua sem desafio formal resulta em captura imediata (<code>CD 12</code> contra oficiais Ascendidos!).</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_4">Facções, Sobreviventes e Vestígios Humanos</h3>
@@ -2731,7 +2750,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ol>
 <li><strong>A Cidade Externa e a Grande Casa de Leilões da Forja:</strong><ul>
 <li><em>Atmosfera:</em> Ruas pavimentadas de pedra clara, oficinas onde bigornas cantam dia e noite, bandeiras escarlates de Valor e mercados vibrantes cheios de caçadores exibindo troféus.</li>
-<li><em>Ameaça &amp; CD:</em> Batedores de carteira da periferia, intrigas aristocráticas (<code>Coração [Enganar/Convencer]</code> CD 10) e espiões buscando quem carrega relíquias não declaradas.</li>
+<li><em>Ameaça &amp; CD:</em> Batedores de carteira da periferia, intrigas aristocráticas (<code>Coração [Enganar/Convencer]</code> CD 8) e espiões buscando quem carrega relíquias não declaradas.</li>
 <li><em>Segredo &amp; Recompensa:</em> O melhor lugar do atlas para vender Cristais de Alma por preço justo, contratar ferreiros para aprimorar equipamentos e comprar <strong>Memórias Tier II–IV</strong>.</li>
 <li><em>Evento Vivo ao Chegar:</em> Um leilão extraordinário de uma <strong>Bolsa Dimensional</strong> acaba de começar — e um comprador mascarado suspeito tenta sabotar a concorrência!</li>
 </ul>
@@ -2745,14 +2764,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>O Santuário das Árvores Vermelhas (<em>Ruína do Deus do Coração</em>):</strong><ul>
 <li><em>Atmosfera:</em> Uma clareira silenciosa profundamente escondida na selva leste, onde uma gigantesca Árvore Mãe de casca branca e folhas carmesins protege o solo da corrupção ao redor.</li>
-<li><em>Ameaça &amp; CD:</em> Guardada por ilusões nascidas das lembranças culposas dos próprios jogadores (<code>Mente [Vontade]</code> CD 11).</li>
+<li><em>Ameaça &amp; CD:</em> Guardada por ilusões nascidas das lembranças culposas dos próprios jogadores (<code>Mente [Vontade]</code> CD 9).</li>
 <li><em>Segredo &amp; Recompensa:</em> Produz gotas de <strong>Seiva Branca Pura</strong> capazes de curar <strong>Dano de Alma</strong> e revelar memórias esquecidas da 2ª Era!</li>
 <li><em>Evento Vivo ao Chegar:</em> Folhas vermelhas giram em espiral formando nomes de guerreiros desaparecidos na casca branca do tronco!</li>
 </ul>
 </li>
 <li><strong>As Minas de Ferro Estelar do Oeste:</strong><ul>
 <li><em>Atmosfera:</em> Galerias reforçadas com vigas de aço nas colinas ocidentais, iluminadas por lanternas rúnicas e guardadas por vassalos de Valor.</li>
-<li><em>Ameaça &amp; CD:</em> Túneis profundos são frequentemente invadidos por <em>Vermes Escavadores</em> (<code>CD 10</code>) e sabotadores disfarçados de Song (<code>Astúcia</code> CD 11).</li>
+<li><em>Ameaça &amp; CD:</em> Túneis profundos são frequentemente invadidos por <em>Vermes Escavadores</em> (<code>CD 10</code>) e sabotadores disfarçados de Song (<code>Astúcia</code> CD 9).</li>
 <li><em>Segredo &amp; Recompensa:</em> Paga ótimos contratos em Fragmentos para coortes que aceitem limpar galerias infestadas ou escoltar vagões de minério até a cidade.</li>
 <li><em>Evento Vivo ao Chegar:</em> O poço número 4 desabou revelando uma galeria antiga com veios azul-prateados e gritos presos lá dentro!</li>
 </ul>
@@ -2760,8 +2779,8 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ol>
 <h3 id="-papéis-da-coorte--sobrevivência-em-campo-em-bastion--florestas">🏕️ Papéis da Coorte &amp; Sobrevivência em Campo em Bastion &amp; Florestas</h3>
 <ul>
-<li><strong>Cartógrafo &amp; Espectro:</strong> Fazem marcas físicas de corte ou tinta rúnica nos troncos a cada 200 metros (<code>Mente [Astúcia]</code> CD 10) para não perder a trilha quando a Floresta Vermelha se desloca à noite!</li>
-<li><strong>Oráculo &amp; Médico:</strong> Vigiam as margens do Lago Espelhado durante descansos (<code>Mente [Vontade]</code> CD 10) e preparam antídotos contra pólen sonífero e veneno de <em>Vespas de Sangue</em>.</li>
+<li><strong>Cartógrafo &amp; Espectro:</strong> Fazem marcas físicas de corte ou tinta rúnica nos troncos a cada 200 metros (<code>Mente [Astúcia]</code> CD 8) para não perder a trilha quando a Floresta Vermelha se desloca à noite!</li>
+<li><strong>Oráculo &amp; Médico:</strong> Vigiam as margens do Lago Espelhado durante descansos (<code>Mente [Vontade]</code> CD 8) e preparam antídotos contra pólen sonífero e veneno de <em>Vespas de Sangue</em>.</li>
 <li><strong>Executor &amp; Canalizador:</strong> Mantêm armas de fogo ou óleo inflamável prontos para queimar <em>Trolls de Casca Vermelha</em> e vinhas estranguladoras antes que regenerem.</li>
 <li><strong>Negociador (<em>Coração</em>):</strong> Conduz trocas nas guildas de ferreiros da Cidade Externa para obter descontos e contratos bem pagos sem ofender cavaleiros de Valor!</li>
 </ul>
@@ -2769,16 +2788,16 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <p><em>(Nota Sandbox: Como a capital Bastion pertence ao Clã Valor, esta Cidadela perdida nas profundezas da Floresta Vermelha leste oferece à Coorte uma fortaleza estratégica própria a apenas dois dias de marcha do maior mercado do Reino dos Sonhos!)</em></p>
 <ul>
 <li><strong>Localização:</strong> Escondida sob um dossel sufocante de árvores carmesins a 40 quilômetros a leste do Lago Espelhado, tomada por cipós gigantes há séculos e apagada dos mapas atuais de Valor.</li>
-<li><strong>Defesas &amp; Guarnição Secundária:</strong> Fosso natural de espinhos venenosos (<code>Corpo [Vigor]</code> CD 10 contra <em>Envenenado</em>) e um bosque interno patrulhado por <strong>3 Lobos de Prata (CD 9)</strong> e raízes vivas que fecham o portão ao anoitecer.</li>
+<li><strong>Defesas &amp; Guarnição Secundária:</strong> Fosso natural de espinhos venenosos (<code>Corpo [Vigor]</code> CD 8 contra <em>Envenenado</em>) e um bosque interno patrulhado por <strong>3 Lobos de Prata (CD 9)</strong> e raízes vivas que fecham o portão ao anoitecer.</li>
 <li><strong>Chefe Guardião — <em>O Alce-Arbóreo de Sangue</em>:</strong><ul>
 <li><strong>Rank &amp; Classe:</strong> <em>Diabo Desperto</em> | <strong>CD:</strong> <code>11</code> | <strong>PV:</strong> <code>22</code> | <strong>Parte Destrutível:</strong> <em>Galhada Rúnica Viva (8 PV)</em>.</li>
 <li><strong>Tática:</strong> Uma criatura colossal de madeira-ferro, musgo vermelho e olhos âmbar que faz raízes brotarem sob os arqueiros (<strong>2 de Dano</strong>, <em>Imobilizado</em>) e regenera 2 PV por turno até sua <em>Galhada Rúnica</em> ser partida ou queimada!</li>
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Cortar ou incendiar os nós principais da cerca viva externa (<code>Corpo [Força]</code> ou <code>Alma [Evocar]</code> CD 10) e derrotar a matilha guardiã.</li>
+<li>Cortar ou incendiar os nós principais da cerca viva externa (<code>Corpo [Força]</code> ou <code>Alma [Evocar]</code> CD 8) e derrotar a matilha guardiã.</li>
 <li>Enfrentar o <em>Alce-Arbóreo</em> no pátio da torre usando fogo ou ataques em <em>Ponto Fraco</em> contra sua galhada para parar a cura vegetal.</li>
-<li>Queimar o coração parasitário enrolado ao <strong>Altar da Torre</strong> e canalizar <code>1 Ponto de Essência</code> (<code>Alma [Canalizar]</code> CD 9), despertando um Portal discreto e valioso fora da vista imediata de Valor!</li>
+<li>Queimar o coração parasitário enrolado ao <strong>Altar da Torre</strong> e canalizar <code>1 Ponto de Essência</code> (<code>Alma [Canalizar]</code> CD 7), despertando um Portal discreto e valioso fora da vista imediata de Valor!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>15 Fragmentos Despertos</strong> + a Memória <strong>Arco das Raízes Carmesins (Arma Desperta Tier III)</strong>!</li>
@@ -2795,7 +2814,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ul>
 </li>
 <li><em>A Visita do Emissário:</em> Uma semana depois de a Coorte conquistar a <em>Torre dos Espinhos Rubros</em>, uma comitiva de Valor bate ao portão propondo aliança.<ul>
-<li><em>Reviravolta &amp; Recompensa:</em> Recusar submissão feudal sem criar guerra exige astúcia diplomática (<code>Coração [Convencer]</code> CD 11) ou troca por escolta nas minas!</li>
+<li><em>Reviravolta &amp; Recompensa:</em> Recusar submissão feudal sem criar guerra exige astúcia diplomática (<code>Coração [Convencer]</code> CD 9) ou troca por escolta nas minas!</li>
 </ul>
 </li>
 </ol>
@@ -2834,9 +2853,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_5">Clima, Geografia e Ecologia Detalhada</h3>
 <p>Uma terra gótica, austera e hipnotizante onde vulcões gigantescos vomitam colunas constantes de fumaça negra contra um céu tingido de cobre e sangue. Por centenas de quilômetros estendem-se as <strong>Planícies de Cinza</strong>, um deserto sombrio de pó preto vitrificado cortado por fissuras de magma líquido e ossadas colossais de monstros da Guerra da Perdição. A capital <strong>Ravenheart</strong> agarra-se à encosta de uma montanha nevada, à beira de um abismo sem fundo e ligada a um vulcão por uma imensa ponte de pedra. No alto ergue-se o <strong>Palácio de Jade</strong>, negro como obsidiana por fora após milênios de cinza e ainda branco por dentro; abaixo dele, os bairros escalonados espalham-se entre as <strong>costelas fossilizadas de uma criatura titânica</strong>, com pontes pênseis e lanternas vermelhas.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> Água limpa da superfície é escassa e frequentemente contaminada por enxofre; poços potáveis só existem em cavernas profundas ou destiladores rúnicos nas caravanas de Song (<code>Sobrevivência</code> CD 9 para filtrar). A carne de javalis vulcânicos e bodes de basalto é dura, mas extremamente nutritiva.</li>
+<li><strong>Água e Alimento:</strong> Água limpa da superfície é escassa e frequentemente contaminada por enxofre; poços potáveis só existem em cavernas profundas ou destiladores rúnicos nas caravanas de Song (<code>Sobrevivência</code> CD 7 para filtrar). A carne de javalis vulcânicos e bodes de basalto é dura, mas extremamente nutritiva.</li>
 <li><strong>Flora Hostil:</strong> Arbustos espinhosos negros que florescem em cinza quente e soltam seiva inflamável se cortados com fogo, além de fungos sanguíneos parasitas que crescem sobre carcaças abandonadas.</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Adormecida</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -2860,38 +2880,38 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>2 Javalis de Carvão Furiosos</strong></td>
 <td style="text-align: left;">Desperta — Monstro</td>
 <td style="text-align: center;"><strong>9</strong></td>
-<td style="text-align: left;">Investem através da fumaça com presas incandescentes (<em>Queimando</em>).</td>
+<td style="text-align: left;">Investem através da fumaça com presas incandescentes (<em>Queimando</em>). ⚠️ <strong>Fuga/Evitar</strong> <em>(Despertos contra Adormecidos: Ameaça ~8)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
 <td style="text-align: left;"><strong>Salamandra Ígnea das Fendas</strong></td>
 <td style="text-align: left;">Desperta — Demônio</td>
 <td style="text-align: center;"><strong>11</strong></td>
-<td style="text-align: left;">Emerge de rios de lava próxima atirando bolas de escória derretida.</td>
+<td style="text-align: left;">Emerge de rios de lava próxima atirando bolas de escória derretida. 👑 <strong>Perfil de Chefe</strong> contra Adormecidos: CD 11 (12 na mesa), 2× PV, Dano 3 <em>(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)</em>.</td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>5</strong></td>
 <td style="text-align: left;"><strong>Marionete Desgarrada de Osso</strong></td>
 <td style="text-align: left;">Caída — Diabo</td>
 <td style="text-align: center;"><strong>12</strong></td>
-<td style="text-align: left;">Um cadáver gigantesco reanimado que perdeu o mestre e ataca tudo vivo!</td>
+<td style="text-align: left;">Um cadáver gigantesco reanimado que perdeu o mestre e ataca tudo vivo! ⚠️ <strong>Fuga/Evitar</strong> <em>(Caída: 2 Ranks acima)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: left;"><strong>Serpe / Dragão de Cinza</strong></td>
 <td style="text-align: left;">Corrompida — Tirano</td>
 <td style="text-align: center;"><strong>13</strong></td>
-<td style="text-align: left;">Mergulha de tempestades de fumaça envolvendo a área em cinza sufocante.</td>
+<td style="text-align: left;">Mergulha de tempestades de fumaça envolvendo a área em cinza sufocante. ⚠️ <strong>Fuga/Evitar</strong> <em>(Corrompida: 3 Ranks acima)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_5">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
 <li><strong>Tempestades de Cinza e Fumaça Sulfurosa:</strong> Erupções distantes lançam nuvens negras quentes sobre as planícies por horas seguidas.<ul>
-<li><em>Regra:</em> Viajar sem proteção respiratória durante uma tempestade de cinza exige <strong><code>Corpo (Vigor)</code> CD 10</strong> por hora para não sofrer <strong>1 de Dano de Calor/Asfixia</strong> e ficar <em>Cego</em> além da faixa <em>Perto</em>!</li>
+<li><em>Regra:</em> Viajar sem proteção respiratória durante uma tempestade de cinza exige <strong><code>Corpo (Vigor)</code> CD 8</strong> por hora para não sofrer <strong>1 de Dano de Calor/Asfixia</strong> e ficar <em>Cego</em> além da faixa <em>Perto</em>!</li>
 </ul>
 </li>
-<li><strong>Bolsões Ocultos de Cinza Brasa (<em>Areia Movediça Vulcânica</em>):</strong> Depressões suaves de cinza fofa escondem camadas de brasa viva logo abaixo. O batedor da fila precisa rolar <code>Mente (Astúcia)</code> <strong>CD 9</strong> para notar a distorção do calor antes de afundar (<code>Corpo [Força]</code> CD 10 para puxar aliado antes de sofrer <strong>2 Dano de Fogo</strong>!).</li>
+<li><strong>Bolsões Ocultos de Cinza Brasa (<em>Areia Movediça Vulcânica</em>):</strong> Depressões suaves de cinza fofa escondem camadas de brasa viva logo abaixo. O batedor da fila precisa rolar <code>Mente (Astúcia)</code> <strong>CD 7</strong> para notar a distorção do calor antes de afundar (<code>Corpo [Força]</code> CD 8 para puxar aliado antes de sofrer <strong>2 Dano de Fogo</strong>!).</li>
 <li><strong>A Lei do Sangue e da Carne (<em>Domínio de Song</em>):</strong> Nas terras próximas a Ravenheart, cadáveres não cremados de monstros ou humanos raramente descansam em paz — podem ser erguidos por espiões necromânticos de Song ou infestados por parasitas necróticos em poucas horas!</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_5">Facções, Sobreviventes e Vestígios Humanos</h3>
@@ -2914,14 +2934,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>O Cemitério dos Comboios de Ferro:</strong><ul>
 <li><em>Atmosfera:</em> Um vale de vidro vulcânico negro repleto de carruagens metálicas retorcidas e ossos espalhados de uma antiga batalha clandestina entre tropas de Valor e Song.</li>
-<li><em>Ameaça &amp; CD:</em> Infestado por carniçais que se escondem dentro das carcaças blindadas (<code>Mente [Astúcia]</code> CD 10) e minas rúnicas antigas ainda armadas!</li>
+<li><em>Ameaça &amp; CD:</em> Infestado por carniçais que se escondem dentro das carcaças blindadas (<code>Mente [Astúcia]</code> CD 8) e minas rúnicas antigas ainda armadas!</li>
 <li><em>Segredo &amp; Recompensa:</em> Caçadores de sucata ainda escavam armas de aço de Valor e <strong>Fragmentos esquecidos</strong> soterrados sob as cinzas.</li>
 <li><em>Evento Vivo ao Chegar:</em> Uma equipe de saqueadores disparou uma mina térmica antiga e está cercada por cães de cinza famintos!</li>
 </ul>
 </li>
 <li><strong>As Termas Negras de Enxofre:</strong><ul>
 <li><em>Atmosfera:</em> Um desfiladeiro escondido aquecido por piscinas negras fumegantes onde mercenários da <strong>Aliança Livre</strong> e desertores montaram um posto comercial neutro longe do olho direto da corte central.</li>
-<li><em>Ameaça &amp; CD:</em> Negociações tensas (<code>Coração [Intimidar/Convencer]</code> CD 10); duelos no pátio externo são permitidos para resolver dívidas!</li>
+<li><em>Ameaça &amp; CD:</em> Negociações tensas (<code>Coração [Intimidar/Convencer]</code> CD 8); duelos no pátio externo são permitidos para resolver dívidas!</li>
 <li><em>Segredo &amp; Recompensa:</em> Ponto perfeito para conseguir rumores quentes do submundo, mapas piratas de regiões ao sul e suprimentos de viagem sem perguntas.</li>
 <li><em>Evento Vivo ao Chegar:</em> Um ferreiro manco anuncia na taverna que reforja Memórias Quebradas para quem trouxer um coração de magma fresco!</li>
 </ul>
@@ -2929,7 +2949,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ol>
 <h3 id="-papéis-da-coorte--sobrevivência-em-campo-em-ravenheart--cinzas">🏕️ Papéis da Coorte &amp; Sobrevivência em Campo em Ravenheart &amp; Cinzas</h3>
 <ul>
-<li><strong>Batedor &amp; Cartógrafo (<em>Espectro / Olho de Falcão</em>):</strong> Toca o chão com bastões de ferro antes de pisar para detectar bolsões quentes de cinza brasa (<code>Mente [Astúcia]</code> CD 9).</li>
+<li><strong>Batedor &amp; Cartógrafo (<em>Espectro / Olho de Falcão</em>):</strong> Toca o chão com bastões de ferro antes de pisar para detectar bolsões quentes de cinza brasa (<code>Mente [Astúcia]</code> CD 7).</li>
 <li><strong>Médico &amp; Cozinheiro:</strong> Mantêm máscaras úmidas contra enxofre e purificam água ácida usando sais alquímicos comprados nas caravanas ou em Ravenheart.</li>
 <li><strong>Guardião da Fogueira &amp; Baluarte:</strong> Queimam ou enterram fundo qualquer cadáver de monstro abatido antes que parasitas necróticos locais ou espiões de Song os reanimem contra o acampamento!</li>
 <li><strong>Oráculo &amp; Diplomata:</strong> Sabem falar com reverência diante das cortes matriarcais de Song, evitando insultos mortais por falta de etiqueta gótica.</li>
@@ -2938,16 +2958,16 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <p><em>(Nota Sandbox: Uma antiga torre de vigia fronteiriça construída sobre um tubo de lava resfriado ao sul das Planícies de Cinza, abandonada quando seu clã vassalo foi destruído numa erupção e hoje ocupada por predadores vulcânicos).</em></p>
 <ul>
 <li><strong>Localização:</strong> Encravada no anel externo de um vulcão secundário a três dias de carruagem a sudoeste de Ravenheart.</li>
-<li><strong>Defesas &amp; Guarnição Secundária:</strong> Muralhas lisas de obsidiana quase impossíveis de escalar sem ganchos rúnicos (<code>Corpo [Agilidade]</code> CD 11), fosso de magma ativo ao norte e pátio inferior guardado por <strong>3 Salamandras Ígneas (CD 11)</strong>.</li>
+<li><strong>Defesas &amp; Guarnição Secundária:</strong> Muralhas lisas de obsidiana quase impossíveis de escalar sem ganchos rúnicos (<code>Corpo [Agilidade]</code> CD 9), fosso de magma ativo ao norte e pátio inferior guardado por <strong>3 Salamandras Ígneas (CD 11)</strong>.</li>
 <li><strong>Chefe Guardião — <em>A Hidra de Obsidiana e Cinza</em>:</strong><ul>
 <li><strong>Rank &amp; Classe:</strong> <em>Tirano Desperto</em> | <strong>CD:</strong> <code>11</code> | <strong>PV:</strong> <code>25</code> | <strong>Partes Destrutíveis:</strong> <em>3 Cabeças Independentes (8 PV cada)</em>.</li>
 <li><strong>Tática:</strong> Uma serpente vulcânica de três cabeças cujo sangue derrete aço! Cada cabeça ativa permite <strong>1 sopro ou mordida extra por turno</strong> (<strong>2 de Dano de Fogo</strong>, <em>Queimando</em> em <code>CD Exata</code>).</li>
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Infiltrar-se pelos dutos inferiores de lava seca (<code>Mente [Astúcia]</code> CD 10) para contornar os gêiseres explosivos do portão frontal e limpar as salamandras.</li>
+<li>Infiltrar-se pelos dutos inferiores de lava seca (<code>Mente [Astúcia]</code> CD 8) para contornar os gêiseres explosivos do portão frontal e limpar as salamandras.</li>
 <li>Enfrentar a <em>Hidra</em> no salão central da caldeira, priorizando focar ataques para decepar sua <strong>Cabeça Central de Magma (8 PV)</strong> e interromper o sopro em área contra os atiradores!</li>
-<li>Quebrar a crosta de escória endurecida sobre a <strong>Fonte Rúnica do Pátio</strong> e canalizar <strong>10 Fragmentos ou 3 Pontos de Essência</strong> (<code>Alma [Canalizar]</code> CD 10), reativando o Portal ao sul das planícies!</li>
+<li>Quebrar a crosta de escória endurecida sobre a <strong>Fonte Rúnica do Pátio</strong> e canalizar <strong>10 Fragmentos ou 3 Pontos de Essência</strong> (<code>Alma [Canalizar]</code> CD 8), reativando o Portal ao sul das planícies!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>16 Fragmentos Despertos</strong> + a Memória <strong>Escudo de Obsidiana Vulcânica (Armadura/Escudo Desperto Tier IV)</strong>!</li>
@@ -3003,9 +3023,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_6">Clima, Geografia e Ecologia Detalhada</h3>
 <p>Um oceano infinito de dunas alvas que cegam os olhos desprotegidos sob um sol branco implacável, onde o vento uiva como milhares de lamentos. O segredo mais macabro dessa paisagem é sentido ao tocar o chão: <strong>não há um único grão de areia mineral aqui — toda a superfície branca do deserto é osso antigo pulverizado</strong> por milênios de carnificina da Guerra da Perdição! Quando o sol desaba no horizonte, a temperatura despenca abaixo de zero e o próprio pó branco começa a vibrar e erguer-se como uma maré viva.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> Praticamente inexistentes na superfície. Nenhuma fonte natural sobrevive ao calor branco; sobreviver exige carregar suprimentos rúnicos/dimensionais de água ou encontrar <strong>poços selados em catacumbas antigas</strong> (<code>Mente [Astúcia]</code> CD 11).</li>
+<li><strong>Água e Alimento:</strong> Praticamente inexistentes na superfície. Nenhuma fonte natural sobrevive ao calor branco; sobreviver exige carregar suprimentos rúnicos/dimensionais de água ou encontrar <strong>poços selados em catacumbas antigas</strong> (<code>Mente [Astúcia]</code> CD 9).</li>
 <li><strong>Flora Hostil:</strong> Apenas cactos secos e pálidos em fendas de pedra sombreadas, cujos espinhos injetam veneno coagulante que faz o sangue secar rápido ao sol.</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Ascendida</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -3029,7 +3050,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Bando de Abutres de Obsidiana</strong></td>
 <td style="text-align: left;">Caída — Monstro</td>
 <td style="text-align: center;"><strong>11</strong></td>
-<td style="text-align: left;">Voam em círculos esperando cansaço por sede antes de mergulhar nos olhos.</td>
+<td style="text-align: left;">Voam em círculos esperando cansaço por sede antes de mergulhar nos olhos. ⚖️ <em>Acima do Orçamento (Ameaça ~12 com 3 abutres: comece com 2)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
@@ -3043,25 +3064,25 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Esqueleto Campeão Desgarrado</strong> <em>(Crepúsculo)</em></td>
 <td style="text-align: left;">Corrompida — Diabo</td>
 <td style="text-align: center;"><strong>13</strong></td>
-<td style="text-align: left;">Continua caçando mesmo após o amanhecer usando armadura intacta antiga.</td>
+<td style="text-align: left;">Continua caçando mesmo após o amanhecer usando armadura intacta antiga. ⚠️ <strong>Fuga/Evitar</strong> <em>(Corrompida — Diabo: Ameaça ~9 &gt; 7)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: left;"><strong>Maré da Guerra Eterna (Noite!)</strong></td>
 <td style="text-align: left;">Grande a Profana</td>
 <td style="text-align: center;"><strong>14+</strong></td>
-<td style="text-align: left;">Exércitos infinitos que remontam em <code>1d6</code> rodadas; <strong>FUJA PARA UM ABRIGO!</strong></td>
+<td style="text-align: left;">Exércitos infinitos que remontam em <code>1d6</code> rodadas; <strong>FUJA PARA UM ABRIGO!</strong> ⚠️ <strong>Fuga/Evitar</strong> <em>(Grande a Profana)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_6">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
 <li><strong>A Guerra Eterna da Noite (Regra Letal):</strong> Assim que o último raio do sol se apaga, bilhões de partículas de osso juntam-se formando <strong>dois exércitos infinitos de esqueletos e espectros de guerra imortais</strong> (Ranks <em>Caído</em> a <em>Amaldiçoado</em>), massacrando-se mutuamente — e a qualquer ser vivo na superfície!<ul>
-<li><em>Regra:</em> Qualquer grupo apanhado a céu aberto à noite enfrenta ondas intermináveis (<strong>CD 12 a CD 14</strong>) — monstros destruídos simplesmente remontam-se da areia em <code>1d6</code> rodadas! Sobreviver exige localizar e selar um <strong>abrigo subterrâneo ou ruína fechada antes do crepúsculo</strong> (<code>Mente [Astúcia]</code> CD 11)!</li>
+<li><em>Regra:</em> Qualquer grupo apanhado a céu aberto à noite enfrenta ondas intermináveis (<strong>CD 12 a CD 14</strong>) — monstros destruídos simplesmente remontam-se da areia em <code>1d6</code> rodadas! Sobreviver exige localizar e selar um <strong>abrigo subterrâneo ou ruína fechada antes do crepúsculo</strong> (<code>Mente [Astúcia]</code> CD 9)!</li>
 </ul>
 </li>
-<li><strong>Insolação Branca e Cegueira de Reflexo:</strong> O sol branco sobre dunas alvas dobra a perda de água. Sem véus protetores e cantis rúnicos, cada dia exige <strong><code>Corpo (Vigor)</code> CD 11</strong> para não sofrer <strong>1 de Dano</strong> e Desvantagem até encontrar sombra fechada.</li>
-<li><strong>Tempestades de Poeira Óssea:</strong> Ventos súbitos erguem muralhas brancas cortantes que riscam placas metálicas e cegam batedores (<code>Corpo [Vigor]</code> CD 10 contra <em>Cego</em> e <em>Sangrando</em> sem tenda blindada).</li>
+<li><strong>Insolação Branca e Cegueira de Reflexo:</strong> O sol branco sobre dunas alvas dobra a perda de água. Sem véus protetores e cantis rúnicos, cada dia exige <strong><code>Corpo (Vigor)</code> CD 9</strong> para não sofrer <strong>1 de Dano</strong> e Desvantagem até encontrar sombra fechada.</li>
+<li><strong>Tempestades de Poeira Óssea:</strong> Ventos súbitos erguem muralhas brancas cortantes que riscam placas metálicas e cegam batedores (<code>Corpo [Vigor]</code> CD 8 contra <em>Cego</em> e <em>Sangrando</em> sem tenda blindada).</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_6">Facções, Sobreviventes e Vestígios Humanos</h3>
 <p>Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por <strong>expedições militares de elite de Valor e Song</strong> (que avançam correndo de abrigo subterrâneo em abrigo tentando cercar ou alcançar a Pirâmide Negra) e por <strong>caçadores de relíquias de Rank Ascendido/Transcendente</strong> em busca de armaduras e armas divinas soterradas há eras.</p>
@@ -3076,7 +3097,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>Os Pilares da Batalha Antiga:</strong><ul>
 <li><em>Atmosfera:</em> Um círculo solitário de sete colunas de pedra negra rachadas onde armas colossais da Guerra da Perdição ainda estão cravadas no chão vítreo.</li>
-<li><em>Ameaça &amp; CD:</em> A areia de osso <em>recusa-se</em> a tocar a área interna (formando um refúgio silencioso no meio da batalha noturna!), mas o ar vibra com ecos psíquicos violentos (<code>Mente [Vontade]</code> CD 11 contra <em>Atordoado</em>).</li>
+<li><em>Ameaça &amp; CD:</em> A areia de osso <em>recusa-se</em> a tocar a área interna (formando um refúgio silencioso no meio da batalha noturna!), mas o ar vibra com ecos psíquicos violentos (<code>Mente [Vontade]</code> CD 9 contra <em>Atordoado</em>).</li>
 <li><em>Segredo &amp; Recompensa:</em> Inscrições rúnicas nas bases contam feitos da Guerra da Perdição e fragmentos de Nomes Primordiais!</li>
 <li><em>Evento Vivo ao Chegar:</em> Um choque elétrico azulado percorre duas das lanças gigantes indicando a aproximação de uma tempestade de poeira óssea!</li>
 </ul>
@@ -3090,7 +3111,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>As Catacumbas dos Ossos Cantantes:</strong><ul>
 <li><em>Atmosfera:</em> Um labirinto subterrâneo escavado abaixo das dunas onde esqueletos antigos foram fundidos às paredes, emitindo um zumbido constante quando o vento sopra na superfície.</li>
-<li><em>Ameaça &amp; CD:</em> Túneis estreitos sem luz, ar estagnado (<code>Vigor</code> CD 10) e parasitas comedores de medula (<code>CD 11</code>).</li>
+<li><em>Ameaça &amp; CD:</em> Túneis estreitos sem luz, ar estagnado (<code>Vigor</code> CD 8) e parasitas comedores de medula (<code>CD 11</code>).</li>
 <li><em>Segredo &amp; Recompensa:</em> Rota subterrânea secreta que permite caminhar dezenas de quilômetros <strong>mesmo durante a noite mortal</strong> sem subir à superfície!</li>
 <li><em>Evento Vivo ao Chegar:</em> Os ossos da parede esquerda mudam subitamente de tom grave para agudo — alertando que um <em>Verme das Dunas</em> passa logo acima!</li>
 </ul>
@@ -3100,7 +3121,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Oráculo &amp; Vigia:</strong> Marcam exatamente as horas até o pôr do sol para garantir que o grupo encontre e sele um abrigo subterrâneo <strong>1 hora antes</strong> do crepúsculo!</li>
 <li><strong>Canalizador &amp; Artífice:</strong> Usam <em>Runas de Purificação Térmica</em> dentro de tendas ou selam frestas de portas subterrâneas contra invasão de esqueletos à noite.</li>
-<li><strong>Médico &amp; Cozinheiro:</strong> Racionam cantis rúnicos e preparam óculos/véus de pano úmido contra o reflexo solar cegante na areia branca de ossos (<code>Vigor</code> CD 11).</li>
+<li><strong>Médico &amp; Cozinheiro:</strong> Racionam cantis rúnicos e preparam óculos/véus de pano úmido contra o reflexo solar cegante na areia branca de ossos (<code>Vigor</code> CD 9).</li>
 <li><strong>Baluarte &amp; Executor:</strong> Mantêm posição defensiva nas entradas estreitas das ruínas caso esqueletos retardatários consigam forçar a comporta antes da madrugada.</li>
 </ul>
 <h3 id="-a-cidadela-conquistável--o-oásis-da-esfinge-subterrânea">🏰 A Cidadela Conquistável — <em>O Oásis da Esfinge Subterrânea</em></h3>
@@ -3113,9 +3134,9 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Decifrar o disco de horário solar no peito da esfinge (<code>Mente [Conhecimento]</code> CD 10) para abrir a comporta antes que o crepúsculo chegue e derrotar a guarda da escada.</li>
+<li>Decifrar o disco de horário solar no peito da esfinge (<code>Mente [Conhecimento]</code> CD 8) para abrir a comporta antes que o crepúsculo chegue e derrotar a guarda da escada.</li>
 <li>Lutar contra o <em>Faraó</em> no salão da nascente — usando água da própria fonte (ou habilidades elementais de água/gelo) para solidificar suas bandagens e anular sua forma de areia!</li>
-<li>Mergulhar a mão na fonte sagrada e tocar a pedra rúnica no fundo (<code>Alma [Canalizar]</code> CD 11), reivindicando o oásis mais valioso de todo o deserto!</li>
+<li>Mergulhar a mão na fonte sagrada e tocar a pedra rúnica no fundo (<code>Alma [Canalizar]</code> CD 9), reivindicando o oásis mais valioso de todo o deserto!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>22 Fragmentos Ascendidos</strong> no sarcófago + a Memória <strong>Mortalha Solar do Oásis (Armadura Ascendida Tier IV)</strong>!</li>
@@ -3171,9 +3192,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_7">Clima, Geografia e Ecologia Detalhada</h3>
 <p>Por fora, parece uma pirâmide negra perfeita de pedra titânica construída por <strong>Ariel, o Demônio do Medo</strong>, a partir da carcaça de um Titã Profano morto na aurora dos tempos. Contudo, cruzar suas portas não leva a corredores escuros — leva a um <strong>oceano fluvial espiralado infinito dentro da pirâmide</strong>: o <strong>Grande Rio</strong>, uma correnteza oceânica de águas iridescentes com centenas de quilômetros de largura, iluminada por sete sóis brancos que orbitam o teto abobadado do mundo interno.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> A água do Grande Rio pode ser bebida após fervura simples fora das áreas corrompidas do Estuário. As ilhas flutuantes de musgo e as vilas sobre carapaças cultivam frutas tropicais, raízes aquáticas e pescam peixes luminosos (<code>Sobrevivência</code> CD 9).</li>
-<li><strong>Flora Hostil:</strong> Bancos flutuantes de algas carnívoras negras que agarram remos e cascos, e flores brancas cujos esporos causam amnésia temporária (<code>Mente [Vontade]</code> CD 10).</li>
+<li><strong>Água e Alimento:</strong> A água do Grande Rio pode ser bebida após fervura simples fora das áreas corrompidas do Estuário. As ilhas flutuantes de musgo e as vilas sobre carapaças cultivam frutas tropicais, raízes aquáticas e pescam peixes luminosos (<code>Sobrevivência</code> CD 7).</li>
+<li><strong>Flora Hostil:</strong> Bancos flutuantes de algas carnívoras negras que agarram remos e cascos, e flores brancas cujos esporos causam amnésia temporária (<code>Mente [Vontade]</code> CD 8).</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Ascendida</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -3190,14 +3212,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Cardume de Piranhas-Lâmina Iridescentes</strong></td>
 <td style="text-align: left;">Caída — Besta</td>
 <td style="text-align: center;"><strong>10</strong></td>
-<td style="text-align: left;">Roem madeira de cascos e atacam qualquer mão ou corda na água!</td>
+<td style="text-align: left;">Roem madeira de cascos e atacam qualquer mão ou corda na água! ⚖️ <em>Acima do Orçamento (Ameaça ~8: trate como Horda)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: left;"><strong>2 Sereias da Verdade</strong></td>
 <td style="text-align: left;">Caída — Monstro</td>
 <td style="text-align: center;"><strong>11</strong></td>
-<td style="text-align: left;">Cantam segredos dolorosos sobre o Defeito de cada jogador (<code>Vontade</code> CD 11).</td>
+<td style="text-align: left;">Cantam segredos dolorosos sobre o Defeito de cada jogador (<code>Vontade</code> CD 9). ⚖️ <em>Acima do Orçamento (Ameaça ~8: a 2ª canta só na rodada 2)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
@@ -3211,28 +3233,28 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Navio-Fantasma de Buscadores Profanos</strong></td>
 <td style="text-align: left;">Corrompida — Diabo</td>
 <td style="text-align: center;"><strong>13</strong></td>
-<td style="text-align: left;">Tripulado por antigos exploradores enlouquecidos pela Praga do Estuário.</td>
+<td style="text-align: left;">Tripulado por antigos exploradores enlouquecidos pela Praga do Estuário. ⚠️ <strong>Fuga/Evitar</strong> <em>(Corrompida — Diabo: Ameaça ~9 &gt; 7)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: left;"><strong>Leviatã das Sete Correntezas</strong></td>
 <td style="text-align: left;">Grande — Terror</td>
 <td style="text-align: center;"><strong>14</strong></td>
-<td style="text-align: left;">Emerge das profundezas criando redemoinhos que arrastam navios para o Passado!</td>
+<td style="text-align: left;">Emerge das profundezas criando redemoinhos que arrastam navios para o Passado! ⚠️ <strong>Fuga/Evitar</strong> <em>(Grande: 2 Ranks acima)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_7">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
 <li><strong>A Correnteza do Tempo (Futuro vs. Passado):</strong> O Grande Rio não flui apenas sobre pedra — ele corre através da <strong>linha temporal da Tumba</strong>!<ul>
-<li><em>Regra:</em> <strong>Navegar rio abaixo</strong> (seguindo a correnteza) transporta o navio rumo ao <strong>Passado</strong>; <strong>navegar rio acima</strong> (remando ou veleando contra a correnteza!) impulsiona a Coorte rumo ao <strong>Futuro</strong>! Viajar sem um <em>Navegador Temporal</em> (<code>Mente [Conhecimento]</code> CD 12) arrisca cair em <strong>Loops Temporais</strong> ou atracar numa ilha décadas antes da própria partida!</li>
+<li><em>Regra:</em> <strong>Navegar rio abaixo</strong> (seguindo a correnteza) transporta o navio rumo ao <strong>Passado</strong>; <strong>navegar rio acima</strong> (remando ou veleando contra a correnteza!) impulsiona a Coorte rumo ao <strong>Futuro</strong>! Viajar sem um <em>Navegador Temporal</em> (<code>Mente [Conhecimento]</code> CD 10) arrisca cair em <strong>Loops Temporais</strong> ou atracar numa ilha décadas antes da própria partida!</li>
 </ul>
 </li>
 <li><strong>A Praga dos Sussurros (<em>A Verdade Enterrada de Ariel</em>):</strong> Quanto mais perto o grupo navega do <strong>Estuário</strong> na nascente do rio, mais audível fica o sussurro da verdade terrível enterrada ali por Ariel.<ul>
-<li><em>Regra:</em> Ouvir a voz das águas ou ler tabuletas não seladas exige <strong><code>Mente (Vontade)</code> CD 12</strong> para evitar receber <strong>1 Marca de Corrupção</strong> imediata! (Portadores de um <strong>Nome Verdadeiro</strong> ou de <code>[Marca/Chama de Divindade]</code> rolam com <strong>Vantagem</strong>!).</li>
+<li><em>Regra:</em> Ouvir a voz das águas ou ler tabuletas não seladas exige <strong><code>Mente (Vontade)</code> CD 10</strong> para evitar receber <strong>1 Marca de Corrupção</strong> imediata! (Portadores de um <strong>Nome Verdadeiro</strong> ou de <code>[Marca/Chama de Divindade]</code> rolam com <strong>Vantagem</strong>!).</li>
 </ul>
 </li>
-<li><strong>Tempestades de Névoa Temporal:</strong> Nevoeiros espessos surgem sem aviso fazendo passado e futuro colidirem no convés — manifestando versões duplicadas de inimigos derrotados minutos antes (<code>Mente [Astúcia]</code> CD 11 para não cair em emboscadas!).</li>
+<li><strong>Tempestades de Névoa Temporal:</strong> Nevoeiros espessos surgem sem aviso fazendo passado e futuro colidirem no convés — manifestando versões duplicadas de inimigos derrotados minutos antes (<code>Mente [Astúcia]</code> CD 9 para não cair em emboscadas!).</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_7">Facções, Sobreviventes e Vestígios Humanos</h3>
 <p>Isolados do mundo exterior há eras, descendentes humanos conhecidos como o <strong>Povo do Rio (<em>Riverborn</em>)</strong> vivem em cidades flutuantes de madeira dourada ou assentamentos construídos nas costas gigantescas de tartarugas milenares. Eles comercializam mapas das ilhas seguras e lutam desesperadamente contra os <strong>Buscadores Profanos</strong> — navegadores corrompidos vindos das fronteiras futuras do Estuário que espalham a Praga rio abaixo!</p>
@@ -3240,7 +3262,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ol>
 <li><strong>A Cidade-Carapaça de Cairn (<em>Porto do Povo do Rio</em>):</strong><ul>
 <li><em>Atmosfera:</em> Uma vila vibrante de casas curvas, estaleiros navais e mercados de peixe espiritual ancorada inteiramente sobre o casco de uma tartaruga marinha de três quilômetros!</li>
-<li><em>Ameaça &amp; CD:</em> Contrabandistas desconfiados (<code>Coração [Convencer]</code> CD 10), espiões infectados disfarçados (<code>Astúcia</code> CD 11) e tremores quando a tartaruga mergulha parcialmente.</li>
+<li><em>Ameaça &amp; CD:</em> Contrabandistas desconfiados (<code>Coração [Convencer]</code> CD 8), espiões infectados disfarçados (<code>Astúcia</code> CD 9) e tremores quando a tartaruga mergulha parcialmente.</li>
 <li><em>Segredo &amp; Recompensa:</em> O único porto confiável para reparar embarcações, comprar madeira resistente à correnteza temporal e contratar guias locais!</li>
 <li><em>Evento Vivo ao Chegar:</em> Os sinos do casco tocam alarme — uma embarcação desconhecida sem velas aproxima-se vinda da direção proibida do Estuário!</li>
 </ul>
@@ -3254,7 +3276,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>O Campo de Gelo da Queda (<em>A Onda Congelada</em>):</strong><ul>
 <li><em>Atmosfera:</em> Um trecho surreal onde centenas de metros do Grande Rio e dezenas de navios de guerra antigos foram <strong>congelados no tempo no meio de uma onda gigante</strong>.</li>
-<li><em>Ameaça &amp; CD:</em> Gelo escorregadio (<code>Corpo [Agilidade]</code> CD 10) e monstros congelados que começam a despertar quando o calor de tochas ou Aspectos derrete a superfície (<code>CD 12–13</code>).</li>
+<li><em>Ameaça &amp; CD:</em> Gelo escorregadio (<code>Corpo [Agilidade]</code> CD 8) e monstros congelados que começam a despertar quando o calor de tochas ou Aspectos derrete a superfície (<code>CD 12–13</code>).</li>
 <li><em>Segredo &amp; Recompensa:</em> Os porões dos navios suspensos no gelo guardam arsenais intactos de <strong>Memórias Tier IV–V</strong> e cargas raras preservadas!</li>
 <li><em>Evento Vivo ao Chegar:</em> Um estalo gigantesco ecoa pelo paredão congelado e um navio antigo começa a deslizar lentamente pela encosta de gelo!</li>
 </ul>
@@ -3269,7 +3291,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ol>
 <h3 id="-papéis-da-coorte--sobrevivência-em-campo-no-grande-rio">🏕️ Papéis da Coorte &amp; Sobrevivência em Campo no Grande Rio</h3>
 <ul>
-<li><strong>Timoneiro &amp; Canalizador (7 Postos Navais):</strong> Controlam os remos rúnicos e velas contra ou a favor da correnteza temporal, garantindo que o barco não entre acidentalmente em desvios do Passado (<code>CD 12</code>).</li>
+<li><strong>Timoneiro &amp; Canalizador (7 Postos Navais):</strong> Controlam os remos rúnicos e velas contra ou a favor da correnteza temporal, garantindo que o barco não entre acidentalmente em desvios do Passado (<code>CD 10</code>).</li>
 <li><strong>Oráculo &amp; Vigia Espiritual:</strong> Monitoram diariamente os 7 jogadores para detectar sussurros iniciais da Praga (<code>Mente [Vontade]</code>) antes que alguém acumule 3 Marcas de Corrupção!</li>
 <li><strong>Engenheiro &amp; Artífice:</strong> Selam o casco com resina da Cidade-Carapaça para impedir que piranhas iridescentes ou névoas temporais estraguem a madeira.</li>
 <li><strong>Guardião do Convés &amp; Executor:</strong> Mantêm arpões amarrados prontos para enfrentar <em>Serpentes Temporais</em> que surgem atrás da popa!</li>
@@ -3277,7 +3299,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="-a-cidadela-conquistável--o-farol-do-remanso-eterno">🏰 A Cidadela Conquistável — <em>O Farol do Remanso Eterno</em></h3>
 <ul>
 <li><strong>Localização:</strong> Erguido sobre uma ilha de obsidiana encaixada num remanso lateral calmo que permanece <strong>completamente fora do fluxo da correnteza temporal</strong>, garantindo que o tempo corra de maneira normal e estável lá dentro!</li>
-<li><strong>Defesas &amp; Guarnição Secundária:</strong> Aproximar-se pelo rio exige atravessar um canal estreito de redemoinhos velozes (<code>Timoneiro</code> CD 11) patrulhado por <strong>2 Serpentes Temporais (CD 12)</strong>, enquanto a cúpula dispara feixes de luz prateada contra emboscadas.</li>
+<li><strong>Defesas &amp; Guarnição Secundária:</strong> Aproximar-se pelo rio exige atravessar um canal estreito de redemoinhos velozes (<code>Timoneiro</code> CD 9) patrulhado por <strong>2 Serpentes Temporais (CD 12)</strong>, enquanto a cúpula dispara feixes de luz prateada contra emboscadas.</li>
 <li><strong>Chefe Guardião — <em>O Timoneiro Sem Tempo</em>:</strong><ul>
 <li><strong>Rank &amp; Classe:</strong> <em>Terror Caído</em> | <strong>CD:</strong> <code>13</code> | <strong>PV:</strong> <code>30</code> | <strong>Parte Destrutível:</strong> <em>Relógio de Areia Dorsal (10 PV)</em>.</li>
 <li><strong>Tática:</strong> Um espectro encouraçado de bronze armado com um remo-lança que aplica <em>Lentidão</em> (<strong>2 de Dano de Alma</strong>) e uma vez por combate rebobina 1 rodada para curar 6 PV até seu <em>Relógio Dorsal</em> ser estilhaçado!</li>
@@ -3286,7 +3308,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
 <li>Navegar pelo canal dos redemoinhos utilizando os <strong>7 Postos de Embarcação</strong> (<em>Livro 1, Cap. 10</em>) e eliminar os sentinelas do cais.</li>
 <li>Enfrentar o <em>Timoneiro Sem Tempo</em> no salão da lente prateada, priorizando quebrar o <strong>Relógio de Areia</strong> nas costas dele para travar sua regeneração temporal!</li>
-<li>Encaixar <strong>1 Fragmento Ascendido</strong> ou canalizar <code>[Marca de Divindade]</code> no espelho do farol (<code>Alma [Abjurar]</code> CD 12), estabelecendo um porto seguro inexpugnável dentro da Tumba!</li>
+<li>Encaixar <strong>1 Fragmento Ascendido</strong> ou canalizar <code>[Marca de Divindade]</code> no espelho do farol (<code>Alma [Abjurar]</code> CD 10), estabelecendo um porto seguro inexpugnável dentro da Tumba!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>25 Fragmentos Ascendidos/Transcendentes</strong> + a Memória <strong>Lança do Remo Eterno (Arma Ascendida Tier V)</strong>!</li>
@@ -3342,9 +3364,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_8">Clima, Geografia e Ecologia Detalhada</h3>
 <p>Uma das paisagens mais aterradoras e épicas de todo o Reino dos Sonhos: <strong>o continente inteiro não é feito de terra nem rocha comum, mas do esqueleto branco petrificado de um ser divino incomensurável</strong> tombado durante a Guerra da Perdição! Só o esterno tem o tamanho de um pequeno continente, uma planície alva sem fim; costelas gigantes arqueiam-se sobre o horizonte como cordilheiras brancas perfurando nuvens. Sobre essa ossada titânica explode uma <strong>Selva Escarlate</strong> vermelha e voraz — enquanto abaixo das fissuras nos ossos abre-se o labirinto cavernoso de <strong>Os Vãos (<em>The Hollows</em>)</strong>, túneis escuros dentro da própria medula ossificada.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> Água acumula-se em bolsas internas dos ossos (filtrada e fria, mas frequentemente contaminada por esporos carmesins — exige <code>Sobrevivência</code> CD 10 para ferver!). Comer plantas da Selva Escarlate sem preparo alquímico arrisca parasitas sanguíneos (<code>Vigor</code> CD 11).</li>
+<li><strong>Água e Alimento:</strong> Água acumula-se em bolsas internas dos ossos (filtrada e fria, mas frequentemente contaminada por esporos carmesins — exige <code>Sobrevivência</code> CD 8 para ferver!). Comer plantas da Selva Escarlate sem preparo alquímico arrisca parasitas sanguíneos (<code>Vigor</code> CD 9).</li>
 <li><strong>Flora Hostil:</strong> Toda a vegetação de Godgrave é predatória: árvores-chicote vermelho-sangue, cipós-serra que cortam botas reforçadas e musgos que sugam calor corporal em segundos.</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Ascendida</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -3361,14 +3384,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Enxame de Vespas-Lanças Carmesins</strong></td>
 <td style="text-align: left;">Caída — Besta</td>
 <td style="text-align: center;"><strong>10</strong></td>
-<td style="text-align: left;">Perfura tendas e armaduras rasas antes que o grupo ache sombra!</td>
+<td style="text-align: left;">Perfura tendas e armaduras rasas antes que o grupo ache sombra! ⚖️ <em>Acima do Orçamento (Ameaça ~8: trate como Horda)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: left;"><strong>2 Louva-a-Deus de Osso Branco</strong></td>
 <td style="text-align: left;">Corrompida — Monstro</td>
 <td style="text-align: center;"><strong>12</strong></td>
-<td style="text-align: left;">Camuflam-se perfeitamente contra as costelas alvas e emboscam vigias.</td>
+<td style="text-align: left;">Camuflam-se perfeitamente contra as costelas alvas e emboscam vigias. ⚠️ <strong>Fuga/Evitar</strong> <em>(Corrompidos: Ameaça ~12 &gt; 7)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
@@ -3382,25 +3405,25 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Dragão de Osso e Pena Rubra</strong></td>
 <td style="text-align: left;">Grande — Diabo</td>
 <td style="text-align: center;"><strong>13</strong></td>
-<td style="text-align: left;">Faz ninho nos arcos altos das costelas e mergulha com chamas brancas!</td>
+<td style="text-align: left;">Faz ninho nos arcos altos das costelas e mergulha com chamas brancas! ⚠️ <strong>Fuga/Evitar</strong> <em>(Grande: 2 Ranks acima)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>6</strong></td>
 <td style="text-align: left;"><strong>Verme-Rei da Medula Profunda</strong></td>
 <td style="text-align: left;">Grande — Tirano</td>
 <td style="text-align: center;"><strong>14</strong></td>
-<td style="text-align: left;">Rompe o teto de osso dos <em>Vãos</em> engolindo corredores inteiros de expedição!</td>
+<td style="text-align: left;">Rompe o teto de osso dos <em>Vãos</em> engolindo corredores inteiros de expedição! ⚠️ <strong>Fuga/Evitar</strong> <em>(Grande: 2 Ranks acima)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_8">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
 <li><strong>O Olho do Céu Incandescente (Regra Mortal):</strong> Acima de Godgrave paira um mar contínuo de nuvens brancas espessas. Periodicamente (e sem horário previsível!), as nuvens se abrem silenciosamente revelando o <strong>Céu Incandescente</strong>: uma luz branca divina desce em segundos, reduzindo a Selva Escarlate inteira a cinzas <strong>e desintegrando qualquer ser vivo na superfície que se mova um milímetro sob a luz direta!</strong><ul>
-<li><em>Regra:</em> Quando o Mestre anunciar que <em>as nuvens estão afinando e clareando</em>, cada jogador tem apenas <strong>1 Movimento de emergência</strong> para mergulhar sob a sombra de uma costela ou fenda — OU todo o grupo deve vencer <strong><code>Mente (Vontade)</code> + <code>Corpo (Agilidade)</code> CD 12</strong> para <strong>parar como estátuas absolutas</strong> (sem piscar nem respirar forte!). Quem se mover sob a luz sofre <strong>4 de Dano Irredutível de Luz Divina</strong> por rodada!</li>
+<li><em>Regra:</em> Quando o Mestre anunciar que <em>as nuvens estão afinando e clareando</em>, cada jogador tem apenas <strong>1 Movimento de emergência</strong> para mergulhar sob a sombra de uma costela ou fenda — OU todo o grupo deve vencer <strong><code>Mente (Vontade)</code> + <code>Corpo (Agilidade)</code> CD 10</strong> para <strong>parar como estátuas absolutas</strong> (sem piscar nem respirar forte!). Quem se mover sob a luz sofre <strong>4 de Dano Irredutível de Luz Divina</strong> por rodada!</li>
 </ul>
 </li>
-<li><strong>O Ciclo da Cinza e do Renascimento:</strong> Minutos após as nuvens fecharem novamente, sementes dormentes nos poros do osso germinam explosivamente, reconstruindo a selva inteira em menos de uma hora (<code>Mente [Astúcia]</code> CD 11 para navegar sem trilha permanente!).</li>
-<li><strong>Os Vãos (<em>The Hollows</em>):</strong> Viajar pelos túneis ocos dentro dos ossos protege completamente da luz mortal do céu, mas exige iluminação e silêncio estrito (<code>Furtividade</code> CD 11 para não despertar predadores cegos!).</li>
+<li><strong>O Ciclo da Cinza e do Renascimento:</strong> Minutos após as nuvens fecharem novamente, sementes dormentes nos poros do osso germinam explosivamente, reconstruindo a selva inteira em menos de uma hora (<code>Mente [Astúcia]</code> CD 9 para navegar sem trilha permanente!).</li>
+<li><strong>Os Vãos (<em>The Hollows</em>):</strong> Viajar pelos túneis ocos dentro dos ossos protege completamente da luz mortal do céu, mas exige iluminação e silêncio estrito (<code>Furtividade</code> CD 9 para não despertar predadores cegos!).</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_8">Facções, Sobreviventes e Vestígios Humanos</h3>
 <p>Nenhum assentamento civil existe aqui. Godgrave é o campo de guerra decisivo onde <strong>os exércitos principais do Grande Clã Valor e do Grande Clã Song</strong> avançam sob tendas térmicas blindadas e sombras das costelas colossais para conquistar suas raríssimas Cidadelas — enquanto coortes independentes de <em>Ascendidos</em> e <em>Transcendentes</em> exploram os <em>Vãos</em> em busca de cristais de medula!</p>
@@ -3408,14 +3431,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ol>
 <li><strong>A Planície do Esterno Rachado (<em>Campos de Cinza Rubra</em>):</strong><ul>
 <li><em>Atmosfera:</em> Um platô branco descomunal e plano onde a Selva Escarlate é incinerada e renasce várias vezes por dia sem cobertura natural contra o céu.</li>
-<li><em>Ameaça &amp; CD:</em> Corridas cronometradas entre fendas de osso (<code>Corpo [Agilidade]</code> CD 10) e cadáveres carbonizados de guerreiros antigos que guardam restos de armas sob as cinzas.</li>
+<li><em>Ameaça &amp; CD:</em> Corridas cronometradas entre fendas de osso (<code>Corpo [Agilidade]</code> CD 8) e cadáveres carbonizados de guerreiros antigos que guardam restos de armas sob as cinzas.</li>
 <li><em>Segredo &amp; Recompensa:</em> Após cada clarão solar, Memórias intactas e cristais expostos brilham no chão limpo por apenas <strong>10 minutos</strong> antes que a nova selva os engula novamente!</li>
 <li><em>Evento Vivo ao Chegar:</em> As nuvens acima começam a afinar rapidamente enquanto dois guerreiros de Song correm desesperados rumo à mesma fenda onde a Coorte planeja se esconder!</li>
 </ul>
 </li>
 <li><strong>A Terceira Costela (<em>O Arco dos Ventos Mortos</em>):</strong><ul>
 <li><em>Atmosfera:</em> Uma ponte natural branca com dois quilômetros de altura, varrida por ventos uivantes e pontilhada de estandartes antigos partidos.</li>
-<li><em>Ameaça &amp; CD:</em> Altura vertiginosa (<code>Agilidade</code> CD 11) e ninhos de <em>Dragões de Osso</em> que vigiam as bordas superiores (<code>CD 13</code>).</li>
+<li><em>Ameaça &amp; CD:</em> Altura vertiginosa (<code>Agilidade</code> CD 9) e ninhos de <em>Dragões de Osso</em> que vigiam as bordas superiores (<code>CD 13</code>).</li>
 <li><em>Segredo &amp; Recompensa:</em> Melhor ponto de observação estratégico de todo o continente para mapear movimentações de exércitos ou localizar fumaça de Cidadelas ocultas!</li>
 <li><em>Evento Vivo ao Chegar:</em> Um choque elétrico ou grito de guerra ecoa pela crista — batedores avançados de Valor acabaram de ser atacados por um <em>Dragão de Osso</em>!</li>
 </ul>
@@ -3429,7 +3452,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>O Crânio Partido da Fronteira Norte:</strong><ul>
 <li><em>Atmosfera:</em> O limite sombrio do continente onde as órbitas oculares gigantes do deus morto abrem-se sobre o abismo e tempestades elétricas azuis dançam dentro dos ossos.</li>
-<li><em>Ameaça &amp; CD:</em> Ecos psíquicos da Guerra da Perdição (<code>Mente [Vontade]</code> CD 12) e aberrações profanas que guardam o centro craniano (<code>CD 14+</code>).</li>
+<li><em>Ameaça &amp; CD:</em> Ecos psíquicos da Guerra da Perdição (<code>Mente [Vontade]</code> CD 10) e aberrações profanas que guardam o centro craniano (<code>CD 14+</code>).</li>
 <li><em>Segredo &amp; Recompensa:</em> Esconde relíquias raríssimas da 4ª Era e fragmentos de conhecimento perdido sobre Weaver e os Deuses!</li>
 <li><em>Evento Vivo ao Chegar:</em> Um relâmpago azul atinge o osso nasal iluminando por três segundos uma entrada selada por fios dourados quase invisíveis!</li>
 </ul>
@@ -3437,24 +3460,24 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ol>
 <h3 id="-papéis-da-coorte--sobrevivência-em-campo-em-godgrave">🏕️ Papéis da Coorte &amp; Sobrevivência em Campo em Godgrave</h3>
 <ul>
-<li><strong>Vigia do Céu (<em>Oráculo / Olho de Falcão</em>):</strong> Nunca tira os olhos do teto de nuvens brancas (<code>Mente [Astúcia]</code> CD 10) para gritar o aviso <strong>"ESTÁTUA!"</strong> segundos antes de o Céu Incandescente se abrir!</li>
+<li><strong>Vigia do Céu (<em>Oráculo / Olho de Falcão</em>):</strong> Nunca tira os olhos do teto de nuvens brancas (<code>Mente [Astúcia]</code> CD 8) para gritar o aviso <strong>"ESTÁTUA!"</strong> segundos antes de o Céu Incandescente se abrir!</li>
 <li><strong>Espectro &amp; Batedor:</strong> Memorizam ou marcam a localização das fendas mais fundas de osso para fuga instantânea caso o grupo seja pego em campo aberto.</li>
-<li><strong>Médico &amp; Cozinheiro:</strong> Esterilizam cada gota de água extraída das bolsas ósseas (<code>CD 10</code>) e verificam arranhões para evitar esporos parasitas da Selva Escarlate.</li>
+<li><strong>Médico &amp; Cozinheiro:</strong> Esterilizam cada gota de água extraída das bolsas ósseas (<code>CD 8</code>) e verificam arranhões para evitar esporos parasitas da Selva Escarlate.</li>
 <li><strong>Baluarte &amp; Canalizador:</strong> Lideram a marcha nos túneis cegos dos <em>Vãos</em> usando escudos pesados e lanternas controladas que possam ser apagadas em meio segundo!</li>
 </ul>
 <h3 id="-a-cidadela-conquistável--o-forte-da-clavícula-branca">🏰 A Cidadela Conquistável — <em>O Forte da Clavícula Branca</em></h3>
 <ul>
 <li><strong>Localização:</strong> Incrustado na <strong>face inferior da clavícula esquerda</strong> do esqueleto divino, suspenso sobre o abismo branco e <strong>100% protegido pela sombra eterna do próprio osso colossal</strong> contra a luz mortal do Céu Incandescente!</li>
-<li><strong>Defesas &amp; Guarnição Secundária:</strong> Acesso possível apenas escalando as cadeias de ossos laterais (<code>Corpo [Agilidade]</code> CD 11) ou emergindo por um duto dos <em>Vãos</em>. Os salões externos são guardados por <strong>3 Louva-a-Deus de Osso (CD 12)</strong> camuflados entre pilares alvos!</li>
+<li><strong>Defesas &amp; Guarnição Secundária:</strong> Acesso possível apenas escalando as cadeias de ossos laterais (<code>Corpo [Agilidade]</code> CD 9) ou emergindo por um duto dos <em>Vãos</em>. Os salões externos são guardados por <strong>3 Louva-a-Deus de Osso (CD 12)</strong> camuflados entre pilares alvos!</li>
 <li><strong>Chefe Guardião — <em>O Carniceiro da Medula Escarlate</em>:</strong><ul>
 <li><strong>Rank &amp; Classe:</strong> <em>Terror Caído</em> | <strong>CD:</strong> <code>13</code> | <strong>PV:</strong> <code>32</code> | <strong>Parte Destrutível:</strong> <em>Saco de Esporos Dorsal (10 PV)</em>.</li>
 <li><strong>Tática:</strong> Um predador louva-a-deus blindado de seis metros coberto por placas de osso branco e vinhas simbióticas (<strong>2 a 3 de Dano</strong>, <em>Sangrando</em>). Recupera <strong>3 PV por rodada</strong> sugando energia das raízes da parede enquanto seu <em>Saco Dorsal</em> estiver inteiro!</li>
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Alcançar a face inferior da clavícula sem ser surpreendido pela abertura das nuvens na travessia do ombro (<code>Corpo [Agilidade]</code> CD 11) e limpar os emboscadores camuflados.</li>
+<li>Alcançar a face inferior da clavícula sem ser surpreendido pela abertura das nuvens na travessia do ombro (<code>Corpo [Agilidade]</code> CD 9) e limpar os emboscadores camuflados.</li>
 <li>Enfrentar o <em>Carniceiro</em>, focando ataques em <em>Mirar em Ponto Fraco</em> ou armas de fogo no <strong>Saco de Esporos Dorsal (10 PV)</strong> para cortar sua regeneração!</li>
-<li>Raspar os cipós escarlates do <strong>Altar de Osso Polido</strong> no coração do forte e ativar o selo central com <strong>1 Fragmento Ascendido ou <code>[Marca de Divindade]</code></strong> (<code>Alma [Canalizar]</code> CD 12)!</li>
+<li>Raspar os cipós escarlates do <strong>Altar de Osso Polido</strong> no coração do forte e ativar o selo central com <strong>1 Fragmento Ascendido ou <code>[Marca de Divindade]</code></strong> (<code>Alma [Canalizar]</code> CD 10)!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>30 Fragmentos Transcendentes/Ascendidos</strong> + a Memória <strong>Lâmina da Clavícula Branca (Arma Transcendente Tier V)</strong>!</li>
@@ -3510,9 +3533,10 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <h3 id="clima-geografia-e-ecologia-detalhada_9">Clima, Geografia e Ecologia Detalhada</h3>
 <p>Um oceano abissal de águas negras como tinta infinita, eternamente açoitado por furacões giratórios, trombas d'água e tempestades de relâmpagos violeta sob um céu noturno estranho onde estrelas desconhecidas giram em padrões mutáveis. Não há continentes firmes aqui — apenas arquipélagos vulcânicos pontiagudos, recifes gigantescos de costelas de leviatãs primordiais que emergem na maré baixa e ilhas fortificadas construídas ao redor da rede sagrada de <strong>Faróis Astrais</strong>.</p>
 <ul>
-<li><strong>Água e Alimento:</strong> A água do mar é salgada demais e saturada de essência sombria (<code>Vigor</code> CD 11 contra intoxicação se bebida crua). Suprimentos vêm de destiladores rúnicos nos navios, chuva de tempestade coletada em lonas e pesca perigosa de enguias e peixes abissais (<code>Sobrevivência</code> CD 9).</li>
+<li><strong>Água e Alimento:</strong> A água do mar é salgada demais e saturada de essência sombria (<code>Vigor</code> CD 9 contra intoxicação se bebida crua). Suprimentos vêm de destiladores rúnicos nos navios, chuva de tempestade coletada em lonas e pesca perigosa de enguias e peixes abissais (<code>Sobrevivência</code> CD 7).</li>
 <li><strong>Flora Hostil:</strong> Bancos flutuantes de algas negras elásticas que enrolam hélices e lemes inteiros em segundos e corais venenosos que soltam nuvens ácidas quando raspados por um casco.</li>
 </ul>
+<p><em>Coorte de referência: </em><em>Desperta</em><em> (7 jogadores).</em></p>
 <table>
 <thead>
 <tr>
@@ -3529,14 +3553,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Cardume de 4 Tubarões-Serra de Ferro</strong></td>
 <td style="text-align: left;">Desperta — Besta</td>
 <td style="text-align: center;"><strong>9</strong></td>
-<td style="text-align: left;">Mordem o casco e saltam sobre quem cai na água ou se debruça na borda!</td>
+<td style="text-align: left;">Mordem o casco e saltam sobre quem cai na água ou se debruça na borda! ⚖️ <em>Acima do Orçamento (Ameaça ~8: comece com 3)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>3</strong></td>
 <td style="text-align: left;"><strong>2 Sereias do Abismo</strong></td>
 <td style="text-align: left;">Desperta — Monstro</td>
 <td style="text-align: center;"><strong>10</strong></td>
-<td style="text-align: left;">Sobem nos recifes cantando encantos para atrair marinheiros às ondas.</td>
+<td style="text-align: left;">Sobem nos recifes cantando encantos para atrair marinheiros às ondas. ⚖️ <em>Acima do Orçamento (Ameaça ~8: a 2ª canta só na rodada 2)</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>4</strong></td>
@@ -3557,15 +3581,15 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <td style="text-align: left;"><strong>Leviatã das Fossas Abissais</strong></td>
 <td style="text-align: left;">Grande — Terror</td>
 <td style="text-align: center;"><strong>14</strong></td>
-<td style="text-align: left;">Cria um redemoinho gigantesco; exige manobra total nos <strong>7 Postos Navais</strong>!</td>
+<td style="text-align: left;">Cria um redemoinho gigantesco; exige manobra total nos <strong>7 Postos Navais</strong>! ⚠️ <strong>Fuga/Evitar</strong> <em>(Grande: 2 Ranks acima)</em></td>
 </tr>
 </tbody>
 </table>
 <h3 id="leis-físicas-anômalas--regras-de-sobrevivência-cds_9">Leis Físicas Anômalas &amp; Regras de Sobrevivência (CDs)</h3>
 <ol>
-<li><strong>Navegação Astral Sem Bússola Magnética:</strong> Campos magnéticos não funcionam neste oceano. Navegar em águas abertas sem <strong>Bússola Astral, Timoneiro da Casa da Noite ou leitura exata das estrelas</strong> (<code>Mente [Conhecimento]</code> CD 10) arrasta a embarcação direto para recifes invisíveis ou zonas mortas de redemoinhos (<strong>2 a 4 de Dano ao Casco</strong>!).</li>
-<li><strong>Furacões Repentinos e Combate Naval de 7 Postos:</strong> Tempestades irrompem em minutos. Lutar num convés molhado durante tormenta exige <strong><code>Corpo (Agilidade)</code> CD 10</strong> em manobras bruscas para não cair na água negra — onde nadar com armadura sobe para <strong>CD 12</strong>! (Resolva batalhas navais usando os <strong>7 Postos de Embarcação</strong>, <em>Livro 1, Cap. 10</em>!).</li>
-<li><strong>O Canto das Profundezas:</strong> Perto das Fossas Abissais, correntes oceânicas ecoam lamentos humanos de navegadores perdidos (<code>Mente [Vontade]</code> CD 10 para tripulantes não saltarem no mar!).</li>
+<li><strong>Navegação Astral Sem Bússola Magnética:</strong> Campos magnéticos não funcionam neste oceano. Navegar em águas abertas sem <strong>Bússola Astral, Timoneiro da Casa da Noite ou leitura exata das estrelas</strong> (<code>Mente [Conhecimento]</code> CD 8) arrasta a embarcação direto para recifes invisíveis ou zonas mortas de redemoinhos (<strong>2 a 4 de Dano ao Casco</strong>!).</li>
+<li><strong>Furacões Repentinos e Combate Naval de 7 Postos:</strong> Tempestades irrompem em minutos. Lutar num convés molhado durante tormenta exige <strong><code>Corpo (Agilidade)</code> CD 8</strong> em manobras bruscas para não cair na água negra — onde nadar com armadura sobe para <strong>CD 10</strong>! (Resolva batalhas navais usando os <strong>7 Postos de Embarcação</strong>, <em>Livro 1, Cap. 10</em>!).</li>
+<li><strong>O Canto das Profundezas:</strong> Perto das Fossas Abissais, correntes oceânicas ecoam lamentos humanos de navegadores perdidos (<code>Mente [Vontade]</code> CD 8 para tripulantes não saltarem no mar!).</li>
 </ol>
 <h3 id="facções-sobreviventes-e-vestígios-humanos_9">Facções, Sobreviventes e Vestígios Humanos</h3>
 <p>Este vasto oceano é o domínio histórico da <strong>Casa da Noite</strong>, cujos navegadores <strong>Nightwalkers</strong>, Transcendentes e poderosos <strong>Encouraçados Rúnicos</strong> garantem o comércio marítimo humano entre as terras costeiras e mantêm acesos os grandes <strong>Faróis Astrais</strong>. Entretanto, além das rotas patrulhadas prosperam <strong>Corsários da Aliança Livre</strong>, caçadores de pérolas de alma e contrabandistas que exploram ilhas não registradas longe da jurisdição dos Grandes Clãs!</p>
@@ -3573,14 +3597,14 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ol>
 <li><strong>O Grande Farol da Noite Eterna (<em>Porto Central da Casa da Noite</em>):</strong><ul>
 <li><em>Atmosfera:</em> Uma torre titânica de mármore escuro e cobre esverdeado erguida num penhasco no meio de três redemoinhos, cujo fogo azul no cume acalma furacões em quilômetros de raio.</li>
-<li><em>Ameaça &amp; CD:</em> Inspeções alfandegárias rígidas (<code>Coração [Convencer]</code> CD 10) e tributos portuários; espiões de Song e piratas rondam as docas externas.</li>
+<li><em>Ameaça &amp; CD:</em> Inspeções alfandegárias rígidas (<code>Coração [Convencer]</code> CD 8) e tributos portuários; espiões de Song e piratas rondam as docas externas.</li>
 <li><em>Segredo &amp; Recompensa:</em> Abriga os melhores estaleiros de reparo rúnico do mundo, mapas navais atualizados e contratos marítimos altamente lucrativos!</li>
 <li><em>Evento Vivo ao Chegar:</em> Um navio-patrulha reboca metade de um casco partido cheio de sobreviventes falando de um "monstro feito de tempestade" a leste!</li>
 </ul>
 </li>
 <li><strong>O Cemitério dos Navios da Fossa Sul:</strong><ul>
 <li><em>Atmosfera:</em> Um mar estagnado sem vento onde centenas de cascos quebrados de todas as Eras — de trirremes de bronze a cargueiros modernos perdidos — flutuam presos em algas gigantes negras.</li>
-<li><em>Ameaça &amp; CD:</em> Fantasmas de marinheiros afogados (<code>CD 11</code>), caranguejos gigantes de ferro e pranchas apodrecidas que desabam sob peso (<code>Agilidade</code> CD 9).</li>
+<li><em>Ameaça &amp; CD:</em> Fantasmas de marinheiros afogados (<code>CD 11</code>), caranguejos gigantes de ferro e pranchas apodrecidas que desabam sob peso (<code>Agilidade</code> CD 7).</li>
 <li><em>Segredo &amp; Recompensa:</em> Rico em suprimentos perdidos, armas antigas preservadas em baús selados e peças de motores rúnicos!</li>
 <li><em>Evento Vivo ao Chegar:</em> Uma lanterna verde solitária acende no mastro mais alto de um galeão do século XVII, atraindo saqueadores para uma armadilha viva!</li>
 </ul>
@@ -3594,7 +3618,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </li>
 <li><strong>A Boca da Fossa Abissal (<em>O Último Degrau</em>):</strong><ul>
 <li><em>Atmosfera:</em> Uma fenda oceânica circular onde o próprio mar despenca em uma cachoeira infinita rumo às trevas abissais abaixo do mundo, cercada por estátuas partidas de leviatãs.</li>
-<li><em>Ameaça &amp; CD:</em> Correntes mortais (<code>Timoneiro</code> CD 13 para não ser sugado!) e aberrações <em>Grandes/Amaldiçoadas</em> emergindo durante eclipses (<code>CD 14–15</code>).</li>
+<li><em>Ameaça &amp; CD:</em> Correntes mortais (<code>Timoneiro</code> CD 11 para não ser sugado!) e aberrações <em>Grandes/Amaldiçoadas</em> emergindo durante eclipses (<code>CD 14–15</code>).</li>
 <li><em>Segredo &amp; Recompensa:</em> Guarda vestígios da fronteira entre o Reino da Tempestade e o abismo primordial da Guerra da Perdição!</li>
 <li><em>Evento Vivo ao Chegar:</em> As águas ao redor da borda começam a brilhar com relâmpagos subaquáticos invertidos subindo das trevas!</li>
 </ul>
@@ -3604,7 +3628,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Os 7 Postos Navais em Ação:</strong> O <em>Timoneiro</em>, <em>Artilheiro</em>, <em>Canalizador do Motor</em>, <em>Vigia da Gávea</em>, <em>Guardião do Convés</em>, <em>Engenheiro de Reparo</em> e <em>Capitão</em> agem em sincronia absoluta a cada tempestade ou abordagem!</li>
 <li><strong>Cozinheiro &amp; Médico:</strong> Mantêm os barris de água destilada vedados contra respingos salgados e tratam náusea severa e choques elétricos no convés.</li>
-<li><strong>Oráculo &amp; Vigia:</strong> Usam <em>Bússola Astral</em> ou cálculos estelares constantes (<code>CD 10</code>) sempre que nuvens de furacão cobrem o céu.</li>
+<li><strong>Oráculo &amp; Vigia:</strong> Usam <em>Bússola Astral</em> ou cálculos estelares constantes (<code>CD 8</code>) sempre que nuvens de furacão cobrem o céu.</li>
 <li><strong>Espectro &amp; Olho de Falcão:</strong> Cortam cabos de arpões ou algas negras enroladas no leme e vigiam recifes submersos antes do choque!</li>
 </ul>
 <h3 id="-a-cidadela-conquistável--o-encouraçado-fantasma-estrela-do-abismo">🏰 A Cidadela Conquistável — <em>O Encouraçado Fantasma "Estrela do Abismo"</em></h3>
@@ -3618,9 +3642,9 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 </ul>
 </li>
 <li><strong>Passo a Passo para Reivindicar o Portal:</strong><ol>
-<li>Emparelhar ou abordar o navio-fantasma utilizando os <strong>7 Postos de Embarcação</strong> sob tempestade (<code>Timoneiro</code> CD 11) e limpar o convés dos espectros.</li>
-<li>Destravar as escotilhas seladas do porão (<code>Corpo [Força]</code> ou <code>Mente [Conhecimento]</code> CD 10) e abrir as válvulas laterais para drenar a água elétrica!</li>
-<li>Abater a <em>Serpente do Mar Negro</em>, assumir o <strong>Leme-Altar da Cabine Principal</strong> e vincular <code>[Brasa de Divindade]</code> ou <strong>15 Fragmentos Despertos</strong> (<code>Alma [Canalizar]</code> CD 11), reativando o <strong>Portal Móvel</strong> a bordo!</li>
+<li>Emparelhar ou abordar o navio-fantasma utilizando os <strong>7 Postos de Embarcação</strong> sob tempestade (<code>Timoneiro</code> CD 9) e limpar o convés dos espectros.</li>
+<li>Destravar as escotilhas seladas do porão (<code>Corpo [Força]</code> ou <code>Mente [Conhecimento]</code> CD 8) e abrir as válvulas laterais para drenar a água elétrica!</li>
+<li>Abater a <em>Serpente do Mar Negro</em>, assumir o <strong>Leme-Altar da Cabine Principal</strong> e vincular <code>[Brasa de Divindade]</code> ou <strong>15 Fragmentos Despertos</strong> (<code>Alma [Canalizar]</code> CD 9), reativando o <strong>Portal Móvel</strong> a bordo!</li>
 </ol>
 </li>
 <li><strong>Tesouro da Conquista:</strong> Rende <strong>20 Fragmentos Despertos/Ascendidos</strong> no cofre do capitão + a Memória <strong>Tridente da Tempestade Silenciosa (Arma Desperta/Ascendida Tier IV)</strong>!</li>
@@ -3924,7 +3948,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <li><strong>Localização Exata:</strong> No cofre mais fundo da <em>Catedral Submersa das Profundezas</em>, atrás de três comportas de coral negro.</li>
 <li><strong>Guardião / Selo:</strong> Protegida por um <strong>Leviatã Espectral da Maré (CD 13)</strong> e por uma fechadura aquática que exige sangue ou <code>[Brasa de Divindade]</code> ligada à Tempestade/Sombra.</li>
 <li><strong>Poderes Mecânicos:</strong> Quem a usa na cabeça pode respirar debaixo d'água livremente, ignora a pressão mortal e o frio do <strong>Mar Amaldiçoado</strong>, e uma vez por cena pode erguer ou abaixar a maré ao redor num raio de 100 metros (empurrando ou afogando inimigos terrestres!).</li>
-<li><strong>Preço / Maldição:</strong> Em terra seca, o portador sente sede constante e ouve o sussurro distante de marinheiros afogados sempre que chove (<code>Mente [Vontade]</code> CD 9 em tempestades).</li>
+<li><strong>Preço / Maldição:</strong> Em terra seca, o portador sente sede constante e ouve o sussurro distante de marinheiros afogados sempre que chove (<code>Mente [Vontade]</code> CD 7 em tempestades).</li>
 </ul>
 <h3 id="2--a-faca-de-marfim-e-a-faca-de-ébano-região-2-ilhas-acorrentadas">2. ⚖️ A Faca de Marfim e a Faca de Ébano (<em>Região 2: Ilhas Acorrentadas</em>)</h3>
 <ul>
@@ -3938,7 +3962,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Classificação:</strong> Relíquia <strong>Sagrada — Tier V</strong> <em>(Santuário do Deus das Sombras)</em>.</li>
 <li><strong>Localização Exata:</strong> Presa à mão petrificada do sumo-sacerdote congelado dentro de uma câmara oculta abaixo do altar do <em>Mosteiro do Passo Silencioso</em>.</li>
-<li><strong>Guardião / Selo:</strong> Exige passar por testes de silêncio perfeito (<code>Furtividade</code> CD 12) e possuir <code>[Brasa de Divindade]</code> ou um coração livre de 3+ Marcas de Corrupção.</li>
+<li><strong>Guardião / Selo:</strong> Exige passar por testes de silêncio perfeito (<code>Furtividade</code> CD 10) e possuir <code>[Brasa de Divindade]</code> ou um coração livre de 3+ Marcas de Corrupção.</li>
 <li><strong>Poderes Mecânicos:</strong> Acende uma chama negra fria que <strong>repele completamente a Névoa Branca e neblinas mágicas em um raio de 30 metros</strong>, criando um oásis seguro onde toda a Coorte de 7 jogadores caminha sem perder Essência nem perder o rumo! Também revela criaturas invisíveis na escuridão comum.</li>
 <li><strong>Preço / Maldição:</strong> A chama consome <strong>1 Ponto de Essência ou 1 Fragmento Adormecido por dia</strong> de uso contínuo; se apagar no meio da névoa, demora 1 hora para reacender.</li>
 </ul>
@@ -3964,7 +3988,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <li><strong>Localização Exata:</strong> Sobre um pedestal de ossos derretidos no centro submerso da <em>Cratera do Sangue Primordial</em>.</li>
 <li><strong>Guardião / Selo:</strong> Guardado por uma <strong>Quimera Vulcânica de Sangue (Tirano Corrompido — CD 13)</strong> e cercado por vapores alucinógenos.</li>
 <li><strong>Poderes Mecânicos:</strong> Uma taça esculpida em presa de dragão que se enche sozinha uma vez por lua cheia com icor rubi quente. Quem bebe dele <strong>desperta imediatamente o 1º Estágio (ou avança para o 2º) da Linhagem Divina do Deus das Feras</strong> e ganha <strong>+2 PV máximos permanentes</strong>!</li>
-<li><strong>Preço / Maldição:</strong> Cada personagem só pode beber uma única vez na vida; nas noites de lua cheia seguintes, o portador sente sede feroz de combate e precisa passar em <code>Mente (Vontade)</code> CD 9 para não atacar o inimigo mais forte à vista sem recuar!</li>
+<li><strong>Preço / Maldição:</strong> Cada personagem só pode beber uma única vez na vida; nas noites de lua cheia seguintes, o portador sente sede feroz de combate e precisa passar em <code>Mente (Vontade)</code> CD 7 para não atacar o inimigo mais forte à vista sem recuar!</li>
 </ul>
 <h3 id="7--o-cetro-do-rei-esqueleto-região-7-deserto-dos-pesadelos">7. 👑 O Cetro do Rei Esqueleto (<em>Região 7: Deserto dos Pesadelos</em>)</h3>
 <ul>
@@ -3978,7 +4002,7 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Classificação:</strong> Relíquia <strong>Sagrada — Tier VI</strong> <em>(Navegação Temporal)</em>.</li>
 <li><strong>Localização Exata:</strong> Oculto no cofre submerso sob o farol partido da <em>Ilha de Aletheia</em>, acessível apenas quebrando o loop temporal da ilha.</li>
-<li><strong>Guardião / Selo:</strong> Exige decifrar as runas do tempo (<code>Mente [Conhecimento]</code> CD 12) e vencer as versões temporais corrompidas do guardião da torre.</li>
+<li><strong>Guardião / Selo:</strong> Exige decifrar as runas do tempo (<code>Mente [Conhecimento]</code> CD 10) e vencer as versões temporais corrompidas do guardião da torre.</li>
 <li><strong>Poderes Mecânicos:</strong> Quando encaixado no leme ou usado como remo mestre de qualquer barco no Grande Rio (ou em oceanos anômalos), <strong>dobra a velocidade da embarcação mesmo navegando rio acima contra a correnteza do Futuro</strong> e cria uma bolha protetora que torna toda a tripulação <strong>imune a Loops Temporais e perda de memória</strong>!</li>
 <li><strong>Preço / Maldição:</strong> O timoneiro que segura o remo envelhece ou rejuvenesce cosmeticamente alguns anos temporariamente após viagens extremas no rio.</li>
 </ul>
@@ -3986,8 +4010,8 @@ Ao contrário das facções humanas, os Cultos não oferecem "patentes públicas
 <ul>
 <li><strong>Classificação:</strong> Relíquia <strong>Divina Proibida de Weaver — Inclassificável</strong>.</li>
 <li><strong>Localização Exata:</strong> Incrustada dentro de um casulo de teia dourada quase invisível no centro de uma câmara cristalizada dos <em>Vãos Profundos</em>, bem abaixo do esterno do deus morto.</li>
-<li><strong>Guardião / Selo:</strong> Sem monstros barulhentos — protegida por uma rede mortal de fios de destino invisíveis (<code>Mente [Astúcia]</code> CD 13 ou <em>Visão Espiritual</em> para não cortar a própria sorte!).</li>
-<li><strong>Poderes Mecânicos:</strong> Diferente de uma Memória comum, esta relíquia <strong>não é equipada — ela deve ser absorvida pela carne!</strong> O personagem que tiver coragem de engoli-la ou pressioná-la contra o próprio corpo sofre agonia indescritível por 1 cena (<code>Corpo [Vigor]</code> CD 12), mas <strong>desperta imediatamente o Atributo proibido <code>[Teia de Osso]</code> ou <code>[Teia de Alma]</code> da Linhagem de Weaver</strong>, fortalecendo ossos ou alma contra dano e permitindo enxergar e tocar os fios das Memórias!</li>
+<li><strong>Guardião / Selo:</strong> Sem monstros barulhentos — protegida por uma rede mortal de fios de destino invisíveis (<code>Mente [Astúcia]</code> CD 11 ou <em>Visão Espiritual</em> para não cortar a própria sorte!).</li>
+<li><strong>Poderes Mecânicos:</strong> Diferente de uma Memória comum, esta relíquia <strong>não é equipada — ela deve ser absorvida pela carne!</strong> O personagem que tiver coragem de engoli-la ou pressioná-la contra o próprio corpo sofre agonia indescritível por 1 cena (<code>Corpo [Vigor]</code> CD 10), mas <strong>desperta imediatamente o Atributo proibido <code>[Teia de Osso]</code> ou <code>[Teia de Alma]</code> da Linhagem de Weaver</strong>, fortalecendo ossos ou alma contra dano e permitindo enxergar e tocar os fios das Memórias!</li>
 <li><strong>Preço / Maldição:</strong> A dor do despertar da linhagem de Weaver é famosa por levar mentes fracas à beira do desmaio — e portadores da Linhagem Proibida tornam-se alvos prioritários caso certos Transcendentes ou Supremos descubram sua existência!</li>
 </ul>
 <h3 id="10--o-astrolábio-do-céu-sem-estrelas-região-10-mar-tempestuoso">10. 🧭 O Astrolábio do Céu Sem Estrelas (<em>Região 10: Mar Tempestuoso</em>)</h3>

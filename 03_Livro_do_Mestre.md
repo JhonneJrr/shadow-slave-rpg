@@ -85,7 +85,7 @@ Nem toda ação na mesa merece rolar dados! Pedir rolagens para coisas triviais 
 Quando o jogador somar `Dado (1d6 ou 1d8) + Pilar + Bônus Situacionais (teto Cap +3)` e comparar com a **CD**, você nunca responde apenas *"Acertou"* ou *"Errou"*. Use os **6 Graus de Sucesso** do motor oficial (*Livro 1, Cap. 1 — Seção 1.4*) para fazer a cena girar para frente:
 
 - **Lembretes Matemáticos Rápidos (Sempre no Seu Escudo — *Livro 1, Cap. 1, Seções 1.3–1.5*):**
-  - **Escala Oficial de CDs:** **5 (Trivial)** | **7 (Fácil)** | **9 (Moderada)** | **11 (Difícil)** | **13 (Extrema)** | **15 (Divina)**. *Regra de Rank:* Adicione **`+2 na CD`** para cada Rank que o monstro/obstáculo tiver acima do jogador, e subtraia **`-2 na CD`** para cada Rank abaixo!
+  - **Escala Oficial de CDs:** **3 (Trivial)** | **5 (Fácil)** | **7 (Moderada)** | **9 (Difícil)** | **11 (Extrema)** | **13 (Divina)**. *Regra de Rank:* Adicione **`+1 na CD`** para cada Rank que o monstro/obstáculo tiver acima do jogador, e subtraia **`-1 na CD`** para cada Rank abaixo (mínimo CD `3`)! *Criaturas usam a CD da própria ficha, não esta escala.*
   - **Regra do `Cap +3` (*Livro 1, Cap. 1, Seção 1.5*):** A soma de bônus externos (`Atributo Rúnico + Ajuda + Dádiva + Terreno`) trava em **`+3`**. Todo ponto acima de `+3` não é perdido — converte-se automaticamente em **Vantagem (`2 dados`, pega o maior)** ou **`+1 de Dano`** no acerto!
   - **`1 Natural`** *(apelido opcional: Olhar do Abismo — Livro 1, Cap. 1, Seção 1.5):* Mesmo com bônus gigantes, um `1` no dado **nunca passa de `CD Exata` (Sucesso com Infortúnio)** se alcançar a CD, ou é falha normal se ficar abaixo!
   - **`6 Natural` (`d6`) / `8 Natural` (`d8`) (Centelha de Maestria — *Livro 1, Cap. 1, Seção 1.5*):** Se o jogador tirar o valor máximo do dado **e passar na CD**, ganha gratuitamente **`+1 Dádiva menor`** (`+1` para o próximo colega ou efeito tático leve)!
@@ -95,7 +95,7 @@ Quando o jogador somar `Dado (1d6 ou 1d8) + Pilar + Bônus Situacionais (teto Ca
 | **`CD - 4` ou pior** *(Falha Crítica c/ Infortúnio)* | A ação falha E o cenário cobra um preço imediato: sofre `1 de Dano` de contra-ataque, cai *Caído*, degrada `1` camada da arma/armadura ou dispara o alarme da ruína! |
 | **`CD - 2` ou `-3`** *(Falha Simples)* | A tentativa falha sem estrago adicional — em combate ofensivo, o golpe resvala na carapaça; na Defesa, o jogador sofre o Dano normal do monstro. |
 | **`CD - 1`** *(Falha com Dádiva)* | A ação falha por um triz, **MAS** abre uma brecha clara: o jogador escolhe **1 aliado da Coorte** para ganhar **`+1` na próxima rolagem**! |
-| **`CD Exata`** *(Sucesso com Infortúnio/Custo)* | Consegue o que queria, **MAS** paga um preço imediato: leva `1` de Dano de raspão, perde `1` camada da Armadura/Arma, gasta `+1 Essência` ou fica em posição exposta (`-1` na próxima Defesa). |
+| **`CD Exata`** *(Sucesso com Infortúnio/Custo)* | Consegue o que queria, **MAS** paga um preço imediato: perde `1` camada da Armadura/Arma, gasta `+1 Essência`, fica em posição exposta ou (fora da Defesa) leva `1` de Dano de raspão. **Na Defesa, a `CD Exata` nunca causa dano:** o custo padrão é **`I1 Guarda Aberta`** (Desvantagem na próxima Defesa). |
 | **`CD + 1` a `+3`** *(Sucesso Pleno)* | Vitória limpa! Causa o Dano total da arma/poder, esquiva sem um arranhão ou descobre a pista inteira. |
 | **`CD + 4` ou mais** *(Sucesso Crítico c/ Dádiva Maior)* | Proeza cinematográfica! Causa **`+2 de Dano` extra** (*Livro 1, Seção 1.4*), derruba/empurra o alvo, quebra `1 Parte Destrutível` ou cria uma Dádiva poderosa para a Coorte! |
 
@@ -107,11 +107,11 @@ Quando o jogador somar `Dado (1d6 ou 1d8) + Pilar + Bônus Situacionais (teto Ca
 
 1. **A Lei da Telegrafia (Sempre Avise Antes da Morte):**
    Nunca mate ou tire 3 PV de um jogador de repente sem ter dado **pelo menos 1 aviso sensorial antes**.
-   - *Injusto:* *"Você abre a porta, tinha uma armadilha invisível CD 13, toma 4 de dano e morre."*
+   - *Injusto:* *"Você abre a porta, tinha uma armadilha invisível CD 11, toma 4 de dano e morre."*
    - *Justo e Aterrorizante:* *"Ao encostar a mão na maçaneta de bronze, você sente o metal anormalmente gelado e vê fios de prata quase invisíveis esticados atrás da fresta — há esqueletos ressecados bem ali na entrada. Como você abre essa porta?"*
    - Se um monstro de Rank superior (um *Diabo Caído* em uma mesa de *Adormecidos*) está por perto, descreva o rastro de carnificina, o silêncio súbito das bestas menores e a pressão opressiva no ar antes de ele aparecer. Assim, se o grupo escolher atacar em vez de se esconder, a tragédia é consequência de uma escolha tática consciente!
 2. **Falha que Move a História (*Fail Forward*):**
-   Nunca deixe uma falha de investigação ou arrombamento travar a sessão em um beco sem saída. Se o Espectro falhar ao abrir a porta de pedra antiga (`CD 9`), não diga *"A porta continua trancada, tentem de novo"*. Diga: *"A fechadura range e abre com um estrondo metálico que ecoa pelo corredor escuro — vocês entram, mas algo lá embaixo acabou de ouvir vocês!"*
+   Nunca deixe uma falha de investigação ou arrombamento travar a sessão em um beco sem saída. Se o Espectro falhar ao abrir a porta de pedra antiga (`CD 7`), não diga *"A porta continua trancada, tentem de novo"*. Diga: *"A fechadura range e abre com um estrondo metálico que ecoa pelo corredor escuro — vocês entram, mas algo lá embaixo acabou de ouvir vocês!"*
 3. **Ameaça ao Equipamento e à Essência Antes da Morte:**
    A forma mais fiel à novel de assustar os jogadores sem aniquilar a mesa toda (TPK) é **desgastar suas Memórias e sua Essência**. Quando o escudo do Baluarte vai de *Íntegra → Danificada → Quebrada*, ou quando o grupo só tem 2 rações e 1 Essência restante antes da noite cair no Coral Carmesim, o coração dos 7 jogadores acelera muito mais do que com números gigantes!
 4. **Fuga é Sempre Uma Vitória Tática Legítima:**
@@ -120,8 +120,8 @@ Quando o jogador somar `Dado (1d6 ou 1d8) + Pilar + Bônus Situacionais (teto Ca
 > 🎙️ **Exemplo de Mesa (Ciclo dos 3 Passos + Horror Justo):**
 > **Mestre:** *"Vocês chegam à beira do canal alagado dentro da catedral submersa. O cheiro de podridão sobe da água negra parada, e bolhas pequenas estouram bem no centro — algo grande e silencioso acabou de mergulhar ali quando vocês acenderam a lanterna. A ponte de pedra que cruza para o altar desmoronou ao meio; sobrou apenas uma viga estreita e escorregadia de lodo. O que vocês fazem?"*
 > **Jogador (Espectro):** *"Eu quero passar correndo pela viga silenciosamente sem chamar atenção do que está na água!"*
-> **Mestre:** *"Tem risco claro de escorregar ou acordar a fera abaixo — é um teste de `Corpo (Agilidade)` contra **CD 9** (Moderada, porque o lodo está escorregadio). Você tem Especialização `[X]` em Agilidade?"*
-> **Jogador:** *"Tenho! Então rolo `1d8` + `3 (Corpo)` + `1` do meu Atributo `[Passos de Fantasma]`. Tirei `5` no d8... `5 + 3 + 1 = 9`! Deu **CD Exata**!"*
+> **Mestre:** *"Tem risco claro de escorregar ou acordar a fera abaixo — é um teste de `Corpo (Agilidade)` contra **CD 7** (Moderada, porque o lodo está escorregadio). Você tem Especialização `[X]` em Agilidade?"*
+> **Jogador:** *"Tenho! Então rolo `1d8` + `3 (Corpo)` + `1` do meu Atributo `[Passos de Fantasma]`. Tirei `3` no d8... `3 + 3 + 1 = 7`! Deu **CD Exata**!"*
 > **Mestre:** *"Sucesso com Infortúnio! Você atravessa a viga inteira equilibrando-se como um gato e cai do outro lado sem fazer barulho — MAS, no último passo, uma pedra solta da borda cai na água negra com um 'PLOF!' alto! Da água escura emergem dois olhos brancos sem pálpebras olhando direto para o resto do grupo que ainda ficou atrás. Pessoal, o que vocês fazem?!"*
 
 ---
@@ -194,7 +194,7 @@ Nunca tente pular direto para a batalha sem fazer uma **Sessão 0 bem estruturad
 - Guie todos juntos, item por item, ao mesmo tempo:
   1. **Pilares:** Todos anotam `1` em *Corpo, Mente, Coração, Alma* e distribuem **`+3 pontos`** (máximo inicial **`3`**).
   2. **Especializações `[X]` (`1d8`):** Cada um marca um número de Subcategorias igual ao seu valor de **`Mente`** (+1 extra se a Origem conceder!).
-  3. **PV e Carga:** `PV = (2 × Corpo) + 2` | `Carga = Corpo` Itens Grandes.
+  3. **PV e Carga:** `PV = (2 × Corpo) + 4` | `Carga = Corpo` Itens Grandes.
   4. **Essência e Contatos:** `Essência Inicial = Alma × 2` *(somando após o 1º Pesadelo o bônus do Rank do Aspecto `+1/+2`, os **Marcos Ímpares `1, 3, 5, 7, 9`** e futuramente o **Rank Humano** `Desperto +2, Ascendido +4...` — Livro 1, Cap. 4)* | `Contatos = Coração` *(+ Origem)*.
 
 #### Passo 4: A Corrente de Vínculos Mecânicos de Coorte (15 min)
@@ -316,7 +316,7 @@ Sempre que um destes dez momentos marcantes acontecer na sua campanha, **baixe u
 ### 👁️ 10. Presença de Titã / Terror Ancestral
 > *"De repente, todas as criaturas de Pesadelo menores que cercavam vocês congelam no meio do passo — e fogem em pânico cego, pisoteando umas às outras sem sequer olhar para trás. O vento morre. A água das poças treme em círculos concêntricos rítmicos. Uma pressão invisível e nauseante desaba sobre os ombros de todos os sete como se o céu tivesse virado chumbo líquido; seus ouvidos zumbem e o instinto animal grita em cada célula do corpo uma única ordem desesperada: rastejem e desapareçam. O que acabou de cruzar o horizonte não é apenas mais um monstro para matar. É uma calamidade antiga andando sobre a terra."*
 
-- **Protocolo do Mestre:** Peça um teste imediato de **`Mente (Vontade)` CD 11 ou 13** apenas para evitar que os personagens fiquem paralisados ou *Amedrontados* no primeiro segundo, e **deixe 100% claro na narração que lutar de frente significa morte certa**. O desafio aqui é **sobrevivência, furtividade, distração e fuga cinematográfica**!
+- **Protocolo do Mestre:** Peça um teste imediato de **`Mente (Vontade)` CD 9 ou 11** apenas para evitar que os personagens fiquem paralisados ou *Amedrontados* no primeiro segundo, e **deixe 100% claro na narração que lutar de frente significa morte certa**. O desafio aqui é **sobrevivência, furtividade, distração e fuga cinematográfica**!
 
 ---
 
@@ -325,7 +325,7 @@ Sempre que um destes dez momentos marcantes acontecer na sua campanha, **baixe u
 Mesmo com o melhor preparo do mundo, **7 jogadores vão fazer algo que você nunca previu**: vão puxar conversa com um guarda figurante, tentar incendiar o navio do inimigo antes da hora ou dois jogadores vão faltar no dia da sessão por causa de prova ou trabalho. Use estas **3 Ferramentas de Emergência**:
 
 ### A. Criando NPCs Memoráveis em 10 Segundos (`1d6 × 3`)
-Precisa de um sobrevivente numa Cidadela, um oficial do Governo ou um mercador de Fragmentos na hora? Role `1d6` três vezes (ou escolha 1 de cada coluna) e dê a ele **1 Nome + CD Social (padrão CD 9)**:
+Precisa de um sobrevivente numa Cidadela, um oficial do Governo ou um mercador de Fragmentos na hora? Role `1d6` três vezes (ou escolha 1 de cada coluna) e dê a ele **1 Nome + CD Social (padrão CD 7)**:
 
 | `1d6` | 1. Cargo / Ocupação Rápida | 2. Tique Físico Memorável | 3. O que Ele Quer AGORA? (Gancho!) |
 | :---: | :--- | :--- | :--- |
@@ -340,7 +340,7 @@ Precisa de um sobrevivente numa Cidadela, um oficial do Governo ou um mercador d
 Jogadores novatos têm as ideias mais absurdas — e muitas vezes geniais — porque ainda não pensam dentro de "caixinhas de videogame". **Nunca diga *"Não pode porque não está escrito na ficha"*!** Em vez disso, aplique a regra do **"Sim, e custa..."**:
 1. **O Jogador Quer Fazer Algo Criativo com o Ambiente** *(ex: "Quero amarrar minhas flechas numa corda de seda de aranha, jogar óleo de monstro e incendiar a teia inteira do teto para cair sobre o Chefe!")*:
    - **Passo 1:** Elogie a ideia na hora!
-   - **Passo 2:** Defina a CD usando a regra de ouro: **CD 7** (se for fácil/óbvio), **CD 9** (padrão arriscado), **CD 11** (muito difícil sob fogo inimigo).
+   - **Passo 2:** Defina a CD usando a regra de ouro: **CD 5** (se for fácil/óbvio), **CD 7** (padrão arriscado), **CD 9** (muito difícil sob fogo inimigo).
    - **Passo 3:** Conceda recompensa real pelo risco! Em vez de causar apenas `1` de dano comum, deixe o plano criativo **destruir 1 Parte Destrutível, derrubar o Chefe (*Caído*) ou eliminar metade dos lacaios** de uma vez!
 2. **E se Matarem Meu Chefe em 1 Rodada (ou Evitarem a Luta Inteira)?**
    - **Celebre com eles!** Não trapaceie inventando "mais 30 PV invisíveis" só porque a luta acabou rápido — os jogadores precisam sentir que a inteligência e os combos de 7 pessoas realmente mudam o mundo. Se precisar manter o clímax dramático, use o **Último Suspiro Ambiental**: ao morrer, o corpo do Chefe desaba quebrando a ponte, ou o barulho da queda atrai uma nova onda de perigo que exige fuga rápida!
@@ -558,8 +558,8 @@ Encontre abaixo em qual dos **7 Grandes Perfis de Alma** o jogador mais pontuou 
 
 Antes de entregar um Defeito da tabela abaixo, lembre-se das **3 Categorias Mecânicas Oficiais** (detalhadas na Seção 2.4):
 - **Categoria I — Lei Absoluta:** Impossível ignorar com dados. Exige criatividade, trabalho em equipe ou Memórias para contornar.
-- **Categoria II — Preço e Agonia:** Os **2 primeiros usos** do poder na cena geram apenas dor narrativa; a partir do **3º uso na mesma cena**, exige **`Mente (Vontade)` CD 9** — se falhar, sofre **`1 de Dano` (ou `-1` na rolagem)**.
-- **Categoria III — Compulsão Psicológica:** Diante do gatilho, agir contra a compulsão exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma**!
+- **Categoria II — Preço e Agonia:** Os **2 primeiros usos** do poder na cena geram apenas dor narrativa; a partir do **3º uso na mesma cena**, exige **`Mente (Vontade)` CD 7** — se falhar, sofre **`1 de Dano` (ou `-1` na rolagem)**.
+- **Categoria III — Compulsão Psicológica:** Diante do gatilho, agir contra a compulsão exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma**!
 
 Basta olhar qual dos **28 Aspectos** o jogador despertou e escolher uma das **3 Opções Irônicas** abaixo (todas numeradas conforme a Enciclopédia da Seção 2.4):
 
@@ -602,8 +602,8 @@ Basta olhar qual dos **28 Aspectos** o jogador despertou e escolher uma das **3 
 
 Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por família) e segue a classificação rigorosa nas **3 Categorias Mecânicas**:
 - **Categoria I — Lei Absoluta:** Imutável no corpo ou na alma; **jamais pode ser anulada com teste de dados**.
-- **Categoria II — Preço e Agonia:** Os **2 primeiros usos** do Aspecto na cena geram apenas dor/custo narrativo; do **3º uso na mesma cena em diante**, exige **`Mente (Vontade)` CD 9** — em caso de falha, o personagem sofre **`1 de Dano` (ou `-1` na rolagem)**.
-- **Categoria III — Compulsão Psicológica:** Diante do gatilho, agir contra a compulsão exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma**.
+- **Categoria II — Preço e Agonia:** Os **2 primeiros usos** do Aspecto na cena geram apenas dor/custo narrativo; do **3º uso na mesma cena em diante**, exige **`Mente (Vontade)` CD 7** — em caso de falha, o personagem sofre **`1 de Dano` (ou `-1` na rolagem)**.
+- **Categoria III — Compulsão Psicológica:** Diante do gatilho, agir contra a compulsão exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma**.
 
 ---
 
@@ -633,7 +633,7 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 04. `[Voz Enigmática (Cryptic Tongue)]`
 - **Categoria Mecânica:** Categoria I — Lei Absoluta
 - **Inscrição das Runas:** *"[As verdades profundas recusam a língua simples; quanto maior o perigo que você vê, mais obscuras tornam-se suas palavras.]"*
-- **Efeito Mecânico Exato:** Sempre que tentar revelar **visões futuras, segredos de Aspecto, identidades ocultas ou a fraqueza real de um monstro/armadilha**, você é incapaz de usar nomes literais ou instruções simples. Só consegue falar por metáforas poéticas, rimas ou enigmas (*"A coroa sangra quando a terceira lua pisca"*). O ouvinte precisa gastar uma ação ou rolar **`Mente (Astúcia / Conhecimento)` CD 9** para interpretar o sentido exato em combate!
+- **Efeito Mecânico Exato:** Sempre que tentar revelar **visões futuras, segredos de Aspecto, identidades ocultas ou a fraqueza real de um monstro/armadilha**, você é incapaz de usar nomes literais ou instruções simples. Só consegue falar por metáforas poéticas, rimas ou enigmas (*"A coroa sangra quando a terceira lua pisca"*). O ouvinte precisa gastar uma ação ou rolar **`Mente (Astúcia / Conhecimento)` CD 7** para interpretar o sentido exato em combate!
 - **Como Pesa na Mesa:** Cria cenas tensas e divertidas de urgência: você sabe exatamente onde está a armadilha mortal ou o traidor do grupo, mas os colegas precisam decifrar seu enigma em segundos antes de pisar na laje errada!
 - **Como Contornar / Interpretar na Coorte:** Use apontar físico, desenhos na terra/caderno para detalhes geométricos simples ou peça a um aliado com alto `Conhecimento / Astúcia` (e Vínculo de confiança) para ser o "intérprete oficial" das suas profecias.
 
@@ -654,7 +654,7 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 07. `[Detector de Mentiras Doloroso (Painful Truth-Sense)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[A falsidade humana soa aos seus ouvidos como metal raspando em vidro e ferro em brasa dentro do crânio.]"*
-- **Efeito Mecânico Exato:** Você percebe instintivamente quando alguém mente em voz alta perto de você, mas cada falsidade atinge seus nervos como uma agulhada. As **2 primeiras mentiras** ouvidas na cena causam apenas desconforto; a partir da **3ª mentira deliberada** ouvida na mesma cena (ou se alguém mentir gritando em interrogatório direto), você precisa passar em **`Mente (Vontade)` CD 9** ou sofre **`1 de Dano` (ou `-1` na próxima rolagem)** pela enxaqueca aguda!
+- **Efeito Mecânico Exato:** Você percebe instintivamente quando alguém mente em voz alta perto de você, mas cada falsidade atinge seus nervos como uma agulhada. As **2 primeiras mentiras** ouvidas na cena causam apenas desconforto; a partir da **3ª mentira deliberada** ouvida na mesma cena (ou se alguém mentir gritando em interrogatório direto), você precisa passar em **`Mente (Vontade)` CD 7** ou sofre **`1 de Dano` (ou `-1` na próxima rolagem)** pela enxaqueca aguda!
 - **Como Pesa na Mesa:** Na Academia, em bailes de Grandes Clãs ou negociando com mercadores de Bastion — onde todos mentem a cada duas frases — você precisa tapar os ouvidos ou sair da sala antes que a dor derrube você!
 - **Como Contornar / Interpretar na Coorte:** Deixe outro membro da Coorte conduzir negociações sujas enquanto você observa de longe (ou usa protetores auriculares), aproximando-se apenas para validar a assinatura final do acordo!
 
@@ -668,14 +668,14 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 09. `[Compulsão de Resposta (Echo Compulsion)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Uma pergunta lançada ao vazio exige retorno; sua mente recusa-se a deixar o silêncio sem resposta.]"*
-- **Efeito Mecânico Exato:** Sempre que alguém falar diretamente com você olhando nos seus olhos e fizer uma **pergunta direta** (seja um guarda desconfiado, um juiz ou um inimigo provocando durante um duelo), você sente uma compulsão irresistível de responder imediatamente em voz alta. Para ficar em silêncio ou ignorar a pergunta, precisa passar em **`Mente (Vontade)` CD 9 E sofre `1 de Dano de Alma` (queima 1 Ponto de Essência)**!
+- **Efeito Mecânico Exato:** Sempre que alguém falar diretamente com você olhando nos seus olhos e fizer uma **pergunta direta** (seja um guarda desconfiado, um juiz ou um inimigo provocando durante um duelo), você sente uma compulsão irresistível de responder imediatamente em voz alta. Para ficar em silêncio ou ignorar a pergunta, precisa passar em **`Mente (Vontade)` CD 7 E sofre `1 de Dano de Alma` (queima 1 Ponto de Essência)**!
 - **Como Pesa na Mesa:** Em emboscadas furtivas, se um inimigo gritar no corredor escuro *"Quem está aí?!"*, você pode acabar respondendo instintivamente entregando sua posição! Em interrogatórios, manter a boca fechada queima sua Essência rápido.
 - **Como Contornar / Interpretar na Coorte:** Use a regra da meia-verdade ou responda de forma evasiva sem negar (responder uma pergunta com outra pergunta cumpre o impulso!) e evite contato visual direto quando estiver escondido.
 
 #### 10. `[Eco da Última Palavra (Last Wish Compulsion)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Os mortos deixam dívidas no ar que apenas os seus ouvidos carregam como peso físico.]"*
-- **Efeito Mecânico Exato:** Sempre que um ser humano ou criatura consciente morrer em alcance *Perto* e pronunciar um **último pedido, desejo ou vingança** antes de expirar, sua alma absorve o encargo. Ignorar o pedido ou agir abertamente contra ele antes de tentar cumpri-lo exige passar em **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma** (repetido a cada dia em que abandonar a tarefa deliberadamente!).
+- **Efeito Mecânico Exato:** Sempre que um ser humano ou criatura consciente morrer em alcance *Perto* e pronunciar um **último pedido, desejo ou vingança** antes de expirar, sua alma absorve o encargo. Ignorar o pedido ou agir abertamente contra ele antes de tentar cumpri-lo exige passar em **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma** (repetido a cada dia em que abandonar a tarefa deliberadamente!).
 - **Como Pesa na Mesa:** Um soldado inimigo ou sobrevivente moribundo pode sussurrar *"Entregue meu anel à minha irmã em Bastion"* ou *"Mate o capitão que me traiu"* — desviando sua rota no meio de um Pesadelo mortal!
 - **Como Contornar / Interpretar na Coorte:** Elimine ameaças hostis à distância ou silencie-as antes do último suspiro, e negocie com o grupo maneiras rápidas de honrar pedidos de aliados caídos pelo bem da Coorte.
 
@@ -700,35 +700,35 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 13. `[Agonia do Poder (Agony of the Flame)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[O fogo da criação não distingue inimigo e portador; cada milagre exige que sua carne queime primeiro.]"*
-- **Efeito Mecânico Exato:** Toda vez que você canaliza ativamente uma Habilidade de Aspecto (exceto Passivas Inatas), sente a dor física real e excruciante de ter seus ossos e veias incendiados ou rasgados por dentro. Nos **2 primeiros usos** na mesma cena, você apenas suporta a dor com grunhidos e suor frio (efeito puramente dramático). A partir do **3º uso na mesma cena**, cada ativação adicional exige um teste de **`Mente (Vontade)` CD 9** — se falhar, o choque nervoso causa **`1 de Dano` físico (ou `-1` na rolagem daquela ação)**!
+- **Efeito Mecânico Exato:** Toda vez que você canaliza ativamente uma Habilidade de Aspecto (exceto Passivas Inatas), sente a dor física real e excruciante de ter seus ossos e veias incendiados ou rasgados por dentro. Nos **2 primeiros usos** na mesma cena, você apenas suporta a dor com grunhidos e suor frio (efeito puramente dramático). A partir do **3º uso na mesma cena**, cada ativação adicional exige um teste de **`Mente (Vontade)` CD 7** — se falhar, o choque nervoso causa **`1 de Dano` físico (ou `-1` na rolagem daquela ação)**!
 - **Como Pesa na Mesa:** Em lutas curtas de 2 rodadas você parece invencível; mas em cercos longos contra hordas ou Chefes, cada cura ou ataque poderoso vira uma aposta mortal contra seu próprio limiar de dor!
 - **Como Contornar / Interpretar na Coorte:** Economize o uso ativo do Aspecto nos primeiros turnos lutando com armas físicas puras, invista cedo em `[Mente de Ferro]` ou `Especialização [1d8]` em `Mente (Vontade)` e apoie-se no Vínculo `[Guardião do Segredo / Âncora do Defeito]` com um parceiro (*Livro 2, Seção 1.3*)!
 
 #### 14. `[Sobrecarga Sensorial (Tapestry Overload)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Ver demais é sangrar pelos olhos; quando o véu do universo abre por completo, a mente mortal ameaça partir.]"*
-- **Efeito Mecânico Exato:** Seus sentidos espirituais captam fios, auras, intenções ou ecos sem filtro protetor. Nas **2 primeiras ativações** ativas de leitura profunda, visões ou poderes complexos de `Alma` na mesma cena, há apenas zumbido e pontadas nas têmporas. A partir do **3º uso na cena** (ou ao encarar entidades de Rank Transcendente+/Titãs!), exige **`Mente (Vontade)` CD 9** — em falha, sofre **`1 de Dano` ou `-1` em testes de percepção e `Astúcia` até descansar**!
+- **Efeito Mecânico Exato:** Seus sentidos espirituais captam fios, auras, intenções ou ecos sem filtro protetor. Nas **2 primeiras ativações** ativas de leitura profunda, visões ou poderes complexos de `Alma` na mesma cena, há apenas zumbido e pontadas nas têmporas. A partir do **3º uso na cena** (ou ao encarar entidades de Rank Transcendente+/Titãs!), exige **`Mente (Vontade)` CD 7** — em falha, sofre **`1 de Dano` ou `-1` em testes de percepção e `Astúcia` até descansar**!
 - **Como Pesa na Mesa:** Quando entram em um santuário antigo cheio de runas ou enfrentam múltiplos usuários de Aspecto juntos, o excesso de estímulos cega seu foco tático exatamente no clímax da luta.
 - **Como Contornar / Interpretar na Coorte:** Use vendas, capuzes grossos ou óculos escuros fora de combate para "fechar os olhos da alma" e só abra sua percepção máxima nas rodadas decisivas!
 
 #### 15. `[Empatia Dolorosa (Painful Empathy)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Os fios que ligam você aos seus irmãos sangram quando a lâmina corta a carne deles.]"*
-- **Efeito Mecânico Exato:** Quando um companheiro da Coorte dentro da faixa *Perto* sofre um Ferimento Grave ou cai a `0 PV`, você sente um eco físico da ferida no próprio peito. Nos **2 primeiros incidentes** na cena, é apenas um sobressalto doloroso; a partir do **3º golpe pesado sofrido por aliados próximos na mesma cena** (ou ao tentar manter habilidades empáticas ativas após ver sangue aliado), role **`Mente (Vontade)` CD 9** ou sofre **`1 de Dano` (ou perde `1` de Essência)** pelo choque empático!
+- **Efeito Mecânico Exato:** Quando um companheiro da Coorte dentro da faixa *Perto* sofre um Ferimento Grave ou cai a `0 PV`, você sente um eco físico da ferida no próprio peito. Nos **2 primeiros incidentes** na cena, é apenas um sobressalto doloroso; a partir do **3º golpe pesado sofrido por aliados próximos na mesma cena** (ou ao tentar manter habilidades empáticas ativas após ver sangue aliado), role **`Mente (Vontade)` CD 7** ou sofre **`1 de Dano` (ou perde `1` de Essência)** pelo choque empático!
 - **Como Pesa na Mesa:** Se 3 ou 4 membros da linha de frente começam a sangrar sob um Ataque Varrido de Chefe, o suporte do grupo entra em colapso junto exatamente quando todos mais precisam de cura!
 - **Como Contornar / Interpretar na Coorte:** Posicione-se na faixa *Distante* sempre que possível, garanta que o Baluarte segure o grosso do dano com armadura e invista em `Vontade` para resistir ao choque.
 
 #### 16. `[Descompasso Temporal (Temporal Vertigo)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Quem puxa os fios do segundo seguinte paga o juro no segundo presente.]"*
-- **Efeito Mecânico Exato:** Alterar velocidade, pular distâncias ou rebobinar eventos desalinha seu equilíbrio interno. Os **2 primeiros usos** na cena causam apenas um leve enjoo e visão dupla momentânea; a partir do **3º uso na mesma cena**, exige **`Mente (Vontade)` CD 9** — se falhar, sofre **`-1` na próxima rolagem de `Astúcia` ou Defesa** (ou `1 de Dano` de recuo cerebral por hemorragia nasal)!
+- **Efeito Mecânico Exato:** Alterar velocidade, pular distâncias ou rebobinar eventos desalinha seu equilíbrio interno. Os **2 primeiros usos** na cena causam apenas um leve enjoo e visão dupla momentânea; a partir do **3º uso na mesma cena**, exige **`Mente (Vontade)` CD 7** — se falhar, sofre **`-1` na próxima rolagem de `Astúcia` ou Defesa** (ou `1 de Dano` de recuo cerebral por hemorragia nasal)!
 - **Como Pesa na Mesa:** Impede que você abuse infinitamente de movimentos duplos e rebobinamentos sem gerenciar o ritmo do combate; errar um teste no meio de uma fuga aérea pode causar uma queda desastrosa.
 - **Como Contornar / Interpretar na Coorte:** Alterne rodadas de aceleração extrema com rodadas posicionado em cobertura dando suporte calmo à Coorte para o cérebro "recalibrar".
 
 #### 17. `[Fome Espiritual (Soul Hunger)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Seu núcleo é um poço seco que não bebe da chuva comum; apenas a essência arrancada de outra alma o mantém aceso.]"*
-- **Efeito Mecânico Exato:** Sua alma não regenera Essência apenas dormindo pacificamente em uma cama quente. Em Descansos Longos sem ter abatido ao menos **1 Criatura do Pesadelo** (ou consumido **1 Fragmento de Alma**) nas últimas 24 horas, você recupera apenas **metade** da sua Reserva Máxima de Essência. Além disso, a partir do **3º uso de poder na mesma cena sem ter drenado/abatido ninguém**, exige **`Mente (Vontade)` CD 9** ou sofre **`1 de Dano` / `-1`** pela exaustão espiritual!
+- **Efeito Mecânico Exato:** Sua alma não regenera Essência apenas dormindo pacificamente em uma cama quente. Em Descansos Longos sem ter abatido ao menos **1 Criatura do Pesadelo** (ou consumido **1 Fragmento de Alma**) nas últimas 24 horas, você recupera apenas **metade** da sua Reserva Máxima de Essência. Além disso, a partir do **3º uso de poder na mesma cena sem ter drenado/abatido ninguém**, exige **`Mente (Vontade)` CD 7** ou sofre **`1 de Dano` / `-1`** pela exaustão espiritual!
 - **Como Pesa na Mesa:** Períodos longos de viagem pacífica em Cidadelas ou semanas investigando na Terra sem Portais deixam você faminto, pálido e com metade das forças!
 - **Como Contornar / Interpretar na Coorte:** Carregue sempre uma pequena reserva de **Fragmentos de Alma Adormecidos** no cinto (usando 1 por dia em períodos de paz como "refeição espiritual") ou cace bestas menores nas fronteiras antes das expedições.
 
@@ -756,14 +756,14 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 21. `[Sede Solar (Sun-Starved Roots)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Sem o beijo do dia e da água corrente, suas raízes secam até que a própria alma rache como madeira morta.]"*
-- **Efeito Mecânico Exato:** Você precisa de ao menos 1 hora diária de luz solar natural (ou luz mágica equivalente) e água fresca tocando sua pele. Se passar **24 horas** no escuro absoluto ou em deserto árido sem água, perde **`1 Ponto de Essência Máximo` temporário**. Além disso, em ambientes subterrâneos fechados, após os **2 primeiros usos** do Aspecto na cena, o **3º uso em diante** exige **`Mente (Vontade)` CD 9** ou causa **`1 de Dano` / `-1`** por ressecamento severo!
+- **Efeito Mecânico Exato:** Você precisa de ao menos 1 hora diária de luz solar natural (ou luz mágica equivalente) e água fresca tocando sua pele. Se passar **24 horas** no escuro absoluto ou em deserto árido sem água, perde **`1 Ponto de Essência Máximo` temporário**. Além disso, em ambientes subterrâneos fechados, após os **2 primeiros usos** do Aspecto na cena, o **3º uso em diante** exige **`Mente (Vontade)` CD 7** ou causa **`1 de Dano` / `-1`** por ressecamento severo!
 - **Como Pesa na Mesa:** Regiões sombrias como o Submundo de Nether, cavernas da Antártica ou noites eternas colocam um relógio de desgaste constante em você.
 - **Como Contornar / Interpretar na Coorte:** Carregue cantis extras apenas para umedecer seus pulsos, use Memórias de luz solar ou fogo branco de aliados como "banho de luz" emergencial no acampamento!
 
 #### 22. `[Exaustão Súbita (Sudden Burnout)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Você pode queimar brilhante por três respirações — e então o mundo cobra toda a energia em um único colapso.]"*
-- **Efeito Mecânico Exato:** Enquanto a adrenalina da batalha corre, você age normalmente nos **2 primeiros usos** de poder na cena. A partir do **3º uso na mesma cena** (ou no turno imediato após encerrar uma Transformação/poder contínuo), faça um teste de **`Mente (Vontade)` CD 9**: em falha, uma fadiga de chumbo cai sobre seus músculos impondo **`-1` em todas as rolagens** (ou `1 de Dano` interno) pelos próximos `10 minutos` (ou 2 rodadas se ainda estiver lutando)!
+- **Efeito Mecânico Exato:** Enquanto a adrenalina da batalha corre, você age normalmente nos **2 primeiros usos** de poder na cena. A partir do **3º uso na mesma cena** (ou no turno imediato após encerrar uma Transformação/poder contínuo), faça um teste de **`Mente (Vontade)` CD 7**: em falha, uma fadiga de chumbo cai sobre seus músculos impondo **`-1` em todas as rolagens** (ou `1 de Dano` interno) pelos próximos `10 minutos` (ou 2 rodadas se ainda estiver lutando)!
 - **Como Pesa na Mesa:** Se uma segunda onda de monstros emboscar a Coorte logo após você ter gastado tudo para matar o primeiro grupo, você estará exausto e lento bem na emboscada!
 - **Como Contornar / Interpretar na Coorte:** Tenha um aliado com alto `Vigor` ou Vínculo protetor pronto para cobrir sua retaguarda após picos de esforço e guarde 1 ração energizada/elixir no cinto.
 
@@ -802,21 +802,21 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 27. `[Visão dos Mortos (Sight of the Dead)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[O véu entre os vivos e os caídos rasgou-se diante das suas pálpebras; eles não o deixam dormir sozinho.]"*
-- **Efeito Mecânico Exato:** Você enxerga e escuta continuamente sombras residuais, ecos fantasmagóricos e memórias trágicas presas aos cadáveres, ruínas antigas e armas de pessoas mortas. Em lugares comuns é apenas perturbador; porém, em campos de batalha antigos, cemitérios ou após **2+ ativações espirituais** em cena cheia de mortos, a multidão de vozes e rostos exige **`Mente (Vontade)` CD 9** — em falha, você confunde um fantasma com inimigo real (**`-1` na próxima rolagem** ou sofre **`1 de Dano`** mental de choque)!
+- **Efeito Mecânico Exato:** Você enxerga e escuta continuamente sombras residuais, ecos fantasmagóricos e memórias trágicas presas aos cadáveres, ruínas antigas e armas de pessoas mortas. Em lugares comuns é apenas perturbador; porém, em campos de batalha antigos, cemitérios ou após **2+ ativações espirituais** em cena cheia de mortos, a multidão de vozes e rostos exige **`Mente (Vontade)` CD 7** — em falha, você confunde um fantasma com inimigo real (**`-1` na próxima rolagem** ou sofre **`1 de Dano`** mental de choque)!
 - **Como Pesa na Mesa:** Tentar dormir em ruínas antigas onde milhares morreram vira um tormento psicológico contínuo, e no calor da batalha você pode reagir a um espectro inofensivo atrás de um aliado.
 - **Como Contornar / Interpretar na Coorte:** Use as visões a favor da investigação (*pergunte ao Mestre o que os fantasmas da sala estão apontando!*) e durma perto de aliados com auras cálidas ou fogueira protegida.
 
 #### 28. `[Hipersensibilidade Auditiva (Acoustic Fragility)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[O ouvido que escuta o bater de asas de uma mariposa a cem metros sangra diante do trovão.]"*
-- **Efeito Mecânico Exato:** Sua audição é aguçada além do limite humano saudável. Sussurros a 30 metros são claros para você, mas ruídos súbitos e estrondosos (rugidos de Chefes, trovões, explosões de pólvora/fogo ou gritos sônicos) torturam seus tímpanos. Os **2 primeiros estrondos** na cena dão apenas dor passageira; a partir do **3º som violento na mesma cena** (ou falhar contra ataque sônico), exige **`Mente (Vontade)` CD 9** ou fica **Atordoado por 1 rodada / sofre `1 de Dano`**!
+- **Efeito Mecânico Exato:** Sua audição é aguçada além do limite humano saudável. Sussurros a 30 metros são claros para você, mas ruídos súbitos e estrondosos (rugidos de Chefes, trovões, explosões de pólvora/fogo ou gritos sônicos) torturam seus tímpanos. Os **2 primeiros estrondos** na cena dão apenas dor passageira; a partir do **3º som violento na mesma cena** (ou falhar contra ataque sônico), exige **`Mente (Vontade)` CD 7** ou fica **Atordoado por 1 rodada / sofre `1 de Dano`**!
 - **Como Pesa na Mesa:** Lutar no *Mar Tempestuoso* sob trovoadas contínuas ou ao lado de aliados que usam explosões e rugidos de guerra coloca você sempre no fio da navalha.
 - **Como Contornar / Interpretar na Coorte:** Carregue tampões de cera/couro no bolso para colocar antes de ataques barulhentos, e combine sinais visuais com aliados explosivos.
 
 #### 29. `[Dúvida da Realidade (Illusion Blur)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Quando você mente tão bem aos olhos do mundo, os seus próprios olhos esquecem onde termina o sonho.]"*
-- **Efeito Mecânico Exato:** Manter múltiplas ilusões, miragens ou distorções sensoriais cansa sua percepção da realidade objetiva. Após os **2 primeiros usos** de ilusão/engano perceptual na mesma cena, o **3º uso em diante** exige **`Mente (Vontade)` CD 9** — se falhar, você enxerga bordas falsas, sombras duplicadas ou pisos ilusórios onde não existem, sofrendo **`-1` em ataques/Esquivas (ou `1 de Dano` mental)** até tocar algo sólido e se centrar!
+- **Efeito Mecânico Exato:** Manter múltiplas ilusões, miragens ou distorções sensoriais cansa sua percepção da realidade objetiva. Após os **2 primeiros usos** de ilusão/engano perceptual na mesma cena, o **3º uso em diante** exige **`Mente (Vontade)` CD 7** — se falhar, você enxerga bordas falsas, sombras duplicadas ou pisos ilusórios onde não existem, sofrendo **`-1` em ataques/Esquivas (ou `1 de Dano` mental)** até tocar algo sólido e se centrar!
 - **Como Pesa na Mesa:** Em salas cheias de espelhos, névoa ou inimigos ilusionistas, você pode acabar bloqueando uma ilusão inofensiva e deixando o monstro verdadeiro passar!
 - **Como Contornar / Interpretar na Coorte:** Mantenha sempre um "totem tátil" na mão (uma moeda de ferro, um nó de corda ou a mão do seu parceiro de Vínculo) para ancorar o tato na realidade.
 
@@ -830,7 +830,7 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 31. `[Aversão à Prata e Luz Forte (Lunar Glare Flaw)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[A besta noturna prospera sob o luar gentil, mas recua cega quando o aço prateado e o fogo solar rasgam a noite.]"*
-- **Efeito Mecânico Exato:** Sua visão, audição e olfato ficam hipersensíveis quando expostos a clarões súbitos, refletores industriais da Terra, armas de prata polida ou fogo solar intenso. Os **2 primeiros clarões** ou choques de prata na cena causam apenas desconforto; a partir do **3º contato/exposição na mesma cena** (ou ao encarar o sol do meio-dia transformado), exige **`Mente (Vontade)` CD 9** — em falha, fica **Cego/Desorientado por 1 rodada (`-1` nas ações)** ou sofre **`1 de Dano`** queimado pelo metal prateado!
+- **Efeito Mecânico Exato:** Sua visão, audição e olfato ficam hipersensíveis quando expostos a clarões súbitos, refletores industriais da Terra, armas de prata polida ou fogo solar intenso. Os **2 primeiros clarões** ou choques de prata na cena causam apenas desconforto; a partir do **3º contato/exposição na mesma cena** (ou ao encarar o sol do meio-dia transformado), exige **`Mente (Vontade)` CD 7** — em falha, fica **Cego/Desorientado por 1 rodada (`-1` nas ações)** ou sofre **`1 de Dano`** queimado pelo metal prateado!
 - **Como Pesa na Mesa:** Lutar contra cavaleiros de Valor usando aço prateado brilhante ou ao lado de aliados luminosos obriga você a controlar a distância e o ângulo.
 - **Como Contornar / Interpretar na Coorte:** Prefira combates noturnos, dentro de ruínas ou sob coberturas de névoa, e avise os colegas para não dispararem clarões perto do seu rosto sem sinal combinado.
 
@@ -844,7 +844,7 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 33. `[Medo do Próprio Reflexo (Mirror Dread)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Olhe para qualquer outro rosto no mundo, mas nunca para o vazio atrás dos seus próprios olhos.]"*
-- **Efeito Mecânico Exato:** Encarar diretamente sua própria imagem verdadeira (sem disfarce nem corpo possuído) em um espelho nítido, lâmina polida ou lago imóvel provoca vertigem existencial sufocante. Nos **2 primeiros vislumbres breves acidentais**, você apenas desvia o rosto trêmulo; a partir do **3º contato na cena** (ou se um inimigo forçar você a encarar seu rosto real em duelo/armadilha), exige **`Mente (Vontade)` CD 9** — se falhar, sofre **`1 de Dano` (ou `-1` em todas as rolagens por 1 rodada)** tomado por náusea aguda!
+- **Efeito Mecânico Exato:** Encarar diretamente sua própria imagem verdadeira (sem disfarce nem corpo possuído) em um espelho nítido, lâmina polida ou lago imóvel provoca vertigem existencial sufocante. Nos **2 primeiros vislumbres breves acidentais**, você apenas desvia o rosto trêmulo; a partir do **3º contato na cena** (ou se um inimigo forçar você a encarar seu rosto real em duelo/armadilha), exige **`Mente (Vontade)` CD 7** — se falhar, sofre **`1 de Dano` (ou `-1` em todas as rolagens por 1 rodada)** tomado por náusea aguda!
 - **Como Pesa na Mesa:** Um portador de poder espelhado que não aguenta ver o próprio rosto vive um paradoxo constante: um inimigo esperto pode simplesmente erguer um espelho na sua frente para fazê-lo hesitar!
 - **Como Contornar / Interpretar na Coorte:** Use máscaras, bandagens ou o rosto de outros Receptáculos ao olhar espelhos, e treine `Vontade` para usar o ângulo lateral sem focar a própria pupila.
 
@@ -858,7 +858,7 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 35. `[Espelho do Medo (Contagious Dread)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[Quem manipula o pavor alheio torna a própria alma um sino que vibra junto com o grito do vizinho.]"*
-- **Efeito Mecânico Exato:** Quando qualquer aliado da Coorte dentro da faixa *Perto* adquirir a condição **Amedrontado** ou entrar em pânico diante de um horror, sua mente espelha a emoção instantaneamente. Nos **2 primeiros incidentes** na cena, você apenas sente um calafrio frio na espinha; no **3º grito de medo próximo na mesma cena** (ou ao tentar manter poderes psíquicos sobre aliados apavorados), teste **`Mente (Vontade)` CD 9** ou sofre **`-1` na próxima ação / `1 de Dano` mental**!
+- **Efeito Mecânico Exato:** Quando qualquer aliado da Coorte dentro da faixa *Perto* adquirir a condição **Amedrontado** ou entrar em pânico diante de um horror, sua mente espelha a emoção instantaneamente. Nos **2 primeiros incidentes** na cena, você apenas sente um calafrio frio na espinha; no **3º grito de medo próximo na mesma cena** (ou ao tentar manter poderes psíquicos sobre aliados apavorados), teste **`Mente (Vontade)` CD 7** ou sofre **`-1` na próxima ação / `1 de Dano` mental**!
 - **Como Pesa na Mesa:** Se um Terror ou Sereia jogar pânico em massa sobre a Coorte de 7 jogadores, vários aliados em pânico ao seu lado sobrecarregam seus nervos ao mesmo tempo!
 - **Como Contornar / Interpretar na Coorte:** Neutralize fontes de medo na rodada 1 com abjurações e `Líder Inspirador`, ou posicione-se perto de aliados com `[Mente de Diamante]` / `[Mente de Ferro]`.
 
@@ -876,7 +876,7 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 37. `[Apetite Voraz (Ravenous Appetite)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[A fornalha nos seus músculos devora montanhas de carne; sem combustível constante, o próprio corpo começa a comer a si mesmo.]"*
-- **Efeito Mecânico Exato:** Seu metabolismo acelerado exige **`3×` a quantidade diária de comida e calorias** de um humano comum (preferencialmente carne fresca de Criaturas do Pesadelo!). Se passar **24 horas** com menos de uma ração tripla (ou após **2+ usos intensos** do Aspecto na cena em jejum!), precisa passar em **`Mente (Vontade)` CD 9** para resistir à fraqueza — falhar impõe **`-1` em `Vigor` e `Força` (ou `1 de Dano` de exaustão)**, além de sentir impulso visceral ao cheirar sangue ou carne assada!
+- **Efeito Mecânico Exato:** Seu metabolismo acelerado exige **`3×` a quantidade diária de comida e calorias** de um humano comum (preferencialmente carne fresca de Criaturas do Pesadelo!). Se passar **24 horas** com menos de uma ração tripla (ou após **2+ usos intensos** do Aspecto na cena em jejum!), precisa passar em **`Mente (Vontade)` CD 7** para resistir à fraqueza — falhar impõe **`-1` em `Vigor` e `Força` (ou `1 de Dano` de exaustão)**, além de sentir impulso visceral ao cheirar sangue ou carne assada!
 - **Como Pesa na Mesa:** Em expedições longas na Costa Esquecida ou Deserto dos Pesadelos, a comida da Coorte acaba **três vezes mais rápido** por sua causa!
 - **Como Contornar / Interpretar na Coorte:** Trabalhe junto ao **Batedor de Perímetro** e ao **Cozinheiro / Alquimista de Campanha** (Funções 5 e 2 do acampamento — *Livro 1, Seção 6.5*) para aproveitar 100% da carne comestível das bestas abatidas e carregue sempre pacotes de ração densa extra!
 
@@ -925,14 +925,14 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 44. `[Sangue Frio Literal (Literal Cold-Blood)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[A serenidade gélida da alma desce lentamente para os músculos até transformar suas juntas em inverno sólido.]"*
-- **Efeito Mecânico Exato:** Cada vez que você canaliza profundamente seu Aspecto ou magia, sua temperatura interna despenca, enrijecendo seus tendões. Nos **2 primeiros usos** na cena, sente apenas formigamento frio nas pontas dos dedos; a partir do **3º uso na mesma cena**, exige **`Mente (Vontade)` CD 9** — se falhar, o frio endurece suas pernas e braços impondo **`-1` em `Corpo (Agilidade)` e Esquivas (ou `1 de Dano` por choque térmico)** até aquecer-se após a luta!
+- **Efeito Mecânico Exato:** Cada vez que você canaliza profundamente seu Aspecto ou magia, sua temperatura interna despenca, enrijecendo seus tendões. Nos **2 primeiros usos** na cena, sente apenas formigamento frio nas pontas dos dedos; a partir do **3º uso na mesma cena**, exige **`Mente (Vontade)` CD 7** — se falhar, o frio endurece suas pernas e braços impondo **`-1` em `Corpo (Agilidade)` e Esquivas (ou `1 de Dano` por choque térmico)** até aquecer-se após a luta!
 - **Como Pesa na Mesa:** Quanto mais você segura o combate congelando ou controlando monstros, mais lento e fácil de acertar você fica no final da luta!
 - **Como Contornar / Interpretar na Coorte:** Alterne poderes de controle com ataques físicos diretos de armadura/escudo (`Vigor`) e carregue pedras térmicas ou elixires quentes para restaurar a circulação entre cenas.
 
 #### 45. `[Desidratação Rápida / Sede do Deserto (Endless Thirst)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[O relâmpago e a tempestade de areia consomem toda água do corpo em vapor seco.]"*
-- **Efeito Mecânico Exato:** Seu organismo consome água a uma taxa assustadora. Você precisa beber o **dobro de água limpa por dia** comparado aos colegas. Além disso, em combate seco ou após os **2 primeiros usos** intensos de seu poder elétrico/arenoso na cena, o **3º uso em diante** exige **`Mente (Vontade)` CD 9** — falhar provoca cãibras e sede lacerante causando **`1 de Dano` (ou `-1` na rolagem)** até beber um gole de água!
+- **Efeito Mecânico Exato:** Seu organismo consome água a uma taxa assustadora. Você precisa beber o **dobro de água limpa por dia** comparado aos colegas. Além disso, em combate seco ou após os **2 primeiros usos** intensos de seu poder elétrico/arenoso na cena, o **3º uso em diante** exige **`Mente (Vontade)` CD 7** — falhar provoca cãibras e sede lacerante causando **`1 de Dano` (ou `-1` na rolagem)** até beber um gole de água!
 - **Como Pesa na Mesa:** Em regiões áridas como o *Deserto dos Pesadelos* ou naufragados no mar salgado sem água doce, a sede torna-se seu maior relógio da morte!
 - **Como Contornar / Interpretar na Coorte:** Leve múltiplos cantis no inventário, carregue Memórias de purificação ou geração de água (como *Ampulheta* ou *Cálice*) e use Ação Menor para beber em pausas táticas.
 
@@ -954,7 +954,7 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 - **Categoria Mecânica:** Categoria I — Lei Absoluta
 - **Inscrição das Runas:** *"[Ou a noite engole sua consciência em abismos profundos demais para ouvir o grito, ou nega descanso à sua alma exausta.]"*
 - **Efeito Mecânico Exato:** Ao entregar este Defeito, o Mestre define **uma das duas variantes** conforme o Aspecto:
-  - *Variante A — Sono de Pedra (Caçadores/Brutos):* Ao dormir profundamente no acampamento, você **não acorda com ruídos comuns de emboscada**! Precisa que um aliado sacuda você fisicamente (gastando 1 ação!) ou de um teste difícil **`Mente (Astúcia)` CD 11** para acordar a tempo — caso contrário, perde a 1ª rodada inteira de combate noturno!
+  - *Variante A — Sono de Pedra (Caçadores/Brutos):* Ao dormir profundamente no acampamento, você **não acorda com ruídos comuns de emboscada**! Precisa que um aliado sacuda você fisicamente (gastando 1 ação!) ou de um teste difícil **`Mente (Astúcia)` CD 9** para acordar a tempo — caso contrário, perde a 1ª rodada inteira de combate noturno!
   - *Variante B — Insônia do Pesadelo (Ceifadores/Tecelões de Medo):* Seus sonhos são visitados por pesadelos vívidos e ecos do abismo; você precisa do **dobro do tempo de descanso** (ou de um vigia calmo ao lado) para completar um Descanso Longo e sofre **`-1` se dormir sozinho em local profano**.
 - **Como Pesa na Mesa:** Turnos de vigília no acampamento viram momentos críticos de confiança na Coorte!
 - **Como Contornar / Interpretar na Coorte:** Nunca faça turno de vigília sozinho no *Sono de Pedra* (combine com o Sentinela do grupo um toque no ombro para acordá-lo!), ou peça ao *Ancorador Espiritual* do acampamento (Função 6 — *Livro 1, Seção 6.5*) que vigie seu sono para acalmar a *Insônia*.
@@ -966,77 +966,77 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 49. `[Protetor Compulsivo (Compulsive Shield)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Os seus pés recusam-se a correr para a segurança enquanto um irmão sangra atrás das suas costas.]"*
-- **Efeito Mecânico Exato:** Sempre que um companheiro da Coorte (ou um inocente sob sua guarda) estiver ferido gravemente (`metade dos PV ou menos`, `Caído` ou `0 PV`) e ainda houver ameaça próxima, você sente a compulsão absoluta de ficar ou avançar para protegê-lo. Para **bater em retirada, abandonar o aliado ou ignorar o perigo sobre ele**, precisa passar em **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma**!
+- **Efeito Mecânico Exato:** Sempre que um companheiro da Coorte (ou um inocente sob sua guarda) estiver ferido gravemente (`metade dos PV ou menos`, `Caído` ou `0 PV`) e ainda houver ameaça próxima, você sente a compulsão absoluta de ficar ou avançar para protegê-lo. Para **bater em retirada, abandonar o aliado ou ignorar o perigo sobre ele**, precisa passar em **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma**!
 - **Como Pesa na Mesa:** Quando um Titã ou horda impossível aparece e os outros 6 jogadores gritam *"CORRE!"*, se 1 aliado tropeçar para trás, você trava no lugar pronto para morrer junto com ele!
 - **Como Contornar / Interpretar na Coorte:** Combine códigos de retirada coordenada (*ninguém foge deixando o último para trás — o Baluarte e você recuam por último juntos em formação!*) e invista em mobilidade/correntes para puxar aliados caídos rapidamente.
 
 #### 50. `[Ganância de Colecionador (Collector's Greed)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Relíquias perdidas, gemas raras e runas esquecidas chamam seu nome com uma fome impossível de ignorar.]"*
-- **Efeito Mecânico Exato:** Diante de um artefato antigo desconhecido, uma Memória brilhante abandonada, uma gema rara ou um segredo rúnico em uma ruína perigosa, você sente um impulso irresistível de examiná-lo ou tomá-lo antes de sair da sala. Para passar reto por um tesouro/relíquia visível sem investigar nem tocar (ou entregar um item raro sem negociar), precisa passar em **`Mente (Vontade)` CD 9 E sofre `1 de Dano de Alma` (queima 1 Ponto de Essência)**!
+- **Efeito Mecânico Exato:** Diante de um artefato antigo desconhecido, uma Memória brilhante abandonada, uma gema rara ou um segredo rúnico em uma ruína perigosa, você sente um impulso irresistível de examiná-lo ou tomá-lo antes de sair da sala. Para passar reto por um tesouro/relíquia visível sem investigar nem tocar (ou entregar um item raro sem negociar), precisa passar em **`Mente (Vontade)` CD 7 E sofre `1 de Dano de Alma` (queima 1 Ponto de Essência)**!
 - **Como Pesa na Mesa:** O famoso "baú no meio da sala cheia de armadilhas" ou o *Mímico Mordente* foi desenhado literalmente para matar personagens com este Defeito!
 - **Como Contornar / Interpretar na Coorte:** Peça ao **Espectro** ou **Artífice** para verificar armadilhas primeiro enquanto você espera segurado pela mão do seu parceiro de Vínculo, ou satisfaça a compulsão analisando rapidamente à distância antes de tocar!
 
 #### 51. `[Fúria de Batalha / Sede de Sangue (Bloodlust)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Quando o sangue toca o chão e a lâmina canta, sua razão ajoelha diante do instinto de terminar a matança.]"*
-- **Efeito Mecânico Exato:** Assim que você sofre sangue em combate (fica abaixo do PV máximo) ou diante de um inimigo ferido tentando se render/fugir, sua adrenalina ferve em violência cega. Para **poupar um inimigo rendido, parar de atacar durante uma trégua tensa ou recuar enquanto ainda está ao alcance de golpear**, exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma**!
+- **Efeito Mecânico Exato:** Assim que você sofre sangue em combate (fica abaixo do PV máximo) ou diante de um inimigo ferido tentando se render/fugir, sua adrenalina ferve em violência cega. Para **poupar um inimigo rendido, parar de atacar durante uma trégua tensa ou recuar enquanto ainda está ao alcance de golpear**, exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma**!
 - **Como Pesa na Mesa:** Se o grupo quer capturar um espião vivo para interrogar onde fica o Portal, você precisa lutar contra a própria alma para não cortar a garganta do prisioneiro!
 - **Como Contornar / Interpretar na Coorte:** Avise os colegas para fazerem perguntas ANTES de você entrar na sala, use golpes não-letais com o cabo da arma se precisar render alguém, e mantenha um parceiro de Vínculo com bom `Coração (Convencer)` para acalmá-lo após o último golpe.
 
 #### 52. `[Orgulho Marcial (Martial Pride)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Um mestre do aço jamais vence rastejando pelas costas de um guerreiro digno — a desonra fere a alma mais fundo que a espada.]"*
-- **Efeito Mecânico Exato:** Diante de um **oponente inteligente armado e digno** (Cavaleiro, Desperto rival ou Demônio duelista) que enfrente você frente a frente ou lance um desafio de honra, você sente repulsa física a trapaças covardes (atacar pelas costas invisível, usar veneno traiçoeiro na taça ou fugir de um 1v1 declarado). Agir contra esse código exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma**! *(Nota: bestas irracionais e emboscadas de monstros não ativam esse orgulho).*
+- **Efeito Mecânico Exato:** Diante de um **oponente inteligente armado e digno** (Cavaleiro, Desperto rival ou Demônio duelista) que enfrente você frente a frente ou lance um desafio de honra, você sente repulsa física a trapaças covardes (atacar pelas costas invisível, usar veneno traiçoeiro na taça ou fugir de um 1v1 declarado). Agir contra esse código exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma**! *(Nota: bestas irracionais e emboscadas de monstros não ativam esse orgulho).*
 - **Como Pesa na Mesa:** Em duelos políticos de Clãs ou contra campeões inimigos, você recusa ajuda suja mesmo quando está perdendo — transformando combates em duelos épicos de cinema!
 - **Como Contornar / Interpretar na Coorte:** Use técnicas puras de duelo, deixe o Espectro cuidar de alvos que *não* merecem honra, e declare desafios formais apenas quando tiver apoio tático para vencer limpo.
 
 #### 53. `[Juramento de Escudo (Unretreating Vow)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Seus pés só conhecem dois caminhos: avançar na tempestade ou cair segurando o portão.]"*
-- **Efeito Mecânico Exato:** Em qualquer combate ou fuga onde a Coorte decida bater em retirada, **você é incapaz de ser o primeiro ou correr na frente deixando colegas atrás na linha de fogo**. Para dar as costas e fugir antes que todos os outros 6 membros da Coorte tenham cruzado a saída/zona segura, você precisa vencer **`Mente (Vontade)` CD 9 E sofre `1 de Dano de Alma` (queima 1 Essência)**!
+- **Efeito Mecânico Exato:** Em qualquer combate ou fuga onde a Coorte decida bater em retirada, **você é incapaz de ser o primeiro ou correr na frente deixando colegas atrás na linha de fogo**. Para dar as costas e fugir antes que todos os outros 6 membros da Coorte tenham cruzado a saída/zona segura, você precisa vencer **`Mente (Vontade)` CD 7 E sofre `1 de Dano de Alma` (queima 1 Essência)**!
 - **Como Pesa na Mesa:** Você sempre será o último a cruzar a ponte, o último a subir no navio voador e o alvo de todas as garras perseguidoras na retirada!
 - **Como Contornar / Interpretar na Coorte:** Combine uma **retirada organizada em escada**: os atiradores e suporte correm na rodada 1 enquanto você segura o gargalo com escudo levantado e recua na rodada 2 protegido pelo fogo de cobertura deles!
 
 #### 54. `[Obsessão pela Perfeição (Flawless Obsession)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Uma lâmina lascada, um plano improvisado ou um círculo torto gritam contra seus nervos até que você os conserte.]"*
-- **Efeito Mecânico Exato:** Você não suporta lutar ou operar usando ferramentas quebradas, armaduras sujas/rachadas ou estratégias caóticas sem ordem. Enquanto for forçado a usar uma **Memória *Danificada* ou *Quebrada*** (ou aceitar um plano claramente falho sem tentar corrigir o erro), cada ação relevante exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma** — ou impõe **`-1` pela irritação obsessiva** caso não queime a Essência para suportar!
+- **Efeito Mecânico Exato:** Você não suporta lutar ou operar usando ferramentas quebradas, armaduras sujas/rachadas ou estratégias caóticas sem ordem. Enquanto for forçado a usar uma **Memória *Danificada* ou *Quebrada*** (ou aceitar um plano claramente falho sem tentar corrigir o erro), cada ação relevante exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma** — ou impõe **`-1` pela irritação obsessiva** caso não queime a Essência para suportar!
 - **Como Pesa na Mesa:** No meio de expedições brutais onde todas as armaduras vão de *Íntegra* para *Danificada*, você passa a noite inteira acordado lustrando e remendando tudo enquanto outros dormem!
 - **Como Contornar / Interpretar na Coorte:** Carregue sempre uma Memória reserva impecável, invista em habilidades de reparo rápido/cristal e guarde tempo no Descanso Curto para manter seu arsenal *Polido*!
 
 #### 55. `[Temperamento Explosivo (Volatile Temper)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Fogo preso em câmara selada não aceita insulto; o menor atrito acende a erupção.]"*
-- **Efeito Mecânico Exato:** Diante de uma humilhação pública, insulto direto contra você ou contra sua Coorte, ou traição descarada, sua paciência estala imediatamente. Para engolir o insulto em silêncio, sorrir diplomaticamente ou deixar o provocador falar sem responder à altura (com desafio, ameaça ou golpe!), exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma**!
+- **Efeito Mecânico Exato:** Diante de uma humilhação pública, insulto direto contra você ou contra sua Coorte, ou traição descarada, sua paciência estala imediatamente. Para engolir o insulto em silêncio, sorrir diplomaticamente ou deixar o provocador falar sem responder à altura (com desafio, ameaça ou golpe!), exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma**!
 - **Como Pesa na Mesa:** Nobres arrogantes de Grandes Clãs ou guardas corruptos adoram provocar jovens Despertos para fazê-los atacar primeiro e perderem a razão perante a lei!
 - **Como Contornar / Interpretar na Coorte:** Use o humor ácido ou respostas verbais afiadas (que já satisfazem a reação sem sacar a espada!) e combine com um colega calmo para puxá-lo pelo braço antes do soco.
 
 #### 56. `[Claustrofobia do Céu (Sky-Bound Spirit)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Quem pertence aos ventos infinitos enlouquece quando a pedra fecha sobre a própria cabeça como um caixão.]"*
-- **Efeito Mecânico Exato:** Entrar ou permanecer em túneis estreitos onde não se vê o céu, cavernas apertadas, esgotos, celas fechadas ou porões sem janela aperta seu peito com pânico claustrofóbico. Para avançar para o fundo de espaços apertados, permanecer calmo lá dentro durante combate ou deixar-se trancar sem tentar voltar para o ar livre, exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma** (ou sofre **`-1`** enquanto estiver preso sem abertura)!
+- **Efeito Mecânico Exato:** Entrar ou permanecer em túneis estreitos onde não se vê o céu, cavernas apertadas, esgotos, celas fechadas ou porões sem janela aperta seu peito com pânico claustrofóbico. Para avançar para o fundo de espaços apertados, permanecer calmo lá dentro durante combate ou deixar-se trancar sem tentar voltar para o ar livre, exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma** (ou sofre **`-1`** enquanto estiver preso sem abertura)!
 - **Como Pesa na Mesa:** Explorar tumbas subterrâneas, masmorras ou o *Submundo de Nether* transforma o melhor batedor aéreo do grupo em alguém lutando contra a falta de ar!
 - **Como Contornar / Interpretar na Coorte:** Caminhe no centro da formação iluminado por lanternas fortes, use Memórias/feitiços de ar fresco e busque sempre câmaras amplas de catedral onde possa abrir asas ou respirar fundo.
 
 #### 57. `[Vertigem do Vazio (Open-Sky Vertigo)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Quando o mundo vira de ponta-cabeça e não há teto acima do abismo, até os seus olhos duvidam do chão.]"*
-- **Efeito Mecânico Exato:** Paradoxalmente, ao olhar diretamente para **céus infinitos completamente abertos sem nenhuma cobertura** em grandes altitudes (como nas bordas das *Ilhas Acorrentadas*) ou para **abismos verticais sem fundo visível**, sua noção espacial oscila em vertigem súbita. Agir na borda de abismos descobertos ou olhar para cima/baixo no vazio aberto exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma** (caso falhe, recua ou se agarra à parede por 1 turno)!
+- **Efeito Mecânico Exato:** Paradoxalmente, ao olhar diretamente para **céus infinitos completamente abertos sem nenhuma cobertura** em grandes altitudes (como nas bordas das *Ilhas Acorrentadas*) ou para **abismos verticais sem fundo visível**, sua noção espacial oscila em vertigem súbita. Agir na borda de abismos descobertos ou olhar para cima/baixo no vazio aberto exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma** (caso falhe, recua ou se agarra à parede por 1 turno)!
 - **Como Pesa na Mesa:** Andar nas paredes dentro de um templo fechado é tranquilo — mas sair para fora na ponte de correntes das *Ilhas Acorrentadas* paralisa seu estômago!
 - **Como Contornar / Interpretar na Coorte:** Use chapéus de aba larga, capuzes ou viseiras que limitem a visão periférica do céu infinito e ancore-se visualmente em cordas, paredes ou aliados próximos.
 
 #### 58. `[Fobia de Prisão (Unchained Spirit)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[Elo, algema ou parede fechada ao redor dos pulsos desperta a fúria cega de quem quebrou correntes.]"*
-- **Efeito Mecânico Exato:** Ser **amarrado, algemado, enjaulado ou agarrado/Imobilizado** por teias, raízes ou correntes inimigas dispara terror e fúria absoluta. Enquanto estiver preso, você **é obrigado a usar sua próxima Ação tentando destruir ou escapar das amarras** antes de qualquer outra ação! Ignorar as amarras para apenas lançar um feitiço calmo ou render-se pacificamente a uma prisão exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma**!
+- **Efeito Mecânico Exato:** Ser **amarrado, algemado, enjaulado ou agarrado/Imobilizado** por teias, raízes ou correntes inimigas dispara terror e fúria absoluta. Enquanto estiver preso, você **é obrigado a usar sua próxima Ação tentando destruir ou escapar das amarras** antes de qualquer outra ação! Ignorar as amarras para apenas lançar um feitiço calmo ou render-se pacificamente a uma prisão exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma**!
 - **Como Pesa na Mesa:** Se a Coorte planeja se render de propósito para infiltrar-se disfarçada dentro da prisão de um Clã inimigo, você vai arrebentar as algemas e iniciar o tiroteio antes da hora!
 - **Como Contornar / Interpretar na Coorte:** Nunca participe de planos de falsa rendição com algemas reais (use nós falsos que você possa soltar sozinho!) e carregue sempre lâminas/correntes que cortam amarras no segundo seguinte.
 
 #### 59. `[Instinto da Fera (Feral Instinct)]`
 - **Categoria Mecânica:** Categoria III — Compulsão Psicológica
 - **Inscrição das Runas:** *"[O sangue desperta o lobo antigo; quando o cheiro de ferida sobe no vento, recuar torna-se impossível.]"*
-- **Efeito Mecânico Exato:** Sempre que você estiver ferido (*abaixo da metade dos PV*) ou sentir cheiro intenso de sangue fresco em combate noturno, seu lado bestial assume o leme. Para **recuar do combate, parar de perseguir uma presa ferida que foge ou usar estratégias pacientes sem atacar**, exige **`Mente (Vontade)` CD 9 E queima `1 Ponto de Essência` como Dano de Alma**!
+- **Efeito Mecânico Exato:** Sempre que você estiver ferido (*abaixo da metade dos PV*) ou sentir cheiro intenso de sangue fresco em combate noturno, seu lado bestial assume o leme. Para **recuar do combate, parar de perseguir uma presa ferida que foge ou usar estratégias pacientes sem atacar**, exige **`Mente (Vontade)` CD 7 E queima `1 Ponto de Essência` como Dano de Alma**!
 - **Como Pesa na Mesa:** Um inimigo inteligente pode deixar uma presa ferida sangrando de propósito como isca para arrastar você para fora da proteção da Coorte direto para uma emboscada!
 - **Como Contornar / Interpretar na Coorte:** Peça ao *Senhor das Correntes* ou ao *Baluarte* para segurá-lo se uma armadilha ficar óbvia, e encerre lutas rápido mantendo seus PV acima da metade.
 
@@ -1156,7 +1156,7 @@ Pegue uma folha em branco e preencha apenas **4 parágrafos curtos** seguindo es
 - Assim que o Núcleo do Guardião zera (ou o objetivo final se fecha), a ilusão estilhaça em fios de prata e você lê a **Avaliação do Feitiço**!
 
 > 🎙️ **Mini-Roteiro Comentado (Exemplo dos 4 Atos: *"A Última Vigília do Templo Cinzento"* — 1º Pesadelo Convergente):**
-> - **Ato 1 (Crise):** Os 7 jogadores acordam como **prisioneiros acorrentados em uma cela de pedra em um templo antigo nas montanhas nevadas**, enquanto gritos ecoam lá fora e dois guardas com lanças de bronze vêm sacrificar os prisioneiros para "aplacar a tempestade". Eles precisam quebrar as algemas (`Força`/`Astúcia` CD 7), derrubar os 2 guardas (`CD 7`, `4 PV`) e sair para o pátio antes que os sinos toquem!
+> - **Ato 1 (Crise):** Os 7 jogadores acordam como **prisioneiros acorrentados em uma cela de pedra em um templo antigo nas montanhas nevadas**, enquanto gritos ecoam lá fora e dois guardas com lanças de bronze vêm sacrificar os prisioneiros para "aplacar a tempestade". Eles precisam quebrar as algemas (`Força`/`Astúcia` CD 5), derrubar os 2 guardas (`CD 7`, `4 PV`) e sair para o pátio antes que os sinos toquem!
 > - **Ato 2 (Falhas da História):** No templo, descobrem que o Sumo Sacerdote trancou as portas internas para deixar o povo congelar enquanto negocia com uma criatura aranha/parasita aninhada no altar solar. Uma noviça ferida conta que **a chama do braseiro central ainda pode queimar a carapaça da criatura** se alguém derramar o óleo sagrado escondido na cripta!
 > - **Ato 3 (*Twist*):** Na hora em que abrem a cripta, o Sumo Sacerdote revela que **ele mesmo deixou o parasita entrar** em troca de imortalidade — e ordena que os últimos acólitos fechem o portão para prender os jogadores na neve! A Coorte decide se mata o Sacerdote rápido, salva a noviça/civis trancados na ala oeste e traz o óleo para o pátio.
 > - **Ato 4 (Guardião):** O **Parasita do Altar (Demônio Adormecido — CD 9, 14 PV + Patas Dianteiras 4 PV + Glândula de Gelo 4 PV)** desce do teto! Se usarem o óleo e o fogo do braseiro para derreter a carapaça (quebrando o destino de todos morrerem congelados e salvando os civis!), o Feitiço concede **Avaliação Excelente ou Gloriosa** e desperta os Aspectos e Defeitos da mesa!
@@ -1184,7 +1184,7 @@ Role **`1d12`** sempre que quiser dar uma camada única de desafio e mistério a
 3. **Relógio de Catástrofe Irreversível:** Um vulcão vai entrar em erupção, o mar vai engolir a ilha ou o sol mortal vai nascer em exatamente **72 horas (ou 6 Segmentos de Relógio)** — não há tempo para descansar indefinidamente!
 4. **Hóspede Adormecido dentro da Mente:** O dono original do corpo ocupado pelo jogador **ainda sussurra na consciência dele**, dando pistas históricas valiosas... ou tentando retomar o controle se o jogador falhar em `Vontade`!
 5. **Escuridão / Silêncio Forçado na Lei Local:** Por maldição da época, **fogo comum não acende** ou **qualquer grito atrai predadores voadores**, obrigando a Coorte a explorar com criatividade total.
-6. **Semente Tocada pela Corrupção:** Um pedaço do cenário está vazando **Marcas de Corrupção** (`Mente [Vontade]` CD 9/11 se tocar) — e o próprio Guardião tenta oferecer uma **Tentação do Vazio** para quem está perdendo!
+6. **Semente Tocada pela Corrupção:** Um pedaço do cenário está vazando **Marcas de Corrupção** (`Mente [Vontade]` CD 7/11 se tocar) — e o próprio Guardião tenta oferecer uma **Tentação do Vazio** para quem está perdendo!
 7. **Dois Guardiões em Guerra Civil:** Em vez de 1 Chefe esperando na sala final, dois Terrores/Diabos rivais disputam o controle da região — e a Coorte pode jogar um contra o outro para atacar o vencedor ferido!
 8. **Proibição de Feitiço / Supressão de Memórias:** Nos primeiros 2 Atos, **todas as Memórias externas estão seladas** atrás de um altar da região; o grupo precisa libertar o altar para recuperar seu arsenal!
 9. **Traição Silenciosa Entre os NPCs:** Um aliado gentil que salvou o grupo no Ato 1 é na verdade o **futuro arauto da tragédia** — se a Coorte confiar cegamente nele, abre as portas para o massacre no Ato 3!
@@ -1311,9 +1311,9 @@ Para que você possa abrir este livro na sua primeira semana e **já ter tudo ma
 ### A. Roteiro Pronto 1: *"O Pântano dos Sinos Afogados"* *(1º Pesadelo Convergente — Sessão 1)*
 *Ideal para rodar com os 7 jogadores começando como Aspirantes (Rank 0) logo após a Sessão 0:*
 - **Ato 1 — Despertar na Crise (*In Media Res*):** Os 7 acordam cobertos de lama dentro de uma **barcaça de madeira meio afundada encalhada em raízes negras**, enquanto a névoa fria cobre o pântano e um **Sino de Bronze** soa ao longe. Dois **Carniçais do Pântano (Bestas Adormecidas — CD 7, 3 PV cada, Dano 1)** e um **Guarda Fanático da Antiga Seita (humano do Pesadelo — CD 8, 5 PV)** caminham pela passarela de tábuas para afogar os sobreviventes! *Dica ao Mestre:* Os jogadores têm apenas tábuas quebradas, 1 faca enferrujada e um lampião a óleo para improvisar a primeira vitória.
-  - *⚖️ Nota de Regra:* As CDs deste roteiro **já são valores finais** para Aspirantes — a diferença de Rank (`±2`, *Livro 1, Seção 1.3*) já está embutida. Não some `+2` de novo só porque as criaturas são Adormecidas.
-- **Ato 2 — As Falhas da História & Dilemas da Entrevista:** Ao seguirem a passarela até um **Santuário de Pedra Meio Submerso**, encontram **3 sobreviventes antigos** (um escriba cego ferido segurando o último odre de água, um ferreiro trancado numa gaiola e um acólito suspeito). Coloque os dilemas da Entrevista em jogo: o escriba pede água em troca de revelar a senha rúnica do portão; o acólito mente descaradamente sobre o caminho seguro para levá-los a uma armadilha de fios (`Mente [Astúcia]` CD 9 para notar!).
-- **Ato 3 — O *Twist* para Quebrar o Destino:** Na história original, os cativos tocavam o Grande Sino no pátio para pedir resgate — mas o sino era justamente o **chamado de alimentação da criatura do pântano**! Se os jogadores investigarem o altar (`Conhecimento` ou `Astúcia` CD 8), descobrem que podem **inverter as correntes do sino e derrubar o óleo dos lampiões na água negra** para prender e queimar o monstro quando ele emergir!
+  - *⚖️ Nota de Regra:* As CDs deste roteiro **já são valores finais** para Aspirantes — a diferença de Rank (`±1`, *Livro 1, Seção 1.3*) já está embutida. Não some `+1` de novo só porque as criaturas são Adormecidas.
+- **Ato 2 — As Falhas da História & Dilemas da Entrevista:** Ao seguirem a passarela até um **Santuário de Pedra Meio Submerso**, encontram **3 sobreviventes antigos** (um escriba cego ferido segurando o último odre de água, um ferreiro trancado numa gaiola e um acólito suspeito). Coloque os dilemas da Entrevista em jogo: o escriba pede água em troca de revelar a senha rúnica do portão; o acólito mente descaradamente sobre o caminho seguro para levá-los a uma armadilha de fios (`Mente [Astúcia]` CD 7 para notar!).
+- **Ato 3 — O *Twist* para Quebrar o Destino:** Na história original, os cativos tocavam o Grande Sino no pátio para pedir resgate — mas o sino era justamente o **chamado de alimentação da criatura do pântano**! Se os jogadores investigarem o altar (`Conhecimento` ou `Astúcia` CD 6), descobrem que podem **inverter as correntes do sino e derrubar o óleo dos lampiões na água negra** para prender e queimar o monstro quando ele emergir!
 - **Ato 4 — O Guardião da Semente:** **A Sanguessuga-Sino do Lodo (Demônio Adormecido — CD 9 | Núcleo: 12 PV | Dano: 2 | Ataque Varrido em até 3 alvos)**.
   - *Partes Destrutíveis:* **Tentáculos da Lama (4 PV)** — agarram 2 jogadores por turno; **Carapaça de Bronze Fundido (5 PV)** — reduz em 1 o dano frontal até ser quebrada ou queimada com óleo!
   - *Recompensa:* Vencendo usando o terreno ou salvando o escriba/ferreiro, conceda **Avaliação Excelente** (ou **Gloriosa** se salvarem os 3 sobreviventes e queimarem o sino antes do segundo badalar!) + Despertar de Aspecto, Atributos e Defeitos!
@@ -1322,7 +1322,7 @@ Para que você possa abrir este livro na sua primeira semana e **já ter tudo ma
 *Para quando a Coorte de 7 jogadores já tiver voltado à Terra e encontrado uma Semente Caída nas Ilhas Acorrentadas:*
 - **Hospedeiros Iniciais:** Ao abrir os olhos, **4 jogadores** acordam como soldados veteranos defendendo uma fortaleza flutuante sob chuva de relâmpagos, enquanto **3 jogadores** acordam dentro de **corpos de estátuas de ferro ou bestas menores acorrentadas** nos porões da mesma torre! (Mantêm seus Aspectos reais, mas precisam se reconhecer e fugir juntos nos primeiros 20 minutos!).
 - **Conflito & *Twist*:** O Lorde da Torre planeja cortar a última corrente de sustentação para usar a queda da ilha inteira como ritual de sacrifício contra um exército inimigo no horizonte.
-- **Guardião:** **O Carcereiro dos Elos (Tirano Caído — CD 11 | Núcleo: 24 PV | Dano: 2–3)** cercado por **3 Guardiões de Corrente (CD 9, 6 PV)** em uma ponte estreita exposta a ventos cortantes (`Corpo [Força]` CD 9). Quebrar as 2 âncoras da ponte derruba a defesa do Tirano!
+- **Guardião:** **O Carcereiro dos Elos (Tirano Caído — CD 11 | Núcleo: 24 PV | Dano: 2–3)** cercado por **3 Guardiões de Corrente (CD 9, 6 PV)** em uma ponte estreita exposta a ventos cortantes (`Corpo [Força]` CD 7). Quebrar as 2 âncoras da ponte derruba a defesa do Tirano! *⚖️ Orçamento de Ameaça (Seção 5.1): o Tirano (1 Rank acima) atacando 3 alvos com Dano 2–3 mais os 3 Guardiões dá Ameaça 9–12, acima dos 7 de uma mesa cheia — pela regra seria **Fuga/Evitar**. Como é o Guardião do Pesadelo, a saída é o plano: enquanto as âncoras estiverem de pé, o Tirano varre só **2 alvos** e os Guardiões entram **1 por rodada** (Ameaça ≤ 7); quem quiser enfrentá-lo de frente sem quebrar as âncoras paga o preço cheio.*
 
 ---
 
@@ -1361,11 +1361,11 @@ Antes de os jogadores sentarem à mesa, gaste no máximo **10 minutos** anotando
 | :--- | :--- |
 | **Dados dos Jogadores & Coorte Unida** | `1d6 + Pilar` (Normal) ou `1d8 + Pilar` (Especializado `[X]`). Em travessias coletivas, use **Coorte Unida**. **O Mestre nunca rola dados.** *(Livro 1, Cap. 1 — Seções 1.1, 1.2 e 1.7)* |
 | **Teto de Bônus (`Cap +3`)** | Soma máxima de bônus externos = **`+3`**. Cada ponto além de `+3` vira **Vantagem** (`2 dados`, pega o maior) ou **`+1 de Dano`** no acerto. *(Livro 1, Cap. 1 — Seção 1.5)* |
-| **Escala de CDs** | **5** Trivial \| **7** Fácil \| **9** Moderada \| **11** Difícil \| **13** Extrema \| **15** Divina (**`±2` na CD por Rank de diferença**). *(Livro 1, Cap. 1 — Seção 1.3)* |
+| **Escala de CDs** | **3** Trivial \| **5** Fácil \| **7** Moderada \| **9** Difícil \| **11** Extrema \| **13** Divina — tarefas; criaturas usam a CD da ficha (**`±1` na CD por Rank de diferença**, mínimo `3`). *(Livro 1, Cap. 1 — Seção 1.3)* |
 | **Dados Naturais** | **`1 Natural`:** nunca passa de `CD Exata` (Sucesso com Infortúnio). **`6/8 Natural` (passando na CD):** gera `+1 Dádiva menor` gratuita. *(Livro 1, Cap. 1 — Seção 1.5)* |
 | **Combate, Condições & Embarcações** | **5 Faixas de Distância** e **15 Manobras** *(Livro 1, Cap. 5)* \| **15 Condições** e **7 Funções de Acampamento** *(Livro 1, Cap. 6)* \| **7 Postos de Embarcação** *(Livro 1, Cap. 10)*. |
 | **Mar da Alma, Marcos & Essência** | `Essência = (Alma×2) + Marcos Ímpares (1,3,5,7,9) + Bônus Aspecto (+1/+2) + Rank Humano (Desp.+2, Asc.+4, Transc.+6, Sup.+8) + (3×Extras)`. **Marcos 2/6:** `+1 PV` \| **4/8:** `+1 Atributo` \| **10:** `+1 Pilar` *(Livro 1, Cap. 4)*. |
-| **Defeitos (*Flaws*)** | **Cat. I (Lei Absoluta):** sem teste \| **Cat. II (Preço/Agonia):** 2 usos grátis/cena, 3º+ exige `Vontade` CD 9 ou `1 Dano / -1` \| **Cat. III (Compulsão):** agir contra exige `Vontade` CD 9 **E** queima `1 PE` de Dano de Alma. *(Cap. 2.4)* |
+| **Defeitos (*Flaws*)** | **Cat. I (Lei Absoluta):** sem teste \| **Cat. II (Preço/Agonia):** 2 usos grátis/cena, 3º+ exige `Vontade` CD 7 ou `1 Dano / -1` \| **Cat. III (Compulsão):** agir contra exige `Vontade` CD 7 **E** queima `1 PE` de Dano de Alma. *(Cap. 2.4)* |
 | **Saque Pós-Abate, Aspectos & Legados** | Golpe fatal: `1d6` → **`6`** dá **Memória** (ou `1d20 = 20`/`19–20` dá **Eco/Sombra** — *Livro 1, Cap. 7*; *Livro 3, Cap. 7–8*). **Aspectos:** *Livro 2, Cap. 4* \| **Atributos Rúnicos:** *Livro 2, Cap. 5* \| **Legados:** *Livro 1, Cap. 9*. |
 | **Recompensa de Sessão** | **`1 a 3 XP`** por sessão *(1 por sobreviver + 1 por desafio difícil + 1 por Defeito/Dádivas — Livro 1, Seção 12.3; `+2 a +3` extras ao fechar um Arco)* + **`+1 Marco de Saturação`** a cada 1–2 sessões (ou ao vencer um Chefe de Arco!). *(Cap. 3.4)* |
 
@@ -1373,7 +1373,8 @@ Antes de os jogadores sentarem à mesa, gaste no máximo **10 minutos** anotando
 
 > ### ⚖️ Referência Rápida da Matemática Oficial do Códice
 > - **Escala de CDs por Rank:** `Adormecida (CD 6–8)` | `Desperta (CD 9–10)` | `Caída (CD 10–11)` | `Corrompida (CD 12)` | `Grande (CD 13+)`.
-> - **Regra de Diferença de Rank:** Aplique **`±2 na CD por Rank de diferença`** entre o personagem e a ameaça (um Desperto enfrentando uma criatura Adormecida reduz a CD dela em `-2`; um Adormecido enfrentando uma criatura Desperta sofre `+2 na CD`).
+> - **Regra de Diferença de Rank:** Aplique **`±1 na CD por Rank de diferença`** entre o personagem e a ameaça (um Desperto enfrentando uma criatura Adormecida reduz a CD dela em `-1`; um Adormecido enfrentando uma criatura Desperta sofre `+1 na CD`).
+> - **Orçamento de Ameaça:** some `alvos × Dano` de todas as criaturas que agem na rodada; o total não deve passar do **número de jogadores** (*Seção 5.1*).
 > - **Economia de Dano da Coorte:** Um jogador causa **1 a 2 de dano base** por acerto; uma Coorte completa de **7 jogadores** causa em média **5 a 8 de dano por rodada** quando foca o mesmo alvo.
 > - **Motor *Player-Facing*:** O Mestre **nunca rola dados**. Em vez disso, descreva ataques simultâneos contra **2 a 4 jogadores** (*Ataque Varrido*) e peça suas **Rolagens de Defesa** contra a CD da criatura ou do perigo.
 > - **Inimigos Humanos Mortos:** Quando um Desperto humano morre, suas **Memórias se dissipam junto com a alma** — elas só podem ser obtidas com o inimigo vivo por **coerção ou rendição voluntária pelo toque** (e humanos mortos não deixam Cristais de Alma na carne, exceto para portadores de *Aspectos Divinos*, que absorvem fragmentos diretamente da alma abatida).
@@ -1393,7 +1394,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 1. Subida do Mar Amaldiçoado
 - **Região:** Costa Esquecida.
 - **Descrição:** Ao pôr do sol, a água negra e viscosa sobe dos abismos em ondas silenciosas e gélidas, engolindo todo o labirinto de coral carmesim até dezenas de metros de altura. Dentro da água escura, dezenas de olhos pálidos e tentáculos aguardam qualquer retardatário.
-- **Rolagem & CD:** Teste de Grupo com `Corpo (Agilidade)` ou `Corpo (Força)` **CD 9** para escalar as estátuas ou falésias antes que a água alcance a cintura.
+- **Rolagem & CD:** Teste de Grupo com `Corpo (Agilidade)` ou `Corpo (Força)` **CD 7** para escalar as estátuas ou falésias antes que a água alcance a cintura.
 - **Sucesso / Falha:**
   - *Sucesso:* A Coorte alcança terreno elevado seco a tempo e observa o oceano furioso lá embaixo.
   - *CD Exata:* Todos chegam ao topo, mas o último da fila (ou quem tiver menor Agilidade) sofre **1 de Dano** de um tentáculo raspando sua perna.
@@ -1403,7 +1404,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 2. Corais Navalha e Tempestade de Esporos Rubros
 - **Região:** Costa Esquecida.
 - **Descrição:** Cânions estreitos de coral ossificado tão afiado quanto vidro quebrado. Quando o vento sopra forte, a crosta solta nuvens de esporos calcificados que cortam olhos e gargantas.
-- **Rolagem & CD:** `Corpo (Agilidade)` **CD 7** para navegar pelas frestas sem rasgar roupas ou peles; `Corpo (Vigor)` **CD 8** se o vento levantar esporos.
+- **Rolagem & CD:** `Corpo (Agilidade)` **CD 5** para navegar pelas frestas sem rasgar roupas ou peles; `Corpo (Vigor)` **CD 6** se o vento levantar esporos.
 - **Sucesso / Falha:**
   - *Sucesso:* Passagem limpa sem cortes.
   - *CD Exata:* Passa, mas a armadura sofre **1 nível de desgaste** (`Íntegra → Danificada`) ou o personagem leva **1 de Dano** superficial.
@@ -1413,7 +1414,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 3. O Efeito Esmagamento (*The Crushing*)
 - **Região:** Ilhas Acorrentadas.
 - **Descrição:** As ilhas flutuantes sobem e descem em ciclos lentos presos às correntes celestiais. Quando uma ilha ascende acima da linha das nuvens espessas, a gravidade aumenta dez vezes em segundos; o ar fica pesado, ossos estalam e pássaros caem esmagados contra as pedras.
-- **Rolagem & CD:** `Corpo (Vigor)` ou `Alma (Abjurar)` **CD 11** por cena exposto a céu aberto.
+- **Rolagem & CD:** `Corpo (Vigor)` ou `Alma (Abjurar)` **CD 9** por cena exposto a céu aberto.
 - **Sucesso / Falha:**
   - *Sucesso:* Suporta a pressão ajoelhado, podendo mover-se apenas com grande esforço (-1 em ataques físicos).
   - *CD Exata:* Aguenta de pé, mas gasta **1 Ponto de Essência** e fica *Exausto* após o ciclo.
@@ -1423,7 +1424,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 4. Chamas do Céu Abaixo (*Sky Below*)
 - **Região:** Ilhas Acorrentadas.
 - **Descrição:** Quando uma ilha afunda até a borda inferior do ciclo, o abismo sem fundo abaixo dela revela mares de estrelas brancas e línguas de fogo branco estelar que sobem pelas correntes de ferro enferrujadas.
-- **Rolagem & CD:** `Corpo (Agilidade)` **CD 10** para saltar longe das bordas e elos aquecidos.
+- **Rolagem & CD:** `Corpo (Agilidade)` **CD 8** para saltar longe das bordas e elos aquecidos.
 - **Sucesso / Falha:**
   - *Sucesso:* Esquiva-se das labaredas brancas.
   - *CD Exata:* Escapa, mas sua capa ou botas pegam fogo (*Queimando*).
@@ -1433,7 +1434,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 5. Correntes de Vento Cortante e Relâmpagos Ascendentes
 - **Região:** Ilhas Acorrentadas e Pontes Suspensas.
 - **Descrição:** Rajadas invisíveis tão fortes que arrancam escudos das mãos e uivam como lâminas entre as correntes gigantescas que ligam uma ilha à outra.
-- **Rolagem & CD:** `Corpo (Força)` ou `Corpo (Agilidade)` **CD 9** ao cruzar pontes de corrente expostas.
+- **Rolagem & CD:** `Corpo (Força)` ou `Corpo (Agilidade)` **CD 7** ao cruzar pontes de corrente expostas.
 - **Sucesso / Falha:**
   - *Sucesso:* Cruza firmemente agarrado aos elos.
   - *CD Exata:* Avança, mas um item solto ou mochila escapa se não for segurado com a Ação Menor.
@@ -1443,7 +1444,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 6. Névoa Branca Devoradora de Bússolas
 - **Região:** Montanhas Ocas.
 - **Descrição:** Uma bruma espessa, leitosa e antinatural que cobre os vales e picos sem deixar ver a própria mão estendida. Ela abafa todos os sons acima de um sussurro e consome lentamente a Essência espiritual dos viajantes enquanto entorta a noção de direção.
-- **Rolagem & CD:** `Mente (Vontade)` **CD 10** por hora de exposição para não se perder nem ceder ao entorpecimento; `Mente (Astúcia)` **CD 11** para o *Cartógrafo* manter o rumo.
+- **Rolagem & CD:** `Mente (Vontade)` **CD 8** por hora de exposição para não se perder nem ceder ao entorpecimento; `Mente (Astúcia)` **CD 9** para o *Cartógrafo* manter o rumo.
 - **Sucesso / Falha:**
   - *Sucesso:* Mantém a coesão do grupo e avança na direção pretendida.
   - *CD Exata:* Avança, mas perde **1 Ponto de Essência** drenado pela bruma.
@@ -1453,7 +1454,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 7. Avalanche de Neve Cinzenta e Frio Abissal
 - **Região:** Montanhas Ocas e Antártica (Mundo Desperto).
 - **Descrição:** Encostas congeladas onde qualquer explosão de Essência ou grito alto desprende milhões de toneladas de gelo misturado com cinza antiga, soterrando comboios em segundos.
-- **Rolagem & CD:** `Mente (Astúcia)` **CD 9** para notar os estalos antes da queda; `Corpo (Agilidade)` ou `Corpo (Vigor)` **CD 10** para escapar ou resistir ao soterramento.
+- **Rolagem & CD:** `Mente (Astúcia)` **CD 7** para notar os estalos antes da queda; `Corpo (Agilidade)` ou `Corpo (Vigor)` **CD 8** para escapar ou resistir ao soterramento.
 - **Sucesso / Falha:**
   - *Sucesso:* Atinge abrigo lateral sob um rochedo a tempo.
   - *CD Exata:* Fica preso até a cintura (*Imobilizado*), sofrendo **1 de Dano** de contusão.
@@ -1463,7 +1464,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 8. Escuridão Elemental Verdadeira (*Sangue do Titã*)
 - **Região:** Submundo de Nether (*Underworld*) e Templos Corrompidos.
 - **Descrição:** Não é a mera ausência de luz, mas uma substância densa e negra que devora tochas, lanternas comuns e até chamas fracas, cegando qualquer olho humano — e que esconde predadores silenciosos que só caçam pelo tato e pelo cheiro de alma.
-- **Rolagem & CD:** `Mente (Astúcia)` **CD 11** para orientar-se por eco, tato e fluxo de ar.
+- **Rolagem & CD:** `Mente (Astúcia)` **CD 9** para orientar-se por eco, tato e fluxo de ar.
 - **Sucesso / Falha:**
   - *Sucesso:* Move-se lentamente sem esbarrar em precipícios ou armadilhas.
   - *CD Exata:* Consegue avançar, mas luta com **-1** no primeiro turno de surpresa.
@@ -1473,7 +1474,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 9. Gêiser de Magma e Rios de Basalto Líquido
 - **Região:** Submundo de Nether e Ravenheart.
 - **Descrição:** Fissuras no solo negro que borbulham com gás sulfuroso segundos antes de jorrarem colunas de lava a 1.200 graus em qualquer direção.
-- **Rolagem & CD:** `Mente (Astúcia)` **CD 10** para ler as rachaduras fumegantes; `Corpo (Agilidade)` **CD 10** para saltar fora do jato na faixa *Perto*.
+- **Rolagem & CD:** `Mente (Astúcia)` **CD 8** para ler as rachaduras fumegantes; `Corpo (Agilidade)` **CD 8** para saltar fora do jato na faixa *Perto*.
 - **Sucesso / Falha:**
   - *Sucesso:* Salta para uma laje segura antes da erupção.
   - *CD Exata:* O calor chamusca a armadura (**1 nível de desgaste**) e causa **1 de Dano**.
@@ -1483,7 +1484,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 10. Espelhos de Mirage e Distorção do Lago Espelhado
 - **Região:** Bastion e Ruínas de Mirage.
 - **Descrição:** Superfícies de prata líquida, vidro antigo ou águas imóveis perfeitas onde o reflexo do Desperto pisca fora de sincronia, sorri sozinho e estica a mão através do vidro para trocar de lugar com o original.
-- **Rolagem & CD:** `Mente (Vontade)` **CD 10** ao encarar diretamente um espelho ou superfície parada de Bastion por mais de 3 segundos.
+- **Rolagem & CD:** `Mente (Vontade)` **CD 8** ao encarar diretamente um espelho ou superfície parada de Bastion por mais de 3 segundos.
 - **Sucesso / Falha:**
   - *Sucesso:* Desvia o olhar ou quebra o vínculo mental antes do reflexo agir.
   - *CD Exata:* O reflexo arranca **1 Ponto de Essência** e revela um segredo em voz alta para toda a sala.
@@ -1493,7 +1494,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 11. Flora Sanguessuga Carmesim e Esporos Alucinógenos
 - **Região:** Florestas Vermelhas (próximo a Bastion).
 - **Descrição:** Cipós vermelho-escuros camuflados entre musgos carmesins e flores pálidas que exalam um perfume doce que faz viajantes sonharem com comida quente e camas macias enquanto raízes perfuram suas botas.
-- **Rolagem & CD:** `Mente (Astúcia)` **CD 9** para notar raízes vivas; `Corpo (Vigor)` **CD 9** contra o pólen narcótico.
+- **Rolagem & CD:** `Mente (Astúcia)` **CD 7** para notar raízes vivas; `Corpo (Vigor)` **CD 7** contra o pólen narcótico.
 - **Sucesso / Falha:**
   - *Sucesso:* Corta os brotos antes de fechar a armadilha e prende a respiração.
   - *CD Exata:* Escapa, mas fica tonto (-1 na próxima rolagem de Mente).
@@ -1503,7 +1504,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 12. Chuva de Cinza Vulcânica e Nuvem Piroclástica
 - **Região:** Ravenheart e Terras de Cinza.
 - **Descrição:** Céu permanentemente enegrecido de onde cai neve quente de cinza vulcânica cortante misturada com gases asfixiantes de enxofre.
-- **Rolagem & CD:** `Corpo (Vigor)` **CD 9** por cena marchando sob tempestade densa de cinzas.
+- **Rolagem & CD:** `Corpo (Vigor)` **CD 7** por cena marchando sob tempestade densa de cinzas.
 - **Sucesso / Falha:**
   - *Sucesso:* Controla a respiração e protege olhos e vias aéreas.
   - *CD Exata:* Tosse violenta gera **-1 em testes físicos** até limpar o rosto com água limpa.
@@ -1513,7 +1514,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 13. Areia Movediça de Ossos Pulverizados
 - **Região:** Deserto dos Pesadelos.
 - **Descrição:** Dunas brancas aparentemente sólidas compostas por bilhões de fragmentos de ossos moídos que cedem como fluido traiçoeiro sobre cavernas ocas soterradas — e às vezes dedos ossudos se erguem do fundo para puxar os pés.
-- **Rolagem & CD:** `Corpo (Força)` ou `Corpo (Agilidade)` **CD 9** ao pisar em bolsões instáveis.
+- **Rolagem & CD:** `Corpo (Força)` ou `Corpo (Agilidade)` **CD 7** ao pisar em bolsões instáveis.
 - **Sucesso / Falha:**
   - *Sucesso:* Distribui o peso e salta para uma crosta firme.
   - *CD Exata:* Afunda até o joelho (*Imobilizado* por 1 turno até usar 1 Ação Menor para sair).
@@ -1523,7 +1524,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 14. Sol Branco Abrasador e A Guerra Noturna dos Ossos
 - **Região:** Deserto dos Pesadelos.
 - **Descrição:** De dia, o sol imóvel parece um forno branco que ferve água em cantis comuns e racha peles sem proteção. À noite, assim que a última luz some, o próprio deserto ganha vida em dois exércitos incontáveis de esqueletos imortais que se destroçam até o amanhecer.
-- **Rolagem & CD:** `Corpo (Vigor)` **CD 10** durante a marcha diurna sem água extra; `Mente (Astúcia)` **CD 11** para ocultar-se em criptas seladas à noite.
+- **Rolagem & CD:** `Corpo (Vigor)` **CD 8** durante a marcha diurna sem água extra; `Mente (Astúcia)` **CD 9** para ocultar-se em criptas seladas à noite.
 - **Sucesso / Falha:**
   - *Sucesso:* Sobrevive ao calor sem insolação ou permanece oculto sob as dunas seladas.
   - *CD Exata:* Consome o dobro de água do dia (ou sofre **1 de Dano** ao correr da onda de esqueletos).
@@ -1533,7 +1534,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 15. Anomalia Temporal do Grande Rio
 - **Região:** Tumba de Ariel (O Grande Rio).
 - **Descrição:** Redemoinhos iridescentes na correnteza do Grande Rio onde segundos duram séculos ou décadas passam em um piscar de olhos. Espadas mundanas enferrujam instantaneamente e ferimentos antigos voltam a abrir.
-- **Rolagem & CD:** `Mente (Vontade)` ou `Alma (Abjurar)` **CD 11** quando o navio ou um jogador toca um bolsão de água iridescente.
+- **Rolagem & CD:** `Mente (Vontade)` ou `Alma (Abjurar)` **CD 9** quando o navio ou um jogador toca um bolsão de água iridescente.
 - **Sucesso / Falha:**
   - *Sucesso:* Mantém a integridade da própria alma e da ancoragem temporal.
   - *CD Exata:* Envelhece ou regride objetos mundanos carregados e causa **1 de Dano de Alma** pelo choque de memórias.
@@ -1543,7 +1544,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 16. Névoa do Esquecimento e Loop de Memória
 - **Região:** Tumba de Ariel e Criptas de Oblivion.
 - **Descrição:** Uma bruma prateada silenciosa que apaga lembranças recentes a cada dez minutos. Viajantes entram em uma sala procurando um selo, esquecem por que entraram, saem, e entram novamente para morrer de fome em ciclos idênticos.
-- **Rolagem & CD:** `Mente (Vontade)` **CD 10** a cada cena dentro da zona anômala.
+- **Rolagem & CD:** `Mente (Vontade)` **CD 8** a cada cena dentro da zona anômala.
 - **Sucesso / Falha:**
   - *Sucesso:* Lembra-se claramente da missão e do caminho de retorno.
   - *CD Exata:* Esquece um detalhe menor do plano (não pode aplicar bônus de preparação nesta cena).
@@ -1553,7 +1554,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 17. O Olho do Céu Incandescente
 - **Região:** Godgrave (Superfície da Selva Escarlate).
 - **Descrição:** Um manto contínuo de nuvens brancas paira sobre o continente-esqueleto. Sem aviso além de um silêncio súbito nos insetos e um brilho pálido nas frestas do céu, as nuvens se abrem em uma fenda ofuscante: raios de calor estelar vaporizam toda a selva escarlate e desintegram instantaneamente qualquer ser que se mova!
-- **Rolagem & CD:** `Mente (Astúcia)` **CD 8** para notar os 3 segundos de aviso prévio; `Mente (Vontade)` **CD 9** para congelar cada músculo — até o piscar nervoso ou tremor de respiração — por 1 rodada inteira.
+- **Rolagem & CD:** `Mente (Astúcia)` **CD 6** para notar os 3 segundos de aviso prévio; `Mente (Vontade)` **CD 7** para congelar cada músculo — até o piscar nervoso ou tremor de respiração — por 1 rodada inteira.
 - **Sucesso / Falha:**
   - *Sucesso:* Permanece absolutamente imóvel como estátua enquanto as cinzas caem ao redor; escapa ileso!
   - *CD Exata:* Fica imóvel a tempo, mas um tremor mínimo queima a pele exposta (**1 de Dano** e perda da cobertura vegetal ao redor).
@@ -1563,7 +1564,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 18. Vapores Tóxicos da Medula do Deus Morto
 - **Região:** Godgrave (*The Hollows* — Interior dos Ossos).
 - **Descrição:** As galerias cavernosas dentro dos ossos gigantescos protegem do céu incandescente, mas acumulam bolsões de gás divino decomposto e esporos negros bioluminescentes que derretem mucosas.
-- **Rolagem & CD:** `Corpo (Vigor)` **CD 10** ao atravessar bolsões espessos sem purificação.
+- **Rolagem & CD:** `Corpo (Vigor)` **CD 8** ao atravessar bolsões espessos sem purificação.
 - **Sucesso / Falha:**
   - *Sucesso:* Prende a respiração e atravessa o trecho venenoso.
   - *CD Exata:* Tosse violenta reduz a visão (`-1` em Astúcia na próxima cena).
@@ -1573,7 +1574,7 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 19. Tempestade de Alma Abissal e Maelstrom
 - **Região:** Mar Tempestuoso.
 - **Descrição:** Furacões negros onde os relâmpagos não são eletricidade comum, mas descargas de Essência selvagem vindas das estrelas estranhas, abrindo redemoinhos gigantes capazes de engolir galeões inteiros.
-- **Rolagem & CD:** `Alma (Abjurar)` **CD 11** para proteger a alma no convés descoberto; `Corpo (Agilidade)` ou `Timoneiro` **CD 10** para o navio evitar o redemoinho.
+- **Rolagem & CD:** `Alma (Abjurar)` **CD 9** para proteger a alma no convés descoberto; `Corpo (Agilidade)` ou `Timoneiro` **CD 8** para o navio evitar o redemoinho.
 - **Sucesso / Falha:**
   - *Sucesso:* Desvia a descarga espiritual e mantém o casco firme.
   - *CD Exata:* O navio sofre **2 PV de dano no Casco** (ou o jogador perde **1 Ponto de Essência**).
@@ -1583,12 +1584,12 @@ Para resolver qualquer perigo abaixo com agilidade em uma mesa de 7 jogadores, u
 ### 20. Zona de Profanação (*Defilement*) e Sussurros do Vazio
 - **Região:** Ruínas Corrompidas, Antártica (Portais Cat. 4+) e Fronteira de Ariel.
 - **Descrição:** O ar parece pesado e oleoso, as sombras apontam para a direção errada e vozes quase inaudíveis oferecem segredos proibidos sobre a origem do mundo diretamente dentro dos ossos do crânio.
-- **Rolagem & CD:** `Mente (Vontade)` **CD 10** (ou **CD 12** no centro de um ninho Corrompido) ao permanecer exposto por 1 cena.
+- **Rolagem & CD:** `Mente (Vontade)` **CD 8** (ou **CD 10** no centro de um ninho Corrompido) ao permanecer exposto por 1 cena.
 - **Sucesso / Falha:**
   - *Sucesso:* Fecha a mente ao sussurro profano.
   - *CD Exata:* Resiste à Corrupção, mas sofre **1 de Dano de Alma** e condição *Amedrontado* por 1 rodada.
   - *Falha:* Anota imediatamente **1 Marca de Corrupção** na ficha (*Livro 1, Seção 12.2*)!
-- **Como Neutralizar:** O *Guardião da Fogueira* (apelido da Função 7 — *Estrategista / Cronista / Conselheiro* — da *Seção 6.5* do Livro 1; `Coração [Convencer]` CD 9 no acampamento, *Seção 12.2 D*) remove 1 Marca de Grau 1; portadores de `[Chama de Divindade]`, *Portadora da Luz* ou templos intactos do *Deus das Sombras* neutralizam a zona.
+- **Como Neutralizar:** O *Guardião da Fogueira* (apelido da Função 7 — *Estrategista / Cronista / Conselheiro* — da *Seção 6.5* do Livro 1; `Coração [Convencer]` CD 7 no acampamento, *Seção 12.2 D*) remove 1 Marca de Grau 1; portadores de `[Chama de Divindade]`, *Portadora da Luz* ou templos intactos do *Deus das Sombras* neutralizam a zona.
 
 ---
 
@@ -1598,92 +1599,92 @@ Uma boa armadilha em *Shadow Slave* nunca deve ser um "role ou tome dano sem avi
 
 1. **Fios Invisíveis de Diamante (*Oficinas de Weaver*):**
    - *Pista Visual:* Poeira suspensa no ar parece cortada em linhas retas perfeitas e há ratos ou insetos partidos exatamente ao meio no piso de mármore.
-   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 11** para ver o reflexo mínimo dos fios; `Corpo (Agilidade)` ou *Tecelagem* **CD 10** para desarmar ou passar entre os vãos.
+   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 9** para ver o reflexo mínimo dos fios; `Corpo (Agilidade)` ou *Tecelagem* **CD 8** para desarmar ou passar entre os vãos.
    - *Disparo:* Quem atravessar correndo sem detectar sofre **2 de Dano** cortante que ignora armaduras leves mundanas e degrada Armadura de Memória em 1 passo.
    - *Solução Criativa:* Jogar um tecido ou pedaço de carne à frente revela todos os fios; um personagem com `[Teia de Sangue]` enxerga os fios de Essência automaticamente.
 
 2. **Estátua Guardiã de Nether (*Torres de Ébano e Submundo*):**
    - *Pista Visual:* Uma estátua de pedra negra sem rosto segurando uma alabarda polida, com marcas circulares de arrasto no chão ao redor do pedestal — e nenhum pó sobre suas articulações.
-   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 9** para notar a ausência de poeira; `Mente (Conhecimento)` ou `Alma (Canalizar)` **CD 10** para remover o núcleo rúnico escondido na nuca.
-   - *Disparo:* A estátua só se move em velocidade absurda **quando ninguém da Coorte está olhando diretamente para ela**! Quem virar as costas ou piscar em um corredor escuro sofre um golpe súbito de alabarda (**2 de Dano**, defesa `Corpo [Agilidade]` **CD 10**).
+   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 7** para notar a ausência de poeira; `Mente (Conhecimento)` ou `Alma (Canalizar)` **CD 8** para remover o núcleo rúnico escondido na nuca.
+   - *Disparo:* A estátua só se move em velocidade absurda **quando ninguém da Coorte está olhando diretamente para ela**! Quem virar as costas ou piscar em um corredor escuro sofre um golpe súbito de alabarda (**2 de Dano**, defesa `Corpo [Agilidade]` **CD 8**).
    - *Solução Criativa:* Um jogador (como o *Oráculo* ou *Sentinela*) fica olhando fixamente para a estátua enquanto os outros seis passam de costas ou destroem a estátua à distância (`PV 10`, *Quebra-Carapaça* ajuda).
 
 3. **Selo Rúnico de Fogo Purificador (*Templos do Deus do Sol*):**
    - *Pista Visual:* Uma laje de mármore dourado com inscrições solares levemente quentes ao toque e fuligem branca nas paredes laterais.
-   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 8** para notar a laje elevada; `Mente (Conhecimento)` ou `[Leitor de Runas]` **CD 9** para riscar a runa conectora antes da ativação.
-   - *Disparo:* Ao receber peso acima de 20 kg, explode em um clarão solar de alcance *Perto*: todos na sala rolam `Corpo (Agilidade)` ou `Vigor` **CD 9** ou sofrem **1 de Dano** e ficam *Cegos* e *Queimando* por 1 rodada.
+   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 6** para notar a laje elevada; `Mente (Conhecimento)` ou `[Leitor de Runas]` **CD 7** para riscar a runa conectora antes da ativação.
+   - *Disparo:* Ao receber peso acima de 20 kg, explode em um clarão solar de alcance *Perto*: todos na sala rolam `Corpo (Agilidade)` ou `Vigor` **CD 7** ou sofrem **1 de Dano** e ficam *Cegos* e *Queimando* por 1 rodada.
    - *Solução Criativa:* Saltar por cima da laje ou acionar de longe jogando um escudo pesado ou cadáver de monstro para gastar a carga única do selo.
 
 4. **Espelho Devorador de Reflexos (*Salões de Mirage / Bastion*):**
    - *Pista Visual:* Um espelho alto com moldura de prata fosca onde a própria imagem do observador parece mais pálida e atrasada meio segundo.
-   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 9** para notar o atraso do reflexo; `Alma (Abjurar)` **CD 10** para selar o vidro com Essência.
+   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 7** para notar o atraso do reflexo; `Alma (Abjurar)` **CD 8** para selar o vidro com Essência.
    - *Disparo:* Quem tocar o espelho ou encarar diretamente sofre drenagem imediata de **2 Pontos de Essência**, tem 1 Memória equipada reduzida para *Danificada* e desperta 1 *Besta de Espelho*!
    - *Solução Criativa:* Cobrir o espelho com um manto opaco sem olhar para o vidro, ou destruí-lo com uma arma de arremesso da faixa *Distante* olhando para o chão.
 
 5. **Laje de Gravidade Invertida (*Ilhas Acorrentadas / Santuários de Hope*):**
    - *Pista Visual:* Restos de ossos e fragmentos de armaduras presos em estalactites do teto — não no chão abaixo — com poeira flutuando devagar sobre uma plataforma circular.
-   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 8**; `Alma (Canalizar)` **CD 9** para inverter a polaridade do círculo.
-   - *Disparo:* Qualquer criatura pisando no disco é arremessada contra o teto a 8 metros (`Corpo [Agilidade]` **CD 9** para agarrar uma coluna). Falha causa **1 de Dano** de queda para cima, condição *Caído* no teto e mais **1 de Dano** quando o efeito acaba 1 rodada depois.
+   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 6**; `Alma (Canalizar)` **CD 7** para inverter a polaridade do círculo.
+   - *Disparo:* Qualquer criatura pisando no disco é arremessada contra o teto a 8 metros (`Corpo [Agilidade]` **CD 7** para agarrar uma coluna). Falha causa **1 de Dano** de queda para cima, condição *Caído* no teto e mais **1 de Dano** quando o efeito acaba 1 rodada depois.
    - *Solução Criativa:* Lançar uma pedra antes ou usar a plataforma intencionalmente para alcançar mezaninos altos e rotas secretas no teto!
 
 6. **Sarcófago do Suspiro Fúnebre (*Criptas de Repose / Tumba de Ariel*):**
    - *Pista Visual:* Lacres de cera negra intactos em volta da tampa e uma fina geada esverdeada escapando pela fresta quando a luz chega perto.
-   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 8** para notar a pressão interna; `Corpo (Vigor)` **CD 9** se abrir normalmente sem precaução.
+   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 6** para notar a pressão interna; `Corpo (Vigor)` **CD 7** se abrir normalmente sem precaução.
    - *Disparo:* Libera uma nuvem de pó necrótico em alcance *Corpo a Corpo*: quem respirar sofre condição *Envenenado* e **1 de Dano** imediato.
    - *Solução Criativa:* Prender a respiração e abrir com uma corda ou vara longa da faixa *Perto*, esperando 1 minuto para o gás dissipar.
 
 7. **Sino do Chamado de Horda (*Catedrais Submersas e Fortalezas Antigas*):**
    - *Pista Visual:* Um fio de bronze quase fino como cabelo ligado do batente da porta até pequenas placas suspensas no teto abobadado.
-   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 8**; `Corpo (Agilidade)` **CD 8** para cortar ou travar o badalo com tecido.
+   - *Detecção / Desarme:* `Mente (Astúcia)` **CD 6**; `Corpo (Agilidade)` **CD 6** para cortar ou travar o badalo com tecido.
    - *Disparo:* Não causa dano direto, mas um toque ressonante atravessa quilômetros de ruínas! Atrai `1d6 + 2` *Carniçais*, *Saqueadores da Carapaça* ou *Esqueletos* em 2 rodadas!
    - *Solução Criativa:* Cortar o fio antes de abrir a porta, ou dispará-lo de propósito para atrair monstros para longe de outra ala que o *Espectro* vai saquear.
 
 8. **Altar do Tributo de Sangue (*Templos do Deus das Feras e da Guerra*):**
    - *Pista Visual:* Um portão maciço de ferro sem fechadura diante de um cálice de pedra seca cercado por runas que significam *"Vida paga a passagem"*.
-   - *Detecção / Desarme:* Enigma / `Mente (Conhecimento)` **CD 8** para ler o verso rúnico (não há "erro" oculto, mas forçar o portão dispara lanças ocultas).
-   - *Disparo (Se forçarem o portão):* Lanças saem das paredes laterais contra quem tentar arrombar (`Corpo [Agilidade]` **CD 10**, **2 de Dano**).
+   - *Detecção / Desarme:* Enigma / `Mente (Conhecimento)` **CD 6** para ler o verso rúnico (não há "erro" oculto, mas forçar o portão dispara lanças ocultas).
+   - *Disparo (Se forçarem o portão):* Lanças saem das paredes laterais contra quem tentar arrombar (`Corpo [Agilidade]` **CD 8**, **2 de Dano**).
    - *Solução Criativa:* Depositar voluntariamente **3 PV em sangue** (divididos entre a Coorte — ex: 1 PV de três jogadores) ou **2 Fragmentos de Alma** no cálice abre a porta silenciosamente; sangue fresco de um monstro abatido na hora também funciona se misturado com 1 Essência!
 
 9. **Ponte da Ilusão Perfeita (*Abismos de Mirage*):**
    - *Pista Visual:* Uma passarela larga de mármore branco cruza um abismo sem fundo, mas metade das lajes não projeta sombra própria e não tem nenhum resquício de musgo ou sujeira.
-   - *Detecção / Desarme:* `Mente (Astúcia)` ou `Mente (Vontade)` **CD 10** para enxergar o tremor sutil da miragem.
-   - *Disparo:* A cada 3 passos, um bloco é falso; quem pisar cai no abismo (`Corpo [Agilidade]` **CD 10** para agarrar a borda real antes de despencar para morte ou para o andar inferior com **3 de Dano**!).
+   - *Detecção / Desarme:* `Mente (Astúcia)` ou `Mente (Vontade)` **CD 8** para enxergar o tremor sutil da miragem.
+   - *Disparo:* A cada 3 passos, um bloco é falso; quem pisar cai no abismo (`Corpo [Agilidade]` **CD 8** para agarrar a borda real antes de despencar para morte ou para o andar inferior com **3 de Dano**!).
    - *Solução Criativa:* Atirar pedrinhas, areia ou tocar com uma lança longa cada bloco antes de pisar (sem precisar rolar dados após descobrir o truque!), ou usar o sentido espiritual do *Oráculo*.
 
 10. **Jaula Automática de Correntes Celestiais (*Torre de Marfim / Ilhas Acorrentadas*):**
     - *Pista Visual:* Ganchos enferrujados no teto formando um hexágono acima de um pedestal com uma relíquia falsa brilhante no centro.
-    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 9** para notar os contrapesos na parede; `Corpo (Agilidade)` **CD 9** para travar as roldanas.
-    - *Disparo:* Correntes pesadas despencam prendendo até **3 jogadores** em alcance *Perto* (*Imobilizado* — exige `Corpo [Força]` **CD 10** ou `2 de Dano` nos elos) enquanto o barulho desperta guardiões da sala!
+    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 7** para notar os contrapesos na parede; `Corpo (Agilidade)` **CD 7** para travar as roldanas.
+    - *Disparo:* Correntes pesadas despencam prendendo até **3 jogadores** em alcance *Perto* (*Imobilizado* — exige `Corpo [Força]` **CD 8** ou `2 de Dano` nos elos) enquanto o barulho desperta guardiões da sala!
     - *Solução Criativa:* Trocar o peso do pedestal por um saco de pedras da mesma massa ou usar *Passo das Sombras* para teletransportar-se de dentro da jaula.
 
 11. **Corredor da Amnésia de Oblivion (*Criptas de Oblivion*):**
     - *Pista Visual:* Um corredor circular com centenas de entalhes desesperados nas paredes feitos por unhas humanas dizendo frases repetidas como *"NÃO SOLTE A CORDA"* e *"CONTE OS DEGRAUS"*.
-    - *Detecção / Desarme:* `Mente (Conhecimento)` **CD 9** para reconhecer a assinatura de Oblivion; `Mente (Vontade)` **CD 10** ao entrar.
+    - *Detecção / Desarme:* `Mente (Conhecimento)` **CD 7** para reconhecer a assinatura de Oblivion; `Mente (Vontade)` **CD 8** ao entrar.
     - *Disparo:* Quem falhar em *Vontade* esquece a própria identidade, os companheiros ao lado e até como usar seu Aspecto por 1 cena — podendo se separar do grupo ou atacar um aliado assustado!
     - *Solução Criativa:* Todos entram amarrados na mesma corda e repetindo em voz alta os nomes uns dos outros em coro; o *Guardião da Fogueira* ou portador de *Nome Verdadeiro* guia os demais.
 
 12. **Obelisco dos Sussurros Proibidos (*Ruínas de Ariel / Deserto*):**
     - *Pista Visual:* Um pilar negro de jade com inscrições rúnicas que parecem se mexer na visão periférica, rodeado por esqueletos com os ouvidos arrancados pelas próprias mãos.
-    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 8** para notar os ossos antes de ler; `Alma (Abjurar)` **CD 11** para silenciar a ressonância do obelisco.
-    - *Disparo:* Qualquer um que leia ou escute a verdade gravada no obelisco sem proteção sofre **1 de Dano de Alma** e precisa passar em `Mente (Vontade)` **CD 11** ou ganha **1 Marca de Corrupção**!
+    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 6** para notar os ossos antes de ler; `Alma (Abjurar)` **CD 9** para silenciar a ressonância do obelisco.
+    - *Disparo:* Qualquer um que leia ou escute a verdade gravada no obelisco sem proteção sofre **1 de Dano de Alma** e precisa passar em `Mente (Vontade)` **CD 9** ou ganha **1 Marca de Corrupção**!
     - *Solução Criativa:* Tampar os ouvidos com cera/pano, não olhar diretamente para as runas e derrubar um pano preto sobre o obelisco antes de passar.
 
 13. **Forja Pressurizada de Vapor de Ferro (*Templos do Deus da Guerra*):**
     - *Pista Visual:* Canos de bronze vibrando e válvulas sibilando ao longo de uma sala cheia de bigornas antigas onde há uma porta trancada.
-    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 8** para notar as válvulas ligadas às dobradiças da porta; `Mente (Conhecimento)` **CD 9** para aliviar a pressão na ordem correta.
-    - *Disparo:* Tentar arrombar a porta rompe os dutos: jatos de vapor escaldante e estilhaços de ferro inundam a faixa *Perto* (`Corpo [Agilidade]` **CD 9**, **2 de Dano** e condição *Cego* pela fumaça por 1 rodada).
+    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 6** para notar as válvulas ligadas às dobradiças da porta; `Mente (Conhecimento)` **CD 7** para aliviar a pressão na ordem correta.
+    - *Disparo:* Tentar arrombar a porta rompe os dutos: jatos de vapor escaldante e estilhaços de ferro inundam a faixa *Perto* (`Corpo [Agilidade]` **CD 7**, **2 de Dano** e condição *Cego* pela fumaça por 1 rodada).
     - *Solução Criativa:* Abrir as válvulas de escape laterais ou resfriar os dutos com Poderes de Gelo/Água antes de abrir a porta.
 
 14. **Poço de Escuridão Voraz (*Templos do Deus das Sombras*):**
     - *Pista Visual:* Uma área circular no chão onde até a luz do sol ou de lanternas parece ser puxada para baixo, sem refletir nada.
-    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 9**; não pode ser desarmada com ferramentas comuns — reage à presença de **Corrupção** ou violência.
-    - *Disparo:* Qualquer criatura hostil ou personagem com **2 ou mais Marcas de Corrupção** que pisar no círculo é puxado por mãos de sombra pura (`Alma [Abjurar]` ou `Corpo [Força]` **CD 11** ou sofre **2 de Dano de Alma** e fica *Imobilizado*!).
+    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 7**; não pode ser desarmada com ferramentas comuns — reage à presença de **Corrupção** ou violência.
+    - *Disparo:* Qualquer criatura hostil ou personagem com **2 ou mais Marcas de Corrupção** que pisar no círculo é puxado por mãos de sombra pura (`Alma [Abjurar]` ou `Corpo [Força]` **CD 9** ou sofre **2 de Dano de Alma** e fica *Imobilizado*!).
     - *Solução Criativa:* A Coorte pode atrair intencionalmente uma Criatura do Pesadelo perseguindo o grupo para dentro do círculo sagrado e deixar as sombras do templo devorarem o monstro!
 
 15. **Pêndulo Rúnico de Fendas Espaciais (*Cidadelas da Guerra da Perdição*):**
     - *Pista Visual:* O ar no centro do salão treme como asfalto quente e objetos lançados ali desaparecem por um segundo antes de cair cortados em duas metades perfeitas.
-    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 10** para mapear o ritmo de 4 segundos do pêndulo invisível; `Alma (Canalizar)` **CD 11** para interromper o nó de Tecelagem no teto.
-    - *Disparo:* A travessia sem sincronizar o ritmo expõe o corpo à lâmina espacial (`Corpo [Agilidade]` **CD 11**, **3 de Dano** brutal — ignora armaduras comuns!).
+    - *Detecção / Desarme:* `Mente (Astúcia)` **CD 8** para mapear o ritmo de 4 segundos do pêndulo invisível; `Alma (Canalizar)` **CD 9** para interromper o nó de Tecelagem no teto.
+    - *Disparo:* A travessia sem sincronizar o ritmo expõe o corpo à lâmina espacial (`Corpo [Agilidade]` **CD 9**, **3 de Dano** brutal — ignora armaduras comuns!).
     - *Solução Criativa:* Cronometrar o ritmo arremessando gravetos ou pedrinhas para que cada jogador cruze nos exatos 2 segundos seguros, usando o *Espectro* ou *Oráculo* para contar o compasso em voz alta.
 
 ---
@@ -1699,61 +1700,62 @@ Sempre que a Coorte viajar em área selvagem por um dia, acampar após falha do 
 2. **Leia o resultado como um ponto de partida, não como uma luta obrigatória.** Resultados `7` e `12` são descobertas; `10–11` costumam ser humanos (negociáveis); `2` é um aviso de perigo extremo para **fugir**, não para lutar.
 3. **Mostre antes de atacar:** descreva sinais (rastros, cheiro, som) e dê aos jogadores **uma chance de reagir** (Furtividade, desvio de rota, emboscada própria) antes de iniciar o combate.
 4. **Ajuste ao tamanho e ao Rank da mesa** com a calibragem do *Capítulo 5.1* (retire criaturas menores se houver menos de 7 jogadores ou se a Coorte estiver ferida).
+5. **Respeite o Orçamento de Ameaça** (*Seção 5.1*): cada resultado traz a Ameaça calculada para **7 jogadores** do Rank indicado no título da matriz. **⚠️ Fuga/Evitar** = há criatura de Rank acima e o encontro passa do Orçamento — apresente como perigo a contornar ou a enfrentar só com preparação. **⚖️ Acima do Orçamento** = mesmo Rank, mas golpes demais por rodada — divida em ondas ou retire criaturas.
 
 > 🎙️ **Exemplo de Mesa:** A Coorte atravessa a Costa Esquecida e o *Sentinela* falha no acampamento. O Mestre rola `2d6` = `8` → **Alcateia das Ruínas**. Em vez de "rolem iniciativa", ele narra: *"Risadas secas ecoam entre os corais. Vocês contam seis silhuetas curvadas, e uma maior, imóvel, observando a fogueira."* Os jogadores apagam o fogo e recuam para uma fenda estreita (Posição de Gargalo): só 2 Carniçais podem atacar por vez. O encontro continua perigoso, mas agora foi **escolha tática** dos jogadores.
 
-### Matriz A — Costa Esquecida & Mar Tempestuoso (`2d6`)
+### Matriz A — Costa Esquecida & Mar Tempestuoso (`2d6`) — *Coorte Adormecida*
 | `2d6` | Costa Esquecida (Labirinto de Coral & Castelo Brilhante) | Mar Tempestuoso (Navegação & Faróis Astrais) |
 | :---: | :--- | :--- |
-| **2** | **Terror à Vista!** Um *Demônio/Tirano Caído* (ou a silhueta da *Árvore Devoradora de Almas*) surge no horizonte; a Coorte deve fugir ou esconder-se (`Furtividade` CD 11)! | **Calamidade Abissal!** O céu rasga em uma *Tempestade de Alma* enquanto os tentáculos da *Serpente do Mar Negro* emergem ao lado do casco! |
-| **3–4** | **Emboscada Noturna da Maré:** `4 Afogados do Mar Amaldiçoado` + `2 Escavadores de Coral` cercam o grupo perto de uma fenda inundada. | **Canto da Morte:** `1 Sereia dos Sussurros` empoleirada em um recife atrai os marinheiros enquanto `3 Enguias de Relâmpago` cercam o leme. |
-| **5–6** | **Patrulha da Carapaça:** `5 Saqueadores da Carapaça` liderados por `1 Centurião da Carapaça` disputando a carcaça de uma besta gigante. | **Cardume Elétrico:** `4 Enguias de Relâmpago Abissal` + `2 Afogados` escalam o casco pelos cabos da âncora em meio ao nevoeiro. |
+| **2** | **Terror à Vista!** Um *Demônio/Tirano Caído* (ou a silhueta da *Árvore Devoradora de Almas*) surge no horizonte; a Coorte deve fugir ou esconder-se (`Furtividade` CD 9)! | **Calamidade Abissal!** O céu rasga em uma *Tempestade de Alma* enquanto os tentáculos da *Serpente do Mar Negro* emergem ao lado do casco! |
+| **3–4** | **Emboscada Noturna da Maré:** `4 Afogados do Mar Amaldiçoado` + `2 Escavadores de Coral` cercam o grupo perto de uma fenda inundada. | **Canto da Morte:** ⚠️ **Fuga/Evitar** *(Ameaça 21 > 7; Sereia e Enguias Despertas)* `1 Sereia dos Sussurros` empoleirada em um recife atrai os marinheiros enquanto `3 Enguias de Relâmpago` cercam o leme. |
+| **5–6** | **Patrulha da Carapaça:** ⚠️ **Fuga/Evitar** *(Ameaça 16 > 7; Centurião Desperto em 👑 Perfil de Chefe: CD 12, 28 PV, Dano 3 — só com Relógio de Preparação e pegando-o sozinho)* `5 Saqueadores da Carapaça` liderados por `1 Centurião da Carapaça` disputando a carcaça de uma besta gigante. | **Cardume Elétrico:** ⚠️ **Fuga/Evitar** *(Ameaça 26 > 7; Enguias Despertas)* `4 Enguias de Relâmpago Abissal` + `2 Afogados` escalam o casco pelos cabos da âncora em meio ao nevoeiro. |
 | **7** | **Vestígio de Antigos Adormecidos:** Esqueletos de uma Coorte antiga em uma caverna seca. Contém **1d6 Fragmentos Adormecidos**, um diário e o mapa de uma Estátua Sem Cabeça! | **Farol Abandonado ou Destroço:** Um barco sem tripulação ou farol apagado contendo **3 Fragmentos Despertos**, suprimentos navais e 1 pista sobre um Navio-Cidadela. |
-| **8–9** | **Alcateia das Ruínas:** `6 Carniçais das Ruínas` + `1 Carniçal Alfa` cercam o grupo ao crepúsculo tentando derrubar o mais isolado. | **Corsários Renegados:** Um veleiro de `5 Saqueadores / Navegadores Renegados` aborda a embarcação exigindo pedágio em Fragmentos. |
-| **10–11** | **Coorte Humana Rival:** `5 Guardas de Elite` ou `4 Saqueadores do Castelo Brilhante` (atitude *Desconfiada* — CD 11 para negociar passagem ou rendição). | **Patrulha da Casa da Noite:** Um navio patrulheiro liderado por `1 Navegador da Casa da Noite` (pode contratar a Coorte ou cobrar taxa portuária!). |
+| **8–9** | **Alcateia das Ruínas:** ⚖️ *Acima do Orçamento (Ameaça 8 > 7): comece com 5 Carniçais + o Alfa; o 6º chega na rodada 2.* `6 Carniçais das Ruínas` + `1 Carniçal Alfa` cercam o grupo ao crepúsculo tentando derrubar o mais isolado. | **Corsários Renegados:** Um veleiro de `5 Saqueadores / Navegadores Renegados` aborda a embarcação exigindo pedágio em Fragmentos. |
+| **10–11** | **Coorte Humana Rival:** `5 Guardas de Elite` ou `4 Saqueadores do Castelo Brilhante` (atitude *Desconfiada* — CD 9 para negociar passagem ou rendição). | **Patrulha da Casa da Noite:** Um navio patrulheiro liderado por `1 Navegador da Casa da Noite` (pode contratar a Coorte ou cobrar taxa portuária!). |
 | **12** | **Oásis de Coral / Mímico:** Um santuário seco de um dos 6 Deuses com **água pura** — ou um *Mímico Mordente* disfarçado de baú antigo com uma Memória rara dentro! | **Ilha-Tesouro Recém-Emersa:** Uma ruína do Deus da Tempestade subiu à superfície hoje contendo **1 Memória Tier III** e materiais raros! |
 
-### Matriz B — Ilhas Acorrentadas & Bastion / Florestas Vermelhas (`2d6`)
+### Matriz B — Ilhas Acorrentadas & Bastion / Florestas Vermelhas (`2d6`) — *Coorte Adormecida*
 | `2d6` | Ilhas Acorrentadas (Céu Abaixo & Correntes) | Bastion & Florestas Vermelhas (Clã Valor & Espelhos) |
 | :---: | :--- | :--- |
-| **2** | **Ascensão ao Esmagamento!** A ilha começa a subir rápido rumo às nuvens pesadas enquanto `1 Verme das Correntes` ataca a entrada do único abrigo! | **Anomalia do Lago Espelhado:** Todos os espelhos e poças ao redor liberam `3 Bestas de Espelho` que copiam a linha de frente da Coorte! |
-| **3–4** | **Caçadores do Céu:** `5 Vespas Carmesins` + `2 Harpias de Penas de Bronze` atacam enquanto o grupo atravessa uma corrente estreita sobre o abismo. | **Armadilha Viva da Selva:** `1 Flor Carnívora Gigante` disfarçada em uma clareira com `4 Lobos das Sombras Profundas` rondando ao redor. |
-| **5–6** | **Templo da Porcelana e Ferro:** `4 Aranhas de Ferro` + `2 Bonecos de Porcelana` patrulham um santuário destruído pela queda. | **Emboscada nas Sombras:** `4 Lobos das Sombras` ou `1 Cavaleiro Negro Errante` caçam viajantes longe da muralha de Bastion. |
+| **2** | **Ascensão ao Esmagamento!** ⚠️ **Fuga/Evitar** *(Verme das Correntes é Caído — 2 Ranks acima)* A ilha começa a subir rápido rumo às nuvens pesadas enquanto `1 Verme das Correntes` ataca a entrada do único abrigo! | **Anomalia do Lago Espelhado:** ⚠️ **Fuga/Evitar** *(Ameaça 12 > 7; Bestas de Espelho Despertas)* Todos os espelhos e poças ao redor liberam `3 Bestas de Espelho` que copiam a linha de frente da Coorte! |
+| **3–4** | **Caçadores do Céu:** ⚖️ *Acima do Orçamento (Ameaça 11 > 7): as Harpias só entram quando restarem 2 Vespas.* `5 Vespas Carmesins` + `2 Harpias de Penas de Bronze` atacam enquanto o grupo atravessa uma corrente estreita sobre o abismo. | **Armadilha Viva da Selva:** ⚠️ **Fuga/Evitar** *(Ameaça 16 > 7; Flor e Lobos Despertos)* `1 Flor Carnívora Gigante` disfarçada em uma clareira com `4 Lobos das Sombras Profundas` rondando ao redor. |
+| **5–6** | **Templo da Porcelana e Ferro:** ⚖️ *Acima do Orçamento (Ameaça 12 > 7): 1 Boneco + 3 Aranhas (Ameaça 7); o 2º Boneco é uma 2ª onda.* `4 Aranhas de Ferro` + `2 Bonecos de Porcelana` patrulham um santuário destruído pela queda. | **Emboscada nas Sombras:** ⚠️ **Fuga/Evitar** *(Lobos Despertos: Ameaça 8 > 7; Cavaleiro Negro: Caído, 2 Ranks acima)* `4 Lobos das Sombras` ou `1 Cavaleiro Negro Errante` caçam viajantes longe da muralha de Bastion. |
 | **7** | **Altar Intacto de Hope/Sol:** Um pequeno jardim de árvores prateadas com frutos comestíveis e **+1 Ponto de Essência** recuperado ao resolver um enigma rúnico. | **Caravana de Mercadores de Valor:** Um comboio de escudeiros oferece troca justa de **Fragmentos por Memórias Tier I–II** e informações sobre leilões. |
-| **8–9** | **Colmeia nas Correntes:** `6 Vespas Carmesins` defendendo um favo cristalizado (vale **4 Fragmentos Despertos** e mel curativo se colhido!). | **Ninho de Podridão:** `2 Vermes da Podridão Cinzenta` + `4 Larvas do Pesadelo` devorando os restos de uma caravana destruída. |
+| **8–9** | **Colmeia nas Correntes:** `6 Vespas Carmesins` defendendo um favo cristalizado (vale **4 Fragmentos Despertos** e mel curativo se colhido!). | **Ninho de Podridão:** ⚠️ **Fuga/Evitar** *(Ameaça 16 > 7; Vermes Despertos)* `2 Vermes da Podridão Cinzenta` + `4 Larvas do Pesadelo` devorando os restos de uma caravana destruída. |
 | **10–11** | **Coorte de Legados em Disputa:** `4 Escudeiros de Valor` ou `1 Navegador + 4 Mercenários` tentando rebocar um destroço de navio voador. | **Patrulha de Cavalaria de Valor:** `3 Escudeiros de Valor` + `1 Ilusionista de Bastion` investigando invasores ou cobrando impostos de caça. |
 | **12** | **Navio Voador Quebrado:** Destroços flutuantes de um veleiro rúnico intacto o bastante para fornecer peças raras e **1 Memória Tier III/IV**! | **Salão Secreto de Mirage:** Uma porta espelhada oculta em uma árvore carmesim leva a uma câmara intocada com **1 Relíquia Tier III/IV**! |
 
-### Matriz C — Montanhas Ocas, Submundo de Nether & Ravenheart (`2d6`)
+### Matriz C — Montanhas Ocas, Submundo de Nether & Ravenheart (`2d6`) — *Coorte Desperta*
 | `2d6` | Montanhas Ocas & Submundo de Nether | Ravenheart & Planícies de Cinza (Clã Song) |
 | :---: | :--- | :--- |
 | **2** | **Escuridão Absoluta & Colosso:** Uma maré de *Escuridão Verdadeira* engole o túnel enquanto `1 Goliath de Pedra Rubra` desperta da parede! | **Erupção & Dragão no Céu:** Chuva de cinza ardente obriga a Coorte a se abrigar em cavernas onde um *Dragão de Cinza e Magma* sobrevoa caçando! |
-| **3–4** | **Patrulha da Névoa e da Pedra:** `3 Gárgulas da Névoa Branca` + `2 Cavaleiros de Pedra Imperfeitos` cercam a ponte de obsidiana. | **Matilha das Cinzas:** `3 Salamandras de Magma` emergem de poças de lava enquanto `3 Lobos das Sombras` cercam a retaguarda. |
-| **5–6** | **Enxame das Fendas:** `1 Verme das Correntes de Ferro` + `4 Aranhas de Ferro` atacando os escudos e armas de metal da Coorte! | **Predadores Térmicos:** `2 Salamandras de Magma` + `2 Vermes da Podridão` atraídos pelo calor do acampamento. |
+| **3–4** | **Patrulha da Névoa e da Pedra:** ⚖️ *Acima do Orçamento (Ameaça 23 > 7): use 1 Gárgula + 1 Cavaleiro de Pedra (Ameaça 9 → corte para 7 com a Gárgula atacando 2 alvos e o Cavaleiro 1).* `3 Gárgulas da Névoa Branca` + `2 Cavaleiros de Pedra Imperfeitos` cercam a ponte de obsidiana. | **Matilha das Cinzas:** ⚖️ *Acima do Orçamento (Ameaça 18 > 7): 2 Salamandras atacando 1 alvo cada + 1 Lobo (Ameaça 6); o resto é 2ª onda.* `3 Salamandras de Magma` emergem de poças de lava enquanto `3 Lobos das Sombras` cercam a retaguarda. |
+| **5–6** | **Enxame das Fendas:** ⚠️ **Fuga/Evitar** *(Ameaça 10 > 7; Verme das Correntes Caído)* `1 Verme das Correntes de Ferro` + `4 Aranhas de Ferro` atacando os escudos e armas de metal da Coorte! | **Predadores Térmicos:** ⚖️ *Acima do Orçamento (Ameaça 20 > 7): 1 Salamandra + 1 Verme da Podridão atacando 1 alvo cada (Ameaça 4) e o restante como 2ª onda.* `2 Salamandras de Magma` + `2 Vermes da Podridão` atraídos pelo calor do acampamento. |
 | **7** | **Oficina Abandonada de Nether:** Forja fria de ônix com **3 Cristais de Alma Despertos**, bigorna funcional para o *Artífice* e estátuas inacabadas. | **Posto de Carruagens de Song:** Caravana blindada com mercadores vendendo elixires antitoxina, carnes temperadas e notícias sobre Ravenheart. |
-| **8–9** | **Emboscada de Almas:** `2 Espectros Devoradores de Almas` emergem das paredes geladas ignorando armaduras físicas e focando no *Canalizador*. | **Bando de Marionetes Desgarradas:** `5 Esqueletos/Cadáveres Reanimados` sem mestre atacando qualquer ser vivo na tempestade de cinzas. |
+| **8–9** | **Emboscada de Almas:** ⚠️ **Fuga/Evitar** *(Ameaça 8 > 7; Espectros Caídos)* `2 Espectros Devoradores de Almas` emergem das paredes geladas ignorando armaduras físicas e focando no *Canalizador*. | **Bando de Marionetes Desgarradas:** `5 Esqueletos/Cadáveres Reanimados` sem mestre atacando qualquer ser vivo na tempestade de cinzas. |
 | **10–11** | **Expedição Secreta nas Profundezas:** `1 Agente Ceifador` + `4 Escudeiros` ou batedores explorando um atalho sob as Montanhas Ocas. | **Batedoras do Clã Song:** `1 Discípula de Sangue de Song` acompanhada de `2 Marionetes` + `1 Assassino Silencioso` patrulhando a fronteira. |
 | **12** | **Santuário do Deus das Sombras:** Templo de obsidiana silencioso onde **Marcas de Corrupção são purificadas** e há 1 *Lanterna* ou aço negro raro! | **Fosso de Sangue e Forja:** Uma fonte vulcânica com **Minério de Magma Puro** (excelente para Tecelagem) e **1 Memória Tier IV**! |
 
-### Matriz D — Deserto dos Pesadelos, Tumba de Ariel & Godgrave (`2d6`)
+### Matriz D — Deserto dos Pesadelos, Tumba de Ariel & Godgrave (`2d6`) — *Coorte Desperta*
 | `2d6` | Deserto dos Pesadelos & Tumba de Ariel | Godgrave (Selva Escarlate & Hollows) |
 | :---: | :--- | :--- |
-| **2** | **Despertar da Legião / Loop Temporal:** O sol se põe de repente (ou uma onda temporal do Grande Rio atinge o grupo) trazendo `1 Bispo` ou `1 Ladrão de Pele`! | **O Olho do Céu Abre!** As nuvens brancas partem-se sem aviso prévio enquanto `2 Centopeias Ósseas de Godgrave` surgem por baixo da selva! |
-| **3–4** | **Falsa Esperança no Deserto:** `1 Ladrão de Pele (Skinwalker)` imitando a voz de um humano perdido tenta atrair o grupo para uma emboscada de `4 Esqueletos Imortais`. | **Selva Predadora:** `2 Flores Carnívoras Gigantes` + `4 Vespas/Insetos Escarlates` (CD 10–11) caçando antes da próxima abertura das nuvens. |
-| **5–6** | **Patrulha da Guerra Eterna:** `5 Esqueletos da Legião Imortal` + `1 Cavaleiro Negro` emergem das dunas de osso branco ao entardecer. | **Caçadores da Medula (*Hollows*):** `2 Centopeias Ósseas` + `2 Vermes da Podridão Corrompidos` escalando as paredes de osso branco. |
+| **2** | **Despertar da Legião / Loop Temporal:** ⚠️ **Fuga/Evitar** *(Bispo/Ladrão de Pele: 2 Ranks acima)* O sol se põe de repente (ou uma onda temporal do Grande Rio atinge o grupo) trazendo `1 Bispo` ou `1 Ladrão de Pele`! | **O Olho do Céu Abre!** ⚠️ **Fuga/Evitar** *(Centopeias Corrompidas — 2 Ranks acima; Ameaça 24)* As nuvens brancas partem-se sem aviso prévio enquanto `2 Centopeias Ósseas de Godgrave` surgem por baixo da selva! |
+| **3–4** | **Falsa Esperança no Deserto:** ⚠️ **Fuga/Evitar** *(Ladrão de Pele Corrompido — 2 Ranks acima; Ameaça ~22)* `1 Ladrão de Pele (Skinwalker)` imitando a voz de um humano perdido tenta atrair o grupo para uma emboscada de `4 Esqueletos Imortais`. | **Selva Predadora:** ⚖️ *Acima do Orçamento (Ameaça 20 > 7): 1 Flor atacando 3 alvos (Ameaça 6) + 1 Inseto; a 2ª Flor dorme até alguém pisar nas raízes.* `2 Flores Carnívoras Gigantes` + `4 Vespas/Insetos Escarlates` (CD 10–11) caçando antes da próxima abertura das nuvens. |
+| **5–6** | **Patrulha da Guerra Eterna:** ⚠️ **Fuga/Evitar** *(Cavaleiro Negro Caído + 5 Esqueletos: Ameaça 29)* `5 Esqueletos da Legião Imortal` + `1 Cavaleiro Negro` emergem das dunas de osso branco ao entardecer. | **Caçadores da Medula (*Hollows*):** ⚠️ **Fuga/Evitar** *(Centopeias e Vermes Corrompidos — 2 Ranks acima; Ameaça 36)* `2 Centopeias Ósseas` + `2 Vermes da Podridão Corrompidos` escalando as paredes de osso branco. |
 | **7** | **Oásis Enterrado / Ilha Flutuante:** Câmara antiga selada contra os esqueletos (ou porto de Cidade do Rio) com água pura e **2 Fragmentos Ascendidos**. | **Fenda Segura Sob a Costela:** Uma caverna natural protegida do céu onde antigos exploradores deixaram suprimentos e **3 Fragmentos Ascendidos**. |
-| **8–9** | **Praga dos Sonhos no Rio:** `2 Mariposas Devoradoras de Sonhos` + `1 Espectro Devorador de Almas` tentando adormecer o vigia do grupo. | **Enxame de Quitina Vermelha:** `1 Aranha Matriarca de Seda Crânio` + `4 Aranhas de Ferro` tecendo teias entre duas costelas gigantes. |
+| **8–9** | **Praga dos Sonhos no Rio:** ⚠️ **Fuga/Evitar** *(Ameaça 12 > 7; Espectro Caído)* `2 Mariposas Devoradoras de Sonhos` + `1 Espectro Devorador de Almas` tentando adormecer o vigia do grupo. | **Enxame de Quitina Vermelha:** ⚠️ **Fuga/Evitar** *(Ameaça 10 > 7; Aranha Matriarca Caída)* `1 Aranha Matriarca de Seda Crânio` + `4 Aranhas de Ferro` tecendo teias entre duas costelas gigantes. |
 | **10–11** | **Vanguarda de Guerra dos Clãs:** Uma força de `1 Mestre da Lâmina Solar` + `3 Escudeiros de Valor` (ou força equivalente de Song) em marcha militar! | **Esquadrão de Elite Transcendente:** Patrulha avançada de Valor ou Song liderada por `1 Ascendido` e `4 Veteranos` em disputa territorial. |
 | **12** | **Pirâmide Branca / Relíquia de Ariel:** Cripta recém-desenterrada contendo textos sobre *Feitiçaria de Nomes* e **1 Memória Ascendida/Transcendente Tier IV–V**! | **Coração da Selva Calcinada:** Após a passagem do Sol, entre as cinzas intocadas brilha um **Cristal de Alma Transcendente** e uma Relíquia Divina menor! |
 
-### Matriz E — Mundo Desperto: NQSC, Periferia & Guerra da Antártica (`2d6`)
+### Matriz E — Mundo Desperto: NQSC, Periferia & Guerra da Antártica (`2d6`) — *Coorte Desperta*
 | `2d6` | Metrópoles, Periferia & Portais Urbanos | Campanha Militar da Antártica (Cadeias de Portais) |
 | :---: | :--- | :--- |
-| **2** | **Ruptura de Portal Categoria 3!** As sirenes uivam na rua ao lado! A fenda rasga o asfalto despejando `1 Diabo Caído` e dezenas de bestas sobre civis! | **Cadeia de Portais & Titã no Horizonte:** Tempestade de neve absoluta enquanto a sombra de um **Terror de Lo49** ou **Goliath Corrompido** bloqueia o radar! |
-| **3–4** | **Culto da Profanação na Favela:** `4 Fanáticos do Culto` liderados por `1 Sacerdote do Vazio` tentando plantar uma Semente de Corrupção em um abrigo. | **Fera da Nevasca:** `2 Feras da Névoa Congelante` emboscam o comboio blindado apagando as luzes térmicas dos trajes! |
-| **5–6** | **Fuga de Portal Categoria 1–2:** `6 Carniçais` + `1 Aranha de Ferro` (ou `1 Verme da Podridão`) invadem uma estação de metrô abandonada. | **Horda da Trincheira:** Uma vanguarda de `8 Bestas/Monstros Despertos` avança contra o comboio civil de refugiados. |
+| **2** | **Ruptura de Portal Categoria 3!** ⚠️ **Fuga/Evitar** *(Diabo Caído + bestas: Ameaça > 7)* As sirenes uivam na rua ao lado! A fenda rasga o asfalto despejando `1 Diabo Caído` e dezenas de bestas sobre civis! | **Cadeia de Portais & Titã no Horizonte:** Tempestade de neve absoluta enquanto a sombra de um **Terror de Lo49** ou **Goliath Corrompido** bloqueia o radar! |
+| **3–4** | **Culto da Profanação na Favela:** `4 Fanáticos do Culto` liderados por `1 Sacerdote do Vazio` tentando plantar uma Semente de Corrupção em um abrigo. | **Fera da Nevasca:** ⚠️ **Fuga/Evitar** *(Ameaça 12 > 7; Feras Caídas)* `2 Feras da Névoa Congelante` emboscam o comboio blindado apagando as luzes térmicas dos trajes! |
+| **5–6** | **Fuga de Portal Categoria 1–2:** ⚖️ *Ameaça 7 com a Aranha (6 Carniçais + 1) — dentro do Orçamento; com o Verme da Podridão vira 12: deixe o Verme como 2ª onda.* `6 Carniçais` + `1 Aranha de Ferro` (ou `1 Verme da Podridão`) invadem uma estação de metrô abandonada. | **Horda da Trincheira:** ⚖️ *Acima do Orçamento (8 criaturas de Dano 2 = Ameaça 16): resolva como Horda (Seção 5.3) em vez de 8 fichas separadas, ou mande 3 de cada vez.* Uma vanguarda de `8 Bestas/Monstros Despertos` avança contra o comboio civil de refugiados. |
 | **7** | **Informante da Rede Desperta:** Um contato na Periferia ou oficial do Governo oferece contrato pago em **Créditos + 3 Fragmentos Despertos**. | **Comboio de Suprimentos do Governo:** Tanque *Rino* atolado com soldados feridos; resgatá-los rende **+1 de Reputação com o Governo** e munição rúnica! |
-| **8–9** | **Emboscada de Gangue / Sindicato:** `4 Assassinos Silenciosos` e `2 Atiradores` contratados por um rival para roubar as Memórias do grupo! | **Ninho Sob o Gelo:** `3 Gárgulas da Névoa Branca` + `2 Espectros Devoradores de Almas` saindo de fendas glaciais ao lado do acampamento. |
+| **8–9** | **Emboscada de Gangue / Sindicato:** `4 Assassinos Silenciosos` e `2 Atiradores` contratados por um rival para roubar as Memórias do grupo! | **Ninho Sob o Gelo:** ⚠️ **Fuga/Evitar** *(Ameaça 23 > 7; Espectros Caídos)* `3 Gárgulas da Névoa Branca` + `2 Espectros Devoradores de Almas` saindo de fendas glaciais ao lado do acampamento. |
 | **10–11** | **Inspeção de Esquadrão Ceifador:** `1 Agente Ceifador` + `3 Cadetes Armados` investigando um assassinato sobrenatural ou recrutando a Coorte. | **Linha de Frente Aliada:** Coorte aliada de `5 Despertos` + `1 Ascendido` segurando um posto avançado; pede reforço imediato contra um Portal Cat. 3! |
 | **12** | **Leilão Clandestino / Mercado Negro:** Convite secreto para comprar **Memórias Tier III** e materiais proibidos da Academia ou da Periferia! | **Relíquia de Portal Cat. 4 Derrotada:** Um comboio encontra a carcaça recém-abatida de um *Diabo/Tirano Caído* com **1 Memória Tier IV** intacta! |
 
@@ -1775,8 +1777,59 @@ Mestrar combates em qualquer RPG costuma quebrar quando a mesa chega a **7 jogad
 | Tipo de Encontro | Duração Esperada | Composição Ideal (Para 7 Jogadores do Mesmo Rank) | Dinâmica na Mesa |
 | :--- | :---: | :--- | :--- |
 | **1. Encontro Rápido** *(Patrulha / Emboscada)* | **2 a 3 rodadas** | **5 a 7 Bestas/Monstros menores** (`3 a 6 PV` cada) — ou 1 Monstro Líder (`8 PV`) + `4 Bestas` (`3 PV`). | Dá a quase todo jogador a chance de abater uma criatura e rolar `1d6` por Memórias! |
-| **2. Encontro Tático** *(Guardiões de Ruína)* | **3 a 5 rodadas** | **1 Demônio ou Diabo** (`12 a 20 PV`, ataca 2–3 alvos) + **3 a 4 Lacaios** (`4 a 6 PV` cada) cobrindo os flancos. | Exige que o *Baluarte* segure o elite enquanto *Olho de Falcão* e *Espectro* limpam os flancos. |
+| **2. Encontro Tático** *(Guardiões de Ruína)* | **3 a 5 rodadas** | **1 Demônio ou Diabo** (`12 a 20 PV`, ataca 2 alvos com Dano `2` = Ameaça `4`) + **3 Lacaios** de Dano `1` (`4 a 6 PV` cada) cobrindo os flancos — Ameaça total `7`. | Exige que o *Baluarte* segure o elite enquanto *Olho de Falcão* e *Espectro* limpam os flancos. |
 | **3. Batalha de Chefe** *(Fim de Arco / Pesadelo)* | **4 a 6 rodadas** | **1 Grande Chefe com Partes Destrutíveis** (`15 a 35 PV de Núcleo` + **3 a 4 Partes de `4 a 8 PV`**) + terreno perigoso ou `2 lacaios` de distração. | Os 7 jogadores dividem alvos: uns quebram as partes que protegem o chefe, outros atingem o Núcleo! |
+
+### 🎯 Orçamento de Ameaça (Quanto Dano por Rodada a Coorte Aguenta)
+O que mata uma Coorte não é o PV do monstro — é **quantos golpes chegam por rodada**. Por isso, todo encontro tem um **Orçamento de Ameaça**:
+
+> **Ameaça de uma criatura** = `nº de jogadores que ela ataca por rodada × Dano por alvo`
+> **Ameaça do encontro** = soma da Ameaça de todas as criaturas que agem na rodada
+> **Regra:** `Ameaça do encontro ≤ 1 × nº de jogadores`
+
+**Passo a passo (30 segundos com a ficha aberta):**
+1. **Liste quem ataca na rodada.** Cada lacaio conta separado; um chefe com 2 ataques conta os dois; Ecos e criaturas que só prendem/controlam (sem Dano) contam `0`.
+2. **Multiplique `alvos × Dano` de cada uma.** Use o Dano normal da ficha (não o Dano aumentado de `CD - 4` ou de Crítico). Enxames e matilhas: cada indivíduo ataca **1 alvo**. Dano de Alma conta igual ao Dano físico.
+3. **Some tudo.** Esse é o número de Ameaça.
+4. **Compare com o Orçamento** = número de jogadores na mesa (tabela abaixo).
+5. **Se passar do Orçamento:** retire lacaios, faça o chefe atacar menos alvos (Ataque Varrido em 2 em vez de 4), divida o encontro em **ondas** (a 2ª entra quando a 1ª cair) ou dê aos jogadores um jeito de evitar parte dos golpes (gargalo, cobertura, emboscada).
+6. **Criatura de Rank acima da Coorte num encontro acima do Orçamento → marque Fuga/Evitar.** Apresente a cena como algo a contornar, despistar ou enfrentar só com preparação (emboscada, armadilha, terreno escolhido). Criatura **2 ou mais Ranks acima** é sempre **Fuga/Evitar**, mesmo dentro do Orçamento.
+
+| Jogadores | Orçamento de Ameaça | Exemplos que cabem (criaturas do mesmo Rank da Coorte) |
+| :---: | :---: | :--- |
+| **3** | `3` | 3 Carniçais das Ruínas (`3 × 1`) • 1 Harpia de Bronze (`3 alvos × 1`) |
+| **4** | `4` | 1 Boneco de Porcelana (`2 × 2`) • 2 Carniçais + 1 Carniçal Alfa (`1 + 1 + 2`) |
+| **5** | `5` | 1 Boneco de Porcelana (`4`) + 1 Carniçal (`1`) • 5 Afogados (`5 × 1`) |
+| **6** | `6` | 2 Saqueadores da Carapaça (`2 × 2 alvos × 1`) + 2 Carniçais • 1 Harpia (`3`) + 3 Afogados (`3`) |
+| **7** | `7` | 1 Boneco (`4`) + 3 Carniçais (`3`) • 5 Carniçais + 1 Alfa (`5 + 2`) |
+
+> 🎙️ **Exemplo de Mesa (Orçamento para 4 Adormecidos):** O Mestre rola a **Alcateia das Ruínas** (*Matriz A*): `6 Carniçais` (`6 × 1 = 6`) + `1 Carniçal Alfa` (`2 alvos × 1 = 2`) = **Ameaça 8**, o dobro do Orçamento de uma mesa de 4. Ele corta para **2 Carniçais + o Alfa** (`2 + 2 = 4`) e deixa os outros 4 Carniçais uivando ao longe como **2ª onda** se a luta passar de 3 rodadas. Já a **Patrulha da Carapaça** (`5 Saqueadores` = `5 × 2 × 1 = 10`, + `1 Centurião Desperto` = `3 × 2 = 6`) dá **Ameaça 16** — quatro vezes o Orçamento e com uma criatura de Rank acima: é **Fuga/Evitar**. O Mestre descreve a patrulha disputando uma carcaça e deixa a Coorte decidir entre contornar pelas fendas ou preparar uma emboscada para pegar o Centurião sozinho.
+
+> 📊 **Por que funciona:** nas simulações do sistema (10 mil combates por cenário), encontros dentro do Orçamento terminaram em vitória da Coorte quase sempre e raramente derrubaram alguém; acima de ~2× o Orçamento, mais da metade das lutas derrubou pelo menos um jogador.
+
+
+### 🧭 Relógio de Preparação: Como Conduzir um Plano Bem Executado
+Encontros marcados como **⚠️ Fuga/Evitar** — e todo chefe em **Perfil de Chefe** — não são proibidos: são lutas que só devem acontecer **com plano**. A regra está no *Livro 1, Seção 1.7*. Como Mestre:
+
+1. **Ofereça o plano assim que a Coorte encontrar o rastro.** Diga em voz alta: *"Isso é forte demais para uma briga direta. Querem se preparar?"* Desenhe o **Relógio de Preparação (4)** e, ao lado, o **Relógio de Ameaça (4)**.
+2. **Cada cena de preparo = 1 teste com uma Subcategoria concreta.** Rastrear (*Astúcia*), estudar carcaças e hábitos (*Conhecimento*), escorar ou cavar o terreno (*Força*/*Vigor*), entalhar runas (*Canalizar*/*Conhecimento*), montar uma isca (*Enganar*). Use CDs de **tarefa** (normalmente **7** ou **8**), não a CD da criatura.
+3. **Avance a Ameaça com honestidade:** +1 a cada Falha ou CD Exata, +2 na Falha com Infortúnio e +1 por cena gasta além da primeira. Se a Ameaça encher primeiro, a criatura percebe (muda de covil, chama reforços ou ataca no pior momento).
+4. **Completo = 1 Vantagem de Plano** (*Fraqueza Estudada* `-1 CD`, *Terreno Escolhido* `-1 alvo por rodada` ou *Emboscada Garantida*). **Uma por criatura de Rank acima.** Anote na ficha do chefe antes de rolar a Iniciativa.
+5. **Recompense o resto do plano pelas regras normais:** runas-armadilha prontas, Posição Elevada, flanqueamento, *Proteger Aliado*, *Derrubar* e *Mirar em Ponto Fraco* somam por cima da Vantagem de Plano.
+
+| Contra o Demônio Desperto em Perfil de Chefe (4 Adormecidos saturados, 10 mil lutas simuladas) | Vitória | Alguém cai |
+| :--- | :---: | :---: |
+| Briga direta | `~22%` | quase sempre |
+| Só a Vantagem de Plano (*Fraqueza Estudada*) | `~79%` | quase sempre |
+| Plano tático (emboscada + Posição Elevada + *Proteger Aliado*) | `~47%` | `~80%` |
+| Plano tático + *Fraqueza Estudada* | `~94%` | `~33%` |
+| Plano tático + *Terreno Escolhido* | `~91%` | `~61%` |
+
+> 🎙️ **Exemplo de Mesa (Conduzindo a Preparação):** A Coorte acha marcas de foice nas paredes de coral: é o território de um **Centurião da Carapaça** em Perfil de Chefe (CD 12 contra Adormecidos, 28 PV, Dano 3, 3 alvos — Ameaça 9 numa mesa de 4: **Fuga/Evitar**). O Mestre pergunta se querem se preparar e desenha os dois relógios.
+> - **Cena 1:** Lyra segue as trilhas de muco até o ninho (`Astúcia`, CD 8) e tira Pleno: Preparação **2/4**.
+> - **Cena 2:** Soren tenta entalhar uma Runa de Mina Ígnea na passagem (`Canalizar`, CD 7) e tira CD Exata: Preparação **3/4**, Ameaça **1/4** (o Centurião sente o cheiro de cinzas).
+> - **Cena 3:** Dorian derruba colunas de coral para afunilar a entrada (`Força`, CD 8): Pleno, **4/4**. O Mestre avança a Ameaça para **2/4** pela cena extra.
+> - A Coorte escolhe **Terreno Escolhido**: no corredor estreito, o Centurião só alcança **2 alvos** por rodada. A runa ainda explode na Rodada 1 (2 de Dano e **Derrubado** — o Centurião gasta a Ação Maior para se levantar). A luta continua perigosa, mas agora é vencível.
 
 ### ⚡ Regra dos 5 Segundos: E Se Faltarem Jogadores Hoje? (5 ou 6 Jogadores, ou Aliados Extras!)
 Nunca refaça a ficha inteira de um encontro quando alguém faltar de última hora! Aplique esta tabela instantânea antes de começar a cena:
@@ -1784,11 +1837,11 @@ Nunca refaça a ficha inteira de um encontro quando alguém faltar de última ho
 - **Mesa com 5 Jogadores (`-2` Ausentes):** Remova **2 lacaios menores** da cena, OU reduza o **PV do Núcleo do Chefe em `-6 PV`** (e reduza o PV de cada Parte Destrutível em `-1 PV`), além de reduzir o número de alvos de ataques em área de 3–4 para **2–3 alvos**.
 - **Mesa com 7 Jogadores + Ecos/Aliados NPCs (`8+` Combatentes Aliados):** Adicione **+2 lacaios menores** na cena (ou aumente o **PV do Núcleo em `+4 PV`**) e permita que o Chefe use uma **Reação Defensiva / Contra-Golpe em Área** extra quando estiver cercado por mais de 4 alvos em *Corpo a Corpo*.
 
-### 📐 Aplicando a Diferença de Rank (`±2 na CD por Rank`) na Prática
+### 📐 Aplicando a Diferença de Rank (`±1 na CD por Rank`) na Prática
 O sistema mantém os dados em `1d6 / 1d8` e o teto de Atributos entre 1 e 5 usando a diferença de Rank como régua de poder absoluto:
-- **Inimigo 1 Rank ACIMA dos Jogadores** *(ex: Adormecidos contra Criatura Desperta de CD 9)*: Todas as rolagens contra a criatura têm **+2 na CD** (CD efetiva **11**!). O dano bruto dela também impõe pressão extrema — exija trabalho em equipe, Dádivas, flancos ou armadilhas ambientais!
-- **Inimigo 1 Rank ABAIXO dos Jogadores** *(ex: Despertos contra Criatura Adormecida de CD 8)*: Todas as rolagens contra a criatura têm **-2 na CD** (CD efetiva **6**!). Os jogadores destroçam criaturas inferiores como heróis veteranos.
-- **Inimigo 2 Ranks ABAIXO ou ACIMA (`±4 na CD`):** Diferença avassaladora! Se um Ascendido enfrentar uma Besta Adormecida, a CD cai ao mínimo (`CD 5` — *Livro 1, Seção 1.3*) e, na prática, você pode nem pedir rolagem; se um Adormecido enfrentar uma Criatura Caída (`CD 10+4 = 14`), só sobrevive fugindo ou usando uma relíquia lendária!
+- **Inimigo 1 Rank ACIMA dos Jogadores** *(ex: Adormecidos contra Criatura Desperta de CD 9)*: Todas as rolagens contra a criatura têm **+1 na CD** (CD efetiva **10**!). O dano bruto dela também impõe pressão extrema — exija trabalho em equipe, Dádivas, flancos ou armadilhas ambientais!
+- **Inimigo 1 Rank ABAIXO dos Jogadores** *(ex: Despertos contra Criatura Adormecida de CD 8)*: Todas as rolagens contra a criatura têm **-1 na CD** (CD efetiva **7**!). Os jogadores destroçam criaturas inferiores como heróis veteranos.
+- **Inimigo 2 Ranks ABAIXO ou ACIMA (`±2 na CD`):** Diferença avassaladora! Se um Ascendido enfrentar uma Besta Adormecida (CD `6–8`), a CD cai para `4–6` e, na prática, você pode nem pedir rolagem; se um Adormecido enfrentar uma Criatura Caída (`CD 10 + 2 = 12`), precisa de `1d8 + 3` e bônus só para empatar — e o dano dela continua o de um Rank que ele ainda não alcançou. Trate como **Fuga/Evitar** (veja o *Orçamento de Ameaça* acima).
 
 ---
 
@@ -1805,7 +1858,15 @@ Precisa inventar uma abominação inédita do zero no meio da sessão? Cruze o *
 | **4. Corrompida (*Corrupted*)** | **CD 12** | **2–3** *(4 em Terror)* | `12–14 PV` | `18–22 PV` | `24–28 PV` | `28–34 PV` | `30–40 PV` *(+Partes)* | `4–8 Frag. Corrompidos` / **Tier I–VI** |
 | **5. Grande (*Great*)** | **CD 13+** | **3–4** | `18–22 PV` | `24–28 PV` | `30–36 PV` | `35–42 PV` | `40–55 PV` *(+Partes)* | `6+ Frag. Supremos` / **Tier I–VII** |
 
-> 📏 **Como ler a coluna "CD Oficial":** é a CD da criatura contra personagens do **Rank equivalente** (*Adormecida ↔ Adormecido, Desperta ↔ Desperto, Caída ↔ Ascendido, Corrompida ↔ Transcendente, Grande ↔ Supremo*). Se a Coorte for de outro Rank, aplique `±2` por Rank de diferença (mínimo **CD 5**), como na seção 5.1 e no *Livro 1, Seção 1.3*.
+> 📏 **Como ler a coluna "CD Oficial":** é a CD da criatura contra personagens do **Rank equivalente** (*Adormecida ↔ Adormecido, Desperta ↔ Desperto, Caída ↔ Ascendido, Corrompida ↔ Transcendente, Grande ↔ Supremo*). Se a Coorte for de outro Rank, aplique `±1` por Rank de diferença (mínimo **CD 3**), como na seção 5.1 e no *Livro 1, Seção 1.3*.
+
+> 👑 **Perfil de Chefe (Demônio e Diabo Despertos contra Coorte de Rank abaixo):** quando um **Demônio ou Diabo Desperto** é o chefe da cena contra uma Coorte **Adormecida** (ou de Rank ainda menor), troque a ficha pelo Perfil de Chefe:
+> - **CD 11** na ficha (vira **12** contra Adormecidos pela regra de `+1` por Rank);
+> - **PV × 2** (Demônio da Matriz: `28`; Diabo: `36`);
+> - **Dano `+1`** em cada alvo (Dano de Alma também);
+> - Mesmo número de alvos e as mesmas habilidades da ficha.
+>
+> Na obra, um Demônio Desperto é um pesadelo para Adormecidos — e os números confirmam: sem o Perfil de Chefe, 4 Adormecidos saturados (Marco 10, Memórias e Ecos) vencem a ficha comum em 100% das simulações. Com o Perfil, a **briga direta** cai para cerca de **22%** de vitória (Diabo: **5%**), e um grupo que se **prepara** (Relógio de Preparação, emboscada, terreno, *Proteger Aliado*) volta para **80–94%** — com alguém caindo em 1 a 6 de cada 10 lutas, conforme o plano. Com Dano 3 em 2–3 alvos, o Perfil de Chefe sozinho já tem **Ameaça 6–9**: passa do Orçamento de mesas de até 5 jogadores (e de 7, se atacar 3 alvos) e vira **Fuga/Evitar** até a Coorte montar um plano (*Relógio de Preparação*, Seção 5.1).
 
 > **Regra Prática de Ataques Simultâneos por Classe:**
 > - **Besta (1 Núcleo):** Ataca **1 alvo** por turno (mas caça em bandos de 4 a 8).
@@ -2165,7 +2226,8 @@ Este é o livro de campo oficial do Mestre. Cada uma das **32 Criaturas do Pesad
 
 > ### 📖 Lendo um Bloco do Bestiário (e Aplicando a Diferença de Rank)
 > - **CD Oficial por Rank:** `Adormecida (CD 6–8)` | `Desperta (CD 9–10)` | `Caída (CD 10–11)` | `Corrompida (CD 12)` | `Grande (CD 13+)`.
-> - **Modificador por Rank:** Some ou subtraia **`±2 na CD por Rank de diferença`** sempre que os jogadores enfrentarem criaturas de Rank maior ou menor que o seu atual!
+> - **Modificador por Rank:** Some ou subtraia **`±1 na CD por Rank de diferença`** sempre que os jogadores enfrentarem criaturas de Rank maior ou menor que o seu atual!
+> - **Orçamento de Ameaça:** cada ficha diz quantos jogadores a criatura ataca por rodada e com qual Dano; `alvos × Dano` de todas as criaturas da cena não deve passar do número de jogadores (*Seção 5.1*).
 > - **Dupla Colheita & Saturação:** Um portador de Aspecto Divino absorve fragmentos da sombra/essência no golpe fatal **sem impedir** que o Cristal de Alma físico seja retirado do cadáver e repartido com os outros 6 colegas!
 > - **Rolagem de Eco (`1d20`):** Se o jogador que desferiu o golpe fatal **não** tirar `6` no `1d6` de Memória, ele rola **`1d20`**: em um **`20` natural**, o monstro vira um **Eco** (portadores de *Escravo das Sombras* / `[Filho das Sombras]` ganham uma **Sombra** com `19` ou `20` — *Livro 1, Seção 7.5*) com esta mesma ficha (e metade da CD usada para rolagens independentes/defesa pelo dono)!
 
@@ -2175,7 +2237,7 @@ Este é o livro de campo oficial do Mestre. Cada uma das **32 Criaturas do Pesad
 
 Ideais para o **Primeiro Pesadelo**, exploração inicial da **Costa Esquecida** e Portais de **Categoria 1** no Mundo Desperto.
 
-> 📚 **Nota de Fidelidade à Obra:** Na novel, a Costa Esquecida **não tem criaturas abaixo de Desperto** — o *Saqueador da Carapaça* e a *Aranha de Ferro* são **Bestas Despertas** (*Awakened Beasts*) e o *Centurião da Carapaça* é um **Monstro Desperto**. As fichas Adormecidas desta seção (nº 4 e 6) são uma **adaptação de jogo** para o primeiro contato da Coorte. Se quiser a Costa fiel à obra, use a versão Desperta: **CD 9**, **PV 5–6**, Fragmentos *Despertos* (Matriz Rank × Classe, *Seção 5.2*) — e lembre que contra Adormecidos isso vira **CD 11** (`+2` por Rank). Foi exatamente esse abismo de poder que fez a Costa Esquecida ser tão mortal na história.
+> 📚 **Nota de Fidelidade à Obra:** Na novel, a Costa Esquecida **não tem criaturas abaixo de Desperto** — o *Saqueador da Carapaça* e a *Aranha de Ferro* são **Bestas Despertas** (*Awakened Beasts*) e o *Centurião da Carapaça* é um **Monstro Desperto**. As fichas Adormecidas desta seção (nº 4 e 6) são uma **adaptação de jogo** para o primeiro contato da Coorte. Se quiser a Costa fiel à obra, use a versão Desperta: **CD 9**, **PV 5–6**, Fragmentos *Despertos* (Matriz Rank × Classe, *Seção 5.2*) — e lembre que contra Adormecidos isso vira **CD 10** (`+1` por Rank). Foi exatamente esse abismo de poder que fez a Costa Esquecida ser tão mortal na história.
 
 ### 1. Larva do Pesadelo
 *Besta Adormecida | Costa Esquecida / Fendas de Coral / Portais Cat. 1*
@@ -2198,7 +2260,7 @@ Ideais para o **Primeiro Pesadelo**, exploração inicial da **Costa Esquecida**
 - **Fraqueza Tática:** Temem fogo vivo e luz solar intensa (`Coração [Intimidar]` com tochas na mão ganha **+1**); nunca lutam bem em formações apertadas se forem bloqueados pelo *Baluarte*.
 - **Drops Conectados:**
   - *Fragmentos:* `1 Fragmento Adormecido` por Carniçal.
-  - *Material de Tecelagem / Culinária:* `Tendão de Carniçal` (excelente corda elástica para arcos; carne ruim, exige *Cozinheiro* CD 9 para não envenenar).
+  - *Material de Tecelagem / Culinária:* `Tendão de Carniçal` (excelente corda elástica para arcos; carne ruim, exige *Cozinheiro* CD 7 para não envenenar).
   - *Memória Específica (`6` no `1d6`):* **[Faca de Osso Faminto]** *(Adormecida Tier I — Arma Leve, 1 Dano)* — *Encantamento `[Fome Noturna]`:* Concede **+1 em Furtividade** na escuridão e +1 no ataque contra alvos *Sangrando*.
 
 ### 3. Carniçal Alfa da Matilha
@@ -2330,6 +2392,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 13. Centurião da Carapaça (*Carapace Centurion*)
 *Demônio Desperto | Costa Esquecida (Líder de Bando)*
 - **CD:** **10** | **PV:** **14** | **Dano:** **2**
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 28** | **Dano 3** — Fuga/Evitar sem preparação.
 - **Ecologia & Descrição Visual Assustadora:** A evolução temida do *Saqueador*: um colosso bípede de três metros em armadura natural de quitina carmesim quase polida, com crista real na cabeça, braços pesados em forma de alabardas naturais e um olhar frio e calculista que estuda as armas dos humanos antes de avançar.
 - **Atributos da Criatura:** `[Mente Tática]` *(foca curandeiros e bloqueia flancos)* • `[Blindagem Imperial]` *(reduz 1 de Dano frontal)* • `[Escudo de Foice]`.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Comanda `2 a 4 Saqueadores` como infantaria descartável enquanto escolhe o momento certo para atacar! Com sua **Varredura de Foice Dupla**, golpeia **até 3 jogadores em Corpo a Corpo** simultaneamente (**2 de Dano**) — e consegue **aparar flechas isoladas** de `Olho de Falcão` caso não venham acompanhadas de Dádiva ou magia!
@@ -2342,6 +2405,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 14. Gárgula da Névoa Branca
 *Demônio Desperto | Montanhas Ocas / Picos Nevados / Antártica*
 - **CD:** **10** | **PV:** **12** | **Dano:** **2**
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 24** | **Dano 3** — Fuga/Evitar sem preparação.
 - **Ecologia & Descrição Visual Assustadora:** Predadores esculpidos em carne cinzenta tão dura quanto granito polido, com asas membranosas rasgadas por gelo, chifres curvados para trás e garras capazes de arrancar pedaços de armaduras metálicas em pleno voo silencioso dentro da bruma.
 - **Atributos da Criatura:** `[Caçador da Neblina]` *(enxerga perfeitamente através de névoa e neve)* • `[Voo Rasante & Arrebatamento]`.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Usa a neblina para mergulhar de ângulos cegos! Em um turno, agarra um jogador isolado (`Corpo [Agilidade]` **CD 10**) para erguê-lo do penhasco ou torre; no outro, faz **Onda de Impacto Sônico** pousando no meio do grupo e atingindo **2 a 3 jogadores** (**2 de Dano** + *Caído* se tirar `CD - 3`).
@@ -2356,7 +2420,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 - **CD:** **9** | **PV:** **8** | **Dano:** **2** *(Lâmina Antiga ou Arco de Osso)*
 - **Ecologia & Descrição Visual Assustadora:** Guerreiros esqueléticos perfeitamente preservados usando restos de armaduras de bronze dourado e túnicas rasgadas de um império morto há dez mil anos, com chamas azul-pálidas ou rubras ardendo dentro das órbitas vazias.
 - **Atributos da Criatura:** `[Reconstrução Eterna]` *(não morre facilmente)* • `[Corpo Morto-Vivo]` *(imune a veneno, medo, cansaço e sangramento)*.
-- **Comportamento & Ataques (Contra 7 Jogadores):** Sempre lutam em **esquadrões de 4 a 6** protegendo uns aos outros em falange, atacando **2 jogadores** por turno com lanças ou disparando flechas sincronizadas. **Regra Mortal:** Se um Esqueleto chegar a `0 PV` por corte ou flecha comum, suas ossadas se espalham — **mas no início do turno seguinte ele se remonta e levanta com `3 PV`!**
+- **Comportamento & Ataques (Contra 7 Jogadores):** Sempre lutam em **esquadrões de 4 a 6** protegendo uns aos outros em falange, atacando **2 jogadores** por turno com lanças ou disparando flechas sincronizadas. **Regra Mortal:** Se um Esqueleto chegar a `0 PV` por corte ou flecha comum, suas ossadas se espalham — **mas no início do turno seguinte ele se remonta e levanta com `3 PV`!** Cada Esqueleto se remonta **uma única vez por combate**: se cair de novo, fica no chão. **Fogo, esmagamento (arma contundente) ou um Sucesso Crítico (`CD + 4`) no golpe que o derrubou impedem a remontagem.**
 - **Fraqueza Tática:** Para matar definitivamente e impedir a reconstrução, é preciso **esmagar o crânio** (armas contundentes *Quebra-Carapaça*, `CD + 3` de ataque, ou pisar/quebrar como Ação Menor no chão!), **incinerá-lo com fogo/luz solar**, ou destruir o núcleo com **Dano de Alma**!
 - **Drops Conectados:**
   - *Fragmentos:* `2 Fragmentos Despertos`.
@@ -2366,6 +2430,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 16. Sereia dos Sussurros (*Whispering Siren*)
 *Diabo Desperto | Costa Esquecida / Mar Tempestuoso / Lagoas Submersas*
 - **CD:** **10** | **PV:** **15** | **Dano:** **1 Físico ou 2 de Alma** *(+ Controle Mental)*
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 30** | **Dano 2 Físico ou 3 de Alma** — Fuga/Evitar sem preparação.
 - **Ecologia & Descrição Visual Assustadora:** Uma silhueta enganosamente bela vista à distância sobre um recife — mas de perto revela-se uma criatura esguia de pele translúcida cinza-azulada, guelras sangrentas pulsando no pescoço, seis dedos palmados terminados em unhas de vidro e uma boca que se rasga até as orelhas quando canta.
 - **Atributos da Criatura:** `[Canção Abissal]` *(controle mental em massa)* • `[Grito de Alma]` • `[Anfíbia]`.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Nunca começa com força bruta! Entoa a **Canção Abissal** na Fase do Pesadelo: **todos os 7 jogadores que puderem ouvi-la** rolam `Mente (Vontade)` **CD 10**! Quem falhar fica hipnotizado e gasta seu Movimento caminhando lentamente para a água (ou ataca um companheiro que tentar impedir se tirar `CD - 4`!). Contra quem resistir e chegar perto, libera um **Grito de Alma** em cone contra **3 alvos** (**1 a 2 de Dano de Alma**!).
@@ -2390,6 +2455,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 18. Besta de Espelho (*Mirror Beast*)
 *Demônio Desperto | Bastion / Lago Espelhado / Ruínas de Mirage*
 - **CD:** **10** | **PV:** **12** | **Dano:** **2** *(Copia Arma e Habilidade)*
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 24** | **Dano 3** — Fuga/Evitar sem preparação.
 - **Ecologia & Descrição Visual Assustadora:** Uma criatura humanoide esguia sem rosto feita inteiramente de mercúrio sólido e vidro trincado que rasteja para fora de espelhos, armaduras muito polidas ou poças d'água paradas — assumindo instantaneamente a silhueta, a voz e até os olhos vazios da primeira vítima que encara.
 - **Atributos da Criatura:** `[Mimetismo Perfeito]` *(copia forma, arma e 1 golpe do alvo)* • `[Passo de Reflexo]` *(atravessa superfícies espelhadas)*.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Na 1ª rodada, assume a forma exata do guerreiro mais forte da Coorte (como o *Executor* ou *Baluarte*), copiando a arma e o dano dele (`2 de Dano`), e ataca **2 jogadores** tentando semear paranoia no grupo (imitando a voz do jogador copiado para gritar ordens erradas!). Se houver outra superfície espelhada na sala, usa Movimento para desaparecer de um espelho e sair pelas costas do grupo!
@@ -2402,9 +2468,10 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 19. Mariposa Devoradora de Sonhos
 *Diabo Desperto | Florestas Vermelhas / Tumba de Ariel / Ruínas Antigas*
 - **CD:** **10** | **PV:** **13** | **Dano:** **1 de Dano de Alma** *(+ Pó Sonífero e Pesadelos)*
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 26** | **Dano 2 de Dano de Alma** — Fuga/Evitar sem preparação.
 - **Ecologia & Descrição Visual Assustadora:** Inseto gigantesco de quatro metros de envergadura cujas asas de veludo negro exibem padrões hipnóticos de olhos humanos reais que piscam e choram poeira prateada brilhante sempre que ela bate as asas no silêncio da noite.
 - **Atributos da Criatura:** `[Pó Prateado do Sono]` *(narcótico em massa)* • `[Devorador Onírico]` *(ataca quem dorme com Dano de Alma)*.
-- **Comportamento & Ataques (Contra 7 Jogadores):** Sobrevoa o acampamento ou salão espalhando uma nuvem de pó prateado sobre **até 4 jogadores** na faixa *Perto* (`Corpo [Vigor]` **CD 9** ou caem em sono profundo *Incapacitado/Caído* por 2 rodadas!). No turno seguinte, mergulha para sugar os sonhos dos alvos adormecidos causando **2 de Dano de Alma** (e curando **2 PV**)!
+- **Comportamento & Ataques (Contra 7 Jogadores):** Sobrevoa o acampamento ou salão espalhando uma nuvem de pó prateado sobre **até 4 jogadores** na faixa *Perto* (`Corpo [Vigor]` **CD 9** ou caem em sono profundo *Incapacitado/Caído* por 2 rodadas!). No turno seguinte, mergulha para sugar os sonhos dos alvos adormecidos causando **1 de Dano de Alma** em cada um (e curando **1 PV** por alvo drenado)!
 - **Fraqueza Tática:** Chifres sensoriais frágeis! Acordar um aliado adormecido exige apenas **1 Ação Menor** sacudindo-o ou causando 1 ponto de beliscão/dano; fogo queima instantaneamente toda a nuvem de pó no ar!
 - **Drops Conectados:**
   - *Fragmentos:* `4 Fragmentos Despertos`.
@@ -2414,6 +2481,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 20. Flor Carnívora Gigante (*Bloodblossom Stalker*)
 *Demônio Desperto | Florestas Vermelhas / Costa Esquecida / Godgrave*
 - **CD:** **9** | **PV:** **15** | **Dano:** **2** *(4 Tentáculos + Bocarra Ácida)*
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 30** | **Dano 3** — Fuga/Evitar sem preparação.
 - **Ecologia & Descrição Visual Assustadora:** Um bulbo colossal disfarçado entre raízes e flores perfumadas: quando ativada, abre pétalas cor de carne crua do tamanho de velas de navio, revelando um estômago cheio de suco digestivo fumegante e quatro cipós grossos com espinhos em forma de anzol.
 - **Atributos da Criatura:** `[Camuflagem Floral]` • `[Quatro Tentáculos]` *(ataca até 4 jogadores diferentes)* • `[Digestão Ácida]`.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Fica imóvel no centro da arena e usa seus **4 Tentáculos de Vinha** para atacar **até 4 jogadores simultaneamente** até a faixa *Perto* (**2 de Dano**)! Quem tirar `CD - 2` ou pior na Defesa fica **Imobilizado** e é arrastado 1 faixa para dentro da bocarra ácida (sofrendo **+1 de Dano ácido** no início de cada turno preso!).
@@ -2570,7 +2638,7 @@ Abominações de escala lendária encontradas na **Antártica (Cadeias de Portai
 
 ### 32. O Cavaleiro Sem Cabeça (*The Headless Sovereign-Knight*)
 *Diabo Grande (*Great Devil*) | Fronteiras do Abismo / Cidadelas Esquecidas / Portais Cat. 5*
-- **CD:** **13** *(+2 por Rank de diferença: **CD 15** contra uma Coorte Transcendente e **CD 17** contra Ascendidos!)* | **PV:** **35** | **Dano:** **3 a 4** *(Cortes Espaciais)*
+- **CD:** **13** *(+1 por Rank de diferença: **CD 14** contra uma Coorte Transcendente e **CD 15** contra Ascendidos!)* | **PV:** **35** | **Dano:** **3 a 4** *(Cortes Espaciais)*
 - **Ecologia & Descrição Visual Assustadora:** Uma lenda viva da Guerra da Perdição: um gigante de quatro metros em armadura de ferro estelar derretido, montado em um corcel feito de fumaça negra e ossos queimados. O pescoço termina em um corte cauterizado que exala névoa dourada, e a espada curva em sua mão rasga linhas negras no próprio espaço onde o ar sangra faíscas prateadas.
 - **Atributos da Criatura:** `[Lâmina de Fenda Espacial]` *(corta através da distância e ignora cobertura)* • `[Presença de Calamidade]` *(bestas menores fogem a 1 km)* • `[Montaria dos Pesadelos]` *(move-se entre Longe e Corpo a Corpo em 1 turno)*.
 - **Comportamento & Ataques (Contra 7 Jogadores):** **Chefe Nível Calamidade!** Na 1ª rodada, sua **Presença de Calamidade** força todos os 7 jogadores a rolarem `Mente (Vontade)` **CD 13** ou ficam *Amedrontados* na abertura! Na Fase do Pesadelo, cavalga em círculo disparando **Cortes Espaciais** que atravessam a arena até a faixa *Distante* atingindo **3 a 4 jogadores** (**3 de Dano**, subindo para **4** em `CD - 4`, e rasgando Armaduras de Memória abaixo de Transcendente em **2 níveis de integridade**!).
@@ -2787,20 +2855,20 @@ Um Chefe épico em *Shadow Slave* nunca deve ser um "saco de PV parado". Com **P
 Para poupar tempo durante o acampamento com as **7 Funções de Acampamento Noturno** (*Livro 1, Seções 6.4 e 6.5*), use esta tabela cruzada para saber na hora o que o **Cozinheiro / Alquimista**, o **Armeiro / Artífice** e o **Estrategista (Tesoureiro da Coorte)** conseguem extrair das carcaças recolhidas:
 
 ### A. Guia de Culinária de Monstros (Bônus Temporários no Acampamento — *Livro 1, Seção 6.4*)
-*(Rolagem do Cozinheiro: `Mente [Conhecimento]` **CD 7 + 2 por Rank acima do cozinheiro** — ou **CD 9/11** padrão. Carne crua ou mal cozida causa condição **Envenenado** se falhar em `Corpo [Vigor]` CD 9–11!)*
+*(Rolagem do Cozinheiro: `Mente [Conhecimento]` **CD 5 + 1 por Rank acima do cozinheiro** — ou **CD 7/9** padrão. Carne crua ou mal cozida causa condição **Envenenado** se falhar em `Corpo [Vigor]` CD 7–9!)*
 
 | Origem da Carne / Ingrediente | CD da Receita | Benefício Concedido a Todos os 7 Jogadores no Dia Seguinte |
 | :--- | :---: | :--- |
-| **Carniçal / Besta Comum (Carne Pura)** | **CD 7** | Sacia a fome da Coorte inteira; remove estado *Exausto* básico durante o descanso. |
-| **Saqueador da Carapaça (Carne Branca)** | **CD 8** | **Banquete Nutritivo:** Todos começam o dia com **+1 PV Temporário** até o próximo descanso! |
-| **Lobo das Sombras / Besta Desperta** | **CD 9** | **Ensopado de Essência:** Todos começam com **+1 PV Temporário E +1 Ponto de Essência Temporário**! |
-| **Centurião / Fera Aquática ou Ígnea** | **CD 10** | **Caldo Elemental:** Concede **+1 em testes de `Corpo (Vigor)`** contra frio, calor ou venenos por 24h! |
-| **Mel Cristalizado de Vespa / Néctar de Flor** | **CD 9** | **Tônico Restaurador:** Recupera imediatamente **+1 PV extra** (ou remove venenos leves de 2 aliados). |
-| **Carne de Chefe (Devorador / Dragão / Serpente)** | **CD 11** | **Banquete Lendário:** Toda a Coorte recebe **+2 PV Temporários, +2 Essência Temporária e +1 em `Vontade`** na cena seguinte! |
-| **Larvas / Afogados / Corrompidos** | *Incomestível!* | Carne tóxica ou apodrecida; exige **Purificação** (`Portadora da Luz` / `Guard. Fogueira`) antes de tentar cozinhar (**CD 12**). |
+| **Carniçal / Besta Comum (Carne Pura)** | **CD 5** | Sacia a fome da Coorte inteira; remove estado *Exausto* básico durante o descanso. |
+| **Saqueador da Carapaça (Carne Branca)** | **CD 6** | **Banquete Nutritivo:** Todos começam o dia com **+1 PV Temporário** até o próximo descanso! |
+| **Lobo das Sombras / Besta Desperta** | **CD 7** | **Ensopado de Essência:** Todos começam com **+1 PV Temporário E +1 Ponto de Essência Temporário**! |
+| **Centurião / Fera Aquática ou Ígnea** | **CD 8** | **Caldo Elemental:** Concede **+1 em testes de `Corpo (Vigor)`** contra frio, calor ou venenos por 24h! |
+| **Mel Cristalizado de Vespa / Néctar de Flor** | **CD 7** | **Tônico Restaurador:** Recupera imediatamente **+1 PV extra** (ou remove venenos leves de 2 aliados). |
+| **Carne de Chefe (Devorador / Dragão / Serpente)** | **CD 9** | **Banquete Lendário:** Toda a Coorte recebe **+2 PV Temporários, +2 Essência Temporária e +1 em `Vontade`** na cena seguinte! |
+| **Larvas / Afogados / Corrompidos** | *Incomestível!* | Carne tóxica ou apodrecida; exige **Purificação** (`Portadora da Luz` / `Guard. Fogueira`) antes de tentar cozinhar (**CD 10**). |
 
 ### B. Guia Rápido de Forja & Tecelagem com Materiais do Bestiário (*Livro 1, Seção 8.3*)
-*(Para personagens com **Tecelagem de Feitiço** ou **Feitiçaria Rúnica** durante o Descanso Longo — `Alma [Canalizar]` **CD 11** + 1 Cristal de Alma do mesmo Rank):*
+*(Para personagens com **Tecelagem de Feitiço** ou **Feitiçaria Rúnica** durante o Descanso Longo — `Alma [Canalizar]` **CD 9** + 1 Cristal de Alma do mesmo Rank):*
 
 | Material Coletado da Criatura | Tipo de Criação ou Melhoria Rúnica | Efeito Tático Adicionado a uma Memória ou Equipamento |
 | :--- | :--- | :--- |
@@ -2855,7 +2923,7 @@ Antes de rolar os dados, copie a classificação direta do monstro que originou 
 - *Rolagens (`1d6` × 4):* Saiu **`2`** (Arma Tática — Lança), **`1`** (Quitina serrilhada rubra), **`2`** (`+1` em Manobras/Alcance *Perto*), **`2`** (Carga Elemental/Ácida).
 - *Resultado Pronto:* **Lança Serrilhada do Centurião** *(Desperta Tier III — `1 Dano`, `2` em `CD+3`, Reforçada)* — `[Haste de Quitina]`: Ataca na faixa *Perto* com `+1` para *Derrubar*; `[Gume Ácido]` (`1 Essência`): Soma `+1 de Dano` corrosivo que racha carapaças!
 
-> **Nota para Tecelões de Feitiço (*Livro 1, Seção 8.3*):** Se um jogador com **Tecelagem** já possuir muitas Memórias de Tier I redundantes, ele pode desmontar 1 Memória indesejada durante o acampamento para extrair seus fios e **adicionar 1 Encantamento da Coluna 3 ou 4** a outra Memória aliada (`Alma [Canalizar]` **CD 11**)!
+> **Nota para Tecelões de Feitiço (*Livro 1, Seção 8.3*):** Se um jogador com **Tecelagem** já possuir muitas Memórias de Tier I redundantes, ele pode desmontar 1 Memória indesejada durante o acampamento para extrair seus fios e **adicionar 1 Encantamento da Coluna 3 ou 4** a outra Memória aliada (`Alma [Canalizar]` **CD 9**)!
 
 ### Passo 3: Descrições Poéticas do Feitiço (`1d6` Rúnico) & 5 Exemplos Prontos por Rank
 Na obra original, toda Memória vem acompanhada de uma frase curta nas Runas contando a tragédia ou lenda por trás da criatura. Role `1d6` se quiser improvisar a inscrição poética na hora:
@@ -2888,7 +2956,8 @@ Imprima ou mantenha esta página aberta durante toda a sessão para mestrar qual
 > - **Vantagem / Desvantagem:** Role **2 dados** e pegue o **maior** (Vantagem) ou o **menor** (Desvantagem). Cancelam-se 1 a 1.
 > - **Dados Naturais:** **`1` Natural** limita o sucesso no máximo a `CD Exata`. **Máximo Natural (`6` no `d6` / `8` no `d8`)** com sucesso dá **1 Dádiva menor gratuita**!
 >
-> #### 2. ESCALA OFICIAL DE CDs & DIFERENÇA DE RANK (`±2`)
+> #### 2. ESCALA OFICIAL DE CDs & DIFERENÇA DE RANK (`±1`)
+> *Tarefas (sem criatura):* **3** Trivial · **5** Fácil · **7** Moderada · **9** Difícil · **11** Extrema · **13** Divina. *Criaturas:* use a CD da ficha (tabela abaixo).
 > | Rank da Ameaça | CD Base | Dano Base | PV Médio (*Besta / Monstro / Demônio / Diabo+*) |
 > | :--- | :---: | :---: | :---: |
 > | **Adormecida (*Dormant*)** | **6 – 8** | **1** *(2 em Demônio)* | `2–5` / `6–8` / `10–12` / `14+` |
@@ -2896,13 +2965,14 @@ Imprima ou mantenha esta página aberta durante toda a sessão para mestrar qual
 > | **Caída (*Fallen*)** | **10 – 11** | **2 – 3** | `8–10` / `12–16` / `16–20` / `20–32` |
 > | **Corrompida (*Corrupted*)** | **12** | **2 – 3** *(4 Terror)* | `12–14` / `18–22` / `24–28` / `28–40` |
 > | **Grande (*Great*)** | **13+** | **3 – 4** | `18+` / `24+` / `30+` / `35–55+` *(+Partes)* |
-> - **Diferença de Rank:** **`±2 na CD por Rank de diferença`**! *(Jogador 1 Rank acima = `-2 CD`; Monstro 1 Rank acima = `+2 CD`)*.
+> - **Diferença de Rank:** **`±1 na CD por Rank de diferença`**! *(Jogador 1 Rank acima = `-1 CD`; Monstro 1 Rank acima = `+1 CD`)*.
+> - **Orçamento de Ameaça:** `Σ (alvos × Dano)` das criaturas na rodada `≤` nº de jogadores. Criatura de Rank acima num encontro acima do Orçamento = **Fuga/Evitar**.
 >
 > #### 3. MATRIZ DE GRAUS DE SUCESSO (`LIVRO 1, 1.4`)
 > - **`CD - 4` ou pior — Falha com Infortúnio:** Erra **E** leva `1 de Dano` de contra-ataque / cai / degrada Armadura / alerta ninho.
 > - **`CD - 2` ou `-3` — Falha Simples:** Erra o ataque (ou na Defesa: sofre o **Dano completo** do monstro!).
 > - **`CD - 1` — Falha com Dádiva:** Erra sua ação, **MAS** gera **1 Dádiva Menor** para você ou para a Coorte (ex.: `+1` ao próximo aliado)!
-> - **`CD Exata` — Sucesso com Infortúnio:** Acerta/defende, **MAS** sofre `1 de Dano` de raspão, gasta `+1 Essência` ou degrada Armadura em 1 passo.
+> - **`CD Exata` — Sucesso com Infortúnio:** Acerta/defende, **MAS** paga um custo: gasta `+1 Essência`, degrada Armadura em 1 passo ou (só no ataque) sofre `1 de Dano` de raspão. **Na Defesa não há dano** — o custo padrão é `I1 Guarda Aberta` (Desvantagem na próxima Defesa).
 > - **`CD + 1` a `+3` — Sucesso Pleno:** Acerta limpo (**1–2 Dano** base; Coorte de 7 causa **~5–8 Dano/rodada**) ou defende sem danos!
 > - **`CD + 4` ou mais — Sucesso Crítico com Dádiva Maior:** Crítico! **`Dano + 2`** (*Livro 1, Seção 1.4*) **ou** 1 Dádiva Maior: quebra Parte do Chefe, derruba alvo ou contra-ataque imediato!
 >
@@ -2914,20 +2984,20 @@ Imprima ou mantenha esta página aberta durante toda a sessão para mestrar qual
 > 5. **Hordas, AoE & Naval:** Hordas (`Livro 3, 5.3`) têm **3 Ondas Destrutíveis** (`+2 Dano` de AoE); em ataques em área normais, faça **1 única rolagem** e compare com cada CD. Em ataques em área, ver `Livro 1, 5.5`. Em batalhas navais/aéreas, use os **7 Postos da Tripulação** (`Livro 1, Cap. 10.3`).
 >
 > #### 5. AS 15 MANOBRAS TÁTICAS (`LIVRO 1, 5.3`) & 15 CONDIÇÕES DE ESTADO (`LIVRO 1, 6.3`)
-> - **As 15 Manobras (Ação Maior vs. CD, salvo indicação):** **1. Mirar Ponto Fraco/Parte** (`+2 CD` se micro; incapacita parte) • **2. Derrubar** (`+2 CD` quadrúp.; *Derrubado*) • **3. Empurrar no Abismo** (`1 Faixa curta`) • **4. Agarrar/Imobilizar** (vel. 0; Desv. ataques) • **5. Desarmar** (`CD+2`) • **6. Fintar** (`Enganar/Agilidade` = `+2` próx. ataque) • **7. Proteger Aliado** (*Reação*: intercepta golpe) • **8. Ataque Furtivo** (**Vantagem** + `+2 Dano`) • **9. Fogo de Supressão** (Desv. e bloqueia avanço) • **10. Quebrar Carapaça/Armadura** (`CD+1`; `-1 RD`) • **11. Provocar/Taunt** (*Ação Menor/Maior*: força foco em você) • **12. Ataque Combinado em Dupla** (prepara `+2` e `+2 Dano` p/ aliado) • **13. Carga Implacável** (`+1 atq/+1 Dano`, `+1 CD` sofrida) • **14. Contra-Ataque Preparado** (*Reação* interrompe e fere) • **15. Retirada Estratégica** (sai de *Corpo a Corpo* sem Oportunidade).
-> - **As 15 Condições:** **1. Sangrando** (`1 Dano/turno` próprio) • **2. Envenenado** (**Desv.** em *Corpo*) • **3. Queimando** (`1–3 Dano/início turno`) • **4. Congelado/Hipotérmico** (Mov./2, **Desv.** *Agilidade*) • **5. Atordoado** (sem Ação Maior, Reação nem Defesa Gratuita) • **6. Derrubado/Caído** (**Vantagem** CaC contra si; levanta ½ Mov.) • **7. Agarrado/Imobilizado** (vel. 0; sem ações/esquiva se Imobilizado) • **8. Cego** (**Desv.** visual; defende `+2 CD`) • **9. Ensurdecido** (falha auditiva, `-1` Iniciativa/flancos) • **10. Amedrontado/Aterrorizado** (não aproxima, **Desv.** geral) • **11. Exausto Nv 1–4** (`1` Desv. Corpo/Mente; `2` Mov/2 e `-1`; `3` Desv. geral/PV÷2; `4` colapso `0 PV`) • **12. Corrompido Marcas 1–5** (`Cap. 12.2`; `5` = Perdição) • **13. Silenciado/Bloqueio de Essência** (sem Aspecto, Memórias ou Reforço) • **14. Vulnerável/Exposto** (próximo golpe c/ **Vantagem** ou RD 0) • **15. Inconsciente/Moribundo** (`0 PV`, Caído; estabilizar `Conhecimento` CD 9).
+> - **As 15 Manobras (Ação Maior vs. CD, salvo indicação):** **1. Mirar Ponto Fraco/Parte** (`+2 CD` se micro; incapacita parte) • **2. Derrubar** (`+1 CD` quadrúp./Grande; dano normal; *Derrubado*: criatura gasta a Ação Maior para levantar e fica Firme 1 rodada) • **3. Empurrar no Abismo** (`1 Faixa curta`) • **4. Agarrar/Imobilizar** (vel. 0; Desv. ataques) • **5. Desarmar** (`CD+2`) • **6. Fintar** (`Enganar/Agilidade` = `+2` próx. ataque) • **7. Proteger Aliado** (*Reação*: intercepta golpe) • **8. Ataque Furtivo** (**Vantagem** + `+2 Dano`) • **9. Fogo de Supressão** (Desv. e bloqueia avanço) • **10. Quebrar Carapaça/Armadura** (`CD+1`; `-1 RD`) • **11. Provocar/Taunt** (*Ação Menor/Maior*: força foco em você) • **12. Ataque Combinado em Dupla** (prepara `+2` e `+2 Dano` p/ aliado) • **13. Carga Implacável** (`+1 atq/+1 Dano`, `+1 CD` sofrida) • **14. Contra-Ataque Preparado** (*Reação* interrompe e fere) • **15. Retirada Estratégica** (sai de *Corpo a Corpo* sem Oportunidade).
+> - **As 15 Condições:** **1. Sangrando** (`1 Dano/turno` próprio) • **2. Envenenado** (**Desv.** em *Corpo*) • **3. Queimando** (`1–3 Dano/início turno`) • **4. Congelado/Hipotérmico** (Mov./2, **Desv.** *Agilidade*) • **5. Atordoado** (sem Ação Maior, Reação nem Defesa Gratuita) • **6. Derrubado/Caído** (**Vantagem** CaC contra si; levanta ½ Mov.) • **7. Agarrado/Imobilizado** (vel. 0; sem ações/esquiva se Imobilizado) • **8. Cego** (**Desv.** visual; defende `+2 CD`) • **9. Ensurdecido** (falha auditiva, `-1` Iniciativa/flancos) • **10. Amedrontado/Aterrorizado** (não aproxima, **Desv.** geral) • **11. Exausto Nv 1–4** (`1` Desv. Corpo/Mente; `2` Mov/2 e `-1`; `3` Desv. geral/PV÷2; `4` colapso `0 PV`) • **12. Corrompido Marcas 1–5** (`Cap. 12.2`; `5` = Perdição) • **13. Silenciado/Bloqueio de Essência** (sem Aspecto, Memórias ou Reforço) • **14. Vulnerável/Exposto** (próximo golpe c/ **Vantagem** ou RD 0) • **15. Inconsciente/Moribundo** (`0 PV`, Caído; estabilizar `Conhecimento` CD 7).
 >
 > #### 6. INTEGRIDADE (`LIVRO 1, 7.3`), DANO DE ALMA (`6.1`), `0 PV` (`6.2`) & CORRUPÇÃO (`12.2`)
 > - **Armaduras:** `[Polida] → [Reforçada] → Íntegra → Danificada → Quebrada → Destruída`. Degradar 1 passo reduz **1 Dano Físico**; **Sacrifício Final** (`Quebrada → Destruída`) bloqueia até **2 Dano** ou dá **+2 Dano** no golpe final, mas perde o item! *(Invocar/trocar Armadura em combate = 1 Ação Maior).*
-> - **Dano de Alma:** Ignora armadura comum (`defende c/ Abjurar` ou `Vontade`); consome **Essência atual** e gera **Rachaduras** na **Essência Máxima** (recupera c/ meditação CD 11). Se Essência Máxima chegar a `0`, **Alma Estilhaça** (`Abjurar/Canalizar` CD 13)!
-> - **Chegando a 0 PV:** Inconsciente + tabela **`1d12` Ferimentos Graves** (`Cap. 6.2`) e **Regra das 24 Horas**; estabiliza com `Conhecimento` **CD 9** (`11` sem kit).
-> - **Corrupção (`Cap. 12.2` — 0 a 5 Marcas):** `1` Pesadelos • `2` `-1 Convencer` • `3` Desv. `Vontade` + `+1 Dano` fúria • `4` `Vontade` CD 11 ou frenesi • `5` **Vira Criatura do Pesadelo!**
+> - **Dano de Alma:** Ignora armadura comum (`defende c/ Abjurar` ou `Vontade`); consome **Essência atual** e gera **Rachaduras** na **Essência Máxima** (recupera c/ meditação CD 9). Se Essência Máxima chegar a `0`, **Alma Estilhaça** (`Abjurar/Canalizar` CD 11)!
+> - **Chegando a 0 PV:** Inconsciente + tabela **`1d12` Ferimentos Graves** (`Cap. 6.2`) e **Regra das 24 Horas**; estabiliza com `Conhecimento` **CD 7** (`9` sem kit).
+> - **Corrupção (`Cap. 12.2` — 0 a 5 Marcas):** `1` Pesadelos • `2` `-1 Convencer` • `3` Desv. `Vontade` + `+1 Dano` fúria • `4` `Vontade` CD 9 ou frenesi • `5` **Vira Criatura do Pesadelo!**
 >
 > #### 7. PÓS-COMBATE, DROPS, ACAMPAMENTO & PROGRESSÃO (`LIVRO 1, CAP. 6.4–6.5`, `7–9`, `11–12`)
 > - **Golpe Fatal em Monstro:** Rola **`1d6`** → no **`6`**, ganha a **Memória Específica** (ou gere em `1d6 × 4`)! Se não tirou 6, rola **`1d20`** → no **`20`**, ganha **Eco** (`19–20` em Sombras)!
 > - **Chefe Derrotado & Saturação (`Livro 1, 4.3`):** **1–2 Memórias garantidas** p/ Coorte + **`+1 Marco de Saturação`** padrão (dobrado para **`+2 Marcos`** se Rank Superior! *Dupla Colheita: Aspecto Divino absorve sombra sem impedir o Estilhaço físico do cadáver*).
 > - **Inimigo Humano Derrotado (`Livro 1, 7.3 E`; `Livro 3, 6.1`):** Se morrer, Memórias dissipam e não dropam cristais (exceto Aspecto Divino); se rendido/coagido vivo, transfere Memórias pelo toque!
-> - **Ofícios, Acampamento & Evolução (todos no Livro 1):** **Culinária e 7 Funções** (`Cap. 6.4–6.5`, CD 7–13) • **Tecelagem** (`Cap. 8.3`, CD 11) • **Legado de Aspecto** (`Cap. 9`, `10 XP + Epifania`, `[1/7]`–`[7/7]`) • **Economia & Cidadelas** (`Cap. 11`, `10 Frag. Adormecidos = 1 Desperto = 1/10 Ascendido`) • **XP** (`Cap. 12.3`: `1–3 XP/sessão`, `+2–3 XP` fim de arco).
+> - **Ofícios, Acampamento & Evolução (todos no Livro 1):** **Culinária e 7 Funções** (`Cap. 6.4–6.5`, CD 5–11) • **Tecelagem** (`Cap. 8.3`, CD 9) • **Legado de Aspecto** (`Cap. 9`, `10 XP + Epifania`, `[1/7]`–`[7/7]`) • **Economia & Cidadelas** (`Cap. 11`, `10 Frag. Adormecidos = 1 Desperto = 1/10 Ascendido`) • **XP** (`Cap. 12.3`: `1–3 XP/sessão`, `+2–3 XP` fim de arco).
 
 ---
 
