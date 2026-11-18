@@ -551,6 +551,62 @@ Com as sugestões, menos grupos atropelam o chefe na briga direta e o plano pass
 - **Núcleo do Adormecido saturado:** pelo L2, o Marco 10 condensa o 2º Núcleo Divino ainda no Rank Adormecido. Isso dobra o Manto (2 Sombras) e o Arsenal do Forjador antes de Despertar. Se a intenção é que o 2º Núcleo venha só no Desperto, o texto precisa dizer.
 - **Condições em inimigos:** o L2 §2.1 item 6 transforma cada condição em −1 na CD, mas não diz se condições diferentes somam.
 
+
+### 8.6 Manto canônico do Escravo das Sombras (escolha do Jhonne, só simulada)
+
+Regra testada: o Manto **continua sem custo de Essência** (na obra a sombra nunca custou nada) e dá **+1 de Dano e +1 nas rolagens físicas** (ataque e Defesa física), mas não nas mentais ou sociais. **No cânone, o Escravo das Sombras tem 1 Sombra só enquanto for Adormecido**, inclusive no saturado: a 2ª Sombra Pessoal (vinda do 2º Núcleo) foi retirada, junto com o +3 PE e o +1 PV do 2º Núcleo. A Sombra Evolutiva do saturado continua (1 por Núcleo). O Batedor fica igual: a mesma Sombra explora antes da luta e vai para o Manto com a Ação Menor, como já era modelado no novato. No novato a regra é idêntica ao livro atual; a diferença aparece no saturado. A linha "com o 2º Núcleo" é a 1ª leitura da variante (2 Sombras, só 1 reforça), mantida para medir o peso do Núcleo. No simulador o Manto já não entrava em rolagens de Alma (Defesa contra dano de Alma), então o "só físico" não muda os números de combate; ele pesa em cenas sociais e mentais, que o motor não mede.
+
+Mesmos cenários da tabela 8.1 (Escravo das Sombras no lugar do Executor, os outros 3 sem Aspecto; vitória · alguém cai):
+
+| Versão | Novatos × Demônio Desperto | Novatos × E4 (emboscada) | Saturados × chefe, briga direta | Saturados × chefe, plano | Saturados × chefe, Ameaça encheu |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Grupo sem Aspectos (base) | 9% · cai 100% | 100% · cai 2% | 24% · cai 100% | 92% · cai 35% | 8% · cai 100% |
+| Livro atual (+1/+1 por Sombra, em tudo) | 39% · cai 97% | 100% · cai 0% | 99% · cai 91% | 100% · cai 1% | 99% · cai 90% |
+| Sugestão antiga (1 Sombra, sem +Dano) | 18% · cai 100% | 100% · cai 0% | 83% · cai 100% | 100% · cai 10% | 83% · cai 100% |
+| Manto canônico com o 2º Núcleo (2 Sombras, só 1 reforça) | 39% · cai 97% | 100% · cai 0% | 93% · cai 99% | 100% · cai 6% | 92% · cai 99% |
+| **Manto canônico** (1 Sombra só, sem 2º Núcleo no Adormecido) | 39% · cai 97% | 100% · cai 0% | 86% · cai 99% | 100% · cai 4% | 86% · cai 99% |
+
+Contribuição média, como na 8.2 (Δ em pontos sobre a base: novatos = Demônio e Diabo Despertos; saturados = chefe direto, Patrulha da Carapaça e Ameaça encheu):
+
+| Versão | Novatos Δ (melhor) | Novatos Δ (média) | Saturados Δ (melhor) | Saturados Δ (média) | Leitura |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| Livro atual (+1/+1 por Sombra, em tudo) | +22 | +15 | +85 | +71 | 🔴 forte demais |
+| Sugestão antiga (1 Sombra, sem +Dano) | +6 | +4 | +64 | +35 | 🔴 forte demais |
+| Manto canônico com o 2º Núcleo (2 Sombras, só 1 reforça) | +22 | +15 | +74 | +50 | 🔴 forte demais |
+| **Manto canônico** (1 Sombra só, sem 2º Núcleo no Adormecido) | +22 | +15 | +69 | +45 | 🔴 forte demais |
+
+Escala da 8.2: soma dos dois Δ (melhor lugar) ≥ 50 = forte demais; 20–49 = forte; 4–19 = equilibrado.
+
+**Com o resto do pacote da 8.4 e com o chefe de 3× PV** (80 grupos aleatórios da 8.3, saturados, 600 lutas cada; vitória média · grupos que vencem a briga direta em 80%+):
+
+| Combinação | Chefe 2× PV (28): direta | 2× PV: plano | Chefe 3× PV (42): direta | 3× PV: plano | 3× PV: grupos ≥ 80% na direta |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Livro atual (sem sugestão nenhuma) | 88% | 100% | 57% | 97% | 34 de 80 |
+| Só o 2º Núcleo no Despertar (todos os Divinos), resto do livro | 81% | 100% | 37% | 95% | 10 de 80 |
+| Só o Manto canônico com 2º Núcleo, resto do livro | 84% | 100% | 42% | 96% | 13 de 80 |
+| Só o Manto canônico (1 Sombra, todos os Divinos sem 2º Núcleo) | 81% | 100% | 37% | 95% | 10 de 80 |
+| Pacote da 8.4 com o Manto antigo (sem +Dano) | 74% | 100% | 20% | 93% | 3 de 80 |
+| Pacote da 8.4 com o Manto canônico, 2º Núcleo mantido | 79% | 100% | 29% | 94% | 5 de 80 |
+| **Pacote da 8.4 com o Manto canônico e o 2º Núcleo só no Despertar** | 75% | 99% | 23% | 93% | 5 de 80 |
+
+De onde vem o ganho do saturado com o Manto canônico (Executor, cenários duros, +68 no total): **Sombra Evolutiva +24**, Batedor +8, Manto de 1 Sombra +35. No novato (sem Sombra Evolutiva) ele soma +22, faixa de "forte" se contado sozinho.
+
+Sozinho no grupo, o Manto canônico fica em **forte demais** (soma +91, contra +107 do livro e +70 da sugestão antiga). Ele continua o Aspecto mais forte da mesa no Adormecido; no saturado o ganho se divide entre o Manto de 1 Sombra e a Sombra Evolutiva de graça. Dentro do pacote, porém, ele fica no alvo. Com o pacote e o chefe de 3× PV, a briga direta fica em 23% (com o Manto antigo, 20%) e o plano em 93% (antes 93%).
+
+**Sugestão: o 2º Núcleo Divino (e, no Escravo das Sombras, a 2ª Sombra) só vem com o Despertar.** Hoje o L2 dá o 2º Núcleo no Marco 10, ainda Adormecido. Efeito em cada Aspecto Divino, saturados, Δ sobre a base nos cenários duros (melhor lugar), com o resto do livro como está:
+
+| Aspecto Divino | Livro (2º Núcleo no Marco 10) | 2º Núcleo só no Despertar | Diferença |
+| :--- | :---: | :---: | :---: |
+| Arauto da Tempestade | +12 | +9 | -2 |
+| Devorador Carmesim | +49 | +45 | -4 |
+| Escravo das Sombras | +85 | +69 | -15 |
+| Forjador do Crepúsculo | +38 | +6 | -32 |
+| Portadora da Luz | +16 | +16 | 0 |
+| Príncipe do Nada | +8 | +2 | -6 |
+| Tecelão de Almas | +13 | +6 | -7 |
+
+Quem mais sente é o **Forjador do Crepúsculo** (perde o +1 da Sinfonia, que exige 2 Núcleos) e o **Escravo das Sombras** (a 2ª Sombra). Nos outros Divinos a mudança é pequena. Com o Manto canônico, tirar o 2º Núcleo leva o Escravo das Sombras saturado de +74 para +69 e, no pacote com chefe de 3× PV (tirando o 2º Núcleo de todos os Divinos), a briga direta de 29% para 23%. Recomendação: escrever no L2 (Parte A, Regras Compartilhadas, item 2) que o 2º Núcleo Divino condensa **no Despertar**, e não no Marco 10 do Adormecido. Para o Escravo das Sombras, se ele ainda passar do ponto, o próximo ajuste seria a Sombra Evolutiva do Adormecido (hoje de graça e 1 por Núcleo), não o Manto.
+
 ## 9. Pontos ainda em aberto
 
 | Tema | Situação |
