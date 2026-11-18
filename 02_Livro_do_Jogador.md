@@ -156,7 +156,7 @@ Todo teste em **Shadow Slave RPG** usa **1 único dado**:
   - **Marcos Pares `2` e `6`:** Cada um concede **`+1 PV Máximo` permanente** (`+2 PV` ao todo por núcleo).
   - **Marcos Pares `4` e `8`:** Cada um concede **`+1 Atributo Rúnico` (ou `+1 Especialização 1d8`)** (`+2` ao todo por núcleo).
   - **Marco `10` (Núcleo Saturado — `1.000/1.000`):** Concede **`+1` Permanente em qualquer Pilar (*Corpo, Mente, Coração ou Alma*)**!
-- **Para Aspectos Divinos (Múltiplos Núcleos):** Ao preencher o Marco 10 de um Núcleo, além do `+1` Pilar permanente, você condensa automaticamente um **Novo Núcleo de Alma** (`[2/7]` Monstro → `[3/7]` Demônio → ... até `[7/7]` Titã) sem gastar XP, ganhando **`+3` imediatos na Reserva de Essência**, **`+1 PV Máximo`** (`+2` no 7º Núcleo) e mais uma barra de 10 Marcos para continuar evoluindo!
+- **Para Aspectos Divinos (Múltiplos Núcleos):** Ao preencher o Marco 10 de um Núcleo, além do `+1` Pilar permanente, você condensa automaticamente um **Novo Núcleo de Alma** (`[2/7]` Monstro → `[3/7]` Demônio → ... até `[7/7]` Titã) sem gastar XP, ganhando **`+3` imediatos na Reserva de Essência**, **`+1 PV Máximo`** (`+2` no 7º Núcleo) e mais uma barra de 10 Marcos para continuar evoluindo! *(O **2º Núcleo** só condensa no **Despertar**: um Adormecido que fecha o Marco 10 recebe o `+1` Pilar e espera o Portal — Capítulo 4, Regras Compartilhadas, item 2.)*
 - **Uso no Rank Adormecido vs. Rank Desperto:** Adormecidos já gastam Essência para ativar habilidades de Aspecto, Ecos e Encantamentos de Memórias; a partir do **Rank Desperto** (depois de Aspirante e Adormecido), você também desbloqueia o **Reforço Corporal Consciente** (como Ação Menor ou Reação, gastar 1 Essência para ganhar `+1` em um teste de `Corpo` — dentro do teto `+3` —, `+1` de Dano em um golpe físico ou reduzir em `1` um dano físico recebido; *Livro 1, Seção 4.2*).
 
 #### D. Capacidade de Carga (Peso Abstrato)
@@ -1619,6 +1619,7 @@ Essa dádiva tem um preço brutal. O Feitiço equilibra o poder absoluto com **D
    - **Marcos `2` e `6`:** Cada um concede **`+1 PV`** máximo.
    - **Marcos `4` e `8`:** Cada um concede **`+1` Atributo Rúnico / Refinamento** (ou evolução física/espiritual equivalente).
    - **Marco `10` (Completude e Condensação — Sem Custo de XP):** Completa a saturação do Núcleo atual, concede o **`+1` Pilar permanente** de todo Marco 10 (*Livro 1, Seção 4.3*) e **condensa automaticamente o próximo Núcleo Divino (`+3 Essência`, `+1 PV` [`+2 PV` no 7º Núcleo], `+1 Manifestação Auxiliar` do Aspecto)** sem gastar nenhum Ponto de Experiência (`XP`)! Ao condensar um novo Núcleo, seus Marcos reiniciam em `0/10` para o próximo estágio enquanto o contador de **Núcleos Extras (`0` a `6`)** avança.
+   - **Exceção do 2º Núcleo:** enquanto o portador for **Adormecido**, o Marco 10 do 1º Núcleo dá o `+1` Pilar, mas o **2º Núcleo só condensa no Despertar** (ao cruzar o Portal como Desperto). Os Fragmentos excedentes ficam guardados e os Núcleos seguintes condensam normalmente no Marco 10.
 3. **Tabela de Saturação e Núcleos Extras (`0` a `6`):**
 
 | Classe do Núcleo | Fração | Núcleos Extras | Fragmentos p/ Completar (`Marco 10`) | Bônus Cumulativo de Núcleos Extras |
@@ -1650,9 +1651,9 @@ Essa dádiva tem um preço brutal. O Feitiço equilibra o poder absoluto com **D
 - **Descrição do Mar da Alma (*Soul Sea*):**
   Diferente dos oceanos luminosos de outros Despertos, o Mar da Alma de um Escravo das Sombras é uma **extensão infinita de água negra parada como um espelho de obsidiana líquida**. Não há céu estrelado acima, apenas uma abóbada noturna sem fim onde flutua um colossal **Sol Negro** que irradia ausência de luz em vez de calor. Sob a superfície escura e silenciosa, centenas — e com o tempo, milhares — de sombras sem dono erguem-se em vigília eterna: são os ecos silenciosos de todas as criaturas que o portador já matou. Quando suas **Sombras Evolutivas** regressam após caírem em batalha, elas repousam diretamente sob os raios frios do Sol Negro, reconstruindo suas formas no silêncio absoluto.
 - **Evolução dos Núcleos (`[1/7]` a `[7/7]`):**
-  Cada Núcleo nasce como uma **esfera de trevas líquidas** orbitando o Sol Negro, gerando simultaneamente uma nova **Sombra Pessoal** consciente nos pés do portador:
+  Cada Núcleo nasce como uma **esfera de trevas líquidas** orbitando o Sol Negro, gerando simultaneamente uma nova **Sombra Pessoal** consciente nos pés do portador. *(Como o 2º Núcleo só condensa no Despertar, o Escravo das Sombras **Adormecido tem sempre `1` Sombra Pessoal**; a 2ª chega junto com o Rank Desperto.)*
   - **`[1/7]` Besta:** `1` Sombra Pessoal (`+0 PE` extra, `+0 PV`). Um único sol negro solitário no abismo silencioso.
-  - **`[2/7]` Monstro:** `2` Sombras Pessoais (`+3 PE`, `+1 PV`). As águas negras passam a refletir contornos sem luz própria.
+  - **`[2/7]` Monstro (a partir do Despertar):** `2` Sombras Pessoais (`+3 PE`, `+1 PV`). As águas negras passam a refletir contornos sem luz própria.
   - **`[3/7]` Demônio:** `3` Sombras Pessoais (`+6 PE`, `+2 PV`). Sombras mortas no Mar da Alma começam a formar fileiras ordenadas.
   - **`[4/7]` Diabo:** `4` Sombras Pessoais (`+9 PE`, `+3 PV`). Uma brisa gelada passa a soprar sobre a superfície de obsidiana.
   - **`[5/7]` Tirano:** `5` Sombras Pessoais (`+12 PE`, `+4 PV`). O Sol Negro ganha uma coroa de eclipses que comanda as sombras menores.
@@ -1675,7 +1676,7 @@ O Aspecto *Escravo das Sombras* possui **dois tipos completamente distintos de s
 
 #### A) As Sombras Pessoais (*Personal Shadows* — `1` a `7`)
 
-Você possui um número de **Sombras Pessoais** igual ao seu número atual de Núcleos de Alma (`1` no estágio Besta até `7` no estágio Titã). Elas **não são monstros**: são extensões conscientes da sua própria alma que normalmente habitam a sua silhueta projetada no chão, mas possuem **vontade, temperamento e personalidade próprios** (interpretados pelo jogador ou pelo Mestre em momentos de folga e alerta):
+Você possui um número de **Sombras Pessoais** igual ao seu número atual de Núcleos de Alma (`1` no estágio Besta até `7` no estágio Titã). Como o 2º Núcleo só condensa no Despertar, **enquanto for Adormecido você tem `1` Sombra Pessoal**, mesmo com o Núcleo saturado. Elas **não são monstros**: são extensões conscientes da sua própria alma que normalmente habitam a sua silhueta projetada no chão, mas possuem **vontade, temperamento e personalidade próprios** (interpretados pelo jogador ou pelo Mestre em momentos de folga e alerta):
 
 1. **Sombra Melancólica (*Gloomy* — `1º Núcleo`):** Sóbria, cautelosa, suspira dramaticamente quando você toma decisões arriscadas, mas é a mais fiel e atenta às emboscadas.
 2. **Sombra Alegre (*Happy* — `2º Núcleo`):** Hiperativa, otimista e festeira; aplaude golpes críticos, dança nas paredes e adora explorar locais novos.
@@ -1694,8 +1695,10 @@ Cada Sombra Pessoal pode alternar (com **1 Ação Menor** ou **Ação Livre** no
    - **Travessia Livre:** Atravessa frestas sob portas, fechaduras e grades sem teste. Se a área cair em escuridão total ou luz solar direta sem sombras contínuas, ela pode ficar temporariamente isolada até surgir uma sombra.
 
 2. **Modo Manto de Aumento (*Augmentation Mode*):**
-   - Cada Sombra Pessoal que se enrola ao redor do seu **próprio corpo**, de uma **Arma/Armadura de Memória**, de uma **Sombra Evolutiva** (ou de um **aliado**, a partir da 2ª/3ª Habilidade) amplifica diretamente seus atributos e impacto físico:
-   - **Efeito por Sombra Enrolada:** **`+1` cumulativo em todas as rolagens** do alvo fortalecido (ataque, defesa, força, agilidade ou resistência física associada) **E `+1` de Dano cumulativo** em cada golpe! *(Se enrolada em uma Armadura/Escudo, concede `+1` em testes de Defesa/Bloqueio e reduz `1` de dano físico recebido por cada 2 Sombras na armadura, mínimo 1 de dano sofrido).*
+   - Cada Sombra Pessoal que se enrola ao redor do seu **próprio corpo**, de uma **Arma/Armadura de Memória**, de uma **Sombra Evolutiva** (ou de um **aliado** a *Perto*, a partir do **Rank Desperto**) amplifica diretamente seus atributos e impacto físico:
+   - **Sem Custo (como na obra):** o Manto **nunca custa Essência e não fere você**. A sombra serve de graça; enrolá-la ou soltá-la é só a Ação Menor de trocar de modo.
+   - **Efeito por Sombra Enrolada:** **`+1` cumulativo nas rolagens físicas** do alvo fortalecido (ataque, Defesa física, força, agilidade ou resistência física associada; não vale para rolagens mentais, sociais ou de Alma) **E `+1` de Dano cumulativo** em cada golpe!
+   - **As Sombras só se somam depois do Despertar:** como **Adormecido** você tem `1` Sombra, então o Manto dá **`+1` nas rolagens físicas e `+1` de Dano**; no **Desperto**, com o 2º Núcleo, as `2` Sombras no mesmo alvo dão **`+2/+2`**, e assim por diante conforme novos Núcleos. *(Se enrolada em uma Armadura/Escudo, concede `+1` em testes de Defesa/Bloqueio e reduz `1` de dano físico recebido por cada 2 Sombras na armadura, mínimo 1 de dano sofrido).*
    - **Integração Direta com o Teto de Bônus (`Cap +3`):** Como a soma máxima de bônus externos em uma rolagem é **`+3`**:
      - **Até `3` Sombras** no mesmo alvo concedem **`+3` na rolagem e `+3` de Dano**.
      - Se você enrolar a **`4ª` até a `7ª` Sombra** no mesmo alvo, o bônus de rolagem acima de `+3` **converte-se automaticamente**: a `4ª` Sombra concede **Vantagem (`2d6/2d8`, pegue o maior)** na rolagem + **`+1` de Dano** (total `+4` Dano); cada Sombra além da 4ª (`5ª`, `6ª`, `7ª`) acrescenta **`+1` de Dano adicional** (chegando a `+7` de Dano no estágio Titã!) ou permite distribuir as sombras simultaneamente entre seu corpo (`+3` defesa/agilidade), sua arma (`+3` ataque/dano) e sua Sombra Evolutiva (`+1` ataque/dano)!
@@ -1730,7 +1733,7 @@ Diferente das suas Sombras Pessoais (que são partes da sua mente), **Sombras Ev
 
 Para evoluir uma Sombra Evolutiva, use os **Pontos de Evolução** do *Livro 1, Seção 7.5 G*. Durante um Descanso, desmanche uma Memória indesejada para alimentá-la (a Sombra ganha **Pontos iguais ao Tier da Memória**: Tier I = 1, Tier III = 3...). Em combate, cada golpe fatal (ou ajuda decisiva) da Sombra contra um monstro de **Rank igual ou superior** ao dela rende **+1 Ponto**:
 - **Subir de Classe (`Besta [1/7]` → `Titã [7/7]`) — `10 Pontos de Evolução`:** A Sombra sobe um degrau e ganha **`+3 PV` máximos** e **`+1` Habilidade Especial / Tag Única** (sugestões de tema: Demônios ganham astúcia tática; Diabos, habilidade mágica/elemental; Tiranos comandam lacaios; Terrores ganham aura de medo; Titãs mudam de escala!).
-- **Subir de Rank (`Adormecida` → `Desperta` → `Ascendida` → `Transcendente` → `Suprema`) — `15 Pontos de Evolução` + `1 Núcleo/Cadáver de Chefe de Rank Superior`:** A Sombra desperta para o Rank seguinte, com **`+1` na CD** e **`+1` de Dano base**.
+- **Subir de Rank (`Adormecida` → `Desperta` → `Ascendida` → `Transcendente` → `Suprema`) — `15 Pontos de Evolução` + `1 Núcleo/Cadáver de Chefe de Rank Superior`:** A Sombra desperta para o Rank seguinte, com **`+2` na CD** e **`+1` de Dano base** (Sombras sobem `+2` por Rank, e não `+1` como os Ecos — *Livro 1, Seção 7.5 G*).
 
 1. **Exemplo 1 — Santo de Pedra (*Onyx / Marble Saint* — Guardiã Marcial):**
    - *Origem:* Capturada como Eco/Sombra *Desperta Monstro* (uma estátua viva de ônix e cinzas que carrega escudo e espada).
@@ -1767,15 +1770,15 @@ Para evoluir uma Sombra Evolutiva, use os **Pontos de Evolução** do *Livro 1, 
 | `[7/7]` | **Titã** | Toda sombra em alcance *Longe* torna-se extensão sensorial passiva contínua; `Vantagem` contra emboscadas. |
 
 #### 1ª Habilidade (Adormecida) — `[Controle das Sombras (Shadow Control)]`
-- **Custo de Essência:** `0 PE` (para mover Sombras Pessoais) ou `1 PE` (para projetar Manto em aliados/objetos à distância) | **Tipo de Ação:** `1 Ação Menor` (alternar modo) | **Alcance:** Até `100m` (Batedor) / Toque ou *Perto* (Manto) | **Duração:** Sustentada
-- **Teste & Sucesso Simples:** Permite enviar suas Sombras Pessoais no **Modo Batedor Invisível** (até `100m`, compartilhando visão/audição) ou ativar o **Modo Manto de Aumento** (`+1` em rolagens e `+1` de Dano cumulativo por Sombra enrolada em si, em armas ou em Sombras Evolutivas). Para detectar uma Sombra Batedora, o inimigo enfrenta CD de `Alma [Canalizar]` ou `Corpo [Agilidade]` (com `+2` de bônus passivo em ambientes escuros).
+- **Custo de Essência:** `0 PE` (Batedor e Manto nunca custam Essência) | **Tipo de Ação:** `1 Ação Menor` (alternar modo) | **Alcance:** Até `100m` (Batedor) / Toque (Manto; aliado a *Perto* a partir do Rank Desperto) | **Duração:** Sustentada
+- **Teste & Sucesso Simples:** Permite enviar suas Sombras Pessoais no **Modo Batedor Invisível** (até `100m`, compartilhando visão/audição) ou ativar o **Modo Manto de Aumento** (`+1` nas rolagens físicas e `+1` de Dano cumulativo por Sombra enrolada em si, em armas ou em Sombras Evolutivas; em aliados a partir do Rank Desperto). Sem custo e sem dano a você. Adormecido: `1` Sombra (`+1/+1`); Desperto: `2` Sombras (`+2/+2`). Para detectar uma Sombra Batedora, o inimigo enfrenta CD de `Alma [Canalizar]` ou `Corpo [Agilidade]` (com `+2` de bônus passivo em ambientes escuros).
 - **Sucesso Crítico (`CD + 4` ao emboscar com Aumento ou Furtividade):** Se você atacar um inimigo que não percebeu sua Sombra Batedora no flanco, o primeiro golpe ganha **Vantagem automática** e aplica `+1` de Dano adicional sem contar contra o limite do `Cap +3`.
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
 | Núcleo | Classe | Qtd. Sombras | Efeito Combinado Máximo do Manto (no mesmo alvo) |
 | :---: | :--- | :---: | :--- |
-| `[1/7]` | **Besta** | `1` | `+1` em rolagens e `+1` de Dano. |
-| `[2/7]` | **Monstro** | `2` | `+2` em rolagens e `+2` de Dano (ou `+1/+1` dividido em dois alvos). |
+| `[1/7]` | **Besta** | `1` | `+1` em rolagens físicas e `+1` de Dano (todo Adormecido fica aqui). |
+| `[2/7]` | **Monstro** | `2` | `+2` em rolagens físicas e `+2` de Dano (ou `+1/+1` dividido em dois alvos). Chega no Despertar. |
 | `[3/7]` | **Demônio** | `3` | `+3` em rolagens e `+3` de Dano (atinge `Cap +3` perfeito). |
 | `[4/7]` | **Diabo** | `4` | `+3` em rolagens + **Vantagem** e **`+4` de Dano** (conversão automática do `Cap +3`). |
 | `[5/7]` | **Tirano** | `5` | `+3` em rolagens + **Vantagem** e **`+5` de Dano** (ou `+3/+3` no corpo e `+2/+2` na arma!). |
@@ -1942,7 +1945,7 @@ O Legado de Aspecto *Dança das Sombras (*Shadow Dance*)* é uma arte marcial es
 
 - **Para Jogadores Novatos:** É o **Aspecto definitivo da guerreira imortal e da heroína incandescente**. Você nunca fica sem ferramentas em momento algum: no mesmo turno, suas chamas queimam armaduras inimigas, fecham seus próprios ossos quebrados e curam o companheiro caído ao seu lado. Além disso, você possui imunidade natural à maior ameaça psicológica de *Shadow Slave*: a Corrupção do Feitiço.
 - **Para Jogadores Veteranos:** A *Portadora da Luz* domina **três pilares econômicos ao mesmo tempo**: sustentabilidade infinita (absorvendo Essência direto das mortes), dano híbrido irresistível (alternando entre **Dano Físico** e **Dano de Alma** para explorar qualquer fraqueza) e um botão nuclear tático (**Sobrecarga de Agonia**) que sacrifica um Núcleo para virar lutas matematicamente impossíveis contra Chefes de Rank superior.
-- **Papel no Grupo & Vulnerabilidades:** Você é **Vanguarda-Artilheira-Curandeira**. Ao contrário de curandeiros frágeis, você brilha na linha de frente ao lado do tanque ou liderando a investida. Sua maior fraqueza é **tática e psicológica**: suas chamas são impossíveis de esconder no escuro (anulam furtividade quando ativas) e a dor contínua do Defeito exige disciplina férrea de `Mente [Vontade]` para não comprometer ações delicadas.
+- **Papel no Grupo & Vulnerabilidades:** Você é **Vanguarda-Artilheira-Curandeira**. Ao contrário de curandeiros frágeis, você brilha na linha de frente ao lado do tanque ou liderando a investida. Sua maior fraqueza é **tática e psicológica**: suas chamas são impossíveis de esconder no escuro (anulam furtividade quando ativas e fazem de você o alvo preferido dos inimigos) e a dor contínua do Defeito exige disciplina férrea de `Mente [Vontade]` para não comprometer ações delicadas.
 
 ---
 
@@ -2004,26 +2007,30 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 | `[7/7]` | **Titã** | Imune a qualquer fogo/calor abaixo de Divino; absorve calor ambiente contínuo (`+1 PE/cena`). |
 
 #### 1ª Habilidade (Adormecida) — `[Chama da Alma (Soul Flame)]`
-- **Custo de Essência:** `1 PE` (armas/toque por cena) ou `2 PE` (cura instantânea ou dano em área *Corpo a Corpo*) | **Tipo de Ação:** `1 Ação Menor` (ativar) ou `1 Ação Maior` (curar/explodir) | **Alcance:** Pessoal / *Corpo a Corpo* | **Duração:** Cena (arma) ou Instantânea (cura)
-- **Teste & Sucesso Simples:** Envolve suas mãos, corpo ou Arma de Memória em Chama Branca.
-  - *Modo Purificador:* Seus golpes adicionam **`+1` de Dano** (escolhendo Físico ou Dano de Alma antes de rolar!).
-  - *Modo Restaurador:* Role `Alma [Canalizar]` (`CD 5` em si mesma, `CD 7` em aliado ferido gravemente): restaura **`2 PV`** (`1 PV` em `CD Exata` com dor aguda) e limpa `1` veneno ou sangramento.
+- **Custo de Essência:** `0 PE` (acender a chama) ou `2 PE` (cura instantânea ou dano em área *Corpo a Corpo*) | **Tipo de Ação:** `1 Ação Menor` (acender) ou `1 Ação Maior` (curar/explodir) | **Alcance:** Pessoal / *Corpo a Corpo* | **Duração:** Cena (chama acesa) ou Instantânea (cura)
+- **Teste & Sucesso Simples:** Envolve suas mãos, corpo ou Arma de Memória em Chama Branca. Acender não pede teste nem Essência; a chama arde até o fim da cena, até você apagá-la (Ação Livre), até você cair a `0 PV` ou até consumi-la num disparo da *Manipulação Solar*.
+  - *Chama Acesa (Modo Purificador):* enquanto a chama arde, você recebe **`+2` de Dano** (escolhendo Físico ou Dano de Alma antes de rolar) **e `+2` nas rolagens físicas** (ataque e Defesa física) como **Adormecida**; a partir do **Rank Desperto**, o bônus sobe para **`+3/+3`**. *(Esta chama fica sempre `1` acima do Manto do Escravo das Sombras, que dá `+1/+1` no Adormecido e `+2/+2` no Desperto. Os bônus de rolagem respeitam o `Cap +3`: o excedente vira Vantagem ou `+1` de Dano.)*
+  - *Brasa Restauradora (autocura passiva):* no início de cada rodada, se a chama estiver acesa e você não estiver caída, você recupera **`1 PV`** (até o seu máximo), sem ação, sem teste e sem Essência.
+  - *Chama Visível:* com a chama acesa você **não pode ser furtiva** (não participa de emboscada nem recebe Ataque Furtivo com ela acesa) e a luz atrai o foco: **toda criatura que puder alcançá-la a inclui entre os seus alvos**.
+  - *Modo Restaurador (cura ativa):* com `1 Ação Maior` e `2 PE`, role `Alma [Canalizar]` (`CD 5` em si mesma, `CD 7` em aliado ferido gravemente): restaura **`2 PV`** (`1 PV` em `CD Exata` com dor aguda) e limpa `1` veneno ou sangramento.
 - **Sucesso Crítico (`CD + 4` ou mais):** No ataque purificador, adiciona **`+1` de Dano de Alma extra** além do dano normal; na cura restauradora, recupera **`+1 PV` adicional** e cura `1` **Rachadura Espiritual** (Dano de Alma, *Livro 1, Seção 6.1*) do aliado!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
-| Núcleo | Classe | Dano Extra (Purificador) | Cura Base (Restaurador) |
+| Núcleo | Classe | Chama Acesa (Dano / rolagens físicas) | Cura Base (Restaurador) |
 | :---: | :--- | :--- | :--- |
-| `[1/7]` | **Besta** | `+1` Dano (Físico ou Alma). | `2 PV` em toque. |
-| `[2/7]` | **Monstro** | `+1` Dano (`+2` contra Corrompidos). | `2 PV` + remove doença/veneno menor. |
-| `[3/7]` | **Demônio** | `+2` Dano (Físico ou Alma). | `3 PV` em até `2` alvos em *Corpo a Corpo*. |
-| `[4/7]` | **Diabo** | `+2` Dano + `+1` em testes contra armadura. | `3 PV` + `1` condição mental/maldição leve. |
-| `[5/7]` | **Tirano** | `+3` Dano (respeitando `Cap +3` em rolagem). | `4 PV` e reduz custo da cura em `-1 PE` (mín. `1`). |
-| `[6/7]` | **Terror** | `+3` Dano + queima contínua (`1` Dano no turno seguinte). | `4 PV` para todo o grupo em *Corpo a Corpo*. |
-| `[7/7]` | **Titã** | `+4` Dano (Físico ou Alma) em chamas densas! | `5 PV` + cura `2` Rachaduras Espirituais do alvo! |
+| `[1/7]` | **Besta** | `+2` Dano / `+2` (Adormecida); `+3/+3` se já for Desperta. | `2 PV` em toque. |
+| `[2/7]` | **Monstro** | `+3` Dano / `+3` (chega no Despertar); `+1` Dano extra contra Corrompidos. | `2 PV` + remove doença/veneno menor. |
+| `[3/7]` | **Demônio** | `+4` Dano / `+3` (Físico ou Alma). | `3 PV` em até `2` alvos em *Corpo a Corpo*. |
+| `[4/7]` | **Diabo** | `+5` Dano / `+3` + `+1` em testes contra armadura. | `3 PV` + `1` condição mental/maldição leve. |
+| `[5/7]` | **Tirano** | `+6` Dano / `+3` (respeitando `Cap +3` em rolagem). | `4 PV` e reduz custo da cura em `-1 PE` (mín. `1`). |
+| `[6/7]` | **Terror** | `+7` Dano / `+3` + queima contínua (`1` Dano no turno seguinte). | `4 PV` para todo o grupo em *Corpo a Corpo*. |
+| `[7/7]` | **Titã** | `+8` Dano / `+3` (Físico ou Alma) em chamas densas! | `5 PV` + cura `2` Rachaduras Espirituais do alvo! |
 
 #### 2ª Habilidade (Desperta) — `[Manipulação Solar (Radiant Manipulation)]`
 - **Custo de Essência:** `2 PE` | **Tipo de Ação:** `1 Ação Maior` (disparo) ou `1 Reação` (escudo solar) | **Alcance:** *Perto* a *Longe* | **Duração:** Instantânea ou `2` Turnos (barreira)
 - **Teste & Sucesso Simples:** Você projeta sua Chama Branca para longe do corpo: lança pilares de fogo estelar, arcos cortantes de luz, dardos guiados ou ergue cúpulas de fogo sólido para bloquear projéteis. Role `Alma [Evocar]` para atacar (causando `2` de Dano Físico ou `2` de Dano de Alma) ou `Alma [Abjurar]` para erguer barreira que absorve `3` de Dano.
+- **Disparar Consome a Chama:** com a *Chama da Alma* acesa, você pode **somar o bônus da chama** (Dano e rolagem) ao disparo. Ao disparar, porém, a chama **é consumida, acertando ou errando**: você perde todos os bônus dela (Dano, rolagens físicas e a *Brasa Restauradora*) até reacendê-la. É a escolha da Portadora: ser a mais letal no corpo a corpo ou atirar de longe, mas não as duas coisas no mesmo turno.
+- **Reação Presa à Chama:** enquanto a chama estiver **apagada**, a sua Reação só pode ser usada para **reacendê-la** (sem teste e sem custo); escudo solar, *Devorar Chamas Alheias* e outras Reações ficam travados. Com a chama **acesa**, a Reação fica livre. Você também pode reacender com a Ação Menor no seu turno, como sempre.
 - **Sucesso Crítico (`CD + 4` ou mais):** O raio solar atravessa o primeiro alvo atingindo um segundo atrás dele em linha reta, ou a cúpula solar explode ao absorver um golpe refletindo `1` de Dano ao atacante!
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
@@ -2110,7 +2117,7 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 
 - **Passo `[1/7]` — *Esgrima sem Temor*:** *Condição:* Lutar contra um inimigo muito superior sem recuar nem usar habilidades de fogo para se salvar, confiando apenas na lâmina. *Recompensa:* `+1` em ataques corpo a corpo com espadas quando estiver com metade ou menos dos PV; desbloqueia **Estrela de Obsidiana**.
 - **Passo `[2/7]` — *Dança nas Cinzas*:** *Condição:* Lutar sob dor extrema contínua sem falhar em um único teste de Vontade durante uma batalha inteira. *Recompensa:* Permite usar **1 Ação Menor** para converter `1` ferida sofrida em `+1` de dano no contra-ataque imediato; desbloqueia **Manto das Cinzas Imaculadas**.
-- **Passo `[3/7]` — *Sopro da Fornalha*:** *Condição:* Purificar simultaneamente múltiplos alvos alternando Fogo Restaurador e Purificador no mesmo combate. *Recompensa:* Reduz em `-1 PE` a primeira ativação de *Chama da Alma* em cada cena.
+- **Passo `[3/7]` — *Sopro da Fornalha*:** *Condição:* Purificar simultaneamente múltiplos alvos alternando Fogo Restaurador e Purificador no mesmo combate. *Recompensa:* Reduz em `-1 PE` a primeira cura do *Modo Restaurador* da *Chama da Alma* em cada cena.
 - **Passo `[4/7]` — *Voz da Estrela*:** *Condição:* Pronunciar um Nome Verdadeiro em combate moldando a lei local do fogo. *Recompensa:* Concede **`+1` em Feitiçaria de Nomes (*Shaping*)**; desbloqueia **Coroa da Aurora**.
 - **Passo `[5/7]` — *Sacrifício Calculado*:** *Condição:* Sobreviver a uma *Sobrecarga de Agonia* voluntária e reconstruir o Núcleo perdido. *Recompensa:* Reduz pela metade o dano interno sofrido ao detonar um Núcleo.
 - **Passo `[6/7]` — *Chama Que Nunca se Apaga*:** *Condição:* Manter seu Domínio aceso protegendo um grupo inteiro durante um cerco mortal. *Recompensa:* Aliados dentro do alcance *Perto* ganham `+1` contra Dano de Alma.
@@ -3308,8 +3315,8 @@ Você exerce controle telecinético e alquímico sobre o estado físico do sangu
 
 | # | Aspecto Divino | Subsistema Central | Papel Principal | Maior Risco / Defeito |
 | :-: | :--- | :--- | :--- | :--- |
-| **1** | **Escravo das Sombras** | `1–7` Sombras Pessoais (`+1/+1`, `100m`) + Exército de Sombras Imortais | Batedor, Duelista & Invocador | `2` Dano de Alma ao ferirem Sombras Pessoais / Vínculo por Nome |
-| **2** | **Portadora da Luz** | Chama Dual (Dano Físico/Alma ou Cura) + Absorção de PE + Sobrecarga Nuclear | Vanguarda, Curandeira & Canhão | Dor agonizante contínua ao usar o Aspecto / Sem furtividade |
+| **1** | **Escravo das Sombras** | `1–7` Sombras Pessoais (Manto sem custo, `+1/+1` por Sombra; `1` no Adormecido, `2` no Desperto; Batedor `100m`) + Exército de Sombras Imortais | Batedor, Duelista & Invocador | `2` Dano de Alma ao ferirem Sombras Pessoais / Vínculo por Nome |
+| **2** | **Portadora da Luz** | Chama Branca sem custo (`+2/+2` Adormecida, `+3/+3` Desperta, autocura `1 PV`/rodada) + Cura + Absorção de PE + Sobrecarga Nuclear | Vanguarda, Curandeira & Canhão | Dor agonizante contínua ao usar o Aspecto / Sem furtividade e alvo preferido / Disparo solar apaga a chama |
 | **3** | **Príncipe do Nada** | Mundo dos Espelhos + Divisão de Núcleo (Bestas de Reflexo) + Duelo de Possessão | Infiltrador, Assassino & Ladrão de Poder | Fragilidade sem espelho-âncora / Duelo letal no Mar da Alma |
 | **4** | **Arauto da Tempestade** | Cargas Estáticas + Pressão Abissal + Condução em Água/Metal + Navegação | Artilheiro Elemental & Navegador | Atrai predadores de topo e tempestades como um farol |
 | **5** | **Forjador do Crepúsculo** | `1d8` Universal + Arsenal Flutuante (`1–7` armas) + Lâminas Conceituais | Duelista de Arsenal & Forjador | Aço mundano quebra em `1` golpe / Dependência de Memórias |

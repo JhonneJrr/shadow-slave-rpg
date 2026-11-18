@@ -31,3 +31,9 @@
 ## Livro 4 — Lore e Cenário
 - Novo **Exemplo de Mesa** de Reputação entre facções rivais, com dica de uso na mesa (Seção 3.8).
 - Navegação final trocada por links relativos.
+
+## Pacote de Ajustes de Aspectos e Chefes (18/11/2026)
+- **Escravo das Sombras (Livro 2):** Manto das Sombras sem custo e sem dano ao portador, `+1` nas rolagens físicas e `+1` de Dano por Sombra. As Sombras só se somam depois do Despertar: `1` Sombra no Adormecido (`+1/+1`), `2` no Desperto (`+2/+2`). Manto em aliados só a partir do Rank Desperto (contradição entre a Seção 1.3 A e a 1ª Habilidade corrigida). Evolução de Sombra Evolutiva corrigida para `+2` na CD por Rank.
+- **Aspectos Divinos (Livros 1, 2 e 3):** o 2º Núcleo Divino só condensa no Despertar, e não mais no Marco 10 do Adormecido.
+- **Portadora da Luz (Livro 2):** a Chama da Alma acende com Ação Menor, sem custo, e dura a cena. Acesa, dá `+2` de Dano e `+2` nas rolagens físicas como Adormecida e `+3/+3` como Desperta, mais autocura de `1 PV` por rodada. A chama é visível: sem furtividade, e os inimigos a incluem entre os alvos. Na Manipulação Solar, o disparo pode somar o bônus da chama, mas a consome; com a chama apagada, a Reação só serve para reacendê-la.
+- **Perfil de Chefe (Livros 0, 1, 3 e 4):** Demônio e Diabo Despertos contra Adormecidos passam de 2× para **3× PV** (Demônio da Matriz: 42; Diabo: 54). CD e Dano continuam os mesmos.

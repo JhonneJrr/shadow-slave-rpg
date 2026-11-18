@@ -809,6 +809,100 @@ No Desperto a nota dela cai em relação ao saturado: a barreira da Manipulaçã
 
 **Recomendação:** Chama canônica (Ação Menor, sem custo, +1/+1 físico, chama visível que atrai o foco e impede furtividade) **com a cura em Reação de 1 PE, 1×/rodada, 2 PV a Perto**. Isso dá T1, sem passar o Escravo das Sombras. Se o Jhonne preferir a autocura passiva, ela deve **substituir** a cura em Reação, e não somar a ela (Corte B, T1). Juntas, as duas passam do Escravo das Sombras.
 
+### 9.8 Portadora da Luz: variante Nephis v3 (só simulada)
+
+Pedido do Jhonne: em dano ela fica sempre 1 acima do Escravo das Sombras; o disparo da Manipulação Solar pode levar o bônus da chama, mas apaga a chama naquele turno; com a chama apagada, a Reação só reacende; com a chama acesa, a Reação fica livre para o escudo. Nada disto foi escrito nos livros.
+
+**O que entrou nesta variante (em cima do Corte B):**
+
+- **Chama:** Ação Menor, sem custo. Enquanto arde: **+2 de Dano e +2 nas rolagens físicas** como Adormecida (Novato e Saturado); **+3/+3** como Desperta (sempre 1 acima do Escravo das Sombras, que tem +1 no Adormecido e +2 no Desperto). Autocura passiva de 1 PV por rodada enquanto arde, como no Corte B. Chama visível: não é furtiva e atrai o foco.
+- **Manipulação Solar (só Desperta, 2 PE):** disparo à distância (Ação Maior, Alma [Evocar], 2 de dano, podendo somar o bônus da chama) **ou** escudo em Reação (absorve 3, como no L2). **O disparo consome a chama:** ela perde o bônus de dano, o bônus de rolagem e a autocura até reacender. O consumo vale mesmo se o tiro erra.
+- **Reacender:** se a chama foi apagada no tiro, no início do turno das criaturas a Reação só serve para reacender (sem escudo naquela rodada). Com a chama acesa, a Reação fica livre para o escudo. Acender pela primeira vez continua sendo Ação Menor e não acontece na rodada de emboscada.
+
+**Política de tiro vs. corpo a corpo (IA da simulação):**
+
+1. Padrão: corpo a corpo (ou o ataque de arma, se o papel já for à distância) com a chama acesa, para manter o bônus, a cura passiva e a Reação livre para o escudo.
+2. Ela só atira — e gasta a chama no disparo — se um acerto do tiro (2 + bônus da chama, mais o Reforço Corporal se ainda couber, sem crítico e sem resto do cap) abateria o alvo **e** um acerto de arma com a chama acesa não abateria. Vale a RD (o corpo a corpo ignora RD em flanco ou surpresa; o tiro, só em surpresa).
+3. O disparo custa 2 PE. Se o alvo não for o último e a vida dela estiver baixa (PV ≤ 2× o dano de uma criatura viva), ela reserva 2 PE para o escudo (só atira com 4 PE ou mais). Contra o último inimigo, 2 PE bastam.
+4. Ela não atira só porque o dano do disparo empata com o da arma: no Executor, por exemplo, 2 + 3 de chama já iguala o tiro, e o flanco ainda favorece o corpo a corpo.
+
+A nota usa a mesma malha, as mesmas sementes e a mesma fórmula da seção 9.7 (Δ vitória + ½ Δ quedas evitadas no melhor papel, mais ½ da utilidade do Relógio; a final é a média das três etapas). A utilidade da Portadora no Relógio não muda. O dano abaixo é o dano efetivo (PV removidos pelo próprio personagem, sem Eco/Sombra Evolutiva e sem dano em excesso). A coluna de tiros solares vale só para a v3.
+
+| Versão | Novato | Saturado | Desperto | Nota final | Tier | Δ em grupo (saturado / Desperto) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Nephis v3** (chama +2/+3, tiro apaga, Reação reacende) | 26,8 | 27,6 | 25,7 | **26,7** | **T0** | 31,2 / 25,5 |
+| Corte B (chama +1/+1, autocura passiva, cura do livro) | 16,4 | 16,6 | 12,8 | **15,2** | T1 | 16,5 / 11,0 |
+| *Referência: Escravo das Sombras* | 17,8 | 21,1 | 28,0 | **22,3** | T0 | 11,4 / 16,9 |
+| *Referência: Besta Lunar* | 11,5 | 13,3 | 26,6 | **17,2** | T1 | 22,9 / 24,5 |
+
+Papel da nota da v3: novato Baluarte (Δw +21,2, Δq +11,3), saturado Baluarte (Δw +24,7, Δq +6,0), desperto Baluarte (Δw +20,0, Δq +11,7). Papel da nota do Escravo das Sombras: novato Executor, saturado Baluarte, desperto Baluarte.
+
+**Passa o Escravo das Sombras?**
+
+| Etapa | Nephis v3 | Escravo das Sombras | Diferença | Passa? |
+| :--- | :---: | :---: | :---: | :---: |
+| Novato | 26,8 | 17,8 | +8,9 | sim |
+| Saturado | 27,6 | 21,1 | +6,5 | sim |
+| Desperto | 25,7 | 28,0 | −2,4 | não |
+| **Média final** | 26,7 | 22,3 | +4,4 | sim |
+
+**Dano efetivo por rodada e por combate** (média dos cenários da etapa), no papel que rendeu a nota de cada um:
+
+| Etapa | Personagem (papel da nota) | Dano/rodada | Dano/combate | Rodadas | Tiros solares/combate |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| Novato | Nephis v3 (Baluarte) | 3,0 | 8,6 | 4,0 | 0,0 |
+| Novato | Corte B (Baluarte) | 1,8 | 6,4 | 5,3 | — |
+| Novato | Escravo das Sombras (Executor) | 2,0 | 6,9 | 4,2 | — |
+| Saturado | Nephis v3 (Baluarte) | 4,6 | 12,3 | 3,7 | 0,0 |
+| Saturado | Corte B (Baluarte) | 3,5 | 10,1 | 5,0 | — |
+| Saturado | Escravo das Sombras (Baluarte) | 3,3 | 9,7 | 4,0 | — |
+| Desperto | Nephis v3 (Baluarte) | 5,4 | 15,1 | 3,6 | 0,3 |
+| Desperto | Corte B (Canalizador) | 1,6 | 5,5 | 4,0 | — |
+| Desperto | Escravo das Sombras (Baluarte) | 5,0 | 14,8 | 3,4 | — |
+
+No Executor (papel de dano, para comparar o output lado a lado):
+
+| Etapa | Nephis v3 | Corte B | Escravo das Sombras | v3 − Sunny |
+| :--- | :---: | :---: | :---: | :---: |
+| Novato (dano/rodada) | 2,8 | 1,9 | 2,0 | +0,9 |
+| Saturado (dano/rodada) | 4,1 | 3,1 | 3,2 | +0,9 |
+| Desperto (dano/rodada) | 4,8 | 3,5 | 4,7 | +0,1 |
+| Novato (dano/combate) | 8,7 | 7,1 | 6,9 | +1,8 |
+| Saturado (dano/combate) | 12,1 | 9,9 | 10,0 | +2,2 |
+| Desperto (dano/combate) | 14,4 | 12,0 | 14,6 | −0,2 |
+
+Dano por rodada em todos os papéis:
+
+| Etapa | Papel | Nephis v3 | Corte B | Escravo das Sombras |
+| :--- | :--- | :---: | :---: | :---: |
+| Novato | Baluarte | 3,0 | 1,8 | 1,7 |
+| Novato | Executor | 2,8 | 1,9 | 2,0 |
+| Novato | Olho de Falcão | 1,5 | 0,7 | 0,8 |
+| Novato | Canalizador | 2,0 | 1,3 | 1,3 |
+| Saturado | Baluarte | 4,6 | 3,5 | 3,3 |
+| Saturado | Executor | 4,1 | 3,1 | 3,2 |
+| Saturado | Olho de Falcão | 2,4 | 1,2 | 1,1 |
+| Saturado | Canalizador | 1,8 | 1,2 | 1,2 |
+| Desperto | Baluarte | 5,4 | 3,3 | 5,0 |
+| Desperto | Executor | 4,8 | 3,5 | 4,7 |
+| Desperto | Olho de Falcão | 3,1 | 1,8 | 2,5 |
+| Desperto | Canalizador | 3,5 | 1,6 | 2,9 |
+
+No Desperto, tiros solares por combate da v3 (política da IA): Baluarte 0,3, Executor 0,0, Olho de Falcão 0,2, Canalizador 0,0.
+
+**Leitura:** com a chama em +2/+3 e a autocura passiva, a v3 vai para **26,7, T0**, e passa o Escravo das Sombras no geral (22,3): ganha no Novato (26,8 a 17,8) e no Saturado (27,6 a 21,1), mas no Desperto ainda fica atrás (25,7 a 28,0). O que explode a nota é o +2 já no Adormecido, somado à cura e ao foco nela; em dano ela fica à frente no Adormecido (no Executor, 2,8 e 4,1 por rodada contra 2,0 e 3,2 do Sunny) e quase empata no Desperto (4,8 contra 4,7), porque o Passo das Sombras e a segunda Sombra compensam o +1 dela. O disparo quase não é usado (0,3 por combate no Baluarte, 0 no Executor), então a troca "tiro ou chama" segura pouco este pacote.
+
+
+### 9.9 Pacote aplicado nos livros (18/11/2026)
+
+Aprovado pelo Jhonne e escrito nos livros em 2026-11-18:
+
+- **Escravo das Sombras:** Manto canônico (sem custo, sem dano ao portador, `+1/+1` físico por Sombra). 1 Sombra no Adormecido, 2 no Desperto. Manto em aliados só a partir do Desperto. Sombra Evolutiva com `+2` na CD por Rank no L2 §1.3 B.
+- **2º Núcleo Divino só no Despertar** para todos os Divinos (L1 §4.3/§12, L2 cap. 1 e Regras Compartilhadas, L3).
+- **Portadora da Luz = Nephis v3 (9.8):** chama sem custo (Ação Menor, cena), `+2/+2` Adormecida e `+3/+3` Desperta, autocura de 1 PV por rodada, chama visível. O disparo solar pode somar o bônus, mas consome a chama. Com a chama apagada, a Reação só reacende. A cura ativa (Ação Maior, 2 PE) continua como estava. Na tabela por Núcleo, do `[3/7]` em diante o Dano segue a regra "1 acima do Manto" (`+4`…`+8`), o que é uma extrapolação não simulada.
+- **Perfil de Chefe 3× PV** (Demônio 42, Diabo 54) no L0, L1, L3 e L4.
+- **Não entrou:** o resto do pacote da 8.4 (controle, Sangrando/Queimando 3 turnos, Toxina, Devorador, Golpe na Jugular). Com o Manto canônico e o 2º Núcleo no Despertar, mas sem a 8.4, o chefe de 3× PV fica em cerca de 37% na briga direta e 95% com plano (tabela da 8.6).
+
 ## 10. Pontos ainda em aberto
 
 | Tema | Situação |

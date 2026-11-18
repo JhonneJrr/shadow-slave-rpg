@@ -604,7 +604,7 @@ Um vasto deserto labiríntico formado por recifes de coral carmesim petrificado 
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | Bando de **3 Carniceiros da Carapaça** | Desperta — Besta | **9** | Patrulham corredores em bando; atacam os flancos mais frágeis. |
 | **3** | **2 Aranhas de Ferro** em teia metálica | Desperta — Monstro | **9** | Tecem fios invisíveis entre torres de coral para prender batedores. ⚠️ **Fuga/Evitar** *(Ameaça ~8 > 7; Despertas contra Adormecidos)* |
-| **4** | **Centurião da Carapaça** solitário | Desperta — Demônio | **10** | Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 28 PV, Dano 3, 3 alvos — ⚠️ **Fuga/Evitar** *(Ameaça 9 > 7)* sem Relógio de Preparação. |
+| **4** | **Centurião da Carapaça** solitário | Desperta — Demônio | **10** | Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 42 PV, Dano 3, 3 alvos — ⚠️ **Fuga/Evitar** *(Ameaça 9 > 7)* sem Relógio de Preparação. |
 | **5** | **Verme Escavador de Lodo** | Desperta — Monstro | **9** | Emerge do chão lamacento abaixo da fila do meio da Coorte. |
 | **6** | **Besta Marinha Encalhada** *(ou Sombra do Mar)* | Caída — Diabo | **12** | Presa em uma fenda esperando a maré; ataca apenas quem se aproxima! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima de Adormecidos)* |
 
@@ -947,7 +947,7 @@ Uma bacia verdejante e enganosamente pacífica onde dias claros, nuvens suaves e
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | **Enxame de Vespas de Sangue** | Adormecida — Besta | **8** | Injetam toxina paralisante e perseguem o cheiro de ferimentos abertos. |
 | **3** | **Matilha de 3 Lobos de Prata** | Desperta — Monstro | **9** | Caçadores velozes que flanqueiam pela retaguarda atacando os feridos. ⚠️ **Fuga/Evitar** *(Despertos contra Adormecidos: Ameaça ~12)* |
-| **4** | **Troll de Casca Vermelha** | Desperta — Demônio | **11** | Regenera 2 PV por rodada sob a sombra da selva (vulnerável a fogo!). 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 2× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. |
+| **4** | **Troll de Casca Vermelha** | Desperta — Demônio | **11** | Regenera 2 PV por rodada sob a sombra da selva (vulnerável a fogo!). 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 3× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. |
 | **5** | **Clone Espelhado da Margem** | Caída — Diabo | **12** | Sai da água do Lago imitando a voz e a arma de um membro da Coorte! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima)* |
 | **6** | **Árvore-Caçadora Centenária** | Corrompida — Tirano | **13** | Move vinte tentáculos de madeira rubra prendendo toda uma caravana! ⚠️ **Fuga/Evitar** *(Corrompida: 3 Ranks acima)* |
 
@@ -1033,7 +1033,7 @@ Uma terra gótica, austera e hipnotizante onde vulcões gigantescos vomitam colu
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | **Bando de 4 Corvos de Sangue** | Adormecida — Besta | **8** | Vigiam estradas e bicam os olhos de viajantes caídos ou distraídos. |
 | **3** | **2 Javalis de Carvão Furiosos** | Desperta — Monstro | **9** | Investem através da fumaça com presas incandescentes (*Queimando*). ⚠️ **Fuga/Evitar** *(Despertos contra Adormecidos: Ameaça ~8)* |
-| **4** | **Salamandra Ígnea das Fendas** | Desperta — Demônio | **11** | Emerge de rios de lava próxima atirando bolas de escória derretida. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 2× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. |
+| **4** | **Salamandra Ígnea das Fendas** | Desperta — Demônio | **11** | Emerge de rios de lava próxima atirando bolas de escória derretida. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 3× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. |
 | **5** | **Marionete Desgarrada de Osso** | Caída — Diabo | **12** | Um cadáver gigantesco reanimado que perdeu o mestre e ataca tudo vivo! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima)* |
 | **6** | **Serpe / Dragão de Cinza** | Corrompida — Tirano | **13** | Mergulha de tempestades de fumaça envolvendo a área em cinza sufocante. ⚠️ **Fuga/Evitar** *(Corrompida: 3 Ranks acima)* |
 
