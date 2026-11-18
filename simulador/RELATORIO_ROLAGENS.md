@@ -918,6 +918,63 @@ Aprovado pelo Jhonne e escrito nos livros em 2026-11-18, como na 8.4 e no códig
 
 Aprovado pelo Jhonne e escrito nos livros em 2026-11-18 (L0, L1 §6.3, L2 §2.1 item 6, L3): as condições baixam a CD de um inimigo **no máximo −1 no total** e não somam. Essa é a regra que o simulador já usava por padrão (`empilhar_condicoes=False`, ver 8.3). O dano contínuo (Sangrando, Queimando, toxinas) soma normalmente. A relíquia Presas Gotejantes de Víbora fica como está: veneno e sangramento valem em cada corte.
 
+### 9.12 Simulações finais com Coorte de 7 jogadores (18/11/2026)
+
+Regras = livros atuais (2º Núcleo no Despertar para todos, chefe com 3× PV, pacote 8.4 completo, teto de −1 na CD por condições — lembrando que o Mestre pode ignorar o teto pelo bem do RP). Coorte de 7 (fichas de 4 + 3 cópias de função), encontros cortados para Orçamento de Ameaça ≤ 7. Scripts: `rodar_7p.py`, `rodar_7p_chefe2.py`, `analise_7p*.py`; resultados em `resultados/sete_*.json`.
+
+**1. Chefe com 7 jogadores (80 grupos de 7 Aspectos × 600 lutas)**
+
+| Etapa | Chefe | Briga direta | Com plano + Relógio | Ameaça encheu | Alguém cai (direta) | Mortes |
+|---|---|---|---|---|---|---|
+| Novato | Desperto do livro (42 PV) | 2% | 24% | 1% | 100% (6,9 caídos) | 0% |
+| Saturado | livro 3× PV (42 PV) | 100% | 100% | 100% | 68% | 0% |
+| Desperto | livro 3× PV (48 PV) | 100% | 100% | 100% | 15% | 0% |
+| Saturado | **84 PV, 5 alvos, Dano 3** | **24%** | **91%** | 20% | — (44% com plano) | 0% |
+| Desperto | **120 PV, 5 alvos, Dano 5** | **22%** | **88%** | — | — | 0% |
+| Desperto | 144 PV, 4 alvos, Dano 4 | 32% | 93% | — | — | 0% |
+
+Referência com 4 jogadores: 23% / 93%. O perfil 3× PV do livro **não escala** para 7: vira trivial no Saturado e no Desperto. Para repetir a curva de 4 jogadores: ~6× PV e 5 alvos no Saturado; ~120 PV, 5 alvos e +1 Dano (ou 144 PV e 4 alvos) no Desperto. Encontros comuns dentro do Orçamento ficam quase sempre em 100% de vitória e 0% de quedas.
+
+**2. Tier list com 7 jogadores (método da seção 9; chefes 7j acima para evitar o efeito teto)**
+
+| Tier | Aspectos (nota final) |
+|---|---|
+| T0 | Escravo das Sombras (11,0) |
+| T1 | Tecelão de Almas (8,9), Oráculo Sagrado (8,7) |
+| T2 | Portadora da Luz (7,8), Alquimista da Peste (6,2), Caminhante do Tempo (5,3) |
+| T3 | Guarda-Sol de Aço (4,9), Besta Lunar (4,1), Arqueiro dos Ventos (3,9), Caçadora da Aurora (3,8), Druida de Espinhos (3,5), Dançarino da Gravidade (3,4), Tecelão de Pesadelos (3,2) |
+| T4 | Senhor das Correntes (2,8), Devorador Carmesim (2,7), Eco Ressonante (2,4), Mestre das Ilusões (2,3), Predador Silencioso (2,2), Cronista das Cinzas (2,0), Príncipe do Nada (1,0) |
+| T5 | Artífice de Cristal (1,0), Cantor dos Mortos (0,7), Monarca da Areia Branca (0,6), Ceifadora de Almas (0,4), Forjador do Crepúsculo (0,3), Cavaleiro Astral (0,2), Guardião de Gelo (0,2), Arauto da Tempestade (−0,5) |
+
+A ordem é praticamente a mesma da lista com 4 jogadores. Mas com 7 pessoas cada Aspecto pesa menos (as notas absolutas caem ~40%). Pelas faixas absolutas, só o Escravo fica em T2 e quase todos caem em T4/T5. Diferença entre Aspectos pesa menos num grupo grande; utilidade (nunca surpreendido, Relógio) passa a decidir mais.
+
+**3. Portadora da Luz × Escravo das Sombras por Posto (Desperto, ficha igual, só muda o nº de Núcleos)**
+
+| Posto | Portadora: nota | dano/rodada | contra chefe | Escravo: nota | dano/rodada | contra chefe | Portadora − Escravo (dano/rodada) |
+|---|---|---|---|---|---|---|---|
+| Desperto [2/7] | 7,2 | 4,56 | 4,00 | 9,8 | 4,58 | 4,16 | −0,02 |
+| Demônio [3/7] | 8,8 | 4,91 | 4,49 | 13,0 | 5,13 | 5,03 | −0,22 |
+| [4/7] | 10,2 | 5,30 | 4,92 | 14,6 | 5,69 | 5,87 | −0,39 |
+| [5/7] | 11,6 | 5,68 | 5,38 | 17,9 | 6,16 | 6,65 | −0,48 |
+| [6/7] | 15,0 | 6,07 | 5,92 | 18,6 | 6,65 | 7,27 | −0,58 |
+| Titã [7/7] | 19,1 | 6,46 | 6,45 | 21,1 | 7,18 | 8,15 | −0,72 |
+
+A chama (+4..+8 Dano, rolagem travada em +3) **não quebra nada**, mas também **não deixa a Portadora 1 acima**. Em dano/rodada ela fica empatada no [2/7] e vai perdendo até ~0,7 abaixo no Titã (−1,7 contra o chefe). O Escravo ganha 1 Sombra por Núcleo, e com isso mais Dano no Manto e mais corpos na luta, crescendo mais rápido. A nota da Portadora sobe bem (7→19) e chega perto do Escravo no topo. Limite: o simulador modela Postos altos só como Núcleos extras numa ficha de Desperto, contra os mesmos inimigos.
+
+**4. Defeito da Portadora (−1 após 3 turnos de chama acesa, salvo Vontade CD 7; chama a cena toda)**
+
+| Variante | % dos turnos com chama sob penalidade (Nov / Sat / Desp) | Nota final | Δ vs sem Defeito |
+|---|---|---|---|
+| Sem Defeito | 0 / 0 / 0 | 7,8 | — |
+| −1 só em cura e disparo (Vontade 1d6+2) | 12 / 44 / 24 | 7,7 | −0,1 |
+| −1 em tudo, inclusive defesa (1d6+2) | 12 / 45 / 24 | 7,1 | −0,7 |
+| −1 em cura e disparo (Vontade 1d6+1) | 15 / 55 / 30 | 7,7 | −0,1 |
+| −1 em tudo (Vontade 1d6+1) | 15 / 56 / 30 | 6,9 | −0,9 |
+
+O Defeito só pega em lutas longas (Saturado: ~4,7 rodadas, quase metade dos turnos com chama). Lido como "−1 nas rolagens de concentração", é praticamente simbólico. Lido como "−1 em tudo", custa ~1 ponto e mantém a Portadora em T2. Nos dois casos não há quebra.
+
+**Recomendação (sem mudar os livros agora):** (1) Para mesas de 7, avisar o Mestre de que o chefe 3× PV é calibrado para 4–5 jogadores. Usar ~6× PV + 5 alvos no Saturado e ~120 PV + 5 alvos + 1 Dano no Desperto, ou subir o Orçamento de Ameaça para encontros comuns. (2) Se a intenção é a Portadora ficar ~1 acima do Escravo em dano, a escala +4..+8 é insuficiente em Postos altos (ficaria +6..+10, ou a chama ignorar 1 de defesa). Sem isso, ela segue equilibrada, logo abaixo. (3) Defeito: manter, e deixar claro que o −1 vale para todas as rolagens dela. Senão ele quase não existe.
+
 ## 10. Pontos ainda em aberto
 
 | Tema | Situação |
