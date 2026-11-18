@@ -8,7 +8,7 @@
 - **CAPÍTULO 1: Cosmologia, O Vazio, A Chama e As 5 Eras Históricas**
   - 1.1 A Filosofia Sandbox: O Palco Vivo Sem Roteiro Fechado
   - 1.2 Antes do Tempo: O Vazio Eterno, Os Seres do Vazio e A Chama do Desejo
-  - 1.3 A Prisão do 7º Deus Esquecido, O Nascimento dos 7 Daemons e A Origem da Corrupção
+  - 1.3 O Aprisionamento do 7º Deus Esquecido, O Nascimento dos 7 Daemons e A Origem da Corrupção
   - 1.4 As 5 Eras Históricas em Profundidade *(+ 15 Ganchos de Sementes do Pesadelo)*
 - **CAPÍTULO 2: O Mundo Desperto em Profundidade (A Terra no Século do Feitiço)**
   - 2.1 A Terra Após os Tempos Sombrios: Tecnologia Híbrida e Vida Cotidiana
@@ -72,14 +72,16 @@ O selo que aprisionou o Vazio cobrou um preço que os sobreviventes esconderam p
 Eles fecharam o selo. E, para que nenhum mortal jamais soubesse da covardia ou da culpa divina que sustentava os céus, os seis Deuses apagaram da memória do mundo até mesmo o nome do sétimo irmão, transformando-o no **Deus Esquecido (*Forgotten God*)**.
 
 ### Os Sete Pedaços Arrancados: O Nascimento dos Daemons
-No último segundo antes de a jaula cósmica se fechar por completo, o Deus dos Sonhos arrancou **sete fragmentos da própria alma divina** e os arremessou através da fenda que se fechava para o lado mortal da existência. Esses sete pedaços caíram nos Reinos e cresceram até se tornarem entidades de poder quase divino, conhecidas como os **Sete Daemons** (*ou os "Defeitos" dos Deuses*):
+No último segundo antes de a jaula cósmica se fechar por completo, o Deus dos Sonhos arrancou **sete fragmentos da própria alma divina** e os arremessou através da fenda que se fechava para o lado mortal da existência. Esses sete pedaços caíram nos Reinos e cresceram até se tornarem entidades de poder quase divino, conhecidas como os **Sete Daemons** (*os "filhos do Desconhecido", como as runas antigas os chamam*):
 1. **Weaver (*O Demônio do Destino*):** O primogênito dos Daemons, tecelão de teias invisíveis, mascarado e solitário — o único que descobriu como manipular os fios da própria realidade e mais tarde criou o *Feitiço do Pesadelo*.
-2. **Nether (*O Demônio da Escolha*):** O arquiteto subterrâneo e príncipe do Submundo, obcecado por compreender a vida, a alma e a liberdade da escolha, esculpindo legiões de seres de pedra viva.
+2. **Nether (*O Demônio da Escolha*):** O caçula dos Daemons, arquiteto subterrâneo e príncipe do Submundo, obcecado por compreender a vida, a alma e a liberdade da escolha, esculpindo legiões de seres de pedra viva.
 3. **Ariel (*O Demônio do Medo*):** A entidade atormentada pelas verdades insuportáveis do cosmos, que ergueu uma tumba colossal para enterrar segredos que destruiriam a sanidade de qualquer mente que os ouvisse.
 4. **Hope (*O Demônio da Esperança / Desejo*):** A faísca luminosa que inspirou mortais a sonharem além das leis impostas pelos Deuses, levando ao primeiro grande conflito aberto entre Deuses e Daemons.
 5. **Mirage (*O Demônio da Imaginação*):** A mente ilusória que ergueu mundos dentro de espelhos e reflexos, desafiando a fronteira entre o real e o sonhado.
 6. **Repose (*O Demônio do Repouso*):** O guardião da estase, da calma enganosa e do sono eterno que suspende o próprio fluxo da decadência.
 7. **Oblivion (*O Demônio do Esquecimento*):** A presença apagada que ninguém consegue lembrar depois de desviar o olhar — o túmulo vivo de memórias que deveriam desaparecer.
+
+> **📌 Nota de Cânone (Nomes dos Daemons):** No romance, só **Weaver**, **Nether**, **Hope** e **Ariel** têm nome conhecido. O Demônio da Imaginação e o Demônio do Repouso nunca tiveram o nome revelado, e o nome do Demônio do Esquecimento foi apagado da memória do mundo. **"Mirage", "Repose" e "Oblivion" são apelidos de mesa** usados neste Códice para facilitar a referência — os NPCs do cenário podem nem conhecê-los.
 
 > **⚖️ Regra de Cenário — Por que os Deuses Proibiam a Adoração aos Daemons?**
 > Na 2ª e na 3ª Era, os seis Deuses proibiram estritamente que qualquer mortal adorasse os Daemons, construísse templos para eles ou investigasse sua origem. O motivo não era simples vaidade: a existência dos Daemons era a prova viva de que existia um **7º Deus aprisionado no Vazio** — e toda adoração mortal fortalece ou desperta o vínculo com o Deus Esquecido adormecido por trás do selo!
@@ -88,13 +90,13 @@ No último segundo antes de a jaula cósmica se fechar por completo, o Deus dos 
 Preso para sempre no Vazio ao lado dos horrores primordiais, o Deus Esquecido não morreu — pois Deuses não morrem facilmente —, mas afundou em um **sono atormentado**. Enquanto ele dorme no abismo, sua mente divina continua sonhando, e seus sonhos colidem diretamente com a essência caótica dos Seres do Vazio.
 
 Dessa colisão nasceu a **Corrupção (*Defilement*)**: uma praga espiritual e conceitual que transforma leis ordenadas em abominações famintas. Quando uma criatura, um humano ou até um pedaço de terra entra em contato com o conhecimento proibido sobre o Vazio, com o sangue negro de uma criatura corrompida ou com as fendas do selo enfraquecido, a Corrupção planta uma **Semente de Profanação** em sua alma.
-- **No RPG (Conexão Mecânica):** Sempre que os jogadores encontrarem escritas não seladas sobre o Vazio, tocarem o sangue de criaturas *Corrompidas/Profanas* ou pisarem em fendas do abismo sem proteção, devem resistir com **`Mente (Vontade)`** (CD 9 a CD 13) para não acumular **Marcas de Corrupção** (escala de `0` a `5`, detalhada no *Livro 1, Cap. 12*). Quando um humano ou criatura atinge **5 Marcas**, a Semente floresce e transforma o ser em uma **Criatura do Pesadelo** enlouquecida pela fome!
+- **No RPG (Conexão Mecânica):** Sempre que os jogadores encontrarem escritas não seladas sobre o Vazio, tocarem o sangue de criaturas *Corrompidas/Profanas* ou pisarem em fendas do abismo sem proteção, devem resistir com **`Mente (Vontade)`** (CD 9 a CD 13) para não acumular **Marcas de Corrupção** (escala de `0` a `5`, detalhada no *Livro 1, Seção 12.2*). Quando um humano ou criatura atinge **5 Marcas**, a Semente floresce e transforma o ser em uma **Criatura do Pesadelo** enlouquecida pela fome!
 
 ---
 
 ## 1.4 As 5 Eras Históricas em Profundidade (Palco de Sementes do Pesadelo)
 
-Toda vez que a Coorte de 7 jogadores entra em uma **Semente do Pesadelo** (*1º, 2º, 3º ou 4º Pesadelo*), o *Nightmare Spell* transporta as almas do grupo para o passado — recriando um fragmento de um conflito ocorrido em uma das cinco grandes eras da história cósmica. Os jogadores não precisam conhecer o futuro para vencer: precisam sobreviver, mudar o curso local daquela tragédia e superar as expectativas do Feitiço.
+Toda vez que a Coorte de 7 jogadores entra em uma **Semente do Pesadelo** (*2º, 3º ou 4º Pesadelo — o 1º é individual e acontece na Terra; veja a Seção 6.7*), o *Nightmare Spell* transporta as almas do grupo para o passado — recriando um fragmento de um conflito ocorrido em uma das cinco grandes eras da história cósmica. Os jogadores não precisam conhecer o futuro para vencer: precisam sobreviver, mudar o curso local daquela tragédia e superar as expectativas do Feitiço.
 
 ### 1ª Era: A Alvorada Divina (*The Dawn of the Gods*)
 - **Atmosfera & Paisagem:** Um cosmos jovem, selvagem e avassalador. Os seis Reinos Mortais ainda estão separados, cada um moldado à imagem bruta de seu Deus patrono: oceanos sem margens no Reino da Tempestade, vulcões e desertos dourados no Reino do Sol, selvas sangrentas gigantescas no Reino das Feras e florestas brancas intermináveis no Reino do Coração. Bestas primordiais e titãs selvagens vagam livremente pelas fronteiras onde a Chama do Desejo ainda está esfriando.
@@ -142,7 +144,7 @@ Toda vez que a Coorte de 7 jogadores entra em uma **Semente do Pesadelo** (*1º,
 - **Magia & Tecnologia:** Fusão única entre ciência humana moderna (reatores, blindados, armas ferroviárias, internet) e o poder espiritual dos Despertos (Fragmentos de Alma, Memórias, Ecos e Feitiçaria redescoberta).
 - **Relação com Deuses/Daemons:** Tanto os Deuses quanto os Daemons estão mortos (ou desaparecidos), mas suas ruínas, linhagens, relíquias e maldições governam o equilíbrio de poder — enquanto o selo sobre o Vazio e o Deus Esquecido continua rangendo debaixo da assimilação entre a Terra e o Reino dos Sonhos.
 - **🎲 3 Ganchos Prontos para Sementes do Pesadelo (5ª Era / Campanha Atual):**
-  1. *Sobrevivência no Solstício:* Recém-despertados em uma região desconhecida sem Âncora, os 7 jogadores precisam descobrir qual direção leva a uma Cidadela humana antes que uma anomalia regional os destrua.
+  1. *Sobrevivência no Solstício:* Recém-chegados ao Reino dos Sonhos na noite do Solstício, numa região desconhecida e sem Âncora, os 7 jogadores precisam descobrir qual direção leva a uma Cidadela humana antes que uma anomalia regional os destrua.
   2. *A Corrida por um Portal Virgem:* Um batedor descobre as ruínas de uma Cidadela intacta fora do mapa de Valor e Song; a Coorte tem uma semana para limpá-la antes que uma expedição dos Grandes Clãs chegue ao local.
   3. *O Portal Dentro dos Muros:* Sensores do Governo falham e uma Semente de Pesadelo amadurece dentro de um distrito industrial da Terra — os jogadores precisam entrar na fenda e conquistar o conflito pela raiz!
 
@@ -158,7 +160,7 @@ A humanidade não foi extinta apenas porque aprendeu a fundir a engenharia human
 2. **Armamento Balístico Reforçado vs. Memórias:** Fuzis militares comuns não perfuram a carapaça de uma Criatura Caída (ou sequer de um Monstro Desperto resistente). Por isso, o exército do Governo Unido utiliza **Rifles de Trilho Eletromagnético**, projéteis com liga de ossos de Pesadelo pulverizados e **Munição Infundida em Pó de Fragmento** — caríssima, reservada para tropas de elite, torres de muralha e blindados pesados como os transportes **Rino** e mechas de engenharia. Ainda assim, para o combate direto contra monstros de Rank Desperto ou superior, nada substitui uma **Memória** empunhada por um Desperto!
 3. **Transporte Continental (*Maglevs Blindados* e Comboios):** Sem oceanos navegáveis para civis nem voos comerciais entre continentes, toda a logística terrestre dentro de um Quadrante depende de **Trens Maglev Subterrâneos Blindados** que correm por túneis reforçados por concreto e runas de contenção, além de enormes comboios terrestres escoltados por veículos artilhados quando é necessário cruzar **Zonas de Exclusão** (áreas abandonadas onde Portais nunca fechados criaram selvas de Pesadelo em plena Terra).
 4. **Comunicações e a Rede Desperta:** Embora satélites antigos tenham sido destruídos ou interferidos pelas fendas espaciais, cabos blindados subterrâneos e torres de retransmissão entre muralhas mantêm uma intranet global chamada **Rede Desperta**. Nela existem fóruns públicos de heróis, boletins de alerta de Portais, cotações oficiais de Fragmentos de Alma e redes clandestinas criptografadas onde mercenários negociam informações proibidas e Memórias fora do controle dos Grandes Clãs.
-5. **Medicina de Cápsulas de Sono (*Sleeping Pods*):** A maior invenção médico-espiritual da Era do Feitiço. Como a alma de um *Adormecido* ou *Desperto* abandona o corpo físico enquanto atravessa para o Reino dos Sonhos (ou entra em um Pesadelo), seu corpo na Terra entra em coma metabólico vulnerável. Cápsulas blindadas de titânio monitoram batimentos cardíacos, nutrem o corpo por via intravenosa, estabilizam ondas cerebrais com pulsos espirituais e contêm travas de contenção capazes de sedar ou selar imediatamente um ocupante caso sinais de **Corrupção** surjam durante o sono!
+5. **Medicina de Cápsulas de Sono (*Sleeping Pods*):** A maior invenção médico-espiritual da Era do Feitiço. Como a alma de um *Adormecido* (a partir da noite do Solstício) ou de um *Desperto* (sempre que dorme) deixa o corpo físico enquanto está no Reino dos Sonhos (ou dentro de um Pesadelo), seu corpo na Terra entra em coma metabólico vulnerável. Cápsulas blindadas de titânio monitoram batimentos cardíacos, nutrem o corpo por via intravenosa, estabilizam ondas cerebrais com pulsos espirituais e contêm travas de contenção capazes de sedar ou selar imediatamente um ocupante caso sinais de **Corrupção** surjam durante o sono!
 
 ---
 
@@ -170,7 +172,7 @@ Após a perda de continentes inteiros e o isolamento oceânico, os bilhões de s
 A maior e mais fortificada super-megalópole do planeta, abrigando mais de **120 milhões de habitantes** atrás de muralhas de liga de titânio de 50 metros de altura, torres de canhões ferroviários automatizados e centenas de postos de vigilância de Despertos. Para o Mestre situar aventuras urbanas, NQSC divide-se em cinco grandes setores:
 - **O Núcleo Administrativo (Distrito do Capitólio):** Arranha-céus brancos de vidro blindado, quartel-general do Governo Unido, ministérios de defesa contra Portais, centros de análise de sensores e os hospitais militares mais bem equipados do mundo.
 - **O Distrito dos Domos e Leilões (Anel Dourado):** Parques climatizados sob cúpulas transparentes, mansões fortificadas das filiais de **Valor**, **Song** e **Casa da Noite**, além das exclusivas **Casas de Leilão de Memórias**, restaurantes que servem carne real do Reino dos Sonhos e clubes privados de Despertos.
-- **A Ilha da Academia (*Academia dos Despertos*):** Um complexo escolar-militar isolado por canais fortificados, conectado diretamente ao Anel Interno e protegido por uma guarnição permanente de Mestres do Governo.
+- **A Ilha da Academia (*Academia dos Despertos*):** Um complexo escolar-militar isolado por canais fortificados, conectado diretamente ao Anel Interno e protegido por uma guarnição permanente de Ascendidos do Governo.
 - **O Setor das Fundições e Logística:** Quilômetros de fábricas automatizadas de munição, refinarias de cristais, fazendas hidropônicas verticais de algas e fungos nutritivos e grandes terminais ferroviários subterrâneos onde trens de carga descarregam matéria-prima vinda de expedições arriscadas.
 - **O Cinturão da Periferia (*NQSC Outskirts*):** Uma cicatriz urbana colossal que se estende para além dos sistemas principais de aquecimento e purificação de ar — lar de dezenas de milhões de refugiados, operários descartados, órfãos e gangues.
 
@@ -194,7 +196,7 @@ Independentemente do Quadrante, toda megacidade humana organiza-se em três cír
 
 | Anel Social | Condições de Vida & Arquitetura | Segurança & Portais | Oportunidades para a Coorte |
 | :--- | :--- | :--- | :--- |
-| **1. Domos de Elite (Anel Interno)** | Céu artificial azul com sol simulado, árvores reais, ar filtrado, clínicas com cápsulas de sono particulares e segurança armada 24h. | Sensores densos e tempo de resposta inferior a **3 minutos** por esquadrões de Despertos ou Mestres de Clã. | Leilões de Memórias raras, contratos milionários de escolta diplomática, acesso a bibliotecas restritas e patrocínio de Grandes Clãs. |
+| **1. Domos de Elite (Anel Interno)** | Céu artificial azul com sol simulado, árvores reais, ar filtrado, clínicas com cápsulas de sono particulares e segurança armada 24h. | Sensores densos e tempo de resposta inferior a **3 minutos** por esquadrões de Despertos ou Ascendidos de Clã. | Leilões de Memórias raras, contratos milionários de escolta diplomática, acesso a bibliotecas restritas e patrocínio de Grandes Clãs. |
 | **2. Anel Residencial & Industrial** | Torres cinzentas de apartamentos modulares de 20m², turnos de 12h em fábricas e fazendas verticais, alimentação à base de ração proteica sintética. | Resposta militar padrão em **8 a 15 minutos**; sirenes eficientes e abrigos subterrâneos lotados. | Mercado cinza de componentes militares, oficinas de reparo de equipamentos, recrutamento oficial do Governo Unido e bares de veteranos. |
 | **3. A Periferia (*The Outskirts*)** | Barracos de metal oxidado, contêineres empilhados, lama química, neblina cinzenta tóxica e zero aquecimento público no inverno rigoroso. | **Abandono institucional:** Se um Portal Categoria 1 ou 2 abre aqui, tropas demoram horas (ou só chegam depois do massacre). | Contrabando de Fragmentos, clubes clandestinos de luta, informantes do submundo, recrutas endurecidos e focos secretos de **Cultos da Profanação**. |
 
@@ -204,11 +206,11 @@ Independentemente do Quadrante, toda megacidade humana organiza-se em três cír
 
 ## 2.4 Dossiê Completo da Academia dos Despertos (*Awakened Academy*)
 
-Para grupos que desejam jogar desde os primeiros passos — logo após os personagens vencerem seu **Primeiro Pesadelo** individual e receberem o chamado do Feitiço para o Reino dos Sonhos —, a **Academia dos Despertos de NQSC** é o palco inicial perfeito onde os **7 jogadores** se conhecem, treinam juntos e forjam os laços da sua **Coorte** antes do Solstício!
+Para grupos que desejam jogar desde os primeiros passos — logo após os personagens vencerem seu **Primeiro Pesadelo** individual, no período em que ainda vivem e dormem normalmente na Terra à espera da convocação —, a **Academia dos Despertos de NQSC** é o palco inicial perfeito onde os **7 jogadores** se conhecem, treinam juntos e forjam os laços da sua **Coorte** antes do Solstício!
 
 ### Estrutura Física da Academia
-1. **O Pavilhão das Cápsulas Blindadas (*O Coração Silencioso*):** Uma catedral subterrânea de aço escovado protegida por três cinturões de segurança e vigiada constantemente por Despertos e Mestres do Governo Unido. Abriga centenas de cápsulas numeradas onde os Adormecidos ficarão adormecidos após o Solstício de Inverno.
-2. **Os Pátios e Arenas de Duelo:** Quatro grandes ginásios com pisos de liga absorvedora de choque, armas de treino embotadas e circuitos de obstáculos de gravidade variável. É proibido usar habilidades letais contra colegas fora de duelos sancionados, mas ossos quebrados são rotineiros — imediatamente curados na enfermaria em questão de horas.
+1. **O Pavilhão das Cápsulas Blindadas (*O Coração Silencioso*):** Uma catedral subterrânea de aço escovado protegida por três cinturões de segurança e vigiada constantemente por Despertos e Ascendidos do Governo Unido. Abriga centenas de cápsulas numeradas onde os corpos dos Adormecidos repousam a partir da noite do Solstício de Inverno, enquanto suas almas lutam no Reino dos Sonhos.
+2. **Os Pátios e Arenas de Duelo:** Quatro grandes ginásios com pisos de liga absorvedora de choque, armas de treino embotadas e circuitos de obstáculos de gravidade variável. É proibido usar habilidades letais contra colegas fora de duelos sancionados, mas ossos quebrados são rotineiros — e curados na enfermaria em questão de horas.
 3. **A Grande Biblioteca & Salas de Cartografia:** Andares inteiros com hologramas topográficos das regiões mapeadas do Reino dos Sonhos, tratados sobre anatomia de Criaturas do Pesadelo, dicionários parciais de runas antigas e registros de sobreviventes de anos anteriores.
 4. **O Grande Refeitório:** Um salão gigantesco famoso entre os novatos por servir diariamente carne fresca de Criaturas do Pesadelo (rica em calorias e vestígios de essência), frutas verdadeiras e água pura — um choque cultural absoluto para jovens vindos da Periferia.
 5. **Os Dormitórios e Salões de Coorte:** Alas separadas para estudantes comuns e suítes privativas alugadas pelos herdeiros dos Grandes Clãs, além de salas de tática reservadas para grupos formados antes da travessia.
@@ -227,8 +229,9 @@ Os corredores da Academia são um microcosmo brutal da sociedade dos Despertos:
 - **Os Independentes / Ratos da Periferia:** Jovens sem sobrenome ou patrocínio que sobreviveram ao Primeiro Pesadelo na raça. Muitas vezes subestimados pelos Legados no primeiro dia, tornam-se os mais temidos em situações reais de fome, emboscada e desespero — e frequentemente formam coortes ferozmente leais entre si!
 
 ### ❄️ A Noite Dramática do Solstício de Inverno (21 de Dezembro)
-Quando a noite mais longa do ano chega, o clima na Academia muda de competitividade estudantil para terror silencioso. Todos os Adormecidos de uma turma — que sabem perfeitamente que **a taxa histórica de mortalidade no primeiro retorno do Reino dos Sonhos varia de 40% a 70%** dependendo de onde o Feitiço os jogar — recebem rações básicas, armas mundanas escolhidas no arsenal e despacham seus pertences pessoais para suas famílias (ou escrevem testamentos).
+Quando a noite mais longa do ano chega, o clima na Academia muda de competitividade estudantil para terror silencioso. Todos os Adormecidos de uma turma — que sabem perfeitamente que **a taxa histórica de mortalidade na primeira travessia ao Reino dos Sonhos (até alcançar uma Cidadela e voltar pelo Portal) varia de 40% a 70%** dependendo de onde o Feitiço os jogar — recebem rações básicas, armas mundanas escolhidas no arsenal e despacham seus pertences pessoais para suas famílias (ou escrevem testamentos).
 - À meia-noite, as sirenes baixam para um zumbido constante e os instrutores selam as tampas de titânio das **Cápsulas de Sono**.
+- **Regra de Ouro para o Mestre:** esta é a **única convocação**. Antes dela, o Adormecido dorme e acorda normalmente na Terra; a partir dela, não volta apenas acordando — precisa alcançar uma **Cidadela** e atravessar seu **Portal (*Gateway*)**, e é essa travessia que o torna **Desperto** (*Livro 1, Seção 4.5*).
 - O Feitiço não envia todos os alunos para o mesmo lugar nem perto de uma Cidadela segura: **cada grupo (ou indivíduo!) é arremessado aleatoriamente pelas regiões do Reino dos Sonhos**, às vezes caindo dentro de fortalezas protegidas de Bastion, outras vezes acordando em desertos mortais ou labirintos de coral cercados por monstros!
 - **Dica para o Mestre (Coorte Unida na Mesa):** Para não dividir os 7 jogadores em 7 lugares diferentes na Sessão 1, estabeleça que **os 7 personagens acordam a poucos metros uns dos outros** na região escolhida da campanha (ou que suas cápsulas foram ligadas a um mesmo setor de ressonância), obrigando-os a unir seus papéis imediatamente para sobreviver e encontrar uma **Cidadela** com Portal de volta!
 
@@ -244,22 +247,22 @@ Sempre que uma **Semente do Pesadelo** amadurece no Reino dos Sonhos sem ser des
 3. **Protocolo de Evacuação em 4 Níveis:**
    - *Nível Amarelo (Anomalia Latente):* Bloqueio discreto do quarteirão; agentes do Governo investigam se há culto ou Semente próxima.
    - *Nível Laranja (Ruptura Iminente):* Sirenes urbanas tocam; transporte público é suspenso; civis descem para **Bunkers Subterrâneos Reforçados** com estoque de água para 72 horas.
-   - *Nível Vermelho (Portal Aberto — Cat. 1 a 3):* Forças de defesa cercam o perímetro com barricadas, tanques Rino e esquadrões de Despertos/Mestres de resposta rápida.
-   - *Nível Negro (Catástrofe — Cat. 4 ou Cadeia de Portais):* Ordem de abandono de distrito; convocação obrigatória de **Santos** e mobilização de Grandes Clãs.
+   - *Nível Vermelho (Portal Aberto — Cat. 1 a 3):* Forças de defesa cercam o perímetro com barricadas, tanques Rino e esquadrões de Despertos/Ascendidos de resposta rápida.
+   - *Nível Negro (Catástrofe — Cat. 4 ou Cadeia de Portais):* Ordem de abandono de distrito; convocação obrigatória de **Transcendentes** e mobilização de Grandes Clãs.
 
 ### Tabela Oficial das Categorias de Portais (1 a 5)
 
 | Categoria do Portal | Semente Equivalente / Ameaça | Guardião do Portal (*Gate Guardian*) | Resposta Necessária para Contenção |
 | :---: | :--- | :--- | :--- |
 | **Categoria 1 (Menor)** | Ondas de *Bestas e Monstros Adormecidos*. Distorção em 1 quarteirão. | **Demônio ou Diabo Adormecido** *(CD 9–10)*. | Pelotão militar com munição reforçada OU **1 Coorte de Despertos**. |
-| **Categoria 2 (Média)** | Hordas de *Criaturas Despertas*; chuva ácida ou névoa local. | **Diabo ou Tirano Desperto** *(CD 10–11)*. | Companhia blindada + **Coorte de Despertos veteranos / 1 Mestre**. |
-| **Categoria 3 (Grave)** | Dezenas de monstros *Caídos*; alteração climática em todo o distrito. | **Tirano ou Terror Caído** *(CD 12–13)*. | Batalhão completo de artilharia + **Esquadrão de Mestres + 1 Santo de apoio**. |
-| **Categoria 4 (Calamitosa)** | Maré de monstros *Corrompidos*; destruição total de uma cidade se não contido. | **Terror ou Titã Corrompido** *(CD 13–14)*. | Mobilização de **Múltiplos Santos**, tropas pesadas de Grandes Clãs e armas rúnicas. |
-| **Categoria 5 (Apocalíptica)** | Invasão de criaturas *Grandes / Amaldiçoadas*; o tecido da Terra rasga permanentemente. | **Titã Grande ou Amaldiçoado** *(CD 15+)*. | **Apenas Soberanos ou aliança total de múltiplos Santos** podem selar a área — ou evacuar o continente! |
+| **Categoria 2 (Média)** | Hordas de *Criaturas Despertas*; chuva ácida ou névoa local. | **Diabo ou Tirano Desperto** *(CD 10–11)*. | Companhia blindada + **Coorte de Despertos veteranos / 1 Ascendido**. |
+| **Categoria 3 (Grave)** | Dezenas de monstros *Caídos*; alteração climática em todo o distrito. | **Tirano ou Terror Caído** *(CD 12–13)*. | Batalhão completo de artilharia + **Esquadrão de Ascendidos + 1 Transcendente de apoio**. |
+| **Categoria 4 (Calamitosa)** | Maré de monstros *Corrompidos*; destruição total de uma cidade se não contido. | **Terror ou Titã Corrompido** *(CD 13–14)*. | Mobilização de **Múltiplos Transcendentes**, tropas pesadas de Grandes Clãs e armas rúnicas. |
+| **Categoria 5 (Apocalíptica)** | Invasão de criaturas *Grandes / Amaldiçoadas*; o tecido da Terra rasga permanentemente. | **Titã Grande ou Amaldiçoado** *(CD 15+)*. | **Apenas Supremos ou aliança total de múltiplos Transcendentes** podem selar a área — ou evacuar o continente! |
 
 > **⚔️ Os Dois Caminhos para Fechar um Portal na Terra:**
 > 1. **Selo por Extermínio:** Resistir a todas as ondas que emergem da fenda e destruir o **Guardião do Portal** que surge por último. Assim que o Guardião morre no Mundo Desperto, a fenda colapsa em faíscas prateadas.
-> 2. **Corte pela Raiz (Entrada na Semente):** Um grupo de Despertos atravessa a fenda *para dentro do Reino dos Sonhos* e conquista a **Semente do Pesadelo** no passado histórico que está gerando aquele Portal — encerrando instantaneamente a invasão na Terra (e subindo de Rank no processo!).
+> 2. **Corte pela Raiz (Entrada na Semente):** Um grupo de Despertos atravessa a fenda *para dentro do Reino dos Sonhos* e conquista a **Semente do Pesadelo** no passado histórico que está gerando aquele Portal — encerrando instantaneamente a invasão na Terra. Como toda Semente conquistada, isso conta como o próximo Pesadelo de quem entrou e pode elevá-lo de Rank (*Seção 6.7*).
 
 ---
 
@@ -289,30 +292,30 @@ No século do Feitiço, nenhum Desperto sobrevive completamente isolado por muit
 ## 3.1 🦅 O Governo Unido (*The Government*)
 - **Lema Não-Oficial:** *"Ninguém fica para trás — enquanto ainda houver um cartucho ou um suspiro."*
 - **Sede:** Núcleo Administrativo de NQSC (com comandos regionais nos Quadrantes Leste, Oeste e Antártica).
-- **Liderança:** O Conselho de Segurança dos Quadrantes e o lendário **Marechal Wake of Ruin** (um dos primeiros Santos da humanidade).
+- **Liderança:** O Conselho de Segurança dos Quadrantes e o veterano **Cor**, o *Wake of Ruin* (um dos dois únicos Transcendentes do Governo, membro da Primeira Geração e comandante de campo da Frente da Antártica).
 - **Cultura & Doutrina:** O Governo Unido é a espinha dorsal que impede bilhões de humanos mundanos de serem abandonados à própria sorte. Embora os Grandes Clãs transfiram silenciosamente seu foco e riqueza para o Reino dos Sonhos, o Governo mantém a lei nas megacidades, opera as redes de sensores de Portais, administra a **Academia dos Despertos** e garante rações, energia e abrigos para os cidadãos comuns.
 - **Poder Militar:**
   - *Forças Convencionais:* Milhões de soldados mundanos, mechas de combate, artilharia ferroviária e comboios blindados **Rino**.
-  - *Forças Especiais & Esquadrões de Ceifadores:* A elite desperta leal diretamente à bandeira humana — especialistas em contenção rápida de Portais Categoria 1–3, investigação de crimes com Aspectos e operações de resgate de altíssimo risco (muitas vezes lideradas por figuras implacáveis como Mestre/Santa **Jet**).
-- **Fraqueza Política:** Como não monopoliza uma Linhagem Divina nem grandes Cidadelas centrais no Reino dos Sonhos, o Governo sofre escassez crônica de **Santos** e de **Memórias de Tier IV+** — dependendo de acordos desconfortáveis com Valor e Song em crises globais.
+  - *Forças Especiais & Esquadrões de Ceifadores:* A elite desperta leal diretamente à bandeira humana — especialistas em contenção rápida de Portais Categoria 1–3, investigação de crimes com Aspectos e operações de resgate de altíssimo risco (muitas vezes lideradas por figuras implacáveis como a Ascendida **Jet**, a *Ceifadora de Almas*).
+- **Fraqueza Política:** Como não monopoliza uma Linhagem Divina nem grandes Cidadelas centrais no Reino dos Sonhos, o Governo sofre escassez crônica de **Transcendentes** e de **Memórias de Tier IV+** — dependendo de acordos desconfortáveis com Valor e Song em crises globais.
 
 ---
 
 ## 3.2 ⚔️ O Grande Clã Valor (*Great Clan Valor*)
-- **Capital no Reino dos Sonhos:** **Bastion** (A fortaleza erguida às margens do Lago Espelhado).
-- **Soberano:** **Anvil de Valor** (*O Rei das Espadas — Rank Supremo*).
+- **Capital no Reino dos Sonhos:** **Bastion** (o castelo colossal erguido sobre o Lago Espelhado, no coração do **Domínio da Espada**).
+- **Supremo (*Sovereign*):** **Anvil de Valor** (*O Rei das Espadas*).
 - **Linhagem Divina:** **Deus da Guerra (*War God*)**.
 - **Cultura & Organização:** Valor opera como um império feudal marcial de honra austera, disciplina férrea e estética cavaleiresca. Seus guerreiros vestem mantos carmesim sobre armaduras prateadas polidas e tratam o campo de batalha e a forja como templos sagrados. Todo herdeiro é treinado desde a infância na arte da espada, estratégia e etiqueta aristocrática.
 - **Poder Econômico e Militar:**
   - *O Monopólio da Forja:* Graças à afinidade da Linhagem do Deus da Guerra e à concentração de dezenas de Aspectos de forja, encantamento e metalurgia espiritual, Valor fabrica a vasta maioria das armas e armaduras de Memória de alta qualidade comercializadas nos dois mundos.
-  - *Legiões de Cavaleiros & Vassalos:* Comanda centenas de Despertos e dezenas de Mestres leais, organizados em ordens de cavalaria comandadas por Santos da família (como **Morgan de Valor** e veteranos de guerra).
+  - *Legiões de Cavaleiros & Vassalos:* Comanda centenas de Despertos e dezenas de Ascendidos leais, organizados em ordens de cavalaria comandadas por Transcendentes da família e herdeiros como **Morgan de Valor**.
 - **Objetivo Oculto & Sombra Política:** Anvil acredita que a Terra acabará sendo totalmente engolida pelo Reino dos Sonhos; portanto, o único caminho para salvar a humanidade é consolidar um império absoluto sob a coroa de Valor, eliminando o Clã Song e submetendo todas as Cidadelas estratégicas antes da batalha final.
 
 ---
 
 ## 3.3 🩸 O Grande Clã Song (*Great Clan Song*)
-- **Capital no Reino dos Sonhos:** **Ravenheart** (A cidadela gótica incrustada sobre vulcões e ossos gigantes nas Terras de Cinza).
-- **Soberana:** **Ki Song** (*A Rainha dos Mortos / Rainha dos Vermes — Rank Supremo*).
+- **Capital no Reino dos Sonhos:** **Ravenheart** (a cidadela de neve e cinza nas encostas de uma cordilheira vulcânica, no extremo norte do **Domínio de Song**).
+- **Suprema (*Sovereign*):** **Ki Song** (*A Rainha dos Vermes / Rainha dos Mortos*).
 - **Linhagem Divina:** **Deus das Feras (*Beast God*)**.
 - **Cultura & Organização:** Se Valor é a lâmina visível sob a luz do dia, Song é o sangue oculto que pulsa sob a pele. Organizado como uma corte matriarcal elegante, silenciosa e implacável, o Grande Clã Song recruta e adota jovens prodígios — muitas vezes órfãs sobreviventes de Portais devastadores — criando-as como as temidas **Princesas de Song**, estrategistas, espiãs e generais de guerra.
 - **Poder Econômico e Militar:**
@@ -323,11 +326,11 @@ No século do Feitiço, nenhum Desperto sobrevive completamente isolado por muit
 ---
 
 ## 3.4 🌊 A Casa da Noite (*House of Night*)
-- **Capital no Reino dos Sonhos:** **O Templo da Noite** e a frota móvel dos **Navios-Cidadela do Mar Tempestuoso**.
+- **Capital no Reino dos Sonhos:** **O Jardim da Noite (*Night Garden*)** — uma das três Grandes Cidadelas, com a forma de um navio colossal — e a frota móvel dos **Navios-Cidadela do Mar Tempestuoso**.
 - **Linhagem Divina:** **Deus da Tempestade (*Storm God*)**.
-- **Cultura & Organização:** O mais antigo, reservado e diplomático dos três Grandes Clãs. Seus membros são navegadores solitários, astrônomos, guardiões de faróis e capitães de guerra acostumados a ler as estrelas e sobreviver a furacões que rasgam aço. Tratam o mar como um ser vivo que exige respeito e tributo.
+- **Cultura & Organização:** O mais reservado e diplomático dos três Grandes Clãs — e o único que não nasceu de uma só família: é uma aliança de vários clãs antigos, fundada pelo lendário **Nightwalker**, e não possui um Supremo próprio. Seus membros são navegadores solitários, astrônomos, guardiões de faróis e capitães de guerra acostumados a ler as estrelas e sobreviver a furacões que rasgam aço. Tratam o mar como um ser vivo que exige respeito e tributo.
 - **Poder Econômico e Militar:**
-  - *Senhorio Absoluto das Águas:* Graças à Linhagem do Deus da Tempestade, apenas os navegadores e **Santos do Mar** da Casa da Noite conseguem guiar embarcações através dos redemoinhos e leviatãs do Mar Tempestuoso e das águas costeiras da Terra. Isso lhes garante o monopólio do transporte marítimo de carga pesada e da rede de **Faróis Astrais**.
+  - *Senhorio Absoluto das Águas:* Graças à Linhagem do Deus da Tempestade, apenas os navegadores da Casa da Noite — os **Nightwalkers** — e seus Transcendentes conseguem guiar embarcações através dos redemoinhos e leviatãs do Mar Tempestuoso e das águas costeiras da Terra. Isso lhes garante o monopólio do transporte marítimo de carga pesada e da rede de **Faróis Astrais**.
   - *Armada Rúnica:* Possuem gigantescos encouraçados movidos a círculos rúnicos capazes de enfrentar Tiranos marinhos em mar aberto.
 - **Postura Política:** A Casa da Noite evita envolver-se diretamente na guerra ideológica entre Valor e Song — atuando como árbitra comercial e protetora das rotas costeiras. Contudo, qualquer ataque aos seus portos ou faróis é respondido com tempestades implacáveis.
 
@@ -335,20 +338,20 @@ No século do Feitiço, nenhum Desperto sobrevive completamente isolado por muit
 
 ## 3.5 🛡️ Clãs Vassalos Menores (*Lesser Legacy Clans*)
 Abaixo dos três colossos existem dezenas de **Clãs Vassalos** que sustentam o sistema feudal dos Despertos tanto na Terra quanto nas fronteiras do Reino dos Sonhos.
-- **Como Operam:** Um Clã Vassalo normalmente possui apenas **1 Santo** (ou apenas alguns Mestres veteranos), uma Cidadela periférica sob arrendamento ou uma mansão fortificada nos Domos, e entre vinte e oitenta Despertos juramentados. Em troca de proteção militar contra rivais e acesso privilegiado aos leilões de Bastion ou Ravenheart, pagam **tributos anuais pesados em Fragmentos de Alma e recrutas** ao seu Grande Clã suserano.
+- **Como Operam:** Um Clã Vassalo normalmente possui apenas **1 Transcendente** (ou apenas alguns Ascendidos veteranos), uma Cidadela periférica sob arrendamento ou uma mansão fortificada nos Domos, e entre vinte e oitenta Despertos juramentados. Em troca de proteção militar contra rivais e acesso privilegiado aos leilões de Bastion ou Ravenheart, pagam **tributos anuais pesados em Fragmentos de Alma e recrutas** ao seu Grande Clã suserano.
 - **Exemplos de Clãs Vassalos para Usar na Mesa:**
-  1. **Clã Pluma Branca (*Vassalo Honrado de Valor*):** Comandado por Santo Tyris e Mestre Roan nas Ilhas Acorrentadas. Valoriza a honra acima das intrigas da corte e trata independentes com respeito surpreendente.
+  1. **Clã Pluma Branca (*Vassalo Honrado de Valor*):** Comandado pela Transcendente Tyris e pelo Ascendido Roan nas Ilhas Acorrentadas. Valoriza a honra acima das intrigas da corte e trata independentes com respeito surpreendente.
   2. **Casa das Bigornas Cinzentas (*Vassalo Forjador de Valor*):** Artesãos orgulhosos das encostas ocidentais de Bastion, especializados em escudos rúnicos pesados e equipamentos de mineração — desesperados por mão de obra para proteger suas minas de ferro estelar.
   3. **Irmandade da Rosa de Sangue (*Vassalo Alquimista de Song*):** Especialistas em antídotos vulcânicos e elixires musculares em Ravenheart, sempre contratando caçadores para capturar bestas vivas sem destruir as glândulas.
   4. **Casa dos Faróis do Sul (*Vassalo Navegador da Casa da Noite*):** Guardiões hereditários de arquipélagos tempestuosos que dependem de mercenários confiáveis quando o inverno traz ondas de monstros marinhos.
-- **Papel na Campanha:** Clãs Vassalos são aliados, empregadores ou rivais perfeitos para os 7 jogadores entre os Ranks *Adormecido* e *Ascendido*. Se um Clã Vassalo entrar em decadência por perder seu único Mestre ou Santo, **a própria Coorte pode ser convidada a preencher esse vácuo de poder!**
+- **Papel na Campanha:** Clãs Vassalos são aliados, empregadores ou rivais perfeitos para os 7 jogadores entre os Ranks *Adormecido* e *Ascendido*. Se um Clã Vassalo entrar em decadência por perder seu único Ascendido ou Transcendente, **a própria Coorte pode ser convidada a preencher esse vácuo de poder!**
 
 ---
 
 ## 3.6 🗡️ Sindicatos da Periferia, Guildas de Mercenários e A Aliança Livre
-Nem todo Desperto aceita usar o uniforme gasto do Governo Unido ou dobrar o joelho diante dos Soberanos feudais:
+Nem todo Desperto aceita usar o uniforme gasto do Governo Unido ou dobrar o joelho diante dos Supremos feudais:
 - **Sindicatos da Periferia (*Outskirts Cartels*):** Organizações clandestinas que prosperam nas zonas esquecidas das megacidades da Terra. Controlam o **mercado negro de Fragmentos não declarados**, laboratórios ilegais de estimulantes espirituais, falsificação de identidades biométricas e **Clubes Clandestinos de Duelo** nos porões industriais — onde Despertos falidos ou fugitivos lutam em jaulas por bolsas de créditos e Memórias roubadas. Seus chefes mantêm subornos silenciosos com inspetores corruptos e agentes de clãs.
-- **A Aliança Livre & Mercenários da Fronteira (Reino dos Sonhos):** Coortes veteranas de Despertos e Mestres que recusam juramentos de vassalagem e erguem acampamentos fortificados em zonas neutras (como as Termas Negras ou rotas das Ilhas Acorrentadas). Operam sob um código pragmático de **"palavra paga, contrato cumprido"**: vendem mapas inéditos, alugam batedores especializados e protegem ferozmente a autonomia das Cidadelas livres.
+- **A Aliança Livre & Mercenários da Fronteira (Reino dos Sonhos):** Coortes veteranas de Despertos e Ascendidos que recusam juramentos de vassalagem e erguem acampamentos fortificados em zonas neutras (como as Termas Negras ou rotas das Ilhas Acorrentadas). Operam sob um código pragmático de **"palavra paga, contrato cumprido"**: vendem mapas inéditos, alugam batedores especializados e protegem ferozmente a autonomia das Cidadelas livres.
 
 ---
 
@@ -383,11 +386,13 @@ A relação da Coorte com cada facção é medida em uma escala simples de **6 d
 | Nível | Governo Unido | Grande Clã Valor | Grande Clã Song | Casa da Noite | Sindicatos / Aliança Livre |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | **`-2` Inimigo Jurado** | **Procurado Federal:** Caçado por *Esquadrões de Ceifadores* e polícia militar nas megacidades. Contas bancárias e acesso a cápsulas oficiais bloqueados. | **Alvo da Ordem Escarlate:** Caçado por *Cavaleiros de Valor*; banido de Bastion; ferreiros têm ordem de recusar comércio e confiscar relíquias. | **Marcado pelo Corvo:** *Assassinas e Marionetes de Song* perseguem a Coorte nas viagens; venenos em tavernas e emboscadas noturnas. | **Anátema dos Mares:** Banido de todos os portos e faróis; encouraçados rúnicos disparam à vista em águas do Mar Tempestuoso. | **Cabeça a Prêmio:** Mercenários e assassinos da Periferia atacam o grupo por recompensa; zero acesso ao mercado negro seguro. |
-| **`-1` Suspeito / Rival** | **Sob Vigilância:** Interrogatórios frequentes em postos de controle; acesso negado a contratos militares bem pagos. | **Desfavorecido:** Preços **50% mais caros** nas forjas de Bastion; guardas revistas constantes nos portões. | **Vigiado na Penumbra:** Seguido por batedores de sangue e corvos; comerciantes locais evitam negociar segredos. | **Taxa Hostil:** Pedágios marítimos dobrados e inspeções rígidas em navios mercantes. | **Desconfiança de Rua:** Informantes cobram o dobro e nunca revelam rotas seguras. |
+| **`-1` Suspeito / Rival** | **Sob Vigilância:** Interrogatórios frequentes em postos de controle; acesso negado a contratos militares bem pagos. | **Desfavorecido:** Preços **50% mais caros** nas forjas de Bastion; revistas constantes dos guardas nos portões. | **Vigiado na Penumbra:** Seguido por batedores de sangue e corvos; comerciantes locais evitam negociar segredos. | **Taxa Hostil:** Pedágios marítimos dobrados e inspeções rígidas em navios mercantes. | **Desconfiança de Rua:** Informantes cobram o dobro e nunca revelam rotas seguras. |
 | **`0` Independente** | **Cidadão Desperto:** Direitos civis padrão e pagamento normal por fechamento emergencial de Portais. | **Viajante Comum:** Permissão para negociar nos mercados externos de Bastion pagando taxa normal de Portal. | **Forasteiro:** Acesso aos postos comerciais externos de Ravenheart e caravanas de cinza. | **Passageiro Pagante:** Compra passagens comuns em navios mercantes entre ilhas e costas. | **Rosto Novo:** Acesso básico a bares de caçadores e mercadores de fronteira. |
 | **`+1` Colaborador / Escudeiro** | **Patente: *Agente Auxiliar***<br>• *Dever:* Responder a alertas de Portais Cat. 1–2 na sua zona.<br>• *Recompensa:* Cápsulas de sono gratuitas na Terra + **salário de 2 Fragmentos por missão** + acesso a boletins da Rede Desperta. | **Patente: *Vassalo Associado***<br>• *Dever:* Escoltar comboios de minério ou entregar relatórios de monstros próximos a Bastion.<br>• *Recompensa:* **20% de desconto** em Armas/Armaduras e permissão de acesso aos bairros internos de Bastion. | **Patente: *Aliado da Corte Cinzenta***<br>• *Dever:* Coletar órgãos de bestas raras ou eliminar espiões rivais nas planícies.<br>• *Recompensa:* Acesso legal a **venenos especiais, elixires de sangue (+2 PV)** e mapas de rotas vulcânicas. | **Patente: *Amigo das Marés***<br>• *Dever:* Proteger faróis isolados ou caçar piratas/monstros costeiros.<br>• *Recompensa:* **Passagem gratuita** em toda a frota mercante + empréstimo de **1 Bússola Astral**. | **Patente: *Sócio de Fronteira***<br>• *Dever:* Compartilhar coordenadas de ruínas ou cobrir retiradas de outras coortes.<br>• *Recompensa:* Lavagem segura de itens roubados, **10% de desconto** em suprimentos e esconderijos secretos na Periferia. |
 | **`+2` Elite / Cavaleiro / Emissário** | **Patente: *Esquadrão Especial (Ceifadores Auxiliares)***<br>• *Dever:* Liderar incursões em Portais Cat. 3 ou conter cultos da Profanação.<br>• *Recompensa:* Uso de **blindados Rino, transporte militar e dossiês classificados** + armamento balístico pesado para aliados mundanos. | **Patente: *Cavaleiro da Forja Real***<br>• *Dever:* Defender fronteiras de Bastion e disputar novas Cidadelas contra Song.<br>• *Recompensa:* Direito exclusivo de encomendar **1 Memória Tier III sob medida** aos ferreiros reais (pagando metade do custo!). | **Patente: *Emissário de Ravenheart***<br>• *Dever:* Comandar expedições sigilosas em regiões mortais em nome de uma Princesa.<br>• *Recompensa:* Recebe **1 Eco/Marionete Desperta** de guarda-costas vinculada ao serviço da Coorte + purificação gratuita de venenos. | **Patente: *Capitão Honorário***<br>• *Dever:* Patrulhar fendas marítimas ou escoltar expedições abissais.<br>• *Recompensa:* Direito de comandar **1 Veleiro Rúnico armado** com tripulação básica da Casa da Noite! | **Patente: *Lenda da Aliança Livre***<br>• *Dever:* Arbitrar disputas entre coortes independentes e organizar defesas contra Grandes Clãs.<br>• *Recompensa:* Crédito aberto até **30 Fragmentos**, rede instantânea de informantes e recrutamento de mercenários veteranos. |
-| **`+3` Herói / Campeão da Facção** | **Patente: *Estrela da Humanidade***<br>• *Dever:* Atender convocações globais (Antártica / Cat. 4–5).<br>• *Recompensa:* Autoridade de comando sobre bases militares em crises + **1 Memória Tier IV** dos cofres federais! | **Patente: *Campeão da Coroa de Ferro***<br>• *Dever:* Lutar nas campanhas decisivas de Anvil pelo destino do Domínio.<br>• *Recompensa:* Feudo fortificado próprio próximo a Bastion + **1 Gotícula da Linhagem do Deus da Guerra**! | **Patente: *Favorito da Rainha***<br>• *Dever:* Executar objetivos estratégicos de Ki Song em regiões de rank Santo/Supremo.<br>• *Recompensa:* Proteção política absoluta contra outros clãs + **1 Gotícula da Linhagem das Feras**! | **Patente: *Senhor do Farol Eterno***<br>• *Dever:* Proteger os segredos mais antigos do oceano contra o Vazio.<br>• *Recompensa:* Governança de uma **Ilha-Farol com Portal** + **1 Gotícula da Linhagem da Tempestade**! | **Patente: *Patriarca das Fronteiras***<br>• *Dever:* Liderar a coalizão livre em grandes guerras.<br>• *Recompensa:* Reconhecimento como **Nova Potência Soberana**; dezenas de coortes independentes acorrem para defender a Cidadela da Coorte! |
+| **`+3` Herói / Campeão da Facção** | **Patente: *Estrela da Humanidade***<br>• *Dever:* Atender convocações globais (Antártica / Cat. 4–5).<br>• *Recompensa:* Autoridade de comando sobre bases militares em crises + **1 Memória Tier IV** dos cofres federais! | **Patente: *Campeão da Coroa de Ferro***<br>• *Dever:* Lutar nas campanhas decisivas de Anvil pelo destino do Domínio.<br>• *Recompensa:* Feudo fortificado próprio próximo a Bastion + **1 Gotícula da Linhagem do Deus da Guerra**! | **Patente: *Favorito da Rainha***<br>• *Dever:* Executar objetivos estratégicos de Ki Song em regiões de Rank Transcendente/Supremo.<br>• *Recompensa:* Proteção política absoluta contra outros clãs + **1 Gotícula da Linhagem das Feras**! | **Patente: *Senhor do Farol Eterno***<br>• *Dever:* Proteger os segredos mais antigos do oceano contra o Vazio.<br>• *Recompensa:* Governança de uma **Ilha-Farol com Portal** + **1 Gotícula da Linhagem da Tempestade**! | **Patente: *Patriarca das Fronteiras***<br>• *Dever:* Liderar a coalizão livre em grandes guerras.<br>• *Recompensa:* Reconhecimento como **Nova Potência Independente**; dezenas de coortes independentes acorrem para defender a Cidadela da Coorte! |
+
+> **🔗 Lembrete de Regra (*Livro 1, Seção 11.2*):** além das patentes acima, Reputação **`+1` ou maior** com **Valor**, **Song** ou a **Casa da Noite** reduz automaticamente em **20%** os preços nos territórios daquela facção.
 
 > 🎙️ **Exemplo de Mesa (Reputação):**
 > A Coorte começa em `0` com o **Clã Valor**. Na Sessão 3, ela resgata o filho de um cavaleiro numa ruína das Florestas Vermelhas → **`+1` (Colaborador / Escudeiro)**: agora recebe a patente e o dever correspondentes da tabela. Na Sessão 6, os jogadores vendem ao **Clã Song** o mapa de uma Cidadela que Valor também cobiça. A venda vem a público → **`+1` com Song**, mas **`-1` com Valor**, que volta a `0`. **Dica para o Mestre:** anote a reputação de cada facção num cartão visível na mesa; assim os jogadores pesam as consequências **antes** de agir, não depois.
@@ -443,7 +448,7 @@ Todo templo divino e oficina daemônica reconhece o grau de afinidade da alma do
 - **O Altar e Interação com Divindade:** Uma **Pira de Ouro Branco** onde arde uma chama imóvel sem combustível.
   - *Sem Divindade:* Aproximar-se a menos de 2 metros causa calor sufocante (`Corpo [Vigor]` CD 9 para não sofrer 1 Dano).
   - *Com `[Brasa]` / `[Marca]`:* O fogo acaricia o portador sem queimá-lo! Ao meditar diante da pira por 10 minutos, o portador cura **todos os estados negativos físicos** da Coorte e remove **1 Marca de Corrupção**!
-  - *Com `[Chama]`:* A chama pode ser colhida dentro de um frasco ou lanterna (criando uma carga de **Fogo Purificador** capaz de purificar até **4 Marcas de Corrupção** ou causar **3 de Dano Divino** a um Abominação Corrompida!).
+  - *Com `[Chama]`:* A chama pode ser colhida dentro de um frasco ou lanterna (criando uma carga de **Fogo Purificador** capaz de purificar até **4 Marcas de Corrupção** ou causar **3 de Dano Divino** a uma Abominação Corrompida!).
 - **Relíquias & Bênçãos:** Lanças solares de luz sólida, escudos espelhados que refletem raios elementais, coroas de ouro imperecível e fragmentos de chama imortal.
 
 ### 3. ⛈️ O Deus da Tempestade (*Storm God*)
@@ -505,7 +510,7 @@ Os locais construídos pelos Daemons não são "igrejas" comuns: são **oficinas
 - **Altar & Interação com `[Divindade]`:** Um **Tear de Madeira Negra com Fios de Luz**. Apenas portadores de `[Brasa]+` conseguem enxergar os nós principais; com `[Marca]` ou `[Chama]`, um personagem pode desvendar um **fio de Memória**, aprendendo os princípios básicos da **Tecelagem (*Spellweaving*)** ou consertando completamente uma Memória *Destruída* cuja essência ainda exista no local!
 - **Relíquias & Artefatos:** Máscaras de madeira entalhada (ocultam o rosto do destino), agulhas de costura espiritual, falanges de osso contendo a **Linhagem Proibida do Tecelão** e pergaminhos com diagramas do próprio Feitiço.
 
-### 2. ⛰️ Nether — *O Demônio da Escolha (Prince of the Underworld)*
+### 2. ⛰️ Nether — *O Demônio da Escolha (Demon of Choice — Prince of the Underworld)*
 - **Filosofia & Defeito que Representa:** A recusa teimosa de aceitar que o destino esteja escrito na pedra. Príncipe solitário das profundezas, Nether passou séculos tentando forjar seres artificiais dotados de alma verdadeira e livre-arbítrio — e mais tarde liderou legiões de pedra contra o exército divino.
 - **Como Reconhecer uma Fortaleza:** Forjas monumentais subterrâneas, torres de **ébano e obsidiana talhada à perfeição**, e salões silenciosos alinhados com **centenas ou milhares de estátuas de pedra negra e mármore** — protótipos descartados de guerreiros, servas e cavaleiros cujo olhar vazio parece seguir os visitantes.
 - **Guardiões & Armadilhas:** Estátuas sentinelas que despertam em silêncio absoluto quando alguém toca ferramentas da forja (`CD 10–12`), rios de **Escuridão Elemental Verdadeira** que engolem luz e som, e portas com enigmas baseados em **escolhas morais** (forçar a tranca ativa gás petrificante, `Corpo [Vigor]` CD 11).
@@ -572,7 +577,7 @@ Quando os 7 jogadores encontrarem uma ruína inesperada no meio de uma viagem pe
 
 # CAPÍTULO 5: O Grande Atlas Sandbox do Reino dos Sonhos (As 10 Regiões)
 
-O **Reino dos Sonhos** não é um único planeta ordenado, mas um mosaico colossal e fraturado formado pelos cadáveres dos seis Reinos Divinos colididos após a Guerra da Perdição. Cada região abaixo funciona como um **palco sandbox independente**, com suas próprias leis físicas anômalas, ecologia letal, quatro grandes locais exploráveis, **uma Cidadela Conquistável** e três ganchos de campanha prontos para a Coorte de 7 jogadores.
+O **Reino dos Sonhos** não é um único planeta ordenado, mas um mosaico colossal e fraturado formado pelos cadáveres dos seis Reinos Divinos colididos após a Guerra da Perdição. Cada região abaixo funciona como um **palco sandbox independente**, com suas próprias leis físicas anômalas, ecologia letal, quatro grandes locais exploráveis, **uma Cidadela Conquistável** e três ganchos de campanha prontos para a Coorte de 7 jogadores. Cada região traz uma tabela rápida de encontros (`1d6`); para viagens longas, o *Livro 3, Seção 4.3* oferece matrizes `2d6` mais extensas para as mesmas regiões.
 
 ---
 
@@ -580,10 +585,10 @@ O **Reino dos Sonhos** não é um único planeta ordenado, mas um mosaico coloss
 
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
-| **Ranks Recomendados** | *Adormecido* a *Desperto* (enclaves *Caídos/Corrompidos* ao norte). |
-| **Conexões Geográficas** | Isolada ao sul por cordilheiras mortais; ligada a oeste às **Montanhas Ocas**; cercada a leste pelo mar sem fim. |
+| **Ranks Recomendados** | *Adormecido* a *Desperto* (enclaves *Caídos/Corrompidos* perto da Torre Carmesim). |
+| **Conexões Geográficas** | Isolada ao sul pela muralha das **Montanhas Ocas**; o **Deserto dos Pesadelos** começa a leste, ao longo da cordilheira. Nenhuma rota terrestre segura liga a costa ao resto do Reino dos Sonhos. |
 | **Clima Dominante** | Céu cinzento perpétuo, brisa úmida e salgada; noites gélidas sob maré abissal. |
-| **Recursos Extrativos** | Quitina de carapaça para forja, Fragmentos Adormecidos/Despertos e relíquias antigas da 2ª Era. |
+| **Recursos Extrativos** | Quitina de carapaça para forja, Fragmentos Despertos (e Caídos perto da Torre Carmesim) e relíquias antigas da 2ª Era. |
 | **Risco Ambiental Principal** | **Submersão Noturna Total** pelo Mar Amaldiçoado e falta severa de água doce. |
 
 ### Clima, Geografia e Ecologia Detalhada
@@ -593,25 +598,27 @@ Um vasto deserto labiríntico formado por recifes de coral carmesim petrificado 
 
 | `1d6` | Encontro Selvagem na Costa Esquecida | Rank & Classe | CD | Comportamento Tático |
 | :---: | :--- | :--- | :---: | :--- |
-| **1–2** | Bando de **3 Carniceiros da Carapaça** | Adormecida — Besta | **7** | Patrulham corredores em bando; atacam os flancos mais frágeis. |
-| **3** | **2 Aranhas de Ferro** em teia metálica | Adormecida — Monstro | **8** | Tecem fios invisíveis entre torres de coral para prender batedores. |
-| **4** | **Centurião da Carapaça** solitário | Adormecida — Demônio | **10** | Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. |
+| **1–2** | Bando de **3 Carniceiros da Carapaça** | Desperta — Besta | **9** | Patrulham corredores em bando; atacam os flancos mais frágeis. |
+| **3** | **2 Aranhas de Ferro** em teia metálica | Desperta — Monstro | **10** | Tecem fios invisíveis entre torres de coral para prender batedores. |
+| **4** | **Centurião da Carapaça** solitário | Desperta — Demônio | **11** | Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. |
 | **5** | **Verme Escavador de Lodo** | Desperta — Monstro | **9** | Emerge do chão lamacento abaixo da fila do meio da Coorte. |
 | **6** | **Besta Marinha Encalhada** *(ou Sombra do Mar)* | Caída — Diabo | **12** | Presa em uma fenda esperando a maré; ataca apenas quem se aproxima! |
 
+> 📌 **Ecologia da Costa:** Quase não há predadores *Adormecidos* neste litoral. A maioria das criaturas é *Desperta* (equivalente ao humano Desperto); perto da Torre Carmesim e nas águas do Mar Amaldiçoado predominam *Caídas* (equivalente ao Ascendido). Contra um grupo ainda *Adormecido*, some **`+2` na CD** por Rank acima (*Livro 1, Seção 1.3*).
+
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
 1. **A Maré do Mar Amaldiçoado (Ciclo Diário Mortal):** Ao cair da tarde, um oceano negro vivo e incrivelmente denso sobe das profundezas abissais em menos de 15 minutos, submergindo todo o Labirinto de Coral até o amanhecer!
-   - *Regra:* Toda expedição precisa escalar ou alcançar um ponto acima de 30 metros antes do pôr do sol (`Corpo [Agilidade]` ou `Mente [Astúcia]` CD 9). Quem for engolido pela água sofre **2 de Dano de Frio/Pressão por rodada** e atrai **Leviatãs e Terrores Abissais (CD 12–14)** na escuridão absoluta!
+   - *Regra:* Toda expedição precisa escalar ou alcançar um ponto acima de 30 metros antes do pôr do sol (`Corpo [Agilidade]` ou `Mente [Astúcia]` CD 9). Quem for engolido pela água sofre **2 de Dano de Frio/Pressão por rodada** e atrai **Leviatãs e Terrores Abissais (*Caídos* ou superiores, CD 12–14)** na escuridão absoluta!
 2. **Escassez de Água Doce e Salinidade Corrosiva:** Cada dia inteiro sem água doce purificada impõe **1 nível de Exaustão** (Desvantagem em `Corpo`) e corrói roupas e equipamentos mundanos não limpos.
 3. **Labirinto Sem Horizonte:** Dentro dos cânions de coral de 20 metros de altura não se enxerga o horizonte. Navegar sem mapa prévio ou batedor em ponto elevado exige teste em grupo de **`Mente (Astúcia)` CD 9**; em caso de falha, a Coorte perde 3 horas dando voltas ou cai direto em uma área de caça de *Centuriões*.
 
 ### Facções, Sobreviventes e Vestígios Humanos
-Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolados do restante da humanidade. Os sobreviventes dividem-se entre os caçadores endurecidos da **Cidade Externa** (que acampam em barracos fora das muralhas) e a guarnição militarizada do **Castelo Negro**, muitas vezes governada por um autoproclamado senhor da guerra ou conselho armado que cobra tributos semanais em Fragmentos de Alma e controla rigidamente o único Portal conhecido da costa oeste.
+Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolados do restante da humanidade. Os sobreviventes dividem-se entre os caçadores endurecidos da **Cidade Externa** (que acampam em barracos fora das muralhas) e a guarnição militarizada do **Castelo Brilhante (*Bright Castle*)**, erguido nas ruínas da Cidade Sombria, muitas vezes governada por um autoproclamado senhor da guerra ou conselho armado que cobra tributos semanais em Fragmentos de Alma em troca de abrigo atrás das únicas muralhas seguras da costa. **Ninguém ali conhece um Portal funcionando** — e é exatamente isso que prende os Adormecidos na Costa até que alguém encontre ou reative uma Cidadela.
 
 ### 4 Locais de Interesse, Ruínas e Masmorras
-1. **O Castelo Negro e a Cidade Externa (*As Margens do Último Refúgio*):**
-   - *Atmosfera:* Uma fortaleza ciclópica de pedra negra no topo de uma colina alta, cercada por centenas de barracos improvisados com ossos e tendas rasgadas.
-   - *Ameaça & CD:* Guarda armada de Despertos corruptos (`CD 9–10`), cobradores de tributo e arenas clandestinas onde disputas políticas terminam em morte.
+1. **O Castelo Brilhante (*Bright Castle*) e a Cidade Externa (*As Margens do Último Refúgio*):**
+   - *Atmosfera:* Uma fortaleza ciclópica de pedra pálida no alto das ruínas da Cidade Sombria, à beira de uma cratera colossal no leste da costa, cercada por centenas de barracos improvisados com ossos e tendas rasgadas.
+   - *Ameaça & CD:* Guarda armada de Adormecidos veteranos e corruptos (`CD 9–10`), cobradores de tributo e arenas clandestinas onde disputas políticas terminam em morte.
    - *Segredo & Recompensa:* Abaixo do distrito dos esgotos há um túnel inundado na maré alta por onde contrabandistas escondem Fragmentos e mapas da costa leste.
    - *Evento Vivo ao Chegar:* Uma execução pública na arena acaba de ser anunciada por falta de pagamento de tributos, gerando revolta silenciosa nos barracos externos!
 2. **As Sete Estátuas Sem Cabeça:**
@@ -625,7 +632,7 @@ Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolado
    - *Segredo & Recompensa:* Abriga santuários submersos do **Deus da Tempestade** guardando **Memórias Tier III–IV** e amuletos de respiração aquática.
    - *Evento Vivo ao Chegar:* Durante duas horas ao meio-dia, um redemoinho central esvazia o átrio principal expondo uma porta de bronze fechada há milênios!
 4. **A Torre Carmesim (*Crimson Spire*):**
-   - *Atmosfera:* Um monolito fino e gigantesco vermelho-sangue no extremo norte, visível no horizonte como uma lança perfurando o céu cinzento.
+   - *Atmosfera:* Um monolito fino e gigantesco vermelho-sangue no centro do Labirinto, visível de toda a costa como uma lança perfurando o céu cinzento.
    - *Ameaça & CD:* Guardada por gárgulas de pedra rubra, hordas *Caídas* (`CD 11–13`) e calor sufocante nas câmaras superiores.
    - *Segredo & Recompensa:* No topo repousa um sol artificial aprisionado por selos da 3ª Era, cuja energia sustenta encantamentos antigos de luz e fogo.
    - *Evento Vivo ao Chegar:* Um enxame de gárgulas desce em círculo sobre uma caravana perdida nas escadarias externas da torre!
@@ -638,7 +645,7 @@ Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolado
 
 ### 🏰 A Cidadela Conquistável — *O Forte da Estátua Partida*
 - **Localização:** Em uma península rochosa a leste do Labirinto de Coral, erguida ao redor da gigantesca espada de pedra caída de uma oitava estátua destruída há milênios.
-- **Defesas & Guarnição Secundária:** Acesso único por ponte estreita de coral (apenas 2 guerreiros passam lado a lado) e muralhas secas de 35 metros. O pátio externo é patrulhado por **6 Carniceiros da Carapaça (CD 7)** e **2 Sentinelas Quitinosas (CD 9)**.
+- **Defesas & Guarnição Secundária:** Acesso único por ponte estreita de coral (apenas 2 guerreiros passam lado a lado) e muralhas secas de 35 metros. O pátio externo é patrulhado por **6 Carniceiros da Carapaça (*Despertas — Besta*, CD 9)** e **2 Sentinelas Quitinosas (*Despertas — Monstro*, CD 10)**.
 - **Chefe Guardião — *O Devorador da Carapaça*:**
   - **Rank & Classe:** *Demônio Desperto* | **CD:** `11` | **PV:** `18` | **Parte Destrutível:** *Pinça-Serra Direita (7 PV)* e *Placa Dorsal Rachada (6 PV)*.
   - **Tática:** Avança esmagando escudos com a Pinça (**2 de Dano** + *Agarrar*) e libera jatos de espuma ácida corrosiva (*Danifica* 1 nível da armadura em falha `CD - 2`!).
@@ -647,7 +654,7 @@ Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolado
   2. Quebrar a *Placa Dorsal* do *Devorador* usando manobras de *Mirar em Ponto Fraco* ou trabalho em dupla de *Baluarte + Executor*.
   3. Limpar o ninho de ovos dentro da sala da espada caída e tocar o núcleo rúnico no punho da estátua com `[Brasa de Divindade]` ou `Alma (Canalizar)` **CD 10**, ativando um **Portal Adormecido** independente!
 - **Tesouro da Conquista:** Rende **12 Fragmentos Despertos** no ninho + a Memória **Couraça do Leviatã de Coral (Armadura Desperta Tier III)**!
-- **Primeiro Desafio de Posse:** Três dias após reativar o Portal, batedores enviados pelo senhor da guerra do Castelo Negro chegam exigindo tributo ou propondo uma aliança armada contra a Torre Carmesim!
+- **Primeiro Desafio de Posse:** Três dias após reativar o Portal, batedores enviados pelo senhor da guerra do Castelo Brilhante chegam exigindo tributo ou propondo uma aliança armada contra a Torre Carmesim!
 
 ### 🎲 3 Ganchos de Aventuras Originais
 1. *O Motim da Cidade Externa:* Um mercador desesperado contrata os 7 jogadores para escoltar trinta civis Adormecidos fora da Cidade Externa antes que o tirano local execute prisioneiros por atraso no tributo.
@@ -663,8 +670,8 @@ Por décadas, jovens Adormecidos arremessados aqui no Solstício ficaram isolado
 
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
-| **Ranks Recomendados** | *Desperto* a *Ascendido (Mestre)*. |
-| **Conexões Geográficas** | Arquipélago aéreo ao sul/sudeste das Montanhas Ocas; acessível por Portais locais ou Navios Voadores Rúnicos. |
+| **Ranks Recomendados** | *Desperto* a *Ascendido* (*Master*). |
+| **Conexões Geográficas** | Arquipélago aéreo no extremo norte do território de Valor, encostado no flanco sul das **Montanhas Ocas** (Bastion fica mais ao sul); acessível por Portais locais ou Navios Voadores Rúnicos. |
 | **Clima Dominante** | Ventos cortantes em altitude, nuvens brancas pesadas e calor ascendente das chamas do abismo. |
 | **Recursos Extrativos** | Madeira estelar para cascos voadores, aço celestial de correntes partidas, runas de levitação e Fragmentos Despertos/Ascendidos. |
 | **Risco Ambiental Principal** | **O Esmagamento Gravitacional (*The Crushing*)**, quedas no vazio e o Fogo Branco do Céu Abaixo. |
@@ -689,7 +696,7 @@ Um arquipélago vertiginoso de centenas de ilhas rochosas de tamanhos variados (
 3. **Travessia pelas Correntes Celestiais:** Caminhar sobre elos metálicos oscilando a quilômetros acima do abismo exige teste de equilíbrio (`Corpo [Agilidade]` CD 9 em tempo calmo; **CD 11** sob ventania ou combate aéreo!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
-Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (através de clãs vassalos honrados como o **Clã Pluma Branca**, comandado por Santo Tyris) mantém a Cidadela do **Templo do Cálice** e protege rotas aéreas ao norte, enquanto batedores furtivos do **Clã Song**, engenheiros de **Aliança Livre** e corsários dos céus vasculham as ilhas periféricas em busca de fragmentos de navios voadores e segredos da Era dos Daemons.
+Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (através de clãs vassalos honrados como o **Clã Pluma Branca**, comandado pela Transcendente Tyris) mantém a Cidadela do **Templo do Cálice** e protege rotas aéreas ao norte, enquanto batedores furtivos do **Clã Song**, engenheiros de **Aliança Livre** e corsários dos céus vasculham as ilhas periféricas em busca de fragmentos de navios voadores e segredos da Era dos Daemons.
 
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **O Santuário de Noctis (*A Ilha do Luar Prateado*):**
@@ -726,7 +733,7 @@ Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (atra
   - **Rank & Classe:** *Diabo Caído* | **CD:** `12` | **PV:** `22` | **Parte Destrutível:** *Mochila-Fornalha Rúnica Dorsal (8 PV)*.
   - **Tática:** Um cavaleiro gigante sem rosto envolvido em dezesseis correntes vivas que atacam até a faixa *Distante* (**2 de Dano** + *Agarrar*) e puxam arqueiros para o abismo!
 - **Passo a Passo para Reivindicar o Portal:**
-  1. Cruzar a corrente sul sob ventos fortes (`Corpo [Agilidade]` CD 10) ou sabotar a runa gravitacional da guarita (`Mente [Conhecimento]` CD 10) e derrotar os gárgulas.
+  1. Cruzar a corrente sul sob ventos fortes (`Corpo [Agilidade]` CD 10) ou sabotar a runa gravitacional da guarita (`Mente [Conhecimento]` CD 10) e derrotar as gárgulas.
   2. Enfrentar o *Senhor das Correntes* dentro do pátio, coordenando os atacantes para destruir primeiro sua **Fornalha Dorsal (8 PV)** — o que desativa 8 das 16 correntes extras!
   3. Descer ao subsolo da âncora e ativar o **Selo da Âncora** inserindo **10 Fragmentos Despertos** ou canalizando `[Brasa de Divindade]` (`CD 10`), liberando o Portal Desperto e um cais aéreo pronto para atracar navios voadores!
 - **Tesouro da Conquista:** Rende **16 Fragmentos Despertos/Ascendidos** no cofre da torre + a Memória **Grilhões do Abismo (Arma/Utilitário Desperto Tier IV)**!
@@ -746,8 +753,8 @@ Esta é uma das zonas mais disputadas do mundo conhecido! O **Clã Valor** (atra
 
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
-| **Ranks Recomendados** | *Ascendido (Mestre)* a *Transcendente (Santo)*. |
-| **Conexões Geográficas** | Cordilheira colossal que separa as regiões civilizadas centrais das terras do sul/oeste e cobre o teto do **Submundo de Nether**. |
+| **Ranks Recomendados** | *Ascendido* (*Master*) a *Transcendente* (*Saint*). |
+| **Conexões Geográficas** | Cordilheira colossal na fronteira norte das terras humanas: separa a **Costa Esquecida** (ao norte) das **Ilhas Acorrentadas** e do Domínio de Valor (ao sul); um braço se estende a oeste até Ravenheart, e o crânio de **Godgrave** repousa em suas encostas. Cobre o teto do **Submundo de Nether**. |
 | **Clima Dominante** | Frio polar constante (`-40°C` nos picos), ventos uivantes e a onipresente **Névoa Branca** nos vales. |
 | **Recursos Extrativos** | Cristais de gelo espiritual, aço meteorítico nos picos, ossos de gigantes e Fragmentos Ascendidos/Transcendentes. |
 | **Risco Ambiental Principal** | **Névoa Devoradora de Bússolas e Essência**, avalanches e ar rarefeito. |
@@ -773,7 +780,7 @@ A maior e mais temida cordilheira do Reino dos Sonhos: uma muralha natural de pi
 3. **Ar Rarefeito e Hipotermia dos Picos:** Acima da linha da névoa, sem roupas térmicas adequadas ou Memórias de proteção climática, testes físicos prolongados exigem `Corpo (Vigor)` **CD 10** para evitar a condição *Exausto*.
 
 ### Facções, Sobreviventes e Vestígios Humanos
-Praticamente **nenhuma facção humana consegue manter grandes exércitos na superfície** das Montanhas Ocas devido ao custo extremo da Névoa. Apenas pequenas equipes de **Santos**, eremitas cultuadores de templos antigos perdidos nos picos, e **contrabandistas audaciosos da Aliança Livre** (que conhecem passagens ocultas até as descidas do Submundo) ousam cruzar a cordilheira sem usar Portais.
+Praticamente **nenhuma facção humana consegue manter grandes exércitos na superfície** das Montanhas Ocas devido ao custo extremo da Névoa. Apenas pequenas equipes de **Transcendentes**, eremitas cultuadores de templos antigos perdidos nos picos, e **contrabandistas audaciosos da Aliança Livre** (que conhecem passagens ocultas até as descidas do Submundo) ousam cruzar a cordilheira sem usar Portais.
 
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **O Desfiladeiro dos Sussurros (*A Garganta de Gelo*):**
@@ -830,7 +837,7 @@ Praticamente **nenhuma facção humana consegue manter grandes exércitos na sup
 
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
-| **Ranks Recomendados** | *Desperto (Elite)* a *Transcendente (Santo)*. |
+| **Ranks Recomendados** | *Desperto (Elite)* a *Transcendente* (*Saint*). |
 | **Conexões Geográficas** | Continente oco diretamente abaixo das **Montanhas Ocas**, com túneis conectando as encostas norte/sul e fendas antigas rumo às **Ilhas Acorrentadas**. |
 | **Clima Dominante** | Escuridão abissal quebrada por calor vulcânico sufocante perto de rios de magma e frio pétreo nos salões vazios. |
 | **Recursos Extrativos** | Basalto rúnico, rubis artificiais de forja, metais de pedra viva e Fragmentos Caídos/Ascendidos. |
@@ -914,7 +921,7 @@ Os Grandes Clãs não mantêm cidades aqui devido à dificuldade de abrir Portai
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
 | **Ranks Recomendados** | *Adormecido* a *Transcendente* (Capital protegida nas margens humanas; mortal nas profundezas da floresta e do Lago). |
-| **Conexões Geográficas** | Coração comercial do oeste habitável do Reino dos Sonhos; faz fronteira com planícies temperadas e as densas selvas rubras. |
+| **Conexões Geográficas** | Coração do **Domínio da Espada** (Valor), ao sul das **Ilhas Acorrentadas**; a noroeste, as Zonas de Morte coroadas por **Godgrave** o separam do Domínio de Song; ao sul, o território desce até o **Mar Tempestuoso**. Faz fronteira com planícies temperadas e as densas selvas rubras. |
 | **Clima Dominante** | Temperado ameno nas margens do lago; neblinas densas e abafadas dentro das Florestas Vermelhas. |
 | **Recursos Extrativos** | Ferro estelar minerado no oeste, madeira carmesim flexível, ervas medicinais e o maior mercado de Memórias do continente. |
 | **Risco Ambiental Principal** | **A Dimensão Invertida do Lago Espelhado** (*Clones/Reflexos*) e trilhas vivas que se fecham à noite. |
@@ -933,10 +940,10 @@ Uma bacia verdejante e enganosamente pacífica onde dias claros, nuvens suaves e
 | **6** | **Árvore-Caçadora Centenária** | Corrompida — Tirano | **13** | Move vinte tentáculos de madeira rubra prendendo toda uma caravana! |
 
 ### Leis Físicas Anômalas & Regras de Sobrevivência (CDs)
-1. **A Dimensão Invertida do Lago Espelhado (*Obra de Mirage*):** Na superfície do lago espelhado reflete-se o **Castelo Real de Bastion** intacto, majestoso e iluminado — mesmo que na ilha real no centro da água só restem pedras partidas!
+1. **A Dimensão Invertida do Lago Espelhado (*Obra de Mirage*):** A superfície do lago nem sempre reflete o **Castelo Real de Bastion** que está de pé diante dela: em certas noites, o reflexo mostra um castelo diferente — às vezes em ruínas, às vezes com torres que não existem —, e ninguém sabe ao certo qual dos dois é o verdadeiro.
    - *Regra:* Qualquer personagem que encarar o próprio reflexo na água durante a noite ou sob neblina precisa passar em **`Mente (Vontade)` CD 10** para não sentir impulso irresistível de mergulhar para o "outro lado" ou ter seu lugar trocado por uma **Besta do Espelho**! Navegar até a ilha sem âncora rúnica exige `Mente (Astúcia)` **CD 11**.
 2. **As Árvores que Mudam de Lugar:** Dentro das Florestas Vermelhas, troncos deslocam suas raízes durante a madrugada. Sem um *Cartógrafo* experiente (`Mente [Astúcia]` CD 10) ou marcadores físicos em cada cruzamento, estradas abertas na véspera desaparecem pela manhã!
-3. **A Lei Marcial da Capital:** Dentro das muralhas humanas de Bastion, o **Grande Clã Valor** mantém vigilância férrea de cavaleiros. Sacar Memórias letais na rua sem desafio formal resulta em captura imediata (`CD 12` contra oficiais Mestres!).
+3. **A Lei Marcial da Capital:** Dentro das muralhas humanas de Bastion, o **Grande Clã Valor** mantém vigilância férrea de cavaleiros. Sacar Memórias letais na rua sem desafio formal resulta em captura imediata (`CD 12` contra oficiais Ascendidos!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
 Esta é a **Capital Imperial do Grande Clã Valor** e o maior centro de comércio humano de todo o Reino dos Sonhos! Milhares de Despertos independentes, artesãos de clãs vassalos, mercadores de Fragmentos e espiões disfarçados do **Grande Clã Song** lotam tavernas, guildas de ferreiros e a praça dos leilões ao redor do lago.
@@ -948,9 +955,9 @@ Esta é a **Capital Imperial do Grande Clã Valor** e o maior centro de comérci
    - *Segredo & Recompensa:* O melhor lugar do atlas para vender Cristais de Alma por preço justo, contratar ferreiros para aprimorar equipamentos e comprar **Memórias Tier II–IV**.
    - *Evento Vivo ao Chegar:* Um leilão extraordinário de uma **Bolsa Dimensional** acaba de começar — e um comprador mascarado suspeito tenta sabotar a concorrência!
 2. **O Castelo Real de Bastion (*O Palácio nos Espelhos*):**
-   - *Atmosfera:* Ruínas silenciosas de granito branco na ilha central do lago — cujo palácio verdadeiro e habitado existe *dentro* do reflexo na dimensão invertida de **Mirage**!
+   - *Atmosfera:* Um castelo colossal de pedra cinzenta, grande como uma cidade, erguido sobre as águas do lago e marcado pelas cicatrizes de mil cercos — a sede do Supremo Anvil. Dizem que seus salões mais secretos continuam *dentro* do reflexo, na dimensão invertida de **Mirage**!
    - *Ameaça & CD:* Apenas cavaleiros autorizados conhecem os portais de espelho seguros; invasores erram corredores onde reflexos viram monstros (`CD 12–14`).
-   - *Segredo & Recompensa:* Abriga as forjas secretas do Soberano Anvil, cofres reais e espelhos dimensionais de viagem.
+   - *Segredo & Recompensa:* Abriga as forjas secretas do Supremo Anvil, cofres reais e espelhos dimensionais de viagem.
    - *Evento Vivo ao Chegar:* A superfície do lago forma uma onda circular perfeita ao meio-dia, e uma figura ferida usando o brasão do **Clã Pluma Branca** sai cambaleando da água!
 3. **O Santuário das Árvores Vermelhas (*Ruína do Deus do Coração*):**
    - *Atmosfera:* Uma clareira silenciosa profundamente escondida na selva leste, onde uma gigantesca Árvore Mãe de casca branca e folhas carmesins protege o solo da corrupção ao redor.
@@ -998,13 +1005,13 @@ Esta é a **Capital Imperial do Grande Clã Valor** e o maior centro de comérci
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
 | **Ranks Recomendados** | *Adormecido* a *Transcendente* (Capital protegida em Ravenheart; mortal nas crateras e planícies externas). |
-| **Conexões Geográficas** | Terras orientais e meridionais do Reino dos Sonhos; estendem-se ao redor de cadeias vulcânicas ativas e planícies de basalto. |
-| **Clima Dominante** | Céu chumbo-avermelhado, chuva lenta de cinza morna e rajadas secas carregadas de enxofre. |
+| **Conexões Geográficas** | Extremo norte do **Domínio de Song**, a noroeste de Bastion, além das Zonas de Morte coroadas por **Godgrave**; a cidade fica numa cordilheira vulcânica que se ramifica das **Montanhas Ocas**. Ao sul, as Planícies de Cinza descem rumo ao **Mar Tempestuoso**; a oeste, além dos vulcões, só há um deserto gelado onde nem Transcendentes sobrevivem. |
+| **Clima Dominante** | Céu chumbo-avermelhado, chuva lenta de cinza morna, rajadas secas carregadas de enxofre e neve eterna nos picos acima da capital. |
 | **Recursos Extrativos** | Obsidiana vulcânica, venenos de feras, órgãos alquímicos para elixires de sangue e Fragmentos de todos os Ranks. |
 | **Risco Ambiental Principal** | **Tempestades de Cinza Escaldante**, bolsões ocultos de brasa e **Necromancia Ambiental**. |
 
 ### Clima, Geografia e Ecologia Detalhada
-Uma terra gótica, austera e hipnotizante onde vulcões gigantescos vomitam colunas constantes de fumaça negra contra um céu tingido de cobre e sangue. Por centenas de quilômetros estendem-se as **Planícies de Cinza**, um deserto sombrio de pó preto vitrificado cortado por fissuras de magma líquido e ossadas colossais de monstros da Guerra da Perdição. Erguida diretamente **dentro e ao redor da caixa torácica fossilizada de uma criatura titânica**, a capital **Ravenheart** projeta suas torres negras e pontes pênseis sob arcos de costelas brancas gigantescas iluminadas por lanternas vermelhas.
+Uma terra gótica, austera e hipnotizante onde vulcões gigantescos vomitam colunas constantes de fumaça negra contra um céu tingido de cobre e sangue. Por centenas de quilômetros estendem-se as **Planícies de Cinza**, um deserto sombrio de pó preto vitrificado cortado por fissuras de magma líquido e ossadas colossais de monstros da Guerra da Perdição. A capital **Ravenheart** agarra-se à encosta de uma montanha nevada, à beira de um abismo sem fundo e ligada a um vulcão por uma imensa ponte de pedra. No alto ergue-se o **Palácio de Jade**, negro como obsidiana por fora após milênios de cinza e ainda branco por dentro; abaixo dele, os bairros escalonados espalham-se entre as **costelas fossilizadas de uma criatura titânica**, com pontes pênseis e lanternas vermelhas.
 - **Água e Alimento:** Água limpa da superfície é escassa e frequentemente contaminada por enxofre; poços potáveis só existem em cavernas profundas ou destiladores rúnicos nas caravanas de Song (`Sobrevivência` CD 9 para filtrar). A carne de javalis vulcânicos e bodes de basalto é dura, mas extremamente nutritiva.
 - **Flora Hostil:** Arbustos espinhosos negros que florescem em cinza quente e soltam seiva inflamável se cortados com fogo, além de fungos sanguíneos parasitas que crescem sobre carcaças abandonadas.
 
@@ -1023,11 +1030,11 @@ Uma terra gótica, austera e hipnotizante onde vulcões gigantescos vomitam colu
 3. **A Lei do Sangue e da Carne (*Domínio de Song*):** Nas terras próximas a Ravenheart, cadáveres não cremados de monstros ou humanos raramente descansam em paz — podem ser erguidos por espiões necromânticos de Song ou infestados por parasitas necróticos em poucas horas!
 
 ### Facções, Sobreviventes e Vestígios Humanos
-Este continente é o coração sombrio do **Grande Clã Song**. A paisagem social é marcada por longos comboios de **carruagens blindadas negras puxadas por Bestas e Marionetes**, mercadores discretos de venenos e elixires medicinais, clãs vassalos jurados à corte matriarcal, e pelas temidas **Princesas de Song**, cujos olhos vigilantes monitoram cada movimento estrangeiro pelas estradas de cinza.
+Esta região é o coração sombrio do **Grande Clã Song**. A paisagem social é marcada por longos comboios de **carruagens blindadas negras puxadas por Bestas e Marionetes**, mercadores discretos de venenos e elixires medicinais, clãs vassalos jurados à corte matriarcal, e pelas temidas **Princesas de Song**, cujos olhos vigilantes monitoram cada movimento estrangeiro pelas estradas de cinza.
 
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **A Caixa Torácica de Ravenheart (*Cidade Capital*):**
-   - *Atmosfera:* Bairros góticos escalonados pelas vértebras gigantes do leviatã morto, ligados por pontes de ferro e lanternas rubras balançando ao vento quente.
+   - *Atmosfera:* Bairros góticos escalonados pelas vértebras gigantes da criatura titânica morta, ligados por pontes de ferro e lanternas rubras balançando ao vento quente.
    - *Ameaça & CD:* Vigilância silenciosa de corvos espiões e guardas Marionetes (`CD 11–13`); tramas políticas letais onde ofensas são resolvidas com veneno discreto (`Mente [Astúcia]` CD 11).
    - *Segredo & Recompensa:* O melhor mercado do mundo para comprar **Antídotos, Venenos Corrosivos, Elixires de Regeneração Física** e contratar serviços de cura sanguínea avançada!
    - *Evento Vivo ao Chegar:* Um cortejo fúnebre silencioso de *Princesas de Song* cruza a ponte central transportando uma urna coberta por selos de sangue!
@@ -1081,8 +1088,8 @@ Este continente é o coração sombrio do **Grande Clã Song**. A paisagem socia
 
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
-| **Ranks Recomendados** | *Ascendido (Mestre)* a *Transcendente (Santo)*. |
-| **Conexões Geográficas** | Vastidão mortal ao sul dos reinos habitados; cerca completamente as muralhas exteriores da **Tumba de Ariel**. |
+| **Ranks Recomendados** | *Ascendido* (*Master*) a *Transcendente* (*Saint*). |
+| **Conexões Geográficas** | Vastidão mortal a leste da **Costa Esquecida**, estendendo-se ao longo do flanco das **Montanhas Ocas**, longe dos domínios humanos; cerca completamente as muralhas exteriores da **Tumba de Ariel**. |
 | **Clima Dominante** | Calor infernal branco durante o dia (`55°C+`) e congelamento súbito à noite sob tempestades de poeira óssea. |
 | **Recursos Extrativos** | Armas ancestrais soterradas, pó de ossos antigos de titãs, relíquias solares e Fragmentos Caídos/Grandes. |
 | **Risco Ambiental Principal** | **A Guerra Eterna da Noite** (*Exércitos Imortais de Esqueletos*), insolação extrema e sede mortal. |
@@ -1107,7 +1114,7 @@ Um oceano infinito de dunas alvas que cegam os olhos desprotegidos sob um sol br
 3. **Tempestades de Poeira Óssea:** Ventos súbitos erguem muralhas brancas cortantes que riscam placas metálicas e cegam batedores (`Corpo [Vigor]` CD 10 contra *Cego* e *Sangrando* sem tenda blindada).
 
 ### Facções, Sobreviventes e Vestígios Humanos
-Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **expedições militares de elite de Valor e Song** (que avançam correndo de abrigo subterrâneo em abrigo tentando cercar ou alcançar a Pirâmide Negra) e por **caçadores de relíquias de Rank Mestre/Santo** em busca de armaduras e armas divinas soterradas há eras.
+Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **expedições militares de elite de Valor e Song** (que avançam correndo de abrigo subterrâneo em abrigo tentando cercar ou alcançar a Pirâmide Negra) e por **caçadores de relíquias de Rank Ascendido/Transcendente** em busca de armaduras e armas divinas soterradas há eras.
 
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **A Cidade Eterna Soterrada (*Ruína da 2ª Era*):**
@@ -1148,7 +1155,7 @@ Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **e
   2. Lutar contra o *Faraó* no salão da nascente — usando água da própria fonte (ou habilidades elementais de água/gelo) para solidificar suas bandagens e anular sua forma de areia!
   3. Mergulhar a mão na fonte sagrada e tocar a pedra rúnica no fundo (`Alma [Canalizar]` CD 11), reivindicando o oásis mais valioso de todo o deserto!
 - **Tesouro da Conquista:** Rende **22 Fragmentos Ascendidos** no sarcófago + a Memória **Mortalha Solar do Oásis (Armadura Ascendida Tier IV)**!
-- **Primeiro Desafio de Posse:** Na noite seguinte, uma expedição ferida de Mestres de Song (ou de Valor) bate desesperada na comporta externa pedindo abrigo contra a Guerra Eterna — por qualquer preço!
+- **Primeiro Desafio de Posse:** Na noite seguinte, uma expedição ferida de Ascendidos de Song (ou de Valor) bate desesperada na comporta externa pedindo abrigo contra a Guerra Eterna — por qualquer preço!
 
 ### 🎲 3 Ganchos de Aventuras Originais
 1. *Corrida Contra o Pôr do Sol:* O eixo da carruagem blindada parte no meio da tarde a três quilômetros da esfinge mais próxima.
@@ -1164,7 +1171,7 @@ Não existem cidades humanas vivas aqui. O deserto é atravessado apenas por **e
 
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
-| **Ranks Recomendados** | *Ascendido (Mestre)* a *Supremo (Soberano)*. |
+| **Ranks Recomendados** | *Ascendido* (*Master*) a *Supremo* (*Sovereign*). |
 | **Conexões Geográficas** | Ergue-se no centro do **Deserto dos Pesadelos** como uma pirâmide negra colossal cujo interior contém um mundo fluvial fechado. |
 | **Clima Dominante** | Sete sóis pálidos sem noite verdadeira; brisas tropicais mornas quebradas por tempestades temporais súbitas. |
 | **Recursos Extrativos** | Madeira dourada incorruptível, pérolas de tempo, runas antigas da Verdade e Fragmentos Caídos a Amaldiçoados. |
@@ -1248,14 +1255,14 @@ Isolados do mundo exterior há eras, descendentes humanos conhecidos como o **Po
 
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
-| **Ranks Recomendados** | *Ascendido (Mestre)* a *Supremo (Soberano)*. |
-| **Conexões Geográficas** | Continente isolado suspenso nas fronteiras mortais entre os domínios do norte e sul, cercado por abismos de névoa branca. |
+| **Ranks Recomendados** | *Ascendido* (*Master*) a *Supremo* (*Sovereign*). |
+| **Conexões Geográficas** | Zona de Morte no norte, entre o **Domínio da Espada** (Valor, a leste) e o **Domínio de Song** (a oeste): o crânio repousa nas encostas das **Montanhas Ocas** e o esqueleto estende-se por milhares de quilômetros rumo ao sul, cercado por abismos de névoa branca. |
 | **Clima Dominante** | Abafado e úmido sob nuvens brancas densas; periodicamente calcinado por raios solares mortais do **Céu Incandescente**. |
 | **Recursos Extrativos** | Osso divino petrificado, cristais de medula energética, plantas alquímicas raras e Fragmentos Grandes/Supremos. |
 | **Risco Ambiental Principal** | **O Olho do Céu Incandescente** (*Desintegração ao Menor Movimento!*), Selva Escarlate voraz e escuridão dos *Vãos*. |
 
 ### Clima, Geografia e Ecologia Detalhada
-Uma das paisagens mais aterradoras e épicas de todo o Reino dos Sonhos: **o continente inteiro não é feito de terra nem rocha comum, mas do esqueleto branco petrificado de um ser divino incomensurável** tombado durante a Guerra da Perdição! Apenas a placa do esterno estende-se por dezenas de quilômetros como uma planície alva; costelas gigantes arqueiam-se sobre o horizonte como cordilheiras brancas perfurando nuvens. Sobre essa ossada titânica explode uma **Selva Escarlate** vermelha e voraz — enquanto abaixo das fissuras nos ossos abre-se o labirinto cavernoso de **Os Vãos (*The Hollows*)**, túneis escuros dentro da própria medula ossificada.
+Uma das paisagens mais aterradoras e épicas de todo o Reino dos Sonhos: **o continente inteiro não é feito de terra nem rocha comum, mas do esqueleto branco petrificado de um ser divino incomensurável** tombado durante a Guerra da Perdição! Só o esterno tem o tamanho de um pequeno continente, uma planície alva sem fim; costelas gigantes arqueiam-se sobre o horizonte como cordilheiras brancas perfurando nuvens. Sobre essa ossada titânica explode uma **Selva Escarlate** vermelha e voraz — enquanto abaixo das fissuras nos ossos abre-se o labirinto cavernoso de **Os Vãos (*The Hollows*)**, túneis escuros dentro da própria medula ossificada.
 - **Água e Alimento:** Água acumula-se em bolsas internas dos ossos (filtrada e fria, mas frequentemente contaminada por esporos carmesins — exige `Sobrevivência` CD 10 para ferver!). Comer plantas da Selva Escarlate sem preparo alquímico arrisca parasitas sanguíneos (`Vigor` CD 11).
 - **Flora Hostil:** Toda a vegetação de Godgrave é predatória: árvores-chicote vermelho-sangue, cipós-serra que cortam botas reforçadas e musgos que sugam calor corporal em segundos.
 
@@ -1274,7 +1281,7 @@ Uma das paisagens mais aterradoras e épicas de todo o Reino dos Sonhos: **o con
 3. **Os Vãos (*The Hollows*):** Viajar pelos túneis ocos dentro dos ossos protege completamente da luz mortal do céu, mas exige iluminação e silêncio estrito (`Furtividade` CD 11 para não despertar predadores cegos!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
-Nenhum assentamento civil existe aqui. Godgrave é o campo de guerra decisivo onde **os exércitos principais do Grande Clã Valor e do Grande Clã Song** avançam sob tendas térmicas blindadas e sombras das costelas colossais para conquistar suas raríssimas Cidadelas — enquanto coortes independentes de *Mestres* e *Santos* exploram os *Vãos* em busca de cristais de medula!
+Nenhum assentamento civil existe aqui. Godgrave é o campo de guerra decisivo onde **os exércitos principais do Grande Clã Valor e do Grande Clã Song** avançam sob tendas térmicas blindadas e sombras das costelas colossais para conquistar suas raríssimas Cidadelas — enquanto coortes independentes de *Ascendidos* e *Transcendentes* exploram os *Vãos* em busca de cristais de medula!
 
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **A Planície do Esterno Rachado (*Campos de Cinza Rubra*):**
@@ -1332,7 +1339,7 @@ Nenhum assentamento civil existe aqui. Godgrave é o campo de guerra decisivo on
 | Ficha Técnica da Região | Dados para o Mestre |
 | :--- | :--- |
 | **Ranks Recomendados** | *Qualquer Rank* em rotas costeiras protegidas (*Adormecido/Desperto*); *Ascendido* a *Supremo* em mar aberto! |
-| **Conexões Geográficas** | Oceano sem limites banhando as margens orientais e meridionais do Reino dos Sonhos; liga arquipélagos e portos da Casa da Noite. |
+| **Conexões Geográficas** | Oceano sem limites ao **sul** das terras humanas: banha as costas meridionais dos Domínios de Valor e de Song e liga os arquipélagos e portos da Casa da Noite. |
 | **Clima Dominante** | Furacões permanentes, ondas negras de 30 metros, relâmpagos roxos e céus noturnos com constelações móveis. |
 | **Recursos Extrativos** | Pérolas de alma abissais, ossos de leviatã para navios, corais condutores de raio e Fragmentos de todos os Ranks. |
 | **Risco Ambiental Principal** | **Navegação Sem Bússola Magnética**, tempestades devastadoras e monstros colossais das fossas profundas. |
@@ -1356,7 +1363,7 @@ Um oceano abissal de águas negras como tinta infinita, eternamente açoitado po
 3. **O Canto das Profundezas:** Perto das Fossas Abissais, correntes oceânicas ecoam lamentos humanos de navegadores perdidos (`Mente [Vontade]` CD 10 para tripulantes não saltarem no mar!).
 
 ### Facções, Sobreviventes e Vestígios Humanos
-Este vasto oceano é o domínio histórico da **Casa da Noite**, cujos **Santos do Mar** e poderosos **Encouraçados Rúnicos** garantem o comércio marítimo humano entre as terras costeiras e mantêm acesos os grandes **Faróis Astrais**. Entretanto, além das rotas patrulhadas prosperam **Corsários da Aliança Livre**, caçadores de pérolas de alma e contrabandistas que exploram ilhas não registradas longe da jurisdição dos Grandes Clãs!
+Este vasto oceano é o domínio histórico da **Casa da Noite**, cujos navegadores **Nightwalkers**, Transcendentes e poderosos **Encouraçados Rúnicos** garantem o comércio marítimo humano entre as terras costeiras e mantêm acesos os grandes **Faróis Astrais**. Entretanto, além das rotas patrulhadas prosperam **Corsários da Aliança Livre**, caçadores de pérolas de alma e contrabandistas que exploram ilhas não registradas longe da jurisdição dos Grandes Clãs!
 
 ### 4 Locais de Interesse, Ruínas e Masmorras
 1. **O Grande Farol da Noite Eterna (*Porto Central da Casa da Noite*):**
@@ -1433,27 +1440,27 @@ Para que todos os 7 jogadores da mesa tenham voz ativa na administração da bas
 
 ### B. Economia, Pedágios e Defesa Contra Cercos
 - **Registro Oficial na Terra (Opcional):** Ao alcançar o Rank *Desperto* ou *Ascendido*, a Coorte pode registrar legalmente seu Clã Independente junto ao Governo Unido em NQSC — ganhando direito de contratar funcionários mundanos na Terra, alugar galpões de logística e vender licenças de passagem segura pelo seu Portal.
-- **Manutenção e Renda Base:** Uma Cidadela recém-conquistada consome o equivalente a **5 Fragmentos Despertos por mês** em reparos rúnicos básicos e rações da guarnição mínima — valor que se paga automaticamente assim que o grupo constrói rotas comerciais ou melhorias geradoras de renda!
-- **Resolvendo um Cerco na Mesa (Relógio de Defesa de 6 Segmentos):** Se um bando de Criaturas do Pesadelo ou um Clã rival tentar tomar a fortaleza da Coorte, resolva como uma cena épica em turnos de cerco: cada jogador usa seu **Cargo** ou **Papel de Coorte** (disparando balistas, selando brechas, contra-atacando no portão ou reparando escudos rúnicos) para preencher um **Relógio de Vitória de 6 Segmentos** antes que o **Relógio de Queda das Muralhas (4 Segmentos)** se complete!
+- **Manutenção e Renda Base:** Uma Cidadela recém-conquistada consome o equivalente a **5 Fragmentos Despertos por mês** em reparos rúnicos básicos e rações da guarnição mínima — valor que se paga automaticamente assim que o grupo adota uma política de pedágio ou comércio (*Livro 1, Tabela 11-4*) ou constrói melhorias geradoras de renda!
+- **Resolvendo um Cerco na Mesa:** use a *Defesa de Cerco* do **Livro 1, Seção 11.3 C**. A Cidadela começa com **20 PV de Muralha** (**35** com *Muralhas e Torres de Balista*) e **10 Cargas de Altar**; a cada rodada, cada jogador assume **1 Função de Cerco** (o **Cargo** de cada um ajuda a decidir quem dispara balistas, ergue a barreira do altar, repara brechas ou lidera a surtida). A Coorte vence ao abater o comandante inimigo ou preencher o **Relógio de Resistência de 6 Segmentos**; se os PV de Muralha chegarem a `0`, os portões caem e a luta continua no pátio.
 
 ---
 
 ## 6.2 🛠️ As 10 Melhorias de Cidadela (Construção Coletiva da Coorte)
 
-Entre as expedições, os 7 jogadores podem investir os **Fragmentos de Alma** conquistados em caçadas para construir até **10 Grandes Melhorias Permanentes** (em total harmonia com os custos e efeitos do *Livro 1, Seção 11.3 D*). Todos os bônus listados abaixo aplicam-se a **todos os 7 membros da Coorte** sempre que partirem ou descansarem em sua Cidadela!
+Entre as expedições, os 7 jogadores podem investir os **Fragmentos de Alma** conquistados em caçadas para construir até **10 Grandes Melhorias Permanentes** (custos, pré-requisitos e efeitos idênticos aos do *Livro 1, Seção 11.3 D*, que prevalece em caso de dúvida). Todos os bônus listados abaixo aplicam-se a **todos os 7 membros da Coorte** sempre que partirem ou descansarem em sua Cidadela!
 
 | # | Melhoria da Cidadela | Custo em Fragmentos | Pré-requisito | Benefício Permanente para Todos os 7 Jogadores |
 | :-: | :--- | :---: | :--- | :--- |
-| **1** | **Forja Rúnica** *(de Essência)* | **30 Fragmentos** | Nenhum | Todas as Memórias da Coorte iniciam cada expedição com **+1 Camada Temporária de Integridade** extra! |
-| **2** | **Santuário de Meditação** *(Mar da Alma)* | **25 Fragmentos** | Nenhum | Ao descansar na Cidadela antes de sair em missão, todos começam com **+2 Pontos de Essência Temporários**! |
+| **1** | **Forja Rúnica** *(de Essência)* | **30 Fragmentos** | Nenhum | Todas as Memórias da Coorte iniciam cada expedição com **+1 Camada Temporária de Integridade** extra; fornece ferramentas com **+1 na Forja de Alma e Runas**! |
+| **2** | **Santuário de Meditação** *(Mar da Alma)* | **25 Fragmentos** | Nenhum | Ao fazer um Descanso Longo na Cidadela antes de sair em missão, todos começam com **+2 Pontos de Essência Temporários**! |
 | **3** | **Cozinha e Jardim Purificado** | **20 Fragmentos** | Nenhum | Fornece rações purificadas gratuitas ilimitadas para viagens e **+1 PV Temporário** no início da expedição! |
-| **4** | **Biblioteca e Cartografia** | **20 Fragmentos** | Nenhum | Concede **Vantagem** no primeiro teste de `Mente (Conhecimento)` ou `Navegação/Astúcia` de cada sessão! |
-| **5** | **Muralhas e Torres de Balista** | **40 Fragmentos** | Nenhum | Concede **+2 nas rolagens de Defesa de Cerco** e gera renda passiva de **5 Fragmentos por sessão** (pedágio de viajantes!). |
-| **6** | **Doca de Navio Voador / Porto** | **50 Fragmentos** | Ter Embarcação | Abriga e repara o navio da Coorte gratuitamente; permite viagens rápidas seguras entre regiões distantes do Atlas! |
-| **7** | **Câmara de Treinamento** | **30 Fragmentos** | Melhoria 5 ou Nenhuma | Arena rúnica para o Marechal da Guarda: garante **+1 XP de treino após grandes expedições** ou **Vantagem no primeiro teste marcial** da missão! |
-| **8** | **Enfermaria de Cápsulas & Purificação** | **35 Fragmentos** | Melhoria 2 ou 3 | Remove automaticamente **1 Ferimento Grave** ou **1 Marca de Corrupção** por semana de repouso na Cidadela! |
-| **9** | **Torre de Vigília Astral & Farol** | **35 Fragmentos** | Melhoria 4 | Detecta **Sementes do Pesadelo**, tempestades anômalas e emboscadas inimigas a 50 km de distância (**nunca são surpreendidos na base!**). |
-| **10** | **Câmara do Trono & Cofre Dimensional** | **60 Fragmentos** | Melhoria 1 e 4 | Armazena com segurança **até 7 Memórias excedentes** para empréstimo rotativo da Coorte, reduz em **-1 a CD** para reparar/tecer Memórias e fortalece a projeção de **Domínio** do Clã! |
+| **4** | **Biblioteca e Cartografia** | **20 Fragmentos** | Nenhum | Concede **Vantagem** no primeiro teste de `Mente (Conhecimento)` ou de Navegação de cada sessão e guarda mapas copiados das ruínas! |
+| **5** | **Muralhas e Torres de Balista** | **40 Fragmentos** | Nenhum | Sobe os **PV de Muralha para 35**, protege contra cercos noturnos e gera renda passiva de **5 Fragmentos por sessão** (pedágio de viajantes!). |
+| **6** | **Doca de Navio Voador / Porto** | **50 Fragmentos** | Muralhas *ou* Cidadela junto a rio, mar ou abismo | Abriga, abastece e repara o navio da Coorte gratuitamente; permite viagens rápidas e seguras entre regiões ligadas do Atlas! |
+| **7** | **Câmara de Treinamento** | **30 Fragmentos** | Nenhum | Arena rúnica para treinar combinações de Coorte: **1 vez por expedição**, qualquer jogador pode rerrolar 1 dado numa **Manobra Tática**, ou cada um ganha **+1 XP bônus** a cada fim de arco! |
+| **8** | **Enfermaria de Cápsulas & Purificação** | **35 Fragmentos** | Melhoria 2 ou 3 | Cura **todos os Ferimentos Graves** da Coorte após 24h na base e dá **+2** nos **Rituais de Purificação** de Corrupção (Marcas 1–2)! |
+| **9** | **Torre de Vigília Astral & Farol** | **35 Fragmentos** | Melhoria 4 | Detecta **Sementes do Pesadelo**, tempestades anômalas e exércitos inimigos a 50 km de distância (**nunca são surpreendidos na base!**). |
+| **10** | **Câmara do Trono & Cofre Dimensional** | **60 Fragmentos** | 3+ Melhorias construídas | O coração político do futuro Clã: guarda **100 itens grandes** em segurança absoluta, amplia a capacidade de **Vassalos Ancorados** e concede **+1 no limite de Bônus de Domínio Territorial**! |
 
 ### Notas Práticas sobre as Melhorias na Campanha
 - **Escala de Custo por Rank:** Nos Ranks *Adormecido* e *Desperto*, os custos são pagos em **Fragmentos Despertos** (ou convertendo `10 Adormecidos = 1 Desperto`). Se o grupo já for *Ascendido*, o Mestre pode aceitar o equivalente exato em Fragmentos Ascendidos (`1 Ascendido = 10 Despertos`), acelerando a construção de fortificações em regiões extremas como o Deserto ou Godgrave!
@@ -1461,7 +1468,7 @@ Entre as expedições, os 7 jogadores podem investir os **Fragmentos de Alma** c
 
 ---
 
-## 6.3 🌟 Dossiê Completo de NPCs Lendários (Mentores, Santos e Soberanos)
+## 6.3 🌟 Dossiê Completo de NPCs Lendários (Mentores, Transcendentes e Supremos)
 
 Estes personagens formam a teia política viva dos dois mundos. Cada um possui objetivos próprios em andamento quer os 7 jogadores interfiram neles ou não — servindo como mentores iniciais, contratantes, rivais diplomáticos ou titãs distantes no horizonte da campanha.
 
@@ -1471,25 +1478,25 @@ Estes personagens formam a teia política viva dos dois mundos. Cada um possui o
 - **Papel no Cenário:** Maior especialista vivo em geografia histórica, runas pré-Feitiço e xenobiologia do Reino dos Sonhos.
 - **Como Interagir / Ganchos:** Mentor perfeito desde o primeiro dia na Academia! Compra cópias de inscrições rúnicas que a Coorte fotografar ou desenhar em ruínas (**3 a 10 Fragmentos por descoberta!**), identifica relíquias desconhecidas gratuitamente e ajuda a decifrar pistas de Sementes do Pesadelo.
 
-### 2. ⚔️ Instrutor Rock (*Mestre de Combate da Academia*)
+### 2. ⚔️ Instrutor Rock (*Instrutor-Chefe de Combate da Academia*)
 - **Facção & Rank:** Governo Unido / Academia (*Ascendido / Veterano de Combate*).
 - **Personalidade & Aparência:** Um homem imenso de rosto marcado por cicatrizes antigas e voz que ecoa como trovão pelo pátio de treinos. Impiedoso nos treinos, mas profundamente dedicado a impedir que seus alunos morram no primeiro dia após o Solstício.
 - **Papel no Cenário:** Ensina esgrima prática, combate de sobrevivência suja e coordenação de coortes contra monstros maiores.
 - **Como Interagir / Ganchos:** Se os jogadores sobreviverem às suas sessões brutais antes do Solstício e voltarem vivos do Reino dos Sonhos, Rock passa a recomendá-los para contratos de elite do Governo e ensina manobras avançadas (`+1` em treino tático!).
 
-### 3. 💀 Mestre / Santa Jet (*"A Ceifadora de Almas"*)
-- **Facção & Rank:** Forças Especiais do Governo Unido (*Ascendida — CD 11* → *Transcendente / Santa — CD 13*).
-- **Personalidade & Aparência:** Mulher pálida e elegante de olhos azuis exaustos, olheiras permanentes e sorriso irônico cortante, quase sempre segurando um copo gigante de café ou devorando lanches entre missões.
+### 3. 💀 Jet (*"A Ceifadora de Almas" — Soul Reaper*)
+- **Facção & Rank:** Forças Especiais do Governo Unido (*Ascendida — CD 11* → *Transcendente — CD 13*).
+- **Personalidade & Aparência:** Mulher pálida e elegante de cabelo negro curto e olhos azul-gelo exaustos, olheiras permanentes e sorriso irônico cortante, quase sempre segurando um copo gigante de café ou devorando lanches entre missões.
 - **Segredo & Poder Jogável:** Tecnicamente "morta", seu Núcleo de Alma quebrado obriga-a a matar Criaturas do Pesadelo constantemente para absorver fragmentos de essência e manter seu corpo funcionando! Suas armas fantasmas atravessam armaduras físicas para causar **Dano direto na Alma (*Soul Damage*)**.
 - **Como Interagir / Ganchos:** Principal recrutadora para missões críticas na Periferia, investigações de **Cultos da Profanação** e operações desesperadas na **Frente da Antártica**. Recompensa lealdade com proteção jurídica total contra abusos dos Grandes Clãs!
 
-### 4. 🦅 Marechal Wake of Ruin (*Comandante Supremo do Governo Unido*)
-- **Facção & Rank:** Governo Unido (*Transcendente / Santo da Primeira Geração — CD 14*).
-- **Personalidade & Aparência:** Um veterano austero de cabelos grisalhos e olhar inabalável que carrega o peso de bilhões de vidas civis nos ombros. Fala pouco, nunca faz promessas vazias e despreza jogos fúteis de poder entre os Grandes Clãs.
-- **Como Interagir / Ganchos:** Os jogadores só o encontram pessoalmente ao atingir Reputação `+2` ou `+3` com o Governo ou durante grandes crises como **Portais Categoria 4–5**. Ele confia missões estratégicas decisivas a coortes independentes que provam colocar a humanidade acima da ganância.
+### 4. 🦅 Cor, o *Wake of Ruin* (*Comandante de Campo do Governo Unido*)
+- **Facção & Rank:** Governo Unido (*Transcendente da Primeira Geração — CD 14*; um dos dois únicos Transcendentes do Governo).
+- **Personalidade & Aparência:** Um homem alto e magro de quase sessenta anos, cabelos ainda negros como penas de corvo e olhar penetrante; por onde passa fica um cheiro adocicado de campo de batalha. Sua Transformação Transcendente é um turbilhão de incontáveis corvos. Carrega o peso de bilhões de vidas civis nos ombros, fala pouco, nunca faz promessas vazias e despreza jogos fúteis de poder entre os Grandes Clãs.
+- **Como Interagir / Ganchos:** Os jogadores só o encontram pessoalmente ao atingir Reputação `+2` ou `+3` com o Governo ou durante grandes crises como **Portais Categoria 4–5**. Ele confia missões estratégicas decisivas a coortes independentes que provam colocar a humanidade acima da ganância — e Jet é uma de suas agentes de maior confiança.
 
-### 5. ⚡ Santo Tyris (*"Maré do Céu"*) & 🦅 Mestre Roan (*Clã Pluma Branca*)
-- **Facção & Rank:** Vassalos Independentes/Aliados de Valor nas **Ilhas Acorrentadas** (*Tyris: Santa — CD 13 | Roan: Mestre — CD 11*).
+### 5. ⚡ Tyris (*"Maré do Céu" — Sky Tide*) & 🦅 Roan (*Clã Pluma Branca*)
+- **Facção & Rank:** Vassalos Independentes/Aliados de Valor nas **Ilhas Acorrentadas** (*Tyris: Transcendente — CD 13 | Roan: Ascendido — CD 11*).
 - **Personalidade & Aparência:** Tyris é serena, majestosa e quase etérea, capaz de comandar furacões elétricos e se transformar em uma colossal ave-trovão; seu marido Roan é um guerreiro jovial, barulhento e caloroso que cavalga um Eco de Grifo gigante.
 - **Como Interagir / Ganchos:** Governam a guarnição do *Templo do Cálice* e protegem jovens Adormecidos e Despertos das tempestades políticas mais sujas de Bastion. Contratam a Coorte para mapear ilhas recém-subidas ou defender colonos durante crises do Esmagamento.
 
@@ -1498,37 +1505,37 @@ Estes personagens formam a teia política viva dos dois mundos. Cada um possui o
 - **Personalidade & Aparência:** Excêntrico, teatral, vaidoso quanto à própria beleza e obsessivo por boas maneiras e chá bem servido. Por trás do humor leve e elegante, esconde uma mente milenar implacável ligada à Linhagem Lunar do **Deus das Feras**.
 - **Como Interagir / Ganchos:** Se os jogadores visitarem o *Santuário de Noctis* no presente (encontrando seus bonecos de madeira falantes e jardins prateados) ou entrarem em um **Segundo Pesadelo** ambientado na 3ª Era, Noctis surge como um patrono imprevisível que troca segredos de **Feitiçaria Rúnica** e peças de navio voador por favores perigosos!
 
-### 7. 🗡️ Soberano Anvil de Valor (*"O Rei das Espadas"*)
-- **Facção & Rank:** Líder Supremo do Grande Clã Valor (*Supremo / Soberano — CD 15*).
+### 7. 🗡️ Anvil de Valor, o Supremo (*"O Rei das Espadas"*)
+- **Facção & Rank:** Líder Supremo do Grande Clã Valor (*Supremo (Sovereign) — CD 15*).
 - **Personalidade & Aparência:** Um homem alto de barba escura aparada, olhos frios como aço temperado e presença tão opressiva que todas as lâminas metálicas próximas tremem e apontam sutilmente em sua direção.
 - **Autoridade de Domínio:** Seu Domínio conceitual submete armas forjadas e guerreiros juramentados à sua vontade marcial. Ele enxerga tudo — inclusive seus próprios filhos e generais — sob a ótica implacável da utilidade na guerra inevitável contra o Pesadelo e contra Song.
-- **Como Interagir / Ganchos:** Raramente fala diretamente com Despertos comuns; envia decretos através de seus Santos ou de sua filha Morgan. Quando a Coorte alcança Reputação `+3` com Valor ou conquista uma Cidadela em região contestada, Anvil oferece escolha clara: *jurar lealdade ao trono de ferro ou provar força suficiente para não ser esmagado!*
+- **Como Interagir / Ganchos:** Raramente fala diretamente com Despertos comuns; envia decretos através de seus Transcendentes ou de sua filha Morgan. Quando a Coorte alcança Reputação `+3` com Valor ou conquista uma Cidadela em região contestada, Anvil oferece escolha clara: *jurar lealdade ao trono de ferro ou provar força suficiente para não ser esmagado!*
 
 ### 8. ⚔️ Morgan de Valor (*"A Princesa da Guerra"*)
-- **Facção & Rank:** Herdeira e General de Valor (*Ascendida* → *Santa — CD 13–14*).
+- **Facção & Rank:** Herdeira e General de Valor (*Ascendida* → *Transcendente — CD 13–14*).
 - **Personalidade & Aparência:** Elegante, educada com sorriso afiado e perigosamente curiosa diante de guerreiros talentosos. Possui o Atributo único **`[Coração da Guerra]`**: sua pele, cabelos e mãos cortam carne e aço como as espadas mais letais jamais forjadas — forçando-a a usar luvas encantadas para não mutilar quem toca acidentalmente!
 - **Como Interagir / Ganchos:** Adora testar jovens promissores pessoalmente em duelos controlados ou recrutá-los para missões de campo antes de seus rivais de Song. Uma aliada sedutora, mas sempre calculista!
 
-### 9. 🩸 Soberana Ki Song (*"A Rainha dos Mortos / Rainha dos Vermes"*)
-- **Facção & Rank:** Líder Suprema do Grande Clã Song (*Suprema / Soberana — CD 15*).
+### 9. 🩸 Ki Song, a Suprema (*"A Rainha dos Mortos / Rainha dos Vermes"*)
+- **Facção & Rank:** Líder Suprema do Grande Clã Song (*Suprema (Sovereign) — CD 15*).
 - **Personalidade & Aparência:** Enigmática, maternal à sua maneira sinistra e eternamente serena, raramente aparecendo em pessoa fora do núcleo mais fundo de **Ravenheart** — comunicando-se muitas vezes através de emissárias ou de corpos preservados.
 - **Autoridade de Domínio:** Comanda dezenas de milhares de **Marionetes de Cadáveres** e controla o fluxo do sangue em seu território. Adotou jovens órfãs talentosas e as transformou em uma irmandade letal de generais.
 - **Como Interagir / Ganchos:** Ao contrário da rigidez marcial de Valor, Song conquista aliados oferecendo curas impossíveis, poder sobre a carne e proteção contra caçadores — cobrando dívidas de sangue em momentos cruciais da campanha.
 
 ### 10. 🦇 Seishan (*"A Princesa do Sangue"*)
-- **Facção & Rank:** Princesa Adotiva e Comandante de Campo de Song (*Ascendida* → *Santa — CD 13–14*).
+- **Facção & Rank:** Princesa Adotiva e Comandante de Campo de Song (*Ascendida* → *Transcendente — CD 13–14*).
 - **Personalidade & Aparência:** Silenciosa, de beleza clássica melancólica e elegância gótica impecável. Extremamente reservada e leal às suas irmãs de criação, possui controle aterrorizante sobre o sangue alheio e transforma-se em uma predadora monstruosa quando libera sua herança.
 - **Como Interagir / Ganchos:** Lidera expedições arqueológicas e militares de Song em regiões mortais como o Deserto ou Godgrave. Pode contratar coortes neutras ou negociar tréguas temporárias em zonas onde tanto Valor quanto o Pesadelo ameaçam a sobrevivência de todos.
 
 ### 11. 🌊 Senhor das Profundezas (*Almirante-Mor da Casa da Noite*)
-- **Facção & Rank:** Liderança Naval da Casa da Noite (*Santo Veterano — CD 14*).
+- **Facção & Rank:** Liderança Naval da Casa da Noite (*Transcendente Veterano — CD 14*).
 - **Personalidade & Aparência:** Um marinheiro marcado pelo sal e pelo vento, envolto em manto azul-escuro bordado com mapas estelares prateados. Fala com calma oceânica e valoriza promessas cumpridas acima de ouro.
 - **Como Interagir / Ganchos:** Comanda o grande **Farol da Noite Eterna**. Concede acesso a estaleiros exclusivos, empresta Bússolas Astrais e contrata a Coorte para investigar o silêncio repentino de faróis distantes ou ameaças emergindo das Fossas Abissais.
 
-### 12. 🌑 Asterion (*"O Sonho da Lua" — O Terceiro Soberano Esquecido*)
-- **Facção & Rank:** Sem Clã Fixo (*Supremo / Soberano — CD 15+*).
-- **Personalidade & Aparência:** Uma figura quase mítica cujo próprio nome raramente é pronunciado em voz alta por ordem tácita dos outros dois Soberanos! Dizem os poucos relatos antigos que ele caminha isolado muito além das fronteiras comuns — até mesmo em lugares ligados às estrelas e à Lua — colecionando herdeiros das antigas Linhagens Divinas.
-- **Como Interagir / Ganchos:** Para uma Coorte nos Ranks *Ascendido* e *Transcendente*, Asterion funciona como o **grande mistério cósmico de fundo**: vestígios de sua passagem aparecem em ruínas remotas da 2ª e 4ª Era, cultos estranhos murmuram sua marca na Rede Desperta, e descobrir o que ele busca torna-se um arco inteiro de investigação de fim de campanha!
+### 12. 🌑 Asterion (*"A Cria dos Sonhos" — Dreamspawn*)
+- **Facção & Rank:** Sem Clã Fixo (*publicamente Transcendente; na verdade, o terceiro Supremo — CD 15+*).
+- **Personalidade & Aparência:** Uma figura quase mítica cujo próprio nome raramente é pronunciado em voz alta por ordem tácita dos Grandes Clãs! Dizem os poucos relatos antigos que ele caminha isolado muito além das fronteiras comuns — até mesmo em lugares ligados às estrelas e à Lua — colecionando herdeiros das antigas Linhagens Divinas.
+- **Como Interagir / Ganchos:** Para uma Coorte nos Ranks *Ascendido* e *Transcendente*, Asterion funciona como o **grande mistério cósmico de fundo**: vestígios de sua passagem aparecem em ruínas remotas da 2ª e 4ª Era, cultos estranhos murmuram sua marca na Rede Desperta, e descobrir o que ele busca torna-se um arco inteiro de investigação de fim de campanha! **Segredo de campanha:** para o mundo, Asterion é só um Transcendente excêntrico; que ele seja um Supremo é uma revelação para guardar até o fim de um grande arco.
 
 ---
 
@@ -1542,10 +1549,10 @@ Use esta linha do tempo dinâmica como pano de fundo para dar senso épico de ev
 | Ato Global | Rank da Coorte | O que Acontece nos Dois Mundos? | Impacto Direto na Mesa dos 7 Jogadores |
 | :--- | :--- | :--- | :--- |
 | **Ato 1: O Solstício de Sangue** | **Adormecidos (*Sleepers*)** | A turma recém-saída da Academia acorda espalhada pelo Reino dos Sonhos. Portais Categoria 1–2 multiplicam-se nos subúrbios da Terra; sobreviventes disputam rotas até uma Cidadela para retornar vivos. | Os jogadores aprendem a confiar uns nos outros, descobrem seus Defeitos, exploram as primeiras ruínas e lutam para conquistar ou alcançar seu primeiro Portal. |
-| **Ato 2: A Corrida pelas Cidadelas** | **Despertos (*Awakened*)** | De volta à Terra com trânsito livre entre os mundos, **Valor e Song** iniciam uma corrida silenciosa para anexar novas regiões (Ilhas Acorrentadas / Submundo / Fronteiras). Navios voadores rúnicos antigos começam a ser disputados. | A Coorte conquista sua própria **Cidadela Selvagem**, funda um Clã Independente, acumula reputação com facções e busca uma **Semente do 2º Pesadelo** para subir a Mestre! |
-| **Ato 3: O Inverno da Antártica** | **Ascendidos (*Mestres*)** | Uma catastrófica **Cadeia de Portais (Categorias 3 e 4)** irrompe no Quadrante Sul (Antártica)! O Governo Unido decreta mobilização geral enquanto milhões de civis precisam ser evacuados por comboios blindados e navios sob nevascas mortais. | O grupo comanda forças mistas de soldados e Despertos em operações dramáticas de evacuação, caça a **Tiranos e Terrores** no gelo e descobre células infiltradas dos **Cultos da Profanação**! |
-| **Ato 4: Os Segredos dos Daemons** | **Rumo a Transcendente (*Santos*)** | Enquanto a tensão militar entre Valor e Song explode em escaramuças abertas no **Deserto dos Pesadelos**, expedições mergulham nos vestígios proibidos de Ariel, Weaver e Nether para alcançar o Rank de **Santo** e despertar Linhagens Divinas completas. | A Coorte atravessa o Deserto ou o Grande Rio (ou desafia um **3º Pesadelo** histórico), descobrindo a verdade sombria do 7º Deus Esquecido e das **Relíquias Perdidas**! |
-| **Ato 5: A Guerra dos Tronos em Godgrave** | **Transcendentes → Supremos** | Os Soberanos marcham seus exércitos sobre a ossada colossal de **Godgrave** para decidir quem reinará sobre a humanidade unificada — enquanto a Terra e o Reino dos Sonhos aceleram sua fusão definitiva! | A Coorte dos 7 jogadores — agora lendas vivas com Cidadela fortificada e autoridade de Domínio — decide se apoia um Soberano, forja uma terceira via independente ou enfrenta o abismo final! |
+| **Ato 2: A Corrida pelas Cidadelas** | **Despertos (*Awakened*)** | De volta à Terra com trânsito livre entre os mundos, **Valor e Song** iniciam uma corrida silenciosa para anexar novas regiões (Ilhas Acorrentadas / Submundo / Fronteiras). Navios voadores rúnicos antigos começam a ser disputados. | A Coorte conquista sua própria **Cidadela Selvagem**, funda um Clã Independente, acumula reputação com facções e busca uma **Semente do 2º Pesadelo** para subir a Ascendido! |
+| **Ato 3: O Inverno da Antártica** | **Ascendidos (*Masters*)** | Uma catastrófica **Cadeia de Portais (Categorias 3 e 4)** irrompe no Quadrante Sul (Antártica)! O Governo Unido decreta mobilização geral enquanto milhões de civis precisam ser evacuados por comboios blindados e navios sob nevascas mortais. | O grupo comanda forças mistas de soldados e Despertos em operações dramáticas de evacuação, caça a **Tiranos e Terrores** no gelo e descobre células infiltradas dos **Cultos da Profanação**! |
+| **Ato 4: Os Segredos dos Daemons** | **Rumo a Transcendente (*Saints*)** | Enquanto a tensão militar entre Valor e Song explode em escaramuças abertas no **Deserto dos Pesadelos**, expedições mergulham nos vestígios proibidos de Ariel, Weaver e Nether para alcançar o Rank **Transcendente** e despertar Linhagens Divinas completas. | A Coorte atravessa o Deserto ou o Grande Rio (ou desafia um **3º Pesadelo** histórico), descobrindo a verdade sombria do 7º Deus Esquecido e das **Relíquias Perdidas**! |
+| **Ato 5: A Guerra dos Tronos em Godgrave** | **Transcendentes → Supremos** | Os Supremos marcham seus exércitos sobre a ossada colossal de **Godgrave** para decidir quem reinará sobre a humanidade unificada — enquanto a Terra e o Reino dos Sonhos aceleram sua fusão definitiva! | A Coorte dos 7 jogadores — agora lendas vivas com Cidadela fortificada e autoridade de Domínio — decide se apoia um Supremo, forja uma terceira via independente ou enfrenta o abismo final! |
 
 ---
 
@@ -1566,7 +1573,7 @@ Sempre que os jogadores gastarem várias semanas descansando, construindo melhor
    - *Segmentos 1–2:* O *Chamado* atinge várias cidades costeiras simultaneamente; tremores sob as geleiras.
    - *Segmentos 3–4:* Portais Categoria 2 e 3 rompem rodovias ferroviárias de evacuação; racionamento de energia elétrica.
    - *Segmento 5:* Um **Portal Categoria 4** abre perto do porto principal, bloqueando a fuga naval de centenas de milhares de civis!
-   - *Segmento 6 (Eclosão):* Uma cidade inteira do Quadrante Sul cai para o Pesadelo se não houver intervenção imediata de Mestres e Santos!
+   - *Segmento 6 (Eclosão):* Uma cidade inteira do Quadrante Sul cai para o Pesadelo se não houver intervenção imediata de Ascendidos e Transcendentes!
 4. **🌪️ Relógio da Anomalia Regional (Reino dos Sonhos — 6 Segmentos):**
    - *Segmentos 1–2:* O ciclo normal da região muda (marés negras sobem 1 hora mais cedo na Costa; Esmagamento fica irregular nas Ilhas).
    - *Segmentos 3–4:* Criaturas de Rank superior ao normal começam a migrar para territórios onde a Coorte caça.
@@ -1640,13 +1647,13 @@ Cada uma das **10 Regiões do Atlas** oculta um artefato lendário forjado ou ab
 - **Localização Exata:** Incrustada dentro de um casulo de teia dourada quase invisível no centro de uma câmara cristalizada dos *Vãos Profundos*, bem abaixo do esterno do deus morto.
 - **Guardião / Selo:** Sem monstros barulhentos — protegida por uma rede mortal de fios de destino invisíveis (`Mente [Astúcia]` CD 13 ou *Visão Espiritual* para não cortar a própria sorte!).
 - **Poderes Mecânicos:** Diferente de uma Memória comum, esta relíquia **não é equipada — ela deve ser absorvida pela carne!** O personagem que tiver coragem de engoli-la ou pressioná-la contra o próprio corpo sofre agonia indescritível por 1 cena (`Corpo [Vigor]` CD 12), mas **desperta imediatamente o Atributo proibido `[Teia de Osso]` ou `[Teia de Alma]` da Linhagem de Weaver**, fortalecendo ossos ou alma contra dano e permitindo enxergar e tocar os fios das Memórias!
-- **Preço / Maldição:** A dor do despertar da linhagem de Weaver é famosa por levar mentes fracas à beira do desmaio — e portadores da Linhagem Proibida tornam-se alvos prioritários caso certos Santos ou Soberanos descubram sua existência!
+- **Preço / Maldição:** A dor do despertar da linhagem de Weaver é famosa por levar mentes fracas à beira do desmaio — e portadores da Linhagem Proibida tornam-se alvos prioritários caso certos Transcendentes ou Supremos descubram sua existência!
 
 ### 10. 🧭 O Astrolábio do Céu Sem Estrelas (*Região 10: Mar Tempestuoso*)
 - **Classificação:** Relíquia do **Deus da Tempestade — Tier VI**.
 - **Localização Exata:** No topo enegrecido do *Último Farol Esquecido*, muito além das rotas mapeadas nos limites sul da Boca da Fossa Abissal.
 - **Guardião / Selo:** Cercado por tempestades de relâmpago perpétuas e guardado por um **Terror Abissal das Correntes (CD 14)**.
-- **Poderes Mecânicos:** Um globo de bronze estrelado que flutua sobre a palma da mão. Revela automaticamente a direção exata de **todas as Sementes do Pesadelo (1º ao 5º) e Portais funcionais num raio de 1.000 km**! Uma vez por semana, pode alinhar as constelações para **teletransportar um navio inteiro com toda a Coorte através de um relâmpago gigante** para qualquer corpo d'água já visitado!
+- **Poderes Mecânicos:** Um globo de bronze estrelado que flutua sobre a palma da mão. Revela automaticamente a direção exata de **todas as Sementes do Pesadelo (2º ao 4º Pesadelo) e Portais funcionais num raio de 1.000 km**! Uma vez por semana, pode alinhar as constelações para **teletransportar um navio inteiro com toda a Coorte através de um relâmpago gigante** para qualquer corpo d'água já visitado!
 - **Preço / Maldição:** Cada salto relâmpago drena **toda a Essência de 2 voluntários a bordo** e danifica o casco em **2 PV** pelo impacto elétrico.
 
 ---
@@ -1674,7 +1681,7 @@ Sempre que a Coorte visitar um bar da Periferia em NQSC, o refeitório da Academ
 | **15** | *"Quando as nuvens de Godgrave abriram ontem ao meio-dia, um batedor jurou ter visto uma cidadela intacta cravada na sombra da terceira costela!"* | **Godgrave** / Guerra Fria | Expedição de altíssimo risco no continente dos ossos divinos! |
 | **16** | *"Uma coorte inteira desapareceu perto da margem leste do Lago Espelhado, mas pescadores dizem que ainda dá para ver os reflexos deles acenando de dentro da água!"* | **Bastion / Lago Espelhado** | Missão de resgate entrando pela primeira vez na dimensão invertida de Mirage! |
 | **17** | *"Nas catacumbas sob o Coliseu Vermelho acharam um fio dourado suspenso no ar que não pode ser cortado por lâmina nenhuma — e canta quando um Tecelão chega perto!"* | **Ilhas Acorrentadas** / Weaver | Pista valiosa sobre **Tecelagem (*Spellweaving*)** ou relíquia de Weaver! |
-| **18** | *"O senhor da guerra do forte vizinho dobrou o pedágio de travessia do Portal para 3 Fragmentos por semana; metade dos caçadores está procurando quem tenha coragem de derrubá-lo!"* | **Costa Esquecida / Fronteira** | Golpe político ou desafio aberto em duelo para libertar um Portal! |
+| **18** | *"O senhor da guerra do forte vizinho dobrou o pedágio de travessia do Portal para 3 Fragmentos por semana; metade dos caçadores está procurando quem tenha coragem de derrubá-lo!"* | **Qualquer Região / Fronteira** | Golpe político ou desafio aberto em duelo para libertar um Portal! |
 | **19** | *"Um trem Maglev blindado carregado de Cristais de Alma do Governo descarrilou na Zona de Exclusão fora de NQSC e o sinal de socorro acaba de cair!"* | **Mundo Desperto (Oeste/NQSC)** | Combate híbrido na Terra com soldados mundanos contra monstros de Zona! |
 | **20** | *"Uma estrela cadente negra rasgou o céu ontem à noite e caiu no meio das Montanhas Ocas — não era pedra espacial, era uma lança divina partida da Guerra da Perdição!"* | **Montanhas Ocas** / Relíquia | Corrida épica entre todas as grandes facções pelo artefato recém-caído! |
 
@@ -1687,20 +1694,20 @@ No cenário de *Shadow Slave*, as **Sementes do Pesadelo (*Nightmare Seeds*)** s
 ### Como Funcionam as Sementes no Mundo Vivo
 1. **Diferença Entre o 1º Pesadelo e os Demais:**
    - **1º Pesadelo (*Individual — Aspirante → Adormecido*):** Ocorre involuntariamente na Terra quando um jovem é infectado pelo Feitiço. É uma provação solitária que desbloqueia o **Aspecto** e revela o **Defeito (*Flaw*)**.
-   - **2º, 3º e 4º Pesadelos (*Em Coorte — Desperto → Mestre → Santo → Soberano*):** Exigem que os jogadores encontrem fisicamente uma **Semente do Pesadelo** correspondente no Reino dos Sonhos e entrem nela juntos como Coorte! (Se o grupo tentar entrar em uma Semente de Rank muito acima do seu — como um Desperto entrando em uma Semente do 3º Pesadelo — a sobrevivência torna-se quase impossível!).
+   - **2º, 3º e 4º Pesadelos (*Em Coorte — Desperto → Ascendido → Transcendente → Supremo*):** Exigem que os jogadores encontrem fisicamente uma **Semente do Pesadelo** correspondente no Reino dos Sonhos e entrem nela juntos como Coorte! (Se o grupo tentar entrar em uma Semente de Rank muito acima do seu — como um Desperto entrando em uma Semente do 3º Pesadelo — a sobrevivência torna-se quase impossível!).
 2. **A Regra da Substituição Histórica:** Dentro de uma Semente do 2º ao 4º Pesadelo, cada um dos **7 jogadores** desperta ocupando o corpo e o papel social de um **personagem histórico que existia naquela Era** (mantendo seu próprio Aspecto e mente, ou herdando temporariamente um hospedeiro compatível com seu perfil!).
 3. **O Objetivo Oculto de Toda Semente:** O Feitiço coloca a Coorte exatamente antes de um evento catastrófico registrado na história das **5 Eras** (*Cap. 1.4*). Para vencer e retornar ao presente com o novo Rank desperto, não basta "sobreviver escondido": o grupo precisa **resolver o conflito central daquela Semente**, geralmente desafiando um tirano antigo, salvando um templo decisivo ou alterando dramaticamente o resultado trágico daquele evento histórico!
 
-### Tabela de Avaliação do Feitiço e Recompensas de Conquista (*Livro 3, Seção 3.4*)
+### Tabela de Avaliação do Feitiço e Recompensas de Conquista (*Livro 1, Seção 12.3 C, e Livro 3, Seção 3.4*)
 
 | Avaliação Final do Feitiço | Critério Narrativo na Semente | Recompensa Concedida pelo Feitiço à Coorte |
 | :--- | :--- | :--- |
-| **Pobre (*Poor*)** | Sobrevivência mínima sem resolver os dilemas principais ou deixando aliados sucumbirem. | Sobem normalmente para o **Novo Rank** e desbloqueiam a próxima Habilidade de Aspecto, sem bônus extras. |
-| **Justa / Aceitável (*Fair*)** | Sobreviveram por um triz cumprindo o mínimo necessário da provação. | Novo Rank + **`+1 Marco de Saturação`** para cada sobrevivente. |
-| **Boa (*Good*)** | Cumpriram o objetivo principal da Semente com perdas moderadas e bom trabalho de equipe. | Novo Rank + **`+1 Marco de Saturação`** + **1 Memória do Novo Rank** (Tier I–II) para cada sobrevivente. |
-| **Excelente (*Excellent*)** | Viraram o destino histórico da cena, salvaram aliados importantes e derrotaram um grande chefe. | Novo Rank + **`+2 Marcos de Saturação`** + **1 Memória Tier III–IV** + **+2 XP Extras** e chance alta de evoluir `[Brasa]` para `[Marca de Divindade]`! |
-| **Gloriosa (*Glorious*)** | Alteraram radicalmente uma tragédia impossível das Eras Antigas superando inimigos de Rank superior! | Novo Rank + **`+3 Marcos de Saturação`** + **Relíquia Única ou Gota de Linhagem**, avanço de Divindade, **+4 XP Extras** e possibilidade real de o Feitiço revelar um **Nome Verdadeiro (*True Name*)**! |
-| **Divina (*Divine*)** *(Lendária)* | Quebraram o próprio eixo profético de uma Era inteira diante de forças impossíveis. | Todos os benefícios da nota *Gloriosa* + evolução direta para `[Chama de Divindade]` e **Relíquia Sagrada/Divina única**! |
+| **Pobre (*Poor*)** | Sobrevivência mínima, escondendo-se ou fugindo do conflito central enquanto a tragédia segue como previsto. | Sobem para o **Novo Rank** e desbloqueiam a nova Habilidade de Aspecto, sem bônus extras. |
+| **Suficiente (*Fair*)** | Enfrentaram o mínimo obrigatório para abrir a saída, mas deixaram a tragédia principal acontecer. | Igual a *Pobre*: **Novo Rank** e nova Habilidade, sem bônus — a diferença é só narrativa. |
+| **Boa (*Good*)** | Cumpriram o objetivo principal com competência e protegeram parte do grupo ou dos objetivos imediatos. | Novo Rank + **`+1 Marco de Saturação`** para cada sobrevivente. |
+| **Excelente (*Excellent*)** | Mudaram o final trágico: salvaram figuras-chave que deveriam morrer e derrotaram o Guardião da Semente de frente. | Novo Rank + **`+2 Marcos de Saturação`** + **1 Memória Tier II ou III** do Rank do Pesadelo para cada jogador. |
+| **Gloriosa (*Glorious*)** | Fizeram o aparentemente impossível: derrotaram um inimigo **1 Rank acima do esperado** e arrancaram a tragédia pela raiz. | Novo Rank + **`+3 Marcos de Saturação`** + **1 Memória Rara (Tier III ou IV)** + conquista de um **Nome Verdadeiro (*True Name*)**! |
+| **Divina (*Divine*)** *(opcional e raríssima — Livro 3)* | Feito mítico: enfrentaram uma calamidade ligada a Deuses/Daemons ou derrotaram uma entidade **2+ Ranks acima**, mudando radicalmente o passado. | Use a recompensa da nota *Divina* do *Livro 3, Seção 3.4* (`+4 Marcos`, Relíquia de Tier V–VII, Nome Verdadeiro e Epifania de Legado ou de Linhagem). |
 
 ---
 
@@ -1716,17 +1723,17 @@ Para campanhas de mundo aberto em que os 7 jogadores viajam entre as **10 Regiõ
 | **Ilhas Acorrentadas ↔ Borda das Montanhas Ocas** | Pelas **Correntes Celestiais** ou *Navio Voador* | **3 a 7 dias** | Ciclos do **Esmagamento** e ventos cortantes de altitude. |
 | **Montanhas Ocas (Superfície) ↔ Costa Esquecida** | Escalada extrema / Guia com Lanterna Negra | **10 a 14 dias** | **Névoa Branca Devoradora** e avalanches em passos congelados. |
 | **Montanhas Ocas (Subsolo) ↔ Submundo de Nether** | Pelas *Escadarias Quebradas* e *Pontes de Obsidiana* | **4 a 8 dias** | **Escuridão Elemental Verdadeira** e sentinelas de pedra viva. |
-| **Ravenheart ↔ Planícies Sul ↔ Deserto dos Pesadelos** | Carruagens blindadas ou *Navio Voador* | **7 a 12 dias** | Tempestades de cinza escaldante seguidas pelo calor extremo do deserto. |
+| **Ilhas Acorrentadas ↔ Flanco Leste das Montanhas Ocas ↔ Deserto dos Pesadelos** | *Navio Voador* ou caravana blindada com guia | **7 a 12 dias** | Névoa Branca nas encostas seguida pelo calor extremo e pela Guerra Eterna do deserto. |
 | **Deserto dos Pesadelos ↔ Tumba de Ariel** | Corrida diurna de abrigo em abrigo | **5 a 10 dias** | Chegar à Pirâmide Negra antes de ser pego pela **Guerra Eterna da Noite**. |
 | **Costa Esquecida / Ilhas ↔ Mar Tempestuoso** | *Veleiro Rúnico* ou *Encouraçado-Cidadela* | **Variável (3 a 15 dias)** | Furacões, recifes não mapeados e monstros das Fossas Abissais. |
-| **Qualquer Capital ↔ Godgrave** | Portais de Fronteira ou *Navio Voador* de grande porte | **Expedição de Elite** | Transpor o abismo branco e sobreviver ao **Céu Incandescente** na chegada. |
+| **Qualquer Capital ↔ Godgrave** | Portais de Fronteira ou *Navio Voador* de grande porte | **Expedição de Elite** | Atravessar as Zonas de Morte entre os Domínios e sobreviver ao **Céu Incandescente** na chegada. |
 
 ### Tabela de Encontros de Fronteira e Transição (`1d8`)
 Sempre que a Coorte cruzar a fronteira selvagem entre uma região e outra no Reino dos Sonhos, role **`1d8`** para gerar uma cena memorável de viagem:
 
 | `1d8` | Encontro na Fronteira Entre Regiões |
 | :---: | :--- |
-| **1** | **Caravana Mercante Sítia:** Um comboio independente com eixos quebrados tenta defender três carroças de suprimentos contra um bando de predadores locais (`+1 Reputação` com Aliança Livre ou Clã se salvos!). |
+| **1** | **Caravana Mercante Sitiada:** Um comboio independente com eixos quebrados tenta defender três carroças de suprimentos contra um bando de predadores locais (`+1 Reputação` com Aliança Livre ou Clã se salvos!). |
 | **2** | **Sinal de Semente Nascente:** Uma fenda escura pulsa no meio de um monumento quebrado na fronteira — um grupo de batedores rivais está acampado a 200 metros decidindo se invade ou vende a localização! |
 | **3** | **Marco de Guerra Antiga:** Restos de duas fortalezas colididas na fronteira revelam um pequeno altar intacto de um dos 6 Deuses ou 7 Daemons (*role `1d12` na Tabela 4.4!*). |
 | **4** | **Tempestade Híbrida de Fronteira:** Duas leis anômalas colidem (ex: *Névoa Branca* misturada com *Cinza Quente*, ou *Maré Negra* subindo sob ventos elétricos), exigindo trabalho em equipe imediato para achar abrigo! |
@@ -1743,15 +1750,15 @@ Se você é um Mestre começando hoje com 7 jogadores na mesa e quer transformar
 
 ### 1. 🌊 *Os Sobreviventes da Costa Sem Nome* (Clássica — Ranks Adormecido → Desperto)
 - **Ponto de Partida:** Prólogo rápido de 1 sessão na **Academia dos Despertos de NQSC** (construindo os Vínculos da Coorte e treinando nas 4 Disciplinas), seguido pela descida dramática às cápsulas no **Solstício de Inverno**.
-- **Onde Acordam:** Na borda leste da **Costa Esquecida**, sem comida doce nem guia.
-- **Arco Central:** Sobreviver às primeiras marés negras do Mar Amaldiçoado, descobrir as inscrições nas Sete Estátuas Sem Cabeça, resistir à extorsão do Castelo Negro e conquistar o **Forte da Estátua Partida** para abrir o próprio Portal de volta à Terra!
+- **Onde Acordam:** Na borda leste da **Costa Esquecida**, sem água doce, comida nem guia.
+- **Arco Central:** Sobreviver às primeiras marés negras do Mar Amaldiçoado, descobrir as inscrições nas Sete Estátuas Sem Cabeça, resistir à extorsão do Castelo Brilhante e conquistar o **Forte da Estátua Partida** para abrir o próprio Portal de volta à Terra!
 
 ### 2. ⛓️ *Corsários do Céu Quebrado* (Aventura Aérea — Ranks Desperto → Ascendido)
 - **Ponto de Partida:** Já Despertos em NQSC ou nos arredores de Bastion, os 7 jogadores são contratados pela **Aliança Livre** ou pelo **Clã Pluma Branca** para investigar uma ilha recém-subida nas **Ilhas Acorrentadas**.
 - **Arco Central:** Recuperar o *Círculo de Levitação* na Ilha dos Destroços, construir ou consertar seu próprio **Navio Voador Rúnico** (usando os **7 Postos de Embarcação**!), conquistar a **Torre da Âncora Partida**, escapar do *Esmagamento* e encontrar uma **Semente do 2º Pesadelo** ambientada na *3ª Era dos Daemons* antes dos Grandes Clãs!
 
 ### 3. ❄️ *Os Ceifadores da Antártica & O Culto Oculto* (Investigação & Guerra — Ranks Desperto → Ascendido)
-- **Ponto de Partida:** A Coorte assina contrato oficial com o **Governo Unido** (sob comando direto de **Mestre Jet** ou do setor de segurança de NQSC) para investigar desaparecimentos e falhas estranhas nos sensores de Pulso Espiritual na **Periferia** e nas **Zonas de Exclusão**.
+- **Ponto de Partida:** A Coorte assina contrato oficial com o **Governo Unido** (sob comando direto da Ascendida **Jet** ou do setor de segurança de NQSC) para investigar desaparecimentos e falhas estranhas nos sensores de Pulso Espiritual na **Periferia** e nas **Zonas de Exclusão**.
 - **Arco Central:** Desmascarar células infiltradas dos **Cultos da Profanação**, sobreviver a sabotagens de Portais Categoria 2–3 nas cidades-domo e, na virada da campanha, embarcar nos comboios militares rumo à **Frente Gelada da Antártica** quando uma **Cadeia de Portais** ameaçar meio bilhão de refugiados!
 
 ### 4. 🌩️ *A Frota Livre da Estrela do Abismo* (Exploração Naval — Ranks Variados)
