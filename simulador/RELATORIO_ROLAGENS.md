@@ -946,7 +946,7 @@ Referência com 4 jogadores: 23% / 93%. O perfil 3× PV do livro **não escala**
 | T4 | Senhor das Correntes (2,8), Devorador Carmesim (2,7), Eco Ressonante (2,4), Mestre das Ilusões (2,3), Predador Silencioso (2,2), Cronista das Cinzas (2,0), Príncipe do Nada (1,0) |
 | T5 | Artífice de Cristal (1,0), Cantor dos Mortos (0,7), Monarca da Areia Branca (0,6), Ceifadora de Almas (0,4), Forjador do Crepúsculo (0,3), Cavaleiro Astral (0,2), Guardião de Gelo (0,2), Arauto da Tempestade (−0,5) |
 
-A ordem é praticamente a mesma da lista com 4 jogadores. Mas com 7 pessoas cada Aspecto pesa menos (as notas absolutas caem ~40%). Pelas faixas absolutas, só o Escravo fica em T2 e quase todos caem em T4/T5. Diferença entre Aspectos pesa menos num grupo grande; utilidade (nunca surpreendido, Relógio) passa a decidir mais.
+A ordem é praticamente a mesma da lista com 4 jogadores. Mas com 7 pessoas cada Aspecto pesa menos (as notas absolutas caem cerca de metade: Escravo ~22 com 4 jogadores → 11 com 7). Pelas faixas absolutas, só o Escravo fica em T2 e quase todos caem em T4/T5. Diferença entre Aspectos pesa menos num grupo grande; utilidade (nunca surpreendido, Relógio) passa a decidir mais.
 
 **3. Portadora da Luz × Escravo das Sombras por Posto (Desperto, ficha igual, só muda o nº de Núcleos)**
 
