@@ -54,3 +54,12 @@
 - **Orçamento de Ameaça em mesas grandes (Livros 0, 3 e 4):** o teto continua sendo `1 ×` o número de jogadores. Novo aviso: com 6–7 jogadores, uma luta dentro do Orçamento fica fácil; para assustar, use uma 2ª onda ou um chefe no Perfil de 6× PV, sem aumentar o Dano.
 - **Portadora da Luz (Livro 2):** a Chama da Alma passa a dar `+8 / +9 / +10 / +11 / +12` de Dano do `[3/7]` ao `[7/7]` (eram `+4` a `+8`). As rolagens continuam travadas em `+3`. Assim ela fica cerca de `1` de Dano por rodada acima do Escravo das Sombras do mesmo Posto.
 - **Defeito da Portadora (Livros 2 e 3):** depois de 3 turnos seguidos de chama acesa, ela rola `Mente [Vontade] CD 7` a cada turno. Se falhar, sofre `-1` em **todas** as suas rolagens naquele turno, inclusive Defesa.
+
+## Novas capas com fan art (18/11/2026)
+- As 6 capas (Livros 0 a V) agora usam fan art de *Shadow Slave*. Cada capa traz a linha "Fan art: artista (fonte)" e a Central ganhou a seção **Créditos das Capas**. Todos os direitos das artes pertencem aos artistas:
+  - **Livro 0 — Novato:** *Forgotten Shore arc*, u/skiddy_art — [Reddit r/ShadowSlave](https://www.reddit.com/r/ShadowSlave/comments/1pjtmt5/forgotten_shore_arc/)
+  - **Livro I — Sistema:** *Weaver's Mask*, Divey Malik / @iamdivey5 — [ArtStation](https://www.artstation.com/artwork/O3EP5w)
+  - **Livro II — Jogador:** *Fanart of Sunless*, Cesar Harguindeguy / @cesarharguindeguy4 — [ArtStation](https://www.artstation.com/artwork/1NW5VZ)
+  - **Livro III — Mestre:** *Shadow Slave capa de livro*, João Vitor Oliveira / @jaumnvitor — [ArtStation](https://www.artstation.com/artwork/XaaP6y)
+  - **Livro IV — Lore:** *Ariel's Game*, BastiaanBoeve — [ArtStation](https://www.artstation.com/artwork/zxdKK6)
+  - **Livro V — Grande Bestiário:** *Carapace Scavenger*, Santimm — [Shadow Slave Wiki (Fandom)](https://shadowslave.fandom.com/wiki/File:CarapaceScavengerBySantimm.jpg)
