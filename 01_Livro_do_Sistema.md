@@ -996,10 +996,11 @@ Enquanto humanos normais possuem **apenas 1 Núcleo da Alma** durante toda a vid
 
 A existência de todo infectado pelo Feitiço é dividida entre dois mundos implacáveis:
 
-1. **O Chamado do Sono (Fase Adormecida):**
-   - Após o Primeiro Pesadelo, todo **Adormecido** é arrastado para o Reino dos Sonhos sempre que dorme profundamente na Terra.
-   - Enquanto sua consciência e corpo espiritual lutam pela sobrevivência em regiões selvagens do Reino dos Sonhos, seu **corpo físico permanece em sono profundo na Terra** (geralmente protegido em hospitais ou cápsulas da Academia Desperta).
-   - **Retorno Impossível sem Portal:** Um Adormecido **não consegue voltar à Terra** apenas acordando! Para retornar ao mundo desperto — e ascender ao Rank **Desperto** — precisa encontrar uma **Cidadela** humana ou antiga e atravessar seu **Gateway (Portal)** durante o Solstício.
+1. **O Chamado do Solstício (Fase Adormecida):**
+   - Vencer o Primeiro Pesadelo **não** leva ninguém ao Reino dos Sonhos de imediato. Até o Solstício, o **Adormecido** continua vivendo na Terra: dorme e acorda normalmente, sem ser puxado para lugar nenhum (é o período de preparação na Academia dos Despertos).
+   - A convocação acontece **uma única vez, na noite do Solstício de Inverno (21 de dezembro)**: quando o Adormecido pega no sono nessa noite, o Feitiço arrasta sua consciência para uma região selvagem e aleatória do Reino dos Sonhos.
+   - Enquanto ele luta pela sobrevivência lá, seu **corpo físico permanece em sono profundo na Terra** (geralmente protegido em hospitais ou nas cápsulas da Academia dos Despertos).
+   - **Retorno Impossível sem Portal:** a partir dessa noite, o Adormecido **não consegue voltar à Terra** apenas acordando! Para retornar ao mundo desperto — e ascender ao Rank **Desperto** — precisa encontrar uma **Cidadela** humana ou antiga e atravessar seu **Gateway (Portal)**.
 2. **A Dualidade do Desperto (Pós-Cidadela):**
    - Um **Desperto** estabelece uma **Âncora** em uma Cidadela específica. Sempre que adormece na Terra, desperta em segurança dentro daquela Cidadela; sempre que atravessa o Gateway de volta, acorda em seu leito na Terra.
    - Um Desperto também pode sair do Reino dos Sonhos retornando à sua Âncora e mantendo o corpo físico saudável nos intervalos entre expedições.
