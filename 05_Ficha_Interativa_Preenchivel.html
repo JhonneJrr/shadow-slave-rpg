@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Shadow Slave RPG — Ficha Oficial: Interface das Runas & Mar da Alma (Códice 100%)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <style>
+    :root {
+      --bg-void: #07080d;
+      --bg-page: #0c0e16;
+      --bg-panel: #121521;
+      --bg-panel-inner: #171b2b;
+      --bg-rune-box: rgba(212, 175, 55, 0.05);
+      --gold: #d4af37;
+      --gold-bright: #f7e6a1;
+      --gold-dim: rgba(212, 175, 55, 0.35);
+      --rune-cyan: #7dd3fc;
+      --crimson: #8b1e24;
+      --crimson-bright: #ef4444;
+      --crimson-text: #fca5a5;
+      --crimson-sub: #fecaca;
+      --text-main: #ece8df;
+      --text-muted: #a69f91;
+    }
+
+    body.light-theme {
+      --bg-void: #d8cfc0;
+      --bg-page: #f6f1e6;
+      --bg-panel: #ece3d0;
+      --bg-panel-inner: #e2d6be;
+      --bg-rune-box: rgba(130, 90, 20, 0.07);
+      --gold: #7c5612;
+      --gold-bright: #4d3203;
+      --gold-dim: rgba(124, 86, 18, 0.4);
+      --rune-cyan: #0369a1;
+      --crimson: #7f1d1d;
+      --crimson-bright: #b91c1c;
+      --crimson-text: #7f1d1d;
+      --crimson-sub: #991b1b;
+      --text-main: #1c1815;
+      --text-muted: #574c41;
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg-void);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      font-size: 8.6pt;
+      line-height: 1.4;
+    }
+
+    /* TOP TOOLBAR */
+    .toolbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 9999;
+      background: rgba(9, 10, 15, 0.96);
+      border-bottom: 1px solid var(--gold);
+      padding: 8px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.85);
+    }
+    .toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .toolbar-title {
+      font-family: 'Cinzel', serif;
+      color: #d4af37;
+      font-weight: 800;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+    .preset-select {
+      background: #161926;
+      color: #f7e6a1;
+      border: 1px solid #d4af37;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+    .btn {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      font-size: 0.76rem;
+      padding: 6px 11px;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid #d4af37;
+      background: linear-gradient(135deg, #991b1b, #520a0e);
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.2s;
+      display: inline-block;
+    }
+    .btn:hover { box-shadow: 0 0 12px rgba(212, 175, 55, 0.5); }
+    .btn-sec { background: #181b28; color: #f7e6a1; }
+    .btn-calc {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      font-size: 6.9pt;
+      padding: 2px 8px;
+      border-radius: 3px;
+      border: 1px solid #d4af37;
+      background: rgba(212, 175, 55, 0.16);
+      color: #f7e6a1;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-calc:hover { background: rgba(212, 175, 55, 0.35); }
+
+    /* SHEET PAGES (A4) */
+    .sheet-container {
+      width: 210mm;
+      margin: 64px auto 40px auto;
+    }
+    .sheet-page {
+      width: 210mm;
+      min-height: 297mm;
+      background: var(--bg-page);
+      border: 2px solid var(--gold);
+      outline: 1px solid var(--gold-dim);
+      outline-offset: -6px;
+      padding: 9mm 11mm;
+      margin-bottom: 18px;
+      position: relative;
+      box-shadow: 0 15px 50px rgba(0,0,0,0.95);
+      page-break-after: always;
+      break-after: page;
+    }
+    .sheet-page:last-child {
+      page-break-after: auto;
+      break-after: auto;
+      margin-bottom: 0;
+    }
+
+    /* ORNATE HEADER */
+    .rune-banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid var(--gold);
+      margin-bottom: 7px;
+      background: linear-gradient(90deg, rgba(139, 30, 36, 0.35), transparent 50%, rgba(139, 30, 36, 0.35));
+      padding: 5px 12px;
+      border-top: 1px solid var(--gold-dim);
+    }
+    .rune-banner-title {
+      font-family: 'Cinzel Decorative', serif;
+      font-size: 14.5pt;
+      font-weight: 900;
+      color: var(--gold-bright);
+      letter-spacing: 1.8px;
+      text-shadow: 0 0 12px rgba(212, 175, 55, 0.35);
+    }
+    .rune-banner-sub {
+      font-family: 'Cinzel', serif;
+      font-size: 7pt;
+      letter-spacing: 2px;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    /* LAYOUT GRIDS */
+    .grid-top-id {
+      display: grid;
+      grid-template-columns: 1.25fr 1.25fr 1fr;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+    .grid-2col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
+      margin-bottom: 7px;
+    }
+    .grid-4pillars {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin-bottom: 7px;
+    }
+    .grid-attr-2col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+
+    /* PANELS */
+    .panel {
+      background: var(--bg-panel);
+      border: 1px solid var(--gold-dim);
+      border-radius: 4px;
+      padding: 6px 8px;
+      position: relative;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .panel-crimson {
+      border-color: rgba(239, 68, 68, 0.55);
+      background: linear-gradient(180deg, rgba(139, 30, 36, 0.16), var(--bg-panel));
+    }
+    .panel-header {
+      font-family: 'Cinzel', serif;
+      font-size: 8.2pt;
+      font-weight: 800;
+      color: var(--gold-bright);
+      letter-spacing: 0.9px;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--gold-dim);
+      padding-bottom: 3px;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .panel-header span.rune-tag {
+      font-size: 6.7pt;
+      color: var(--rune-cyan);
+      font-weight: 600;
+      letter-spacing: 1.2px;
+    }
+    .crimson-lbl { color: var(--crimson-text) !important; }
+    .crimson-text { color: var(--crimson-sub) !important; }
+
+    /* INPUTS & TEXTAREAS */
+    label.field-lbl {
+      display: block;
+      font-family: 'Cinzel', serif;
+      font-size: 6.5pt;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+    input[type="text"], input[type="number"], select, textarea {
+      width: 100%;
+      background: var(--bg-panel-inner);
+      border: 1px solid var(--gold-dim);
+      color: var(--text-main);
+      padding: 3px 5px;
+      border-radius: 3px;
+      font-family: 'Inter', sans-serif;
+      font-size: 8.1pt;
+    }
+    textarea {
+      resize: vertical;
+      line-height: 1.32;
+    }
+    .poetic-input {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 9.4pt;
+      color: var(--gold-bright);
+      background: var(--bg-rune-box);
+    }
+    .true-name-input {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      color: var(--rune-cyan) !important;
+      text-shadow: 0 0 6px rgba(125, 211, 252, 0.3);
+    }
+
+    /* SOUL SEA & 7 CORES VISUALIZER */
+    .soul-sea-box {
+      background: radial-gradient(circle at center, #1b2038 0%, #0b0d16 100%);
+      border: 1px solid var(--gold);
+      border-radius: 5px;
+      padding: 6px 9px;
+      margin-bottom: 7px;
+      color: #ece8df;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    body.light-theme .soul-sea-box {
+      background: radial-gradient(circle at center, #ece3d0 0%, #dfd3bc 100%);
+      color: #1c1815;
+    }
+    body.light-theme .soul-sea-box .btn-calc {
+      color: #4d3203;
+      background: rgba(124, 86, 18, 0.14);
+    }
+    .cores-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+      margin: 5px 0 4px 0;
+    }
+    .core-orb-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .core-orb {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 2px solid var(--gold-dim);
+      background: #0d101b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cinzel', serif;
+      font-size: 7pt;
+      font-weight: 800;
+      color: #a69f91;
+      transition: all 0.25s ease;
+    }
+    .core-orb.active {
+      background: radial-gradient(circle, #fff 0%, #f7e6a1 45%, #d4af37 85%, #8b1e24 100%);
+      border-color: #fff;
+      color: #000;
+      box-shadow: 0 0 14px #d4af37, 0 0 24px rgba(212, 175, 55, 0.6);
+    }
+    .core-lbl {
+      font-family: 'Cinzel', serif;
+      font-size: 5.9pt;
+      color: var(--gold);
+      margin-top: 2px;
+      text-transform: uppercase;
+    }
+    .essence-formula-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+      font-size: 6.7pt;
+      color: var(--rune-cyan);
+      background: rgba(125, 211, 252, 0.06);
+      border: 1px dashed var(--gold-dim);
+      border-radius: 3px;
+      padding: 3px 6px;
+      margin-bottom: 4px;
+    }
+
+    /* SATURATION MILESTONES */
+    .sat-bar {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 3px;
+      margin-top: 3px;
+    }
+    .sat-step {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--gold-dim);
+      border-radius: 2px;
+      text-align: center;
+      padding: 2px 1px;
+      font-size: 6.3pt;
+      cursor: pointer;
+      user-select: none;
+    }
+    body.light-theme .sat-step { background: rgba(0,0,0,0.05); }
+    .sat-step.filled {
+      background: linear-gradient(180deg, #d4af37, #8c6218);
+      color: #000;
+      font-weight: 800;
+      border-color: #fff;
+    }
+
+    /* 4 PILLARS (CHARACTERISTICS) */
+    .pillar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--gold);
+      padding-bottom: 3px;
+      margin-bottom: 4px;
+    }
+    .pillar-name {
+      font-family: 'Cinzel', serif;
+      font-weight: 800;
+      font-size: 8.6pt;
+      color: var(--gold-bright);
+    }
+    .pillar-score {
+      width: 36px !important;
+      height: 24px;
+      text-align: center;
+      font-family: 'Cinzel', serif;
+      font-size: 11pt !important;
+      font-weight: 900;
+      color: var(--gold-bright) !important;
+      border: 1px solid var(--gold) !important;
+    }
+    .subcat-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5px 0;
+      border-bottom: 1px dashed rgba(212, 175, 55, 0.15);
+      font-size: 7.7pt;
+    }
+    .subcat-left {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .dice-badge {
+      font-family: 'Consolas', monospace;
+      font-size: 6.7pt;
+      padding: 1px 4px;
+      border-radius: 3px;
+      background: rgba(212, 175, 55, 0.15);
+      color: var(--gold-bright);
+    }
+
+    /* RUNE ATTRIBUTE & COHORT BOND CARDS (PAGE 2) */
+    .attr-card {
+      background: var(--bg-panel-inner);
+      border-left: 3px solid var(--gold);
+      border-top: 1px solid var(--gold-dim);
+      border-right: 1px solid var(--gold-dim);
+      border-bottom: 1px solid var(--gold-dim);
+      padding: 4px 6px;
+      border-radius: 0 3px 3px 0;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .attr-card-top {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 5px;
+      margin-bottom: 3px;
+    }
+    .bond-card {
+      background: var(--bg-panel-inner);
+      border: 1px solid var(--gold-dim);
+      border-left: 3px solid var(--rune-cyan);
+      border-radius: 3px;
+      padding: 5px 7px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    /* MEMORY RUNE CARDS (PAGE 3) */
+    .memory-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
+      margin-bottom: 8px;
+    }
+    .memory-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--gold);
+      border-radius: 4px;
+      padding: 7px 9px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .memory-card-header {
+      display: grid;
+      grid-template-columns: 1.35fr 0.85fr 0.7fr;
+      gap: 4px;
+      margin-bottom: 4px;
+    }
+    .integrity-track {
+      display: flex;
+      gap: 4px;
+      margin-top: 4px;
+      flex-wrap: wrap;
+    }
+    .int-pill {
+      font-size: 6.7pt;
+      padding: 1px 5px;
+      border: 1px solid var(--gold-dim);
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    @page { size: A4 portrait; margin: 0; }
+    @media print {
+      body { background: var(--bg-page); }
+      .no-print { display: none !important; }
+      .sheet-container { margin: 0; width: 210mm; }
+      .sheet-page {
+        margin: 0;
+        box-shadow: none;
+        width: 210mm;
+        min-height: 296mm;
+        height: 296mm;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- BARRA DE FERRAMENTAS INTERATIVA -->
+  <div class="toolbar no-print">
+    <div class="toolbar-left">
+      <div class="toolbar-title">🌑 INTERFACE DAS RUNAS & MAR DA ALMA (CÓDICE 100%)</div>
+      <select class="preset-select" id="charPreset" onchange="loadPreset(this.value)">
+        <option value="">✨ Carregar Ficha de Exemplo Completa (Ou Limpar)...</option>
+        <option value="kaelen">1. Kaelen ("Perdido na Penumbra") — Escravo das Sombras [Espectro G2]</option>
+        <option value="lyra">2. Lyra ("Estrela da Alvorada") — Portadora da Luz [Executor G2]</option>
+        <option value="vaelor">3. Vaelor de Valor ("Bastião de Ferro") — Guarda-Sol de Aço [Baluarte G2]</option>
+        <option value="soren">4. Soren ("Rouxinol") — Arqueiro dos Ventos [Olho de Falcão G2]</option>
+        <option value="thalassa">5. Thalassa da Casa da Noite — Arauto da Tempestade [Canalizador G2]</option>
+        <option value="seraphina">6. Seraphina ("Canção dos Caídos") — Oráculo Sagrado [Oráculo G2]</option>
+        <option value="dorian">7. Dorian ("Mãos de Prata") — Tecelão de Almas [Domador G2]</option>
+        <option value="blank">📄 Limpar Tudo (Ficha em Branco para Novo Jogador)</option>
+      </select>
+    </div>
+    <div>
+      <a href="00_CENTRAL_DE_LIVROS_E_PDF.html" class="btn btn-sec">⬅️ Central dos Livros</a>
+      <button class="btn btn-sec" onclick="document.body.classList.toggle('light-theme')">🌓 Tema (Obsidiana / Pergaminho)</button>
+      <button class="btn" onclick="window.print()">🖨️ Imprimir / Salvar Ficha em PDF (Ctrl+P)</button>
+    </div>
+  </div>
+
+  <!-- LISTAS DE SUGESTÃO PARA CAMPOS LIVRES -->
+  <datalist id="dl_roles">
+    <option value="O Baluarte (Tanque / Vanguarda)">
+    <option value="O Executor (Duelista / Dano Brutal)">
+    <option value="O Espectro (Batedor / Assassino)">
+    <option value="O Olho de Falcão (Franco-Atirador / Artilheiro)">
+    <option value="O Canalizador (Arcanista de Aspecto / Controle)">
+    <option value="O Oráculo (Vidência / Suporte / Liderança)">
+    <option value="O Domador de Almas (Invocador de Ecos / Tecelão)">
+  </datalist>
+  <datalist id="dl_origins">
+    <option value="Linhagem Feiticeira (Sorcerous Bloodline)">
+    <option value="Praticante Marcial (Weapon Practitioner)">
+    <option value="Explorador Acadêmico (Research Explorer)">
+    <option value="Empreendedor de Relíquias (Entrepreneur)">
+    <option value="Rato da Periferia (Outskirts Survivor)">
+    <option value="Herdeiro de Grande Clã (Legacy Scion)">
+    <option value="Cadete do Governo (Government Cadet)">
+    <option value="Tocado pelo Pesadelo (Portal Survivor)">
+    <option value="Artífice de Forja de Clã (Forgesmith Apprentice)">
+    <option value="Médico de Fronteira (Field Medic)">
+    <option value="Caçador de Portais Independente (Gate Hunter)">
+    <option value="Acólito da Casa da Noite (Stormsea Navigator)">
+  </datalist>
+
+  <div class="sheet-container" id="sheet-root">
+
+    <!-- ================================================================= -->
+    <!-- PÁGINA I: IDENTIDADE, PAPEL & ORIGEM, MAR DA ALMA, PILARES & ASPECTO -->
+    <!-- ================================================================= -->
+    <section class="sheet-page">
+      <div class="rune-banner">
+        <div>
+          <div class="rune-banner-sub">Feitiço do Pesadelo • Códice Oficial do Desperto</div>
+          <div class="rune-banner-title">AS RUNAS DO MAR DA ALMA</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="rune-banner-sub">Página I • Identidade, Papel/Origem, Núcleo, Pilares & Aspecto</div>
+          <div style="font-family:'Cinzel',serif; color:var(--rune-cyan); font-size:7.6pt;">"[Olhe para dentro de sua alma, Desperto...]"</div>
+        </div>
+      </div>
+
+      <!-- IDENTIFICAÇÃO DAS RUNAS -->
+      <div class="grid-top-id">
+        <div class="panel">
+          <label class="field-lbl">Nome (Name)</label>
+          <input type="text" id="f_name" placeholder="Ex: Sunless / Kaelen">
+        </div>
+        <div class="panel">
+          <label class="field-lbl">Nome Verdadeiro (True Name)</label>
+          <input type="text" id="f_truename" class="true-name-input" placeholder="[Perdido da Luz] ou [ — ]">
+        </div>
+        <div class="panel">
+          <label class="field-lbl">Rank Humano (Caminho da Ascensão)</label>
+          <select id="f_rank" onchange="updateCalcPreview()">
+            <option value="">— Selecionar Rank —</option>
+            <option value="Aspirante (Infectado)">0. Aspirante (Infectado) (+0 Ess)</option>
+            <option value="Adormecido (Sonhador / Sleeper)">1. Adormecido (Dreamer) (+0 Ess)</option>
+            <option value="Desperto (Awakened)">2. Desperto (Awakened) (+2 Ess)</option>
+            <option value="Ascendido (Mestre / Master)">3. Ascendido (Master) (+4 Ess)</option>
+            <option value="Transcendente (Santo / Saint)">4. Transcendente (Saint) (+6 Ess)</option>
+            <option value="Supremo (Soberano / Sovereign)">5. Supremo (Soberano) (+8 Ess)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- PAPEL DE COORTE (GRAUS 1-10) & ARQUÉTIPO DE ORIGEM (ESTÁGIOS I-III) -->
+      <div class="grid-2col" style="margin-bottom:6px;">
+        <div class="panel">
+          <div class="panel-header" style="margin-bottom:4px;">
+            <span>⚔️ PAPEL DE COORTE (GRAUS 1–10)</span>
+            <span class="rune-tag">Caminho A/B no Grau 3+</span>
+          </div>
+          <div style="display:grid; grid-template-columns: 1.35fr 0.65fr; gap:5px; margin-bottom:4px;">
+            <div>
+              <label class="field-lbl">Papel na Coorte</label>
+              <input type="text" id="role_name" list="dl_roles" placeholder="Ex: O Espectro (Batedor/Assassino)" style="font-weight:700; color:var(--gold-bright);">
+            </div>
+            <div>
+              <label class="field-lbl">Grau Atual (1–10)</label>
+              <select id="role_grade">
+                <option value="">— Grau —</option>
+                <option value="1">Grau 1 (0 XP)</option>
+                <option value="2">Grau 2 (5 XP)</option>
+                <option value="3">Grau 3 (Caminho A/B)</option>
+                <option value="4">Grau 4 (Tronco)</option>
+                <option value="5">Grau 5 (Caminho A/B)</option>
+                <option value="6">Grau 6 (Tronco)</option>
+                <option value="7">Grau 7 (Caminho A/B)</option>
+                <option value="8">Grau 8 (Tronco)</option>
+                <option value="9">Grau 9 (Caminho A/B)</option>
+                <option value="10">Grau 10 (Ápice)</option>
+              </select>
+            </div>
+          </div>
+          <div style="display:grid; grid-template-columns: 0.9fr 1.1fr; gap:5px;">
+            <div>
+              <label class="field-lbl">Caminho Escolhido (Grau 3+)</label>
+              <input type="text" id="role_path" placeholder="Ex: Desbloqueia no Grau 3 (A ou B)">
+            </div>
+            <div>
+              <label class="field-lbl">Técnicas Desbloqueadas</label>
+              <input type="text" id="role_techs" placeholder="Ex: Postura, Técnica G1, Técnica G2...">
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header" style="margin-bottom:4px;">
+            <span>🧭 ARQUÉTIPO DE ORIGEM (ESTÁGIOS I–III)</span>
+            <span class="rune-tag">Passado • Base • Facção</span>
+          </div>
+          <div style="display:grid; grid-template-columns: 1.15fr 0.85fr; gap:5px; margin-bottom:4px;">
+            <div>
+              <label class="field-lbl">Arquétipo de Origem</label>
+              <input type="text" id="orig_name" list="dl_origins" placeholder="Ex: Rato da Periferia" style="font-weight:700; color:var(--gold-bright);">
+            </div>
+            <div>
+              <label class="field-lbl">Estágio Atual (I / II / III)</label>
+              <select id="orig_stage">
+                <option value="">— Estágio —</option>
+                <option value="Estágio I — Adormecido (Sobrevivência Inicial)">I — Adormecido (Inicial)</option>
+                <option value="Estágio II — Desperto (Reconhecimento & Base)">II — Desperto (Base)</option>
+                <option value="Estágio III — Mestre Ascendido (Autoridade & Facção)">III — Ascendido (Coletivo)</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class="field-lbl">Bônus Pessoal Ativo (I/II) ou Benefício Coletivo da Coorte (III)</label>
+            <input type="text" id="orig_bonus" placeholder="Ex: Ignora fome/sede/frio por 48h; nunca surpreendido dormindo...">
+          </div>
+        </div>
+      </div>
+
+      <!-- MONITOR DO MAR DA ALMA & 7 NÚCLEOS -->
+      <div class="soul-sea-box">
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--gold-dim); padding-bottom:3px; gap:6px; flex-wrap:wrap;">
+          <span style="font-family:'Cinzel',serif; font-weight:800; color:var(--gold-bright); font-size:8.6pt;">
+            🌊 MAR DA ALMA (SOUL SEA) & NÚCLEOS DE ALMA (SOUL CORES)
+          </span>
+          <span style="font-size:7pt; color:var(--rune-cyan);">Clique nas esferas para ativar núcleos (Besta [1/7] a Titã [7/7])</span>
+        </div>
+
+        <div class="cores-row">
+          <div class="core-orb-wrap" onclick="toggleCore(1)"><div class="core-orb active" id="core_1">I</div><div class="core-lbl">1. Besta</div></div>
+          <div class="core-orb-wrap" onclick="toggleCore(2)"><div class="core-orb" id="core_2">II</div><div class="core-lbl">2. Monstro</div></div>
+          <div class="core-orb-wrap" onclick="toggleCore(3)"><div class="core-orb" id="core_3">III</div><div class="core-lbl">3. Demônio</div></div>
+          <div class="core-orb-wrap" onclick="toggleCore(4)"><div class="core-orb" id="core_4">IV</div><div class="core-lbl">4. Diabo</div></div>
+          <div class="core-orb-wrap" onclick="toggleCore(5)"><div class="core-orb" id="core_5">V</div><div class="core-lbl">5. Tirano</div></div>
+          <div class="core-orb-wrap" onclick="toggleCore(6)"><div class="core-orb" id="core_6">VI</div><div class="core-lbl">6. Terror</div></div>
+          <div class="core-orb-wrap" onclick="toggleCore(7)"><div class="core-orb" id="core_7">VII</div><div class="core-lbl">7. Titã</div></div>
+
+          <div style="width:215px;">
+            <label class="field-lbl">Estado do Núcleo & Fragmentos</label>
+            <input type="text" id="f_core_status" value="Adormecido [1/7] — Fragmentos: [ 200 / 1000 ]" style="font-family:'Consolas',monospace; font-size:7.6pt; color:var(--gold-bright);">
+          </div>
+          <div style="width:205px;">
+            <label class="field-lbl">Aparência Visual do Mar da Alma</label>
+            <input type="text" id="f_soulsea_desc" placeholder="Ex: Oceano negro silencioso sob um Sol Negro...">
+          </div>
+        </div>
+
+        <div class="essence-formula-bar">
+          <span><strong>Fórmula PE:</strong> (Alma×2) + Marcos Ímpares (1,3,5,7,9) + Rank [Aspecto Transc./Supremo +1, Sagrado +2; Humano: Desp. +2, Asc. +4, Transc. +6, Supr. +8] + (3×Núcleos Extras)</span>
+          <span class="no-print" style="display:flex; align-items:center; gap:5px;">
+            <span id="calc_preview" style="font-family:'Consolas',monospace; color:var(--gold-bright);">Base Calc: PV 6 | Ess 4 | Carga 2</span>
+            <button type="button" class="btn-calc" onclick="applyBaseStats()" title="Preenche PV, Essência e Carga base a partir dos Pilares, Ranks, Núcleos e Marcos marcados">🧮 Aplicar Base</button>
+          </span>
+        </div>
+
+        <!-- BARRA DE 10 MARCOS DE SATURAÇÃO -->
+        <div style="display:flex; justify-content:space-between; font-size:6.6pt; color:var(--text-muted); flex-wrap:wrap;">
+          <span><strong>MARCOS DE SATURAÇÃO:</strong> Ímpares 1,3,5,7,9: +1 Essência | 2 e 6: +1 PV | 4 e 8: +1 Atributo Rúnico | Marco 10: +1 Pilar / Novo Núcleo</span>
+        </div>
+        <div class="sat-bar">
+          <div class="sat-step" id="sat_1" onclick="toggleSat(this)">100 (+1 Ess)</div>
+          <div class="sat-step" id="sat_2" onclick="toggleSat(this)">200 (+1 PV)</div>
+          <div class="sat-step" id="sat_3" onclick="toggleSat(this)">300 (+1 Ess)</div>
+          <div class="sat-step" id="sat_4" onclick="toggleSat(this)">400 (+1 Atr)</div>
+          <div class="sat-step" id="sat_5" onclick="toggleSat(this)">500 (+1 Ess)</div>
+          <div class="sat-step" id="sat_6" onclick="toggleSat(this)">600 (+1 PV)</div>
+          <div class="sat-step" id="sat_7" onclick="toggleSat(this)">700 (+1 Ess)</div>
+          <div class="sat-step" id="sat_8" onclick="toggleSat(this)">800 (+1 Atr)</div>
+          <div class="sat-step" id="sat_9" onclick="toggleSat(this)">900 (+1 Ess)</div>
+          <div class="sat-step" id="sat_10" onclick="toggleSat(this)">1000 (+Pilar/Núc)</div>
+        </div>
+      </div>
+
+      <!-- OS 4 PILARES DE COMBATE & RECURSOS VITAIS -->
+      <div class="grid-4pillars">
+        <div class="panel">
+          <div class="pillar-header"><span class="pillar-name">💪 CORPO</span><input type="number" id="p_body" class="pillar-score" value="2" min="1" max="7" oninput="updateCalcPreview()"></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_might"> Força (Might)</span><span class="dice-badge">d6/d8</span></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_agi"> Agilidade (Agility)</span><span class="dice-badge">d6/d8</span></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_tough"> Vigor (Toughness)</span><span class="dice-badge">d6/d8</span></div>
+          <div style="margin-top:4px;">
+            <label class="field-lbl">❤️ Pontos de Vida (PV) & Carga</label>
+            <input type="text" id="f_hp" value="PV: 6 / 6  |  Carga: 2 Grandes" style="font-weight:700;">
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="pillar-header"><span class="pillar-name">🧠 MENTE</span><input type="number" id="p_mind" class="pillar-score" value="2" min="1" max="7"></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_smarts"> Astúcia (Smarts)</span><span class="dice-badge">d6/d8</span></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_will"> Vontade (Will)</span><span class="dice-badge">d6/d8</span></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_know"> Conhecimento</span><span class="dice-badge">d6/d8</span></div>
+          <div style="margin-top:4px;">
+            <label class="field-lbl">🩹 Ferimento Grave / Estado</label>
+            <input type="text" id="f_wound" value="Nenhum Ferimento Grave">
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="pillar-header"><span class="pillar-name">❤️ CORAÇÃO</span><input type="number" id="p_heart" class="pillar-score" value="1" min="1" max="7"></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_conv"> Convencer (Sincero)</span><span class="dice-badge">d6/d8</span></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_fib"> Enganar (Fib/Finta)</span><span class="dice-badge">d6/d8</span></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_fright"> Intimidar (Aura)</span><span class="dice-badge">d6/d8</span></div>
+          <div style="margin-top:4px;">
+            <label class="field-lbl">💀 Marcas de Corrupção (0 a 5)</label>
+            <input type="text" id="f_corrupt" value="[ 0 / 5 ] — Alma Pura">
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="pillar-header"><span class="pillar-name">✨ ALMA</span><input type="number" id="p_soul" class="pillar-score" value="2" min="1" max="7" oninput="updateCalcPreview()"></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_evoke"> Evocar (Ataque)</span><span class="dice-badge">d6/d8</span></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_abjure"> Abjurar (Defesa)</span><span class="dice-badge">d6/d8</span></div>
+          <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_channel"> Canalizar (Versátil)</span><span class="dice-badge">d6/d8</span></div>
+          <div style="margin-top:4px;">
+            <label class="field-lbl">✨ Reserva de Essência & Dano Alma</label>
+            <input type="text" id="f_essence" value="Essência: 4 / 4 (Dano Alma: 0)" style="font-weight:700; color:var(--rune-cyan);">
+          </div>
+        </div>
+      </div>
+
+      <!-- RUNAS DO ASPECTO (INATA + 1ª À 5ª DOMÍNIO SUPREMO) -->
+      <div class="panel" style="margin-bottom:7px;">
+        <div class="panel-header">
+          <span>🌑 RUNAS DO ASPECTO (INATA + 1ª À 5ª HABILIDADE ATÉ DOMÍNIO SUPREMO)</span>
+          <span class="rune-tag">Poder Central da Alma</span>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1.3fr 0.7fr; gap:6px; margin-bottom:4px;">
+          <div>
+            <label class="field-lbl">Aspecto (Aspect Name)</label>
+            <input type="text" id="asp_name" placeholder="Ex: [Escravo das Sombras]" style="font-weight:800; color:var(--gold-bright);">
+          </div>
+          <div>
+            <label class="field-lbl">Rank do Aspecto</label>
+            <select id="asp_rank" onchange="updateCalcPreview()">
+              <option value="">— Selecionar Rank —</option>
+              <option value="Divino (Divine)">Divino (Divine) (+0 Ess, 7 Núcleos)</option>
+              <option value="Sagrado (Sacred)">Sagrado (Sacred) (+2 Ess Inicial)</option>
+              <option value="Supremo (Supreme)">Supremo (Supreme) (+1 Ess Inicial)</option>
+              <option value="Transcendente">Transcendente (+1 Ess Inicial)</option>
+              <option value="Ascendido">Ascendido (+0 Ess)</option>
+              <option value="Desperto">Desperto (+0 Ess)</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="margin-bottom:4px;">
+          <label class="field-lbl">Inscrição Poética do Aspecto nas Runas</label>
+          <input type="text" id="asp_desc" class="poetic-input" placeholder="[Você é uma sombra milagrosa deixada para trás por um deus morto...]">
+        </div>
+
+        <div class="grid-2col" style="margin-bottom:0; gap:7px;">
+          <div style="display:flex; flex-direction:column; gap:4px;">
+            <div>
+              <label class="field-lbl">Habilidade Inata (Passiva Estrutural — 0 PE)</label>
+              <textarea rows="2" id="asp_innate" placeholder="[Vínculo Sombrio] — Efeito passivo permanente do Aspecto..."></textarea>
+            </div>
+            <div>
+              <label class="field-lbl">1ª Habilidade — Adormecida (Dormant)</label>
+              <textarea rows="2" id="asp_ab1" placeholder="[Controle das Sombras] — Efeito tático inicial..."></textarea>
+            </div>
+            <div>
+              <label class="field-lbl">2ª Habilidade — Desperta (Awakened)</label>
+              <textarea rows="2" id="asp_ab2" placeholder="[Passo das Sombras] (1 PE) — Mobilidade / Poder Desperto..."></textarea>
+            </div>
+          </div>
+
+          <div style="display:flex; flex-direction:column; gap:4px;">
+            <div>
+              <label class="field-lbl">3ª Habilidade — Ascendida (Ascended / Mestre)</label>
+              <textarea rows="2" id="asp_ab3" placeholder="[Manifestação das Sombras] (2 PE) — Poder Ascendido..."></textarea>
+            </div>
+            <div>
+              <label class="field-lbl">4ª Habilidade — Transformação Transcendente (Santo)</label>
+              <textarea rows="2" id="asp_ab4" placeholder="[Encarnação das Sombras] (5 PE + 1/t) — Forma Transcendente..."></textarea>
+            </div>
+            <div>
+              <label class="field-lbl" style="color:var(--rune-cyan);">5ª Habilidade — Domínio Supremo (Soberano)</label>
+              <textarea rows="2" id="asp_ab5" placeholder="[Legião do Sol Negro] (7 PE + 2/t) — Domínio Territorial Absoluto..."></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- O DEFEITO (FLAW) COM CATEGORIA MECÂNICA EXPLÍCITA -->
+      <div class="panel panel-crimson" style="margin-bottom:0;">
+        <div class="panel-header" style="border-color:rgba(239,68,68,0.4);">
+          <span class="crimson-lbl">⚠️ RUNAS DO DEFEITO (FLAW)</span>
+          <span class="rune-tag crimson-lbl">Lei da Imperfeição • Cat. I / II / III</span>
+        </div>
+        <div style="display:grid; grid-template-columns: 1.05fr 0.85fr 1.1fr; gap:6px; margin-bottom:4px;">
+          <div>
+            <label class="field-lbl crimson-lbl">Defeito (Flaw Name)</label>
+            <input type="text" id="flaw_name" class="crimson-lbl" placeholder="Ex: [Consciência Limpa]" style="font-weight:800;">
+          </div>
+          <div>
+            <label class="field-lbl crimson-lbl">Categoria Mecânica</label>
+            <select id="flaw_cat" class="crimson-lbl" style="font-weight:700;">
+              <option value="">— Categoria —</option>
+              <option value="Cat. I — Lei Absoluta">Cat. I — Lei Absoluta (Sem teste)</option>
+              <option value="Cat. II — Preço & Agonia">Cat. II — Preço & Agonia (3º+ uso CD 9)</option>
+              <option value="Cat. III — Compulsão Psicológica">Cat. III — Compulsão (CD 9 + 1 PE)</option>
+            </select>
+          </div>
+          <div>
+            <label class="field-lbl crimson-lbl">Gatilho & Regra de Penalidade</label>
+            <input type="text" id="flaw_trig" placeholder="Ex: Impossível mentir verbalmente">
+          </div>
+        </div>
+        <label class="field-lbl crimson-lbl">Inscrição das Runas & Impacto em Jogo</label>
+        <textarea rows="2" id="flaw_desc" class="poetic-input crimson-text" placeholder="[A mentira é um veneno pesado demais para sua língua...]"></textarea>
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- PÁGINA II: ATRIBUTOS DAS RUNAS, VÍNCULOS DE COORTE, LEGADO & ECOS  -->
+    <!-- ================================================================= -->
+    <section class="sheet-page">
+      <div class="rune-banner">
+        <div>
+          <div class="rune-banner-sub">Feitiço do Pesadelo • Trama da Alma & Laços da Coorte</div>
+          <div class="rune-banner-title">ATRIBUTOS, VÍNCULOS & LEGADO</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="rune-banner-sub">Página II • Atributos Rúnicos, 2 Vínculos de Coorte, Legado & Ecos</div>
+          <div style="font-family:'Cinzel',serif; color:var(--gold); font-size:7.6pt;">Fios do Destino & Sinergia dos Sete</div>
+        </div>
+      </div>
+
+      <!-- ATRIBUTOS DAS RUNAS (6 CARDS EM GRADE 2x3) -->
+      <div class="panel" style="margin-bottom:8px;">
+        <div class="panel-header">
+          <span>📜 ATRIBUTOS DAS RUNAS (ATTRIBUTES)</span>
+          <span class="rune-tag">Inatos • Origem • Divindade • Linhagens • Marcos 4 & 8 (Teto +3)</span>
+        </div>
+        <div class="grid-attr-2col">
+          <div class="attr-card">
+            <div class="attr-card-top">
+              <input type="text" id="at1_name" placeholder="[Atributo 1 — Ex: Predestinado]" style="font-weight:700; color:var(--gold-bright);">
+              <input type="text" id="at1_mech" placeholder="Bônus Mecânico (+1 / Efeito)">
+            </div>
+            <textarea rows="2" id="at1_desc" class="poetic-input" placeholder="Descrição poética das Runas..."></textarea>
+          </div>
+
+          <div class="attr-card">
+            <div class="attr-card-top">
+              <input type="text" id="at2_name" placeholder="[Atributo 2 — Ex: Filho das Sombras]" style="font-weight:700; color:var(--gold-bright);">
+              <input type="text" id="at2_mech" placeholder="Bônus Mecânico (+1 / Visão)">
+            </div>
+            <textarea rows="2" id="at2_desc" class="poetic-input" placeholder="Descrição poética das Runas..."></textarea>
+          </div>
+
+          <div class="attr-card">
+            <div class="attr-card-top">
+              <input type="text" id="at3_name" placeholder="[Atributo 3 — Ex: Brasa de Divindade]" style="font-weight:700; color:var(--gold-bright);">
+              <input type="text" id="at3_mech" placeholder="Bônus Mecânico">
+            </div>
+            <textarea rows="2" id="at3_desc" class="poetic-input" placeholder="Descrição poética das Runas..."></textarea>
+          </div>
+
+          <div class="attr-card">
+            <div class="attr-card-top">
+              <input type="text" id="at4_name" placeholder="[Atributo 4 — Linhagem Divina / Origem]" style="font-weight:700; color:var(--gold-bright);">
+              <input type="text" id="at4_mech" placeholder="Bônus Mecânico">
+            </div>
+            <textarea rows="2" id="at4_desc" class="poetic-input" placeholder="Descrição poética das Runas..."></textarea>
+          </div>
+
+          <div class="attr-card">
+            <div class="attr-card-top">
+              <input type="text" id="at5_name" placeholder="[Atributo 5 — Papel / Feitiçaria]" style="font-weight:700; color:var(--gold-bright);">
+              <input type="text" id="at5_mech" placeholder="Bônus Mecânico">
+            </div>
+            <textarea rows="2" id="at5_desc" class="poetic-input" placeholder="Descrição poética das Runas..."></textarea>
+          </div>
+
+          <div class="attr-card">
+            <div class="attr-card-top">
+              <input type="text" id="at6_name" placeholder="[Atributo 6 — Bônus Marco 4 / Marco 8]" style="font-weight:700; color:var(--gold-bright);">
+              <input type="text" id="at6_mech" placeholder="Bônus Mecânico">
+            </div>
+            <textarea rows="2" id="at6_desc" class="poetic-input" placeholder="Espaço reservado para evolução por Marcos de Saturação ou Linhagens..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- VÍNCULOS MECÂNICOS DE COORTE (2 LAÇOS — NÍVEL 1 A 3) -->
+      <div class="panel" style="margin-bottom:8px; border-color:var(--rune-cyan);">
+        <div class="panel-header">
+          <span>🤝 VÍNCULOS MECÂNICOS DE COORTE (2 LAÇOS — NÍVEL 1 A 3)</span>
+          <span class="rune-tag">Nv.1 Grátis (1x/Cena) • Nv.2 (2 XP+Marco) • Nv.3 (4 XP+Marco) • Teto +3</span>
+        </div>
+        <div class="grid-2col" style="margin-bottom:0;">
+          <!-- VÍNCULO 1 -->
+          <div class="bond-card">
+            <div style="display:grid; grid-template-columns: 1.15fr 0.85fr; gap:5px; margin-bottom:4px;">
+              <div>
+                <label class="field-lbl" style="color:var(--rune-cyan);">Vínculo I (Nome do Laço)</label>
+                <input type="text" id="bond1_name" placeholder="Ex: [Guardião do Segredo / Âncora]" style="font-weight:700; color:var(--gold-bright);">
+              </div>
+              <div>
+                <label class="field-lbl" style="color:var(--rune-cyan);">Aliado Parceiro na Coorte</label>
+                <input type="text" id="bond1_ally" placeholder="Ex: Seraphina (Oráculo)" style="font-weight:700; color:var(--rune-cyan);">
+              </div>
+            </div>
+            <div style="display:grid; grid-template-columns: 0.9fr 1.1fr; gap:5px; margin-bottom:4px;">
+              <div>
+                <label class="field-lbl">Nível do Vínculo (1 / 2 / 3)</label>
+                <select id="bond1_lvl">
+                  <option value="">— Nível —</option>
+                  <option value="Nível 1 — Desconfiança / Início">Nível 1 — Desconfiança / Início</option>
+                  <option value="Nível 2 — Companheiros de Sangue">Nível 2 — Companheiros de Sangue</option>
+                  <option value="Nível 3 — Almas Entrelaçadas">Nível 3 — Almas Entrelaçadas</option>
+                </select>
+              </div>
+              <div>
+                <label class="field-lbl">Gatilho & História Curta do Laço</label>
+                <input type="text" id="bond1_trig" placeholder="Ex: Quando Defeito é testado (1x/Cena)...">
+              </div>
+            </div>
+            <label class="field-lbl">Efeito Mecânico do Vínculo (Nível Atual)</label>
+            <textarea rows="2" id="bond1_eff" placeholder="[Cobertura Silenciosa]: Intervém no teste social/sensorial do parceiro rolando pelos seus Pilares..."></textarea>
+          </div>
+
+          <!-- VÍNCULO 2 -->
+          <div class="bond-card">
+            <div style="display:grid; grid-template-columns: 1.15fr 0.85fr; gap:5px; margin-bottom:4px;">
+              <div>
+                <label class="field-lbl" style="color:var(--rune-cyan);">Vínculo II (Nome do Laço)</label>
+                <input type="text" id="bond2_name" placeholder="Ex: [Opostos Complementares]" style="font-weight:700; color:var(--gold-bright);">
+              </div>
+              <div>
+                <label class="field-lbl" style="color:var(--rune-cyan);">Aliado Parceiro na Coorte</label>
+                <input type="text" id="bond2_ally" placeholder="Ex: Vaelor (Baluarte)" style="font-weight:700; color:var(--rune-cyan);">
+              </div>
+            </div>
+            <div style="display:grid; grid-template-columns: 0.9fr 1.1fr; gap:5px; margin-bottom:4px;">
+              <div>
+                <label class="field-lbl">Nível do Vínculo (1 / 2 / 3)</label>
+                <select id="bond2_lvl">
+                  <option value="">— Nível —</option>
+                  <option value="Nível 1 — Desconfiança / Início">Nível 1 — Desconfiança / Início</option>
+                  <option value="Nível 2 — Companheiros de Sangue">Nível 2 — Companheiros de Sangue</option>
+                  <option value="Nível 3 — Almas Entrelaçadas">Nível 3 — Almas Entrelaçadas</option>
+                </select>
+              </div>
+              <div>
+                <label class="field-lbl">Gatilho & História Curta do Laço</label>
+                <input type="text" id="bond2_trig" placeholder="Ex: Falha social/astúcia no mundo do outro...">
+              </div>
+            </div>
+            <label class="field-lbl">Efeito Mecânico do Vínculo (Nível Atual)</label>
+            <textarea rows="2" id="bond2_eff" placeholder="[Dois Lados da Moeda]: Intervém com +1 num segundo teste de Coração/Mente sem agravar NPCs..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- LEGADO DE ASPECTO (ASPECT LEGACY) -->
+      <div class="panel" style="margin-bottom:8px; border-color:var(--gold);">
+        <div class="panel-header">
+          <span>👑 LEGADO DE ASPECTO (ASPECT LEGACY — OS 7 PASSOS DE MAESTRIA)</span>
+          <span class="rune-tag">10 XP + Epifania por Passo • Relíquias Evolutivas</span>
+        </div>
+        <div style="display:grid; grid-template-columns: 1.05fr 1fr 0.95fr; gap:7px; margin-bottom:4px;">
+          <div>
+            <label class="field-lbl">Nome do Legado de Aspecto</label>
+            <input type="text" id="leg_name" placeholder="Ex: [Dança das Sombras] / [Doutrina da Muralha Eterna]" style="font-weight:800; color:var(--gold-bright);">
+          </div>
+          <div>
+            <label class="field-lbl">Nível de Maestria Atual (1/7 a 7/7)</label>
+            <input type="text" id="leg_step" placeholder="Ex: 1º Passo Dominado [1/7] — (+1 Esquiva/Leitura)">
+          </div>
+          <div>
+            <label class="field-lbl">Relíquias de Legado Reivindicadas</label>
+            <input type="text" id="leg_relic" placeholder="Ex: [Serpente da Alma] (1º Passo)">
+          </div>
+        </div>
+        <label class="field-lbl">Descrição das Runas do Legado & Benefícios de Maestria</label>
+        <textarea rows="2" id="leg_desc" class="poetic-input" placeholder="Descrição da arte suprema ligada ao seu Aspecto e como você avança para o próximo Passo..."></textarea>
+      </div>
+
+      <!-- ECOS & SOMBRAS EVOLUTIVAS (ECHOES & SHADOWS) -->
+      <div class="panel" style="margin-bottom:0;">
+        <div class="panel-header">
+          <span>🐺 ECOS & SOMBRAS EVOLUTIVAS (ECHOES & SHADOWS NO MAR DA ALMA)</span>
+          <span class="rune-tag">Rank • Classe • CD • PV • Atributos & Habilidades</span>
+        </div>
+        <div class="grid-2col" style="margin-bottom:0;">
+          <div style="background:var(--bg-panel-inner); padding:5px 7px; border:1px solid var(--gold-dim); border-radius:3px;">
+            <div style="display:grid; grid-template-columns:1.15fr 0.85fr 0.85fr; gap:4px; margin-bottom:4px;">
+              <div><label class="field-lbl">Eco / Sombra I</label><input type="text" id="ec1_name" placeholder="Ex: [Santo de Pedra Viva]" style="font-weight:700; color:var(--rune-cyan);"></div>
+              <div><label class="field-lbl">Rank & Classe</label><input type="text" id="ec1_rc" placeholder="Desperta • Monstro"></div>
+              <div><label class="field-lbl">CD, PV & Dano</label><input type="text" id="ec1_stats" placeholder="CD 10 | PV 12 | Dano 2"></div>
+            </div>
+            <label class="field-lbl">Atributos, Habilidades & Evolução da Sombra/Eco</label>
+            <textarea rows="2" id="ec1_hab" placeholder="[Mestre de Armas], [Imune a Dano de Alma], [Manto da Escuridão] — Fragmentos: [45/200]"></textarea>
+          </div>
+
+          <div style="background:var(--bg-panel-inner); padding:5px 7px; border:1px solid var(--gold-dim); border-radius:3px;">
+            <div style="display:grid; grid-template-columns:1.15fr 0.85fr 0.85fr; gap:4px; margin-bottom:4px;">
+              <div><label class="field-lbl">Eco / Sombra II</label><input type="text" id="ec2_name" placeholder="Ex: [Saqueador da Carapaça]" style="font-weight:700; color:var(--rune-cyan);"></div>
+              <div><label class="field-lbl">Rank & Classe</label><input type="text" id="ec2_rc" placeholder="Adormecido • Besta"></div>
+              <div><label class="field-lbl">CD, PV & Dano</label><input type="text" id="ec2_stats" placeholder="CD 8 | PV 5 | Dano 1"></div>
+            </div>
+            <label class="field-lbl">Atributos, Habilidades & Comandos Táticos</label>
+            <textarea rows="2" id="ec2_hab" placeholder="[Carapaça Frontal]: Pode interceptar ataques direcionados ao dono."></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- PÁGINA III: CONSTELAÇÃO DE MEMÓRIAS, ÂNCORA, VIGÍLIA & DIÁRIO     -->
+    <!-- ================================================================= -->
+    <section class="sheet-page">
+      <div class="rune-banner">
+        <div>
+          <div class="rune-banner-sub">Feitiço do Pesadelo • Arsenal & Registros de Expedição</div>
+          <div class="rune-banner-title">CONSTELAÇÃO DE MEMÓRIAS & INVENTÁRIO</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="rune-banner-sub">Página III • Memórias (I–IV), Cidadela Âncora, Vigília & Diário</div>
+          <div style="font-family:'Cinzel',serif; color:var(--gold); font-size:7.6pt;">Esferas de Luz Orbitando o Núcleo</div>
+        </div>
+      </div>
+
+      <!-- CARTÕES DETALHADOS DE MEMÓRIAS (MEMORIES I–IV) -->
+      <div class="panel-header" style="margin-bottom:6px;">
+        <span>⚔️ CONSTELAÇÃO DE MEMÓRIAS NO MAR DA ALMA (RUNAS DE CADA MEMÓRIA)</span>
+        <span class="rune-tag">Rank • Tier (I–VII) • Tipo • Lore • Encantamentos • Integridade</span>
+      </div>
+
+      <div class="memory-grid">
+        <!-- MEMÓRIA 1 -->
+        <div class="memory-card">
+          <div class="memory-card-header">
+            <div><label class="field-lbl">Memória I (Nome)</label><input type="text" id="m1_name" placeholder="Ex: [Fragmento da Meia-Noite]" style="font-weight:700; color:var(--gold-bright);"></div>
+            <div><label class="field-lbl">Rank & Tier</label><input type="text" id="m1_rt" placeholder="Adormecida • Tier III"></div>
+            <div><label class="field-lbl">Tipo & Dano</label><input type="text" id="m1_type" placeholder="Arma (1-2 Dano)"></div>
+          </div>
+          <label class="field-lbl">Descrição Histórica nas Runas</label>
+          <textarea rows="3" id="m1_lore" class="poetic-input" placeholder="Texto poético do Feitiço sobre a origem da Memória..."></textarea>
+          <label class="field-lbl" style="margin-top:3px;">Encantamentos da Memória ([Nome] + Efeito)</label>
+          <textarea rows="3" id="m1_ench" placeholder="[Inquebrável]: Com 2 PV ou menos, concede +1 no Ataque e +1 de Dano!"></textarea>
+          <div class="integrity-track">
+            <span class="int-pill"><input type="checkbox" id="m1_i1"> Polida/Reforçada</span>
+            <span class="int-pill"><input type="checkbox" id="m1_i2"> Íntegra</span>
+            <span class="int-pill"><input type="checkbox" id="m1_i3"> Danificada</span>
+            <span class="int-pill"><input type="checkbox" id="m1_i4"> Quebrada</span>
+          </div>
+        </div>
+
+        <!-- MEMÓRIA 2 -->
+        <div class="memory-card">
+          <div class="memory-card-header">
+            <div><label class="field-lbl">Memória II (Nome)</label><input type="text" id="m2_name" placeholder="Ex: [Manto do Titereiro]" style="font-weight:700; color:var(--gold-bright);"></div>
+            <div><label class="field-lbl">Rank & Tier</label><input type="text" id="m2_rt" placeholder="Adormecida • Tier V"></div>
+            <div><label class="field-lbl">Tipo & Camadas</label><input type="text" id="m2_type" placeholder="Armadura (+2 Cam.)"></div>
+          </div>
+          <label class="field-lbl">Descrição Histórica nas Runas</label>
+          <textarea rows="3" id="m2_lore" class="poetic-input" placeholder="Texto poético do Feitiço sobre a origem da Memória..."></textarea>
+          <label class="field-lbl" style="margin-top:3px;">Encantamentos da Memória ([Nome] + Efeito)</label>
+          <textarea rows="3" id="m2_ench" placeholder="[Seda Cinzenta]: +1 em Furtividade; proteção contra frio e ácido."></textarea>
+          <div class="integrity-track">
+            <span class="int-pill"><input type="checkbox" id="m2_i1"> Polida/Reforçada</span>
+            <span class="int-pill"><input type="checkbox" id="m2_i2"> Íntegra</span>
+            <span class="int-pill"><input type="checkbox" id="m2_i3"> Danificada</span>
+            <span class="int-pill"><input type="checkbox" id="m2_i4"> Quebrada</span>
+          </div>
+        </div>
+
+        <!-- MEMÓRIA 3 -->
+        <div class="memory-card">
+          <div class="memory-card-header">
+            <div><label class="field-lbl">Memória III (Nome)</label><input type="text" id="m3_name" placeholder="Ex: [Pedra da Fonte Infinita]" style="font-weight:700; color:var(--gold-bright);"></div>
+            <div><label class="field-lbl">Rank & Tier</label><input type="text" id="m3_rt" placeholder="Adormecida • Tier IV"></div>
+            <div><label class="field-lbl">Tipo</label><input type="text" id="m3_type" placeholder="Utilitário / Amuleto"></div>
+          </div>
+          <label class="field-lbl">Descrição Histórica nas Runas</label>
+          <textarea rows="3" id="m3_lore" class="poetic-input" placeholder="Texto poético do Feitiço sobre a origem da Memória..."></textarea>
+          <label class="field-lbl" style="margin-top:3px;">Encantamentos da Memória ([Nome] + Efeito)</label>
+          <textarea rows="3" id="m3_ench" placeholder="Encantamentos passivos ou ativáveis com Essência..."></textarea>
+          <div class="integrity-track">
+            <span class="int-pill"><input type="checkbox" id="m3_i1"> Polida/Reforçada</span>
+            <span class="int-pill"><input type="checkbox" id="m3_i2"> Íntegra</span>
+            <span class="int-pill"><input type="checkbox" id="m3_i3"> Danificada</span>
+            <span class="int-pill"><input type="checkbox" id="m3_i4"> Quebrada</span>
+          </div>
+        </div>
+
+        <!-- MEMÓRIA 4 -->
+        <div class="memory-card">
+          <div class="memory-card-header">
+            <div><label class="field-lbl">Memória IV (Nome)</label><input type="text" id="m4_name" placeholder="Ex: [Sino de Prata]" style="font-weight:700; color:var(--gold-bright);"></div>
+            <div><label class="field-lbl">Rank & Tier</label><input type="text" id="m4_rt" placeholder="Adormecida • Tier I"></div>
+            <div><label class="field-lbl">Tipo</label><input type="text" id="m4_type" placeholder="Utilitário / Arco / Escudo"></div>
+          </div>
+          <label class="field-lbl">Descrição Histórica nas Runas</label>
+          <textarea rows="3" id="m4_lore" class="poetic-input" placeholder="Texto poético do Feitiço sobre a origem da Memória..."></textarea>
+          <label class="field-lbl" style="margin-top:3px;">Encantamentos da Memória ([Nome] + Efeito)</label>
+          <textarea rows="3" id="m4_ench" placeholder="Encantamentos passivos ou ativáveis com Essência..."></textarea>
+          <div class="integrity-track">
+            <span class="int-pill"><input type="checkbox" id="m4_i1"> Polida/Reforçada</span>
+            <span class="int-pill"><input type="checkbox" id="m4_i2"> Íntegra</span>
+            <span class="int-pill"><input type="checkbox" id="m4_i3"> Danificada</span>
+            <span class="int-pill"><input type="checkbox" id="m4_i4"> Quebrada</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTATOS, CIDADELA ÂNCORA, DOIS INVENTÁRIOS E EXPERIÊNCIA -->
+      <div class="grid-2col" style="margin-bottom:8px;">
+        <div class="panel">
+          <div class="panel-header"><span>🏰 ÂNCORA, CONTATOS & PROGRESSÃO (XP)</span></div>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-bottom:4px;">
+            <div><label class="field-lbl">Cidadela Âncora Atual</label><input type="text" id="f_citadel" placeholder="Ex: Castelo Negro / Forte da Estátua"></div>
+            <div><label class="field-lbl">XP & Cristais Guardados</label><input type="text" id="f_xp" placeholder="XP: 0  |  Cristais na Bolsa: 2"></div>
+          </div>
+          <label class="field-lbl">Rede de Contatos (Mundo Desperto & Reino dos Sonhos)</label>
+          <textarea rows="3" id="f_contacts" placeholder="1. Velho Corvo (Mercador da Periferia) | 2. Instrutor da Academia"></textarea>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header"><span>🎒 OS DOIS INVENTÁRIOS & FUNÇÃO DE ACAMPAMENTO</span></div>
+          <div style="margin-bottom:4px;">
+            <label class="field-lbl">Função Oficial nas 7 Vigílias de Acampamento</label>
+            <input type="text" id="f_camp" placeholder="Ex: Sentinela / Cartógrafo (Mente - Astúcia)">
+          </div>
+          <label class="field-lbl">Inventário Mundano (Terra) vs. Equipamento no Reino dos Sonhos</label>
+          <textarea rows="3" id="f_inv" placeholder="Terra: Comunicador, Credencial | Reino dos Sonhos: Cantil de couro, Corda, Ração de Monstro (2 dias)"></textarea>
+        </div>
+      </div>
+
+      <!-- DIÁRIO DE CAMPANHA, ESCOLAS DE FEITIÇARIA & SEMENTES -->
+      <div class="panel" style="margin-bottom:0;">
+        <div class="panel-header">
+          <span>📖 DIÁRIO DE CAMPANHA, FEITIÇARIA & ANOTAÇÕES DO PESADELO</span>
+          <span class="rune-tag">Feitiçaria de Nomes • Rúnica • Tecelagem • Pistas & Marcos da História</span>
+        </div>
+        <textarea rows="5" id="f_notes" placeholder="Registre aqui palavras conhecidas de Feitiçaria de Nomes / Runas, progresso rumo ao próximo Marco de Saturação, Memórias extras guardadas na bolsa e ganchos pessoais da campanha..."></textarea>
+      </div>
+
+    </section>
+
+  </div>
+
+  <script>
+    function toggleCore(num) {
+      for (let i = 1; i <= 7; i++) {
+        const el = document.getElementById('core_' + i);
+        if (el) {
+          if (i <= num) el.classList.add('active');
+          else el.classList.remove('active');
+        }
+      }
+      updateCalcPreview();
+    }
+
+    function toggleSat(el) {
+      el.classList.toggle('filled');
+      updateCalcPreview();
+    }
+
+    function computeBaseStats() {
+      const body = parseInt(document.getElementById('p_body').value, 10) || 1;
+      const soul = parseInt(document.getElementById('p_soul').value, 10) || 1;
+      const fRank = document.getElementById('f_rank').value || '';
+      const aspRank = document.getElementById('asp_rank').value || '';
+
+      let cores = 0;
+      for (let i = 1; i <= 7; i++) {
+        const c = document.getElementById('core_' + i);
+        if (c && c.classList.contains('active')) cores = i;
+      }
+      if (cores < 1) cores = 1;
+      const extraCores = Math.max(0, cores - 1);
+      const corePvBonus = extraCores + (cores === 7 ? 1 : 0);
+      const corePeBonus = extraCores * 3;
+
+      const isSat = n => {
+        const s = document.getElementById('sat_' + n);
+        return s && s.classList.contains('filled');
+      };
+      const satPvBonus = (isSat(2) ? 1 : 0) + (isSat(6) ? 1 : 0);
+      const satPeBonus = [1, 3, 5, 7, 9].reduce((acc, n) => acc + (isSat(n) ? 1 : 0), 0);
+
+      let aspRankBonus = 0;
+      if (aspRank.includes('Sagrado')) aspRankBonus = 2;
+      else if (aspRank.includes('Transcendente') || aspRank.includes('Supremo')) aspRankBonus = 1;
+
+      let humanRankBonus = 0;
+      if (fRank.includes('Desperto')) humanRankBonus = 2;
+      else if (fRank.includes('Ascendido')) humanRankBonus = 4;
+      else if (fRank.includes('Transcendente')) humanRankBonus = 6;
+      else if (fRank.includes('Supremo')) humanRankBonus = 8;
+
+      const basePv = (body * 2) + 2 + satPvBonus + corePvBonus;
+      const basePe = (soul * 2) + satPeBonus + aspRankBonus + humanRankBonus + corePeBonus;
+      const carga = body;
+
+      return { basePv, basePe, carga, body, soul, satPvBonus, corePvBonus, satPeBonus, aspRankBonus, humanRankBonus, corePeBonus };
+    }
+
+    function updateCalcPreview() {
+      const preview = document.getElementById('calc_preview');
+      if (!preview) return;
+      const s = computeBaseStats();
+      preview.textContent = `Base Calc: PV ${s.basePv} | Ess ${s.basePe} | Carga ${s.carga}`;
+    }
+
+    function applyBaseStats() {
+      const s = computeBaseStats();
+      const pvParts = [`${s.body * 2 + 2} Base`];
+      if (s.satPvBonus) pvParts.push(`+${s.satPvBonus} Marco(s)`);
+      if (s.corePvBonus) pvParts.push(`+${s.corePvBonus} Núcleo(s)`);
+
+      const peParts = [`${s.soul * 2} Base`];
+      if (s.aspRankBonus) peParts.push(`+${s.aspRankBonus} Rank Asp.`);
+      if (s.humanRankBonus) peParts.push(`+${s.humanRankBonus} Rank Hum.`);
+      if (s.satPeBonus) peParts.push(`+${s.satPeBonus} Marco(s)`);
+      if (s.corePeBonus) peParts.push(`+${s.corePeBonus} Núcleo(s)`);
+
+      document.getElementById('f_hp').value = `PV: ${s.basePv} / ${s.basePv} (${pvParts.join(' ')}) | Carga: ${s.carga} Grandes`;
+      document.getElementById('f_essence').value = `Essência: ${s.basePe} / ${s.basePe} (${peParts.join(' ')})`;
+    }
+
+    const PRESETS = {
+      kaelen: {
+        f_name: "Kaelen (Sunless Archetype)",
+        f_truename: "[Perdido da Luz]",
+        f_rank: "Adormecido (Sonhador / Sleeper)",
+        role_name: "O Espectro (Batedor / Assassino)",
+        role_grade: "2",
+        role_path: "Desbloqueia no Grau 3 (Lâmina do Vazio vs. Fantasma do Labirinto)",
+        role_techs: "Postura da Penumbra • Passo Sem Rastro (G1) • Anatomia Letal (G2)",
+        orig_name: "Rato da Periferia (Outskirts Survivor)",
+        orig_stage: "Estágio I — Adormecido (Sobrevivência Inicial)",
+        orig_bonus: "Ignora fome, sede e frio por 48h; nunca é surpreendido dormindo (+Atributo [Instinto de Sobrevivência]).",
+        cores: 1,
+        f_core_status: "Adormecido [1/7] — Besta | Fragmentos de Sombra: [ 210 / 1000 ]",
+        f_soulsea_desc: "Um abismo silencioso de águas negras imóveis sob um Sol Negro, cercado pelas sombras silenciosas dos monstros que ele já abateu.",
+        sats: [1, 2],
+        p_body: 2, p_mind: 2, p_heart: 1, p_soul: 2,
+        checks: ["sp_agi", "sp_smarts", "sp_fib", "m1_i2", "m2_i1", "m2_i2", "m3_i2", "m4_i2"],
+        f_hp: "PV: 7 / 7 (6 Base + 1 Marco 2) | Carga: 2 Grandes",
+        f_wound: "Nenhum Ferimento Grave",
+        f_corrupt: "[ 0 / 5 ] — Alma Pura",
+        f_essence: "Essência: 5 / 5 (4 Base [Alma 2×2] + 1 Marco 1)",
+        asp_name: "[Escravo das Sombras (Shadow Slave)]",
+        asp_rank: "Divino (Divine)",
+        asp_desc: "\"[Você é uma sombra milagrosa deixada para trás por um Deus das Sombras morto. Solitária e leal, aguarda um mestre.]\"",
+        asp_innate: "[Vínculo Sombrio (Shadow Bond)]: Se um portador pronunciar seu Nome Verdadeiro, forma-se um elo mestre-escravo; recebe Sombras Evolutivas.",
+        asp_ab1: "[Controle das Sombras]: Sombra Pessoal explora até Longe OU envolve corpo/arma concedendo +1 nas rolagens (escala por Núcleos)!",
+        asp_ab2: "[Passo das Sombras] (Desperta — 1 PE): Mergulha em uma sombra e emerge em outra até Distante/Longe com Vantagem em Esquiva ou Emboscada.",
+        asp_ab3: "[Manifestação das Sombras] (Ascendida — 2 PE): Solidifica sombras em aço negro físico (armas, garras, correntes; 2 Dano ou Imobiliza).",
+        asp_ab4: "[Encarnação das Sombras] (Transcendente — 5 PE + 1/t): Converte-se em colosso vivo de trevas ou divide múltiplos corpos sombrios.",
+        asp_ab5: "[Legião do Sol Negro] (Domínio Supremo — 7 PE + 2/t): Manifesta o Reino das Sombras em campo, invocando todo exército de sombras abatidas!",
+        flaw_name: "[Consciência Limpa (Clear Conscience)]",
+        flaw_cat: "Cat. I — Lei Absoluta",
+        flaw_trig: "Impossível mentir verbalmente (sem teste possível; dor na garganta)",
+        flaw_desc: "\"[A mentira é um veneno pesado demais para sua língua; você só pode pronunciar aquilo que acredita ser verdade.]\" (Só usa Enganar com meias-verdades literais em CD+1).",
+        at1_name: "[Predestinado (Fated)]",
+        at1_mech: "1x/sessão sorte absurda e 1x/sessão complicação do destino",
+        at1_desc: "\"Os fios do destino estão enrolados firmemente ao seu redor. Eventos improváveis, tanto terríveis quanto milagrosos, são atraídos por você.\"",
+        at2_name: "[Filho das Sombras (Child of Shadows)]",
+        at2_mech: "Visão total no escuro; +1 Furtividade; Sombras no 19–20 do d20",
+        at2_desc: "\"As sombras reconhecem você como um dos seus. Você enxerga perfeitamente através de qualquer escuridão e caminha sem ruído.\"",
+        at3_name: "[Brasa de Divindade (Ember of Divinity)]",
+        at3_mech: "+1 ao interagir com altares/relíquias antigas e resistir ao Vazio",
+        at3_desc: "\"Uma centelha tênue da chama primordial repousa no fundo da sua alma.\"",
+        at4_name: "[Teia de Sangue (Blood Weave — 1º Estágio)]",
+        at4_mech: "Imune a Sangrando e venenos comuns; enxerga a malha das Memórias",
+        at4_desc: "\"Parte da linhagem proibida do Daemon do Destino corre em suas veias. Seu sangue recusa-se a abandonar seu corpo.\"",
+        at5_name: "[Instinto de Sobrevivência (Origem)]",
+        at5_mech: "+1 (+2 urbano) em Mente (Astúcia) vs emboscadas e Corpo (Vigor)",
+        at5_desc: "\"Calejado pelo frio, pela fome e por predadores humanos, seu corpo recusa morrer enquanto houver uma fresta por onde rastejar.\"",
+        at6_name: "", at6_mech: "", at6_desc: "",
+        bond1_name: "[Guardião do Segredo / Âncora do Defeito]",
+        bond1_ally: "Seraphina (Oráculo)",
+        bond1_lvl: "Nível 1 — Desconfiança / Início",
+        bond1_trig: "Quando Defeito é testado (Kaelen guia cega / ela cobre verdade dele)",
+        bond1_eff: "Nível 1 [Cobertura Silenciosa] (1x/Cena): Intervém falando ou guiando pelo parceiro quando seu Defeito seria exposto, rolando pelos próprios Pilares!",
+        bond2_name: "[Opostos Complementares — Legado & Periferia]",
+        bond2_ally: "Vaelor de Valor (Baluarte)",
+        bond2_lvl: "Nível 1 — Desconfiança / Início",
+        bond2_trig: "Falha social ou astúcia pertencente ao mundo oposto (Clã vs. Rua)",
+        bond2_eff: "Nível 1 [Dois Lados da Moeda] (1x/Cena): Quando um falha em Coração/Mente no domínio do outro, o parceiro faz um 2º teste com +1 sem agravar NPCs!",
+        leg_name: "[Dança das Sombras (Shadow Dance)]",
+        leg_step: "1º Passo Dominado [1/7] — (+1 para ler estilos inimigos e esquivar)",
+        leg_relic: "[Serpente da Alma] (Sombra Transformativa — Arma/Tatuagem)",
+        leg_desc: "\"Outrora uma dança graciosa de uma escrava, agora uma arte de batalha mortal e sem forma, capaz de compreender e copiar o fluxo de qualquer inimigo.\"",
+        ec1_name: "[Santo de Pedra Viva]", ec1_rc: "Desperta • Monstro (Sombra)", ec1_stats: "CD 10 | PV 12 | Dano 2",
+        ec1_hab: "[Mestre de Armas], [Imune a Dano de Alma], [Manto da Escuridão] — Fragmentos de Sombra: [ 45 / 200 ].",
+        ec2_name: "[Saqueador da Carapaça]", ec2_rc: "Adormecido • Besta (Eco)", ec2_stats: "CD 8 | PV 5 | Dano 1",
+        ec2_hab: "[Carapaça Frontal]: Reduz dano frontal em 1 e intercepta golpes pelo mestre.",
+        m1_name: "[Fragmento da Meia-Noite]", m1_rt: "Adormecida • Tier III", m1_type: "Tachi (1 Dano, 2 em CD+3)",
+        m1_lore: "\"[Forjada a partir de um estilhaço da estrela caída que iluminava a costa sem sol...]\"",
+        m1_ench: "[Inquebrável]: Quando você estiver com 2 PV ou menos, concede +1 no ataque e +1 de Dano!",
+        m2_name: "[Manto do Titereiro]", m2_rt: "Adormecida • Tier V", m2_type: "Armadura (+2 Camadas)",
+        m2_lore: "\"[Tecida com a seda cinzenta de um Verme Titereiro que governava os mortos...]\"",
+        m2_ench: "[Couraça de Seda]: +1 em Furtividade; absorve até 4 golpes antes de quebrar; resistente a ácido e frio.",
+        m3_name: "[Pedra da Fonte Infinita]", m3_rt: "Adormecida • Tier IV", m3_type: "Utilitário",
+        m3_lore: "\"[Uma bela garrafa de vidro lapidado contendo a memória de um oásis perdido...]\"",
+        m3_ench: "[Água Eterna]: Produz água pura e fresca infinitamente enquanto houver ar.",
+        m4_name: "[Sino de Prata]", m4_rt: "Adormecida • Tier I", m4_type: "Utilitário",
+        m4_lore: "\"[Um pequeno sino de prata pertencente a um batedor esquecido...]\"",
+        m4_ench: "[Toque Claro]: Seu som melodioso pode ser ouvido a quilômetros pelos aliados.",
+        f_citadel: "Castelo Negro / Forte da Estátua Partida",
+        f_xp: "XP Disponível: 4 XP | Cristais: 3 Adormecidos",
+        f_contacts: "1. Velho Corvo (Informante na Periferia de NQSC) | 2. Professor Julius (Academia dos Despertos)",
+        f_camp: "Sentinela (Vigia Noturna) ou Batedor/Cartógrafo — Mente (Astúcia) 1d8",
+        f_inv: "Terra: Comunicador da Academia, Faca de sucata | Reino dos Sonhos: Kit de Escalada, Pederneira, Ração (3 dias)",
+        f_notes: "Progresso: 210/1000 para Marco 3 (+1 Essência). Objetivo Grau 3: escolher Caminho A (Lâmina do Vazio). Jamais revelar o Nome Verdadeiro em voz alta!"
+      },
+
+      lyra: {
+        f_name: "Lyra de Chama Imortal (Nephis Archetype)",
+        f_truename: "[Estrela da Mudança]",
+        f_rank: "Adormecido (Sonhador / Sleeper)",
+        role_name: "O Executor (Duelista / Dano Brutal)",
+        role_grade: "2",
+        role_path: "Desbloqueia no Grau 3 (Destruidor de Carapaças vs. Dançarino da Carnificina)",
+        role_techs: "Postura do Fio Inexorável • Destruidor de Partes (G1) • Golpe Pesado Implacável (G2)",
+        orig_name: "Herdeira de Grande Clã Caído (Legacy Scion)",
+        orig_stage: "Estágio I — Adormecido (Sobrevivência Inicial)",
+        orig_bonus: "Conhece geografia/rotas das grandes regiões e Cidadelas; facilita 1º Estágio de Linhagem Divina (+[Educação de Legado]).",
+        cores: 2,
+        f_core_status: "Adormecido [2/7] — Monstro | Fragmentos de Alma: [ 340 / 2000 ]",
+        f_soulsea_desc: "Um oceano infinito de chamas brancas tranquilas sob um céu dourado, onde dois sóis radiantes de luz pura orbitam no centro.",
+        sats: [1, 2, 3],
+        p_body: 3, p_mind: 1, p_heart: 1, p_soul: 2,
+        checks: ["sp_might", "sp_know", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
+        f_hp: "PV: 10 / 10 (8 Base + 1 Marco 2 + 1 do 2º Núcleo) | Carga: 3 Grandes",
+        f_wound: "Nenhum Ferimento Grave",
+        f_corrupt: "[ IMUNE ] — Chama Incorruptível",
+        f_essence: "Essência: 9 / 9 (4 Base [Alma 2×2] + 3 do 2º Núcleo + 2 Marcos 1 e 3)",
+        asp_name: "[Portadora da Luz (Lightbringer)]",
+        asp_rank: "Divino (Divine)",
+        asp_desc: "\"[Você é uma criatura de luz e chama branca, nascida da união proibida entre o divino e o profano.]\"",
+        asp_innate: "[Chama Incorruptível]: Imune a Corrupção e Profanação; absorve parte da essência de qualquer ser purificado por sua chama.",
+        asp_ab1: "[Chama da Alma]: Chama branca nas mãos/espada (+1 Dano solar; Purificadora) OU cura 2 PV tocando a si mesma/aliados (Restauradora).",
+        asp_ab2: "[Manipulação Solar] (Desperta — 1–2 PE): Molda chamas brancas em escudo, chicote, asas curtas ou feixe solar até Distante.",
+        asp_ab3: "[Chama do Desejo] (Ascendida — 2–3 PE): Canaliza o anseio da Coorte em aura dourada, somando +1 em Ataque/Defesa e queimando inimigos próximos.",
+        asp_ab4: "[Avatar da Estrela Branca] (Transcendente — 5 PE + 1/t): Forma angelical incandescente com Voo livre e imunidade a dano mundano menor.",
+        asp_ab5: "[Reino da Alvorada Eterna] (Domínio Supremo — 7 PE + 2/t): Horizonte solar incorruptível que cura aliados em Longe e purifica Corrupção!",
+        flaw_name: "[Agonia do Poder (Agony of the Flame)]",
+        flaw_cat: "Cat. II — Preço & Agonia",
+        flaw_trig: "2 usos grátis/cena; a partir do 3º uso exige Vontade CD 9 ou 1 Dano / -1",
+        flaw_desc: "\"[O fogo da criação não distingue inimigo e portador; cada milagre exige que sua carne queime primeiro.]\"",
+        at1_name: "[Alma dos Sonhos (Dreamspawn)]",
+        at1_mech: "Entre vigília e sonho; +1 Vontade e Intimidar; alma não morre com corpo",
+        at1_desc: "\"Nascida na fronteira entre a vigília e o sonho, sua existência pertence a ambos os reinos.\"",
+        at2_name: "[Chama de Divindade (Flame of Divinity)]",
+        at2_mech: "Afinidade máxima com relíquias divinas e templos dos 6 Deuses",
+        at2_desc: "\"Uma fogueira ardente de sangue divino que queima intensamente dentro da sua alma.\"",
+        at3_name: "[O Fogo (Linhagem do Deus do Sol — 1º Estágio)]",
+        at3_mech: "+1 de Dano com fogo/luz contra Corrompidos; imune ao frio e fogo comum",
+        at3_desc: "\"Você herdou a paixão criadora e destruidora do Senhor dos Céus Incandescentes.\"",
+        at4_name: "[Sangue de Nefilim (Nephilim)]",
+        at4_mech: "Híbrida divina/profana; +1 PV Máx. opcional e poder amplificado sob dor",
+        at4_desc: "\"A linhagem impossível de um ser nascido fora das leis mortais do Feitiço.\"",
+        at5_name: "[Feitiçaria de Nomes (Shaping)]",
+        at5_mech: "Conjura Nomes Verdadeiros Primordiais (Fogo, Luz, Destruição)",
+        at5_desc: "\"Você conhece as palavras primordiais com as quais o universo foi esculpido.\"",
+        at6_name: "[Educação de Legado (Origem)]",
+        at6_mech: "+1 (+2 c/ nobres/Clãs) em Conhecimento/Convencer; rotas das Cidadelas",
+        at6_desc: "\"Desde a infância, o peso da nobreza despertada ensinou você a erguer o queixo diante de reis.\"",
+        bond1_name: "[Espada e Escudo — Vanguarda Sincronizada]",
+        bond1_ally: "Vaelor de Valor (Baluarte)",
+        bond1_lvl: "Nível 1 — Desconfiança / Início",
+        bond1_trig: "Ambos em Corpo a Corpo após Vaelor bloquear ou proteger aliado",
+        bond1_eff: "Nível 1 [Brecha na Muralha] (1x/Cena): Quando o Escudo bloqueia com CD+1+ ou usa Proteger Aliado, seu próximo ataque contra esse alvo ganha +1!",
+        bond2_name: "[Rivais de Treino]",
+        bond2_ally: "Soren \"Rouxinol\" (Olho de Falcão)",
+        bond2_lvl: "Nível 1 — Desconfiança / Início",
+        bond2_trig: "Quando o parceiro obtiver Sucesso Pleno (CD+2+) ou abater um monstro",
+        bond2_eff: "Nível 1 [Não Fique Para Trás!] (1x/Cena): Logo após a proeza do rival, sua competitividade ferve garantindo +1 na sua próxima rolagem nesta rodada!",
+        leg_name: "[Arte da Estrela Ruinosa / Conhecimento do Fogo]",
+        leg_step: "1º Passo Dominado [1/7] — Esgrima sem Temor (+1 espada com ≤50% PV)",
+        leg_relic: "[Estrela de Obsidiana] (Espada Longa Evolutiva — 1ª Relíquia)",
+        leg_desc: "\"O legado dos Nomes Verdadeiros e da esgrima estelar que comanda criação e destruição através da chama.\"",
+        ec1_name: "[Nenhum Eco Ativo]", ec1_rc: "—", ec1_stats: "—",
+        ec1_hab: "Prefere confiar na própria espada e nas chamas da alma.",
+        ec2_name: "[Nenhum Eco Ativo]", ec2_rc: "—", ec2_stats: "—", ec2_hab: "—",
+        m1_name: "[Estrela de Obsidiana / Lâmina Solar]", m1_rt: "Adormecida • Tier III", m1_type: "Espada Longa (1-2 Dano)",
+        m1_lore: "\"[Negra como a noite antes da primeira manhã, mas destinada a arder mais branco que mil sóis...]\"",
+        m1_ench: "[Canalizador Solar]: Conduz Chama Branca sem desgaste (+1 Dano); [Gume da Ruína]: fagulhas em Crítico.",
+        m2_name: "[Armadura da Estrela Prateada]", m2_rt: "Adormecida • Tier III", m2_type: "Armadura (+1 Camada)",
+        m2_lore: "\"[Armadura de placas brancas pertencente a uma ordem de cavaleiros juramentados...]\"",
+        m2_ench: "[Postura Real]: +1 em testes de Vigor contra empurrões e impactos pesados.",
+        m3_name: "[Manto de Penas Brancas]", m3_rt: "Adormecida • Tier II", m3_type: "Manto Utilitário",
+        m3_lore: "\"[Um manto que nunca se suja de sangue ou cinza...]\"",
+        m3_ench: "[Pureza]: Repele lama, ácido fraco e fumaça tóxica.",
+        m4_name: "[Anel da Casa Imortal]", m4_rt: "Desperta • Tier II", m4_type: "Amuleto",
+        m4_lore: "\"[O último brasão de uma família destruída pela ambição dos Soberanos...]\"",
+        m4_ench: "[Determinação]: +1 em Mente (Vontade) ao suportar a dor do Defeito [Agonia do Poder].",
+        f_citadel: "Castelo Negro / Forte da Estátua Partida",
+        f_xp: "XP Disponível: 3 XP | Cristais: 5 Adormecidos",
+        f_contacts: "1. Antigo Mordomo da Família (NQSC) | 2. Mestre de Esgrima da Academia",
+        f_camp: "Guardiã da Fogueira (Moral e Purificação) ou Médica Espiritual",
+        f_inv: "Terra: Espada de Treino de Madeira, Selo Imortal | Reino dos Sonhos: Bandagens, Cantil, Tochas",
+        f_notes: "Núcleo 2 (Monstro) aberto: próximo Marco de Essência em 500 Fragmentos (Marco 5). Palavras de Shaping dominadas: [Fogo], [Luz]."
+      },
+
+      vaelor: {
+        f_name: "Vaelor de Valor",
+        f_truename: "[Bastião de Ferro]",
+        f_rank: "Adormecido (Sonhador / Sleeper)",
+        role_name: "O Baluarte (Tanque / Vanguarda)",
+        role_grade: "2",
+        role_path: "Desbloqueia no Grau 3 (Égide Imóvel vs. Colosso Quebra-Linhas)",
+        role_techs: "Postura da Muralha Férrea • Muralha Inabalável (G1) • Impacto de Escudo (G2)",
+        orig_name: "Herdeiro de Grande Clã (Valor — Legacy Scion)",
+        orig_stage: "Estágio I — Adormecido (Sobrevivência Inicial)",
+        orig_bonus: "Domina geografia/perigos de Bastion e grandes Cidadelas; facilita 1º Estágio de Linhagem [Sangue de Ferro].",
+        cores: 1,
+        f_core_status: "Adormecido [1/7] — Humano | Fragmentos de Alma: [ 300 / 1000 ]",
+        f_soulsea_desc: "Um salão de pedra vermelha e colunas de ferro onde espadas e escudos dourados orbitam um núcleo cor de brasa.",
+        sats: [1, 2, 3],
+        p_body: 3, p_mind: 1, p_heart: 2, p_soul: 1,
+        checks: ["sp_tough", "sp_might", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
+        f_hp: "PV: 11 / 11 (8 Base + 2 Inato + 1 Marco 2) | Carga: 3 Grandes",
+        f_wound: "Nenhum Ferimento Grave",
+        f_corrupt: "[ 0 / 5 ] — Alma Pura",
+        f_essence: "Essência: 5 / 5 (2 Base [Alma 1×2] + 1 Aspecto Transcendente + 2 Marcos 1 e 3)",
+        asp_name: "[Guarda-Sol de Aço (Sunshield Bastion)]",
+        asp_rank: "Transcendente",
+        asp_desc: "\"[Você é a muralha erguida na última fronteira. Enquanto seu escudo não quebrar, aqueles atrás de você viverão.]\"",
+        asp_innate: "[Postura de Rocha]: Imune a penalidade de movimento por armaduras pesadas e +1 em Defesa contra empurrões.",
+        asp_ab1: "[Intercepção Heroica]: Quando aliado até Perto for atacado, salta na frente como Reação e rola a Defesa por ele com +1!",
+        asp_ab2: "[Bastião Impenetrável] (Desperta — 1 PE): 1x/Cena, Armadura ou Escudo absorve golpe brutal sem perder camada de integridade!",
+        asp_ab3: "[Retaliação Cinética] (Ascendida — 2 PE): Devolve o impacto bloqueado em onda de choque (2 Dano e derruba atacantes adjacentes).",
+        asp_ab4: "[Colosso de Bronze Solar] (Transcendente — 5 PE + 1/t): Armadura monumental fundida ao corpo; +6 PV temp. e cobertura total aos próximos.",
+        asp_ab5: "[Cidadela do Sol Poente] (Domínio Supremo — 7 PE + 2/t): Fortaleza espectral cobre toda a zona dando +2 Defesa e dividindo dano da Coorte!",
+        flaw_name: "[Protetor Compulsivo (Compulsive Shield)]",
+        flaw_cat: "Cat. III — Compulsão Psicológica",
+        flaw_trig: "Recuar/abandonar aliado a ≤50% PV ou 0 PV exige Vontade CD 9 E 1 PE",
+        flaw_desc: "\"[Os seus pés recusam-se a correr para a segurança enquanto um irmão sangra atrás das suas costas.]\" (Agir contra queima 1 PE de Dano de Alma).",
+        at1_name: "[Sangue de Ferro (Linhagem do Deus da Guerra — 1º)]",
+        at1_mech: "+1 em Corpo (Força/Vigor) em combate direto; imune a pânico",
+        at1_desc: "\"O sangue do Deus da Guerra corre quente em suas veias, transformando seu corpo em uma bigorna viva.\"",
+        at2_name: "[Raízes de Montanha (Inato)]",
+        at2_mech: "+2 PV máximos permanentes; imune a ser derrubado ou empurrado",
+        at2_desc: "\"Enquanto seus pés tocarem a terra firme, nenhuma força mortal pode movê-lo contra sua vontade.\"",
+        at3_name: "[Marca de Divindade (Mark of Divinity)]",
+        at3_mech: "Forte presença divina; reconhecido por mecanismos antigos de Guerra",
+        at3_desc: "\"Sua alma carrega a marca nítida dos tempos em que os deuses caminhavam sobre o mundo.\"",
+        at4_name: "[Educação de Legado (Origem Valor)]",
+        at4_mech: "+1 (+2 c/ nobres/guardas) em Coração e Conhecimento de Clãs",
+        at4_desc: "\"Criado entre as forjas reais e salas de estratégia do Grande Clã Valor.\"",
+        at5_name: "[Olho de Ferreiro de Valor]",
+        at5_mech: "+1 para avaliar Memórias e encontrar rachaduras em carapaças",
+        at5_desc: "\"O aço cantado nas bigornas de Bastion não guarda segredos para você.\"",
+        at6_name: "", at6_mech: "", at6_desc: "",
+        bond1_name: "[Opostos Complementares — Legado & Periferia]",
+        bond1_ally: "Kaelen (Espectro)",
+        bond1_lvl: "Nível 1 — Desconfiança / Início",
+        bond1_trig: "Falha social ou astúcia pertencente ao mundo oposto (Clã vs. Rua)",
+        bond1_eff: "Nível 1 [Dois Lados da Moeda] (1x/Cena): Quando um falha em Coração/Mente no domínio do outro, o parceiro faz um 2º teste com +1 sem agravar NPCs!",
+        bond2_name: "[Espada e Escudo — Vanguarda Sincronizada]",
+        bond2_ally: "Lyra de Chama Imortal (Executor)",
+        bond2_lvl: "Nível 1 — Desconfiança / Início",
+        bond2_trig: "Ambos em Corpo a Corpo quando você bloqueia com sucesso (CD+1+)",
+        bond2_eff: "Nível 1 [Brecha na Muralha] (1x/Cena): Ao bloquear com CD+1+ ou usar Proteger Aliado, trava o inimigo e dá +1 no próximo ataque de Lyra contra ele!",
+        leg_name: "[Doutrina da Muralha Eterna]",
+        leg_step: "1º Passo Dominado [1/7] — Bloqueios perfeitos (CD+4) danificam as garras do atacante",
+        leg_relic: "[Égide do Sol Poente] (1ª Relíquia — Escudo Evolutivo)",
+        leg_desc: "\"A doutrina defensiva suprema das falanges de Valor: nenhuma lâmina rompe a linha enquanto o escudo sustentar a luz do poente.\"",
+        ec1_name: "[Nenhum Eco Ativo]", ec1_rc: "—", ec1_stats: "—", ec1_hab: "—",
+        ec2_name: "[Nenhum Eco Ativo]", ec2_rc: "—", ec2_stats: "—", ec2_hab: "—",
+        m1_name: "[Égide do Sol Poente / Carapaça Rubra]", m1_rt: "Adormecida • Tier III", m1_type: "Escudo (+1 Camada)",
+        m1_lore: "\"[Talhado para sustentar a última linha quando os sóis caem sobre Bastion...]\"",
+        m1_ench: "[Muralha Inquebrável]: Concede +1 em todas as rolagens de Defesa para Bloquear.",
+        m2_name: "[Couraça da Estrela de Ferro]", m2_rt: "Adormecida • Tier III", m2_type: "Armadura (+1 Camada)",
+        m2_lore: "\"[Forjada pelos mestres ferreiros de Valor para os filhos da nobreza...]\"",
+        m2_ench: "[Peitoral Sólido]: Absorve até 3 golpes antes de quebrar.",
+        m3_name: "[Maça Quebra-Carapaça]", m3_rt: "Adormecida • Tier II", m3_type: "Arma Média (1 Dano)",
+        m3_lore: "\"[Uma maça pesada desenhada para esmagar quitina e osso...]\"",
+        m3_ench: "[Impacto Contundente]: Ignora 1 ponto de redução de dano de carapaças.",
+        m4_name: "[Cálice de Aquecimento]", m4_rt: "Adormecida • Tier I", m4_type: "Utilitário",
+        m4_lore: "\"[Uma caneca de ferro que esquenta qualquer líquido colocado nela...]\"",
+        m4_ench: "[Calor da Forja]: Aquece água e sopa sem precisar de fogueira.",
+        f_citadel: "Bastion / Forte da Estátua Partida",
+        f_xp: "XP: 2 | Cristais: 4 Adormecidos",
+        f_contacts: "1. Tio Gareth (Mestre Ferreiro em Bastion) | 2. Capitão da Guarda de NQSC",
+        f_camp: "Sentinela ou Armeiro/Artífice Auxiliar",
+        f_inv: "Terra: Selo de Valor, Manto do Clã | Reino dos Sonhos: Rações militares, corda de aço, pedra de amolar",
+        f_notes: "Gancho de Clã: conselheiro de Valor pediu vigilância secreta sobre os colegas talentosos da Coorte — lealdade dividida entre o Clã e a Coorte."
+      },
+
+      soren: {
+        f_name: "Soren \"Rouxinol\" (Kai Archetype)",
+        f_truename: "[Caminhante do Céu Noturno]",
+        f_rank: "Adormecido (Sonhador / Sleeper)",
+        role_name: "O Olho de Falcão (Franco-Atirador Aéreo)",
+        role_grade: "2",
+        role_path: "Desbloqueia no Grau 3 (Caçador de Olhos vs. Artilheiro de Supressão)",
+        role_techs: "Postura do Poleiro Firme • Tiro Cirúrgico nos Olhos (G1) • Vigia Sobrenatural (G2)",
+        orig_name: "Caçador de Portais Independente (Gate Hunter)",
+        orig_stage: "Estágio I — Adormecido (Sobrevivência Inicial)",
+        orig_bonus: "1x/Sessão extrai +1 Fragmento extra e +1 ingrediente/material intacto de Monstro ou superior (+[Anatomista]).",
+        cores: 1,
+        f_core_status: "Adormecido [1/7] — Humano | Fragmentos de Alma: [ 200 / 1000 ]",
+        f_soulsea_desc: "Um céu límpido de crepúsculo onde nuvens douradas flutuam ao redor de um núcleo brilhante como a estrela d'alva.",
+        sats: [1, 2],
+        p_body: 2, p_mind: 3, p_heart: 1, p_soul: 1,
+        checks: ["sp_agi", "sp_smarts", "sp_know", "sp_conv", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
+        f_hp: "PV: 7 / 7 (6 Base + 1 Marco 2) | Carga: 2 Grandes",
+        f_wound: "Nenhum Ferimento Grave",
+        f_corrupt: "[ 0 / 5 ] — Alma Pura",
+        f_essence: "Essência: 4 / 4 (2 Base [Alma 1×2] + 1 Aspecto Transcendente + 1 Marco 1)",
+        asp_name: "[Arqueiro dos Ventos (Gale Archer)]",
+        asp_rank: "Transcendente",
+        asp_desc: "\"[Livre como o vento que sopra sobre as montanhas, você pertence aos céus.]\"",
+        asp_innate: "[Filho da Brisa]: Quedas nunca ferem você e ventos fortes não atrapalham seus disparos à distância.",
+        asp_ab1: "[Ascensão Celeste (Voo Livre)]: Levita e voa livremente pelos céus, mantendo-se fora do alcance Corpo a Corpo terrestre!",
+        asp_ab2: "[Flecha do Vendaval] (Desperta — 1 PE): Sua flecha curva no ar guiada pelo vento, ignorando cobertura e acertando com Vantagem.",
+        asp_ab3: "[Voz de Comando Soberana] (Ascendida — 2 PE): Ordem verbal paralisa ou derruba inimigos que a ouvirem (Vontade CD 11).",
+        asp_ab4: "[Dragão das Tempestades] (Transcendente — 5 PE + 1/t): Transforma-se em dragão alado de marfim com baforada sônica e voo supersônico!",
+        asp_ab5: "[Céus Sob o Trono da Voz] (Domínio Supremo — 7 PE + 2/t): Ventos obedecem ao seu comando por quilômetros; disparos não erram e aliados voam!",
+        flaw_name: "[Detector de Mentiras Doloroso (Painful Truth-Sense)]",
+        flaw_cat: "Cat. II — Preço & Agonia",
+        flaw_trig: "2 primeiras mentiras: desconforto; 3ª+ na cena: Vontade CD 9 ou 1 Dano / -1",
+        flaw_desc: "\"[A falsidade humana soa aos seus ouvidos como metal raspando em vidro e ferro em brasa dentro do crânio.]\"",
+        at1_name: "[Visão de Águia Celestial]",
+        at1_mech: "Enxerga a quilômetros; dispara na faixa Longe sem penalidade",
+        at1_desc: "\"Seus olhos enxergam através de nuvens, folhas e distância como um falcão real.\"",
+        at2_name: "[Anatomista de Monstros (Origem)]",
+        at2_mech: "+1 (+2 extração/rastreio/fraquezas) em Conhecimento/Astúcia vs. Bestas",
+        at2_desc: "\"Cada Criatura do Pesadelo carrega um núcleo valioso e uma dúzia de hábitos previsíveis.\"",
+        at3_name: "[Acrobacia Aérea]",
+        at3_mech: "+1 na Defesa de Esquiva enquanto estiver voando",
+        at3_desc: "\"O céu aberto é o seu verdadeiro lar.\"",
+        at4_name: "[Voz Encantadora]",
+        at4_mech: "+1 em Coração (Convencer) ao acalmar aliados ou multidões",
+        at4_desc: "\"Sua voz carrega uma melodia natural difícil de ignorar.\"",
+        at5_name: "[Ouvido da Verdade]",
+        at5_mech: "Sabe sempre quando alguém mente (gatilho ligado ao Defeito)",
+        at5_desc: "\"Nenhuma máscara social sobrevive à clareza dos ventos.\"",
+        at6_name: "", at6_mech: "", at6_desc: "",
+        bond1_name: "[Rivais de Treino]",
+        bond1_ally: "Lyra de Chama Imortal (Executor)",
+        bond1_lvl: "Nível 1 — Desconfiança / Início",
+        bond1_trig: "Quando o parceiro obtiver Sucesso Pleno (CD+2+) ou abater um monstro",
+        bond1_eff: "Nível 1 [Não Fique Para Trás!] (1x/Cena): Logo após a proeza de Lyra, você ganha +1 na sua próxima rolagem de ataque/manobra nesta rodada!",
+        bond2_name: "[Sobreviventes do Mesmo Portal]",
+        bond2_ally: "Thalassa da Noite (Canalizador)",
+        bond2_lvl: "Nível 1 — Desconfiança / Início",
+        bond2_trig: "Início de cena / emboscada ou perigo climático extremo (até Distante)",
+        bond2_eff: "Nível 1 [Sinal Silencioso] (1x/Cena): Nunca ficam surpreendidos se o outro não estiver, e somam +1 no Teste de Reação (Iniciativa) juntos!",
+        leg_name: "[Arquearia do Horizonte Sem Fim]",
+        leg_step: "1º Passo [1/7] — Pode disparar 2 flechas no mesmo turno contra alvos próximos",
+        leg_relic: "[Aljava das Sete Penas do Vento] (1ª Relíquia)",
+        leg_desc: "\"A arte dos antigos arqueiros celestes que abatiam leviatãs acima das nuvens.\"",
+        ec1_name: "[Falcão de Cristal]", ec1_rc: "Adormecido • Besta (Eco)", ec1_stats: "CD 8 | PV 4 | Dano 1",
+        ec1_hab: "[Patrulha Aérea]: Voa junto com Soren e distrai os olhos do inimigo (+1 para Soren).",
+        ec2_name: "[Nenhum Eco]", ec2_rc: "—", ec2_stats: "—", ec2_hab: "—",
+        m1_name: "[Arco de Chifre Negro]", m1_rt: "Adormecida • Tier II", m1_type: "Arco Longo (1-2 Dano)",
+        m1_lore: "\"[Curvado a partir dos chifres de um demônio das colinas...]\"",
+        m1_ench: "[Perfura-Carapaça]: +1 no ataque contra insetos, crustáceos e criaturas voadoras.",
+        m2_name: "[Túnica de Couro Alado]", m2_rt: "Adormecida • Tier II", m2_type: "Armadura Leve",
+        m2_lore: "\"[Leve como pluma para não atrapalhar o voo...]\"",
+        m2_ench: "[Aerodinâmica]: +1 em testes de velocidade de voo.",
+        m3_name: "[Flecha do Matador de Sóis]", m3_rt: "Ascendida • Tier III", m3_type: "Consumível (Uso Único)",
+        m3_lore: "\"[Uma única flecha dourada guardada para o momento de maior desespero...]\"",
+        m3_ench: "[Detonação Solar]: Causa 3 de Dano perfurante/solar automático na Parte de um Chefe!",
+        m4_name: "[Apito dos Ventos]", m4_rt: "Adormecida • Tier I", m4_type: "Utilitário",
+        m4_lore: "\"[Um pequeno apito de osso de ave...]\"",
+        m4_ench: "[Sinal Aéreo]: Envia mensagens curtas carregadas pelo vento para a Coorte lá embaixo.",
+        f_citadel: "Castelo Negro / Santuário de Noctis",
+        f_xp: "XP: 3 | Cristais: 2 Adormecidos",
+        f_contacts: "1. Coruja (Caçadores Independentes) | 2. Produtor de Mídia em NQSC",
+        f_camp: "Caçador / Batedor Aéreo — Mente (Astúcia) 1d8",
+        f_inv: "Terra: Faca de esfolar, óculos de vento | Reino dos Sonhos: 20 flechas reserva, binóculos, ração seca",
+        f_notes: "Rank Transcendente no Aspecto garante 4 PE totais desde Marco 1 (2 Base + 1 Transcendente + 1 Marco 1). Evitar reuniões longas de mentirosos!"
+      },
+
+      thalassa: {
+        f_name: "Thalassa da Casa da Noite",
+        f_truename: "[Filha do Mar Sem Estrelas]",
+        f_rank: "Adormecido (Sonhador / Sleeper)",
+        role_name: "O Canalizador (Arcanista / Controle)",
+        role_grade: "2",
+        role_path: "Desbloqueia no Grau 3 (Devastador Elemental vs. Arquiteto de Campo)",
+        role_techs: "Postura do Conduto Vivo • Onda Expansiva (G1) • Fluxo Eficiente (G2)",
+        orig_name: "Acólita da Casa da Noite (Stormsea Navigator)",
+        orig_stage: "Estágio I — Adormecido (Sobrevivência Inicial)",
+        orig_bonus: "Nunca se perde no mar/névoa/tempestade; luta sem penalidade em conveses balançando ou submersa (dobro fôlego).",
+        cores: 1,
+        f_core_status: "Adormecido [1/7] — Besta (Máx. 2 Cargas Estáticas) | Frag.: [ 200 / 1000 ]",
+        f_soulsea_desc: "Um oceano negro sem fim sob furacão perpétuo e relâmpagos azul-turquesa, com um olho de ciclone submerso girando.",
+        sats: [1, 2],
+        p_body: 1, p_mind: 2, p_heart: 1, p_soul: 3,
+        checks: ["sp_evoke", "sp_channel", "sp_smarts", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
+        f_hp: "PV: 5 / 5 (4 Base + 1 Marco 2) | Carga: 1 Grande",
+        f_wound: "Nenhum Ferimento Grave",
+        f_corrupt: "[ 0 / 5 ] — Alma Pura",
+        f_essence: "Essência: 7 / 7 (6 Base [Alma 3×2] + 1 Marco 1)",
+        asp_name: "[Arauto da Tempestade Abissal]",
+        asp_rank: "Divino (Divine)",
+        asp_desc: "\"[A tempestade mais antiga nasceu no fundo do oceano. Comande a maré, invoque o trovão e seja o farol que nenhum abismo apaga.]\"",
+        asp_innate: "[Sangue das Profundezas]: Respira água, reduz 1 Dano elétrico/frio e armazena até 2×Núcleos Cargas Estáticas (+1 Dano / +1 Faixa).",
+        asp_ab1: "[Centelha do Maelstrom] (Adormecida — 1–2 PE): Disparo de raio/jato (2 Dano) OU Nuvem de Chuva *Perto* ativando Condução em Cadeia!",
+        asp_ab2: "[Vórtice da Maré Negra] (Desperta — 2 PE): Desliza/voa 2 Faixas em rajada, empurra inimigos ou ergue Escudo de Vento Giratório.",
+        asp_ab3: "[Peso da Fossa Abissal] (Ascendida — 3 PE): Pressão oceânica esmaga área *Perto* (2 Dano, derruba voadores) e gera Bolha do Abismo.",
+        asp_ab4: "[Leviatã da Tempestade] (Transcendente — 5 PE + 1/t): Forma colossal de serpente marinha elétrica (+6 PV temp., chuva *Distante*, -1 Dano físico).",
+        asp_ab5: "[Olho do Furacão Eterno] (Domínio Supremo — 7 PE + 2/t): Furacão regional encharca 100% do campo, gera +2 Cargas/t e dispara Raios em Longe!",
+        flaw_name: "[Para-Raios de Predadores (Beacon of the Storm)]",
+        flaw_cat: "Cat. I — Lei Absoluta",
+        flaw_trig: "Detectada a 3× distância; predadores priorizam você; -1 furtividade c/ Essência",
+        flaw_desc: "\"[Sua alma canta alto demais nas correntes do mundo; monstros à caça ouvem sua melodia muito antes das pegadas alheias.]\"",
+        at1_name: "[Sangue Abissal (Tempestade — 1º Estágio)]",
+        at1_mech: "Respira debaixo d'água, vê no escuro abissal e +1 em natação/marés",
+        at1_desc: "\"As profundezas escuras e as tempestades furiosas reconhecem o sangue do Deus da Tempestade em você.\"",
+        at2_name: "[Filho do Mar Tempestuoso (Origem)]",
+        at2_mech: "+1 (+2 naval/tempestade/água) em Corpo (Agilidade) e Mente (Astúcia)",
+        at2_desc: "\"As correntes negras não engolem quem cresceu ouvindo o rugido das marés.\"",
+        at3_name: "[Coração Elétrico (Stormheart)]",
+        at3_mech: "+1 em Alma (Evocar) com raios; +1 Carga Estática na 1ª rodada",
+        at3_desc: "\"Quando seu pulso acelera, o próprio ar ao redor cheira a ozônio e aço partido.\"",
+        at4_name: "[Centelha de Divindade]",
+        at4_mech: "Afinidade com faróis, tempestades e relíquias do Mar Negro",
+        at4_desc: "\"Um brilho azul-turquesa corre sob sua pele quando nuvens fecham o céu.\"",
+        at5_name: "[Feitiçaria Rúnica Naval]",
+        at5_mech: "Grava runas de alerta, propulsão e reparo de casco em embarcações",
+        at5_desc: "\"Educada pelos mestres navegadores dos Navios-Cidadela da Casa da Noite.\"",
+        at6_name: "", at6_mech: "", at6_desc: "",
+        bond1_name: "[Sobreviventes do Mesmo Portal]",
+        bond1_ally: "Soren \"Rouxinol\" (Olho de Falcão)",
+        bond1_lvl: "Nível 1 — Desconfiança / Início",
+        bond1_trig: "Início de cena / emboscada ou perigo climático extremo (até Distante)",
+        bond1_eff: "Nível 1 [Sinal Silencioso] (1x/Cena): Nunca ficam surpreendidos se o outro não estiver, e somam +1 no Teste de Reação (Iniciativa) juntos!",
+        bond2_name: "[Pacto de Ambição]",
+        bond2_ally: "Dorian \"Mãos de Prata\" (Domador de Almas)",
+        bond2_lvl: "Nível 1 — Desconfiança / Início",
+        bond2_trig: "Quando falta Essência ou em jogada crítica de Feitiçaria/Alma/Coração",
+        bond2_eff: "Nível 1 [Investimento Mútuo] (1x/Cena): Empresta 1 PE próprio (até Distante) ao parceiro ou dá +1 em jogada crítica (favor cobrado depois)!",
+        leg_name: "[Canção do Maelstrom]",
+        leg_step: "1º Passo Dominado [1/7] — Pulso da Maré (+1 Esquiva em movimento/água)",
+        leg_relic: "[Tridente da Fossa Silenciosa] (1ª Relíquia — Haste Condutora)",
+        leg_desc: "\"O legado marítimo ancestral da Casa da Noite que transforma o oceano e o relâmpago em uma única sinfonia.\"",
+        ec1_name: "[Nenhum Eco]", ec1_rc: "—", ec1_stats: "—", ec1_hab: "—",
+        ec2_name: "[Nenhum Eco]", ec2_rc: "—", ec2_stats: "—", ec2_hab: "—",
+        m1_name: "[Lança Condutora das Marés]", m1_rt: "Adormecida • Tier III", m1_type: "Lança (1-2 Dano, Perto)",
+        m1_lore: "\"[Forjada em bronze marinho que atrai raios do céu...]\"",
+        m1_ench: "[Arco Voltaico]: Canaliza ataques de Alma (Evocar) através da ponta da lança com +1.",
+        m2_name: "[Manto de Escamas Abissais]", m2_rt: "Adormecida • Tier II", m2_type: "Armadura Leve",
+        m2_lore: "\"[Costurado com o couro liso de uma enguia das profundezas...]\"",
+        m2_ench: "[Escorregadio]: +1 para escapar de agarrões e tentáculos.",
+        m3_name: "[Bússola das Estrelas Mortas]", m3_rt: "Adormecida • Tier II", m3_type: "Utilitário",
+        m3_lore: "\"[Aponta sempre para o norte magnético do Reino dos Sonhos...]\"",
+        m3_ench: "[Rumo Certo]: +1 nos testes de Cartógrafo / Navegação Astral.",
+        m4_name: "[Pérola de Essência]", m4_rt: "Desperta • Tier II", m4_type: "Consumível",
+        m4_lore: "\"[Cristalizada no coração de uma ostra gigante...]\"",
+        m4_ench: "[Recarga]: Esmagar a pérola restaura 4 Pontos de Essência na hora!",
+        f_citadel: "Navio-Cidadela Templo da Noite",
+        f_xp: "XP: 2 | Cristais: 3 Adormecidos",
+        f_contacts: "1. Capitã Naia / Capitão Vane (Casa da Noite) | 2. Cartógrafo da Academia",
+        f_camp: "Cartógrafa / Timoneira ou Cozinheira do Pesadelo",
+        f_inv: "Terra: Capa oleada, bússola marinha, óculos de maresia | Reino dos Sonhos: Kit rúnico, mapas costeiros, cantil",
+        f_notes: "Cargas Estáticas máx. atuais = 2 (gera +1 ao mover 1 Faixa ou usar poder de tempestade). Sempre usar [Para-Raios] como isca atrás do Baluarte!"
+      },
+
+      seraphina: {
+        f_name: "Seraphina (Cassie Archetype)",
+        f_truename: "[Canção dos Caídos]",
+        f_rank: "Adormecido (Sonhador / Sleeper)",
+        role_name: "O Oráculo (Vidência, Suporte & Liderança)",
+        role_grade: "2",
+        role_path: "Desbloqueia no Grau 3 (Vidente do Destino vs. Comandante de Coorte)",
+        role_techs: "Postura da Visão Panorâmica • Dádiva Amplificada (G1) • Leitura de Ponto Fraco (G2)",
+        orig_name: "Médica de Fronteira (Outskirts Field Medic)",
+        orig_stage: "Estágio I — Adormecido (Sobrevivência Inicial)",
+        orig_bonus: "Ao estabilizar aliado a 0 PV em combate, ele acorda com 2 PV sem rolar na Tabela de Ferimentos Graves (+[Médico de Campo]).",
+        cores: 1,
+        f_core_status: "Adormecido [1/7] — Humano | Fragmentos de Alma: [ 200 / 1000 ]",
+        f_soulsea_desc: "Um espelho d'água prateado onde constelações refletem cenas do passado e do futuro ao redor de um núcleo suave.",
+        sats: [1, 2],
+        p_body: 1, p_mind: 2, p_heart: 2, p_soul: 2,
+        checks: ["sp_know", "sp_conv", "sp_will", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
+        f_hp: "PV: 5 / 5 (4 Base + 1 Marco 2) | Carga: 1 Grande",
+        f_wound: "Nenhum Ferimento Grave",
+        f_corrupt: "[ 0 / 5 ] — Alma Pura",
+        f_essence: "Essência: 7 / 7 (4 Base [Alma 2×2] + 2 Aspecto Sagrado + 1 Marco 1)",
+        asp_name: "[Oráculo Sagrado (Sacred Seer)]",
+        asp_rank: "Sagrado (Sacred)",
+        asp_desc: "\"[Afastada do presente, você enxerga as cordas ocultas do passado, do futuro e dos segredos alheios.]\"",
+        asp_innate: "[Testemunha do Destino]: Recebe visões proféticas quando grandes mudanças do destino se aproximam; Percepção Espiritual em Perto.",
+        asp_ab1: "[Vislumbre de 3 Segundos] (Adormecida): 2x/Cena, quando aliado for atacado, seu aviso concede Vantagem na Defesa dele!",
+        asp_ab2: "[Elo Sensorial] (Desperta — 1 PE): Enxerga através dos olhos de qualquer membro da Coorte ou marca um alvo para todos verem!",
+        asp_ab3: "[Olhar que Desnuda a Alma] (Ascendida — 2 PE): Revela CD, fraquezas e Defeito do alvo, dando +1 para toda a Coorte!",
+        asp_ab4: "[Transfiguração do Fio Astral] (Transcendente — 5 PE + 1/t): Forma etérea prateada com visão panorâmica até Longe e imunidade a ilusões.",
+        asp_ab5: "[Tapeçaria do Destino Quebrado] (Domínio Supremo — 7 PE + 2/t): Reescreve probabilidades locais, anulando 1 Natural e Infortúnios da Coorte!",
+        flaw_name: "[Olhos Cegos para o Presente (Blind to the Now)]",
+        flaw_cat: "Cat. I — Lei Absoluta",
+        flaw_trig: "Cega ao mundo físico além de Perto sem auxílio (falha tiro/Desvantagem)",
+        flaw_desc: "\"[Quem ousa ler o horizonte dos séculos perde a luz comum diante do próprio rosto.]\" (Depende de Elo Sensorial, Eco ou Vínculo).",
+        at1_name: "[Médica de Campo (Origem)]",
+        at1_mech: "+1 (+2 em Primeiros Socorros/toxinas/cirurgias) em Mente (Conhecimento)",
+        at1_desc: "\"Onde o pânico paralisa guerreiros diante do sangue, seus dedos encontram o pulso e ordenam ao coração que continue batendo.\"",
+        at2_name: "[Sentidos Espirituais Aguçados]",
+        at2_mech: "Percebe presenças, batimentos e intenções a até Perto sem usar os olhos",
+        at2_desc: "\"Mesmo sem enxergar a luz do mundo, você vê a alma das coisas.\"",
+        at3_name: "[Sangue Empático (Linhagem do Coração — 1º)]",
+        at3_mech: "+1 em todas as rolagens de Coração; sente emoções e memórias",
+        at3_desc: "\"Abençoada pela memória viva do Deus do Coração.\"",
+        at4_name: "[Telepatia da Coorte]",
+        at4_mech: "Envia avisos mentais curtos silenciosos para os 6 companheiros",
+        at4_desc: "\"Um fio invisível une sua mente à daqueles que você ama.\"",
+        at5_name: "[Vidente do Destino]",
+        at5_mech: "+1 em testes de Astúcia contra emboscadas e leitura de presságios",
+        at5_desc: "\"Os sussurros de amanhã ecoam antes da aurora.\"",
+        at6_name: "", at6_mech: "", at6_desc: "",
+        bond1_name: "[Guardião do Segredo / Âncora do Defeito]",
+        bond1_ally: "Kaelen (Espectro)",
+        bond1_lvl: "Nível 1 — Desconfiança / Início",
+        bond1_trig: "Quando o Defeito de um dos dois ameaça expor ou limitar a cena",
+        bond1_eff: "Nível 1 [Cobertura Silenciosa] (1x/Cena): Intervém cobrindo a fala de Kaelen ou recebendo orientação física dele, rolando pelos próprios Pilares!",
+        bond2_name: "[Âncora de Sanidade contra o Vazio]",
+        bond2_ally: "Dorian \"Mãos de Prata\" (Domador de Almas)",
+        bond2_lvl: "Nível 1 — Desconfiança / Início",
+        bond2_trig: "Falha em Mente (Vontade) ou Alma (Abjurar) contra medo/loucura/ilusão",
+        bond2_eff: "Nível 1 [Lembre-se de Quem Você É] (1x/Cena): Grita o nome do parceiro ou toca-o como Reação permitindo rerrolar o dado imediatamente!",
+        leg_name: "[Crônica das Mil Vozes]",
+        leg_step: "1º Passo Dominado [1/7] — Lê as memórias residuais deixadas em objetos antigos ao tocá-los",
+        leg_relic: "[Adaga Dançarina Silenciosa] (1ª Relíquia)",
+        leg_desc: "\"O legado daqueles que testemunham, guiam pelas sombras e registram a história secreta dos deuses.\"",
+        ec1_name: "[Nenhum Eco]", ec1_rc: "—", ec1_stats: "—", ec1_hab: "—",
+        ec2_name: "[Nenhum Eco]", ec2_rc: "—", ec2_stats: "—", ec2_hab: "—",
+        m1_name: "[Adaga Dançarina Silenciosa]", m1_rt: "Desperta • Tier IV", m1_type: "Adaga/Florete Voador (1 Dano)",
+        m1_lore: "\"[Uma lâmina esguia e elegante que dança no ar obedecendo aos pensamentos silenciosos de sua dona...]\"",
+        m1_ench: "[Voo Independente]: Ataca inimigos na faixa Perto voando sozinha ou defende e guia Seraphina!",
+        m2_name: "[Vestes da Sacerdotisa Branca]", m2_rt: "Adormecida • Tier III", m2_type: "Armadura (+1 Camada)",
+        m2_lore: "\"[Tecido macio imbuído de orações antigas...]\"",
+        m2_ench: "[Proteção de Alma]: Reduz o primeiro Dano de Alma sofrido na cena em 1.",
+        m3_name: "[Corda de Ouro Vivo]", m3_rt: "Adormecida • Tier III", m3_type: "Utilitário",
+        m3_lore: "\"[Uma corda dourada que se move como uma serpente dócil...]\"",
+        m3_ench: "[Elo Guia]: Amarra-se sozinha e guia Seraphina com segurança por terrenos perigosos.",
+        m4_name: "[Frasco de Seiva Sagrada]", m4_rt: "Desperta • Tier III", m4_type: "Consumível",
+        m4_lore: "\"[Lágrima dourada colhida de uma árvore do Deus do Coração...]\"",
+        m4_ench: "[Elixir Vital]: Cura 4 PV e remove qualquer veneno imediatamente.",
+        f_citadel: "Castelo Negro / Forte da Estátua Partida",
+        f_xp: "XP: 4 | Cristais: 3 Adormecidos",
+        f_contacts: "1. Dra. Elena Vance (Médica-Chefe / Fronteira) | 2. Pais em NQSC",
+        f_camp: "Médica de Campo (Cura Ferimentos Graves) ou Estrategista/Cronista",
+        f_inv: "Terra: Bolsa cirúrgica completa, sutura, antissépticos | Reino dos Sonhos: Ervas medicinais, diário em relevo",
+        f_notes: "Essência Sagrada inicial: 4 Base + 2 Sagrado + 1 Marco 1 = 7 PE! Lembrar de aplicar +2 nas Dádivas/Ajudas via [Dádiva Amplificada]."
+      },
+
+      dorian: {
+        f_name: "Dorian \"Mãos de Prata\"",
+        f_truename: "[Tecelão de Fios Partidos]",
+        f_rank: "Adormecido (Sonhador / Sleeper)",
+        role_name: "O Domador de Almas (Invocador de Ecos / Tecelão)",
+        role_grade: "2",
+        role_path: "Desbloqueia no Grau 3 (Senhor da Legião vs. Mestre Artífice)",
+        role_techs: "Postura do Tecelão de Fios • Comando Sincronizado (G1) • Vínculo de Alma Protetor (G2)",
+        orig_name: "Linhagem Feiticeira (Sorcerous Bloodline)",
+        orig_stage: "Estágio I — Adormecido (Sobrevivência Inicial)",
+        orig_bonus: "Domina 1 Escola de Feitiçaria gratuita no Nv.1 (Tecelagem Básica); 2ª Escola cai de 8 XP para 5 XP (+[Erudito Arcano]).",
+        cores: 1,
+        f_core_status: "Adormecido [1/7] — Besta | Fragmentos de Alma: [ 200 / 1000 ]",
+        f_soulsea_desc: "Um vácuo estrelado cruzado por milhares de fios dourados e prateados que formam constelações geométricas perfeitas.",
+        sats: [1, 2],
+        p_body: 1, p_mind: 2, p_heart: 1, p_soul: 3,
+        checks: ["sp_channel", "sp_abjure", "sp_know", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
+        f_hp: "PV: 5 / 5 (4 Base + 1 Marco 2 | 7 c/ Teia de Osso) | Carga: 1 Grande",
+        f_wound: "Nenhum Ferimento Grave",
+        f_corrupt: "[ 0 / 5 ] — Alma Pura",
+        f_essence: "Essência: 7 / 7 (6 Base [Alma 3×2] + 1 Marco 1)",
+        asp_name: "[Tecelão de Almas (Soul Weaver)]",
+        asp_rank: "Divino (Divine)",
+        asp_desc: "\"[Arquiteto do invisível, suas mãos nasceram para consertar o que foi quebrado e desfiar o que é imortal.]\"",
+        asp_innate: "[Visão da Tapeçaria]: Enxerga a malha interna de qualquer Memória e a localização exata do Núcleo de Alma dos monstros.",
+        asp_ab1: "[Fios de Restauração]: Repara 2 níveis de integridade nas Memórias entre cenas e lança fios cortantes/prensoras até Perto!",
+        asp_ab2: "[Desfazer a Malha] (Desperta — 1 PE): Puxa um fio solto na essência do alvo, reduzindo a CD dele em -2 até o fim da rodada!",
+        asp_ab3: "[Forja Viva] (Ascendida — 2 PE): Funde encantamentos de duas Memórias na cena ou aprisiona um chefe em fios de diamante!",
+        asp_ab4: "[Arquiteto de Sete Braços] (Transcendente — 5 PE + 1/t): Projeta múltiplos braços etéreos costurando Memórias e Ecos em tempo real!",
+        asp_ab5: "[Tear do Destino Vivo] (Domínio Supremo — 7 PE + 2/t): Transforma a arena inteira em tapeçaria luminosa, reparando armaduras e paralisando hordas!",
+        flaw_name: "[Ganância de Colecionador (Collector's Greed)]",
+        flaw_cat: "Cat. III — Compulsão Psicológica",
+        flaw_trig: "Passar reto por relíquia/Memória rara sem examinar: Vontade CD 9 E 1 PE",
+        flaw_desc: "\"[Relíquias perdidas, gemas raras e runas esquecidas chamam seu nome com uma fome impossível de ignorar.]\" (Agir contra queima 1 PE de Dano de Alma).",
+        at1_name: "[Erudito Arcano (Origem)]",
+        at1_mech: "+1 (+2 fora de combate) em Conhecimento/Canalizar para runas e Feitiçarias",
+        at1_desc: "\"Sua mente foi treinada para ler sílabas, eixos e costuras sob a superfície do mundo.\"",
+        at2_name: "[Tecelagem de Feitiço (Spellweaving)]",
+        at2_mech: "Repara Memórias Quebradas, modifica Tags e forja novas Memórias",
+        at2_desc: "\"Onde outros veem magia incompreensível, você enxerga o padrão lógico dos fios de Essência.\"",
+        at3_name: "[Teia de Osso (Bone Weave — Linhagem Weaver)]",
+        at3_mech: "+2 PV máximos e seus dedos tocam fios espirituais diretamente",
+        at3_desc: "\"Seus ossos das mãos foram fortalecidos por uma relíquia esquecida do Daemon do Destino.\"",
+        at4_name: "[Marionetista de Ecos]",
+        at4_mech: "Seus Ecos recebem +1 na CD e regeneram 2 PV entre cenas",
+        at4_desc: "\"Você costura e reforça os núcleos artificiais dos seus Ecos.\"",
+        at5_name: "[Mente Analítica do Tear]",
+        at5_mech: "+1 em testes de Astúcia para desvendar armadilhas rúnicas e construtos",
+        at5_desc: "\"Todo mecanismo antigo possui um fio mestre esperando para ser puxado.\"",
+        at6_name: "", at6_mech: "", at6_desc: "",
+        bond1_name: "[Pacto de Ambição]",
+        bond1_ally: "Thalassa da Noite (Canalizador)",
+        bond1_lvl: "Nível 1 — Desconfiança / Início",
+        bond1_trig: "Quando falta Essência ou em jogada crítica de Feitiçaria/Alma/Coração",
+        bond1_eff: "Nível 1 [Investimento Mútuo] (1x/Cena): Empresta 1 PE próprio (até Distante) ao parceiro ou dá +1 em jogada crítica (favor cobrado depois)!",
+        bond2_name: "[Âncora de Sanidade contra o Vazio]",
+        bond2_ally: "Seraphina (Oráculo)",
+        bond2_lvl: "Nível 1 — Desconfiança / Início",
+        bond2_trig: "Falha em Mente (Vontade) ou Alma (Abjurar) contra medo/loucura/ilusão",
+        bond2_eff: "Nível 1 [Lembre-se de Quem Você É] (1x/Cena): Grita o nome da parceira ou toca-a como Reação permitindo rerrolar o dado imediatamente!",
+        leg_name: "[Tapeçaria dos Sete Nós do Destino]",
+        leg_step: "1º Passo Dominado [1/7] — Cria Memórias de Tier I a partir de partes de monstros sem falhar",
+        leg_relic: "[Agulha de Osso de Weaver] (1ª Relíquia)",
+        leg_desc: "\"A arte proibida de tecer a própria realidade com fios de Essência de Alma.\"",
+        ec1_name: "[Saqueador da Carapaça Blindado]", ec1_rc: "Adormecido • Besta (Eco)", ec1_stats: "CD 9 | PV 7 | Dano 1",
+        ec1_hab: "[Carapaça Reforçada por Dorian]: Protege Dorian na linha de frente e ataca gratuitamente (Ação Livre).",
+        ec2_name: "[Aranha de Ferro Rúnica]", ec2_rc: "Adormecido • Monstro (Eco)", ec2_stats: "CD 9 | PV 6 | Dano 1",
+        ec2_hab: "[Teia de Aço]: Dispara teias à distância para prender inimigos para a Coorte atacar!",
+        m1_name: "[Chicote de Fios de Prata]", m1_rt: "Adormecida • Tier III", m1_type: "Arma Alcance (1 Dano, Perto)",
+        m1_lore: "\"[Um feixe de fios metálicos que se movem como dedos ágeis...]\"",
+        m1_ench: "[Enlaçar]: +1 nas manobras Agarrar e Desarmar até a faixa Perto.",
+        m2_name: "[Casaco do Artífice de Bastion]", m2_rt: "Adormecida • Tier III", m2_type: "Armadura (+1 Camada)",
+        m2_lore: "\"[Cheio de bolsos dimensionais menores para ferramentas e cristais...]\"",
+        m2_ench: "[Oficina Portátil]: Guarda ferramentas rúnicas e até 10 Fragmentos de Alma com segurança.",
+        m3_name: "[Monóculo de Cristal de Alma]", m3_rt: "Adormecida • Tier II", m3_type: "Amuleto",
+        m3_lore: "\"[Lente polida por um antigo joalheiro de espelhos...]\"",
+        m3_ench: "[Lente Analítica]: +1 em testes de Tecelagem e leitura de runas.",
+        m4_name: "[Anel da Fortaleza Mental]", m4_rt: "Desperta • Tier III", m4_type: "Amuleto",
+        m4_lore: "\"[Um anel de ferro frio que protege a mente contra sussurros...]\"",
+        m4_ench: "[Proteção de Alma]: Absorve até 2 pontos de Dano de Alma na cena!",
+        f_citadel: "Bastion / Forte da Estátua Partida",
+        f_xp: "XP: 3 | Cristais: 6 Adormecidos",
+        f_contacts: "1. Arquivista Soren Vane (Academia) | 2. Leiloeiro de Memórias (NQSC)",
+        f_camp: "Artífice / Tecelão de Vigília (Restaura Memórias e Equipamento da Coorte)",
+        f_inv: "Terra: Estojo de estiletes aço-prata, caderno cifrado | Reino dos Sonhos: Cinzel rúnico, pó de cristal, quitina",
+        f_notes: "Escolas de Feitiçaria: Tecelagem Básica (grátis pela Origem). Próxima Escola (Feitiçaria Rúnica) custa apenas 5 XP! Manter [Mãos] longe de baús com armadilha!"
+      }
+    };
+
+    function clearAllFields() {
+      const root = document.getElementById('sheet-root');
+      root.querySelectorAll('input[type="text"], textarea').forEach(el => el.value = '');
+      root.querySelectorAll('input[type="number"]').forEach(el => el.value = '1');
+      root.querySelectorAll('select').forEach(el => el.value = '');
+      root.querySelectorAll('input[type="checkbox"]').forEach(el => el.checked = false);
+      toggleCore(1);
+      root.querySelectorAll('.sat-step').forEach(el => el.classList.remove('filled'));
+      updateCalcPreview();
+    }
+
+    function loadPreset(key) {
+      if (!key) return;
+      clearAllFields();
+      if (key === 'blank') return;
+
+      const p = PRESETS[key];
+      if (!p) return;
+
+      Object.keys(p).forEach(k => {
+        if (k === 'cores' || k === 'checks' || k === 'sats') return;
+        const el = document.getElementById(k);
+        if (el) el.value = p[k];
+      });
+
+      toggleCore(p.cores || 1);
+      (p.checks || []).forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.checked = true;
+      });
+      (p.sats || []).forEach(n => {
+        const el = document.getElementById('sat_' + n);
+        if (el) el.classList.add('filled');
+      });
+      updateCalcPreview();
+    }
+
+    // Carrega Kaelen por padrão para demonstrar a ficha 100% Códice completa!
+    window.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('charPreset').value = 'kaelen';
+      loadPreset('kaelen');
+    });
+  </script>
+</body>
+</html>
