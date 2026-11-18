@@ -45,3 +45,6 @@
 - **Devorador Carmesim (Livro 2):** as garras causam **1 de Dano (2 em CD + 3)**, como as da Besta Lunar.
 - **Predador Silencioso (Livro 2):** Golpe na Jugular só contra alvo **surpreso ou cercado por 3 ou mais**, e dá só **+1 de Dano** (sem bônus na rolagem).
 - **Perfil de Chefe (Livros 1 e 3):** chances atualizadas para o pacote completo: cerca de 1 em 4 na briga direta e 93% com plano.
+
+## Condições em Inimigos (18/11/2026)
+- **Livros 0, 1, 2 e 3:** as condições baixam a CD de um inimigo **no máximo `-1` no total**, mesmo com várias ao mesmo tempo. O **dano contínuo** (Sangrando, Queimando, toxinas) **soma normalmente**: cada efeito causa o seu dano no início do turno do inimigo.

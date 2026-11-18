@@ -1332,6 +1332,8 @@ Todas as condições possuem origem clara, efeito objetivo e método exato de re
 > 📌 **Termos Derivados Usados em Outras Seções:** **Lento** = movimento pela metade e sem Disparada; **Preso** = *Agarrado* por terreno ou objeto (sai com teste de *Força/Agilidade* ou ajuda); **Paralisado** = *Imobilizado*; **Surpreso** = não age na Rodada de Surpresa; **Caído** (como condição) = *Derrubado* — não confundir com o Rank de criatura *Caído*.
 >
 > 📌 **Condições em Criaturas (o Tecelão não rola):** Quando uma condição diz que a criatura "ataca com Desvantagem" ou sofre `-1`, aplique **`-1` na CD de Defesa** dos jogadores contra ela; quando a criatura "defende com Desvantagem" ou sofre `-1` na defesa, aplique **`-1` na CD** dos ataques contra ela (efeitos que dão Vantagem explícita a quem ataca continuam valendo como escritos).
+>
+> 📌 **Condições não somam na CD (no máximo `-1`):** Não importa quantas condições um inimigo tenha (*Envenenado*, *Amedrontado*, *Cego*, *Derrubado*...), a CD dele cai **no máximo `-1` no total**, tanto nos ataques dele quanto na defesa. Duas ou três condições não viram `-2` ou `-3`. **O dano contínuo, porém, soma normalmente:** se o inimigo estiver *Sangrando* **e** *Queimando* **e** envenenado por uma toxina que causa dano, ele sofre o dano de **cada uma** no início do turno. *Exemplo:* um Demônio de CD 10 *Envenenado* e *Cego* fica com CD **9** (e não 8); se também estiver *Sangrando* (1) e *Queimando* (1), perde **2 PV** por turno.
 
 ---
 

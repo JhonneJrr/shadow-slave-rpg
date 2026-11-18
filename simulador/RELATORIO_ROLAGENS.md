@@ -914,6 +914,10 @@ Aprovado pelo Jhonne e escrito nos livros em 2026-11-18, como na 8.4 e no códig
 - **Predador Silencioso:** Golpe na Jugular só contra alvo surpreso ou cercado por 3 ou mais, e só +1 de Dano (sem +1 no ataque).
 - Com isso, o livro bate com a última linha da tabela da 8.6 (pacote completo, Manto canônico, 2º Núcleo no Despertar): chefe de 3× PV com cerca de 23% na briga direta e 93% com plano. A Portadora da Luz v3 entrou depois e não foi resimulada dentro desse pacote.
 
+### 9.11 Condições em inimigos (18/11/2026)
+
+Aprovado pelo Jhonne e escrito nos livros em 2026-11-18 (L0, L1 §6.3, L2 §2.1 item 6, L3): as condições baixam a CD de um inimigo **no máximo −1 no total** e não somam. Essa é a regra que o simulador já usava por padrão (`empilhar_condicoes=False`, ver 8.3). O dano contínuo (Sangrando, Queimando, toxinas) soma normalmente. A relíquia Presas Gotejantes de Víbora fica como está: veneno e sangramento valem em cada corte.
+
 ## 10. Pontos ainda em aberto
 
 | Tema | Situação |

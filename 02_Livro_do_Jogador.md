@@ -505,7 +505,7 @@ Diferente de sistemas rígidos onde você escolhe apenas uma técnica isolada e 
    - **Técnica Rápida:** Consome sua **Ação Menor**.
    - **Reação Tática:** Dispara fora do seu turno durante a **Fase do Pesadelo** ou turno de aliado (limite de **1 Reação Tática Especial por rodada**, não confundir com suas *Rolagens de Defesa* normais, que são sempre livres!).
    - **Passiva / Ápice:** Sempre ativa ou poder culminante de impacto massivo.
-6. **Condições em Inimigos (Nota de Leitura):** As condições seguem a tabela do *Livro 1, Seção 6.3*. Como o Mestre nunca rola dados, quando um efeito deste livro diz que um monstro sofre `-1` ou "Desvantagem" (ex.: *Envenenado*, *Amedrontado*), isso se traduz em **`-1` na CD** que os jogadores enfrentam contra os ataques e as defesas daquela criatura, salvo indicação diferente na habilidade.
+6. **Condições em Inimigos (Nota de Leitura):** As condições seguem a tabela do *Livro 1, Seção 6.3*. Como o Mestre nunca rola dados, quando um efeito deste livro diz que um monstro sofre `-1` ou "Desvantagem" (ex.: *Envenenado*, *Amedrontado*), isso se traduz em **`-1` na CD** que os jogadores enfrentam contra os ataques e as defesas daquela criatura, salvo indicação diferente na habilidade. **Condições não somam na CD:** com uma ou várias condições, a criatura perde **no máximo `-1` no total**. Já o **dano contínuo** (*Sangrando*, *Queimando*, toxinas) **soma normalmente**: cada efeito causa o seu dano no início do turno dela.
 
 ---
 

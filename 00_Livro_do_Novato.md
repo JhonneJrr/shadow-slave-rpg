@@ -340,6 +340,8 @@ Condições são estados que atrapalham (ou impedem) um personagem. O [Livro 1, 
 | **Exausto (níveis 1 a 4)** | Nv 1: Desvantagem em *Corpo* ou *Mente*. Nv 2: movimento pela metade e `-1` em tudo. Nv 3: Desvantagem em tudo e PV Máx. pela metade. Nv 4: colapso. | Cada noite de descanso seguro, com comida e água, tira 1 nível. |
 | **Inconsciente / Moribundo** | Não age, não fala, não se move; cai *Derrubado*. | Primeiros socorros ([Seção 2.12](#212-pontos-de-vida-pv-queda-e-primeiros-socorros)). |
 
+> 📌 **Condições em inimigos não somam na CD.** Um monstro com uma, duas ou três condições perde **no máximo `-1` na CD** (nunca `-2` ou `-3`). Mas o **dano por turno soma**: *Sangrando* (1) + *Queimando* (1) = **2 de dano** no início do turno dele.
+
 > 📌 **Termo útil:** **Lento** = movimento pela metade e sem *Disparada* (o 2º movimento).
 >
 > 📌 **Condições em inimigos:** como o Mestre não rola, quando uma condição diria "o inimigo sofre Desvantagem" ou `-1`, aplique **`-1` na CD** que os jogadores enfrentam contra ele. Por exemplo, um Carniçal Amedrontado de CD 7 passa a ter CD 6.
@@ -944,7 +946,7 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 | **Amedrontado** | Não se aproxima da fonte; Desvantagem em tudo enquanto a vê. Vontade no fim do turno. |
 | **Exausto 1–4** | 1: Desvantagem em Corpo ou Mente · 2: movimento ½ e `-1` · 3: Desvantagem em tudo, PV Máx. ½ · 4: colapso. |
 | **Lento** | Movimento pela metade, sem Disparada. |
-| **Em inimigos** | "Desvantagem" ou `-1` num inimigo = `-1` na CD dele. |
+| **Em inimigos** | "Desvantagem" ou `-1` num inimigo = `-1` na CD dele. Várias condições: **no máximo `-1` no total**. Dano por turno (Sangrando, Queimando, toxina) **soma**. |
 
 ### Ranks
 | Aspirante | Adormecido | Desperto | Ascendido | Transcendente | Supremo |
