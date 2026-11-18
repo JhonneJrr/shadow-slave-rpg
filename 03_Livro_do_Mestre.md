@@ -2238,6 +2238,8 @@ Na obra original de *Shadow Slave*, a alma humana segue leis rígidas quando um 
 
 Este é o livro de campo oficial do Mestre. Cada uma das **32 Criaturas do Pesadelo** abaixo — e dos **10 Grandes Chefes** ao final do capítulo — foi construída para que você abra a página no meio da sessão e tenha imediatamente: a descrição sensorial que arrepia os jogadores, os Atributos rúnicos do monstro, o roteiro exato de ataques em múltiplos alvos para manter **os 7 jogadores na ponta da cadeira**, a fraqueza tática para premiar o raciocínio da Coorte e os **Drops Conectados** (Fragmentos, Material de Tecelagem/Culinária e a Memória exata obtida no **`6` do `1d6`**!).
 
+> 📕 **Quer mais monstros prontos?** O [Livro 5 — O Grande Bestiário do Pesadelo](Livro_05_Grande_Bestiario_Estilizado.html) traz estas 32 criaturas e 10 chefes no formato compacto, mais criaturas e chefes novos (200 criaturas e 30 chefes no total), com o Perfil de Chefe pronto para 4–5 e 6–7 jogadores, índices por Rank e região e um [guia rápido de encontros](Livro_05_Grande_Bestiario_Estilizado.html#capítulo-2-guia-rápido-para-montar-encontros).
+
 > ### 📖 Lendo um Bloco do Bestiário (e Aplicando a Diferença de Rank)
 > - **CD Oficial por Rank:** `Adormecida (CD 6–8)` | `Desperta (CD 9–10)` | `Caída (CD 10–11)` | `Corrompida (CD 12)` | `Grande (CD 13+)`.
 > - **Modificador por Rank:** Some ou subtraia **`±1 na CD por Rank de diferença`** sempre que os jogadores enfrentarem criaturas de Rank maior ou menor que o seu atual!
@@ -3028,5 +3030,6 @@ Imprima ou mantenha esta página aberta durante toda a sessão para mestrar qual
 | 📘 **Livro II — Livro do Jogador** *(criação, 7 Papéis, 12 Origens, 28 Aspectos, atributos, memórias e ecos)* | [Abrir Livro II](Livro_02_Jogador_Estilizado.html) | [Livro_02_Jogador.pdf](Livro_02_Jogador.pdf) |
 | 📗 **Livro III — Livro do Mestre** *(direção de mesa, defeitos, pesadelos, perigos, bestiário, escudo)* | [Abrir Livro III](Livro_03_Mestre_Estilizado.html) | [Livro_03_Mestre.pdf](Livro_03_Mestre.pdf) |
 | 📙 **Livro IV — Lore e Cenário** *(cosmologia, Mundo Desperto, facções, Atlas das 10 Regiões, campanhas)* | [Abrir Livro IV](Livro_04_Lore_Cenario_Estilizado.html) | [Livro_04_Lore_Cenario.pdf](Livro_04_Lore_Cenario.pdf) |
+| 📕 **Livro V — O Grande Bestiário** *(200 criaturas, 30 chefes, índices por Rank e região, guia de encontros)* | [Abrir Livro V](Livro_05_Grande_Bestiario_Estilizado.html) | [Livro_05_Grande_Bestiario.pdf](Livro_05_Grande_Bestiario.pdf) |
 
 [⬅️ Voltar à Central dos 4 Livros](00_CENTRAL_DE_LIVROS_E_PDF.html)

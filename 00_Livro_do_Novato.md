@@ -700,6 +700,8 @@ Esta parte é **para o Mestre**. Jogadores, parem aqui para não estragar as sur
 
 **Orçamento de Ameaça.** Todos os encontros respeitam a regra da [Seção 2.11](#211-combate-em-5-minutos): a soma de *alvos por turno × dano* de todas as criaturas de uma luta fica **no máximo igual ao número de jogadores**. Cada cena traz a conta pronta. Se a sua mesa tiver um número de jogadores entre as faixas, refaça a conta e corte um inimigo se passar do limite.
 
+> 📕 **Quer trocar um monstro?** O [Livro 5 — O Grande Bestiário](Livro_05_Grande_Bestiario_Estilizado.html#capítulo-1-como-usar-este-bestiário) tem 50 criaturas Adormecidas prontas, com a Ameaça já calculada. Troque uma ficha por outra de Ameaça igual e o encontro continua justo.
+
 **Fichas usadas na aventura (todas as CDs já são finais):**
 
 | Inimigo | Tipo | CD | PV | Dano | Comportamento |
@@ -1054,6 +1056,7 @@ Vocês sobreviveram ao Primeiro Pesadelo. Agora a coleção inteira se abre. Use
 | Ler os textos oficiais do Feitiço em voz alta | [Livro 3, Seção 1.4](Livro_03_Mestre_Estilizado.html#14-as-10-narrações-oficiais-do-feitiço-caixas-de-texto-para-ler-em-voz-alta) |
 | Montar encontros equilibrados | [Livro 3, Seção 5.1](Livro_03_Mestre_Estilizado.html#51-balanceamento-prático-para-5-6-ou-7-jogadores-e-ajuste-em-5-segundos) |
 | Escolher monstros prontos | [Livro 3, Capítulo 7](Livro_03_Mestre_Estilizado.html#capítulo-7-o-grande-bestiário-do-pesadelo-32-criaturas-detalhadas--10-grandes-chefes-com-partes-destrutíveis) |
+| Ter 200 criaturas e 30 chefes prontos, com índice por Rank e região | [Livro 5, O Grande Bestiário](Livro_05_Grande_Bestiario_Estilizado.html#capítulo-1-como-usar-este-bestiário) e o [guia rápido de encontros](Livro_05_Grande_Bestiario_Estilizado.html#capítulo-2-guia-rápido-para-montar-encontros) |
 | Ter tudo numa página atrás do escudo | [Livro 3, Seção 8.2](Livro_03_Mestre_Estilizado.html#82--o-escudo-definitivo-do-tecelão-1-página-completa-de-mesa) |
 | Preparar a noite do Solstício e a chegada ao Reino dos Sonhos | [Livro 4, A Noite do Solstício](Livro_04_Lore_Cenario_Estilizado.html#-a-noite-dramática-do-solstício-de-inverno-21-de-dezembro) e [Livro 1, Seção 4.5](Livro_01_Sistema_Estilizado.html#45-o-ciclo-de-travessia-entre-a-terra-e-o-reino-dos-sonhos) |
 | Conhecer a Academia dos Despertos | [Livro 4, Academia dos Despertos](Livro_04_Lore_Cenario_Estilizado.html#24-dossiê-completo-da-academia-dos-despertos-awakened-academy) |
