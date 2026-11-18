@@ -7,7 +7,7 @@
 - **Testes ficaram jogáveis:** a CD Moderada agora é 7. Um novato passa em média em **31%** das 12 Subcategorias na CD 7 (antes, na Moderada 9: **8%**, e impossível em 9 de 12).
 - **Combates ficaram menos letais sem ficar triviais:** 4 novatos contra os encontros escalados vencem **99%** (v1: 96%) e alguém cai em **18%** (v1: 38%). Contra os encontros como estão no livro (feitos para 7), vencem **84%** (v1: 64%); por isso o Livro 3 agora tem o **Orçamento de Ameaça**.
 - **Rank acima virou rampa, não parede:** 4 novatos contra UMA criatura Desperta vencem em média **47%** (v1: 12%). Demônios e Diabos Despertos continuam quase invencíveis para novatos.
-- **Teste extra do Jhonne:** 4 Adormecidos **saturados** (Marco 10, Memórias, 2 Ecos) vencem a ficha comum do Demônio Desperto em **100%**. Com o **Perfil de Chefe** agora nos livros (CD 11, 2× PV, +1 de Dano), a briga direta vence **22%**; com plano tático + Relógio de Preparação, **94%** (−1 CD) a **91%** (−1 alvo). O Derrubar revisado passou de 2% para 55% contra esse chefe (seção 7).
+- **Teste extra do Jhonne:** 4 Adormecidos **saturados** (Marco 10, Memórias, 2 Ecos) vencem a ficha comum do Demônio Desperto em **100%**. O **Perfil de Chefe** nos livros agora é **CD 11, 3× PV, +1 de Dano** (desde 18/11/2026). Calibrado em 2× PV com fichas sem Aspecto, ele dava 22% na briga direta e 91–94% com plano. Com 3× PV e Coortes com Aspectos (pacote completo aplicado), a briga direta cai para cerca de **23%** e o plano fica em cerca de **93%** (seção 8.6). Sem Aspectos, o chefe de 3× PV vence 0% na briga direta e 42% com plano. O Derrubar revisado passou de 2% para 55% contra esse chefe (seção 7).
 
 - **Rodada de Aspectos (só Inata + 1ª Habilidade, personagens Adormecidos):** os Aspectos mais fortes são Escravo das Sombras, Besta Lunar, Dançarino da Gravidade, Predador Silencioso, Senhor das Correntes. O Escravo das Sombras Adormecido não é um Aspecto de utilidade: o Manto (+1 em rolagens e +1 de Dano por Sombra, sem custo) leva a briga direta contra o Demônio chefe de 24% para 99%. Com "1 Sombra no Manto e sem +Dano", ele cai para 78% nos cenários duros e mantém o Batedor (seção 8).
 
@@ -499,7 +499,7 @@ Como cada Aspecto foi modelado (só Inata + 1ª Habilidade):
 
 - **Se as condições empilharem** (Envenenado + Cego + Amedrontado = até −3 na CD): o grupo Guarda-Sol / Alquimista / Areia / Pesadelos vai de 84% para 96% contra o chefe. Hoje o texto não diz se empilham; recomendo escrever que **condições em inimigos dão no máximo −1 na CD**, como a Vantagem.
 
-### 8.4 Sugestões para os Aspectos desequilibrados (simuladas, NÃO aplicadas nos livros)
+### 8.4 Sugestões para os Aspectos desequilibrados (aplicadas nos livros em 18/11/2026, exceto as linhas do Escravo das Sombras, substituídas pelo Manto canônico da 8.6)
 
 | Aspecto | Sugestão | Saturados, livro → sugestão | Novatos, livro → sugestão |
 | :--- | :--- | :---: | :---: |
@@ -902,6 +902,17 @@ Aprovado pelo Jhonne e escrito nos livros em 2026-11-18:
 - **Portadora da Luz = Nephis v3 (9.8):** chama sem custo (Ação Menor, cena), `+2/+2` Adormecida e `+3/+3` Desperta, autocura de 1 PV por rodada, chama visível. O disparo solar pode somar o bônus, mas consome a chama. Com a chama apagada, a Reação só reacende. A cura ativa (Ação Maior, 2 PE) continua como estava. Na tabela por Núcleo, do `[3/7]` em diante o Dano segue a regra "1 acima do Manto" (`+4`…`+8`), o que é uma extrapolação não simulada.
 - **Perfil de Chefe 3× PV** (Demônio 42, Diabo 54) no L0, L1, L3 e L4.
 - **Não entrou:** o resto do pacote da 8.4 (controle, Sangrando/Queimando 3 turnos, Toxina, Devorador, Golpe na Jugular). Com o Manto canônico e o 2º Núcleo no Despertar, mas sem a 8.4, o chefe de 3× PV fica em cerca de 37% na briga direta e 95% com plano (tabela da 8.6).
+
+### 9.10 Resto do pacote da 8.4 aplicado (18/11/2026)
+
+Aprovado pelo Jhonne e escrito nos livros em 2026-11-18, como na 8.4 e no código (`firme_rodadas=2`, `chefe_derrubar_1x`, `atordoar_firme`, `dot_rodadas=3`, `alq_1x`, `devorador_dano1`, `predador_estrito`):
+
+- **Controle (L1 §5.3 e §6.3, L3, L0):** depois de se levantar, a criatura fica Firme por 2 rodadas. Uma criatura de Rank acima só perde a Ação Maior na 1ª queda da cena; nas seguintes, levanta com o Movimento. Atordoado também deixa a criatura Firme por 2 rodadas, e ela não pode ser Atordoada de novo nesse tempo.
+- **Sangrando e Queimando em criaturas:** duram 3 turnos da criatura.
+- **Alquimista da Peste:** Destilar Toxina reveste a arma 1 vez por cena (2 acertos).
+- **Devorador Carmesim:** as garras causam 1 de Dano (2 em CD+3).
+- **Predador Silencioso:** Golpe na Jugular só contra alvo surpreso ou cercado por 3 ou mais, e só +1 de Dano (sem +1 no ataque).
+- Com isso, o livro bate com a última linha da tabela da 8.6 (pacote completo, Manto canônico, 2º Núcleo no Despertar): chefe de 3× PV com cerca de 23% na briga direta e 93% com plano. A Portadora da Luz v3 entrou depois e não foi resimulada dentro desse pacote.
 
 ## 10. Pontos ainda em aberto
 

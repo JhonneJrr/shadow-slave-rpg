@@ -288,7 +288,7 @@ Quando um inimigo ataca, o Mestre descreve o golpe e anuncia a CD. Você rola a 
 - **`CD - 2` ou `CD - 3`:** sofre o **dano normal** do inimigo.
 - **`CD - 4` ou pior:** sofre o dano normal **+ 1 Infortúnio**.
 
-> 📌 **Derrubar vale a pena.** A manobra *Derrubar* (Ação Maior, contra a CD do monstro, `+1` se ele for quadrúpede ou Grande) causa o dano normal da sua arma e deixa o monstro **Derrubado**: no turno dele, ele gasta a **Ação Maior** só para se levantar e não ataca. Depois disso fica *Firme* por uma rodada e não pode ser derrubado de novo. Detalhes em [Livro 1, Seção 5.3](Livro_01_Sistema_Estilizado.html#53-as-15-manobras-táticas-de-combate-passo-a-passo).
+> 📌 **Derrubar vale a pena.** A manobra *Derrubar* (Ação Maior, contra a CD do monstro, `+1` se ele for quadrúpede ou Grande) causa o dano normal da sua arma e deixa o monstro **Derrubado**: no turno dele, ele gasta a **Ação Maior** só para se levantar e não ataca. Depois disso fica *Firme* por 2 rodadas e não pode ser derrubado de novo. Um monstro de Rank acima só perde a Ação Maior na 1ª queda da cena; nas seguintes ele se levanta com o movimento. Detalhes em [Livro 1, Seção 5.3](Livro_01_Sistema_Estilizado.html#53-as-15-manobras-táticas-de-combate-passo-a-passo).
 
 > 📌 **Inimigos fortes atacam vários alvos.** Elites e chefes fazem **Ataques Varridos**: atingem 2 a 4 jogadores ao mesmo tempo, e cada um rola a própria defesa. Quando um jogador faz um ataque em área, ele rola **uma vez só** e compara o resultado com a CD de cada inimigo na área.
 
@@ -329,11 +329,11 @@ Condições são estados que atrapalham (ou impedem) um personagem. O [Livro 1, 
 
 | Condição | Efeito | Como sair |
 | :--- | :--- | :--- |
-| **Sangrando** | Sofre **1 de dano** automático no início de cada turno seu (ignora armadura). | Ação Maior com *Conhecimento* CD 5–7 (bandagem), poção ou cura. |
+| **Sangrando** | Sofre **1 de dano** automático no início de cada turno seu (ignora armadura). | Ação Maior com *Conhecimento* CD 5–7 (bandagem), poção ou cura. Em monstros, dura 3 turnos deles. |
 | **Envenenado** | **Desvantagem** em testes de *Corpo*. | Antídoto, *Vigor* nos intervalos da toxina ou purificação com *Abjurar*. |
-| **Queimando** | Sofre **1 a 3 de dano** no início de cada turno (conforme o fogo) e fica iluminado. | Ação Maior rolando no chão (*Agilidade* CD 5), água ou *Abjurar*. |
-| **Atordoado** | Perde a **Ação Maior** e a **Reação** até o fim do seu próximo turno; não tem defesa gratuita. | Passa sozinho após 1 rodada (ou com ajuda de um aliado, CD 7). |
-| **Derrubado** | Ataques corpo a corpo contra você ganham **Vantagem**; os seus corpo a corpo sofrem **Desvantagem**. | Você: gastar metade do movimento para se levantar. **Monstros:** gastam a **Ação Maior** para se levantar (não atacam naquela rodada) e ficam *Firmes* até o fim da rodada seguinte. |
+| **Queimando** | Sofre **1 a 3 de dano** no início de cada turno (conforme o fogo) e fica iluminado. | Ação Maior rolando no chão (*Agilidade* CD 5), água ou *Abjurar*. Em monstros, dura no máximo 3 turnos deles. |
+| **Atordoado** | Perde a **Ação Maior** e a **Reação** até o fim do seu próximo turno; não tem defesa gratuita. | Passa sozinho após 1 rodada (ou com ajuda de um aliado, CD 7). Monstros ficam *Firmes* por 2 rodadas depois (não podem ser Atordoados de novo). |
+| **Derrubado** | Ataques corpo a corpo contra você ganham **Vantagem**; os seus corpo a corpo sofrem **Desvantagem**. | Você: gastar metade do movimento para se levantar. **Monstros:** gastam a **Ação Maior** para se levantar (não atacam naquela rodada) e ficam *Firmes* por 2 rodadas (Rank acima: só na 1ª queda da cena perdem a Ação Maior). |
 | **Agarrado / Imobilizado** | Velocidade 0. *Agarrado:* ataques físicos com Desvantagem. *Imobilizado:* sem ataques físicos e sem esquiva. | Teste de *Força* ou *Agilidade* contra a CD de quem prende, ou derrubar o captor. |
 | **Cego** | Falha em testes que dependem só da visão; ataca com **Desvantagem**; defende com **`+2` na CD**. | Lavar os olhos, sair da escuridão (1 ação) ou acender uma luz. |
 | **Amedrontado** | Não consegue se aproximar da fonte do medo; **Desvantagem** em tudo enquanto a vê. | Teste de *Vontade* no fim do turno, perder a fonte de vista ou o apoio de um aliado. |
@@ -934,11 +934,11 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 ### Condições
 | Condição | Efeito resumido |
 | :--- | :--- |
-| **Sangrando** | 1 de dano no início de cada turno seu. Bandagem: Conhecimento CD 5–7. |
+| **Sangrando** | 1 de dano no início de cada turno seu. Bandagem: Conhecimento CD 5–7. Monstros: 3 turnos. |
 | **Envenenado** | Desvantagem em testes de Corpo. |
-| **Queimando** | 1 a 3 de dano por turno. Rolar no chão: Agilidade CD 5. |
-| **Atordoado** | Perde Ação Maior e Reação; sem defesa gratuita. Passa em 1 rodada. |
-| **Derrubado** | Corpo a corpo contra você: Vantagem; os seus: Desvantagem. Levantar: metade do movimento (monstros: a Ação Maior, e ficam Firmes 1 rodada). |
+| **Queimando** | 1 a 3 de dano por turno. Rolar no chão: Agilidade CD 5. Monstros: até 3 turnos. |
+| **Atordoado** | Perde Ação Maior e Reação; sem defesa gratuita. Passa em 1 rodada (monstros ficam Firmes 2 rodadas). |
+| **Derrubado** | Corpo a corpo contra você: Vantagem; os seus: Desvantagem. Levantar: metade do movimento (monstros: a Ação Maior, e ficam Firmes 2 rodadas; Rank acima só na 1ª queda da cena). |
 | **Agarrado / Imobilizado** | Velocidade 0; ataques físicos com Desvantagem / sem ataques nem esquiva. |
 | **Cego** | Ataca com Desvantagem; defende com `+2` na CD. |
 | **Amedrontado** | Não se aproxima da fonte; Desvantagem em tudo enquanto a vê. Vontade no fim do turno. |

@@ -3131,7 +3131,7 @@ Seu organismo arquiva e recombina a evolução de cada criatura derrotada:
 - **Como Coletar & Arquivar:** Dentro de `1 minuto` após a morte de uma Criatura de Pesadelo (ou Humano Desperto com mutação física única), você consome um pedaço fresco do coração, músculo ou sangue da presa (`1` minuto ritualístico, teste de `Corpo [Vigor]` ou `Alma [Canalizar] CD 5` para Rank igual; `+1 CD` por Rank acima). O padrão genético fica guardado permanentemente nas reservas do seu Mar da Alma (você pode manter um catálogo amplo em repouso no Mar da Alma, mas **equipar/manter ativas ou prontas para troca imediata** até **`1` Mutação por Núcleo de Alma [`1` a `7`]**!).
 - **Regra de Troca & Sobrecarga de Rank:** Trocar quais Mutações estão preparadas no Banco exige `1` Descanso Curto (`0 PE`) ou `1 Ação Menor` (`2 PE` em combate a partir do Rank Desperto/Ascendido). Usar uma Mutação coletada de um monstro **`1` Rank acima do seu** custa **`+1 PE` extra** na ativação devido ao estresse celular!
 - **Catálogo de Mutações Clássicas (Exemplos Mecânicos Prontos):**
-  1. **`[Garras Serrilhadas de Quitina]`:** Transforma mãos/braços em armas naturais (`1d8` se tiver luta corporal ou `+1` de acuidade) com `Dano 2` e aplica a condição **Sangrando** em `CD + 4`.
+  1. **`[Garras Serrilhadas de Quitina]`:** Transforma mãos/braços em armas naturais (`1d8` se tiver luta corporal ou `+1` de acuidade) com `Dano 1` (`2` em `CD + 3` ou melhor) e aplica a condição **Sangrando** em `CD + 4`.
   2. **`[Asas Membranosas / Propulsão Óssea]`:** Rasga ossos e membranas das costas permitindo **Voo completo (`2` Faixas/Movimento)** e ataques em rasante (`+1` Dano ao mergulhar do alto).
   3. **`[Carapaça Óssea / Escamas Abissais]`:** Placas calcificadas brotam sob a pele reduzindo **`1` ponto de todo Dano físico sofrido** (`2` pontos no estágio Diabo+).
   4. **`[Glândulas de Veneno / Ácido]`:** Presas ou poros secretam toxina letal: adiciona **`+1` de Dano corrosivo/tóxico** ao primeiro golpe por turno e impõe `-1` em testes físicos do alvo por `2` turnos (`Corpo [Vigor]` resiste).
@@ -3167,13 +3167,13 @@ Você exerce controle telecinético e alquímico sobre o estado físico do sangu
 
 #### 1ª Habilidade (Adormecida) — `[Presa do Predador (Predator's Fang)]`
 - **Custo de Essência:** `1 PE` (ativar mutação ou criar construção rubi) | **Tipo de Ação:** `1 Ação Menor` (mutação/arma) ou `1 Ação Maior` (investida feroz) | **Alcance:** Pessoal / *Corpo a Corpo* | **Duração:** Cena (mutação)
-- **Teste & Sucesso Simples:** Ativa `1` ou mais Mutações preparadas do seu **Banco Genético** (gastando `1 PE` por mutação simultânea acima da 1ª, ou `1 PE` único após Ascendido) OU cristaliza uma arma/escudo de rubi com seu sangue (`1 PV` ou sangue no chão). Em combate, seus ataques naturais com garras/presas/armas rubis usam `Corpo [Força/Agilidade]` ou `Alma [Evocar]`, causando **`2` de Dano** com traços ofensivos ativos!
-- **Sucesso Crítico (`CD + 4` ou mais):** A arma de rubi estilhaça dentro da ferida causando **`+1` de Dano extra** e deixando o alvo **Sangrando** (`1` de Dano no início de cada turno dele até ser tratado, *Livro 1, Seção 6.3* — e alimentando sua Cristalização gratuita!).
+- **Teste & Sucesso Simples:** Ativa `1` ou mais Mutações preparadas do seu **Banco Genético** (gastando `1 PE` por mutação simultânea acima da 1ª, ou `1 PE` único após Ascendido) OU cristaliza uma arma/escudo de rubi com seu sangue (`1 PV` ou sangue no chão). Em combate, seus ataques naturais com garras/presas/armas rubis usam `Corpo [Força/Agilidade]` ou `Alma [Evocar]`, causando **`1` de Dano** (**`2`** em `CD + 3` ou melhor, como a Besta Lunar) com traços ofensivos ativos!
+- **Sucesso Crítico (`CD + 4` ou mais):** A arma de rubi estilhaça dentro da ferida causando **`+1` de Dano extra** e deixando o alvo **Sangrando** (`1` de Dano no início de cada turno dele; numa criatura, por 3 turnos dela, *Livro 1, Seção 6.3* — e alimentando sua Cristalização gratuita!).
 - **Escala por Núcleos (`1/7` a `7/7`):**
 
 | Núcleo | Classe | Mutações Ativáveis | Poder de `[Presa do Predador]` |
 | :---: | :--- | :---: | :--- |
-| `[1/7]` | **Besta** | `1` Mutação | Dano `2` com garras/arma rubi; `1` mutação por cena. |
+| `[1/7]` | **Besta** | `1` Mutação | Dano `1` com garras/arma rubi (`2` em `CD + 3`); `1` mutação por cena. |
 | `[2/7]` | **Monstro** | `2` Mutações | Pode ativar `2` mutações combinadas com `1` Ação Menor. |
 | `[3/7]` | **Demônio** | `3` Mutações | Armas de rubi agora aplicam traços da mutação (ex: veneno na lâmina!). |
 | `[4/7]` | **Diabo** | `4` Mutações | Custo para manter até `2` Mutações cai para `1 PE` total na cena! |
@@ -3987,7 +3987,7 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 - **Sinergia de Defeito (*Livro 3, Seções 2.3 e 2.4*):** Costuma manifestar `[Voz Sussurrante]` (sua voz nunca passa de um sussurro baixo; incapaz de gritar avisos), `[Vazamento de Aura]` ou `[Aura Assustadora / Cheiro de Carnificina]`.
 
 ### ⚙️ Subsistema Exclusivo: *Oportunismo Letal & Controle de Penumbra*
-- **Como Funciona na Prática:** Em uma Coorte de 7 jogadores, o Predador Silencioso é o **especialista em punir monstros já ocupados**. Diferente de assassinos comuns que ficam inúteis quando o combate aberto começa e não dá mais para se esconder, sua 1ª Habilidade (`[Golpe na Jugular]`) funciona **sempre que o inimigo estiver distraído em combate com o Baluarte, o Executor ou um Eco da Coorte**! Isso garante **`+1` na rolagem e `+1 de Dano` constante quase toda rodada**, sem gastar Essência! Quando o cerco aperta, você estoura `[Cortina de Névoa Escura]` para proteger aliados frágeis e encadear ataques furtivos no meio da sala, culminando em teleportes letais de execução no Rank Ascendido.
+- **Como Funciona na Prática:** Em uma Coorte de 7 jogadores, o Predador Silencioso é o **especialista em punir monstros já ocupados**. Diferente de assassinos comuns que ficam inúteis quando o combate aberto começa e não dá mais para se esconder, sua 1ª Habilidade (`[Golpe na Jugular]`) funciona **contra inimigos surpresos ou cercados por 3 ou mais combatentes da Coorte** (o Baluarte, o Executor, um Eco e você)! Isso rende **`+1 de Dano`** sem gastar Essência sempre que o cerco fechar. Quando o cerco aperta, você estoura `[Cortina de Névoa Escura]` para proteger aliados frágeis e encadear ataques furtivos no meio da sala, culminando em teleportes letais de execução no Rank Ascendido.
 - **Por que um Jogador Vai Amar Este Aspecto:** Você é o assassino tático supremo! Toda vez que o tanque segura a atenção de um Chefe, você brilha causando um dano explosivo consistente com adagas e lâminas rápidas, desaparece na névoa quando o chefe tenta revidar e finaliza inimigos feridos em um único piscar de olhos!
 
 ### ✨ Habilidade Inata (Passiva Estrutural) — `[Passos no Vazio]`
@@ -3999,7 +3999,7 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 
 #### 1. 1ª Habilidade (Adormecida) — `[Golpe na Jugular]`
 - **Custo:** 0 Essência | **Ação:** Ação Maior (ataque padrão) | **Alcance:** *Corpo a Corpo* (ou *Perto* com adagas de arremesso/arcos curtos) | **Rolagem:** `Corpo (Agilidade)` ou `Corpo (Força)` contra a CD do alvo.
-- **Efeito em Sucesso Simples (`CD` a `CD + 3`):** Seus golpes buscam automaticamente artérias, tendões e frestas entre placas. Sempre que você atacar um inimigo que esteja **surpreso, sem vê-lo OU já engajado em *Corpo a Corpo* com outro aliado/Eco seu**, você recebe **`+1` na rolagem de ataque e causa `+1 de Dano` adicional** automático!
+- **Efeito em Sucesso Simples (`CD` a `CD + 3`):** Seus golpes buscam automaticamente artérias, tendões e frestas entre placas. Sempre que você atacar um inimigo que esteja **surpreso** (sem vê-lo) **OU cercado em *Corpo a Corpo* por 3 ou mais combatentes da Coorte** (você incluído; Ecos contam), você causa **`+1 de Dano` adicional** automático (sem bônus na rolagem)!
 - **Efeito em Maestria (`CD + 4`):** Ao acertar com `CD + 4` (especialmente com Adagas/Tantōs!), a lâmina rasga um ponto vital profundo: o ataque causa **`+2 de Dano` total extra** (além de qualquer bônus da arma) e deixa o inimigo **Sangrando**!
 - **Fora de Combate:** Permite neutralizar sentinelas humanas ou bestas menores em 1 golpe silencioso durante infiltrações sem que o alvo consiga gritar por socorro.
 - **Evolução nos Ranks Superiores:** No Rank **Desperto**, funciona com arcos/arremessos até a faixa *Distante*; no Rank **Ascendido**, ignora 1 ponto de `[Quitina Blindada]` em ataques pelas costas; no Rank **Transcendente**, causa `+1` na margem de crítico (`CD + 3` já conta como Maestria para Sangrando!); no Rank **Supremo**, cada corte na jugular drena 1 Essência ou silencia o alvo.
@@ -4683,12 +4683,12 @@ Todos os **21 Aspectos** detalhados neste dossiê (Aspectos **8 a 28**, a **Part
 
 #### 1. 1ª Habilidade (Adormecida) — `[Destilar Toxina]`
 - **Custo:** 0 Essência | **Ação:** Ação Menor (para revestir arma/flecha) ou Ação Maior (para lançar frasco/jato ácido até *Perto*) | **Alcance:** Da arma ou até *Perto* (3–6m) | **Rolagem:** Ataque armado normal ou `Alma (Evocar)` / `Corpo (Agilidade)`.
-- **Efeito em Sucesso Simples (`CD` a `CD + 3`):** Suas glândulas, suor ou dedos sintetizam um composto letal à sua escolha no instante da aplicação (dura 2 acertos na arma revestida ou aplica-se no arremesso causando **1 de Dano**):
+- **Efeito em Sucesso Simples (`CD` a `CD + 3`):** Suas glândulas, suor ou dedos sintetizam um composto letal à sua escolha no instante da aplicação (revestir a arma só pode ser feito **1 vez por cena** e dura 2 acertos; o arremesso aplica-se na hora causando **1 de Dano**):
   - *Composto A — Peçonha Neural:* Aplica a condição **Envenenado** (`-1` em todas as rolagens/CD de ataque da criatura e perde **1 PV** no fim da cena!).
   - *Composto B — Ácido Derrete-Carapaça:* Aplica **Corrosão** na superfície atingida (anula **1 ponto de redução de dano** de `[Quitina Blindada]` ou armaduras físicas e concede **`+1` no próximo ataque** de um aliado contra o ponto corroído!).
 - **Efeito em Maestria (`CD + 4`):** A mistura penetra profundamente nas juntas e veias: aplica **Envenenado E Corrosão juntos**, além de causar **`+1 de Dano` extra** imediato!
 - **Fora de Combate:** Produz ácido fraco para dissolver correntes, fechaduras de ferro e teias de Aranha de Ferro, ou esteriliza feridas e água estagnada para a Coorte beber.
-- **Evolução nos Ranks Superiores:** No Rank **Desperto**, frascos e jatos alcançam até *Distante* e o revestimento em arma dura a cena toda; no Rank **Ascendido**, suas toxinas ignoram imunidade natural de bestas venenosas comuns; no Rank **Transcendente**, o ácido causa **2 de Dano** direto contra construções/armaduras; no Rank **Supremo**, cria pragas espirituais que afetam até mortos-vivos sem sangue.
+- **Evolução nos Ranks Superiores:** No Rank **Desperto**, frascos e jatos alcançam até *Distante* e o revestimento em arma dura a cena toda (continua sendo 1 revestimento por cena); no Rank **Ascendido**, suas toxinas ignoram imunidade natural de bestas venenosas comuns; no Rank **Transcendente**, o ácido causa **2 de Dano** direto contra construções/armaduras; no Rank **Supremo**, cria pragas espirituais que afetam até mortos-vivos sem sangue.
 
 #### 2. 2ª Habilidade (Desperta) — `[Elixir de Emergência]`
 - **Custo:** 1 Essência | **Ação:** **Ação Menor** | **Alcance:** Toque (*Corpo a Corpo*) ou arremesso de frasco até *Perto* | **Rolagem:** Automática (`Mente [Conhecimento]` CD 7 apenas se tentar criar um efeito especial extra fora do combate).

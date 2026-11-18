@@ -37,3 +37,11 @@
 - **Aspectos Divinos (Livros 1, 2 e 3):** o 2º Núcleo Divino só condensa no Despertar, e não mais no Marco 10 do Adormecido.
 - **Portadora da Luz (Livro 2):** a Chama da Alma acende com Ação Menor, sem custo, e dura a cena. Acesa, dá `+2` de Dano e `+2` nas rolagens físicas como Adormecida e `+3/+3` como Desperta, mais autocura de `1 PV` por rodada. A chama é visível: sem furtividade, e os inimigos a incluem entre os alvos. Na Manipulação Solar, o disparo pode somar o bônus da chama, mas a consome; com a chama apagada, a Reação só serve para reacendê-la.
 - **Perfil de Chefe (Livros 0, 1, 3 e 4):** Demônio e Diabo Despertos contra Adormecidos passam de 2× para **3× PV** (Demônio da Matriz: 42; Diabo: 54). CD e Dano continuam os mesmos.
+
+## Pacote de Controle e Aspectos Ofensivos (18/11/2026)
+- **Controle (Livros 0, 1 e 3):** criatura Derrubada fica **Firme por 2 rodadas** depois de se levantar. Criatura de Rank acima só perde a Ação Maior na **1ª queda da cena**; nas seguintes, levanta com o Movimento. Criatura Atordoada também fica Firme por 2 rodadas e não pode ser Atordoada de novo nesse tempo.
+- **Sangrando e Queimando em criaturas (Livros 0, 1 e 2):** duram **3 turnos da criatura**.
+- **Alquimista da Peste (Livro 2):** Destilar Toxina reveste a arma **1 vez por cena** (2 acertos).
+- **Devorador Carmesim (Livro 2):** as garras causam **1 de Dano (2 em CD + 3)**, como as da Besta Lunar.
+- **Predador Silencioso (Livro 2):** Golpe na Jugular só contra alvo **surpreso ou cercado por 3 ou mais**, e dá só **+1 de Dano** (sem bônus na rolagem).
+- **Perfil de Chefe (Livros 1 e 3):** chances atualizadas para o pacote completo: cerca de 1 em 4 na briga direta e 93% com plano.
