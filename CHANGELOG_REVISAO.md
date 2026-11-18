@@ -48,3 +48,9 @@
 
 ## Condições em Inimigos (18/11/2026)
 - **Livros 0, 1, 2 e 3:** as condições baixam a CD de um inimigo **no máximo `-1` no total**, mesmo com várias ao mesmo tempo. O **dano contínuo** (Sangrando, Queimando, toxinas) **soma normalmente**: cada efeito causa o seu dano no início do turno do inimigo.
+
+## Mesas de 7 e Portadora da Luz em Postos altos (18/11/2026)
+- **Perfil de Chefe por tamanho de mesa (Livros 0, 1, 3 e 4):** até 5 jogadores, o chefe continua com **3× PV**. Com **6 ou 7 jogadores**, ele usa **6× PV** e ataca **até 5 alvos** (Demônio `84 PV`, Diabo `108 PV`). Contra 6–7 Despertos, um chefe Caído fica com cerca de `120 PV`, até 5 alvos e Dano `5`. Tabela nova no Livro 3, Seção 5.2, e notas nas fichas do bestiário e nos chefes do Livro 4. Nas simulações com 7 jogadores, a briga direta vence em `~24%` e o plano em `~91%` (eram `23%`/`93%` com 4 jogadores).
+- **Orçamento de Ameaça em mesas grandes (Livros 0, 3 e 4):** o teto continua sendo `1 ×` o número de jogadores. Novo aviso: com 6–7 jogadores, uma luta dentro do Orçamento fica fácil; para assustar, use uma 2ª onda ou um chefe no Perfil de 6× PV, sem aumentar o Dano.
+- **Portadora da Luz (Livro 2):** a Chama da Alma passa a dar `+8 / +9 / +10 / +11 / +12` de Dano do `[3/7]` ao `[7/7]` (eram `+4` a `+8`). As rolagens continuam travadas em `+3`. Assim ela fica cerca de `1` de Dano por rodada acima do Escravo das Sombras do mesmo Posto.
+- **Defeito da Portadora (Livros 2 e 3):** depois de 3 turnos seguidos de chama acesa, ela rola `Mente [Vontade] CD 7` a cada turno. Se falhar, sofre `-1` em **todas** as suas rolagens naquele turno, inclusive Defesa.

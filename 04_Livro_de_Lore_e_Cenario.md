@@ -580,7 +580,7 @@ Quando os 7 jogadores encontrarem uma ruína inesperada no meio de uma viagem pe
 O **Reino dos Sonhos** não é um único planeta ordenado, mas um mosaico colossal e fraturado formado pelos cadáveres dos seis Reinos Divinos colididos após a Guerra da Perdição. Cada região abaixo funciona como um **palco sandbox independente**, com suas próprias leis físicas anômalas, ecologia letal, quatro grandes locais exploráveis, **uma Cidadela Conquistável** e três ganchos de campanha prontos para a Coorte de 7 jogadores. Cada região traz uma tabela rápida de encontros (`1d6`); para viagens longas, o *Livro 3, Seção 4.3* oferece matrizes `2d6` mais extensas para as mesmas regiões.
 
 
-> ⚖️ **Lendo as Tabelas `1d6` de Encontros com o Orçamento de Ameaça (*Livro 3, Seção 5.1*):** cada tabela foi pensada para a **Coorte do Rank indicado** logo abaixo dela e uma mesa de **7 jogadores**. A Ameaça de um encontro é `nº de jogadores atacados por rodada × Dano` somada para todas as criaturas; o Orçamento é **1 × o número de jogadores**. Como estas tabelas não trazem Dano, a estimativa usa a *Matriz Rank × Classe* (*Livro 3, Seção 5.2*): Besta ataca 1 alvo, Monstro e Demônio 2, Diabo e Tirano 3; Dano `1` (Adormecida), `2` (Desperta e Caída) e `3` (Corrompida ou acima). **⚠️ Fuga/Evitar** = criatura de Rank acima da Coorte num encontro acima do Orçamento, ou criatura 2+ Ranks acima. **⚖️** = mesmo Rank, mas golpes demais por rodada: divida em ondas.
+> ⚖️ **Lendo as Tabelas `1d6` de Encontros com o Orçamento de Ameaça (*Livro 3, Seção 5.1*):** cada tabela foi pensada para a **Coorte do Rank indicado** logo abaixo dela e uma mesa de **7 jogadores**. A Ameaça de um encontro é `nº de jogadores atacados por rodada × Dano` somada para todas as criaturas; o Orçamento é **1 × o número de jogadores**. Como estas tabelas não trazem Dano, a estimativa usa a *Matriz Rank × Classe* (*Livro 3, Seção 5.2*): Besta ataca 1 alvo, Monstro e Demônio 2, Diabo e Tirano 3; Dano `1` (Adormecida), `2` (Desperta e Caída) e `3` (Corrompida ou acima). **⚠️ Fuga/Evitar** = criatura de Rank acima da Coorte num encontro acima do Orçamento, ou criatura 2+ Ranks acima. **⚖️** = mesmo Rank, mas golpes demais por rodada: divida em ondas. **Chefes** em Perfil de Chefe seguem a tabela por tamanho de mesa do *Livro 3, Seção 5.2* (3× PV até 5 jogadores; 6× PV e até 5 alvos com 6–7).
 ---
 
 ## 5.1 🌊 Região 1: A Costa Esquecida (*The Forgotten Shore*)
@@ -604,7 +604,7 @@ Um vasto deserto labiríntico formado por recifes de coral carmesim petrificado 
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | Bando de **3 Carniceiros da Carapaça** | Desperta — Besta | **9** | Patrulham corredores em bando; atacam os flancos mais frágeis. |
 | **3** | **2 Aranhas de Ferro** em teia metálica | Desperta — Monstro | **9** | Tecem fios invisíveis entre torres de coral para prender batedores. ⚠️ **Fuga/Evitar** *(Ameaça ~8 > 7; Despertas contra Adormecidos)* |
-| **4** | **Centurião da Carapaça** solitário | Desperta — Demônio | **10** | Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 42 PV, Dano 3, 3 alvos — ⚠️ **Fuga/Evitar** *(Ameaça 9 > 7)* sem Relógio de Preparação. |
+| **4** | **Centurião da Carapaça** solitário | Desperta — Demônio | **10** | Guarda ninhos ricos em Fragmentos; usa foices ósseas e escudo dorsal. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 42 PV, Dano 3, 3 alvos — ⚠️ **Fuga/Evitar** *(Ameaça 9 > 7)* sem Relógio de Preparação. *Mesa de 6–7: 84 PV e até 5 alvos.* |
 | **5** | **Verme Escavador de Lodo** | Desperta — Monstro | **9** | Emerge do chão lamacento abaixo da fila do meio da Coorte. |
 | **6** | **Besta Marinha Encalhada** *(ou Sombra do Mar)* | Caída — Diabo | **12** | Presa em uma fenda esperando a maré; ataca apenas quem se aproxima! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima de Adormecidos)* |
 
@@ -947,7 +947,7 @@ Uma bacia verdejante e enganosamente pacífica onde dias claros, nuvens suaves e
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | **Enxame de Vespas de Sangue** | Adormecida — Besta | **8** | Injetam toxina paralisante e perseguem o cheiro de ferimentos abertos. |
 | **3** | **Matilha de 3 Lobos de Prata** | Desperta — Monstro | **9** | Caçadores velozes que flanqueiam pela retaguarda atacando os feridos. ⚠️ **Fuga/Evitar** *(Despertos contra Adormecidos: Ameaça ~12)* |
-| **4** | **Troll de Casca Vermelha** | Desperta — Demônio | **11** | Regenera 2 PV por rodada sob a sombra da selva (vulnerável a fogo!). 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 3× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. |
+| **4** | **Troll de Casca Vermelha** | Desperta — Demônio | **11** | Regenera 2 PV por rodada sob a sombra da selva (vulnerável a fogo!). 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 3× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. *Mesa de 6–7: 6× PV e até 5 alvos (Ameaça 15, só com plano).* |
 | **5** | **Clone Espelhado da Margem** | Caída — Diabo | **12** | Sai da água do Lago imitando a voz e a arma de um membro da Coorte! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima)* |
 | **6** | **Árvore-Caçadora Centenária** | Corrompida — Tirano | **13** | Move vinte tentáculos de madeira rubra prendendo toda uma caravana! ⚠️ **Fuga/Evitar** *(Corrompida: 3 Ranks acima)* |
 
@@ -1033,7 +1033,7 @@ Uma terra gótica, austera e hipnotizante onde vulcões gigantescos vomitam colu
 | :---: | :--- | :--- | :---: | :--- |
 | **1–2** | **Bando de 4 Corvos de Sangue** | Adormecida — Besta | **8** | Vigiam estradas e bicam os olhos de viajantes caídos ou distraídos. |
 | **3** | **2 Javalis de Carvão Furiosos** | Desperta — Monstro | **9** | Investem através da fumaça com presas incandescentes (*Queimando*). ⚠️ **Fuga/Evitar** *(Despertos contra Adormecidos: Ameaça ~8)* |
-| **4** | **Salamandra Ígnea das Fendas** | Desperta — Demônio | **11** | Emerge de rios de lava próxima atirando bolas de escória derretida. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 3× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. |
+| **4** | **Salamandra Ígnea das Fendas** | Desperta — Demônio | **11** | Emerge de rios de lava próxima atirando bolas de escória derretida. 👑 **Perfil de Chefe** contra Adormecidos: CD 11 (12 na mesa), 3× PV, Dano 3 *(Ameaça ~6: cabe no Orçamento de 7; ⚠️ Fuga/Evitar em mesas de até 5)*. *Mesa de 6–7: 6× PV e até 5 alvos (Ameaça 15, só com plano).* |
 | **5** | **Marionete Desgarrada de Osso** | Caída — Diabo | **12** | Um cadáver gigantesco reanimado que perdeu o mestre e ataca tudo vivo! ⚠️ **Fuga/Evitar** *(Caída: 2 Ranks acima)* |
 | **6** | **Serpe / Dragão de Cinza** | Corrompida — Tirano | **13** | Mergulha de tempestades de fumaça envolvendo a área em cinza sufocante. ⚠️ **Fuga/Evitar** *(Corrompida: 3 Ranks acima)* |
 

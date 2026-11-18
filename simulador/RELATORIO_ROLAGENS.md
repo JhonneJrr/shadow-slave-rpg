@@ -975,6 +975,23 @@ O Defeito só pega em lutas longas (Saturado: ~4,7 rodadas, quase metade dos tur
 
 **Recomendação (sem mudar os livros agora):** (1) Para mesas de 7, avisar o Mestre de que o chefe 3× PV é calibrado para 4–5 jogadores. Usar ~6× PV + 5 alvos no Saturado e ~120 PV + 5 alvos + 1 Dano no Desperto, ou subir o Orçamento de Ameaça para encontros comuns. (2) Se a intenção é a Portadora ficar ~1 acima do Escravo em dano, a escala +4..+8 é insuficiente em Postos altos (ficaria +6..+10, ou a chama ignorar 1 de defesa). Sem isso, ela segue equilibrada, logo abaixo. (3) Defeito: manter, e deixar claro que o −1 vale para todas as rolagens dela. Senão ele quase não existe.
 
+### 9.13 Nova escala da chama da Portadora da Luz e chefe por tamanho de mesa (18/11/2026)
+
+Mesmo método do item 3 da 9.12: Coorte de 7, ficha de Desperto, só muda o nº de Núcleos, chefes 7j incluídos. A chama ganhou um Dano extra a partir do `[3/7]` (`chama_extra` em `aspectos.py`; `rodar_7p.py q5`, `analise_7p_q5.py`, `resultados/sete_q5b.json`). Escravo das Sombras = 9.12. "Dif." = Portadora − Escravo em dano por rodada (em todos os cenários / só contra o chefe).
+
+| Posto | Escravo: nota / dano por rodada | Chama +4..+8 (antiga): nota / dif. | +6..+10: nota / dif. | +7..+11: nota / dif. | **+8..+12 (escolhida): nota / dif.** |
+|---|---|---|---|---|---|
+| Demônio [3/7] | 13,0 / 5,13 | 8,8 / −0,23 (−0,54) | 10,7 / +0,56 (+0,50) | 11,5 / +0,95 (+0,93) | **12,4 / +1,33 (+1,43)** |
+| Diabo [4/7] | 14,6 / 5,69 | 10,2 / −0,39 (−0,95) | 12,1 / +0,42 (+0,06) | 13,3 / +0,77 (+0,57) | **14,9 / +1,20 (+1,07)** |
+| Tirano [5/7] | 17,9 / 6,16 | 11,6 / −0,48 (−1,27) | 14,8 / +0,29 (−0,23) | 16,5 / +0,71 (+0,25) | **18,1 / +1,06 (+0,73)** |
+| Terror [6/7] | 18,6 / 6,65 | 15,0 / −0,57 (−1,35) | 18,4 / +0,21 (−0,36) | 20,2 / +0,56 (+0,10) | **21,1 / +0,92 (+0,64)** |
+| Titã [7/7] | 21,1 / 7,18 | 19,1 / −0,72 (−1,70) | 22,0 / +0,05 (−0,65) | 23,2 / +0,33 (−0,19) | **24,1 / +0,76 (+0,43)** |
+
+- A faixa sugerida de +6..+10 só empata com o Escravo, porque as Sombras dele crescem a cada Núcleo. A escala **+8..+12** deixa a Portadora em média **+1,05 de dano por rodada** acima dele (de +1,33 no [3/7] a +0,76 no Titã), com as rolagens ainda travadas em +3.
+- Não quebra o jogo: a nota dela fica perto da do Escravo do [3/7] ao [5/7] (12,4 × 13,0; 14,9 × 14,6; 18,1 × 17,9) e passa um pouco no topo (21,1 × 18,6 e 24,1 × 21,1), sempre na faixa T0 dos dois. A vitória contra o chefe 7j em briga direta sobe de 19–51% para 31–67%.
+- Nada muda até o [2/7] (Novato, Saturado e Desperto 2/7): a tier list e o Defeito da 9.12 continuam valendo. O Defeito escrito no livro corresponde à variante "−1 em tudo" (nota 7,8 → 7,1).
+- Aplicado nos livros: escala +8..+12 no Livro 2, Defeito "−1 em todas as rolagens, inclusive Defesa" (Livros 2 e 3) e Perfil de Chefe por tamanho de mesa (3× PV até 5 jogadores; 6× PV e até 5 alvos com 6–7; 120 PV/5 alvos/Dano 5 para Despertos), no Livro 3 (5.1, 5.2, bestiário, resumo), Livro 1, Livro 4 e Livro do Novato.
+
 ## 10. Pontos ainda em aberto
 
 | Tema | Situação |

@@ -700,6 +700,7 @@ Cada um dos **60 Defeitos** abaixo está organizado em **5 Famílias** (12 por f
 #### 13. `[Agonia do Poder (Agony of the Flame)]`
 - **Categoria Mecânica:** Categoria II — Preço e Agonia
 - **Inscrição das Runas:** *"[O fogo da criação não distingue inimigo e portador; cada milagre exige que sua carne queime primeiro.]"*
+- **Na Portadora da Luz:** vale a versão do *Livro 2* (depois de 3 turnos seguidos de chama acesa, ela rola `Mente [Vontade] CD 7` a cada turno; se falhar, `-1` em **todas** as rolagens dela naquele turno, inclusive Defesa).
 - **Efeito Mecânico Exato:** Toda vez que você canaliza ativamente uma Habilidade de Aspecto (exceto Passivas Inatas), sente a dor física real e excruciante de ter seus ossos e veias incendiados ou rasgados por dentro. Nos **2 primeiros usos** na mesma cena, você apenas suporta a dor com grunhidos e suor frio (efeito puramente dramático). A partir do **3º uso na mesma cena**, cada ativação adicional exige um teste de **`Mente (Vontade)` CD 7** — se falhar, o choque nervoso causa **`1 de Dano` físico (ou `-1` na rolagem daquela ação)**!
 - **Como Pesa na Mesa:** Em lutas curtas de 2 rodadas você parece invencível; mas em cercos longos contra hordas ou Chefes, cada cura ou ataque poderoso vira uma aposta mortal contra seu próprio limiar de dor!
 - **Como Contornar / Interpretar na Coorte:** Economize o uso ativo do Aspecto nos primeiros turnos lutando com armas físicas puras, invista cedo em `[Mente de Ferro]` ou `Especialização [1d8]` em `Mente (Vontade)` e apoie-se no Vínculo `[Guardião do Segredo / Âncora do Defeito]` com um parceiro (*Livro 2, Seção 1.3*)!
@@ -1709,7 +1710,7 @@ Sempre que a Coorte viajar em área selvagem por um dia, acampar após falha do 
 | :---: | :--- | :--- |
 | **2** | **Terror à Vista!** Um *Demônio/Tirano Caído* (ou a silhueta da *Árvore Devoradora de Almas*) surge no horizonte; a Coorte deve fugir ou esconder-se (`Furtividade` CD 9)! | **Calamidade Abissal!** O céu rasga em uma *Tempestade de Alma* enquanto os tentáculos da *Serpente do Mar Negro* emergem ao lado do casco! |
 | **3–4** | **Emboscada Noturna da Maré:** `4 Afogados do Mar Amaldiçoado` + `2 Escavadores de Coral` cercam o grupo perto de uma fenda inundada. | **Canto da Morte:** ⚠️ **Fuga/Evitar** *(Ameaça 21 > 7; Sereia e Enguias Despertas)* `1 Sereia dos Sussurros` empoleirada em um recife atrai os marinheiros enquanto `3 Enguias de Relâmpago` cercam o leme. |
-| **5–6** | **Patrulha da Carapaça:** ⚠️ **Fuga/Evitar** *(Ameaça 16 > 7; Centurião Desperto em 👑 Perfil de Chefe: CD 12, 42 PV, Dano 3 — só com Relógio de Preparação e pegando-o sozinho)* `5 Saqueadores da Carapaça` liderados por `1 Centurião da Carapaça` disputando a carcaça de uma besta gigante. | **Cardume Elétrico:** ⚠️ **Fuga/Evitar** *(Ameaça 26 > 7; Enguias Despertas)* `4 Enguias de Relâmpago Abissal` + `2 Afogados` escalam o casco pelos cabos da âncora em meio ao nevoeiro. |
+| **5–6** | **Patrulha da Carapaça:** ⚠️ **Fuga/Evitar** *(Ameaça 16 > 7; Centurião Desperto em 👑 Perfil de Chefe: CD 12, 42 PV (84 PV e até 5 alvos com 6–7 jogadores), Dano 3 — só com Relógio de Preparação e pegando-o sozinho)* `5 Saqueadores da Carapaça` liderados por `1 Centurião da Carapaça` disputando a carcaça de uma besta gigante. | **Cardume Elétrico:** ⚠️ **Fuga/Evitar** *(Ameaça 26 > 7; Enguias Despertas)* `4 Enguias de Relâmpago Abissal` + `2 Afogados` escalam o casco pelos cabos da âncora em meio ao nevoeiro. |
 | **7** | **Vestígio de Antigos Adormecidos:** Esqueletos de uma Coorte antiga em uma caverna seca. Contém **1d6 Fragmentos Adormecidos**, um diário e o mapa de uma Estátua Sem Cabeça! | **Farol Abandonado ou Destroço:** Um barco sem tripulação ou farol apagado contendo **3 Fragmentos Despertos**, suprimentos navais e 1 pista sobre um Navio-Cidadela. |
 | **8–9** | **Alcateia das Ruínas:** ⚖️ *Acima do Orçamento (Ameaça 8 > 7): comece com 5 Carniçais + o Alfa; o 6º chega na rodada 2.* `6 Carniçais das Ruínas` + `1 Carniçal Alfa` cercam o grupo ao crepúsculo tentando derrubar o mais isolado. | **Corsários Renegados:** Um veleiro de `5 Saqueadores / Navegadores Renegados` aborda a embarcação exigindo pedágio em Fragmentos. |
 | **10–11** | **Coorte Humana Rival:** `5 Guardas de Elite` ou `4 Saqueadores do Castelo Brilhante` (atitude *Desconfiada* — CD 9 para negociar passagem ou rendição). | **Patrulha da Casa da Noite:** Um navio patrulheiro liderado por `1 Navegador da Casa da Noite` (pode contratar a Coorte ou cobrar taxa portuária!). |
@@ -1807,6 +1808,8 @@ O que mata uma Coorte não é o PV do monstro — é **quantos golpes chegam por
 
 > 📊 **Por que funciona:** nas simulações do sistema (10 mil combates por cenário), encontros dentro do Orçamento terminaram em vitória da Coorte quase sempre e raramente derrubaram alguém; acima de ~2× o Orçamento, mais da metade das lutas derrubou pelo menos um jogador.
 
+> 👥 **Mesas grandes (6 ou 7 jogadores):** o Orçamento continua sendo o **teto de uma luta justa**, mas com 7 pessoas uma luta dentro dele fica **tranquila**: nas simulações com 7 jogadores, quase todas terminaram em vitória e quase ninguém caiu. Isso é bom para lutas de passagem. Quando quiser uma luta que assuste, **não aumente o Dano**: mantenha cada onda dentro do Orçamento e traga uma **2ª onda** quando a 1ª cair, ou use um chefe no Perfil de 6× PV (*Seção 5.2*), sempre com Relógio de Preparação.
+
 
 ### 🧭 Relógio de Preparação: Como Conduzir um Plano Bem Executado
 Encontros marcados como **⚠️ Fuga/Evitar** — e todo chefe em **Perfil de Chefe** — não são proibidos: são lutas que só devem acontecer **com plano**. A regra está no *Livro 1, Seção 1.7*. Como Mestre:
@@ -1825,7 +1828,7 @@ Encontros marcados como **⚠️ Fuga/Evitar** — e todo chefe em **Perfil de C
 | Plano tático + *Fraqueza Estudada* | `~94%` | `~33%` |
 | Plano tático + *Terreno Escolhido* | `~91%` | `~61%` |
 
-> 📊 **Com o Perfil atual (3× PV) e Coortes com Aspectos** (80 grupos aleatórios de Adormecidos saturados): a briga direta vence em cerca de **1 em 4** (`~23%`) e o plano com Relógio de Preparação em cerca de **93%**. Sem Aspectos, o mesmo chefe vence em `0%` na briga direta e em `~42%` com plano.
+> 📊 **Com o Perfil atual (3× PV) e Coortes com Aspectos** (80 grupos aleatórios de 4 Adormecidos saturados): a briga direta vence em cerca de **1 em 4** (`~23%`) e o plano com Relógio de Preparação em cerca de **93%**. Sem Aspectos, o mesmo chefe vence em `0%` na briga direta e em `~42%` com plano. **Mesa de 6 ou 7:** use o Perfil de 6× PV e até 5 alvos (*Seção 5.2*); com ele, uma Coorte de 7 fica em `~24%` na briga direta e `~91%` com plano.
 
 > 🎙️ **Exemplo de Mesa (Conduzindo a Preparação):** A Coorte acha marcas de foice nas paredes de coral: é o território de um **Centurião da Carapaça** em Perfil de Chefe (CD 12 contra Adormecidos, 42 PV, Dano 3, 3 alvos — Ameaça 9 numa mesa de 4: **Fuga/Evitar**). O Mestre pergunta se querem se preparar e desenha os dois relógios.
 > - **Cena 1:** Lyra segue as trilhas de muco até o ninho (`Astúcia`, CD 8) e tira Pleno: Preparação **2/4**.
@@ -1864,11 +1867,20 @@ Precisa inventar uma abominação inédita do zero no meio da sessão? Cruze o *
 
 > 👑 **Perfil de Chefe (Demônio e Diabo Despertos contra Coorte de Rank abaixo):** quando um **Demônio ou Diabo Desperto** é o chefe da cena contra uma Coorte **Adormecida** (ou de Rank ainda menor), troque a ficha pelo Perfil de Chefe:
 > - **CD 11** na ficha (vira **12** contra Adormecidos pela regra de `+1` por Rank);
-> - **PV × 3** (Demônio da Matriz: `42`; Diabo: `54`);
+> - **PV × 3** (Demônio da Matriz: `42`; Diabo: `54`) em mesas de **até 5 jogadores**; **PV × 6** e **até 5 alvos** em mesas de **6 ou 7** (tabela abaixo);
 > - **Dano `+1`** em cada alvo (Dano de Alma também);
-> - Mesmo número de alvos e as mesmas habilidades da ficha.
+> - Mesmo número de alvos (até 5 jogadores) e as mesmas habilidades da ficha.
 >
-> Na obra, um Demônio Desperto é um pesadelo para Adormecidos — e os números confirmam: sem o Perfil de Chefe, 4 Adormecidos saturados (Marco 10, Memórias e Ecos) vencem a ficha comum em 100% das simulações. O Perfil usa **3× PV** porque uma Coorte com Aspectos atropelava o antigo de 2×: com o Perfil atual, Coortes com Aspectos vencem a **briga direta** em cerca de **1 em 4** lutas, e um grupo que se **prepara** (Relógio de Preparação, emboscada, terreno, *Proteger Aliado*) volta para cerca de **93%** — quase sempre com alguém caindo. Sem Aspectos, nem o plano garante a vitória (`~42%`). Com Dano 3 em 2–3 alvos, o Perfil de Chefe sozinho já tem **Ameaça 6–9**: passa do Orçamento de mesas de até 5 jogadores (e de 7, se atacar 3 alvos) e vira **Fuga/Evitar** até a Coorte montar um plano (*Relógio de Preparação*, Seção 5.1).
+> **Perfil de Chefe pelo tamanho da mesa:**
+> | Mesa | PV do chefe | Alvos por rodada | Dano |
+> | :---: | :---: | :---: | :---: |
+> | **3 a 5 jogadores** | **3×** o PV da ficha (Demônio `42`, Diabo `54`) | os da ficha (2–3) | ficha `+1` |
+> | **6 ou 7 jogadores** | **6×** o PV da ficha (Demônio `84`, Diabo `108`) | **até 5** | ficha `+1` |
+> | **6 ou 7 Despertos contra chefe Caído** *(Rank acima)* | cerca de **`120`** | **até 5** | **`5`** |
+>
+> 👥 **Por que a mesa grande pede mais:** com 7 jogadores, o chefe de 3× PV some em 2 ou 3 rodadas (nas simulações, a briga direta vence em `100%`). Com os números da 2ª linha, uma Coorte de 7 com Aspectos volta à curva de uma mesa de 4: a briga direta vence em cerca de **1 em 4** lutas (`~24%`) e o plano com Relógio de Preparação em cerca de **9 em 10** (`~91%`). Contra Despertos, a 3ª linha dá `~22%` e `~88%`. **Na dúvida, conte quem está na mesa hoje e use a linha certa.**
+>
+> Na obra, um Demônio Desperto é um pesadelo para Adormecidos — e os números confirmam: sem o Perfil de Chefe, 4 Adormecidos saturados (Marco 10, Memórias e Ecos) vencem a ficha comum em 100% das simulações. O Perfil usa **3× PV** porque uma Coorte com Aspectos atropelava o antigo de 2×: com o Perfil atual, Coortes com Aspectos vencem a **briga direta** em cerca de **1 em 4** lutas, e um grupo que se **prepara** (Relógio de Preparação, emboscada, terreno, *Proteger Aliado*) volta para cerca de **93%** — quase sempre com alguém caindo. Sem Aspectos, nem o plano garante a vitória (`~42%`). Com Dano 3 em 2–3 alvos, o Perfil de Chefe sozinho já tem **Ameaça 6–9**: passa do Orçamento de mesas de até 5 jogadores (e de 7, se atacar 3 alvos) e vira **Fuga/Evitar** até a Coorte montar um plano (*Relógio de Preparação*, Seção 5.1). Na mesa de 6 ou 7, com 5 alvos, a Ameaça vai a **15**: é sempre luta **com plano**.
 
 > **Regra Prática de Ataques Simultâneos por Classe:**
 > - **Besta (1 Núcleo):** Ataca **1 alvo** por turno (mas caça em bandos de 4 a 8).
@@ -2394,7 +2406,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 13. Centurião da Carapaça (*Carapace Centurion*)
 *Demônio Desperto | Costa Esquecida (Líder de Bando)*
 - **CD:** **10** | **PV:** **14** | **Dano:** **2**
-- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 42** | **Dano 3** — Fuga/Evitar sem preparação.
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 42** | **Dano 3** — Fuga/Evitar sem preparação. *Mesa de 6 ou 7: **PV 84** e até **5 alvos**.*
 - **Ecologia & Descrição Visual Assustadora:** A evolução temida do *Saqueador*: um colosso bípede de três metros em armadura natural de quitina carmesim quase polida, com crista real na cabeça, braços pesados em forma de alabardas naturais e um olhar frio e calculista que estuda as armas dos humanos antes de avançar.
 - **Atributos da Criatura:** `[Mente Tática]` *(foca curandeiros e bloqueia flancos)* • `[Blindagem Imperial]` *(reduz 1 de Dano frontal)* • `[Escudo de Foice]`.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Comanda `2 a 4 Saqueadores` como infantaria descartável enquanto escolhe o momento certo para atacar! Com sua **Varredura de Foice Dupla**, golpeia **até 3 jogadores em Corpo a Corpo** simultaneamente (**2 de Dano**) — e consegue **aparar flechas isoladas** de `Olho de Falcão` caso não venham acompanhadas de Dádiva ou magia!
@@ -2407,7 +2419,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 14. Gárgula da Névoa Branca
 *Demônio Desperto | Montanhas Ocas / Picos Nevados / Antártica*
 - **CD:** **10** | **PV:** **12** | **Dano:** **2**
-- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 36** | **Dano 3** — Fuga/Evitar sem preparação.
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 36** | **Dano 3** — Fuga/Evitar sem preparação. *Mesa de 6 ou 7: **PV 72** e até **5 alvos**.*
 - **Ecologia & Descrição Visual Assustadora:** Predadores esculpidos em carne cinzenta tão dura quanto granito polido, com asas membranosas rasgadas por gelo, chifres curvados para trás e garras capazes de arrancar pedaços de armaduras metálicas em pleno voo silencioso dentro da bruma.
 - **Atributos da Criatura:** `[Caçador da Neblina]` *(enxerga perfeitamente através de névoa e neve)* • `[Voo Rasante & Arrebatamento]`.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Usa a neblina para mergulhar de ângulos cegos! Em um turno, agarra um jogador isolado (`Corpo [Agilidade]` **CD 10**) para erguê-lo do penhasco ou torre; no outro, faz **Onda de Impacto Sônico** pousando no meio do grupo e atingindo **2 a 3 jogadores** (**2 de Dano** + *Caído* se tirar `CD - 3`).
@@ -2432,7 +2444,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 16. Sereia dos Sussurros (*Whispering Siren*)
 *Diabo Desperto | Costa Esquecida / Mar Tempestuoso / Lagoas Submersas*
 - **CD:** **10** | **PV:** **15** | **Dano:** **1 Físico ou 2 de Alma** *(+ Controle Mental)*
-- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 45** | **Dano 2 Físico ou 3 de Alma** — Fuga/Evitar sem preparação.
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 45** | **Dano 2 Físico ou 3 de Alma** — Fuga/Evitar sem preparação. *Mesa de 6 ou 7: **PV 90** e até **5 alvos**.*
 - **Ecologia & Descrição Visual Assustadora:** Uma silhueta enganosamente bela vista à distância sobre um recife — mas de perto revela-se uma criatura esguia de pele translúcida cinza-azulada, guelras sangrentas pulsando no pescoço, seis dedos palmados terminados em unhas de vidro e uma boca que se rasga até as orelhas quando canta.
 - **Atributos da Criatura:** `[Canção Abissal]` *(controle mental em massa)* • `[Grito de Alma]` • `[Anfíbia]`.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Nunca começa com força bruta! Entoa a **Canção Abissal** na Fase do Pesadelo: **todos os 7 jogadores que puderem ouvi-la** rolam `Mente (Vontade)` **CD 10**! Quem falhar fica hipnotizado e gasta seu Movimento caminhando lentamente para a água (ou ataca um companheiro que tentar impedir se tirar `CD - 4`!). Contra quem resistir e chegar perto, libera um **Grito de Alma** em cone contra **3 alvos** (**1 a 2 de Dano de Alma**!).
@@ -2457,7 +2469,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 18. Besta de Espelho (*Mirror Beast*)
 *Demônio Desperto | Bastion / Lago Espelhado / Ruínas de Mirage*
 - **CD:** **10** | **PV:** **12** | **Dano:** **2** *(Copia Arma e Habilidade)*
-- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 36** | **Dano 3** — Fuga/Evitar sem preparação.
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 36** | **Dano 3** — Fuga/Evitar sem preparação. *Mesa de 6 ou 7: **PV 72** e até **5 alvos**.*
 - **Ecologia & Descrição Visual Assustadora:** Uma criatura humanoide esguia sem rosto feita inteiramente de mercúrio sólido e vidro trincado que rasteja para fora de espelhos, armaduras muito polidas ou poças d'água paradas — assumindo instantaneamente a silhueta, a voz e até os olhos vazios da primeira vítima que encara.
 - **Atributos da Criatura:** `[Mimetismo Perfeito]` *(copia forma, arma e 1 golpe do alvo)* • `[Passo de Reflexo]` *(atravessa superfícies espelhadas)*.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Na 1ª rodada, assume a forma exata do guerreiro mais forte da Coorte (como o *Executor* ou *Baluarte*), copiando a arma e o dano dele (`2 de Dano`), e ataca **2 jogadores** tentando semear paranoia no grupo (imitando a voz do jogador copiado para gritar ordens erradas!). Se houver outra superfície espelhada na sala, usa Movimento para desaparecer de um espelho e sair pelas costas do grupo!
@@ -2470,7 +2482,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 19. Mariposa Devoradora de Sonhos
 *Diabo Desperto | Florestas Vermelhas / Tumba de Ariel / Ruínas Antigas*
 - **CD:** **10** | **PV:** **13** | **Dano:** **1 de Dano de Alma** *(+ Pó Sonífero e Pesadelos)*
-- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 39** | **Dano 2 de Dano de Alma** — Fuga/Evitar sem preparação.
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 39** | **Dano 2 de Dano de Alma** — Fuga/Evitar sem preparação. *Mesa de 6 ou 7: **PV 78** e até **5 alvos**.*
 - **Ecologia & Descrição Visual Assustadora:** Inseto gigantesco de quatro metros de envergadura cujas asas de veludo negro exibem padrões hipnóticos de olhos humanos reais que piscam e choram poeira prateada brilhante sempre que ela bate as asas no silêncio da noite.
 - **Atributos da Criatura:** `[Pó Prateado do Sono]` *(narcótico em massa)* • `[Devorador Onírico]` *(ataca quem dorme com Dano de Alma)*.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Sobrevoa o acampamento ou salão espalhando uma nuvem de pó prateado sobre **até 4 jogadores** na faixa *Perto* (`Corpo [Vigor]` **CD 9** ou caem em sono profundo *Incapacitado/Caído* por 2 rodadas!). No turno seguinte, mergulha para sugar os sonhos dos alvos adormecidos causando **1 de Dano de Alma** em cada um (e curando **1 PV** por alvo drenado)!
@@ -2483,7 +2495,7 @@ O coração da aventura no Reino dos Sonhos após o retorno da Costa Esquecida, 
 ### 20. Flor Carnívora Gigante (*Bloodblossom Stalker*)
 *Demônio Desperto | Florestas Vermelhas / Costa Esquecida / Godgrave*
 - **CD:** **9** | **PV:** **15** | **Dano:** **2** *(4 Tentáculos + Bocarra Ácida)*
-- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 45** | **Dano 3** — Fuga/Evitar sem preparação.
+- **👑 Perfil de Chefe** *(contra Coorte Adormecida — Seção 5.2)*: **CD 11** (**12** contra Adormecidos) | **PV 45** | **Dano 3** — Fuga/Evitar sem preparação. *Mesa de 6 ou 7: **PV 90** e até **5 alvos**.*
 - **Ecologia & Descrição Visual Assustadora:** Um bulbo colossal disfarçado entre raízes e flores perfumadas: quando ativada, abre pétalas cor de carne crua do tamanho de velas de navio, revelando um estômago cheio de suco digestivo fumegante e quatro cipós grossos com espinhos em forma de anzol.
 - **Atributos da Criatura:** `[Camuflagem Floral]` • `[Quatro Tentáculos]` *(ataca até 4 jogadores diferentes)* • `[Digestão Ácida]`.
 - **Comportamento & Ataques (Contra 7 Jogadores):** Fica imóvel no centro da arena e usa seus **4 Tentáculos de Vinha** para atacar **até 4 jogadores simultaneamente** até a faixa *Perto* (**2 de Dano**)! Quem tirar `CD - 2` ou pior na Defesa fica **Imobilizado** e é arrastado 1 faixa para dentro da bocarra ácida (sofrendo **+1 de Dano ácido** no início de cada turno preso!).
@@ -2968,7 +2980,8 @@ Imprima ou mantenha esta página aberta durante toda a sessão para mestrar qual
 > | **Corrompida (*Corrupted*)** | **12** | **2 – 3** *(4 Terror)* | `12–14` / `18–22` / `24–28` / `28–40` |
 > | **Grande (*Great*)** | **13+** | **3 – 4** | `18+` / `24+` / `30+` / `35–55+` *(+Partes)* |
 > - **Diferença de Rank:** **`±1 na CD por Rank de diferença`**! *(Jogador 1 Rank acima = `-1 CD`; Monstro 1 Rank acima = `+1 CD`)*.
-> - **Orçamento de Ameaça:** `Σ (alvos × Dano)` das criaturas na rodada `≤` nº de jogadores. Criatura de Rank acima num encontro acima do Orçamento = **Fuga/Evitar**.
+> - **Orçamento de Ameaça:** `Σ (alvos × Dano)` das criaturas na rodada `≤` nº de jogadores. Criatura de Rank acima num encontro acima do Orçamento = **Fuga/Evitar**. Com 6–7 jogadores, lutas dentro do Orçamento ficam fáceis: para assustar, use ondas.
+> - **Perfil de Chefe:** CD 11 (12 contra Adormecidos), Dano `+1`; **3× PV** com até 5 jogadores; **6× PV e até 5 alvos** com 6 ou 7 (*Seção 5.2*).
 >
 > #### 3. MATRIZ DE GRAUS DE SUCESSO (`LIVRO 1, 1.4`)
 > - **`CD - 4` ou pior — Falha com Infortúnio:** Erra **E** leva `1 de Dano` de contra-ataque / cai / degrada Armadura / alerta ninho.

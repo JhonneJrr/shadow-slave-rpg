@@ -293,6 +293,8 @@ Quando um inimigo ataca, o Mestre descreve o golpe e anuncia a CD. Você rola a 
 > 📌 **Inimigos fortes atacam vários alvos.** Elites e chefes fazem **Ataques Varridos**: atingem 2 a 4 jogadores ao mesmo tempo, e cada um rola a própria defesa. Quando um jogador faz um ataque em área, ele rola **uma vez só** e compara o resultado com a CD de cada inimigo na área.
 
 > ⚖️ **Orçamento de Ameaça (para o Mestre):** para cada criatura da luta, multiplique **quantos alvos ela ataca por turno × o dano dela**, e some tudo. Esse total deve ficar **no máximo igual ao número de jogadores** (1× o número de jogadores). Exemplo com 4 jogadores: 4 Carniçais (1 alvo × 1 de dano cada) somam **4**: no limite. Um chefe com Ataque Varrido em 3 alvos e Dano 2 soma **6**, então só cabe numa mesa de 6 ou mais, ou com o Varrido reduzido. Todos os encontros do [Capítulo 5](#capítulo-5-aventura-introdutória--a-última-vigília-do-templo-cinzento) já respeitam esse orçamento. **Chefes de Rank acima:** um Demônio ou Diabo Desperto que enfrenta Adormecidos usa o **Perfil de Chefe** (CD 11, o triplo de PV e `+1` de Dano; [Livro 3, Seção 5.2](Livro_03_Mestre_Estilizado.html#52-matriz-de-criação-de-monstros--20-mutações-e-poderes-de-diabostiranosterrores)), e só deve ser enfrentado com um Relógio de Preparação.
+>
+> 👥 **Mesa de 6 ou 7 jogadores:** o chefe usa **6× o PV** (o dobro do normal) e ataca **até 5 jogadores** por rodada. Com o triplo, 7 jogadores derrubam o chefe rápido demais. E lembre: com 6 ou 7 pessoas, uma luta dentro do Orçamento fica fácil. Para uma luta que assuste, traga uma **2ª onda** quando a 1ª cair, sem aumentar o dano.
 
 ### Flanquear e cercar
 Dois aliados em **lados opostos** de um inimigo, em corpo a corpo, ganham `+1` cada nos ataques corpo a corpo contra ele. Com **3 ou mais** cercando por lados diferentes, o bônus sobe para `+2`. Esse é o jeito mais simples de uma Coorte de novatos derrubar um monstro mais forte. As regras completas de posicionamento e as **15 Manobras** (derrubar, empurrar, agarrar, proteger aliado...) estão em [Livro 1, Seção 5.2](Livro_01_Sistema_Estilizado.html#52-posicionamento-as-5-faixas-de-distância-cobertura-flanqueamento-e-altura) e [Livro 1, Seção 5.3](Livro_01_Sistema_Estilizado.html#53-as-15-manobras-táticas-de-combate-passo-a-passo).
@@ -897,7 +899,7 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Trivial | Fácil | Moderada | Difícil | Extrema | Divina |
 
-**Rank:** `±1` na CD por Rank de diferença (mín. 3). **Sombras:** `+2`/Rank. **Chefe** (Demônio/Diabo Desperto × Adormecidos): CD 11, 3× PV, `+1` Dano.
+**Rank:** `±1` na CD por Rank de diferença (mín. 3). **Sombras:** `+2`/Rank. **Chefe** (Demônio/Diabo Desperto × Adormecidos): CD 11, 3× PV, `+1` Dano. **Mesa de 6–7:** 6× PV e até 5 alvos.
 
 ### Bônus Comuns (todos dentro do Teto `+3`)
 | Fonte | Bônus | Fonte | Bônus |
@@ -915,7 +917,7 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 | **Faixas** | Corpo a Corpo (0–2 m) · Perto (3–10 m) · Distante (11–30 m) · Longe (31–100 m) · Fora de Alcance (101 m+). |
 | **Dano dos jogadores** | Leves e Táticas: **1** (Táticas: 2 com `CD + 3`) · Pesadas e Habilidades de dano: **2** · Crítico: **+2**. |
 | **Golpe fatal** | `1d6`: com `6`, Memória. Senão, `1d20`: com `20`, Eco. |
-| **Orçamento de Ameaça** (Mestre) | Soma de *alvos por turno × dano* de todas as criaturas ≤ **número de jogadores**. |
+| **Orçamento de Ameaça** (Mestre) | Soma de *alvos por turno × dano* de todas as criaturas ≤ **número de jogadores**. Com 6–7 jogadores, lutas dentro do limite ficam fáceis: use ondas. |
 
 </div>
 

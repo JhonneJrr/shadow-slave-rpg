@@ -1926,7 +1926,7 @@ O Legado de Aspecto *Dança das Sombras (*Shadow Dance*)* é uma arte marcial es
 - **Inscrição Poética Oficial das Runas:**
   > *"Você é uma estrela solitária nascida das cinzas da criação, destinada a incendiar a podridão do mundo. Sua luz não pede permissão para existir; ela purifica os justos, consome os impuros e devora primeiro a carne de quem ousa carregá-la."*
 - **Nome Verdadeiro Exemplar:** `[Estrela da Mudança]` (*Changing Star*)
-- **Defeito Sugerido (*Flaw*):** **`[Agonia do Poder]` (*Agony of the Flame* — Livro 3, Defeito 13)** — *Toda vez que você canaliza seu Aspecto, sofre a dor física total de estar sendo queimada viva de dentro para fora.* Embora a chama não mate você diretamente, o choque sensorial impõe **`-1` de penalidade em testes de concentração/sutileza** após `3` turnos consecutivos de chama ativa sem descanso — a menos que você passe em `Mente [Vontade] CD 7` (ou possua o Atributo exclusivo `[Inabalável]`, Seção 2.5 abaixo). Em contrapartida, sua alma permanece imaculada contra corrupção espiritual.
+- **Defeito Sugerido (*Flaw*):** **`[Agonia do Poder]` (*Agony of the Flame* — Livro 3, Defeito 13)** — *Toda vez que você canaliza seu Aspecto, sofre a dor física total de estar sendo queimada viva de dentro para fora.* Embora a chama não mate você diretamente, depois de `3` turnos seguidos de chama acesa, no início de cada turno seu com a chama ainda acesa você rola `Mente [Vontade] CD 7`: se falhar, sofre **`-1` em TODAS as suas rolagens naquele turno** (ataque, Defesa, cura, disparo e testes de Pilar). O Atributo exclusivo `[Inabalável]` (Seção 2.5 abaixo) dá Vantagem nesse teste. Em contrapartida, sua alma permanece imaculada contra corrupção espiritual.
 - **Descrição do Mar da Alma (*Soul Sea*):**
   O Mar da Alma da Portadora da Luz não é feito de água, mas de um **deserto interminável de cinzas prateadas e brasa adormecida**, estendendo-se sob um céu vazio de branco cegante. Acima do horizonte de cinzas pairam **sóis incandescentes de fogo branco puro** cuja luz é tão intensa que elimina qualquer sombra dentro do oceano espiritual. Sempre que a portadora cura aliados ou purifica monstros com suas chamas, redemoinhos de faíscas douradas sobem do chão cinzento e são tragados pelos sóis internos, alimentando sua fornalha divina com calor inesgotável.
 - **Evolução dos Núcleos (`[1/7]` a `[7/7]`):**
@@ -2020,11 +2020,13 @@ Quando a situação parece perdida, você pode transformar a dor insuportável d
 | :---: | :--- | :--- | :--- |
 | `[1/7]` | **Besta** | `+2` Dano / `+2` (Adormecida); `+3/+3` se já for Desperta. | `2 PV` em toque. |
 | `[2/7]` | **Monstro** | `+3` Dano / `+3` (chega no Despertar); `+1` Dano extra contra Corrompidos. | `2 PV` + remove doença/veneno menor. |
-| `[3/7]` | **Demônio** | `+4` Dano / `+3` (Físico ou Alma). | `3 PV` em até `2` alvos em *Corpo a Corpo*. |
-| `[4/7]` | **Diabo** | `+5` Dano / `+3` + `+1` em testes contra armadura. | `3 PV` + `1` condição mental/maldição leve. |
-| `[5/7]` | **Tirano** | `+6` Dano / `+3` (respeitando `Cap +3` em rolagem). | `4 PV` e reduz custo da cura em `-1 PE` (mín. `1`). |
-| `[6/7]` | **Terror** | `+7` Dano / `+3` + queima contínua (`1` Dano no turno seguinte). | `4 PV` para todo o grupo em *Corpo a Corpo*. |
-| `[7/7]` | **Titã** | `+8` Dano / `+3` (Físico ou Alma) em chamas densas! | `5 PV` + cura `2` Rachaduras Espirituais do alvo! |
+| `[3/7]` | **Demônio** | `+8` Dano / `+3` (Físico ou Alma). | `3 PV` em até `2` alvos em *Corpo a Corpo*. |
+| `[4/7]` | **Diabo** | `+9` Dano / `+3` + `+1` em testes contra armadura. | `3 PV` + `1` condição mental/maldição leve. |
+| `[5/7]` | **Tirano** | `+10` Dano / `+3` (respeitando `Cap +3` em rolagem). | `4 PV` e reduz custo da cura em `-1 PE` (mín. `1`). |
+| `[6/7]` | **Terror** | `+11` Dano / `+3` + queima contínua (`1` Dano no turno seguinte). | `4 PV` para todo o grupo em *Corpo a Corpo*. |
+| `[7/7]` | **Titã** | `+12` Dano / `+3` (Físico ou Alma) em chamas densas! | `5 PV` + cura `2` Rachaduras Espirituais do alvo! |
+
+> 🔥 **Por que o Dano salta no `[3/7]`:** a partir do Demônio, cada Núcleo dá ao Escravo das Sombras mais uma Sombra no Manto, e o dano dele cresce rápido. A chama sobe junto (`+8` a `+12`) para a Portadora continuar cerca de **`1` de Dano por rodada acima** dele. As rolagens continuam travadas em `+3`.
 
 #### 2ª Habilidade (Desperta) — `[Manipulação Solar (Radiant Manipulation)]`
 - **Custo de Essência:** `2 PE` | **Tipo de Ação:** `1 Ação Maior` (disparo) ou `1 Reação` (escudo solar) | **Alcance:** *Perto* a *Longe* | **Duração:** Instantânea ou `2` Turnos (barreira)
