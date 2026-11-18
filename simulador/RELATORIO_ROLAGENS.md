@@ -9,6 +9,8 @@
 - **Rank acima virou rampa, não parede:** 4 novatos contra UMA criatura Desperta vencem em média **47%** (v1: 12%). Demônios e Diabos Despertos continuam quase invencíveis para novatos.
 - **Teste extra do Jhonne:** 4 Adormecidos **saturados** (Marco 10, Memórias, 2 Ecos) vencem a ficha comum do Demônio Desperto em **100%**. Com o **Perfil de Chefe** agora nos livros (CD 11, 2× PV, +1 de Dano), a briga direta vence **22%**; com plano tático + Relógio de Preparação, **94%** (−1 CD) a **91%** (−1 alvo). O Derrubar revisado passou de 2% para 55% contra esse chefe (seção 7).
 
+- **Rodada de Aspectos (só Inata + 1ª Habilidade, personagens Adormecidos):** os Aspectos mais fortes são Escravo das Sombras, Besta Lunar, Dançarino da Gravidade, Predador Silencioso, Senhor das Correntes. O Escravo das Sombras Adormecido não é um Aspecto de utilidade: o Manto (+1 em rolagens e +1 de Dano por Sombra, sem custo) leva a briga direta contra o Demônio chefe de 24% para 99%. Com "1 Sombra no Manto e sem +Dano", ele cai para 78% nos cenários duros e mantém o Batedor (seção 8).
+
 ## 1. Regras v2 aplicadas (resumo exato para repassar)
 
 ### 1.1 Escala de CDs de tarefa (Livro 1 §1.3)
@@ -343,20 +345,226 @@ Cada célula: **vitória** · combates em que alguém cai · média de jogadores
 - **Ainda fraca:** *Mirar em Ponto Fraco* nas mãos de novatos (0%): a CD +2 tira o dano principal do Executor por várias rodadas. Sugestão para uma próxima rodada: o `+2` só vale para partes minúsculas; para juntas e olhos, `+1`.
 - **Alvo do Jhonne atingido:** o Demônio Desperto em Perfil de Chefe é bizarramente forte na briga direta e vencível por um grupo saturado e preparado, quase sempre a um custo alto.
 
-## 8. Pontos ainda em aberto
+## 8. Rodada de Aspectos: 4 Adormecidos com os Aspectos do Livro 2
+
+**Regra desta rodada (correção do Jhonne):** os personagens são **Adormecidos** e usam só o que o Livro 2 libera nesse Rank: a **Habilidade Inata** e a **1ª Habilidade (Adormecida)** de cada Aspecto. Nada de Passo das Sombras, Manifestação, Encarnação ou outra Habilidade de Desperto para cima. Só o monstro é Desperto. Aspectos Divinos: novato no Núcleo `[1/7]`; saturado no `[2/7]`, porque o Marco 10 condensa o 2º Núcleo (L2, Parte A, Regras Compartilhadas, item 2), com +3 PE e +1 PV.
+
+**Método:** 2.000 lutas por célula. Fichas de Papel iguais às das seções 6–7 (novatos e saturados). Cada Aspecto foi testado em cada um dos 4 lugares (Baluarte, Executor, Olho de Falcão, Canalizador), com os outros 3 sem Aspecto de combate. Depois, 247 grupos de 4 Aspectos diferentes (metade com o Escravo das Sombras obrigatório) e 7 combinações suspeitas. Condições em inimigos viram −1 na CD (L2 §2.1 item 6), sem empilhar. Demônios e Diabos focam o mais frágil por sorteio ponderado. Por isso a linha de base da briga direta contra o chefe aparece um pouco acima dos 22% da seção 7 (lá o foco é determinístico).
+
+Cenários: novatos contra L3 E3, E4 (a criatura embosca), E6, E7, E8 e uma criatura Desperta de cada Classe; saturados contra os mesmos, mais a Patrulha da Carapaça (Centurião em Perfil de Chefe) e o Demônio em Perfil de Chefe em 3 situações: briga direta, plano + Relógio de Preparação (Fraqueza Estudada) e Ameaça encheu (a criatura ataca primeiro).
+
+### 8.1 Escravo das Sombras enquanto Adormecido
+
+O que o Livro 2 dá de fato nesse Rank:
+
+- **Inata, Vínculo Sombrio:** enxerga no escuro (alcance Perto no `[1/7]`, Distante no `[2/7]`); Sombras Pessoais com +1 em furtividade se ele não tiver Mestre.
+- **1ª Habilidade, Controle das Sombras** (Ação Menor para alternar): **Modo Batedor** até 100 m, invisível, com visão compartilhada. Uma Sombra em Batedor impede que ele seja **Surpreendido** e dá **Vantagem em Astúcia** para detectar emboscadas e mapear o terreno. **Modo Manto:** cada Sombra enrolada nele, na arma ou numa Sombra Evolutiva dá **+1 em todas as rolagens e +1 de Dano**.
+- **Sombras:** 1 Sombra Pessoal no novato; 2 no saturado (2º Núcleo). Sombra Evolutiva: até 1 por Núcleo, com custo zero de Essência; no saturado modelei 1 Sombra Adormecida (CD 8, 5 PV, Dano 1) no lugar de um Eco.
+- **Defeito, Consciência Limpa:** não pode mentir. Não pesa em combate; pesa em cenas sociais (o simulador não mede).
+- **Fora do Adormecido (não usado):** Passo das Sombras (2ª, Desperta), Manifestação (3ª), Encarnação (4ª), Legião do Sol Negro (5ª). Manto em **aliados** só a partir da 2ª/3ª Habilidade pela Seção 1.3 A; a linha de custo da 1ª Habilidade fala em "1 PE para projetar Manto em aliados". Os livros se contradizem aqui; testei as duas leituras.
+
+Escravo das Sombras no lugar do Executor, com os outros 3 sem Aspecto (vitória · alguém cai). Novatos não têm Sombra Evolutiva, então "Manto na Sombra Evolutiva" equivale a não usar o Manto:
+
+| Política | Novatos × Demônio Desperto | Novatos × E4 (emboscada) | Saturados × chefe, briga direta | Saturados × chefe, plano | Saturados × chefe, Ameaça encheu |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Grupo sem Aspectos (base) | 9% · cai 100% | 100% · cai 2% | 24% · cai 100% | 92% · cai 35% | 8% · cai 100% |
+| Escravo das Sombras: manto em si + Batedor (padrão) | 39% · cai 97% | 100% · cai 0% | 99% · cai 91% | 100% · cai 1% | 99% · cai 90% |
+| Escravo das Sombras: Manto na Sombra Evolutiva | 9% · cai 99% | 100% · cai 1% | 95% · cai 98% | 100% · cai 3% | 95% · cai 98% |
+| Escravo das Sombras: Manto num aliado (1 PE, leitura ampla) | 42% · cai 98% | 100% · cai 0% | 99% · cai 93% | 100% · cai 0% | 99% · cai 92% |
+| Escravo das Sombras: só Batedor (sem Manto) | 9% · cai 99% | 100% · cai 1% | 55% · cai 100% | 99% · cai 18% | 55% · cai 100% |
+| Escravo das Sombras: só Manto (sem Batedor) | 39% · cai 97% | 100% · cai 1% | 99% · cai 91% | 100% · cai 4% | 96% · cai 100% |
+| Escravo das Sombras: nem Manto nem Batedor | 9% · cai 99% | 100% · cai 3% | 55% · cai 100% | 98% · cai 25% | 30% · cai 100% |
+
+**Utilidade medida à parte (sem o Manto):**
+
+- **Relógio de Preparação** (tarefas CD 8, Ameaça de 4): o grupo completa a Preparação antes da Ameaça em **54%** das vezes (saturados) e 29% (novatos). Com o Escravo das Sombras (Vantagem em Astúcia para rastrear e mapear): **58%** e 37%.
+- **Sombra Evolutiva** (saturado, custo zero): sozinha, sem Manto nem Batedor, leva a briga direta de 24% para 55%. Quase todo o ganho vem do 3º combatente corpo a corpo, que fecha o Cerco (+2) para o grupo.
+- **Nunca ser surpreendido:** quando a Ameaça enche e o Demônio chefe ataca primeiro, o mesmo grupo vence 30% sem o Batedor e **55%** com ele: a criatura perde a rodada grátis.
+- **Valor esperado da caçada ao chefe** (prepara; depois luta com plano ou alertado): grupo base 54%; com o Escravo das Sombras sem Batedor 67%; **com o Batedor 80%**. O Batedor vale cerca de +13 pontos nessa caçada, sem causar 1 ponto de dano.
+- Contra a emboscada do E4, novatos sem ele: alguém cai em 2%; com o Batedor: 1%.
+
+**Leitura:** no Adormecido, o Escravo das Sombras **não é** um Aspecto de utilidade com pouco dano. O Manto dá +1/+1 por Sombra em todas as rolagens, sem custo, e no saturado (2 Sombras) leva a briga direta contra o chefe de 13% para 98% (média dos cenários duros, melhor lugar). A utilidade (Batedor, Relógio, nunca surpreendido) existe e é medida acima, mas o ganho vem quase todo do Manto. Isso contraria a ênfase pedida (utilidade acima de poder ofensivo) e a obra (Sunny Adormecido luta sujo porque é fraco).
+
+### 8.2 Contribuição de cada Aspecto (sozinho no grupo)
+
+Linha de base sem Aspectos: novatos 5% de vitória (média de Demônio e Diabo Despertos); saturados 13% (média de chefe direto, Patrulha da Carapaça e Ameaça encheu); novatos nos encontros do L3: alguém cai em 13%.
+Δ = pontos percentuais em relação à base. "Melhor lugar" é o Papel em que o Aspecto rende mais; "média" considera os 4 Papéis.
+
+| Aspecto | Melhor lugar | Novatos Δ (melhor) | Novatos Δ (média) | Saturados Δ (melhor) | Saturados Δ (média) | Encontros L3: menos quedas | Relógio de Preparação Δ | Leitura |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| Escravo das Sombras | Executor | +22 | +15 | +85 | +71 | +9 | +3 | 🔴 forte demais |
+| Besta Lunar | Olho de Falcão | +27 | +25 | +68 | +54 | +6 | 0 | 🔴 forte demais |
+| Dançarino da Gravidade | Baluarte | +21 | +10 | +65 | +42 | +11 | 0 | 🔴 forte demais |
+| Predador Silencioso | Baluarte | +19 | +11 | +49 | +26 | +8 | 0 | 🔴 forte demais |
+| Senhor das Correntes | Baluarte | +8 | +3 | +54 | +40 | +10 | 0 | 🔴 forte demais |
+| Devorador Carmesim | Olho de Falcão | +7 | +4 | +49 | +32 | +6 | 0 | 🔴 forte demais |
+| Druida de Espinhos | Baluarte | +3 | -1 | +53 | +37 | +8 | 0 | 🔴 forte demais |
+| Alquimista da Peste | Baluarte | +14 | +9 | +41 | +29 | +4 | 0 | 🔴 forte demais |
+| Eco Ressonante | Baluarte | +3 | 0 | +40 | +23 | +4 | 0 | 🟠 forte |
+| Caçadora da Aurora | Executor | +3 | +2 | +38 | +19 | +11 | 0 | 🟠 forte |
+| Forjador do Crepúsculo | Executor | +1 | 0 | +38 | +20 | +2 | 0 | 🟠 forte |
+| Mestre das Ilusões | Baluarte | +5 | +3 | +25 | +12 | +10 | 0 | 🟠 forte |
+| Portadora da Luz | Baluarte | +8 | +5 | +16 | +11 | +10 | 0 | 🟠 forte |
+| Arqueiro dos Ventos | Canalizador | +16 | +7 | +8 | -7 | +7 | 0 | 🟠 forte |
+| Guarda-Sol de Aço | Baluarte | +3 | +1 | +14 | +3 | +12 | 0 | 🟢 equilibrado |
+| Tecelão de Almas | Executor | 0 | 0 | +13 | +9 | 0 | +5 | 🟢 equilibrado |
+| Arauto da Tempestade | Olho de Falcão | +1 | 0 | +12 | +5 | +7 | 0 | 🟢 equilibrado |
+| Tecelão de Pesadelos | Olho de Falcão | 0 | 0 | +12 | +4 | +3 | 0 | 🟢 equilibrado |
+| Artífice de Cristal | Baluarte | +5 | +4 | +7 | +6 | +4 | 0 | 🟢 equilibrado |
+| Príncipe do Nada | Canalizador | +1 | 0 | +8 | +4 | +9 | 0 | 🟢 equilibrado |
+| Caminhante do Tempo | Executor | 0 | 0 | +6 | +5 | 0 | 0 | 🟢 equilibrado |
+| Oráculo Sagrado | Baluarte | 0 | 0 | +6 | +6 | +1 | 0 | 🟢 equilibrado |
+| Ceifadora de Almas | Olho de Falcão | 0 | 0 | +4 | +2 | +1 | 0 | 🔵 fraco/sem efeito em combate |
+| Cronista das Cinzas | Olho de Falcão | 0 | 0 | +3 | 0 | +2 | 0 | 🔵 fraco/sem efeito em combate |
+| Cantor dos Mortos | Baluarte | 0 | 0 | +2 | +1 | +7 | 0 | 🔵 fraco/sem efeito em combate |
+| Guardião de Gelo | Olho de Falcão | 0 | 0 | +1 | 0 | 0 | 0 | 🔵 fraco/sem efeito em combate |
+| Cavaleiro Astral | Baluarte | 0 | 0 | 0 | 0 | +1 | 0 | 🔵 fraco/sem efeito em combate |
+| Monarca da Areia Branca | Baluarte | 0 | 0 | 0 | 0 | +1 | 0 | 🔵 fraco/sem efeito em combate |
+
+Como cada Aspecto foi modelado (só Inata + 1ª Habilidade):
+
+| Aspecto | Inata usada | 1ª Habilidade usada | Ficou de fora |
+| :--- | :--- | :--- | :--- |
+| Escravo das Sombras | Vínculo Sombrio (visão no escuro) | Controle das Sombras: Batedor (nunca surpreendido; Vantagem em Astúcia para rastrear/mapear) e Manto (+1 em todas as rolagens e +1 de Dano por Sombra). Novato 1 Sombra, saturado 2 + 1 Sombra Evolutiva | Nome Verdadeiro; ponto fraco das Sombras contra Dano de Alma |
+| Portadora da Luz | Chama Incorruptível | Chama da Alma: +1 de Dano (1 PE/cena) ou cura 2 PV (2 PE, Ação Maior, CD 5/7) | imunidades (sem alvo nos testes) |
+| Príncipe do Nada | Olhos do Espelho | Reflexo Vivo: Reação, 1 PE, Abjurar contra a CD; sucesso = o golpe acerta o reflexo (2 por rodada no [2/7]) | Duelo de Possessão (só contra alvo enfraquecido; não se aplica a chefe) |
+| Arauto da Tempestade | Sangue das Profundezas (−1 dano elétrico/frio) | Centelha do Maelstrom: disparo 2 de Dano por 1 PE, +1 com Carga Estática | chuva/condução; o Defeito (predadores o priorizam) foi modelado |
+| Forjador do Crepúsculo | Olho da Bigorna: 1d8 com qualquer arma | Sinfonia do Aço (1 PE/cena): +1 Defesa (Reação, 1×/rodada); [2/7] +1 no ataque focado | quebra de escudos |
+| Tecelão de Almas | Olhos da Tapeçaria: +1 em análise, imune a surpresa Perto | Fios de Essência: 1 de Dano por 1 PE | teia de alarme, reduzir Movimento |
+| Devorador Carmesim | Fome Imortal | Presa do Predador: garras 2 de Dano sem custo; Crítico deixa Sangrando | Banco Genético (mutações não listadas no L2) |
+| Oráculo Sagrado | Percepção Espiritual: nunca surpreendido | Vislumbre de 3 Segundos: 2×/cena, Vantagem na Defesa de um aliado | visões fora de combate |
+| Caçadora da Aurora | Corpo de Titã: +2 PV | Arremesso Trovejante: dano da arma, empurra; CD+2 = Derrubado | empurrão de 1 Faixa |
+| Arqueiro dos Ventos | Olhos do Céu: sem −1 em Longe | Ascensão Celeste: voo grátis, +1 nos disparos e imune a corpo a corpo de quem não voa | — |
+| Ceifadora de Almas | Frio do Além-Túmulo | Lâmina Fantasma: ignora armadura/carapaça; Crítico +1 e −1 na CD na rodada seguinte | — |
+| Cantor dos Mortos | Sussurro do Ossuário | Ergam-se: ergue 1 criatura abatida como Marionete (CD −1, ½ PV, 1 de Dano) | nada a erguer contra um chefe sozinho |
+| Guarda-Sol de Aço | Raízes de Montanha | Intercepção Heroica: Reação, defende no lugar de aliado Perto com +1 | imunidade a Derrubar (monstros não usam) |
+| Dançarino da Gravidade | Equilíbrio Zero | Toque da Pluma e da Bigorna: Arma Pesada (2) com 1 mão por Agilidade; CD+3 = Derrubado | — |
+| Mestre das Ilusões | Presença Difusa: monstros não táticos o atacam por último | Miragem Tática: ilusão no flanco = +1 ao próximo aliado (Ação Menor) | Fintar (Vantagem a 2 aliados) |
+| Artífice de Cristal | Toque do Avaliador | Cristalizar Gume: 1º acerto de 2 armas +1 de Dano | camada temporária em escudo |
+| Predador Silencioso | Passos no Vazio: +1 Furtividade | Golpe na Jugular: +1 no ataque e +1 de Dano contra alvo surpreso ou já engajado por aliado | — |
+| Druida de Espinhos | Sangue Botânico | Chicote de Roseira Negra: Derrubar/Agarrar até Perto (Alma ou Agilidade), 1 de Dano | puxar aliado |
+| Cronista das Cinzas | Pulmões de Fornalha | Chama de Obsidiana: 1 de Dano até Distante; CD+2 = Queimando | — |
+| Guardião de Gelo | Mente Glacial: +1 Vontade | Lâmina da Geada: Congelado (sem Movimento) | o efeito é só de posicionamento: o motor por Faixas não o mede |
+| Eco Ressonante | Ecolocalização | Impacto de Alta Frequência: 1 de Dano interno (−1 carapaça); CD+3 = Atordoado | — |
+| Caminhante do Tempo | Relógio Interno: nunca surpreendido, +1 Iniciativa | Aceleração de Instante: 2 Movimentos ou troca de arma grátis | fuga e reposicionamento |
+| Senhor das Correntes | Alma Acorrentada | Correntes da Alma: Derrubar/Agarrar/Desarmar até Perto com +1 | — |
+| Monarca da Areia Branca | Filho das Dunas | Lâmina de Areia de Osso: 1 de Dano até Perto; CD+2 = Cego | — |
+| Tecelão de Pesadelos | Aura Inquietante | Sussurro do Pavor: 1 de Dano de Alma e Amedrontado (−1 na CD da criatura por 1 rodada) | — |
+| Cavaleiro Astral | Bússola das Constelações | Lança de Luz Estelar: 1 de Dano até Distante (2 em CD+3) | âncora de teleporte (só Desperto+) |
+| Alquimista da Peste | Corpo Imune | Destilar Toxina: arma revestida, Envenenado (−1 na CD da criatura até ser tratado) | ácido (−1 carapaça) |
+| Besta Lunar | Sentidos de Lobo: +1 Astúcia | Garras da Fera: 1 de Dano (2 em CD+3) e Sangrando | — |
+
+### 8.3 Grupos de 4 Aspectos e combinações que quebram o jogo
+
+- Média dos grupos **com** o Escravo das Sombras: saturados 94%, novatos 32%. **Sem** ele: 59% e 21%.
+- Grupos saturados que vencem o Demônio chefe na **briga direta** em 80% ou mais: 186 de 247; em 50% ou mais: 218. O Perfil de Chefe foi calibrado para 22% sem Aspectos; com Aspectos fortes, o chefe deixa de ser "bizarramente forte".
+
+**10 grupos mais fortes** (saturados, média dos cenários duros):
+
+| Grupo (Baluarte / Executor / Olho de Falcão / Canalizador) | Saturados | Novatos | Chefe direto |
+| :--- | :---: | :---: | :---: |
+| Escravo das Sombras / Forjador do Crepúsculo / Besta Lunar / Arauto da Tempestade | 100% | 56% | 100% |
+| Escravo das Sombras / Alquimista da Peste / Forjador do Crepúsculo / Portadora da Luz | 100% | 66% | 100% |
+| Senhor das Correntes / Escravo das Sombras / Dançarino da Gravidade / Artífice de Cristal | 100% | 88% | 100% |
+| Escravo das Sombras / Dançarino da Gravidade / Senhor das Correntes / Tecelão de Pesadelos | 100% | 45% | 100% |
+| Príncipe do Nada / Escravo das Sombras / Besta Lunar / Monarca da Areia Branca | 100% | 54% | 100% |
+| Besta Lunar / Escravo das Sombras / Monarca da Areia Branca / Dançarino da Gravidade | 100% | 84% | 100% |
+| Escravo das Sombras / Príncipe do Nada / Besta Lunar / Caminhante do Tempo | 100% | 55% | 100% |
+| Forjador do Crepúsculo / Escravo das Sombras / Alquimista da Peste / Besta Lunar | 100% | 60% | 100% |
+| Devorador Carmesim / Alquimista da Peste / Dançarino da Gravidade / Besta Lunar | 100% | 90% | 100% |
+| Artífice de Cristal / Escravo das Sombras / Senhor das Correntes / Guardião de Gelo | 100% | 58% | 100% |
+
+**Maiores sinergias** (o grupo rende mais que a soma dos Aspectos isolados; novatos, onde não há teto de 100%):
+
+| Grupo | Novatos | Sinergia |
+| :--- | :---: | :---: |
+| Senhor das Correntes / Escravo das Sombras / Dançarino da Gravidade / Artífice de Cristal | 88% | +30 |
+| Portadora da Luz / Senhor das Correntes / Dançarino da Gravidade / Ceifadora de Almas | 56% | +26 |
+| Escravo das Sombras / Alquimista da Peste / Forjador do Crepúsculo / Portadora da Luz | 66% | +22 |
+| Senhor das Correntes / Alquimista da Peste / Tecelão de Almas / Artífice de Cristal | 49% | +21 |
+| Predador Silencioso / Besta Lunar / Senhor das Correntes / Forjador do Crepúsculo | 70% | +20 |
+| Caminhante do Tempo / Alquimista da Peste / Dançarino da Gravidade / Besta Lunar | 84% | +20 |
+
+**Combinações suspeitas, testadas de propósito:**
+
+| Grupo | Saturados × chefe direto | Saturados × Patrulha | Novatos × Demônio Desperto | Novatos × Diabo Desperto |
+| :--- | :---: | :---: | :---: | :---: |
+| Caçadora da Aurora / Eco Ressonante / Druida de Espinhos / Senhor das Correntes | 95% | 85% | 6% | 1% |
+| Guarda-Sol de Aço / Eco Ressonante / Arqueiro dos Ventos / Tecelão de Pesadelos | 50% | 32% | 8% | 2% |
+| Guarda-Sol de Aço / Predador Silencioso / Oráculo Sagrado / Alquimista da Peste | 94% | 88% | 52% | 32% |
+| Guarda-Sol de Aço / Escravo das Sombras / Arqueiro dos Ventos / Portadora da Luz | 98% | 94% | 53% | 26% |
+| Caçadora da Aurora / Escravo das Sombras / Cronista das Cinzas / Oráculo Sagrado | 100% | 99% | 44% | 18% |
+| Guarda-Sol de Aço / Eco Ressonante / Besta Lunar / Cronista das Cinzas | 95% | 84% | 30% | 11% |
+| Príncipe do Nada / Tecelão de Almas / Artífice de Cristal / Cantor dos Mortos | 46% | 17% | 14% | 3% |
+
+- **Se as condições empilharem** (Envenenado + Cego + Amedrontado = até −3 na CD): o grupo Guarda-Sol / Alquimista / Areia / Pesadelos vai de 84% para 96% contra o chefe. Hoje o texto não diz se empilham; recomendo escrever que **condições em inimigos dão no máximo −1 na CD**, como a Vantagem.
+
+### 8.4 Sugestões para os Aspectos desequilibrados (simuladas, NÃO aplicadas nos livros)
+
+| Aspecto | Sugestão | Saturados, livro → sugestão | Novatos, livro → sugestão |
+| :--- | :--- | :---: | :---: |
+| Escravo das Sombras | No Adormecido, o Manto dá só **+1 nas rolagens por Sombra**; o +1 de Dano por Sombra fica para o Desperto (2ª Habilidade). | 98% → **92%** | 27% → 11% |
+| Escravo das Sombras | No Adormecido, **só 1 Sombra pode estar no Manto**; as outras ficam em Batedor. | 98% → **87%** | 27% → 27% |
+| Escravo das Sombras | As duas juntas (**recomendada**): o Escravo das Sombras Adormecido vira o batedor da obra, com +1 nas rolagens e a utilidade intacta. | 98% → **78%** | 27% → 11% |
+| Druida de Espinhos | Pacote de controle: **Firme por 2 rodadas**; Atordoado também deixa Firme; criatura de **Rank acima** só perde a Ação Maior na **1ª queda da cena** (depois levanta com o Movimento). | 67% → **38%** | 8% → 7% |
+| Senhor das Correntes | Mesmo pacote de controle. | 68% → **37%** | 13% → 9% |
+| Dançarino da Gravidade | Mesmo pacote de controle. Quase não muda: a força dele é a Arma Pesada (2 de Dano) com 1 mão e escudo. Sugestão extra, não simulada: com Arma Pesada em 1 mão, o escudo não dá bônus de Defesa. | 78% → **75%** | 26% → 26% |
+| Caçadora da Aurora | Mesmo pacote de controle. | 52% → **42%** | 8% → 8% |
+| Eco Ressonante | Mesmo pacote: depois de Atordoada, a criatura fica Firme e não pode ser Atordoada de novo na rodada seguinte. | 53% → **46%** | 8% → 8% |
+| Besta Lunar | **Sangrando e Queimando em criaturas duram 3 turnos dela** (hoje duram até alguém tratar, e monstro não trata). | 81% → **64%** | 32% → 19% |
+| Devorador Carmesim | Garras com **1 de Dano (2 em CD+3)**, como a Besta Lunar, e a regra de 3 turnos para Sangrando. Hoje são 2 de Dano de graça, o que vira qualquer atirador num Executor. | 63% → **41%** | 12% → 8% |
+| Cronista das Cinzas | Mesma regra (o Cronista quase não muda: Demônios apagam o fogo com a Ação Maior). | 16% → **16%** | 5% → 5% |
+| Alquimista da Peste | **Destilar Toxina reveste a arma 1 vez por cena** (2 acertos). Limitar a duração não adianta: ele reaplica a toxina com a Ação Menor a cada turno. Mesmo com 1×/cena, quase nada muda: a força dele contra chefe vem do −1 na CD que o Envenenado dá a todo o grupo, e isso só se resolve com a regra de não empilhar condições (8.3). | 54% → **52%** | 19% → 19% |
+| Predador Silencioso | Golpe na Jugular só contra alvo **surpreso ou cercado por 3+** e só **+1 de Dano** (sem +1 no ataque). | 63% → **35%** | 24% → 5% |
+
+Referência: grupo sem Aspectos 13% (saturados) e 5% (novatos), mesmos cenários duros; melhor lugar de cada Aspecto.
+
+**Todas as sugestões juntas, nos mesmos 247 grupos aleatórios (saturados contra o Demônio em Perfil de Chefe):**
+
+Pacote = Escravo das Sombras com 1 Sombra no Manto e sem +Dano; controle (Firme 2 rodadas, Atordoado deixa Firme, Rank acima perde a Ação Maior só na 1ª queda); Sangrando/Queimando 3 turnos; Toxina 1×/cena; garras do Devorador 1 (2 em CD+3); Golpe na Jugular estrito.
+
+| | Livro atual | Com as sugestões |
+| :--- | :---: | :---: |
+| Vitória média, briga direta | 84% | **69%** |
+| Grupos que vencem a briga direta em 80%+ | 186 | **108** |
+| Vitória média, plano + Relógio | 100% | **100%** |
+| Ganho médio do plano | +16 | **+31** |
+
+**Mesmo com as sugestões, o Perfil de Chefe ficou fraco para grupos com Aspectos.** Ele foi calibrado (seção 7) com fichas sem Aspecto. Testei perfis mais duros em 80 desses grupos (600 lutas cada), com o livro atual e com o pacote de sugestões:
+
+| Perfil do Demônio Desperto chefe | Sem Aspectos: direta / plano | Livro atual: direta / plano | Com as sugestões: direta / plano | Com as sugestões: grupos ≥ 80% na direta |
+| :--- | :---: | :---: | :---: | :---: |
+| atual (CD 11, 28 PV, Dano 3, 3 alvos) | 24% / 92% | 88% / 100% | **74% / 100%** | 40 de 80 |
+| CD 11, 42 PV, Dano 3, 3 alvos | 0% / 42% | 57% / 97% | **20% / 93%** | 3 de 80 |
+| CD 11, 42 PV, Dano 3, 4 alvos | 0% / 16% | 40% / 92% | **7% / 79%** | 1 de 80 |
+| CD 12, 36 PV, Dano 3, 4 alvos | 0% / 3% | 9% / 72% | **1% / 41%** | 0 de 80 |
+| CD 12, 42 PV, Dano 3, 4 alvos | 0% / 0% | 4% / 58% | **0% / 23%** | 0 de 80 |
+
+Leitura: o alvo do Jhonne (briga direta perdida, plano vencido a custo alto) pede **as sugestões de Aspecto e um chefe mais duro**. Quem chega mais perto é **CD 11, 42 PV (3× o PV normal), Dano 3, 3 alvos**: com as sugestões, cerca de 20% na briga direta e 93% com plano. Com o livro atual, o mesmo perfil ainda deixa a briga direta em 57%. Por isso as duas mudanças precisam vir juntas. Com CD 12 ou 4 alvos, até o plano fica abaixo de 80%. Sem Aspectos o perfil de 42 PV fica impossível (42% com plano), mas toda ficha tem Aspecto, então o normal é calibrar com eles. Se for aprovado, o Perfil de Chefe do L3 §5.2 passa de 2× para 3× PV, com o resto igual.
+
+Com as sugestões, menos grupos atropelam o chefe na briga direta e o plano passa a valer mais. Os Aspectos fracos (Cavaleiro Astral, Guardião de Gelo, Monarca da Areia Branca, Ceifadora de Almas, Cronista das Cinzas, Cantor dos Mortos contra chefe sozinho) não precisam de mais dano: o que eles fazem (posicionamento, cegar, erguer cadáveres, ignorar carapaça) depende de cenas que este motor não mede bem. Sugestão leve para eles: **Cego** em criatura também tira 1 alvo do Ataque Varrido naquela rodada; **Congelado** impede a criatura de alcançar quem está a Perto ou mais longe.
+
+### 8.5 Inconsistências encontradas no Livro 2 (não corrigidas)
+
+- **Manto em aliados:** a Seção 1.3 A diz que o Manto em aliados vem "a partir da 2ª/3ª Habilidade"; a 1ª Habilidade (Adormecida) cobra "1 PE para projetar Manto em aliados". Escolher uma das duas.
+- **Evolução de Sombra Evolutiva:** L2 §1.3 B ainda diz "+1 na CD" por Rank; a regra v2 aprovada (L1 §7.5 G) é **+2 na CD por Rank**. Ficou uma linha da v1 no L2.
+- **Núcleo do Adormecido saturado:** pelo L2, o Marco 10 condensa o 2º Núcleo Divino ainda no Rank Adormecido. Isso dobra o Manto (2 Sombras) e o Arsenal do Forjador antes de Despertar. Se a intenção é que o 2º Núcleo venha só no Desperto, o texto precisa dizer.
+- **Condições em inimigos:** o L2 §2.1 item 6 transforma cada condição em −1 na CD, mas não diz se condições diferentes somam.
+
+## 9. Pontos ainda em aberto
 
 | Tema | Situação |
 | :--- | :--- |
-| Habilidades de Aspecto e Papel | Só o ataque básico é modelado; Técnicas de Papel e Habilidades com Essência ficaram de fora. |
+| Habilidades de Papel | Técnicas de Papel ficaram de fora. Aspectos: só Inata + 1ª Habilidade (Rank Adormecido), seção 8. |
 | Condições especiais | Teias, agarrões e hipnose não modelados; veneno, frenesi, carapaças, bote, rebote, remontagem e cura da Mariposa sim. |
 | Fichas saturadas | Bônus de Memória e Atributos são suposições típicas (ver seção 6); os livros não trazem uma ficha pronta de Marco 10. |
 | Gargalo e Posição Elevada | Dependem do Mestre; o simulador usa −1 alvo e +1 à distância. |
 | Escala para 3–4 jogadores | Agora coberta pelo Orçamento de Ameaça (Livro 3). |
 
-## 9. Arquivos
+## 10. Arquivos
 
 - `sim/ssrpg/regras.py`, `sim/ssrpg/combate.py`, `sim/ssrpg/dados.py`: motor com as regras v2 como padrão (`VARIANTE_V1` reproduz as antigas).
-- `sim/simular.py` (`./venv/bin/python simular.py --n 10000`, cerca de 1 min) e `sim/extra.py` (teste extra, cerca de 15 s).
+- `sim/simular.py` (`./venv/bin/python simular.py --n 10000`, cerca de 1 min) e `sim/extra.py` (teste extra, cerca de 15 s); `sim/aspectos.py`, `sim/rodar_aspectos.py` (rodada de Aspectos, cerca de 8 min em 8 núcleos) e `sim/relatorio_aspectos.py`.
 - `sim/graficos.py`, `sim/gerar_relatorio.py`, `sim/testes_regras.py` (exemplos de mesa v2: Kael CD 10, Iris CD 8, PV 6/8/10/12/14).
 - `sim/resultados/resultados.json`, `sim/resultados/extra.json`, `sim/resultados/probabilidades_graus.csv`, `sim/graficos/*.png`.
 - Relatório v1 arquivado em `review/v2/RELATORIO_ROLAGENS_v1.md`; mudanças nos livros em `review/BALANCO_v2.md`.
