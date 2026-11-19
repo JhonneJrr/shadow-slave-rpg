@@ -8,7 +8,7 @@
 
 Seja bem-vindo à mesa. Se você nunca jogou RPG na vida e nunca leu *Shadow Slave*, este livro foi escrito para você. Se você já joga há anos, ele também serve: é o jeito mais rápido de explicar o sistema para os amigos que vão sentar à mesa pela primeira vez.
 
-Os outros quatro livros da coleção somam mais de 500 páginas. Eles são completos, densos e cheios de opções, e você **não precisa abrir nenhum deles para jogar a primeira sessão**. Tudo o que um jogador iniciante e um Mestre iniciante precisam para a primeira noite de jogo está aqui: as regras essenciais, a criação do personagem, um exemplo de jogo comentado rolagem por rolagem e uma aventura pronta de uma sessão.
+Os outros cinco livros da coleção somam mais de 500 páginas. Eles são completos, densos e cheios de opções, e você **não precisa abrir nenhum deles para jogar a primeira sessão**. Tudo o que um jogador iniciante e um Mestre iniciante precisam para a primeira noite de jogo está aqui: as regras essenciais, a criação do personagem, um exemplo de jogo comentado rolagem por rolagem e uma aventura pronta de uma sessão.
 
 Todos os números deste livro são os mesmos do [**Livro 1 — Livro do Sistema**](Livro_01_Sistema_Estilizado.html#-livro-1-livro-do-sistema--shadow-slave-rpg-edição-códice-100), que é o livro oficial das regras. Sempre que uma regra daqui tiver uma versão mais completa em outro livro, o nome da seção aparece como link, e um clique leva direto até ela.
 
@@ -166,7 +166,7 @@ A **CD (Classe de Dificuldade)** é o número que você precisa alcançar. A esc
 | CD | Dificuldade | Exemplo |
 | :---: | :--- | :--- |
 | **3** | Trivial | Algo que só falha por azar: acender uma tocha com pederneira sob chuva fraca. Muitas vezes o Mestre nem pede teste. |
-| **5** | Fácil | Saltar um fosso de 1,5 m; escalar um muro cheio de frestas; ler runas comerciais básicas. |
+| **5** | Fácil | Manter vigília calma; escalar um muro cheio de frestas; ler runas comerciais básicas. |
 | **7** | Moderada | Acertar uma criatura do seu Rank em guarda; desarmar uma armadilha simples. |
 | **9** | Difícil | Acertar um ponto fraco protegido; saltar entre pilares numa tempestade. |
 | **11** | Extrema | Aparar um golpe esmagador; resistir a veneno letal sem antídoto. |
@@ -176,7 +176,7 @@ O Mestre também pode usar CDs pares (4, 6, 8, 10, 12) para ajuste fino. Isso é
 
 **Diferença de Rank.** Criaturas do Pesadelo também têm Rank. Contra um inimigo **acima** do seu Rank, some **`+1` na CD para cada Rank de diferença**. Contra um inimigo **abaixo**, subtraia **`-1` por Rank** (a CD nunca fica menor que **3**). A comparação é degrau a degrau: humano *Adormecido* ↔ criatura *Adormecida*; *Desperto* ↔ *Desperta*; *Ascendido* ↔ *Caída*; *Transcendente* ↔ *Corrompida*; *Supremo* ↔ *Grande*.
 
-> 🎙️ **Exemplo:** Uma Coorte de Adormecidos enfrenta uma criatura *Desperta* de CD 9 (1 Rank acima). A CD vira **10**. Se fosse uma criatura *Caída* (2 Ranks acima), viraria **11**. As **Sombras** são a exceção: elas crescem mais rápido, com **`+2` de CD por Rank**. Isso explica por que, em *Shadow Slave*, fugir muitas vezes é a decisão mais inteligente. Detalhes em [Livro 1, Seção 1.3](Livro_01_Sistema_Estilizado.html#13-a-escala-oficial-de-cds-e-modificador-de-rank-1).
+> 🎙️ **Exemplo:** Uma Coorte de Adormecidos enfrenta uma criatura *Desperta* de CD 9 (1 Rank acima). A CD vira **10**. Se fosse uma criatura *Caída* de CD 10 na ficha (2 Ranks acima), viraria **12** (`+2`). Isso explica por que, em *Shadow Slave*, fugir muitas vezes é a decisão mais inteligente. Detalhes em [Livro 1, Seção 1.3](Livro_01_Sistema_Estilizado.html#13-a-escala-oficial-de-cds-e-modificador-de-rank-1).
 
 > 📌 **Na aventura deste livro, a conta já está feita:** todas as CDs do [Capítulo 5](#capítulo-5-aventura-introdutória--a-última-vigília-do-templo-cinzento) são as finais, já na escala do Primeiro Pesadelo do [Livro 3, Seção 3.1](Livro_03_Mestre_Estilizado.html#31-a-fórmula-dos-4-atos-para-criar-qualquer-pesadelo-histórico-1º-ao-4º-pesadelo). O Mestre só anuncia o número.
 
@@ -191,7 +191,7 @@ Em *Shadow Slave RPG*, um teste nunca é só "acertou ou errou". Compare o total
 | **`CD - 1`** | **Falha com Dádiva** | Você falha, **mas** ganha **1 Dádiva Menor** para você ou para a Coorte. | Ataque não fere, mas desequilibra o alvo; na defesa, sofre **metade do dano** (mínimo 1) ou se reposiciona. |
 | **`CD Exata`** | **Sucesso com Infortúnio** | Você consegue, **mas** paga um preço: 1 Infortúnio ou um custo (Essência, PV, posição). | Ataque acerta com dano normal, mas você paga o custo; na defesa, **não sofre dano**, mas recebe o Infortúnio padrão **I1** (Desvantagem na próxima Defesa). |
 | **`CD + 1` a `CD + 3`** | **Sucesso Pleno** | Você consegue de forma limpa, sem custo. | Ataque causa o dano completo; a defesa anula a ameaça. |
-| **`CD + 4` ou mais** | **Sucesso Crítico** | Execução magistral: sucesso **e** 1 **Dádiva Maior** (ou 2 Dádivas Menores). | Ataque causa **Dano + 2**; a defesa vira contra-ataque ou abre uma brecha. |
+| **`CD + 4` ou mais** | **Sucesso Crítico** | Execução magistral: sucesso **e** 1 **Dádiva Maior** (ou 2 Dádivas Menores). | Ataque causa **Dano + 2**, **ou** dano normal e uma **Dádiva Maior tática**; a defesa vira contra-ataque ou abre uma brecha. |
 
 > 📌 **Não existe "Falha Crítica".** O pior resultado possível é a **Falha com Infortúnio**.
 
@@ -229,7 +229,7 @@ Duas regras especiais olham para o número que apareceu no dado, antes de qualqu
 
 ## 2.10 Ajudar, Testes em Grupo e Relógios
 
-- **Ajudar:** se um colega faz algo e você pode contribuir de forma plausível, descreva como ajuda. Ele ganha `+1` (que entra no teto `+3`). Se a ajuda for arriscada, o Mestre pode pedir que você role um teste de CD 7 para conseguir ajudar.
+- **Ajudar:** se um colega faz algo e você pode contribuir de forma plausível, descreva como ajuda. Ele ganha `+1` (que entra no teto `+3`). Se a ajuda for arriscada, o Mestre pode pedir que você role um teste de CD 5 para conseguir ajudar.
 - **Teste coletivo:** quando **todos** precisam passar por algo (atravessar um corredor em silêncio, resistir a um rugido de terror), todos rolam contra a mesma CD. O grupo passa se **mais da metade** conseguir (por exemplo, 4 de 7). Quem se saiu muito bem pode "cobrir" quem falhou.
 - **Relógios de Progresso:** tarefas longas (abrir um portão rúnico, decifrar uma estela) usam um círculo dividido em **4, 6, 8 ou 12 fatias**. Cada teste preenche fatias: **Crítico = 3**, **Sucesso Pleno = 2**, **`CD Exata` = 1** (com custo). Um **Relógio de Ameaça** ao lado mostra o perigo chegando: ele avança quando vocês falham ou demoram.
 - **Relógio de Preparação (plano bem executado):** antes de enfrentar um monstro **mais forte que vocês** (um Rank acima, ou uma luta que o Mestre marcou como *Fuga/Evitar*), a Coorte pode se preparar. O Mestre desenha um Relógio de **4 fatias** (*Preparação*) e, ao lado, um Relógio de Ameaça (o monstro pode perceber vocês). Cada cena de preparo é um teste: seguir rastros, estudar o monstro, escolher o terreno, entalhar uma runa. Se a Preparação encher primeiro, vocês ganham **1 Vantagem de Plano** para a luta: **`-1` na CD do monstro**, **o monstro ataca 1 alvo a menos por rodada** ou **Rodada de Surpresa garantida**. É no máximo **1 Vantagem por monstro de Rank acima**. Detalhes em [Livro 1, Seção 1.7](Livro_01_Sistema_Estilizado.html#17-relógios-de-progresso-testes-de-coorte-unida-e-disputas).
@@ -252,11 +252,13 @@ O combate usa as mesmas regras de teste. O que muda é a **ordem** e o que cada 
 | Ação | Quantas | Exemplos |
 | :--- | :---: | :--- |
 | **Ação Maior** | 1 | Atacar, usar uma Habilidade de Aspecto, fazer uma manobra (derrubar, empurrar, agarrar, proteger aliado), prestar primeiros socorros. Ou trocar por um 2º movimento. |
-| **Ação de Movimento** | 1 | Avançar ou recuar **1 Faixa de Distância**, buscar cobertura, sacar uma arma, levantar-se do chão (metade do movimento). |
-| **Ação Menor** | 1 | Invocar ou guardar uma Memória, dar uma ordem curta, beber uma poção que já está na mão. |
-| **Reação** | 1 por rodada | Fora da sua vez: proteger um aliado, contra-atacar com uma manobra preparada. |
+| **Ação de Movimento** | 1 | Avançar ou recuar **1 Faixa de Distância**, buscar cobertura, sacar ou trocar uma arma que já carrega, levantar-se do chão (metade do movimento). |
+| **Ação Menor** | 1 | Invocar uma arma, escudo ou utilitário simples de Memória, dar uma ordem curta, beber uma poção que já está na mão. |
+| **Reação** | 1; recupera no início do seu próximo turno | Fora da sua vez: proteger um aliado, contra-atacar com uma manobra preparada. |
 
-> 📌 **Defender-se é de graça.** Esquivar ou aparar um ataque contra você **não gasta a sua Reação**. Você só perde a defesa gratuita se estiver *Atordoado*, *Inconsciente* ou sob o Infortúnio *I8 Perda de Reação*.
+Dispensar uma Memória para o Mar da Alma é **Ação Livre**. Invocar ou trocar uma armadura de Memória em combate custa **1 Ação Maior**. Consulte o *Livro 1, Seção 7.3*.
+
+> 📌 **Defender-se é de graça.** Esquivar ou aparar um ataque contra você **não gasta a sua Reação**. Você só perde a defesa gratuita se estiver *Atordoado* ou *Inconsciente*. **I8 Perda de Reação** impede manobras e habilidades que gastam Reação, mas **não impede sua Defesa gratuita**.
 
 ### Distâncias (as 5 Faixas)
 O jogo não exige régua nem mapa quadriculado. Distâncias são contadas em **Faixas**:
@@ -275,8 +277,8 @@ Para atacar, role o teste com o Pilar da arma (*Força* para armas pesadas, *Agi
 | Arma ou ataque | Dano por acerto |
 | :--- | :---: |
 | **Armas Leves** (adaga, faca) e **Táticas** (espada, lança) | **1** (as Táticas causam **2** com `CD + 3`) |
-| **Armas Pesadas**, Habilidades ofensivas e Aspectos de dano | **2** |
-| **Qualquer ataque em Sucesso Crítico** (`CD + 4` ou mais) | **+2** sobre o dano normal |
+| **Armas Pesadas** e dano ofensivo padrão | **2**, salvo valor específico na arma ou Habilidade |
+| **Ataque em Sucesso Crítico** (`CD + 4` ou mais) | **+2** sobre o dano normal, **ou** dano normal e uma Dádiva Maior tática |
 
 O dano sai dos **PV** do alvo. Criaturas com carapaça ou armadura reduzem o dano recebido (normalmente em 1), conforme a ficha delas. A tabela vem do [Livro 3, Seção 5.1](Livro_03_Mestre_Estilizado.html#51-balanceamento-prático-para-5-6-ou-7-jogadores-e-ajuste-em-5-segundos), e as propriedades das armas estão em [Livro 1, Seção 5.4](Livro_01_Sistema_Estilizado.html#54-propriedades-táticas-completas-de-todas-as-armas).
 
@@ -292,9 +294,9 @@ Quando um inimigo ataca, o Mestre descreve o golpe e anuncia a CD. Você rola a 
 
 > 📌 **Inimigos fortes atacam vários alvos.** Elites e chefes fazem **Ataques Varridos**: atingem 2 a 4 jogadores ao mesmo tempo, e cada um rola a própria defesa. Quando um jogador faz um ataque em área, ele rola **uma vez só** e compara o resultado com a CD de cada inimigo na área.
 
-> ⚖️ **Orçamento de Ameaça (para o Mestre):** para cada criatura da luta, multiplique **quantos alvos ela ataca por turno × o dano dela**, e some tudo. Esse total deve ficar **no máximo igual ao número de jogadores** (1× o número de jogadores). Exemplo com 4 jogadores: 4 Carniçais (1 alvo × 1 de dano cada) somam **4**: no limite. Um chefe com Ataque Varrido em 3 alvos e Dano 2 soma **6**, então só cabe numa mesa de 6 ou mais, ou com o Varrido reduzido. Todos os encontros do [Capítulo 5](#capítulo-5-aventura-introdutória--a-última-vigília-do-templo-cinzento) já respeitam esse orçamento. **Chefes de Rank acima:** um Demônio ou Diabo Desperto que enfrenta Adormecidos usa o **Perfil de Chefe** (CD 11, o triplo de PV e `+1` de Dano; [Livro 3, Seção 5.2](Livro_03_Mestre_Estilizado.html#52-matriz-de-criação-de-monstros--20-mutações-e-poderes-de-diabostiranosterrores)), e só deve ser enfrentado com um Relógio de Preparação.
+> ⚖️ **Orçamento de Ameaça (para o Mestre):** para cada criatura da luta, multiplique **quantos alvos ela ataca por turno × o dano dela**, e some tudo. Esse total deve ficar **no máximo igual ao número de jogadores** (1× o número de jogadores). Exemplo com 4 jogadores: 4 Carniçais (1 alvo × 1 de dano cada) somam **4**: no limite. Um chefe com Ataque Varrido em 3 alvos e Dano 2 soma **6**, então só cabe numa mesa de 6 ou mais, ou com o Varrido reduzido. Todos os encontros do [Capítulo 5](#capítulo-5-aventura-introdutória--a-última-vigília-do-templo-cinzento) já respeitam esse orçamento. **Chefes de Rank acima:** um Demônio ou Diabo Desperto que enfrenta Adormecidos usa o **Perfil de Chefe** (**CD 11 na ficha, 12 contra Adormecidos**, **3× PV** com teto **45 Desperto / 72 Caído** para até 5 jogadores, e **`+1` de Dano**; [Livro 3, Seção 5.2](Livro_03_Mestre_Estilizado.html#52-matriz-de-criação-de-monstros--20-mutações-e-poderes-de-diabostiranosterrores)), e só deve ser enfrentado com um Relógio de Preparação.
 >
-> 👥 **Mesa de 6 ou 7 jogadores:** o chefe usa **6× o PV** (o dobro do normal) e ataca **até 5 jogadores** por rodada. Com o triplo, 7 jogadores derrubam o chefe rápido demais. E lembre: com 6 ou 7 pessoas, uma luta dentro do Orçamento fica fácil. Para uma luta que assuste, traga uma **2ª onda** quando a 1ª cair, sem aumentar o dano.
+> 👥 **Mesa de 6 ou 7 jogadores:** o chefe usa **6× o PV** (teto **90 Desperto / 120 Caído**) e ataca **até 5 alvos** por rodada. Com 3× PV, 7 jogadores derrubam o chefe rápido demais. E lembre: com 6 ou 7 pessoas, uma luta dentro do Orçamento fica fácil. Para uma luta que assuste, traga uma **2ª onda** quando a 1ª cair, sem aumentar o dano.
 
 ### Flanquear e cercar
 Dois aliados em **lados opostos** de um inimigo, em corpo a corpo, ganham `+1` cada nos ataques corpo a corpo contra ele. Com **3 ou mais** cercando por lados diferentes, o bônus sobe para `+2`. Esse é o jeito mais simples de uma Coorte de novatos derrubar um monstro mais forte. As regras completas de posicionamento e as **15 Manobras** (derrubar, empurrar, agarrar, proteger aliado...) estão em [Livro 1, Seção 5.2](Livro_01_Sistema_Estilizado.html#52-posicionamento-as-5-faixas-de-distância-cobertura-flanqueamento-e-altura) e [Livro 1, Seção 5.3](Livro_01_Sistema_Estilizado.html#53-as-15-manobras-táticas-de-combate-passo-a-passo).
@@ -310,13 +312,13 @@ Dois aliados em **lados opostos** de um inimigo, em corpo a corpo, ganham `+1` c
     - **Falha:** o sangramento continua. Depois de **3 rodadas** (ou 3 falhas acumuladas), o ferido entra na **Regra das 24 Horas** (precisa de cirurgia ou cura em até 24 horas) ou morre se ninguém intervier.
 - **Descanso:** uma noite completa de sono seguro e bem alimentado recupera PV. As regras de recuperação e a tabela de Ferimentos Graves estão em [Livro 1, Seção 6.2](Livro_01_Sistema_Estilizado.html#62-morte-regra-das-24-horas-primeiros-socorros-e-ferimentos-graves).
 
-> 🎙️ **Exemplo:** Kira está com 1 PV e sofre um golpe de 2 de dano. Vai a `0 PV` com 1 de excedente, bem menos que os 10 PV Máximos dela, então ela **não** morre: cai inconsciente. Davi corre até ela e usa a Ação Maior. Sem kit médico, a CD é **9**. Ele tem *Mente 1* e não tem `[X]` em Conhecimento: rola `1d6 + 1` e tira `4`, total `5`. Falhou. Na rodada seguinte, Lia (que tem `[X]` em Conhecimento, *Mente 2*) assume e rola `1d8 + 2`: tira `6`, total `8` (`CD - 1`). Ainda falha, mas a **Falha com Dádiva** lhe dá `+1` na próxima tentativa. Na 3ª tentativa, ela tira `3`: `3 + 2 + 1 = 6`. Falha de novo. Com 3 falhas acumuladas, Kira entra na Regra das 24 Horas. Lição para a mesa: **carreguem bandagens.**
+> 🎙️ **Exemplo:** Kira está com 1 PV e sofre um golpe de 2 de dano. Vai a `0 PV` com 1 de excedente, bem menos que os 10 PV Máximos dela, então ela **não** morre: cai inconsciente. Davi corre até ela e usa a Ação Maior. Sem kit médico, a CD é **9**. Ele tem *Mente 1* e não tem `[X]` em Conhecimento: rola `1d6 + 1` e tira `5`, total `6` (`CD - 3`, Falha Simples). Falhou. Na rodada seguinte, Lia (que tem `[X]` em Conhecimento, *Mente 2*) assume e rola `1d8 + 2`: tira `6`, total `8` (`CD - 1`). Ainda falha, mas a **Falha com Dádiva** lhe dá `+1` na próxima tentativa. Na 3ª tentativa, ela tira `3`: `3 + 2 + 1 = 6`. Falha de novo. Com 3 falhas acumuladas, Kira entra na Regra das 24 Horas. Lição para a mesa: **carreguem bandagens.**
 
 ## 2.13 Essência e o Aspecto
 
 A **Essência** é a energia da sua alma. Ela alimenta as Habilidades do Aspecto, as Memórias e os Ecos.
 
-- **Reserva de Essência = `(Alma × 2)` + Marcos Ímpares + Bônus de Rank + `(3 × Núcleos Extras)`.** Na primeira sessão, só importam duas partes: **`Alma × 2`** e o **bônus do Rank do Aspecto**, que é `+1` para Aspectos *Transcendentes* e `+2` para Aspectos *Sagrados*. Os outros termos aparecem com a evolução da campanha.
+- **Reserva de Essência = `(Alma × 2)` + 1 por Marco Ímpar (1, 3, 5, 7, 9) + Bônus de Rank (humano e do Aspecto) + `(3 × Núcleos Extras)`.** Na primeira sessão, só importam duas partes: **`Alma × 2`** e o **bônus do Rank do Aspecto**, que é `+1` para Aspectos *Transcendentes* ou *Supremos* e `+2` para Aspectos *Sagrados*. Os outros termos aparecem com a evolução da campanha.
 - **Aspirante não tem Essência.** Você anota a Reserva na ficha desde a criação, mas só passa a usá-la quando desperta como Adormecido no fim do Primeiro Pesadelo.
 - **O que o Adormecido faz com Essência:** ativa as Habilidades do Aspecto que custam Essência, mantém Memórias encantadas e invoca Ecos.
 - **O que o Adormecido NÃO faz:** **Reforço Corporal**. Gastar Essência avulsa para ficar mais forte é coisa de Desperto em diante: 1 Essência como Ação Menor ou Reação dá `+1` num teste de *Corpo*, **ou** `+1 de Dano` num golpe físico, **ou** reduz em 1 um dano físico que você vai sofrer.
@@ -367,7 +369,7 @@ Toda a jornada de *Shadow Slave* é subir de Rank. Nenhum ponto de experiência 
 
 - **Memórias:** quando uma Criatura do Pesadelo cai a 0 PV, quem deu o **golpe fatal** rola **`1d6`**. Com **`6`**, o Feitiço tece uma **Memória** (uma arma, armadura ou objeto mágico) a partir da criatura, e ela vai para o Mar da Alma do personagem. Memórias guardadas não pesam nada.
 - **Ecos:** se o `1d6` não deu `6`, a mesma pessoa rola **`1d20`**. Com **`20`**, a criatura volta como um **Eco**, um aliado espiritual que obedece ao seu comando.
-- **Sombras:** alguns Aspectos raros (como os *Escravos das Sombras*) ganham **Sombras** em vez de Ecos. Elas são a exceção da regra de Rank: contam **`+2` de CD por Rank**, e não `+1`. Detalhes em [Livro 1, Seção 7.5](Livro_01_Sistema_Estilizado.html#75-o-sistema-completo-de-ecos-echoes-vs-sombras-evolutivas-shadows).
+- **Sombras:** alguns Aspectos raros (como os *Escravos das Sombras*) ganham **Sombras Evolutivas** em vez de Ecos. Ao subir de Rank, uma Sombra Evolutiva ganha **`+2` na própria CD e `+1` de Dano Base** (diferente de Ecos reforjados, que ganham `+1` na CD e `+4 PV`). Detalhes em [Livro 1, Seção 7.5](Livro_01_Sistema_Estilizado.html#75-o-sistema-completo-de-ecos-echoes-vs-sombras-evolutivas-shadows).
 - **Avaliação do Feitiço:** ao fim de cada Pesadelo, o Feitiço dá uma nota à Coorte, de **Pobre** a **Gloriosa** (a **Divina** é opcional e raríssima). Quanto mais vocês mudarem o destino trágico da história original, maior a nota e maiores as recompensas ([Capítulo 5](#capítulo-5-aventura-introdutória--a-última-vigília-do-templo-cinzento), Cena 7). Detalhes em [Livro 1, Seção 7.1](Livro_01_Sistema_Estilizado.html#71-a-natureza-das-memórias-e-como-o-feitiço-as-tece) e [Livro 3, Seção 3.4](Livro_03_Mestre_Estilizado.html#34-as-6-notas-de-avaliação-do-feitiço--ritmo-de-saturaçãoxp-em-campanhas-longas).
 
 ---
@@ -422,11 +424,11 @@ Marque com `[X]` um número de Subcategorias **igual ao seu valor de Mente** (1,
 | :--- | :--- | :--- |
 | **PV Máximos** | `(2 × Corpo) + 4` | `10 PV` |
 | **Reserva de Essência** | `Alma × 2` (+ o bônus do Rank do Aspecto quando ele despertar) | `2` (vira `3` com um Aspecto Transcendente) |
-| **Carga** | Itens Grandes = `Corpo` | 3 Itens Grandes |
+| **Carga normal** | Corpo 1: **15 kg**; Corpo 2: **25 kg**; Corpo 3: **40 kg** (antes dos multiplicadores de Rank) | **40 kg** |
 | **Contatos** | 1 por ponto de `Coração` (+ Origem) | 1 Contato |
 | **Atributos Rúnicos de Poder** | 1 por ponto de `Alma` | 1 Atributo |
 
-**Carga:** 1 Item Grande (escudo de torre, mochila cheia) = 2 Médios (espada de uma mão, arco) = 4 Pequenos (adaga, cantil, kit médico). Passar do limite deixa você **Lento**. Memórias guardadas no Mar da Alma não pesam nada.
+**Carga:** use o peso transportado e a tabela do **Livro 1, Seção 2.2**, que define Carga Pesada e Sobrecarga. Para capacidades descritas em tamanhos (como bolsas espaciais), **1 Item Grande ≈ 5 kg = 2 Médios = 4 Pequenos**; exemplos: mochila cheia, espada de uma mão e adaga, respectivamente. Isso não cria um limite separado de Itens Grandes igual a Corpo. Memórias guardadas no Mar da Alma não pesam nada.
 
 ### Passo 5: Vínculos de Coorte
 
@@ -436,7 +438,7 @@ Cada jogador cria **2 Vínculos de Nível 1**: um com o colega à esquerda e um 
 
 Você **não escolhe** o Aspecto numa lista de compras: o Feitiço olha para a sua alma. O Mestre faz a **Entrevista da Alma**, 7 perguntas sobre o seu personagem ([Livro 2, Seção 1.2](Livro_02_Jogador_Estilizado.html#12-o-despertar-pela-entrevista-do-primeiro-pesadelo-perspectiva-do-jogador)), e observa o que você **faz** no Primeiro Pesadelo. Atos valem mais que palavras. No fim da aventura, ele revela o seu **Aspecto** e os seus **Atributos Rúnicos**.
 
-O **Defeito** é a maldição que acompanha todo Aspecto, e **você nunca escolhe o seu**: o Mestre o entrega no fim do Primeiro Pesadelo, às vezes em segredo, num bilhete dobrado. Alguns exemplos: `[Protetor Compulsivo]` (sofre `-1` em tudo se não estiver protegendo um aliado ferido) e `[Olhos Cegos para o Presente]` (cegueira física além da faixa *Perto*). Os 60 Defeitos prontos estão no [Livro 3, Seção 2.4](Livro_03_Mestre_Estilizado.html#24-enciclopédia-completa-de-60-defeitos-prontos-flaws).
+O **Defeito** é a maldição que acompanha todo Aspecto, e **você nunca escolhe o seu**: o Mestre o entrega no fim do Primeiro Pesadelo, às vezes em segredo, num bilhete dobrado. Alguns exemplos: `[Protetor Compulsivo]` (para abandonar um aliado gravemente ferido sob ameaça, precisa passar em *Vontade CD 7* **e** gastar `1 Essência` como Dano de Alma) e `[Olhos Cegos para o Presente]` (cegueira física além da faixa *Perto*). Os 60 Defeitos prontos estão no [Livro 3, Seção 2.4](Livro_03_Mestre_Estilizado.html#24-enciclopédia-completa-de-60-defeitos-prontos-flaws).
 
 > 📌 **Dois jeitos de começar** ([Livro 3, Seção 1.3](Livro_03_Mestre_Estilizado.html#13-conduzindo-a-sessão-0-e-a-sessão-1-passo-a-passo)):
 > - **Caminho A (recomendado, e o desta aventura):** os personagens começam como **Aspirantes**, sem Aspecto nem Defeito. Jogam o Primeiro Pesadelo usando só Pilares, Especializações e o Grau 1 do Papel, e o Aspecto desperta no fim.
@@ -451,7 +453,7 @@ O [Livro 2, Capítulo 4](Livro_02_Jogador_Estilizado.html#capítulo-4-o-grande-c
 - **Rank do Aspecto:** Transcendente (Reserva de Essência: `(Alma × 2) + 1`). **Papéis:** Baluarte ou Executor.
 - **Para quem é:** quem gosta de ser o escudo do grupo e de pular na frente do golpe que mataria o amigo.
 - **Habilidade Inata — `[Raízes de Montanha]` (passiva):** com os dois pés em chão firme, você é **imune a ser empurrado, derrubado ou erguido** por golpes, ventos e ondas (ignora *Derrubar/Empurrar* de inimigos de Rank igual ou inferior e tem Vantagem contra os superiores). Também recebe `+1` permanente em *Corpo (Vigor)* ao bloquear com escudos ou braçadeiras.
-- **1ª Habilidade (Adormecida) — `[Intercepção Heroica]`:** custo 0, **Reação Livre** 1x por rodada. Quando um aliado até a faixa *Perto* for alvo de um ataque físico, projétil ou sopro, você salta na frente dele e **faz a rolagem de Defesa no lugar dele com `+1`** (rolando *Corpo (Vigor)* ou *Alma (Abjurar)*). Se passar, ninguém sofre dano; se falhar, você absorve o dano no lugar do aliado. Em `CD + 4`, ganha 1 Carga Cinética (ou dá `+1` ao próximo ataque da Coorte contra esse monstro).
+- **1ª Habilidade (Adormecida) — `[Intercepção Heroica]`:** custo **0 Essência**, **Reação**, 1x por rodada (consome sua Reação). Quando um aliado até a faixa *Perto* for alvo de um ataque físico, projétil ou sopro, você salta na frente dele e **faz a rolagem de Defesa no lugar dele com `+1`** (rolando *Corpo (Vigor)* ou *Alma (Abjurar)*). Se passar, ninguém sofre dano; se falhar, você absorve o dano no lugar do aliado. Em `CD + 4`, ganha 1 Carga Cinética (ou dá `+1` ao próximo ataque da Coorte contra esse monstro).
 - **2ª Habilidade (Desperta) — `[Escudo Indestrutível]`:** custo 1 Essência; sua Armadura ou Escudo de Memória absorve um golpe sem perder integridade.
 - **Atributos Rúnicos** (escolha 1 por ponto de Alma):
     - `[Guarda-Costas Leal]`: 1 Intercepção extra por rodada e `+1` na Defesa ao proteger um aliado com menos da metade dos PV.
@@ -463,7 +465,7 @@ O [Livro 2, Capítulo 4](Livro_02_Jogador_Estilizado.html#capítulo-4-o-grande-c
 
 - **Rank do Aspecto:** Transcendente (Reserva de Essência: `(Alma × 2) + 1`). **Papéis:** Executor ou Baluarte.
 - **Para quem é:** quem quer sentir o peso de cada golpe, arremessar monstros longe e arrombar portões.
-- **Habilidade Inata — `[Corpo de Titã]` (passiva):** **`+2 PV máximos`** permanentes já como Adormecida; o **dobro da Carga** (`2 × Corpo`); com `Corpo 3+`, empunha armas pesadas de duas mãos com uma mão só; `+1` em testes de força bruta fora de combate (erguer portões, dobrar barras, nadar contra a correnteza).
+- **Habilidade Inata — `[Corpo de Titã]` (passiva):** **`+2 PV máximos`** permanentes já como Adormecida; o **dobro dos limites de Carga em kg** (Livro 1, Seção 2.2); com `Corpo 3+`, empunha armas pesadas de duas mãos com uma mão só; `+1` em testes de força bruta fora de combate (erguer portões, dobrar barras, nadar contra a correnteza).
 - **1ª Habilidade (Adormecida) — `[Arremesso Trovejante]`:** custo 0, **Ação Maior**, rolagem de *Corpo (Força)* contra a CD da criatura. Corpo a corpo ou arremessando até *Distante*. No sucesso, causa o dano da arma (1 com objeto improvisado; 2 com arma pesada) e **empurra o alvo 1 Faixa**. Com `CD + 2` ou melhor, o alvo também cai **Derrubado**. Com `CD + 4`, se houver parede, coluna ou outro monstro atrás do alvo, causa `+1 de Dano`.
 - **2ª Habilidade (Desperta) — `[Rugido da Alvorada]`:** custo 1 Essência, Ação Menor; toda a Coorte ganha `+1` na próxima rolagem de ataque ou de *Mente (Vontade)*.
 - **Atributos Rúnicos:**
@@ -477,7 +479,7 @@ O [Livro 2, Capítulo 4](Livro_02_Jogador_Estilizado.html#capítulo-4-o-grande-c
 - **Rank do Aspecto:** Sagrado (Reserva de Essência: `(Alma × 2) + 2`). **Papéis:** Oráculo, Canalizador ou Espectro.
 - **Para quem é:** quem gosta de enxergar o perigo antes de todos e transformar os colegas em heróis.
 - **Habilidade Inata — `[Percepção Espiritual]` (passiva):** sente presenças vivas, criaturas, auras, intenções assassinas e mentiras até a faixa *Perto*, sem precisar enxergar. Nesse raio, **ignora escuridão, névoa e invisibilidade comum**, **nunca é surpreendido** por emboscadas físicas e percebe se um humano tenta enganá-lo.
-- **1ª Habilidade (Adormecida) — `[Vislumbre de 3 Segundos]`:** custo 0, **Reação Livre**, **duas vezes por cena**. Logo antes de um aliado rolar a Defesa contra um ataque físico ou ambiental, você grita um aviso: **ele rola a Defesa com Vantagem**. Se ele tirar `CD + 4` graças ao aviso, o próximo ataque de qualquer aliado contra o atacante ganha `+1`. Fora de combate (Ação Maior, *Astúcia* ou *Canalizar* CD 9), dá visões sobre um lugar ou objeto.
+- **1ª Habilidade (Adormecida) — `[Vislumbre de 3 Segundos]`:** custo **0 Essência**, **Reação**, **duas vezes por cena** (cada uso consome sua Reação). Logo antes de um aliado rolar a Defesa contra um ataque físico ou ambiental, você grita um aviso: **ele rola a Defesa com Vantagem**. Se ele tirar `CD + 4` graças ao aviso, o próximo ataque de qualquer aliado contra o atacante ganha `+1`. Fora de combate (Ação Maior, *Astúcia* ou *Canalizar* CD 7), dá visões sobre um lugar ou objeto.
 - **2ª Habilidade (Desperta) — `[Rede Sensorial da Coorte]`:** custo 1 Essência; telepatia silenciosa entre até 7 aliados por uma cena.
 - **Atributos Rúnicos:**
     - `[Sexto Sentido Impecável]`: `+1` permanente na Iniciativa e `+1` em *Mente (Astúcia)* para detectar armadilhas, emboscadas e ilusões.
@@ -502,7 +504,7 @@ Os outros quatro Papéis, e os Graus 2 a 10, estão no [Livro 2, Capítulo 2](Li
 1. **Conceito e Papel:** *"Kira, filha de um estivador da Periferia, que sempre foi a primeira a entrar numa briga para defender os menores."* Papel: **Baluarte (Grau 1)**.
 2. **Pilares:** começa com `1-1-1-1` e coloca `+2` em Corpo e `+1` em Mente → **Corpo 3 · Mente 2 · Coração 1 · Alma 1**.
 3. **Especializações:** Mente 2 = duas → `[X]` em **Vigor** e `[X]` em **Força**.
-4. **Derivados:** **10 PV**; Essência anotada `2` (só utilizável depois do despertar); **3 Itens Grandes** de Carga; **1 Contato** (o pai estivador); **1 Atributo Rúnico de Poder** (escolhido quando o Aspecto despertar).
+4. **Derivados:** **10 PV**; Essência anotada `2` (só utilizável depois do despertar); **40 kg** de Carga normal (Livro 1, Seção 2.2); **1 Contato** (o pai estivador); **1 Atributo Rúnico de Poder** (escolhido quando o Aspecto despertar).
 5. **Vínculos:** `[Espada e Escudo]` com o Davi (Executor), à esquerda; um segundo Vínculo com a Lia (Oráculo), à direita.
 6. **Fim do Primeiro Pesadelo:** o Mestre revela o Aspecto **Guarda-Sol de Aço** (Transcendente, `+1`). A Essência vai para **`(1 × 2) + 1 = 3`**. Ela escolhe o Atributo `[Guarda-Costas Leal]`. O Mestre entrega, num bilhete, o Defeito `[Protetor Compulsivo]`.
 
@@ -514,7 +516,7 @@ Os outros quatro Papéis, e os Graus 2 a 10, estão no [Livro 2, Capítulo 2](Li
 | **Papel** | Baluarte, Grau 1 (*Postura da Muralha Férrea* + *Muralha Inabalável*) |
 | **Pilares** | Corpo **3** · Mente **2** · Coração **1** · Alma **1** |
 | **Especializações (`1d8`)** | Força `[X]` · Vigor `[X]` |
-| **PV / Essência / Carga** | **10** / **3** / 3 Itens Grandes |
+| **PV / Essência / Carga** | **10** / **3** / 40 kg (Corpo 3) |
 | **Aspecto** | Guarda-Sol de Aço: `[Raízes de Montanha]` (Inata) · `[Intercepção Heroica]` (1ª) |
 | **Atributo Rúnico** | `[Guarda-Costas Leal]` |
 | **Defeito** | `[Protetor Compulsivo]` |
@@ -537,6 +539,8 @@ Nada ensina tanto quanto ver uma mesa jogando. O trecho abaixo é a primeira lut
 | **Kira** (jogadora: Bia) | Baluarte | Corpo 3 · Mente 2 · Coração 1 · Alma 1 | Força `[X]`, Vigor `[X]` | 10 | Corrente da algema (improvisada, 1 de dano) e um escudo de bronze tomado de um guarda |
 | **Davi** (jogador: Rafa) | Executor | Corpo 3 · Mente 1 · Coração 1 · Alma 2 | Força `[X]` | 10 | Lança de bronze (Tática: 1 de dano, 2 com `CD + 3`) |
 | **Lia** (jogadora: Duda) | Oráculo | Corpo 1 · Mente 2 · Coração 2 · Alma 2 | Astúcia `[X]`, Conhecimento `[X]` | 6 | Nenhuma |
+
+**Posturas neste exemplo:** Kira mantém a *Postura da Muralha Férrea* ativa. Davi mantém a *Postura do Fio Inexorável* **desativada**: os cálculos abaixo usam a lança e as Dádivas, sem o `+1 de Dano` que a postura daria em `CD + 3`.
 
 **Os inimigos:** dois **Carniçais das Ruínas** (*Besta Adormecida* — **CD 7**, **4 PV**, **Dano 1**). Como os jogadores rolam tudo, o Mestre só precisa desses três números.
 
@@ -574,15 +578,15 @@ Nada ensina tanto quanto ver uma mesa jogando. O trecho abaixo é a primeira lut
 >
 > **Mestre:** A ponta de bronze atravessa o ombro do Carniçal e sai do outro lado. Ele guincha e cambaleia: de 4 PV, sobra **1**.
 
-> **Mestre:** Agora é o **Turno do Pesadelo**. O Carniçal ferido, cego de dor, crava as garras no Davi. O outro dá a volta pela coluna e salta na direção da Lia, que está desarmada. **Davi, defesa contra CD 7. Lia, defesa contra CD 7.**
+> **Mestre:** Agora é o **Turno do Pesadelo**. Os dois Carniçais fecham juntos na linha de frente, colados um ao outro junto à coluna: o ferido, cego de dor, crava as garras no Davi, enquanto o segundo avança logo ao lado direto contra a Lia, que está desarmada. **Davi, defesa contra CD 7. Lia, defesa contra CD 7.**
 >
-> **Bia (Kira):** Espera! A Kira está do lado da Lia. Eu uso a minha **Reação** para **Proteger Aliado**: entro na frente com o escudo.
+> **Bia (Kira):** Espera! A Kira está bem na linha de frente, colada na Lia e ao alcance dos dois Carniçais. Eu uso a minha **Reação** para **Proteger Aliado**: entro na frente com o escudo.
 >
-> **Mestre:** Pode. Role a defesa no lugar dela.
+> **Mestre:** Pode. Role a defesa no lugar dela — e lembre que a sua Técnica *Muralha Inabalável* também soma `+1` ao usar *Proteger Aliado*.
 >
-> **Bia (Kira):** Vigor `[X]`: `1d8 + 3`, e a minha *Postura da Muralha Férrea* dá `+1` porque estou com o escudo. Tirei `5`: `5 + 3 + 1 = 9`.
+> **Bia (Kira):** Vigor `[X]`: `1d8 + 3`, mais `+1` da *Postura da Muralha Férrea* (pelo escudo) e `+1` de *Muralha Inabalável* (`+2` no total). Tirei `5`: `5 + 3 + 2 = 10`.
 >
-> **Mestre:** `CD + 2`, Sucesso Pleno. As garras arranham o bronze e escorregam. A Lia não sofre nada.
+> **Mestre:** `CD + 3`, Sucesso Pleno. As garras arranham o bronze e escorregam. A Lia não sofre nada, e você continua firme na frente dela, engajada corpo a corpo com os dois Carniçais.
 >
 > **Rafa (Davi):** E eu estou com a *Guarda Aberta* da iniciativa...
 >
@@ -598,7 +602,7 @@ Nada ensina tanto quanto ver uma mesa jogando. O trecho abaixo é a primeira lut
 
 > **Mestre:** Fecha a rodada quem não passou na iniciativa. Kira, sua vez.
 >
-> **Bia (Kira):** Giro a corrente da algema no Carniçal ferido, o da esquerda. O Davi está do outro lado dele, então estamos flanqueando.
+> **Bia (Kira):** Sem sair da minha posição na frente da Lia — nem romper a *Postura da Muralha Férrea* —, giro a corrente da algema no Carniçal ferido logo ao lado. O Davi está do outro lado dele, então estamos flanqueando.
 >
 > **Mestre:** Isso dá `+1`. Força.
 >
@@ -618,7 +622,7 @@ Nada ensina tanto quanto ver uma mesa jogando. O trecho abaixo é a primeira lut
 
 ## 4.3 Rodada 2: O Último Carniçal
 
-> **Mestre:** Da segunda rodada em diante, **todos vocês agem primeiro, na ordem que quiserem**. Depois agem os inimigos. Sobrou um Carniçal, com 4 PV, colado na Kira e na Lia.
+> **Mestre:** Da segunda rodada em diante, **todos vocês agem primeiro, na ordem que quiserem**. Depois agem os inimigos. Sobrou um Carniçal, com 4 PV, ainda engajado corpo a corpo com a Kira (e ameaçando a Lia logo atrás).
 >
 > **Rafa (Davi):** Eu dou a volta e fico do outro lado dele, para flanquear com a Kira. Isso é o meu movimento.
 >
@@ -646,13 +650,13 @@ Nada ensina tanto quanto ver uma mesa jogando. O trecho abaixo é a primeira lut
 >
 > **Bia (Kira):** Vigor `[X]` com o escudo: `1d8 + 3 + 1`. Tirei `2`: `6`.
 >
-> **Mestre:** `CD - 1`: **Falha com Dádiva** na defesa. Você sofre **metade do dano** (mínimo 1): 1 de dano. Ou pode preferir se reposicionar em vez de reduzir o dano... mas com 1 de dano, a metade continua sendo 1.
+> **Mestre:** `CD - 1`: **Falha com Dádiva** na defesa. O dano cai pela metade (mínimo 1), então contra 1 de dano você ainda leva **1 de dano**. Mas a *Falha com Dádiva* não se perde: mesmo levando o 1 de dano, você aproveita o impacto para **se reposicionar** (puxando o Carniçal para longe da Lia) **ou gerar 1 Dádiva Menor** para a Coorte.
 >
-> **Bia (Kira):** Fico com o dano: **9 PV**.
+> **Bia (Kira):** Anoto o dano (**9 PV**) e aproveito para me reposicionar, girando o Carniçal e puxando ele para longe da Lia.
 
 ## 4.4 Rodada 3: O Golpe Final
 
-> **Rafa (Davi):** Ataco de novo, com o flanco: `1d8 + 3 + 1`. Tirei `4`: `8`.
+> **Rafa (Davi):** Depois do meu *Passo Evasivo*, avanço de volta para o flanco e ataco de novo: `1d8 + 3 + 1`. Tirei `4`: `8`.
 >
 > **Mestre:** `CD + 1`, **Sucesso Pleno**: 1 de dano (a lança só causa 2 com `CD + 3`). O Carniçal tomba de lado e não se levanta mais. Golpe fatal: role o `1d6`.
 >
@@ -731,7 +735,7 @@ Peça a cada jogador uma frase sobre o que o personagem estava fazendo naquele f
 Entregue a cada jogador **uma frase sobre o corpo hospedeiro**: *"você tem marcas de gladiador nos ombros"*, *"tinta seca de escriba nos dedos"*, *"um colar de dentes de lobo escondido sob os trapos"*.
 
 **O desafio:** quebrar as algemas antes que os guardas cheguem.
-- Cada jogador rola **Força** (arrebentar o elo podre) ou **Astúcia** (achar o pino solto e abrir a fechadura) contra **CD 7**. Quem já se soltou pode **Ajudar** outro (`+1`).
+- Cada jogador rola **Força** (arrebentar o elo podre) ou **Astúcia** (achar o pino solto e abrir a fechadura) contra **CD 5**. Quem já se soltou pode **Ajudar** outro (`+1`).
 - **Relógio de Ameaça "Os Sinos" (4 fatias):** cada **Falha Simples** avança 1 fatia; cada **Falha com Infortúnio** avança 2 (é o Infortúnio *I11 Barulho Ecoante*). Se o relógio encher, os sinos do templo tocam: o ritual começou, e na Cena 5 o Sacerdote já terá os acólitos posicionados no portão (comece a Cena 5 com o portão meio fechado).
 
 **Os guardas chegam:** **Guardas do Templo** — **2** (3–4 jogadores) ou **3** (5–7 jogadores) — CD 7, 4 PV, Dano 1. *Orçamento:* 2 guardas × 1 alvo × 1 = **2** (limite 3–4) ou 3 × 1 × 1 = **3** (limite 5–7). Eles abrem a cela esperando prisioneiros acorrentados. Quem ainda estiver preso pode lutar com Desvantagem ou tentar soltar-se de novo como Ação Maior.
@@ -740,7 +744,7 @@ Entregue a cada jogador **uma frase sobre o corpo hospedeiro**: *"você tem marc
 - **Enganar** os guardas (*"ele está morto, entrem para ver!"*): **CD 8** (`7 + Mente 1` do guarda). Com sucesso, a Coorte ganha uma **Rodada de Surpresa** grátis.
 - **Emboscada:** esconder-se dos dois lados da porta, com um teste coletivo de **Agilidade CD 7**. Se a maioria passar, também ganha a Rodada de Surpresa.
 
-**O que encontram:** lanças de bronze (Táticas, 1 de dano, 2 com `CD + 3`), **1 escudo de bronze** por guarda (dá a Postura do Baluarte), uma tocha e um molho de chaves que não abre a ala oeste.
+**O que encontram:** lanças de bronze (Táticas, 1 de dano, 2 com `CD + 3`), **1 escudo de bronze** por guarda (permite ao Baluarte ativar a Postura da Muralha Férrea), **1 kit médico com bandagens** (no posto dos guardas), uma tocha e um molho de chaves que não abre a ala oeste.
 
 > 🎭 **Dica de interpretação:** os guardas não são monstros. Um deles, ferido, pode implorar: *"O Sacerdote disse que é a vontade do Sol!"*. Se a Coorte poupar alguém, anote: é um ato que o Feitiço vai pesar na Avaliação (Cena 7) e na escolha dos Aspectos.
 
@@ -760,7 +764,7 @@ Entregue a cada jogador **uma frase sobre o corpo hospedeiro**: *"você tem marc
 
 Encolhida atrás de uma coluna, perto da porta oeste, está **Irmã Maren**, uma noviça de 15 anos com um corte fundo na perna. Ela está **Sangrando** (perde 1 PV por turno; tem 2 PV quando a Coorte a encontra).
 
-- **Estancar o sangramento:** Ação Maior, **Conhecimento CD 7–9** (CD 7 com o kit médico do posto dos guardas; CD 9 com trapos e neve).
+- **Estancar o sangramento:** Ação Maior, **Conhecimento CD 5–7** (`CD 5` com bandagens ou o kit médico do posto dos guardas; `CD 7` com trapos e neve).
 - **Acalmá-la:** ela está em pânico e acha que vocês são prisioneiros fugitivos que vão matá-la. **Convencer CD 7** (dizer a verdade funciona). **Intimidar** também funciona, mas ela conta só o mínimo.
 
 **O que Maren sabe (revele conforme a Coorte conquistar a confiança dela):**
@@ -779,7 +783,7 @@ Encolhida atrás de uma coluna, perto da porta oeste, está **Irmã Maren**, uma
 **Escuridão:** sem tocha, a cripta é **Escuridão Total**: ataques com **Desvantagem** e defesas contra golpes não anunciados com `+2` na CD. Com uma tocha, sem penalidade. Se alguém sofrer *I18 Luz Apagada*, a tocha se apaga.
 
 **O enxame:** **Larvas do Pesadelo** — **6** (3–4 jogadores) ou **9** (5–7 jogadores) — CD 6, 2 PV cada, Dano 1. Elas atacam **em grupos de 3 contra o mesmo alvo** (cada grupo faz um ataque: o alvo rola uma defesa por grupo). *Orçamento:* 6 Larvas = 2 grupos × 1 alvo × 1 = **2** (limite 3–4); 9 Larvas = 3 grupos = **3** (limite 5–7). Quando as Larvas morrem, os grupos encolhem: um grupo com menos de 3 Larvas se junta a outro.
-- **Sangue ácido:** se um personagem tirar `CD - 4` ou pior na defesa, o ácido estraga a armadura ou o escudo dele (o escudo de bronze deixa de dar a Postura do Baluarte).
+- **Sangue ácido:** se um personagem tirar `CD - 4` ou pior na defesa, o ácido estraga a armadura ou o escudo dele (o escudo de bronze deixa de servir para a Postura da Muralha Férrea do Baluarte).
 - **Fraqueza:** fogo e armas de haste (lanças) atingem as larvas sem tocar o ácido. **Se metade do enxame morrer de uma vez, as restantes fogem** para as fendas.
 
 **Encontrar o óleo — Relógio de Progresso "Os Jarros" (4 fatias):** cada tentativa é uma Ação Maior (ou 10 minutos fora de combate) de **Astúcia** (procurar) ou **Conhecimento** (ler as inscrições nos nichos), **CD 7**. Crítico = 3 fatias; Sucesso Pleno = 2; `CD Exata` = 1 e avança o *Frio na Ala Oeste*. Com 4 fatias, a Coorte acha **2 jarros de óleo sagrado** lacrados com cera dourada.
@@ -816,14 +820,14 @@ Assim que o Sacerdote cair, se render ou fugir, a cúpula do altar estala: o Par
 - **Fraqueza — O Óleo e o Braseiro:** jogar um jarro de óleo no Parasita (**Agilidade CD 7**, até a faixa *Perto*) e incendiá-lo com uma tocha ou empurrando-o para o braseiro (**Força CD 9**, a manobra *Empurrar no Abismo*) faz a carapaça derreter:
     - A **Carapaça de Geada** deixa de reduzir o dano;
     - O Parasita fica **Queimando**: sofre **1 de dano** no Núcleo no início de cada Turno do Pesadelo, por 3 rodadas;
-    - A **CD cai de 9 para 8** pelo resto da luta (o efeito de uma *Ruptura de Guarda* permanente).
+    - A **CD base da ficha cai de 9 para 8** pelo resto da luta (uma *Ruptura de Guarda* permanente). Essa redução de `-1` **conta no teto global de `-2`, tomando a CD original 9 como referência**; condições futuras podem reduzir só mais `-1`, para CD 7, e não se acumulam entre si.
 - **Regra de Foco em Partes:** quando uma Parte chega a 0 PV, ela se rompe na hora. Se o golpe que a destruiu foi `CD + 4`, o Núcleo sofre **+1 de dano** de choque.
 
 **Comportamento rodada a rodada:**
 1. **Rodada 1:** cai no meio do pátio e exala o Sopro Gélido sobre a Coorte.
 2. **Rodada 2:** varre a linha de frente com as patas, mirando primeiro quem estiver segurando o óleo (ele "sente" o perigo).
 3. **Rodada 3 em diante:** se as patas caíram, sobe na cúpula para respirar e depois mergulha sobre quem estiver mais longe do braseiro.
-4. **Com 7 PV ou menos (Fase 2):** desesperado, ataca o braseiro para apagá-lo. Se conseguir (a Coorte pode impedir com *Proteger Aliado*, empurrões ou ficando no caminho), o pátio mergulha na **Penumbra**.
+4. **Com metade dos PV do Núcleo ou menos (Fase 2 — 7 PV para 7 jogadores, 5 PV para 6, ou 4 PV para 3–5):** desesperado, ataca o braseiro para apagá-lo. Se conseguir (a Coorte pode impedir com *Proteger Aliado*, empurrões ou ficando no caminho), o pátio mergulha na **Penumbra**.
 
 **Ajuste pelo tamanho da mesa** ([Livro 3, Seção 5.1](Livro_03_Mestre_Estilizado.html#51-balanceamento-prático-para-5-6-ou-7-jogadores-e-ajuste-em-5-segundos)):
 
@@ -861,7 +865,7 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 
 **Depois da nota, na ordem:**
 1. **Revele o Aspecto** de cada jogador, com base nas anotações da sessão. Os três do [Capítulo 3](#capítulo-3-criando-seu-personagem) são ótimas escolhas para novatos: quem protegeu os outros → *Guarda-Sol de Aço*; quem resolveu tudo na força → *Caçadora da Aurora*; quem enxergou o perigo e coordenou o grupo → *Oráculo Sagrado*.
-2. **Atualize as fichas:** some o bônus do Rank do Aspecto à Essência, anote a Habilidade Inata, a 1ª Habilidade e os Atributos Rúnicos (1 por ponto de Alma).
+2. **Atualize as fichas:** some o bônus do Rank do Aspecto à Essência, anote a Habilidade Inata, a 1ª Habilidade e os Atributos Rúnicos (1 por ponto de Alma). Se a Coorte ganhou **Marcos de Saturação** na Avaliação, aplique os bônus na hora: **Marco 1 = `+1` Essência; Marco 2 = `+1` PV Máximo; Marco 3 = `+1` Essência**.
 3. **Entregue as Memórias** de quem tirou `6` no `1d6` durante a aventura.
 4. **Por último, entregue o Defeito** de cada um, em bilhete dobrado se for secreto.
 5. **Fim:** *"Vocês abrem os olhos. Teto branco. Cheiro de hospital. Um monitor apita. Vocês estão vivos, na Terra, e são Adormecidos. Faltam poucos meses para o Solstício de Inverno."*
@@ -901,7 +905,7 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Trivial | Fácil | Moderada | Difícil | Extrema | Divina |
 
-**Rank:** `±1` na CD por Rank de diferença (mín. 3). **Sombras:** `+2`/Rank. **Chefe** (Demônio/Diabo Desperto × Adormecidos): CD 11, 3× PV, `+1` Dano. **Mesa de 6–7:** 6× PV e até 5 alvos.
+**Rank:** `±1` na CD por Rank de diferença (mín. 3). **Sombras Evolutivas:** ao subir de Rank, ganham `+2` na própria CD e `+1` de Dano Base (diferente de Ecos reforjados, que ganham `+1` na CD e `+4 PV`). **Chefe** (Demônio/Diabo Desperto × Adormecidos): **CD 11 na ficha (12 contra Adormecidos)**, **`+1` de Dano** e **3× PV** (teto **45 Desperto / 72 Caído**) para até 5 jogadores; em **mesas de 6–7 jogadores**, **6× PV** (teto **90 Desperto / 120 Caído**) e **até 5 alvos**.
 
 ### Bônus Comuns (todos dentro do Teto `+3`)
 | Fonte | Bônus | Fonte | Bônus |
@@ -917,7 +921,7 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 | **Iniciativa** | Astúcia ou Agilidade, **CD 7** (`±1`/Rank; 9 contra muito velozes). Quem passa age antes dos inimigos na 1ª rodada; depois, Coorte e Pesadelo. |
 | **Seu turno** | 1 Ação Maior · 1 Movimento (1 Faixa) · 1 Ação Menor · 1 Reação. **Defender-se é grátis.** |
 | **Faixas** | Corpo a Corpo (0–2 m) · Perto (3–10 m) · Distante (11–30 m) · Longe (31–100 m) · Fora de Alcance (101 m+). |
-| **Dano dos jogadores** | Leves e Táticas: **1** (Táticas: 2 com `CD + 3`) · Pesadas e Habilidades de dano: **2** · Crítico: **+2**. |
+| **Dano dos jogadores** | Leves e Táticas: **1** (Táticas: 2 com `CD + 3`) · Pesadas e Habilidades de dano: **2** · Crítico: **+2** ou Dádiva Maior tática, sem acumular os dois pelo mesmo crítico. |
 | **Golpe fatal** | `1d6`: com `6`, Memória. Senão, `1d20`: com `20`, Eco. |
 | **Orçamento de Ameaça** (Mestre) | Soma de *alvos por turno × dano* de todas as criaturas ≤ **número de jogadores**. Com 6–7 jogadores, lutas dentro do limite ficam fáceis: use ondas. |
 
@@ -933,7 +937,7 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 | **PV Máximos** | `(2 × Corpo) + 4` → Corpo 1 = 6 · Corpo 2 = 8 · Corpo 3 = 10. |
 | **0 PV** | Inconsciente / Moribundo. Excedente de um golpe ≥ PV Máximos = morte instantânea. |
 | **Primeiros Socorros** | Ação Maior, **Conhecimento CD 7** (CD 9 sem kit). Crítico: +1 PV · Pleno: estável · `CD Exata`: estável + Ferimento Grave · Falha: após 3 rodadas, Regra das 24 Horas. |
-| **Essência** | `(Alma × 2)` + bônus do Rank do Aspecto (Transcendente `+1`, Sagrado `+2`) + Marcos Ímpares + Rank humano (Desperto `+2`, Ascendido `+4`, Transcendente `+6`, Supremo `+8`). Aspirante não usa Essência. |
+| **Essência** | `(Alma × 2)` + bônus do Rank do Aspecto (Transcendente/Supremo `+1`, Sagrado `+2`) + 1 por Marco Ímpar (1, 3, 5, 7, 9) + Rank humano (Desperto `+2`, Ascendido `+4`, Transcendente `+6`, Supremo `+8`) + `(3 × Núcleos Extras)`. Aspirante não usa Essência. |
 | **Reforço Corporal** | **Só Desperto em diante:** 1 Essência = `+1` num teste de Corpo **ou** `+1 de Dano` **ou** `-1` de dano sofrido. |
 | **Descanso Longo** | 6–8 h em local seguro: restaura toda a Essência. |
 
@@ -942,15 +946,15 @@ Quando o Núcleo do Parasita chegar a 0, leia:
 | :--- | :--- |
 | **Sangrando** | 1 de dano no início de cada turno seu. Bandagem: Conhecimento CD 5–7. Monstros: 3 turnos. |
 | **Envenenado** | Desvantagem em testes de Corpo. |
-| **Queimando** | 1 a 3 de dano por turno. Rolar no chão: Agilidade CD 5. Monstros: até 3 turnos. |
-| **Atordoado** | Perde Ação Maior e Reação; sem defesa gratuita. Passa em 1 rodada (monstros ficam Firmes 2 rodadas). |
-| **Derrubado** | Corpo a corpo contra você: Vantagem; os seus: Desvantagem. Levantar: metade do movimento (monstros: a Ação Maior, e ficam Firmes 2 rodadas; Rank acima só na 1ª queda da cena). |
+| **Queimando** | 1 de dano por turno se a fonte não indicar outro valor (até 3 conforme intensidade). Rolar no chão: Agilidade CD 5. Monstros: até 3 turnos. |
+| **Atordoado** | Perde Ação Maior e Reação; sem defesa gratuita. Passa em 1 rodada (monstros ficam Firmes por 2 rodadas: sem novo Atordoado ou Derrubado). |
+| **Derrubado** | Corpo a corpo contra você: Vantagem; os seus: Desvantagem. Levantar: metade do movimento, sem mudar de Faixa com o restante (monstros: a Ação Maior, e ficam Firmes 2 rodadas; Rank acima só na 1ª queda da cena). |
 | **Agarrado / Imobilizado** | Velocidade 0; ataques físicos com Desvantagem / sem ataques nem esquiva. |
 | **Cego** | Ataca com Desvantagem; defende com `+2` na CD. |
 | **Amedrontado** | Não se aproxima da fonte; Desvantagem em tudo enquanto a vê. Vontade no fim do turno. |
 | **Exausto 1–4** | 1: Desvantagem em Corpo ou Mente · 2: movimento ½ e `-1` · 3: Desvantagem em tudo, PV Máx. ½ · 4: colapso. |
 | **Lento** | Movimento pela metade, sem Disparada. |
-| **Em inimigos** | "Desvantagem" ou `-1` num inimigo = `-1` na CD dele. Várias condições: **no máximo `-1` no total**. Dano por turno (Sangrando, Queimando, toxina) **soma**. |
+| **Em inimigos** | "Desvantagem" ou `-1` num inimigo = `-1` na CD dele. Várias condições: **no máximo `-1` no total**. Somando condições, plano, Dádivas e magia, a redução total da CD inimiga é **no máximo `-2`** (exceto Domínios Supremos). Dano por turno (Sangrando, Queimando, toxina) **soma**. |
 
 ### Ranks
 | Aspirante | Adormecido | Desperto | Ascendido | Transcendente | Supremo |
@@ -1001,14 +1005,14 @@ Regras completas em [Livro 1, Seção 6.6](Livro_01_Sistema_Estilizado.html#66-q
 - **Grau de Sucesso:** um dos 6 resultados possíveis de um teste. Ver [Seção 2.7](#27-os-6-graus-de-sucesso) e [Livro 1, Seção 1.4](Livro_01_Sistema_Estilizado.html#14-a-matriz-completa-de-graus-de-sucesso).
 - **Infortúnio (*Bane*):** complicação aplicada em `CD Exata` ou `CD - 4` ou pior. O padrão é **I1 Guarda Aberta** (Desvantagem na próxima Defesa). Ver [Seção 2.9](#29-dádivas-e-infortúnios) e [Livro 1, Seção 1.6](Livro_01_Sistema_Estilizado.html#16-catálogo-extenso-30-dádivas-boons-e-30-infortúnios-banes).
 - **Mar da Alma:** o espaço interior onde ficam o Núcleo, as Memórias e os Ecos. Ver [Livro 1, Seção 4.1](Livro_01_Sistema_Estilizado.html#41-o-mar-da-alma-soul-sea-meditação-interior-e-combate-espiritual).
-- **Marcos de Saturação:** 10 degraus de evolução do Núcleo, preenchidos caçando criaturas. Ver [Livro 1, Seção 4.3](Livro_01_Sistema_Estilizado.html#43-a-escala-de-10-marcos-de-saturação-e-a-regra-da-dupla-colheita).
+- **Marcos de Saturação:** 10 degraus de evolução do primeiro Núcleo, preenchidos caçando criaturas; seus benefícios são permanentes, não reiniciam por Rank e não se repetem em Núcleos extras. Ver [Livro 1, Seção 4.3](Livro_01_Sistema_Estilizado.html#43-a-escala-de-10-marcos-de-saturação-e-a-regra-da-dupla-colheita).
 - **Máximo Natural:** `6` no `d6` ou `8` no `d8` com total ≥ CD; dá +1 Dádiva Menor. Ver [Seção 2.8](#28-o-1-natural-e-o-máximo-natural).
 - **Memória:** arma, armadura ou objeto mágico tecido pelo Feitiço (`6` no `1d6` após o golpe fatal). Não pesa quando guardada. Ver [Livro 1, Seção 7.1](Livro_01_Sistema_Estilizado.html#71-a-natureza-das-memórias-e-como-o-feitiço-as-tece).
 - **Mestre / Tecelão do Pesadelo:** quem narra o mundo e anuncia as CDs. Nunca rola dados. Ver [Seção 2.1](#21-a-regra-de-ouro-só-os-jogadores-rolam-dados) e [Livro 3, Capítulo 1](Livro_03_Mestre_Estilizado.html#capítulo-1-manual-do-tecelão-do-pesadelo-direção-completa-para-mestre-iniciante-com-7-jogadores).
 - **Núcleo de Alma:** a fonte da Essência, no centro do Mar da Alma. Ver [Livro 1, Seção 4.4](Livro_01_Sistema_Estilizado.html#44-as-7-classes-de-núcleo-besta-17-a-titã-77--sem-custo-de-xp).
+- **Orçamento de Ameaça:** regra do Mestre para montar lutas justas: a soma de *alvos por turno × dano* de todas as criaturas fica no máximo igual ao número de jogadores. Ver [Seção 2.11](#211-combate-em-5-minutos) e [Capítulo 5](#capítulo-5-aventura-introdutória--a-última-vigília-do-templo-cinzento).
 - **Papel de Coorte:** a função tática do personagem (Baluarte, Executor, Espectro, Olho de Falcão, Canalizador, Oráculo, Domador de Almas). Ver [Seção 3.1](#31-os-6-passos) e [Livro 2, Capítulo 2](Livro_02_Jogador_Estilizado.html#capítulo-2-os-7-papéis-de-coorte--trilhas-completas-de-evolução-do-grau-1-ao-grau-10).
 - **Partes Destrutíveis:** pedaços de um chefe com PV próprios; destruí-los enfraquece o monstro. Ver [Seção 5.8](#58-cena-6--o-guardião-da-semente-o-parasita-do-altar-ato-4) e [Livro 3, Seção 7.5](Livro_03_Mestre_Estilizado.html#75--os-10-grandes-chefes-com-partes-destrutíveis-para-desafiar-7-jogadores).
-- **Orçamento de Ameaça:** regra do Mestre para montar lutas justas: a soma de *alvos por turno × dano* de todas as criaturas fica no máximo igual ao número de jogadores. Ver [Seção 2.11](#211-combate-em-5-minutos) e [Capítulo 5](#capítulo-5-aventura-introdutória--a-última-vigília-do-templo-cinzento).
 - **Pilares:** Corpo, Mente, Coração e Alma, valores de 1 a 5. Ver [Seção 2.2](#22-os-4-pilares-e-as-12-subcategorias) e [Livro 1, Capítulo 2](Livro_01_Sistema_Estilizado.html#capítulo-2-os-4-pilares-da-existência-e-as-12-subcategorias-esmiuçadas).
 - **Portal (*Gateway*):** a passagem de uma Cidadela entre o Reino dos Sonhos e a Terra. Ver [Livro 1, Seção 4.5](Livro_01_Sistema_Estilizado.html#45-o-ciclo-de-travessia-entre-a-terra-e-o-reino-dos-sonhos).
 - **Primeiro Pesadelo:** a provação inicial dentro de uma Semente do Pesadelo; quem vence se torna Adormecido. Ver [Seção 1.2](#12-o-mundo-de-shadow-slave-em-1-página) e [Livro 3, Seção 3.1](Livro_03_Mestre_Estilizado.html#31-a-fórmula-dos-4-atos-para-criar-qualquer-pesadelo-histórico-1º-ao-4º-pesadelo).
@@ -1018,7 +1022,7 @@ Regras completas em [Livro 1, Seção 6.6](Livro_01_Sistema_Estilizado.html#66-q
 - **Reino dos Sonhos (*Dream Realm*):** o continente morto para onde os Adormecidos são convocados no Solstício. Ver [Seção 1.2](#12-o-mundo-de-shadow-slave-em-1-página) e [Livro 4, Capítulo 1](Livro_04_Lore_Cenario_Estilizado.html#capítulo-1-cosmologia-o-vazio-a-chama-e-as-5-eras-históricas).
 - **Relógio (de Progresso, de Ameaça ou de Preparação):** círculo dividido em fatias que mede tarefas longas, um perigo se aproximando ou o plano contra um monstro mais forte (4 fatias = 1 Vantagem de Plano). Ver [Seção 2.10](#210-ajudar-testes-em-grupo-e-relógios) e [Livro 1, Seção 1.7](Livro_01_Sistema_Estilizado.html#17-relógios-de-progresso-testes-de-coorte-unida-e-disputas).
 - **Semente do Pesadelo:** a ilusão viva de uma tragédia antiga onde acontecem os Pesadelos. Ver [Livro 3, Seção 3.2](Livro_03_Mestre_Estilizado.html#32-gerador-procedural-de-sementes-do-pesadelo-1d6--4-colunas--12-complicações).
-- **Sombra:** a versão evolutiva de um Eco, exclusiva de alguns Aspectos raros. Conta `+2` de CD por Rank. Ver [Seção 2.16](#216-memórias-ecos-e-a-avaliação-do-feitiço) e [Livro 1, Seção 7.5](Livro_01_Sistema_Estilizado.html#75-o-sistema-completo-de-ecos-echoes-vs-sombras-evolutivas-shadows).
+- **Sombra:** a versão evolutiva de um Eco, exclusiva de alguns Aspectos raros. Ao subir de Rank, uma Sombra Evolutiva ganha `+2` na própria CD e `+1` de Dano Base (diferente de Ecos reforjados, que ganham `+1` na CD e `+4 PV`). Ver [Seção 2.16](#216-memórias-ecos-e-a-avaliação-do-feitiço) e [Livro 1, Seção 7.5](Livro_01_Sistema_Estilizado.html#75-o-sistema-completo-de-ecos-echoes-vs-sombras-evolutivas-shadows).
 - **Solstício de Inverno:** a noite de 21 de dezembro em que os Adormecidos são convocados ao Reino dos Sonhos, uma única vez. Ver [Seção 1.2](#12-o-mundo-de-shadow-slave-em-1-página) e [Livro 1, Seção 4.5](Livro_01_Sistema_Estilizado.html#45-o-ciclo-de-travessia-entre-a-terra-e-o-reino-dos-sonhos).
 - **Subcategoria:** uma das 3 divisões de cada Pilar (12 no total), como Força, Astúcia ou Evocar. Ver [Seção 2.2](#22-os-4-pilares-e-as-12-subcategorias).
 - **Teto `+3` (*Cap +3*):** limite da soma dos bônus externos ao Pilar; o excedente vira Vantagem ou dano. Ver [Seção 2.4](#24-os-bônus-e-o-teto-3) e [Livro 1, Seção 1.5](Livro_01_Sistema_Estilizado.html#15-regras-de-borda-e-casos-limite-cap-3-1-natural-e-máximo-natural).
@@ -1071,5 +1075,16 @@ Vocês sobreviveram ao Primeiro Pesadelo. Agora a coleção inteira se abre. Use
 > — [Livro 2, Seção 1.3](Livro_02_Jogador_Estilizado.html#13-o-sistema-completo-de-vínculos-mecânicos-de-coorte-sinergia-de-dupla-e-grupo)
 
 ---
+## 🔗 Navegação Entre os Livros do Sistema *Shadow Slave RPG*
+
+| Livro | Abrir no navegador | Baixar PDF |
+| :--- | :--- | :--- |
+| **Livro 0 — Livro do Novato** | *(você está aqui)* | [PDF](Livro_00_Novato.pdf) |
+| **Livro 1 — Sistema** | [Abrir](Livro_01_Sistema_Estilizado.html) | [PDF](Livro_01_Sistema.pdf) |
+| **Livro 2 — Jogador** | [Abrir](Livro_02_Jogador_Estilizado.html) | [PDF](Livro_02_Jogador.pdf) |
+| **Livro 3 — Mestre** | [Abrir](Livro_03_Mestre_Estilizado.html) | [PDF](Livro_03_Mestre.pdf) |
+| **Livro 4 — Lore e Cenário** | [Abrir](Livro_04_Lore_Cenario_Estilizado.html) | [PDF](Livro_04_Lore_Cenario.pdf) |
+| **Livro 5 — Grande Bestiário** | [Abrir](Livro_05_Grande_Bestiario_Estilizado.html) | [PDF](Livro_05_Grande_Bestiario.pdf) |
+| **Central de Livros** | [Abrir](00_CENTRAL_DE_LIVROS_E_PDF.html) | — |
 
 Fim do **Livro 0: Livro do Novato**. Boa sorte, Aspirante. O Feitiço está observando.

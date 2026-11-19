@@ -1,0 +1,339 @@
+/* Tipografia e paginação comuns aos seis livros. As capas usam o estilo de cada volume. */
+.content-body {
+  --reading-measure: 46rem;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  border: 0;
+}
+
+.content-body > :is(h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, pre, hr) {
+  max-inline-size: var(--reading-measure);
+  margin-inline: auto;
+}
+
+.content-body p {
+  margin-block: 0.75em;
+}
+
+.content-body :is(ul, ol) {
+  margin-block: 0.6em 1.1em;
+  padding-inline-start: 1.4em;
+}
+
+.content-body li {
+  margin-block-end: 0.5em;
+}
+
+.content-body li > :is(ul, ol) {
+  margin-block: 0.45em 0.65em;
+}
+
+.content-body :is(h1, h2, h3, h4, h5, h6) {
+  line-height: 1.3;
+  margin-block: 1.5em 0.55em;
+  overflow-wrap: break-word;
+}
+
+.content-body h1 { font-size: 1.85em; }
+.content-body h2 { font-size: 1.5em; }
+.content-body h3 { font-size: 1.22em; }
+.content-body h4 { font-size: 1.06em; }
+.content-body :is(h5, h6) { font-size: 1em; }
+
+.content-body > :first-child {
+  margin-block-start: 0;
+}
+
+.content-body hr {
+  margin-block: 1.8em;
+}
+
+.content-body blockquote {
+  border-inline-start: 2px solid var(--crimson-bright);
+  padding: 0.8em 1em;
+  margin-block: 1.15em;
+}
+
+.content-body blockquote > :first-child { margin-block-start: 0; }
+.content-body blockquote > :last-child { margin-block-end: 0; }
+
+.content-body em {
+  font-family: inherit;
+}
+
+.content-body code {
+  font-size: 0.9em;
+  padding: 0.05em 0.25em;
+}
+
+.content-body pre {
+  padding: 1em;
+  font-size: 0.91em;
+  line-height: 1.46;
+}
+
+.content-body pre code {
+  font-size: inherit;
+}
+
+.content-body a {
+  text-underline-offset: 0.15em;
+}
+
+.reading-table {
+  margin-block: 1.25em 1.6em;
+}
+
+.content-body table {
+  margin: 0;
+  font-size: 0.93em;
+  line-height: 1.45;
+  word-break: normal;
+  font-variant-numeric: tabular-nums;
+}
+
+.content-body :is(th, td) {
+  padding: 0.55em 0.7em;
+}
+
+.content-body th {
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.content-body .quickref {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media screen {
+  .toolbar {
+    position: sticky;
+    inset-block-start: 0;
+  }
+
+  .toolbar-actions {
+    flex-wrap: wrap;
+  }
+
+  .book-wrapper {
+    width: min(calc(100% - 32px), 60rem);
+    margin: 32px auto 56px;
+  }
+
+  .cover-page {
+    width: min(100%, 210mm);
+    height: auto;
+    aspect-ratio: 210 / 297;
+    margin-inline: auto;
+  }
+
+  .content-body {
+    padding: clamp(22px, 5vw, 56px);
+    overflow-wrap: break-word;
+  }
+
+  .content-body :is(h1, h2, h3, h4, h5, h6) {
+    scroll-margin-block-start: 8rem;
+  }
+
+  .reading-table {
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+
+  .reading-table--wide table {
+    min-inline-size: calc(var(--columns) * 5.15rem);
+  }
+
+  .toc-sidebar {
+    top: 0;
+    width: min(310px, 100vw);
+    z-index: 10000;
+  }
+
+  .toc-sidebar.collapsed {
+    visibility: hidden;
+  }
+
+  body.light-theme .toolbar {
+    background: #f5efe2;
+  }
+
+  body.light-theme .toolbar .btn-secondary,
+  body.light-theme .toc-sidebar .btn-secondary,
+  body.light-theme .content-body h2 {
+    color: var(--gold-light);
+    background: var(--bg-card);
+  }
+
+  :is(.toolbar, .toc-sidebar, .content-body) :is(a, button, input):focus-visible,
+  .reading-table:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .toolbar {
+    display: block;
+    padding: 10px 12px 8px;
+  }
+
+  .toolbar-title {
+    width: auto;
+    margin-block-end: 7px;
+    font-size: 0.76rem;
+    line-height: 1.3;
+  }
+
+  .toolbar-actions {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 2px 2px 3px;
+  }
+
+  .toolbar-actions > * {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 6px 8px;
+  }
+
+  .book-wrapper {
+    width: 100%;
+    margin-block-start: 0;
+  }
+
+  .cover-page {
+    min-height: 0;
+    padding: 8% 7% 9%;
+  }
+
+  .cover-frame { inset: 4%; }
+  .cover-main-title { font-size: clamp(1.55rem, 6.7vw, 2.4rem); }
+  .cover-book-title { font-size: clamp(1.1rem, 4.7vw, 1.68rem); }
+  .cover-subtitle { font-size: clamp(0.72rem, 2.6vw, 0.95rem); }
+  .cover-series, .cover-book-badge, .cover-credits { font-size: 0.68rem; }
+
+  .content-body {
+    padding-inline: clamp(16px, 4.5vw, 30px);
+  }
+
+  .content-body :is(h1, h2) {
+    font-size: 1.42em;
+  }
+}
+
+@page {
+  size: A4 portrait;
+  margin: 18mm 17mm 19mm;
+  background: #fffaf0;
+
+  @bottom-right {
+    content: counter(page);
+    color: #625344;
+    font: 9pt Inter, sans-serif;
+  }
+}
+
+@page capa {
+  margin: 0;
+
+  @bottom-right {
+    content: none;
+  }
+}
+
+@media print {
+  html, body[data-markdown] {
+    background: #fffaf0 !important;
+  }
+
+  body[data-markdown] {
+    --bg-page: #fffaf0;
+    --bg-card: #f5eee1;
+    --bg-table-alt: #faf4e9;
+    --text-main: #211b16;
+    --text-muted: #594a3c;
+    --gold: #734a16;
+    --gold-light: #3b291a;
+    --crimson-bright: #80242b;
+    --border-gold: #cdbca6;
+  }
+
+  .book-wrapper {
+    width: auto;
+  }
+
+  .content-body {
+    --reading-measure: 174mm;
+    padding: 0;
+    font-size: 11.5pt;
+    line-height: 1.65;
+  }
+
+  .content-body h1[id^="capítulo-"]:not(.page-break + h1) {
+    break-before: page;
+  }
+
+  .content-body :is(h1, h2, h3, h4, h5, h6) {
+    break-after: avoid-page;
+    break-inside: avoid-page;
+  }
+
+  .content-body h2 {
+    background: #f2e5d3;
+    border-inline-start-width: 2px;
+  }
+
+  .content-body :is(p, li) {
+    widows: 3;
+    orphans: 3;
+  }
+
+  .content-body :is(blockquote, pre) {
+    break-inside: auto;
+  }
+
+  .content-body pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .reading-table {
+    overflow: visible;
+    break-inside: auto;
+  }
+
+  .content-body table {
+    min-inline-size: 0;
+    font-size: 10.5pt;
+  }
+
+  body[data-markdown] .content-body th {
+    color: #3b291a;
+    background: #e9d9c2;
+  }
+
+  .content-body :is(th, td) {
+    hyphens: auto;
+  }
+
+  .content-body :is(td, th)[align="center"] {
+    text-align: center;
+  }
+
+  [data-markdown="05_Grande_Bestiario.md"] table:has(th:nth-child(9):last-child) :is(th, td) {
+    padding-inline: 0.38em;
+  }
+
+  [data-markdown="05_Grande_Bestiario.md"] table:has(th:nth-child(9):last-child) th,
+  [data-markdown="05_Grande_Bestiario.md"] table:has(th:nth-child(9):last-child) td[align="center"] {
+    white-space: nowrap;
+  }
+
+  .content-body a {
+    color: var(--gold);
+  }
+}

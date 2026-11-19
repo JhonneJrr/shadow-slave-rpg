@@ -2,12 +2,531 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Shadow Slave RPG — Ficha Oficial: Interface das Runas & Mar da Alma (Códice 100%)</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <title>Shadow Slave RPG — Ficha Oficial: Interface das Runas &amp; Mar da Alma (Regras v2 • Códice 100%)</title>
   <style>
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/8vIJ7ww63mVu7gt7-GT7LEc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/8vIJ7ww63mVu7gt79mT7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/8vIJ7ww63mVu7gt7-GT7LEc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/8vIJ7ww63mVu7gt79mT7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(fonts/8vIJ7ww63mVu7gt7-GT7LEc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(fonts/8vIJ7ww63mVu7gt79mT7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/daaHSScvJGqLYhG8nNt8KPPswUAPniZoadlKSTG7lQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/daaHSScvJGqLYhG8nNt8KPPswUAPniZoadlESTE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(fonts/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa9lKSTG7lQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(fonts/daaHSScvJGqLYhG8nNt8KPPswUAPniZQa9lESTE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDD-hdM8Efs.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDD-jNM8Efs.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDD-h9M8Efs.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDD-htM8Efs.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDD-iNM8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
     :root {
       --bg-void: #07080d;
       --bg-page: #0c0e16;
@@ -515,7 +1034,7 @@
   <!-- BARRA DE FERRAMENTAS INTERATIVA -->
   <div class="toolbar no-print">
     <div class="toolbar-left">
-      <div class="toolbar-title">🌑 INTERFACE DAS RUNAS & MAR DA ALMA (CÓDICE 100%)</div>
+      <div class="toolbar-title">🌑 INTERFACE DAS RUNAS &amp; MAR DA ALMA (REGRAS v2 • CÓDICE 100%)</div>
       <select class="preset-select" id="charPreset" onchange="loadPreset(this.value)">
         <option value="">✨ Carregar Ficha de Exemplo Completa (Ou Limpar)...</option>
         <option value="kaelen">1. Kaelen ("Perdido na Penumbra") — Escravo das Sombras [Espectro G2]</option>
@@ -700,14 +1219,14 @@
         <div class="essence-formula-bar">
           <span><strong>Fórmula PE:</strong> (Alma×2) + Marcos Ímpares (1,3,5,7,9) + Rank [Aspecto Transc./Supremo +1, Sagrado +2; Humano: Desp. +2, Asc. +4, Transc. +6, Supr. +8] + (3×Núcleos Extras)</span>
           <span class="no-print" style="display:flex; align-items:center; gap:5px;">
-            <span id="calc_preview" style="font-family:'Consolas',monospace; color:var(--gold-bright);">Base Calc: PV 6 | Ess 4 | Carga 2</span>
+            <span id="calc_preview" style="font-family:'Consolas',monospace; color:var(--gold-bright);">Base Calc: PV 8 | Ess 4 | Carga 25 kg</span>
             <button type="button" class="btn-calc" onclick="applyBaseStats()" title="Preenche PV, Essência e Carga base a partir dos Pilares, Ranks, Núcleos e Marcos marcados">🧮 Aplicar Base</button>
           </span>
         </div>
 
         <!-- BARRA DE 10 MARCOS DE SATURAÇÃO -->
         <div style="display:flex; justify-content:space-between; font-size:6.6pt; color:var(--text-muted); flex-wrap:wrap;">
-          <span><strong>MARCOS DE SATURAÇÃO:</strong> Ímpares 1,3,5,7,9: +1 Essência | 2 e 6: +1 PV | 4 e 8: +1 Atributo Rúnico | Marco 10: +1 Pilar / Novo Núcleo</span>
+          <span><strong>MARCOS DE SATURAÇÃO:</strong> Ímpares 1,3,5,7,9: +1 Essência | 2 e 6: +1 PV | 4 e 8: +1 Atributo Rúnico | Marco 10: +1 Pilar / Novo Núcleo (2º: Despertar + 2.000 Fragmentos extras)</span>
         </div>
         <div class="sat-bar">
           <div class="sat-step" id="sat_1" onclick="toggleSat(this)">100 (+1 Ess)</div>
@@ -719,7 +1238,7 @@
           <div class="sat-step" id="sat_7" onclick="toggleSat(this)">700 (+1 Ess)</div>
           <div class="sat-step" id="sat_8" onclick="toggleSat(this)">800 (+1 Atr)</div>
           <div class="sat-step" id="sat_9" onclick="toggleSat(this)">900 (+1 Ess)</div>
-          <div class="sat-step" id="sat_10" onclick="toggleSat(this)">1000 (+Pilar/Núc)</div>
+          <div class="sat-step" id="sat_10" onclick="toggleSat(this)" title="2º Núcleo só no Despertar">1000 (+Pilar/Núc)<br><span style="font-size:5pt; opacity:0.85;">(2º: Despertar + 2.000 Fragmentos extras)</span></div>
         </div>
       </div>
 
@@ -732,7 +1251,7 @@
           <div class="subcat-item"><span class="subcat-left"><input type="checkbox" id="sp_tough"> Vigor (Toughness)</span><span class="dice-badge">d6/d8</span></div>
           <div style="margin-top:4px;">
             <label class="field-lbl">❤️ Pontos de Vida (PV) & Carga</label>
-            <input type="text" id="f_hp" value="PV: 6 / 6  |  Carga: 2 Grandes" style="font-weight:700;">
+            <input type="text" id="f_hp" value="PV: 8 / 8  |  Carga: 25 kg" style="font-weight:700;">
           </div>
         </div>
 
@@ -850,8 +1369,8 @@
             <select id="flaw_cat" class="crimson-lbl" style="font-weight:700;">
               <option value="">— Categoria —</option>
               <option value="Cat. I — Lei Absoluta">Cat. I — Lei Absoluta (Sem teste)</option>
-              <option value="Cat. II — Preço & Agonia">Cat. II — Preço & Agonia (3º+ uso CD 9)</option>
-              <option value="Cat. III — Compulsão Psicológica">Cat. III — Compulsão (CD 9 + 1 PE)</option>
+              <option value="Cat. II — Preço & Agonia">Cat. II — Preço & Agonia (3º+ uso CD 7)</option>
+              <option value="Cat. III — Compulsão Psicológica">Cat. III — Compulsão (CD 7 + 1 PE)</option>
             </select>
           </div>
           <div>
@@ -1041,7 +1560,7 @@
           <div style="background:var(--bg-panel-inner); padding:5px 7px; border:1px solid var(--gold-dim); border-radius:3px;">
             <div style="display:grid; grid-template-columns:1.15fr 0.85fr 0.85fr; gap:4px; margin-bottom:4px;">
               <div><label class="field-lbl">Eco / Sombra I</label><input type="text" id="ec1_name" placeholder="Ex: [Santo de Pedra Viva]" style="font-weight:700; color:var(--rune-cyan);"></div>
-              <div><label class="field-lbl">Rank & Classe</label><input type="text" id="ec1_rc" placeholder="Desperta • Monstro"></div>
+              <div><label class="field-lbl">Rank & Classe</label><input type="text" id="ec1_rc" placeholder="Desperta • Demônio [3/7]"></div>
               <div><label class="field-lbl">CD, PV & Dano</label><input type="text" id="ec1_stats" placeholder="CD 10 | PV 12 | Dano 2"></div>
             </div>
             <label class="field-lbl">Atributos, Habilidades & Evolução da Sombra/Eco</label>
@@ -1246,9 +1765,16 @@
       else if (fRank.includes('Transcendente')) humanRankBonus = 6;
       else if (fRank.includes('Supremo')) humanRankBonus = 8;
 
-      const basePv = (body * 2) + 2 + satPvBonus + corePvBonus;
+      const basePv = (body * 2) + 4 + satPvBonus + corePvBonus;
       const basePe = (soul * 2) + satPeBonus + aspRankBonus + humanRankBonus + corePeBonus;
-      const carga = body;
+      const cargaBase = {1: 15, 2: 25, 3: 40, 4: 70, 5: 150}[body];
+      let multiplicadorCarga = 1;
+      if (fRank.includes('Desperto')) multiplicadorCarga = 1.5;
+      else if (fRank.includes('Ascendido')) multiplicadorCarga = 2;
+      else if (fRank.includes('Transcendente')) multiplicadorCarga = 5;
+      // O Livro 1 não tabela Corpo >5 nem multiplicadores de Supremo+.
+      const carga = cargaBase && !/Supremo|Sagrado|Divino/.test(fRank)
+        ? cargaBase * multiplicadorCarga : null;
 
       return { basePv, basePe, carga, body, soul, satPvBonus, corePvBonus, satPeBonus, aspRankBonus, humanRankBonus, corePeBonus };
     }
@@ -1257,12 +1783,12 @@
       const preview = document.getElementById('calc_preview');
       if (!preview) return;
       const s = computeBaseStats();
-      preview.textContent = `Base Calc: PV ${s.basePv} | Ess ${s.basePe} | Carga ${s.carga}`;
+      preview.textContent = `Base Calc: PV ${s.basePv} | Ess ${s.basePe} | Carga ${s.carga === null ? 'a definir com o Mestre' : s.carga + ' kg'}`;
     }
 
     function applyBaseStats() {
       const s = computeBaseStats();
-      const pvParts = [`${s.body * 2 + 2} Base`];
+      const pvParts = [`${s.body * 2 + 4} Base`];
       if (s.satPvBonus) pvParts.push(`+${s.satPvBonus} Marco(s)`);
       if (s.corePvBonus) pvParts.push(`+${s.corePvBonus} Núcleo(s)`);
 
@@ -1272,7 +1798,7 @@
       if (s.satPeBonus) peParts.push(`+${s.satPeBonus} Marco(s)`);
       if (s.corePeBonus) peParts.push(`+${s.corePeBonus} Núcleo(s)`);
 
-      document.getElementById('f_hp').value = `PV: ${s.basePv} / ${s.basePv} (${pvParts.join(' ')}) | Carga: ${s.carga} Grandes`;
+      document.getElementById('f_hp').value = `PV: ${s.basePv} / ${s.basePv} (${pvParts.join(' ')}) | Carga: ${s.carga === null ? 'a definir com o Mestre' : s.carga + ' kg'}`;
       document.getElementById('f_essence').value = `Essência: ${s.basePe} / ${s.basePe} (${peParts.join(' ')})`;
     }
 
@@ -1294,7 +1820,7 @@
         sats: [1, 2],
         p_body: 2, p_mind: 2, p_heart: 1, p_soul: 2,
         checks: ["sp_agi", "sp_smarts", "sp_fib", "m1_i2", "m2_i1", "m2_i2", "m3_i2", "m4_i2"],
-        f_hp: "PV: 7 / 7 (6 Base + 1 Marco 2) | Carga: 2 Grandes",
+        f_hp: "PV: 9 / 9 (8 Base + 1 Marco 2) | Carga: 25 kg",
         f_wound: "Nenhum Ferimento Grave",
         f_corrupt: "[ 0 / 5 ] — Alma Pura",
         f_essence: "Essência: 5 / 5 (4 Base [Alma 2×2] + 1 Marco 1)",
@@ -1302,7 +1828,7 @@
         asp_rank: "Divino (Divine)",
         asp_desc: "\"[Você é uma sombra milagrosa deixada para trás por um Deus das Sombras morto. Solitária e leal, aguarda um mestre.]\"",
         asp_innate: "[Vínculo Sombrio (Shadow Bond)]: Se um portador pronunciar seu Nome Verdadeiro, forma-se um elo mestre-escravo; recebe Sombras Evolutivas.",
-        asp_ab1: "[Controle das Sombras]: Sombra Pessoal explora até Longe OU envolve corpo/arma concedendo +1 nas rolagens (escala por Núcleos)!",
+        asp_ab1: "[Controle das Sombras]: Sombra Pessoal explora até 100m OU envolve corpo/arma no Manto (+1 nas rolagens físicas e +1 de Dano por Sombra, sem custo; 1 Sombra no Adormecido, soma após Despertar; Manto em aliados só no Despertar).",
         asp_ab2: "[Passo das Sombras] (Desperta — 1 PE): Mergulha em uma sombra e emerge em outra até Distante/Longe com Vantagem em Esquiva ou Emboscada.",
         asp_ab3: "[Manifestação das Sombras] (Ascendida — 2 PE): Solidifica sombras em aço negro físico (armas, garras, correntes; 2 Dano ou Imobiliza).",
         asp_ab4: "[Encarnação das Sombras] (Transcendente — 5 PE + 1/t): Converte-se em colosso vivo de trevas ou divide múltiplos corpos sombrios.",
@@ -1315,7 +1841,7 @@
         at1_mech: "1x/sessão sorte absurda e 1x/sessão complicação do destino",
         at1_desc: "\"Os fios do destino estão enrolados firmemente ao seu redor. Eventos improváveis, tanto terríveis quanto milagrosos, são atraídos por você.\"",
         at2_name: "[Filho das Sombras (Child of Shadows)]",
-        at2_mech: "Visão total no escuro; +1 Furtividade; Sombras no 19–20 do d20",
+        at2_mech: "Visão total no escuro; +1 Furtividade; Drop de Sombra no 19–20 do d20",
         at2_desc: "\"As sombras reconhecem você como um dos seus. Você enxerga perfeitamente através de qualquer escuridão e caminha sem ruído.\"",
         at3_name: "[Brasa de Divindade (Ember of Divinity)]",
         at3_mech: "+1 ao interagir com altares/relíquias antigas e resistir ao Vazio",
@@ -1341,8 +1867,8 @@
         leg_step: "1º Passo Dominado [1/7] — (+1 para ler estilos inimigos e esquivar)",
         leg_relic: "[Serpente da Alma] (Sombra Transformativa — Arma/Tatuagem)",
         leg_desc: "\"Outrora uma dança graciosa de uma escrava, agora uma arte de batalha mortal e sem forma, capaz de compreender e copiar o fluxo de qualquer inimigo.\"",
-        ec1_name: "[Santo de Pedra Viva]", ec1_rc: "Desperta • Monstro (Sombra)", ec1_stats: "CD 10 | PV 12 | Dano 2",
-        ec1_hab: "[Mestre de Armas], [Imune a Dano de Alma], [Manto da Escuridão] — Fragmentos de Sombra: [ 45 / 200 ].",
+        ec1_name: "[Santo de Pedra Viva]", ec1_rc: "Desperta • Demônio [3/7] (Sombra)", ec1_stats: "CD 10 | PV 12 | Dano 2",
+        ec1_hab: "[Mestre de Armas], [Imune a Dano de Alma], [Pele de Stalwart], [Manto da Escuridão] — Fragmentos de Sombra: [ 45 / 200 ].",
         ec2_name: "[Saqueador da Carapaça]", ec2_rc: "Adormecido • Besta (Eco)", ec2_stats: "CD 8 | PV 5 | Dano 1",
         ec2_hab: "[Carapaça Frontal]: Reduz dano frontal em 1 e intercepta golpes pelo mestre.",
         m1_name: "[Fragmento da Meia-Noite]", m1_rt: "Adormecida • Tier III", m1_type: "Tachi (1 Dano, 2 em CD+3)",
@@ -1376,28 +1902,28 @@
         orig_name: "Herdeira de Grande Clã Caído (Legacy Scion)",
         orig_stage: "Estágio I — Adormecido (Sobrevivência Inicial)",
         orig_bonus: "Conhece geografia/rotas das grandes regiões e Cidadelas; facilita 1º Estágio de Linhagem Divina (+[Educação de Legado]).",
-        cores: 2,
-        f_core_status: "Adormecido [2/7] — Monstro | Fragmentos de Alma: [ 340 / 2000 ]",
-        f_soulsea_desc: "Um oceano infinito de chamas brancas tranquilas sob um céu dourado, onde dois sóis radiantes de luz pura orbitam no centro.",
+        cores: 1,
+        f_core_status: "Adormecida [1/7] — Besta | Fragmentos de Alma: [ 340 / 1000 ]",
+        f_soulsea_desc: "Um deserto infinito de cinzas prateadas e chamas brancas tranquilas sob um céu dourado, onde um sol radiante de luz pura arde no centro.",
         sats: [1, 2, 3],
         p_body: 3, p_mind: 1, p_heart: 1, p_soul: 2,
         checks: ["sp_might", "sp_know", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
-        f_hp: "PV: 10 / 10 (8 Base + 1 Marco 2 + 1 do 2º Núcleo) | Carga: 3 Grandes",
+        f_hp: "PV: 11 / 11 (10 Base + 1 Marco 2) | Carga: 40 kg",
         f_wound: "Nenhum Ferimento Grave",
         f_corrupt: "[ IMUNE ] — Chama Incorruptível",
-        f_essence: "Essência: 9 / 9 (4 Base [Alma 2×2] + 3 do 2º Núcleo + 2 Marcos 1 e 3)",
+        f_essence: "Essência: 6 / 6 (4 Base [Alma 2×2] + 2 Marcos 1 e 3)",
         asp_name: "[Portadora da Luz (Lightbringer)]",
         asp_rank: "Divino (Divine)",
         asp_desc: "\"[Você é uma criatura de luz e chama branca, nascida da união proibida entre o divino e o profano.]\"",
         asp_innate: "[Chama Incorruptível]: Imune a Corrupção e Profanação; absorve parte da essência de qualquer ser purificado por sua chama.",
-        asp_ab1: "[Chama da Alma]: Chama branca nas mãos/espada (+1 Dano solar; Purificadora) OU cura 2 PV tocando a si mesma/aliados (Restauradora).",
-        asp_ab2: "[Manipulação Solar] (Desperta — 1–2 PE): Molda chamas brancas em escudo, chicote, asas curtas ou feixe solar até Distante.",
-        asp_ab3: "[Chama do Desejo] (Ascendida — 2–3 PE): Canaliza o anseio da Coorte em aura dourada, somando +1 em Ataque/Defesa e queimando inimigos próximos.",
-        asp_ab4: "[Avatar da Estrela Branca] (Transcendente — 5 PE + 1/t): Forma angelical incandescente com Voo livre e imunidade a dano mundano menor.",
+        asp_ab1: "[Chama da Alma]: Ação Menor, 0 PE, dura a cena: +2 Dano e +2 rolagens físicas Adormecida (+3/+3 Desperta; +8 a +12 Dano de 3/7 a 7/7), autocura 1 PV/rodada, chama visível (sem furtividade; atrai foco); cura ativa 2 PE.",
+        asp_ab2: "[Manipulação Solar] (Desperta — 2 PE): Disparo solar (2 Dano) ou barreira (3 PV); disparo pode somar o bônus da chama, mas a consome; apagada, a Reação só reacende.",
+        asp_ab3: "[Chama do Desejo] (Ascendida — 3 PE): Canaliza o anseio da Coorte em aura dourada, somando +1 em Vontade/Coração e plantando centelhas para curar ou queimar à distância.",
+        asp_ab4: "[Avatar da Estrela Branca] (Transcendente — 5 PE + 1/t): Forma angelical incandescente com Voo livre, +4 PV temp. e Aura Solar (1 Dano/turno em Corpo a Corpo).",
         asp_ab5: "[Reino da Alvorada Eterna] (Domínio Supremo — 7 PE + 2/t): Horizonte solar incorruptível que cura aliados em Longe e purifica Corrupção!",
         flaw_name: "[Agonia do Poder (Agony of the Flame)]",
         flaw_cat: "Cat. II — Preço & Agonia",
-        flaw_trig: "2 usos grátis/cena; a partir do 3º uso exige Vontade CD 9 ou 1 Dano / -1",
+        flaw_trig: "Após 3 turnos seguidos com a chama acesa, rola Mente [Vontade] CD 7 por turno; em falha, -1 em TODAS as rolagens naquele turno, inclusive Defesa",
         flaw_desc: "\"[O fogo da criação não distingue inimigo e portador; cada milagre exige que sua carne queime primeiro.]\"",
         at1_name: "[Alma dos Sonhos (Dreamspawn)]",
         at1_mech: "Entre vigília e sonho; +1 Vontade e Intimidar; alma não morre com corpo",
@@ -1451,7 +1977,7 @@
         f_contacts: "1. Antigo Mordomo da Família (NQSC) | 2. Mestre de Esgrima da Academia",
         f_camp: "Guardiã da Fogueira (Moral e Purificação) ou Médica Espiritual",
         f_inv: "Terra: Espada de Treino de Madeira, Selo Imortal | Reino dos Sonhos: Bandagens, Cantil, Tochas",
-        f_notes: "Núcleo 2 (Monstro) aberto: próximo Marco de Essência em 500 Fragmentos (Marco 5). Palavras de Shaping dominadas: [Fogo], [Luz]."
+        f_notes: "Adormecida [1/7] (2º Núcleo: só a partir do Despertar e após mais 2.000 Fragmentos): próximo Marco em 400 Fragmentos (Marco 4: +1 Atributo). Palavras de Shaping dominadas: [Fogo], [Luz]."
       },
 
       vaelor: {
@@ -1471,28 +1997,28 @@
         sats: [1, 2, 3],
         p_body: 3, p_mind: 1, p_heart: 2, p_soul: 1,
         checks: ["sp_tough", "sp_might", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
-        f_hp: "PV: 11 / 11 (8 Base + 2 Inato + 1 Marco 2) | Carga: 3 Grandes",
+        f_hp: "PV: 11 / 11 (10 Base + 1 Marco 2) | Carga: 40 kg",
         f_wound: "Nenhum Ferimento Grave",
         f_corrupt: "[ 0 / 5 ] — Alma Pura",
         f_essence: "Essência: 5 / 5 (2 Base [Alma 1×2] + 1 Aspecto Transcendente + 2 Marcos 1 e 3)",
         asp_name: "[Guarda-Sol de Aço (Sunshield Bastion)]",
         asp_rank: "Transcendente",
         asp_desc: "\"[Você é a muralha erguida na última fronteira. Enquanto seu escudo não quebrar, aqueles atrás de você viverão.]\"",
-        asp_innate: "[Postura de Rocha]: Imune a penalidade de movimento por armaduras pesadas e +1 em Defesa contra empurrões.",
-        asp_ab1: "[Intercepção Heroica]: Quando aliado até Perto for atacado, salta na frente como Reação e rola a Defesa por ele com +1!",
-        asp_ab2: "[Bastião Impenetrável] (Desperta — 1 PE): 1x/Cena, Armadura ou Escudo absorve golpe brutal sem perder camada de integridade!",
-        asp_ab3: "[Retaliação Cinética] (Ascendida — 2 PE): Devolve o impacto bloqueado em onda de choque (2 Dano e derruba atacantes adjacentes).",
-        asp_ab4: "[Colosso de Bronze Solar] (Transcendente — 5 PE + 1/t): Armadura monumental fundida ao corpo; +6 PV temp. e cobertura total aos próximos.",
-        asp_ab5: "[Cidadela do Sol Poente] (Domínio Supremo — 7 PE + 2/t): Fortaleza espectral cobre toda a zona dando +2 Defesa e dividindo dano da Coorte!",
+        asp_innate: "[Raízes de Montanha]: Com os pés no chão firme, imune a ser empurrado, derrubado ou erguido involuntariamente (Vantagem vs. Rank superior); +1 permanente em Corpo (Vigor) ao bloquear com escudos/braçadeiras.",
+        asp_ab1: "[Intercepção Heroica] (Adormecida — 0 PE, Reação): Quando aliado até Perto for atacado, salta na frente e rola a Defesa no lugar dele com +1 (CD+4 gera Carga Cinética / contra-ataque).",
+        asp_ab2: "[Escudo Indestrutível] (Desperta — 1 PE, Reação/Menor): 1x/Cena, Armadura ou Escudo absorve golpe brutal sem perder integridade; como Ação Menor concede +1 em todas as Defesas até seu próximo turno.",
+        asp_ab3: "[Retaliação Cinética] (Ascendida — 2 PE): Onda de choque em todos os inimigos em Perto (2 Dano, ou 3 em CD+4 / 2+ bloqueios), empurra 1 Faixa e derruba (Caídos).",
+        asp_ab4: "[Bastião Colossal] (Transcendente — 3 PE, Cena): Golem de Metal Divino (4,5m); +5 PV temp., +1 Dano base, imune a Sangrando/empurrão, Cobertura Total e +2 Defesa em área para aliados atrás.",
+        asp_ab5: "[Cidadela Inexpugnável] (Domínio Supremo): Recupera 2 PE/rodada, +1 nas rolagens da Coorte; enquanto você estiver de pé, Armaduras e Escudos aliados nunca perdem integridade!",
         flaw_name: "[Protetor Compulsivo (Compulsive Shield)]",
         flaw_cat: "Cat. III — Compulsão Psicológica",
-        flaw_trig: "Recuar/abandonar aliado a ≤50% PV ou 0 PV exige Vontade CD 9 E 1 PE",
+        flaw_trig: "Recuar/abandonar aliado a ≤50% PV ou 0 PV exige Vontade CD 7 E 1 PE",
         flaw_desc: "\"[Os seus pés recusam-se a correr para a segurança enquanto um irmão sangra atrás das suas costas.]\" (Agir contra queima 1 PE de Dano de Alma).",
         at1_name: "[Sangue de Ferro (Linhagem do Deus da Guerra — 1º)]",
         at1_mech: "+1 em Corpo (Força/Vigor) em combate direto; imune a pânico",
         at1_desc: "\"O sangue do Deus da Guerra corre quente em suas veias, transformando seu corpo em uma bigorna viva.\"",
         at2_name: "[Raízes de Montanha (Inato)]",
-        at2_mech: "+2 PV máximos permanentes; imune a ser derrubado ou empurrado",
+        at2_mech: "Pés no chão/convés: imune a empurrão e queda de Rank igual/inferior; Vantagem contra Rank superior; +1 em Vigor ao bloquear com escudo/braçadeiras",
         at2_desc: "\"Enquanto seus pés tocarem a terra firme, nenhuma força mortal pode movê-lo contra sua vontade.\"",
         at3_name: "[Marca de Divindade (Mark of Divinity)]",
         at3_mech: "Forte presença divina; reconhecido por mecanismos antigos de Guerra",
@@ -1557,22 +2083,22 @@
         sats: [1, 2],
         p_body: 2, p_mind: 3, p_heart: 1, p_soul: 1,
         checks: ["sp_agi", "sp_smarts", "sp_know", "sp_conv", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
-        f_hp: "PV: 7 / 7 (6 Base + 1 Marco 2) | Carga: 2 Grandes",
+        f_hp: "PV: 9 / 9 (8 Base + 1 Marco 2) | Carga: 25 kg",
         f_wound: "Nenhum Ferimento Grave",
         f_corrupt: "[ 0 / 5 ] — Alma Pura",
         f_essence: "Essência: 4 / 4 (2 Base [Alma 1×2] + 1 Aspecto Transcendente + 1 Marco 1)",
         asp_name: "[Arqueiro dos Ventos (Gale Archer)]",
         asp_rank: "Transcendente",
         asp_desc: "\"[Livre como o vento que sopra sobre as montanhas, você pertence aos céus.]\"",
-        asp_innate: "[Filho da Brisa]: Quedas nunca ferem você e ventos fortes não atrapalham seus disparos à distância.",
-        asp_ab1: "[Ascensão Celeste (Voo Livre)]: Levita e voa livremente pelos céus, mantendo-se fora do alcance Corpo a Corpo terrestre!",
-        asp_ab2: "[Flecha do Vendaval] (Desperta — 1 PE): Sua flecha curva no ar guiada pelo vento, ignorando cobertura e acertando com Vantagem.",
-        asp_ab3: "[Voz de Comando Soberana] (Ascendida — 2 PE): Ordem verbal paralisa ou derruba inimigos que a ouvirem (Vontade CD 11).",
-        asp_ab4: "[Dragão das Tempestades] (Transcendente — 5 PE + 1/t): Transforma-se em dragão alado de marfim com baforada sônica e voo supersônico!",
-        asp_ab5: "[Céus Sob o Trono da Voz] (Domínio Supremo — 7 PE + 2/t): Ventos obedecem ao seu comando por quilômetros; disparos não erram e aliados voam!",
+        asp_innate: "[Olhos do Céu & Ouvido da Verdade]: Visão telescópica por quilômetros (dispara até Longe sem -1), detecta instantaneamente mentiras conscientes perto de você e +1 em Mente (Astúcia) em vigília.",
+        asp_ab1: "[Ascensão Celeste] (Adormecida — 0 PE, Movimento): Levita e voa livremente (Perto/Distante vertical), garantindo +1 de Terreno Elevado contra alvos terrestres e fora do alcance Corpo a Corpo!",
+        asp_ab2: "[Flecha do Vendaval] (Desperta — 1 PE): Sua flecha curva no ar guiada pelo vento até Longe, ignorando cobertura e acertando com Vantagem (+1 Dano com Arco Longo; CD+4 Atordoa/cega Parte).",
+        asp_ab3: "[Voz do Monarca] (Ascendida — 2 PE): Ordem curta imperativa até Distante (Coração/Alma vs. CD do alvo) compele o inimigo a parar, cair, largar arma ou falar a verdade (CD+4 afeta até 3).",
+        asp_ab4: "[Dragão Soberano] (Transcendente — 3 PE, Cena): Dragão Alado de Tempestade (+5 PV temp., +1 Dano base, Voo extremo); Sopro de Vendaval Cortante (3 Dano, empurra 2 Faixas) e Voz de Dragão em área!",
+        asp_ab5: "[Céu do Soberano Alado] (Domínio Supremo): Recupera 2 PE/rodada, +1 nas rolagens da Coorte, todos os 7 membros voam livremente e projéteis aliados ficam teleguiados (+1, ignoram cobertura)!",
         flaw_name: "[Detector de Mentiras Doloroso (Painful Truth-Sense)]",
         flaw_cat: "Cat. II — Preço & Agonia",
-        flaw_trig: "2 primeiras mentiras: desconforto; 3ª+ na cena: Vontade CD 9 ou 1 Dano / -1",
+        flaw_trig: "2 primeiras mentiras: desconforto; 3ª+ na cena: Vontade CD 7 ou 1 Dano / -1",
         flaw_desc: "\"[A falsidade humana soa aos seus ouvidos como metal raspando em vidro e ferro em brasa dentro do crânio.]\"",
         at1_name: "[Visão de Águia Celestial]",
         at1_mech: "Enxerga a quilômetros; dispara na faixa Longe sem penalidade",
@@ -1604,8 +2130,8 @@
         leg_step: "1º Passo [1/7] — Pode disparar 2 flechas no mesmo turno contra alvos próximos",
         leg_relic: "[Aljava das Sete Penas do Vento] (1ª Relíquia)",
         leg_desc: "\"A arte dos antigos arqueiros celestes que abatiam leviatãs acima das nuvens.\"",
-        ec1_name: "[Falcão de Cristal]", ec1_rc: "Adormecido • Besta (Eco)", ec1_stats: "CD 8 | PV 4 | Dano 1",
-        ec1_hab: "[Patrulha Aérea]: Voa junto com Soren e distrai os olhos do inimigo (+1 para Soren).",
+        ec1_name: "[Falcão de Cristal]", ec1_rc: "Adormecido • Besta [1/7] (Eco; base Desperta CD 9)", ec1_stats: "CD 8 (Sombra 7) | PV 4 | Dano 1",
+        ec1_hab: "[Mergulho Cegante] & [Vínculo Visual]: Voa com Soren, distrai os olhos do inimigo (+1 no próximo ataque da Coorte; Cego em CD+3) e mapeia até 5 km.",
         ec2_name: "[Nenhum Eco]", ec2_rc: "—", ec2_stats: "—", ec2_hab: "—",
         m1_name: "[Arco de Chifre Negro]", m1_rt: "Adormecida • Tier II", m1_type: "Arco Longo (1-2 Dano)",
         m1_lore: "\"[Curvado a partir dos chifres de um demônio das colinas...]\"",
@@ -1644,7 +2170,7 @@
         sats: [1, 2],
         p_body: 1, p_mind: 2, p_heart: 1, p_soul: 3,
         checks: ["sp_evoke", "sp_channel", "sp_smarts", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
-        f_hp: "PV: 5 / 5 (4 Base + 1 Marco 2) | Carga: 1 Grande",
+        f_hp: "PV: 7 / 7 (6 Base + 1 Marco 2) | Carga: 15 kg",
         f_wound: "Nenhum Ferimento Grave",
         f_corrupt: "[ 0 / 5 ] — Alma Pura",
         f_essence: "Essência: 7 / 7 (6 Base [Alma 3×2] + 1 Marco 1)",
@@ -1730,23 +2256,23 @@
         sats: [1, 2],
         p_body: 1, p_mind: 2, p_heart: 2, p_soul: 2,
         checks: ["sp_know", "sp_conv", "sp_will", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
-        f_hp: "PV: 5 / 5 (4 Base + 1 Marco 2) | Carga: 1 Grande",
+        f_hp: "PV: 7 / 7 (6 Base + 1 Marco 2) | Carga: 15 kg",
         f_wound: "Nenhum Ferimento Grave",
         f_corrupt: "[ 0 / 5 ] — Alma Pura",
         f_essence: "Essência: 7 / 7 (4 Base [Alma 2×2] + 2 Aspecto Sagrado + 1 Marco 1)",
         asp_name: "[Oráculo Sagrado (Sacred Seer)]",
         asp_rank: "Sagrado (Sacred)",
         asp_desc: "\"[Afastada do presente, você enxerga as cordas ocultas do passado, do futuro e dos segredos alheios.]\"",
-        asp_innate: "[Testemunha do Destino]: Recebe visões proféticas quando grandes mudanças do destino se aproximam; Percepção Espiritual em Perto.",
+        asp_innate: "[Percepção Espiritual]: Sente presenças, auras e intenções em Perto sem visão física; ignora escuridão, névoa e invisibilidade mundana nesse raio.",
         asp_ab1: "[Vislumbre de 3 Segundos] (Adormecida): 2x/Cena, quando aliado for atacado, seu aviso concede Vantagem na Defesa dele!",
-        asp_ab2: "[Elo Sensorial] (Desperta — 1 PE): Enxerga através dos olhos de qualquer membro da Coorte ou marca um alvo para todos verem!",
+        asp_ab2: "[Rede Sensorial da Coorte] (Desperta — 1 PE, Ação Menor): Conecta até 7 aliados por uma cena; telepatia e visão/audição compartilhadas. Sob interferência: Canalizar CD 7.",
         asp_ab3: "[Olhar que Desnuda a Alma] (Ascendida — 2 PE): Revela CD, fraquezas e Defeito do alvo, dando +1 para toda a Coorte!",
-        asp_ab4: "[Transfiguração do Fio Astral] (Transcendente — 5 PE + 1/t): Forma etérea prateada com visão panorâmica até Longe e imunidade a ilusões.",
-        asp_ab5: "[Tapeçaria do Destino Quebrado] (Domínio Supremo — 7 PE + 2/t): Reescreve probabilidades locais, anulando 1 Natural e Infortúnios da Coorte!",
+        asp_ab4: "[Profetisa do Destino] (Transcendente — 3 PE, Ação Maior, cena): +5 PV temporários, +1 Dano base; Vantagem em Astúcia, Conhecimento e Canalizar. Reescreve 10 segundos de memória (1x/cena) ou dispara Fio do Destino Partido (2 Dano de Alma e -1 CD).",
+        asp_ab5: "[Teia da Onisciência] (Domínio Supremo): Recupera 2 PE/rodada, +1 nas rolagens da Coorte; impede emboscadas e críticos contra aliados. 1x/rodada cancela uma habilidade anunciada ou guia a Coorte para evitar um ataque.",
         flaw_name: "[Olhos Cegos para o Presente (Blind to the Now)]",
         flaw_cat: "Cat. I — Lei Absoluta",
         flaw_trig: "Cega ao mundo físico além de Perto sem auxílio (falha tiro/Desvantagem)",
-        flaw_desc: "\"[Quem ousa ler o horizonte dos séculos perde a luz comum diante do próprio rosto.]\" (Depende de Elo Sensorial, Eco ou Vínculo).",
+        flaw_desc: "\"[Quem ousa ler o horizonte dos séculos perde a luz comum diante do próprio rosto.]\" (Depende de Rede Sensorial da Coorte, Eco ou Vínculo).",
         at1_name: "[Médica de Campo (Origem)]",
         at1_mech: "+1 (+2 em Primeiros Socorros/toxinas/cirurgias) em Mente (Conhecimento)",
         at1_desc: "\"Onde o pânico paralisa guerreiros diante do sangue, seus dedos encontram o pulso e ordenam ao coração que continue batendo.\"",
@@ -1816,22 +2342,22 @@
         sats: [1, 2],
         p_body: 1, p_mind: 2, p_heart: 1, p_soul: 3,
         checks: ["sp_channel", "sp_abjure", "sp_know", "m1_i2", "m2_i2", "m3_i2", "m4_i2"],
-        f_hp: "PV: 5 / 5 (4 Base + 1 Marco 2 | 7 c/ Teia de Osso) | Carga: 1 Grande",
+        f_hp: "PV: 7 / 7 (6 Base + 1 Marco 2 | 9 c/ Teia de Osso) | Carga: 15 kg",
         f_wound: "Nenhum Ferimento Grave",
         f_corrupt: "[ 0 / 5 ] — Alma Pura",
         f_essence: "Essência: 7 / 7 (6 Base [Alma 3×2] + 1 Marco 1)",
         asp_name: "[Tecelão de Almas (Soul Weaver)]",
         asp_rank: "Divino (Divine)",
         asp_desc: "\"[Arquiteto do invisível, suas mãos nasceram para consertar o que foi quebrado e desfiar o que é imortal.]\"",
-        asp_innate: "[Visão da Tapeçaria]: Enxerga a malha interna de qualquer Memória e a localização exata do Núcleo de Alma dos monstros.",
-        asp_ab1: "[Fios de Restauração]: Repara 2 níveis de integridade nas Memórias entre cenas e lança fios cortantes/prensoras até Perto!",
-        asp_ab2: "[Desfazer a Malha] (Desperta — 1 PE): Puxa um fio solto na essência do alvo, reduzindo a CD dele em -2 até o fim da rodada!",
-        asp_ab3: "[Forja Viva] (Ascendida — 2 PE): Funde encantamentos de duas Memórias na cena ou aprisiona um chefe em fios de diamante!",
-        asp_ab4: "[Arquiteto de Sete Braços] (Transcendente — 5 PE + 1/t): Projeta múltiplos braços etéreos costurando Memórias e Ecos em tempo real!",
-        asp_ab5: "[Tear do Destino Vivo] (Domínio Supremo — 7 PE + 2/t): Transforma a arena inteira em tapeçaria luminosa, reparando armaduras e paralisando hordas!",
+        asp_innate: "[Olhos da Tapeçaria]: Percebe Essência em Perto/Distante; +1 em Conhecimento/Astúcia para análise técnica. Não é surpreendido por criaturas com Essência em Perto.",
+        asp_ab1: "[Fios de Essência] (Adormecida — 1 PE): Ação Maior para ataque/prisão ou Menor para alarme. Corta (1 Dano), enreda e puxa (2 Dano) ou reduz movimento em 1 Faixa; teste contra CD do alvo.",
+        asp_ab2: "[Agulha do Destino] (Desperta — 2 PE): Ação Maior para disparar/descosturar ou Reação para desviar. Ataque causa 2 Dano ou aumenta o custo de poderes do alvo em 1 PE por 2 turnos. Sucesso Pleno pode desativar 1 encantamento/poder sustentado.",
+        asp_ab3: "[Costura da Alma] (Ascendida — 2 PE em combate / 3 PE cirurgia): Cura 2 PV e estanca sangramento/veneno com Canalizar CD 7; remenda Rachaduras Espirituais. Crítico cura 3 PV e concede +1 no próximo teste e 1 PE.",
+        asp_ab4: "[Aracnídeo do Tear Astral] (Transcendente — 5 PE + 1 PE/turno): +4 PV temporários, Voo tático e 1 Reação extra só para desviar projéteis/puxar aliados; Vantagem em Canalizar. Vontade CD 7 para filtrar os sentidos da teia.",
+        asp_ab5: "[Grande Tapeçaria do Destino] (Domínio Supremo — 7 PE + 2 PE/turno): Ação Maior, Conhecimento/Canalizar CD 9; rede de Essência em Longe. Como Reação (1 PE, 1x/turno), permite rerrolar Falha com Infortúnio ou transforma Falha Simples aliada em Sucesso Pleno.",
         flaw_name: "[Ganância de Colecionador (Collector's Greed)]",
         flaw_cat: "Cat. III — Compulsão Psicológica",
-        flaw_trig: "Passar reto por relíquia/Memória rara sem examinar: Vontade CD 9 E 1 PE",
+        flaw_trig: "Passar reto por relíquia/Memória rara sem examinar: Vontade CD 7 E 1 PE",
         flaw_desc: "\"[Relíquias perdidas, gemas raras e runas esquecidas chamam seu nome com uma fome impossível de ignorar.]\" (Agir contra queima 1 PE de Dano de Alma).",
         at1_name: "[Erudito Arcano (Origem)]",
         at1_mech: "+1 (+2 fora de combate) em Conhecimento/Canalizar para runas e Feitiçarias",
@@ -1859,9 +2385,9 @@
         bond2_lvl: "Nível 1 — Desconfiança / Início",
         bond2_trig: "Falha em Mente (Vontade) ou Alma (Abjurar) contra medo/loucura/ilusão",
         bond2_eff: "Nível 1 [Lembre-se de Quem Você É] (1x/Cena): Grita o nome da parceira ou toca-a como Reação permitindo rerrolar o dado imediatamente!",
-        leg_name: "[Tapeçaria dos Sete Nós do Destino]",
-        leg_step: "1º Passo Dominado [1/7] — Cria Memórias de Tier I a partir de partes de monstros sem falhar",
-        leg_relic: "[Agulha de Osso de Weaver] (1ª Relíquia)",
+        leg_name: "[Tear da Eternidade]",
+        leg_step: "1º Passo Dominado [1/7] — Primeiro Fio: +1 em Abjurar contra encantamentos inimigos",
+        leg_relic: "[Agulha de Osso de Demônio] (1ª Relíquia)",
         leg_desc: "\"A arte proibida de tecer a própria realidade com fios de Essência de Alma.\"",
         ec1_name: "[Saqueador da Carapaça Blindado]", ec1_rc: "Adormecido • Besta (Eco)", ec1_stats: "CD 9 | PV 7 | Dano 1",
         ec1_hab: "[Carapaça Reforçada por Dorian]: Protege Dorian na linha de frente e ataca gratuitamente (Ação Livre).",

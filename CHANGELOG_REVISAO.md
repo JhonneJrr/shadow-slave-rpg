@@ -1,7 +1,26 @@
 # Changelog da Revisão de Qualidade — Shadow Slave RPG (18/11/2026)
 
+## Edição de leitura dos seis livros
+
+- O miolo dos PDFs usa texto de 11,5 pt, tabelas de 10,5 pt, espaçamento mais amplo e números de página. O HTML usa corpo de 17 px e mantém a rolagem das tabelas largas dentro da página.
+- A revisão cruzada alinhou Defesa, Reação, Críticos, Carga, Partes Destrutíveis, avanço de fases dos chefes, CDs de culinária e referências regionais.
+- O caso `CD − 1` de Proteger Aliado recebe o golpe inteiro no protetor e concede uma Dádiva Menor. Quando falta Mente na ficha da criatura, use sua CD de combate nos testes de Emboscada, Fintar e Provocar.
+- As quantidades de Fragmentos em *Drops* indicam o total de Estilhaços físicos daquela recompensa. O Bestiário especifica a divisão do dano misto do Cavaleiro e do Anjo Caído sem aumentar o dano total.
+
+## Dança das Sombras
+
+- Sistema e Jogador concordam sobre a ordem das Relíquias. Serpente no Passo 1, Gota de Icor no Passo 2, Lanterna no Passo 3 e Fragmento no Passo 4.
+- A Serpente usa Rank pelos Passos e Classe pelos Núcleos. A ficha consolida formas, custos e poderes no Livro 2, Seção 8.2, nº 02.
+- A odachi da Serpente começa com 2 de dano. Uma vez por cena, o portador Desperto ou superior aplica +2 de dano com Reforço Corporal pelo custo normal de 1 PE e uma Ação Menor.
+- O Corte da Dança concede +1 no ataque físico de odachi sob o Manto. A partir do Despertar, um acerto em CD + 2 permite somar +1 de dano ao mesmo golpe, uma vez por turno próprio.
+- A Lanterna de Legado é Divina de Tier I. A Memória avulsa de Tier IV chama-se Lanterna do Breu Sem Fim. O Fragmento usa regras territoriais de sombra.
+
+## Equipamento em combate
+
+- O Novato e o resumo do Sistema seguem a regra de Memórias do Livro 1, Seção 7.3. Invocar arma de Memória usa uma Menor. Dispensar usa uma Ação Livre. Invocar ou trocar armadura de Memória usa uma Maior.
+
 ## Geral (os 4 livros)
-- **Notação corrigida:** removidos todos os artefatos de LaTeX (`$\rightarrow$`, `$\leftrightarrow$`, `$$\text{…}$$`, `\times`, `\textbf`, `\longrightarrow`) e as setas/comparadores em ASCII (`->`, `>=`, `<=`). Agora aparecem →, ↔, ×, ≥ e ≤. As fórmulas viraram linhas em negrito legíveis, como **PV Iniciais = (2 × Corpo) + 2**.
+- **Notação corrigida:** removidos todos os artefatos de LaTeX (`$\rightarrow$`, `$\leftrightarrow$`, `$$\text{…}$$`, `\times`, `\textbf`, `\longrightarrow`) e as setas/comparadores em ASCII (`->`, `>=`, `<=`). Agora aparecem →, ↔, ×, ≥ e ≤. As fórmulas viraram linhas em negrito legíveis, como **PV Iniciais = (2 × Corpo) + 2** na revisão original; na v2, **PV Máximo = (2 × Corpo) + 4** (antes de Marcos e outros bônus).
 - **Tabelas:** barras `|` dentro de código quebravam colunas (ex.: Tabela 9-2 do Livro 1). Foram trocadas por `·`.
 - **Navegação:** os links `file:///C:/…` no fim dos livros foram trocados por uma tabela com links relativos para os 4 livros em HTML, os 4 PDFs e a Central.
 - **Sumários:** as âncoras dos sumários clicáveis (Livros 1 e 3) foram consertadas, e todos os links internos agora funcionam.
@@ -63,3 +82,16 @@
   - **Livro III — Mestre:** *Shadow Slave capa de livro*, João Vitor Oliveira / @jaumnvitor — [ArtStation](https://www.artstation.com/artwork/XaaP6y)
   - **Livro IV — Lore:** *Ariel's Game*, BastiaanBoeve — [ArtStation](https://www.artstation.com/artwork/zxdKK6)
   - **Livro V — Grande Bestiário:** *Carapace Scavenger*, Santimm — [Shadow Slave Wiki (Fandom)](https://shadowslave.fandom.com/wiki/File:CarapaceScavengerBySantimm.jpg)
+
+
+## Auditoria de coerência e retomada do Agy (18/11/2026)
+
+- Retomadas e preservadas as edições parciais interrompidas; revisão aplicada aos seis Markdown, à ficha e à Central.
+- **Decisão do autor sobre Núcleos:** os primeiros 1.000 Fragmentos apenas saturam o primeiro; o 2º requer mais 2.000 e Rank Desperto ou superior. Os seguintes custam mais 3.000, 4.000... até 7.000. Os dez Marcos e seus bônus não se repetem nem reiniciam por Rank. Exemplos e resumos dos Livros 1–3 alinhados.
+- Corrigidos graus de sucesso, rolagens impossíveis, D8/Aparada Limpa, feitiçaria ofensiva, condições, custos, progressão e exploits. Preservada a exceção das Presas Gotejantes de Víbora.
+- Unificados chefes (tetos 45/90 Despertos e 72/120 Caídos), dez guardiões de Cidadelas, CDs e moedas; restaurados ataques e atributos do Bestiário e sincronizados seus índices.
+- Ficha migrada para v2, com sete presets conferidos no navegador. Corrigidos PV, Essência, habilidades, Defeitos e carga em kg conforme a tabela do Sistema; removidas dependências de CDN não necessárias.
+- HTMLs regenerados com fontes locais, âncoras estáveis e identificação SHA-256 dos Markdown. Central e index iguais. PDFs reconstruídos com margens repetidas em todas as páginas e capas preservadas.
+- Adicionados testes executáveis, validação de fichas/índices/arquivos/PDFs e simulação de referência reproduzível. O relatório anterior foi identificado como histórico; taxas antigas não são apresentadas como validação das regras corrigidas.
+
+Resultados, premissas e limites: [Relatório da validação atual](simulador/RELATORIO_VALIDACAO_2026-11-18.md). Comandos: [simulador/README.md](simulador/README.md).
